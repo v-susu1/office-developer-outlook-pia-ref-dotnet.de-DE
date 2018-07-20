@@ -1,0 +1,657 @@
+<Type Name="AddressList" FullName="Microsoft.Office.Interop.Outlook.AddressList">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a41313c3d06cf1f8ff69f9336dea1b509c5eda8b" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637396" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AddressList" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressList" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressList" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AddressList" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AddressList" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063049-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="07c3d-101">Stellt ein Adressbuch, das einen Satz von enthält <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="07c3d-101">Represents an address book that contains a set of <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  objects.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="07c3d-102">
+        <para>Das <b>AddressList</b> -Objekt ist ein Adressbuch, das einen Satz von enthält <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte.</para>
+        <para>Das <b>AddressList</b> -Objekt stellt eine Liste von Adresseinträge an die messaging-System Nachrichten übermitteln kann. Ein <b>AddressList</b> -Objekt stellt einen Adressbuchcontainer, die unter Adressbuchhierarchie des Transportdienstes für die aktuelle Sitzung. Die gesamte Hierarchie kann über die übergeordnete <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" /> -Objekt.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="07c3d-102">
+          <para>The <b>AddressList</b> object is an address book that contains a set of <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  objects.</para>
+          <para>The <b>AddressList</b> object supplies a list of address entries to which a messaging system can deliver messages. An <b>AddressList</b> object represents one address book container available under the transport provider's address book hierarchy for the current session. The entire hierarchy is available through the parent <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />  object.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddressEntries">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AddressEntries AddressEntries { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AddressEntries AddressEntries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.AddressEntries" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressEntries As AddressEntries" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::AddressEntries ^ AddressEntries { Microsoft::Office::Interop::Outlook::AddressEntries ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(256)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(256)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-103">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> -Auflistung für das angegebene Objekt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-103">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" />  collection for the specified object.</span>
+          </span>
+          <span data-ttu-id="07c3d-104">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-104">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddressListType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlAddressListType AddressListType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlAddressListType AddressListType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.AddressListType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddressListType As OlAddressListType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlAddressListType AddressListType { Microsoft::Office::Interop::Outlook::OlAddressListType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64237)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64237)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressListType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-105">Gibt eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressListType" /> -Enumeration, die den Typ des stellt die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-105">Returns a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressListType" /> enumeration that represents the type of the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />.</span>
+          </span>
+          <span data-ttu-id="07c3d-106">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-106">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
+          </span>
+          <span data-ttu-id="07c3d-108">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-108">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-109">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
+          </span>
+          <span data-ttu-id="07c3d-110">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-110">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContactsFolder">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolder GetContactsFolder ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetContactsFolder() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.AddressList.GetContactsFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContactsFolder () As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetContactsFolder();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64250)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-111">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Kontakteordner für stellt die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-111">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the Contacts folder for the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="07c3d-p105">Ein <b>Folder</b>-Objekt, das den Outlook-Kontakteordner für das <b>AddressList</b>-Objekt darstellt. Gibt <b>Null</b> (in Visual Basic <b>Nothing</b>) zurück, wenn kein Outlook-Kontakteordner gefunden wird.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-p105">A <b>Folder</b> object that represents the Outlook Contacts folder for the <b>AddressList</b>. Returns <b>Null</b> (<b>Nothing</b> in Visual Basic) if no Outlook contacts folder is found.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="07c3d-114">
+            <para>Mit dieser Methode können Sie ein <b>AddressList-Objekt</b> für den Kontakteordner abgleichen, die Sie als Startadressenliste im Dialogfeld Namen auswählen einrichten möchten.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-114">
+              <para>This method allows you to match an <b>AddressList</b> for the Contacts folder that you would like to set up as the initial address list in the Select Names dialog box.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ID">
+      <MemberSignature Language="C#" Value="public string ID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.ID" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-115">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den eindeutigen Bezeichner für das Objekt darstellt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-115">Returns a <b>String</b> (<b>string</b> in C#) representing the unique identifier for the object.</span>
+          </span>
+          <span data-ttu-id="07c3d-116">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-116">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="07c3d-117">
+            <para>Der Transportdienst weist eine dauerhafte, eindeutige <b>ID</b> Zeichenfolgeneigenschaft, wenn ein einzelner Member-Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-117">
+              <para>The transport provider assigns a permanent, unique string <b>ID</b> property when an individual member object is created. These identifiers do not change from one session to another. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-118">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Position des Objekts innerhalb der Auflistung zurück.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-118">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the position of the object within the collection.</span>
+          </span>
+          <span data-ttu-id="07c3d-119">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-119">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="07c3d-120">
+            <para>Die <b>Index</b> -Eigenschaft ist nur während der aktuellen Sitzung gültig und kann ändern, wie Objekte hinzugefügt oder aus der Auflistung gelöscht. Das erste Objekt in der Auflistung hat <b>einen Indexwert 1</b> .</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-120">
+              <para>The <b>Index</b> property is only valid during the current session and can change as objects are added to and deleted from the collection. The first object in the collection has an <b>Index</b> value of 1.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInitialAddressList">
+      <MemberSignature Language="C#" Value="public bool IsInitialAddressList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInitialAddressList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsInitialAddressList As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInitialAddressList { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64248)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64248)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-121">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der angibt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> der anfänglichen <b>AddressList</b> im Dialogfeld Namen auswählen angezeigt wird.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-121">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> is the initial <b>AddressList</b> shown in the Select Names dialog.</span>
+          </span>
+          <span data-ttu-id="07c3d-122">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-122">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="07c3d-123">
+            <para>
+              <b>IsInitialAddressList</b> entspricht dem Festlegen von diese Adressliste zuerst in das Dialogfeld Adressierung, in dem verfügbar ist, indem Sie auf Extras und dann auf Optionen im Dialogfeld Adressbuch anzeigen.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-123">
+              <para>
+                <b>IsInitialAddressList</b> corresponds to setting Show this address list first in the Addressing dialog box, which is available by clicking Tools, and then Options in the Address Book dialog box.  </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadOnly">
+      <MemberSignature Language="C#" Value="public bool IsReadOnly { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.IsReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsReadOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61463)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61463)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-124">Gibt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angibt, die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt kann nicht geändert werden.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-124">Returns a <b>Boolean</b> value (<b>bool</b> in C#) that indicates that the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  object cannot be modified.</span>
+          </span>
+          <span data-ttu-id="07c3d-125">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-125">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="07c3d-126">
+            <para>Die <b>IsReadOnly</b> -Eigenschaft bezieht sich auf Hinzufügen und löschen die Einträge im Adressbuchcontainer, die durch das <b>AddressList</b> -Objekt dargestellt wird. Die Eigenschaft ist <b>True</b> , wenn keine Einträge hinzugefügt oder gelöscht werden können. Die Eigenschaft ist <b>False</b> , wenn der Container geändert, d. h., wenn Adresseinträge hinzugefügt werden können und aus dem Container gelöscht werden kann. Es verweist auf Adressbucheinträge im Zusammenhang mit dem Adressbuchcontainer. Es gibt nicht an, ob der Inhalt der einzelnen Einträge geändert werden können.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-126">
+              <para>The <b>IsReadOnly</b> property refers to adding and deleting the entries in the address book container represented by the <b>AddressList</b> object. The property is <b>True</b> if no entries can be added or deleted. The property is <b>False</b> if the container can be modified, that is, if address entries can be added to and deleted from the container. It refers to the address book entries in the context of the address book container. It does not indicate whether the contents of the individual entries themselves can be modified.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12289)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-127">Gibt einen <b>String</b> -Wert (<b>String</b> in c#), der den Anzeigenamen für das Objekt darstellt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-127">Returns a <b>String</b> value (<b>string</b> in C#) that represents the display name for the object.</span>
+          </span>
+          <span data-ttu-id="07c3d-128">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-128">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-p111">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-p111">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyAccessor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.PropertyAccessor PropertyAccessor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.PropertyAccessor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyAccessor As PropertyAccessor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::PropertyAccessor ^ PropertyAccessor { Microsoft::Office::Interop::Outlook::PropertyAccessor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-131">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das Erstellen, abrufen, festlegen und Löschen von Eigenschaften des übergeordneten unterstützt <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-131">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object.</span>
+          </span>
+          <span data-ttu-id="07c3d-132">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-132">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResolutionOrder">
+      <MemberSignature Language="C#" Value="public int ResolutionOrder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ResolutionOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.ResolutionOrder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResolutionOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ResolutionOrder { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64238)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64238)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-133">Gibt eine <b>ganze Zahl</b> , die die Reihenfolge der Dies stellt <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> in der benutzerdefinierten Liste in das Dialogfeld Adressierung.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-133">Returns an <b>Integer</b> that represents the order of this <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> in the custom scroll list in the Addressing dialog box.</span>
+          </span>
+          <span data-ttu-id="07c3d-134">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-134">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="07c3d-135">
+            <para>
+              <b>ResolutionOrder</b> -Eigenschaft entspricht der Position des das <b>AddressList-Objekt</b> im Listenfeld mit der Bezeichnung beim Senden von e-Mail, überprüfen Sie die Adresse Listen in dieser Reihenfolge in das Dialogfeld Adressierung und ist verfügbar durch Klicken auf Extras und dann auf Optionen in Das Dialogfeld Adressbuch. Beachten Sie, dass dieses Verhalten ist unabhängig von, ob benutzerdefinierte in das Dialogfeld Adressierung ausgewählt ist. Beispielsweise ist, wenn Start mit der globalen Adressliste ausgewählt ist, und die Liste Kontakte als erstes Element angezeigt, die <b>ResolutionOrder</b> -Eigenschaft der Liste Kontakte Adresse weiterhin 1, obwohl beim Auflösen von Empfängern Outlook der globalen Adressliste verwendet Zuerst.</para> Wenn benutzerdefinierte 
+          <para>im Dialogfeld Adressierung aktiviert ist, <b>ResolutionOrder</b> -Eigenschaft entspricht der Reihenfolge, die Outlook beim Auflösen von Empfängernamen verwendet. Der Wert der <b>ResolutionOrder</b> ist 1-basiert. In diesem Fall die erste Adressliste zum Auflösen von Empfängernamen verwendet werden hat eine <b>ResolutionOrder</b> gleich 1, der zweite Adressliste 2 und so weiter. Wenn eine Adressliste nicht verwendet wird, um Adressen aufzulösen, hat seine <b>ResolutionOrder</b> Wert-1. Programmgesteuert, wenn im Dialogfeld Adressierung die Option Benutzerdefiniert ausgewählt ist, <b>ResolutionOrder</b> -Eigenschaft gibt die tatsächliche Lösung, die sortiert <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" /> oder <see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" /> verwendet.</para><para /></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-135">
+              <para>The <b>ResolutionOrder</b> property corresponds to the position of the <b>AddressList</b> in the list box which is labeled When sending mail, check address lists in this order in the Addressing dialog box and is available by clicking Tools, and then Options in the Address Book dialog box. Note that this behavior is independent of whether Custom is selected in the Addressing dialog box. For example, if Start with Global Address List is selected and the scroll list  displays Contacts as the first item, the <b>ResolutionOrder</b> property of the Contacts address list is still 1, even though when resolving recipients, Outlook uses the Global Address List first.</para>
+              <para>When Custom is selected in the Addressing dialog box, the <b>ResolutionOrder</b> property reflects the order that Outlook uses when resolving recipient names. The value of <b>ResolutionOrder</b> is one-based. In this case, the first address list to be used for resolving recipient names has a <b>ResolutionOrder</b> equal to 1, the second address list 2, and so forth. If an address list is not used to resolve addresses, then its <b>ResolutionOrder</b> has a value of -1. Programmatically, when Custom is selected in the Addressing dialog box, the <b>ResolutionOrder</b> property reflects the actual resolution order that <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" /> or <see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" /> uses.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.AddressList.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="07c3d-136">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-136">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
+          </span>
+          <span data-ttu-id="07c3d-137">Schreibgeschützt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-137">Read-only.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>
+          <span data-ttu-id="07c3d-138">
+            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+            <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+            <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+            <code>Outlook.NameSpace objSession = Application.Session;</code>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="07c3d-138">
+              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
+              <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+              <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+              <code>Outlook.NameSpace objSession = Application.Session;</code>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

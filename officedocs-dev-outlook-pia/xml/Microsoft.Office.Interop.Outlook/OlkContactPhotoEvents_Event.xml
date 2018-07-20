@@ -1,0 +1,402 @@
+<Type Name="OlkContactPhotoEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f45db6ce2a533edb1d72e5712d9fbb80fa7ccaa4" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636319" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OlkContactPhotoEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkContactPhotoEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkContactPhotoEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkContactPhotoEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents), typeof(Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="47e11-p101">Hierbei handelt es sich um eine .NET-Schnittstelle, die bei der Verarbeitung einer COM-CoClass erstellt wurde, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Diese Schnittstelle implementiert alle Ereignisse früherer Schnittstelle und alle zusätzlichen neuen Ereignisse. Verwenden Sie diese Schnittstelle nur, wenn das Ereignis, das Sie verwenden möchten, den gleichen Namen aufweist wie eine Methode des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um eine Verbindung zum Ereignis herzustellen, und casten Sie zur primären Schnittstelle, um die Methode aufzurufen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="47e11-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.Change" />
+      <MemberSignature Language="VB.NET" Value="Event Change As OlkContactPhotoEvents_ChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_ChangeEventHandler ^ Change;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-105">Tritt auf, wenn das Kontaktbild geändert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-105">Occurs when the contact picture has changed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Click">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ClickEventHandler Click;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ClickEventHandler Click" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.Click" />
+      <MemberSignature Language="VB.NET" Value="Event Click As OlkContactPhotoEvents_ClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_ClickEventHandler ^ Click;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-106">Tritt auf, wenn entweder über eine Benutzeraktion oder programmgesteuert auf das Steuerelement geklickt wird.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-106">Occurs when the control is clicked, either through user action or programmatically.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_DoubleClickEventHandler DoubleClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_DoubleClickEventHandler DoubleClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.DoubleClick" />
+      <MemberSignature Language="VB.NET" Value="Event DoubleClick As OlkContactPhotoEvents_DoubleClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_DoubleClickEventHandler ^ DoubleClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_DoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-107">Tritt auf, wenn durch eine Benutzeraktion oder programmgesteuert auf das Steuerelement doppelgeklickt wird.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-107">Occurs when the control is double-clicked through user action or programmatically.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enter">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_EnterEventHandler Enter;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_EnterEventHandler Enter" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.Enter" />
+      <MemberSignature Language="VB.NET" Value="Event Enter As OlkContactPhotoEvents_EnterEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_EnterEventHandler ^ Enter;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_EnterEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-108">Tritt auf, bevor das Steuerelement den Fokus von einem Steuerelement auf demselben Formular erhält.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-108">Occurs before the control actually receives the focus from a control on the same form.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="47e11-109">
+            <para>Dieses Ereignis tritt nur auf, wenn das Steuerelement Schaltfläche für das Kontaktbild anzeigt und kein Kontaktbild definiert wurde.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-109">
+              <para>This event occurs only when the control is displaying the contact picture button and no contact picture has been defined.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exit">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ExitEventHandler Exit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ExitEventHandler Exit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.Exit" />
+      <MemberSignature Language="VB.NET" Value="Event Exit As OlkContactPhotoEvents_ExitEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_ExitEventHandler ^ Exit;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_ExitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-110">Tritt direkt nach der Übergabe des Fokus von diesem Steuerelement an ein anderes Steuerelement in demselben Formular auf.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-110">Occurs just after the focus passes from this control  to another control on the same form.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="47e11-111">
+            <para>Dieses Ereignis tritt nur auf, wenn das Steuerelement Schaltfläche für das Kontaktbild anzeigt und kein Kontaktbild definiert wurde.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-111">
+              <para>This event occurs only when the control is displaying the contact picture button and no contact picture has been defined.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyDownEventHandler KeyDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyDownEventHandler KeyDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.KeyDown" />
+      <MemberSignature Language="VB.NET" Value="Event KeyDown As OlkContactPhotoEvents_KeyDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_KeyDownEventHandler ^ KeyDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-112">Tritt auf, wenn ein Benutzer eine Taste drückt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-112">Occurs when a user presses a key.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="47e11-113">
+            <para>Der Status der Zusatztasten (UMSCHALTTASTE, STRG oder ALT), die während das <b>KeyDown</b> -Ereignis gedrückt werden ist über die <paramref name="Shift" /> Parameter.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-113">
+              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyDown</b> event is accessible through the <paramref name="Shift" /> parameter.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyPress">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyPressEventHandler KeyPress;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyPressEventHandler KeyPress" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.KeyPress" />
+      <MemberSignature Language="VB.NET" Value="Event KeyPress As OlkContactPhotoEvents_KeyPressEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_KeyPressEventHandler ^ KeyPress;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyPressEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-114">Tritt auf, wenn der Benutzer eine ANSI-TASTE drückt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-114">Occurs when the user presses an ANSI key.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="47e11-115">
+            <para>Eine ANSI-Taste ist eine, die ein darstellbares Zeichen generiert, wenn der Benutzer es drückt. Das <b>KeyPress</b> -Ereignis tritt auf, wenn der Benutzer eine ANSI-Taste, in einem Formular ausgeführt wird, während das Formular drückt oder ein Steuerelement den Fokus hat. Das Ereignis kann eintreten, bevor oder nachdem Sie die Taste losgelassen wird.</para>
+            <para>Ein <b>KeyPress</b> -Ereignis tritt unter den folgenden Umständen nicht auf:</para>
+            <list type="bullet">
+              <item>
+                <para>Drücken der Registerkarte</para>
+              </item>
+              <item>
+                <para>Drücken Geben Sie</para>
+              </item>
+              <item>
+                <para>beim Drücken einer Pfeiltaste</para>
+              </item>
+              <item>
+                <para>Wenn eine Tastatureingabe den Fokus von einem Steuerelement in ein anderes übergeht.</para>
+              </item>
+            </list>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-115">
+              <para>An ANSI key is one that produces a typeable character when the user presses it. The <b>KeyPress</b> event occurs when the user presses an ANSI  key on a running form while the form or a control on it has the focus. The event can occur either before or after the key is released.</para>
+              <para>A <b>KeyPress</b> event does not occur under the following conditions:</para>
+              <list type="bullet">
+                <item>
+                  <para>Pressing TAB</para>
+                </item>
+                <item>
+                  <para>Pressing ENTER</para>
+                </item>
+                <item>
+                  <para>Pressing an arrow key</para>
+                </item>
+                <item>
+                  <para>When a keystroke causes the focus to move from one control to another. </para>
+                </item>
+              </list>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeyUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyUpEventHandler KeyUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyUpEventHandler KeyUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.KeyUp" />
+      <MemberSignature Language="VB.NET" Value="Event KeyUp As OlkContactPhotoEvents_KeyUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_KeyUpEventHandler ^ KeyUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_KeyUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-116">Tritt auf, wenn der Benutzer eine Taste loslässt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-116">Occurs when the user releases a key.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="47e11-117">
+            <para>Der Status der Zusatztasten (UMSCHALTTASTE, STRG oder ALT), die während das <b>KeyUp</b> -Ereignis gedrückt werden ist über die <paramref name="Shift" /> Parameter.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-117">
+              <para>The state of the modifier keys (SHIFT, CTRL, or ALT) that are pressed during the <b>KeyUp</b> event is accessible through the <paramref name="Shift" /> parameter.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As OlkContactPhotoEvents_MouseDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_MouseDownEventHandler ^ MouseDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-118">Tritt auf, wenn der Benutzer auf dem Steuerelement eine Maustaste drückt.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-118">Occurs when the user presses a mouse button on the control.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As OlkContactPhotoEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_MouseMoveEventHandler ^ MouseMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-119">Tritt auf, nachdem eine Mausbewegung über dem Steuerelement erkannt wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-119">Occurs after a mouse movement has been registered over the control.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="47e11-120">
+            <para>Das <b>MouseMove</b> -Ereignis wird ausgelöst, wenn Sie die ALT-Taste drücken.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-120">
+              <para>Pressing the ALT key fires the <b>MouseMove</b> event.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As OlkContactPhotoEvents_MouseUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OlkContactPhotoEvents_MouseUpEventHandler ^ MouseUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="47e11-121">Tritt auf, nachdem der Benutzer eine Maustaste loslässt, die auf dem Steuerelement gedrückt wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="47e11-121">Occurs after the user releases a mouse button that has been pressed on the control.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

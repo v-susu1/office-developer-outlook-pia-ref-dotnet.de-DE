@@ -1,0 +1,1010 @@
+<Type Name="ConversationClass" FullName="Microsoft.Office.Interop.Outlook.ConversationClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fdb16ab5bc821ce9556d06bba907f933b545be6a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637372" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ConversationClass : Microsoft.Office.Interop.Outlook.Conversation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ConversationClass extends System.Object implements class Microsoft.Office.Interop.Outlook._Conversation, class Microsoft.Office.Interop.Outlook.Conversation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConversationClass&#xA;Implements Conversation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationClass : Microsoft::Office::Interop::Outlook::Conversation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.Conversation</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00061101-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="5bd11-101">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5bd11-101">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+      </span>
+      <span data-ttu-id="5bd11-102">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5bd11-102">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+      </span>
+      <span data-ttu-id="5bd11-103">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5bd11-103">Otherwise, use the .NET interface derived from the COM coclass.</span>
+      </span>
+      <span data-ttu-id="5bd11-104">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5bd11-104">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ConversationClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Conversation.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-105">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-105">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-106">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-106">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-107">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-107">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-108">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-108">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ConversationClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Conversation.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-109">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-109">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-110">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-110">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-111">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-111">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-112">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-112">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public virtual void ClearAlwaysAssignCategories (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearAlwaysAssignCategories([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ClearAlwaysAssignCategories(Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::ClearAlwaysAssignCategories;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.ClearAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64610)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-113">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-113">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-114">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-114">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-115">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-115">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-116">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-116">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationID">
+      <MemberSignature Language="C#" Value="public virtual string ConversationID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConversationID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ConversationClass.ConversationID" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ConversationID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ ConversationID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Conversation.ConversationID</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64629)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-117">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-117">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-118">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-118">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-119">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-119">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-120">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-120">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public virtual string GetAlwaysAssignCategories (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetAlwaysAssignCategories([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetAlwaysAssignCategories(Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::GetAlwaysAssignCategories;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysAssignCategories(Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64602)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-121">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-121">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-122">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-122">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-123">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-123">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-124">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-124">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysDelete">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation GetAlwaysDelete (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation GetAlwaysDelete([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::OlAlwaysDeleteConversation GetAlwaysDelete(Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::GetAlwaysDelete;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64603)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-125">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-125">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-126">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-126">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-127">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-127">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-128">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-128">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder GetAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.MAPIFolder GetAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::MAPIFolder ^ GetAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::GetAlwaysMoveToFolder;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.GetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64604)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-129">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-129">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-130">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-130">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-131">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-131">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-132">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-132">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetChildren">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.SimpleItems GetChildren (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.SimpleItems GetChildren([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.GetChildren(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChildren (Item As Object) As SimpleItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::SimpleItems ^ GetChildren(System::Object ^ Item) = Microsoft::Office::Interop::Outlook::_Conversation::GetChildren;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.GetChildren(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SimpleItems</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-133">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-133">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-134">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-134">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-135">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-135">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-136">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-136">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetParent">
+      <MemberSignature Language="C#" Value="public virtual object GetParent (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetParent([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.GetParent(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetParent (Item As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetParent(System::Object ^ Item) = Microsoft::Office::Interop::Outlook::_Conversation::GetParent;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.GetParent(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64594)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-137">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-137">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-138">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-138">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-139">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-139">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-140">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-140">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRootItems">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.SimpleItems GetRootItems ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.SimpleItems GetRootItems() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.GetRootItems" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetRootItems () As SimpleItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::SimpleItems ^ GetRootItems() = Microsoft::Office::Interop::Outlook::_Conversation::GetRootItems;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.GetRootItems</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64595)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.SimpleItems</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-141">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-141">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-142">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-142">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-143">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-143">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-144">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-144">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTable">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Table GetTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table GetTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.GetTable" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTable () As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::Outlook::Table ^ GetTable() = Microsoft::Office::Interop::Outlook::_Conversation::GetTable;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.GetTable</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64591)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-145">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-145">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-146">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-146">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-147">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-147">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-148">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-148">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsRead">
+      <MemberSignature Language="C#" Value="public virtual void MarkAsRead ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MarkAsRead() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.MarkAsRead" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub MarkAsRead ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void MarkAsRead() = Microsoft::Office::Interop::Outlook::_Conversation::MarkAsRead;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.MarkAsRead</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64605)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-149">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-149">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-150">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-150">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-151">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-151">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-152">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-152">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsUnread">
+      <MemberSignature Language="C#" Value="public virtual void MarkAsUnread ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MarkAsUnread() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.MarkAsUnread" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub MarkAsUnread ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void MarkAsUnread() = Microsoft::Office::Interop::Outlook::_Conversation::MarkAsUnread;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.MarkAsUnread</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64606)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-153">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-153">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-154">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-154">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-155">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-155">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-156">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-156">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ConversationClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Conversation.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-157">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-157">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-158">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-158">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-159">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-159">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-160">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-160">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ConversationClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Conversation.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5bd11-161">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-161">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-162">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-162">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-163">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-163">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-164">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-164">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysAssignCategories">
+      <MemberSignature Language="C#" Value="public virtual void SetAlwaysAssignCategories (string Categories, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysAssignCategories([in]string Categories, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetAlwaysAssignCategories(System::String ^ Categories, Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::SetAlwaysAssignCategories;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64607)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Categories" Type="System.String" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Categories">To be added.</param>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-165">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-165">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-166">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-166">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-167">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-167">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-168">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-168">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysDelete">
+      <MemberSignature Language="C#" Value="public virtual void SetAlwaysDelete (Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation AlwaysDelete, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysDelete([in]valuetype Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation AlwaysDelete, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetAlwaysDelete(Microsoft::Office::Interop::Outlook::OlAlwaysDeleteConversation AlwaysDelete, Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::SetAlwaysDelete;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64608)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="AlwaysDelete" Type="Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="AlwaysDelete">To be added.</param>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-169">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-169">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-170">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-170">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-171">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-171">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-172">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-172">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public virtual void SetAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.MAPIFolder MoveToFolder, Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.MAPIFolder MoveToFolder, [in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::MAPIFolder ^ MoveToFolder, Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::SetAlwaysMoveToFolder;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64609)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MoveToFolder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="MoveToFolder">To be added.</param>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-173">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-173">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-174">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-174">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-175">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-175">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-176">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-176">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAlwaysDelete">
+      <MemberSignature Language="C#" Value="public virtual void StopAlwaysDelete (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopAlwaysDelete([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.StopAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void StopAlwaysDelete(Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::StopAlwaysDelete;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysDelete(Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64611)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-177">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-177">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-178">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-178">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-179">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-179">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-180">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-180">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StopAlwaysMoveToFolder">
+      <MemberSignature Language="C#" Value="public virtual void StopAlwaysMoveToFolder (Microsoft.Office.Interop.Outlook.Store Store);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void StopAlwaysMoveToFolder([in]class Microsoft.Office.Interop.Outlook.Store Store) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ConversationClass.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void StopAlwaysMoveToFolder(Microsoft::Office::Interop::Outlook::Store ^ Store) = Microsoft::Office::Interop::Outlook::_Conversation::StopAlwaysMoveToFolder;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Conversation.StopAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64612)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Store" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="Store">To be added.</param>
+        <summary>
+          <span data-ttu-id="5bd11-181">Dies ist ein .NET-Klasse oder ein Mitglied einer .NET-Klasse erstellt, bei der Verarbeitung von COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-181">This is a .NET class or a member of a .NET class created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
+          </span>
+          <span data-ttu-id="5bd11-182">Verwenden Sie diese Klasse nur, wenn Sie über Zugriff auf einer früheren Ereignis in dieser Klasse verfügen, die anschließend in einer späteren Version von Outlook erweitert wurde.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-182">Use this class only when you have to access an earlier event in this class that has been subsequently extended in a later version of Outlook.</span>
+          </span>
+          <span data-ttu-id="5bd11-183">Verwenden Sie andernfalls die .NET-Schnittstelle von der COM-Co-Klasse abgeleitet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-183">Otherwise, use the .NET interface derived from the COM coclass.</span>
+          </span>
+          <span data-ttu-id="5bd11-184">Informationen zur .NET-Schnittstelle finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5bd11-184">For information about the .NET interface, see <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
