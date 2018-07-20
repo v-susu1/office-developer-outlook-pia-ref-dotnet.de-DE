@@ -1,0 +1,93 @@
+<Type Name="OlTimeStyle" FullName="Microsoft.Office.Interop.Outlook.OlTimeStyle">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0e5b8b037c6560b38e2cf451d02456b1d07b151" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20635788" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum OlTimeStyle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTimeStyle extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTimeStyle" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OlTimeStyle" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OlTimeStyle" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("4FD8B708-E730-49B5-BDD3-B807F48E5B83")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Gibt an, wie Zeitwerte angezeigt und wie Zeitwerteinträge von einem Zeit-Steuerelement interpretiert werden.</summary>
+    <remarks>
+      <para>Verwenden von Zeit-Steuerelements mit der Formatvorlage <b>OlTimeStyleShortDuration</b> für ressourcendauerfelder, wie die <see cref="P:Microsoft.Office.Interop.Outlook._JournalItem.Duration" /> von einer <see cref="T:Microsoft.Office.Interop.Outlook.JournalItem" />. Verwenden des Zeit-Steuerelements mit der Formatvorlage <b>OlTimeStyleTimeDuration</b> für die Endzeit eines Termins-Elements. Verwenden des Zeit-Steuerelements mit der Formatvorlage <b>OlTimeStyleTimeOnly</b> für die Startzeit eines Termins-Elements.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="olTimeStyleShortDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleShortDuration = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleShortDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleShortDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleShortDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Der Dropdownteil des Zeit-Steuerelements zeigt nur Dauerwerte, wobei die Intervalle festlegen, indem die <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.IntervalTime" /> Eigenschaft.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeDuration">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeDuration = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeDuration" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeDuration" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeDuration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Der Dropdownteil des Zeit-Steuerelements zeigt Zeitwerte beginnend mit dem <see cref="P:Microsoft.Office.Interop.Outlook._OlkTimeControl.ReferenceTime" /> und verwendet die <b>OlkTimeControl.IntervalTime</b> -Eigenschaft als Schrittweite.  Das Bearbeiten des Zeit-Steuerelements zeigt die Dauer von <b>ReferenceTime</b> bis zur ausgewählten Zeit.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="olTimeStyleTimeOnly">
+      <MemberSignature Language="C#" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Outlook.OlTimeStyle olTimeStyleTimeOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OlTimeStyle.olTimeStyleTimeOnly" />
+      <MemberSignature Language="VB.NET" Value="olTimeStyleTimeOnly" />
+      <MemberSignature Language="C++ CLI" Value="olTimeStyleTimeOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlTimeStyle</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Der Dropdownteil des Zeit-Steuerelements zeigt nur Zeitwerte an, wobei die Intervalle durch die <b>OlkTimeControl.IntervalTime</b> -Eigenschaft festgelegt.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,334 @@
+<Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5775f16b4f47ab029314c22c5ef7bfb307c13e1f" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20635601" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OlkControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkControl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00067366-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Definiert eine Reihe von Steuerelementeigenschaften, die verschiedene Microsoft Outlook-Steuerelemente gleichermaßen besitzen.</summary>
+    <remarks>
+      <para>Die Mitglieder von <b>OlkControl</b> angeboten können auf die meisten Outlook-Steuerelemente anwenden.  <b>OlkControl</b> stellt eine Klasse, die Sie bequem ein Outlook-Steuerelement umwandeln können, ohne Spiegelung, bereit. Zwar <b>OlkControl</b> für Microsoft Forms 2.0-Steuerelemente nicht anwendbar ist, werden ähnliche Eigenschaften Forms 2.0-Steuerelemente zur Verfügung. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: zusätzliche Steuerelement Eigenschaften zur Programmierung</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ControlProperty">
+      <MemberSignature Language="C#" Value="public string ControlProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ControlProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.ControlProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ControlProperty As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ControlProperty { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356669)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die die Eigenschaft des Steuerelements, das darstellt mit der Databind auftritt. Lese-/Schreibzugriff</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAutoLayout">
+      <MemberSignature Language="C#" Value="public bool EnableAutoLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableAutoLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableAutoLayout As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableAutoLayout { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356655)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die automatische Anpassung des Layouts für das Steuerelement im Hinblick auf den Rest des Formulars ermöglicht. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Das Layout eines Steuerelements automatisch angepasst sind vertikal oder horizontal ausrichten der Steuerelements in Bezug auf andere Steuerelemente und Festlegen der Größe der Höhe oder Breite des Steuerelements in Bezug auf die Länge oder die Breite des Formulars.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public int Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Format { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356670)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, wie ein Wert ist, die im Steuerelement angezeigt werden. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Die <b>Format</b> -Eigenschaft kann es sich um eine Konstante in einer Aufzählung sein, die Beschreibung der Vorgehensweise zum Anzeigen eines Werts. Sie können beispielsweise <b>Format</b> angeben, wie die Konstante <b>OlFormatCurrencyDecimal</b> , die in definiert ist die <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> Enumeration in einen Währungswert angezeigt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> Steuerelement.</para>
+          <para>Die <b>Format</b> -Eigenschaft gilt nur für die Eigenschaft im Outlook-Objektmodell, das an das Steuerelement gebunden ist. Da letztere wird angegeben, indem <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />. Wenn das Steuerelement nicht an eine beliebige Eigenschaft gebunden ist, und klicken Sie dann den Zugriff auf <b>Format</b> wird ein Fehler zurückgegeben.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlHorizontalLayout HorizontalLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlHorizontalLayout HorizontalLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.HorizontalLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property HorizontalLayout As OlHorizontalLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlHorizontalLayout HorizontalLayout { Microsoft::Office::Interop::Outlook::OlHorizontalLayout get(); void set(Microsoft::Office::Interop::Outlook::OlHorizontalLayout value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356652)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurück oder legt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> -Konstante, die die horizontale Ausrichtung des Steuerelements mit anderen Steuerelementen auf dem Formular angibt, oder gibt an, ob das Steuerelement in horizontaler Richtung automatisch angepasst wird, wenn die Breite des Formulars geändert wird. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemProperty">
+      <MemberSignature Language="C#" Value="public string ItemProperty { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemProperty As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemProperty { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356671)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), der den Namen der Eigenschaft im Outlook-Objektmodell angibt, das an das Steuerelement gebunden ist. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumHeight">
+      <MemberSignature Language="C#" Value="public int MinimumHeight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.MinimumHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumHeight { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356653)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die minimale Höhe angibt, die, der das Steuerelement automatisch nach unten an angepasst werden kann. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />muss auf <b>true fest,</b> in der Reihenfolge für <b>MinimumLength</b> wirksam, festgelegt werden.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumWidth">
+      <MemberSignature Language="C#" Value="public int MinimumWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinimumWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.MinimumWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinimumWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356654)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der die minimale Breite angibt, die, der das Steuerelement automatisch nach unten an angepasst werden kann. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />muss auf <b>true fest,</b> in der Reihenfolge für <b>MinimumWidth</b> wirksam werden festgelegt werden.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PossibleValues">
+      <MemberSignature Language="C#" Value="public string PossibleValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PossibleValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.PossibleValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property PossibleValues As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PossibleValues { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356668)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die eine Liste der möglichen Werte für die Dropdownliste für das Steuerelement, getrennt durch Semikolons darstellt. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Bei Steuerelementen, die keine für ein Dropdown-Listenfeld Unterstützung, ist der Wert dieser Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlVerticalLayout VerticalLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlVerticalLayout VerticalLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.OlkControl.VerticalLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property VerticalLayout As OlVerticalLayout" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlVerticalLayout VerticalLayout { Microsoft::Office::Interop::Outlook::OlVerticalLayout get(); void set(Microsoft::Office::Interop::Outlook::OlVerticalLayout value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(-2147356651)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlVerticalLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurück oder legt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> -Konstante, die die vertikale Ausrichtung des Steuerelements mit anderen Steuerelementen auf dem Formular angibt, oder gibt an, ob das Steuerelement in vertikaler Richtung automatisch angepasst wird, wenn das Formular Länge geändert wird. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

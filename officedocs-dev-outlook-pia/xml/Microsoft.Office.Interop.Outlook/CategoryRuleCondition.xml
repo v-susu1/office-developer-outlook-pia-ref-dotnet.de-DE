@@ -1,0 +1,43 @@
+<Type Name="CategoryRuleCondition" FullName="Microsoft.Office.Interop.Outlook.CategoryRuleCondition">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="621402ba698c6664848e8d9f9a96cfef933693e2" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637353" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface CategoryRuleCondition : Microsoft.Office.Interop.Outlook._CategoryRuleCondition" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CategoryRuleCondition implements class Microsoft.Office.Interop.Outlook._CategoryRuleCondition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CategoryRuleCondition&#xA;Implements _CategoryRuleCondition" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CategoryRuleCondition : Microsoft::Office::Interop::Outlook::_CategoryRuleCondition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._CategoryRuleCondition</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.CategoryRuleConditionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630DC-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt eine regelbedingung, die Kategorien für eine Nachricht beim Vergleich <b>mit CategoryRuleCondition.Categories</b> auswertet.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._CategoryRuleCondition" />.</para>
+      <para>
+        <b>CategoryRuleCondition</b> abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt. Jede Regel zugeordnet ist ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> -Objekt das besitzt eine <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Category" /> Eigenschaft. <b>Category</b> -Eigenschaft gibt immer ein <b>CategoryRuleCondition</b> -Objekt zurück. Wenn die Regel verfügt Regel diese Bedingungen aktiviert ist, klicken Sie dann <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /><b>true</b>.</para>
+      <para>Weitere Informationen zum Angeben von Regelaktionen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

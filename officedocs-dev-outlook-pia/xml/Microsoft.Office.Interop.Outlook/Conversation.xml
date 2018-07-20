@@ -1,0 +1,45 @@
+<Type Name="Conversation" FullName="Microsoft.Office.Interop.Outlook.Conversation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0025327e68611f20324db4c8310969d994238428" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637227" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Conversation : Microsoft.Office.Interop.Outlook._Conversation" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conversation implements class Microsoft.Office.Interop.Outlook._Conversation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conversation" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Conversation&#xA;Implements _Conversation" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Conversation : Microsoft::Office::Interop::Outlook::_Conversation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._Conversation</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ConversationClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063101-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt eine Unterhaltung dar, die mindestens ein Element enthält, das in mindestens einem Ordner oder Informationsspeicher gespeichert ist.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Conversation" />.</para>
+      <para>Der <b>Unterhaltung</b> -Objekt ist eine abstrakte, aggregierten-Objekt. Auch wenn eine Unterhaltung Elemente mit unterschiedlichen Typen umfassen kann, das <b>Conversation</b> -Objekt entspricht keiner bestimmten zugrunde liegenden MAPI-IMessage: Objekt IMAPIProp.</para>
+      <para>Eine Unterhaltung stellt ein oder mehrere Elemente in einem oder mehreren Ordnern und speichern. Wenn Sie ein Element in einer Unterhaltung in den Ordner Gelöschte Objekte verschieben und anschließend mithilfe von die Unterhaltung auflisten die <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetChildren(System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetRootItems" />, oder <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.GetTable" /> -Methode wird das Element nicht im zurückgegebenen Objekt enthalten sein.</para>
+      <para>Um ein <b>Conversation</b> -Objekt für eine vorhandene Unterhaltung erhalten möchten, verwenden Sie die <b>GetConversation</b> -Methode des Elements.</para>
+      <para>Sind Aktionen, die Sie auf Elemente in einer Unterhaltung, durch Aufrufen anwenden können der <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysAssignCategories(System.String,Microsoft.Office.Interop.Outlook.Store)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysDelete(Microsoft.Office.Interop.Outlook.OlAlwaysDeleteConversation,Microsoft.Office.Interop.Outlook.Store)" />, oder <see cref="M:Microsoft.Office.Interop.Outlook._Conversation.SetAlwaysMoveToFolder(Microsoft.Office.Interop.Outlook.MAPIFolder,Microsoft.Office.Interop.Outlook.Store)" /> Methode. Jede dieser Aktionen wird angewendet auf alle Elemente in der Unterhaltung automatisch die Methode aufgerufen wird. die Aktion gilt auch für zukünftigen Elemente in der Unterhaltung, solange die Aktion gilt aber auch für die Unterhaltung ist. Es ist keine explizite save-Methode auf das <b>Conversation</b> -Objekt.</para>
+      <para>Auch, wenn Sie eine Aktion für Elemente in einer Unterhaltung anwenden, das entsprechende Ereignis eintritt. Beispielsweise die <see cref="E:Microsoft.Office.Interop.Outlook.ItemsEvents_Event.ItemChange" /> -Ereignis der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Objekts tritt auf, wenn Sie die <b>SetAlwaysAssignCategories</b>, aufrufen und die <see cref="E:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event.BeforeItemMove" /> -Ereignis der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekts tritt auf, wenn Sie <b>SetAlwaysMoveToFolder</b>aufrufen.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

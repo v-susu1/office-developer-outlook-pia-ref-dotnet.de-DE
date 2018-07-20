@@ -1,0 +1,94 @@
+<Type Name="OutlookBarGroupsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d4d36a268f27e62a4349c1d3c6bd70d1dc31b8a9" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636326" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OutlookBarGroupsEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarGroupsEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarGroupsEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OutlookBarGroupsEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents), typeof(Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Hierbei handelt es sich um eine .NET-Schnittstelle, die bei der Verarbeitung einer COM-CoClass erstellt wurde, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Diese Schnittstelle implementiert alle Ereignisse früherer Schnittstelle und alle zusätzlichen neuen Ereignisse. Verwenden Sie diese Schnittstelle nur, wenn das Ereignis, das Sie verwenden möchten, den gleichen Namen aufweist wie eine Methode des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um eine Verbindung zum Ereignis herzustellen, und casten Sie zur primären Schnittstelle, um die Methode aufzurufen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeGroupAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_BeforeGroupAddEventHandler BeforeGroupAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_BeforeGroupAddEventHandler BeforeGroupAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event.BeforeGroupAdd" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeGroupAdd As OutlookBarGroupsEvents_BeforeGroupAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OutlookBarGroupsEvents_BeforeGroupAddEventHandler ^ BeforeGroupAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_BeforeGroupAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt auf, bevor eine neue Gruppe als Ergebnis einer Benutzeraktion oder durch Programmcode dem Verknüpfungsbereich hinzugefügt wird.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeGroupRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_BeforeGroupRemoveEventHandler BeforeGroupRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_BeforeGroupRemoveEventHandler BeforeGroupRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event.BeforeGroupRemove" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeGroupRemove As OutlookBarGroupsEvents_BeforeGroupRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OutlookBarGroupsEvents_BeforeGroupRemoveEventHandler ^ BeforeGroupRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_BeforeGroupRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt auf, bevor eine neue Gruppe aus dem Verknüpfungsbereich als Ergebnis einer Benutzeraktion oder durch Programmcode entfernt wird.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_GroupAddEventHandler GroupAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_GroupAddEventHandler GroupAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_Event.GroupAdd" />
+      <MemberSignature Language="VB.NET" Value="Event GroupAdd As OutlookBarGroupsEvents_GroupAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::OutlookBarGroupsEvents_GroupAddEventHandler ^ GroupAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarGroupsEvents_GroupAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, wenn dem Verknüpfungsbereich eine neue Gruppe hinzugefügt wird.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

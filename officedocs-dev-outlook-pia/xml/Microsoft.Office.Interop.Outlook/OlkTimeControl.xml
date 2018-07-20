@@ -1,0 +1,44 @@
+<Type Name="OlkTimeControl" FullName="Microsoft.Office.Interop.Outlook.OlkTimeControl">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4bfe7f2f9831d7ca1eabf6f748b796fed585d49a" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636847" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface OlkTimeControl : Microsoft.Office.Interop.Outlook._OlkTimeControl, Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeControl implements class Microsoft.Office.Interop.Outlook._OlkTimeControl, class Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeControl" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeControl&#xA;Implements _OlkTimeControl, OlkTimeControlEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OlkTimeControl : Microsoft::Office::Interop::Outlook::_OlkTimeControl, Microsoft::Office::Interop::Outlook::OlkTimeControlEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._OlkTimeControl</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.OlkTimeControlClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000672EF-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Ein Steuerelement, das das Outlook-Dropdownmenü für die Zeit anzeigt.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkTimeControl" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />.</para>
+      <para>, Bevor Sie dieses Steuerelement zum ersten Mal im Formular-Designer verwenden Microsoft Outlook Zeit-Steuerelements zur Steuerelement-Toolbox hinzufügen. Sie können nur einen Formularbereich in einem Outlook-Formular im Formular-Designer mit diesem Steuerelement hinzufügen; Sie können dieses Steuerelement ein Visual Basic- <b>UserForm</b> -Objekt in Visual Basic-Editor Hinzufügen.</para>
+      <para>Hat Zeit-Steuerelements zu mehreren verschiedenen Modi, die über die Eigenschaften für das Steuerelement verfügbar gemacht werden.  Es, eine <b>DateTime</b> -Eigenschaft gebunden werden kann, und an die Bereitstellung von Funktionen für Datum und Uhrzeit auswählen auf dieselbe Eigenschaft als ein Steuerelement gebunden werden kann.</para> Die folgenden 
+      <para>ist ein Beispiel des Zeit-Steuerelements zur Laufzeit. Dieses Steuerelement unterstützt Microsoft Windows-Designs.</para><para>Wenn das <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event.Click" /> -Ereignis implementiert ist, aber die <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event.DropButtonClick" /> -Ereignis nicht implementiert ist, und klicken Sie dann auf die Dropdownschaltfläche nur das <b>Click</b> -Ereignis ausgelöst wird.</para><para>, Wenn Sie das Zeitsteuerelement an die Startzeit oder die Endzeit der ein Terminelement binden, müssen Sie ein Add-in verwenden, um aktivieren und Deaktivieren des Zeit-Steuerelements zu steuern. Insbesondere, wenn der Benutzer den Termin als ganztägiges Ereignis festlegt, müssen Sie mithilfe von Code für die Startzeit und die Endzeit der Zeitsteuerelemente deaktivieren, und aktivieren die Steuerelemente nur, wenn der Benutzer diese Einstellung deaktiviert.</para><para>Weitere Informationen zu Outlook-Steuerelementen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para><para /></remarks>
+  </Docs>
+  <Members />
+</Type>

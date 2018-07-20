@@ -1,0 +1,97 @@
+<Type Name="NavigationGroupsEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b055a759919919d0802c136961015f40eb416c38" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636500" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface NavigationGroupsEvents_12_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationGroupsEvents_12_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface NavigationGroupsEvents_12_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class NavigationGroupsEvents_12_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12), typeof(Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Hierbei handelt es sich um eine .NET-Schnittstelle, die bei der Verarbeitung einer COM-CoClass erstellt wurde, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Diese Schnittstelle implementiert alle Ereignisse früherer Schnittstelle und alle zusätzlichen neuen Ereignisse. Verwenden Sie diese Schnittstelle nur, wenn das Ereignis, das Sie verwenden möchten, den gleichen Namen aufweist wie eine Methode des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um eine Verbindung zum Ereignis herzustellen, und casten Sie zur primären Schnittstelle, um die Methode aufzurufen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NavigationFolderAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_NavigationFolderAddEventHandler NavigationFolderAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_NavigationFolderAddEventHandler NavigationFolderAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderAdd" />
+      <MemberSignature Language="VB.NET" Value="Event NavigationFolderAdd As NavigationGroupsEvents_12_NavigationFolderAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::NavigationGroupsEvents_12_NavigationFolderAddEventHandler ^ NavigationFolderAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_NavigationFolderAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, nachdem ein Ordner hinzugefügt wird eine <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> Auflistung.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NavigationFolderRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_NavigationFolderRemoveEventHandler NavigationFolderRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_NavigationFolderRemoveEventHandler NavigationFolderRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.NavigationFolderRemove" />
+      <MemberSignature Language="VB.NET" Value="Event NavigationFolderRemove As NavigationGroupsEvents_12_NavigationFolderRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::NavigationGroupsEvents_12_NavigationFolderRemoveEventHandler ^ NavigationFolderRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_NavigationFolderRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, nachdem ein Navigationsordner aus entfernt wurde die <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> Auflistung.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectedChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_SelectedChangeEventHandler SelectedChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_SelectedChangeEventHandler SelectedChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_Event.SelectedChange" />
+      <MemberSignature Language="VB.NET" Value="Event SelectedChange As NavigationGroupsEvents_12_SelectedChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::NavigationGroupsEvents_12_SelectedChangeEventHandler ^ SelectedChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationGroupsEvents_12_SelectedChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt auf, nachdem der Auswahlstatus für einen Navigationsordner geändert wurde, der in einem Navigationsmodul Kalender enthalten ist.</summary>
+        <remarks>
+          <para>Dieses Ereignis tritt auf, wenn der Auswahlstatus für einen Ordner in das Navigationsmodul Kalender, entweder durch einen Benutzer aktivieren oder Deaktivieren eines Ordners in das Navigationsmodul Kalender im Navigationsbereich oder durch ein Add-in beim Ändern des Werts ändert die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> -Eigenschaft für ein <b>NavigationFolder</b> -Objekts der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> -Auflistung ein <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> Objekt.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

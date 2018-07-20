@@ -1,0 +1,48 @@
+<Type Name="AppointmentItem" FullName="Microsoft.Office.Interop.Outlook.AppointmentItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dfb07f19af13b577e521c3dd5c487e46f23c189d" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636684" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface AppointmentItem : Microsoft.Office.Interop.Outlook._AppointmentItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AppointmentItem implements class Microsoft.Office.Interop.Outlook._AppointmentItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AppointmentItem&#xA;Implements _AppointmentItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AppointmentItem : Microsoft::Office::Interop::Outlook::_AppointmentItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._AppointmentItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.AppointmentItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063033-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt eine Besprechung, einen einmaligen Termin, einen Serientermin bzw. -besprechung im Ordner Kalender dar.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType)" /> -Methode, um ein <b>AppointmentItem</b> -Objekt erstellen, das einen neuen Termin darstellt.</para>
+      <para>Verwendung <see cref="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" /> (<paramref name="index" />), wobei <paramref name="index" /> ist die Indexnummer des eines Termins oder ein Wert, der mit die Standardeigenschaft eines Termins, um ein einzelnes <b>AppointmentItem</b> -Objekt aus einem Kalenderordner zurückzugeben übereinstimmt.</para>
+      <para>Sie können auch ein <b>AppointmentItem</b> -Objekt aus Zurückgeben einer <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> Objekt mithilfe der <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.GetAssociatedAppointment(System.Boolean)" /> -Methode.</para>
+      <para>Beim Arbeiten mit Terminserien Termin, sollten Sie vorherige freigeben Referenzen, erhalten neue Verweise auf die wiederkehrenden Terminelement, bevor Sie zugreifen, oder ändern Sie das Element, und diese Verweise freigeben, sobald Sie fertig sind und gespeichert haben die ändert. In dieser Methode wird angewendet wird, auf das sich wiederholenden <b>AppointmentItem</b> -Objekt und alle <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Um einen Verweis in Visual Basic freizugeben, legen Sie das vorhandene Objekt auf <b>Nothing zurück</b>. In c# explizit freigeben des Speichers für dieses Objekt. </para>
+      <para>Beachten Sie, dass auch wenn Sie den Verweis freigeben, und versuchen, einen neuen Verweis, abzurufen, wenn sich weiterhin ein aktiver Verweis, frei, die von einem anderen-add-in oder Outlook, können Sie eine der oben genannten Objekte, der neue Verweis noch eine veraltete Kopie der verweisen wird die -Objekt. Daher ist es wichtig, dass Sie Ihre Verweise freigeben, sobald Sie mit der Terminserie fertig sind.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

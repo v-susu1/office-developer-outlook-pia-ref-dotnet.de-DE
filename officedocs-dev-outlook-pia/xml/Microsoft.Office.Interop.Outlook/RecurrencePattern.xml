@@ -1,0 +1,803 @@
+<Type Name="RecurrencePattern" FullName="Microsoft.Office.Interop.Outlook.RecurrencePattern">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0d4b4e4bfa2975577306ca466d47c09c5f4fad3" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636353" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface RecurrencePattern" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RecurrencePattern" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RecurrencePattern" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RecurrencePattern" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063044-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt das Serienmuster von Termin- und Aufgabenserien für das entsprechende <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> und <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> Objekt.</summary>
+    <remarks>
+      <para>Verwenden Sie die <b>GetRecurrencePattern</b> -Methode, um das <b>RecurrencePattern</b> -Objekt, das einem <b>AppointmentItem-</b> oder <b>TaskItem</b> -Objekt zugeordnete zurückzugeben.</para>
+      <para>Aufruf von <b>GetRecurrencePattern</b> oder <b>ClearRecurrencePattern</b> hat den Nachteil die <b>IsRecurring</b> -Eigenschaft des Elements entsprechend festlegen. Diese Eigenschaft verwendet werden kann je nach Bedarf effizient zu Filtern der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> -Objekt.</para>
+      <para>Der Typ des Serienmusters wird angegeben, indem die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> Eigenschaft. Die <b>RecurrenceType</b> -Eigenschaft wird die erste Eigenschaft legen Sie fest.</para>
+      <para>Die folgenden Eigenschaften sind für alle Serienmuster zulässig: <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <b>StartDate</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />, vom <b>Typ</b>oder.</para>
+      <para>In der folgenden Tabelle werden die Eigenschaften gezeigt, die für die verschiedenen Serie Datentypen gültig sind. Ein Fehler tritt auf, wenn das Element gespeichert wird und die Eigenschaft ist null oder enthält einen ungültigen Wert. Pro Monat und Jahr Muster sind nur für einen einzelnen Tag. Wöchentliche Muster sind nur als <b>oder</b> die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" /> .</para>
+      <list type="table">
+        <item>
+          <description>
+            <b>OlRecursDaily</b>
+          </description>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description>
+        </item>
+        <item>
+          <description>
+            <b>OlRecursWeekly</b>
+          </description>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />, <b>Dauer</b>, <b>EndTime </b>, <b>Intervall</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b>OlRecursMonthly</b>
+          </description>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />, <b>Dauer</b>, <b>EndTime</b>, <b>Intervall</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b>OlRecursMonthNth</b>
+          </description>
+          <description>
+            <b>DayOfWeekMask </b>, <b>Dauer</b>, <b>EndTime</b>, <b>Intervall</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b> OlRecursYearly</b>
+          </description>
+          <description>
+            <b>DayOfMonth</b>, <b>Dauer</b>, <b>EndTime</b>, <b>Intervall</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b> StartTime</b></description>
+        </item>
+        <item>
+          <description>
+            <b>OlRecursYearNth</b>
+          </description>
+          <description>
+            <b>DayOfWeekMask</b>, <b>Dauer</b>, <b>EndTime</b>, <b>Intervall</b>, <b>Instanz</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b> PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
+        </item>
+      </list>
+      <para>beim Arbeiten mit Terminserien Termin, sollten alle vorherigen Verweise freigeben, erhalten neue Verweise auf die wiederkehrenden Terminelement vor dem Zugriff auf oder das Element ändern und diese Verweise freigeben, sobald Sie fertig sind, und die Änderungen gespeichert haben. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Um einen Verweis in Visual Basic freizugeben, legen Sie das vorhandene Objekt auf <b>Nothing zurück</b>. In c# explizit freigeben des Speichers für dieses Objekt. </para>
+      <para>Beachten Sie, dass auch wenn Sie den Verweis freigeben, und versuchen, einen neuen Verweis, abzurufen, wenn sich weiterhin ein aktiver Verweis, frei, die von einem anderen-add-in oder Outlook, können Sie eine der oben genannten Objekte, der neue Verweis noch eine veraltete Kopie der verweisen wird die -Objekt. Daher ist es wichtig, dass Sie Ihre Verweise freigeben, sobald Sie mit der Terminserie fertig sind.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfMonth">
+      <MemberSignature Language="C#" Value="public int DayOfMonth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DayOfMonth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfMonth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DayOfMonth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4096)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt, oder legt den Wert einer <b>Ganzzahl</b> (<b>Int</b> in c#), die den Tag des Monats an, auf dem die Terminserie oder die Aufgabenserie. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DayOfWeekMask">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlDaysOfWeek DayOfWeekMask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlDaysOfWeek DayOfWeekMask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />
+      <MemberSignature Language="VB.NET" Value="Public Property DayOfWeekMask As OlDaysOfWeek" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlDaysOfWeek DayOfWeekMask { Microsoft::Office::Interop::Outlook::OlDaysOfWeek get(); void set(Microsoft::Office::Interop::Outlook::OlDaysOfWeek value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4097)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4097)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4097)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlDaysOfWeek</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlDaysOfWeek" /> Konstante, die die Maske für die Wochentage, an dem die Terminserie oder die Aufgabenserie, darstellt. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>DayOfWeekMask</b> sollte festgelegt werden, nachdem die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> -Eigenschaft festgelegt wurde und vor der <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" /> und <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" /> Eigenschaften werden festgelegt. </para>
+          <para>Monatlich und jährliche Muster sind nur für einen einzelnen Tag. Wöchentliche Muster sind nur als <b>oder</b><b>DayOfWeekMask</b>gültig. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public int Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Duration { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der der Dauer (in Minuten) der <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" />. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Für Serien, diese Eigenschaft ist nur für Termine zulässig.</para>
+          <para>Um eine Dauer von einem Tag für ein ganztägiges Ereignis zu erstellen, legen Sie die Dauer auf 1440 fest.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTime">
+      <MemberSignature Language="C#" Value="public DateTime EndTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EndTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime EndTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt zurück, oder legt diesen fest, der angibt, die die Endzeit für ein Serienmuster <b>DateTime</b> . Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft ist nur für Termine zulässig.</para>
+          <para>Beim Erstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> für den Termin-Objekt und keine Zeitzonen angegeben wurden <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /> und <b>EndTime</b> für das <b>RecurrencePattern</b> -Objekt werden basierend auf der angegebenen Zeitzone <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />.</para>
+          <para>, Wenn Sie eine Terminserie für eine bestimmte Zeitzone erstellen möchten, zuerst erstellen Sie eine <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, legen <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />, und rufen Sie dann <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />. Das <b>RecurrencePattern</b> -Objekt zurückgegeben wird, müssen beide <b>Werte von StartTime</b> und <b>EndTime</b> basierend auf der Zeitzone <b>AppointmentItem.StartTimeZone</b>angegeben. Beachten Sie, dass im Dialogfeld Terminserie die Zeit als Start <b>RecurrencePattern.StartTime</b> dem <b>AppointmentItem.StartTimeZone</b>, aber die Zeit basiert angegeben wird angegeben, wie Ende nicht immer <b>identisch ist RecurrencePattern.EndTime</b> dem basiert auf <b>AppointmentItem.StartTimeZone</b>; der angezeigte Zeitwert basiert auf <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Exceptions Exceptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Exceptions Exceptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exceptions As Exceptions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Exceptions ^ Exceptions { Microsoft::Office::Interop::Outlook::Exceptions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Exceptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> -Auflistung für eine angegebene Reihe von Terminserien. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Beim Arbeiten mit Terminserien Termin, sollten Sie vorherige freigeben Referenzen, erhalten neue Verweise auf die wiederkehrenden Terminelement, bevor Sie zugreifen, oder ändern Sie das Element, und diese Verweise freigeben, sobald Sie fertig sind und gespeichert haben die ändert. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Um einen Verweis in Visual Basic freizugeben, legen Sie das vorhandene Objekt auf <b>Nothing zurück</b>. In c# explizit freigeben des Speichers für dieses Objekt. </para>
+          <para>Beachten Sie, dass auch wenn Sie den Verweis freigeben, und versuchen, einen neuen Verweis, abzurufen, wenn sich weiterhin ein aktiver Verweis, frei, die von einem anderen-add-in oder Outlook, können Sie eine der oben genannten Objekte, der neue Verweis noch eine veraltete Kopie des Objekts verweisen wird . Daher ist es wichtig, dass Sie Ihre Verweise freigeben, sobald Sie mit der Terminserie fertig sind.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetOccurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.AppointmentItem GetOccurrence (DateTime StartDate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.AppointmentItem GetOccurrence([in]valuetype System.DateTime StartDate) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.RecurrencePattern.GetOccurrence(System.DateTime)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOccurrence (StartDate As DateTime) As AppointmentItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::AppointmentItem ^ GetOccurrence(DateTime StartDate);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AppointmentItem</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="StartDate" Type="System.DateTime" />
+      </Parameters>
+      <Docs>
+        <param name="StartDate">Ein <b>Date</b> -Wert, der die Ortszeit darstellt.</param>
+        <summary>Gibt eine bestimmte Instanz der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekts auf dem angegebenen Datum.</summary>
+        <returns>Ein <b>AppointmentItem</b> -Objekt, das den bestimmten Termin am angegebenen Datum darstellt.</returns>
+        <remarks>
+          <para>
+            <b>Hinweis</b>: die <b>GetOccurrence</b> -Methode generiert einen Fehler, wenn kein Termin dieser Serie zum angegebenen Datum vorhanden ist.</para>
+          <para>Beim Arbeiten mit Terminserien Termin, sollten Sie vorherige freigeben Referenzen, erhalten neue Verweise auf die wiederkehrenden Terminelement, bevor Sie zugreifen, oder ändern Sie das Element, und diese Verweise freigeben, sobald Sie fertig sind und gespeichert haben die ändert. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Um einen Verweis in Visual Basic freizugeben, legen Sie das vorhandene Objekt auf <b>Nothing zurück</b>. In c# explizit freigeben des Speichers für dieses Objekt. </para>
+          <para>Beachten Sie, dass auch wenn Sie den Verweis freigeben, und versuchen, einen neuen Verweis, abzurufen, wenn sich weiterhin ein aktiver Verweis, frei, die von einem anderen-add-in oder Outlook, können Sie eine der oben genannten Objekte, der neue Verweis noch eine veraltete Kopie des Objekts verweisen wird . Daher ist es wichtig, dass Sie Ihre Verweise freigeben, sobald Sie mit der Terminserie fertig sind.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Instance">
+      <MemberSignature Language="C#" Value="public int Instance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Instance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Instance As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Instance { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4099)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4099)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4099)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert angeben die Anzahl die für die das Serienmuster für einen bestimmten Zeitraum gültig ist. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft gilt nur für Serien vom Typ <b>OlRecursMonthNth</b> und <b>OlRecursYearNth</b> und ermöglicht die Definition eines Serienmusters, das nur für das n-te Vorkommen gilt, wie z. B. "2. Sonntag im März". Die Anzahl die numerisch festgelegt ist: 1 für das erste, 2 für die zweite usw. bis 5 für das letzte. Werte, die größer als 5 generiert Fehler, wenn das Muster gespeichert wird.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Interval">
+      <MemberSignature Language="C#" Value="public int Interval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Interval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />
+      <MemberSignature Language="VB.NET" Value="Public Property Interval As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Interval { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt zurück oder legt diesen fest einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Anzahl der Einheiten eines bestimmten Serientyps zwischen Vorkommen angibt. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Die <b>Interval</b> -Eigenschaft muss festgelegt werden, bevor die Einstellung <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />. </para>
+          <para>Beispielsweise die <b>Interval</b> -Eigenschaft auf 2 festlegen und der <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> -Eigenschaft auf OlRecursWeekly würde das Muster, vierzehntägige.</para>
+          <para>Beim <b>RecurrenceType</b> OlRecursYearNth oder OlRecursYear <b>Interval</b> -Eigenschaft festgelegt ist gibt die Anzahl von Jahren zwischen vorkommen. Beispielsweise <b>Intervall</b> gleich 1 gibt die Serie ist jedes Jahr, <b>Intervall</b> ist gleich 2 Gibt an, das Serienmuster der wird alle zwei Jahre usw..</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MonthOfYear">
+      <MemberSignature Language="C#" Value="public int MonthOfYear { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MonthOfYear" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.MonthOfYear" />
+      <MemberSignature Language="VB.NET" Value="Public Property MonthOfYear As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MonthOfYear { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der angibt, welche Monat des Jahres für das angegebene Serienmuster gültig ist. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Der Wert kann eine Zahl von 1 bis 12 sein. Beispielsweise durch Festlegen dieser Eigenschaft auf 5 und die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> -Eigenschaft auf <b>OlRecursYearly</b> würde dieses Serienmusters in jedem Mai. Diese Eigenschaft gilt nur für Serienmuster, deren <b>RecurrenceType</b> -Eigenschaft auf <b>OlRecursYearly</b> oder <b>OlRecursYearNth</b>festgelegt ist.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoEndDate">
+      <MemberSignature Language="C#" Value="public bool NoEndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NoEndDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property NoEndDate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NoEndDate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der True angibt, wenn das Serienmuster über kein Enddatum verfügt. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft muss beim Einrichten eines Serienmusters, das mit anderen Eigenschaften abgestimmt. Wenn die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" /> Eigenschaft oder die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" /> -Eigenschaft wird festgelegt, das Muster als endlich betrachtet und die <b>NoEndDate</b> -Eigenschaft ist <b>False</b>. Wenn weder <b>PatternEndDate</b> noch <b>Occurrences</b> festgelegt ist, wird das Muster als unendlich betrachtet und <b>NoEndDate</b> hat den Wert <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Occurrences">
+      <MemberSignature Language="C#" Value="public int Occurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Occurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property Occurrences As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Occurrences { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Anzahl der Vorkommen des Serienmusters angibt. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft ermöglicht die Definition eines Serienmusters, das nur für die angegebene Anzahl von nachfolgenden Vorkommen gültig ist. Beispielsweise können Sie diese Eigenschaft auf 10 für eine formelle Schulung festlegen, die an den nächsten zehn Donnerstag abends stattfindet. Diese Eigenschaft muss beim Einrichten eines Serienmusters, das mit anderen Eigenschaften abgestimmt. Wenn die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" /> -Eigenschaft oder die <b>Occurrences</b> -Eigenschaft festgelegt ist, wird das Muster als endlich betrachtet und die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" /> -Eigenschaft ist <b>False</b>. Wenn weder <b>PatternEndDate</b> noch <b>Occurrences</b> festgelegt ist, wird das Muster als unendlich betrachtet und <b>NoEndDate</b> hat den Wert <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternEndDate">
+      <MemberSignature Language="C#" Value="public DateTime PatternEndDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime PatternEndDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternEndDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime PatternEndDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4098)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4098)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4098)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt zurück, oder legt diesen fest, der angibt, des Enddatum des Serienmusters <b>DateTime</b> . Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft ist optional, jedoch muss beim Einrichten eines Serienmusters, das mit anderen Eigenschaften abgestimmt. Wenn diese Eigenschaft oder die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" /> -Eigenschaft wird festgelegt, die das Muster wird als endlich betrachtet, und die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" /> -Eigenschaft ist <b>False</b>. Wenn weder <b>PatternEndDate</b> noch <b>Occurrences</b> festgelegt ist, wird das Muster als unendlich betrachtet und <b>NoEndDate</b> hat den Wert <b>True</b>. Die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" /> -Eigenschaft muss vor dem Festlegen von <b>PatternEndDate</b>festgelegt werden.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternStartDate">
+      <MemberSignature Language="C#" Value="public DateTime PatternStartDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime PatternStartDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternStartDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime PatternStartDate { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt zurück, oder legt diesen fest, der angibt, des Startdatum für das Serienmuster <b>DateTime</b> . Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RecurrenceType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlRecurrenceType RecurrenceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlRecurrenceType RecurrenceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecurrenceType As OlRecurrenceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlRecurrenceType RecurrenceType { Microsoft::Office::Interop::Outlook::OlRecurrenceType get(); void set(Microsoft::Office::Interop::Outlook::OlRecurrenceType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlRecurrenceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceType" /> -Konstante, die Häufigkeit des Auftretens des Serienmusters angibt. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Die <b>RecurrenceType</b> -Eigenschaft muss festgelegt werden, bevor Sie andere Eigenschaften für Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Die <b>RecurrencePattern</b> -Eigenschaften, die Sie nacheinander festlegen können hängt vom Wert der <b>RecurrenceType</b>, wie in der folgenden Tabelle dargestellt:</para>
+          <list type="table">
+            <item>
+              <description>OlRecurrenceType</description>
+              <description>Gültige RecurrencePattern-Eigenschaften</description>
+            </item>
+            <item>
+              <description>
+                <b>olRecursDaily</b>
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Duration" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Interval" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.NoEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Occurrences" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.PatternEndDate" />, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" /></description>
+            </item>
+            <item>
+              <description>
+                <b>OlRecursWeekly</b>
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfWeekMask" />, <b>Dauer</b><b>EndTime</b><b>Intervall</b><b>NoEndDate</b><b>Vorkommen</b><b>PatternStartDate</b><b>PatternEndDate</b>, <b>StartTime</b></description>
+            </item>
+            <item>
+              <description>
+                <b>OlRecursMonthly</b>
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.DayOfMonth" />, <b>Dauer</b><b>EndTime</b><b>Intervall</b><b>NoEndDate</b><b>Vorkommen</b><b>PatternStartDate</b><b>PatternEndDate</b>, <b> StartTime</b></description>
+            </item>
+            <item>
+              <description>
+                <b>OlRecursMonthNth</b>
+              </description>
+              <description>
+                <b>DayOfWeekMask</b>, <b>Dauer</b>, <b>EndTime</b>, <b>Intervall</b>, <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Instance" />, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate </b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
+            </item>
+            <item>
+              <description>
+                <b>OlRecursYearly</b>
+              </description>
+              <description>
+                <b>DayOfMonth</b>, <b>Dauer</b>, <b>EndTime</b>, <b>Intervall</b>, <b>MonthOfYear</b>, <b>NoEndDate</b>, <b>Vorkommen</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
+            </item>
+            <item>
+              <description>
+                <b>OlRecursYearNth</b>
+              </description>
+              <description>
+                <b>DayOfWeekMask</b>, <b>Dauer</b>, <b>EndTime</b>, <b>Intervall </b>, <b>Instanz</b>, <b>NoEndDate</b>, <b>Occurrences</b>, <b>PatternStartDate</b>, <b>PatternEndDate</b>, <b>StartTime</b></description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Regenerate">
+      <MemberSignature Language="C#" Value="public bool Regenerate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Regenerate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Regenerate" />
+      <MemberSignature Language="VB.NET" Value="Public Property Regenerate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Regenerate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der <b>True</b> angibt, wenn die Aufgabe nach dem Durchlaufen des Serienmusters neu erstellt werden soll. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft wird verwendet, um die mithilfe des Vorgangs zu steuern, wie jedes Vorkommen einer wiederkehrenden Aufgabe abgeschlossen ist. Es gilt nur für Vorgänge. Es ist nicht für Termine zulässig.</para>
+          <para>Zum Erstellen eines Serienmusters, legen Sie zunächst die <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.RecurrenceType" /> Häufigkeit die festzulegenden Eigenschaft legen Sie dann die <b>Regenerate</b> -Eigenschaft auf <b>true fest,</b> um den Vorgang neu zu generieren. Nach dem Festlegen der <b>erneut generieren</b> auf <b>true fest</b>, legen Sie sie nicht auf <b>false festgelegt</b>. Wenn Sie später <b>erneut generieren</b> auf <b>False</b>festgelegt, dann Sie das Serienmuster erneut einrichten sollten durch Abrufen eines neuen <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime StartTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt zurück, oder legt diesen fest, der angibt, der Startzeit für ein Serienmuster <b>DateTime</b> . Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Diese Eigenschaft ist nur für Termine zulässig.</para>
+          <para>Beim Erstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> für den Termin, <b>StartTime</b> -Objekt und keine Zeitzonen angegeben wurden und <see cref="P:Microsoft.Office.Interop.Outlook.RecurrencePattern.EndTime" /><b>RecurrencePattern</b> -Objekt basieren auf der Zeitzone angegeben durch <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />.</para>
+          <para>, Wenn Sie eine Terminserie für eine bestimmte Zeitzone erstellen möchten, zuerst erstellen Sie eine <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />, legen <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />, und rufen Sie dann <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />. Das <b>RecurrencePattern</b> -Objekt zurückgegeben wird, müssen beide <b>Werte von StartTime</b> und <b>EndTime</b> basierend auf der Zeitzone <b>AppointmentItem.StartTimeZone</b>angegeben. Beachten Sie, dass im Dialogfeld Terminserie die Zeit als Start <b>RecurrencePattern.StartTime</b> dem <b>AppointmentItem.StartTimeZone</b>, aber die Zeit basiert angegeben wird angegeben, wie Ende nicht immer <b>identisch ist RecurrencePattern.EndTime</b> dem basiert auf <b>AppointmentItem.StartTimeZone</b>; der angezeigte Zeitwert basiert auf <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,43 @@
+<Type Name="SendRuleAction" FullName="Microsoft.Office.Interop.Outlook.SendRuleAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0b0d35f51bebff63807606027896ff8dba01e4ef" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636042" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SendRuleAction : Microsoft.Office.Interop.Outlook._SendRuleAction" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SendRuleAction implements class Microsoft.Office.Interop.Outlook._SendRuleAction" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SendRuleAction" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SendRuleAction&#xA;Implements _SendRuleAction" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SendRuleAction : Microsoft::Office::Interop::Outlook::_SendRuleAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._SendRuleAction</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.SendRuleActionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D1-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt eine Aktion dar, die eine Nachricht an eine oder mehrere Empfänger sendet.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._SendRuleAction" />. </para>
+      <para>
+        <b>SendRuleAction</b> abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> Objekt. Jede Regel zugeordnet ist ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> -Objekt das besitzt eine <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.CC" /> -Eigenschaft, ein <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Forward" /> -Eigenschaft, ein <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.ForwardAsAttachment" /> -Eigenschaft, und eine <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Redirect" /> Eigenschaft. Jede dieser Eigenschaften gibt stets ein <b>SendRuleAction</b> -Objekt zurück. <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> unterscheidet zwischen diesen Regelaktionen. Wenn die Regel keines der oben genannten Regelaktionen aktiviert ist, verfügt die <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> -Eigenschaft des entsprechenden <b>SendRuleAction</b> -Objekt <b>True</b>wäre.</para>
+      <para>Weitere Informationen zum Angeben von Regelaktionen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Angeben von Regelaktionen</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

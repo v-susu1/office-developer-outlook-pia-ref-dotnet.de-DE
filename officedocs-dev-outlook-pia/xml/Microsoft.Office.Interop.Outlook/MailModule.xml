@@ -1,0 +1,45 @@
+<Type Name="MailModule" FullName="Microsoft.Office.Interop.Outlook.MailModule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8518b1ec87c1090104432fbae5199028021b7a6e" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636992" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface MailModule : Microsoft.Office.Interop.Outlook._MailModule" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MailModule implements class Microsoft.Office.Interop.Outlook._MailModule" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MailModule" />
+  <TypeSignature Language="VB.NET" Value="Public Interface MailModule&#xA;Implements _MailModule" />
+  <TypeSignature Language="C++ CLI" Value="public interface class MailModule : Microsoft::Office::Interop::Outlook::_MailModule" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._MailModule</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.MailModuleClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630E9-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt das Navigationsmodul E-Mail im Navigationsbereich eines Explorers dar.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._MailModule" />. </para>
+      <para>
+        <b>MailModule</b> -Objekt abgeleitet der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> -Objekts, bietet schreibgeschützten Zugriff auf die Navigationsgruppen in das Navigationsmodul E-Mail im Navigationsbereich eines Explorers enthalten sind. Verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._NavigationModules.GetNavigationModule(Microsoft.Office.Interop.Outlook.OlNavigationModuleType)" /> Methode oder die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Item(System.Object)" /> -Eigenschaft (<b>diese</b> in c#) des der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> -Auflistung für das übergeordnete <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> Objekt, um ein <b>NavigationModule</b> -Objekt abzurufen, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModule.NavigationModuleType" /> -Eigenschaft der <b>NavigationModule</b> -Objekt um den Navigationsmodultyp abzurufen. Wenn <b>olModuleMail</b><b>NavigationModuleType</b> -Eigenschaft festgelegt ist, können Sie dann <b>NavigationModule</b> -Objektreferenz umwandeln, als ein <b>MailModule</b> -Objekt für den Zugriff auf die <see cref="P:Microsoft.Office.Interop.Outlook._MailModule.NavigationGroups" /> -Eigenschaft für diese Navigationsmodul.</para>
+      <para>
+        <b>Hinweis</b>: im Gegensatz zu anderen Navigationsmodulen, wie die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> -Objekts, erstellen und Löschen von Navigationsgruppen in das <b>MailModule</b> -Objekt ist nicht möglich.</para>
+      <para>Können Sie die <see cref="P:Microsoft.Office.Interop.Outlook._MailModule.Visible" /> Eigenschaft, um zu bestimmen, ob das Navigationsmodul sichtbar ist und die <see cref="P:Microsoft.Office.Interop.Outlook._MailModule.Position" /> -Eigenschaft zum Zurückgeben oder Festlegen der Anzeigeposition des Navigationsmoduls im Navigationsbereich. Sie können die <see cref="P:Microsoft.Office.Interop.Outlook._MailModule.Name" /> Eigenschaft, um den Anzeigenamen des Navigationsmoduls E-Mail im Navigationsbereich zurückzugeben.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,493 @@
+<Type Name="_Table" FullName="Microsoft.Office.Interop.Outlook._Table">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f3622358929b16ec4cf2cb1b6f8e806f59c4d317" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636422" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _Table" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Table" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Table" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Table" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Table" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630D2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt. Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist. Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das die übergeordnete Anwendung (Outlook) für stellt die <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Enumeration, die die Klasse von der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Columns">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Columns Columns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Columns Columns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Columns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Columns As Columns" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Columns ^ Columns { Microsoft::Office::Interop::Outlook::Columns ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64403)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64403)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Columns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> -Auflistungsobjekt, das für definierten Spalten enthält die <see cref="T:Microsoft.Office.Interop.Outlook.Table" />. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>Columns</b> -Auflistungsobjekts ist das Standardelement des <b>Table</b> -Objekts.  </para>
+          <para>Während Elemente im übergeordneten Zeilen in einer <b>Tabelle</b> entsprechen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> -Objekt der <b>Tabelle</b>, <b>Spalten</b> in einer <b>Tabelle</b> die Eigenschaften dieser Elemente entsprechen. Standardspalten werden für alle Ordner je nach dem übergeordneten Ordner des <b>Table</b> -Objekts definiert. Beispielsweise sind die Standardeigenschaften für den Posteingang: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b>und <b>MessageClass</b>. Weitere Informationen zu Standardeigenschaften für eine <b>Tabelle</b>finden Sie <a href="http://go.microsoft.com/fwlink/?LinkId=87925">In einem Table-Objekt angezeigte Standardeigenschaften</a></para>
+          <para>Hinzufügen <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> -Objekten, die <b>Columns</b> -Auflistung eine <b>Tabelle</b>verwenden <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />. Verwenden, um die standardspaltensammlung zu entfernen, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" />. Weitere Informationen zum Anpassen von Spalten einer <b>Tabelle</b>finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Hinzufügen von Spalten zu einem Table-Objekt</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndOfTable">
+      <MemberSignature Language="C#" Value="public bool EndOfTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EndOfTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndOfTable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EndOfTable { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64287)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64287)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der angibt, ob die aktuelle Zeile, nach der letzten Zeile in positioniert wird der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Beim Öffnen einer <b>Tabelle</b> mit <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" />, <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" />, oder <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />, der Wert der <b>EndOfTable</b> hängt von der Anzahl der Zeilen in der <b>Tabelle</b>. <b>EndOfTable</b> gibt True zurück, wenn keine Zeilen vorhanden sind. <b>Wenn Zeilen vorhanden sind, <b>EndOfTable</b> "false"</b> zurückgibt, bis der Cursor nach der letzten Zeile in der Tabelle verschoben.  </para>
+          <para>Die <b>Tabelle</b> verfügt über zwei virtuellen <b>Null</b> Zeilen, eine vor der ersten Zeile und eine nach der letzten Zeile in der <b>Tabelle</b>. Jeder Aufruf von <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> verschiebt die aktuelle Zeile in die nächste Zeile in der <b>Tabelle</b> und gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> -Objekt, das die aktuelle Zeile darstellt.   </para>
+          <para>
+            <b>EndOfTable</b> -Eigenschaft gibt <b>True</b> zurück, wenn die aktuelle Zeile nach der letzten Zeile und <b>False</b> , ist wenn die aktuelle Zeile im oder vor der letzten Zeile befindet.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNextRow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Row FindNextRow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Row FindNextRow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.FindNextRow" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindNextRow () As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Row ^ FindNextRow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Row</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Findet die nächste Zeile in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> , die in einem vorherigen angegebenen Kriterien entspricht <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> -Objekt, das die nächste Zeile in der <b>Tabelle</b> darstellt, die die im vorherigen Aufruf <b>FindRow</b>Bedingung erfüllt. Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn <b>FindNextRow</b> einer anderen Zeile nicht finden können, die die in <b>FindRow</b>angegebenen Kriterien erfüllt. Außerdem gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn <b>FindRow</b> nicht vor <b>FindNextRow</b>aufgerufen wurde.</returns>
+        <remarks>
+          <para>
+            <b>FindNextRow</b> sucht nach der nächsten Zeile basierend auf die Zeile, die von der vorherigen <b>FindRow</b> oder <b>FindNextRow</b>zurückgegeben. Es ist nicht für die aktuelle Zeile abhängig (wie die aktuelle Zeile seit der vorherigen <b>FindRow</b> oder <b>FindNextRow</b>, positioniert wurde beispielsweise durch <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />).</para>
+          <para>
+            <b>FindNextRow</b> eine Zeile findet, wird es die aktuelle Zeile in dieser Zeile positioniert. Wenn eine andere Zeile nicht findet, es wird nicht nicht neu positionieren die aktuelle Zeile.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindRow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Row FindRow (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Row FindRow([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindRow (Filter As String) As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Row ^ FindRow(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Row</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">Gibt die Bedingung an, die eine Zeile in der <b>Tabelle</b> erfüllen.</param>
+        <summary>Sucht nach der ersten Zeile in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> , die im angegebenen Kriterien entspricht <paramref name="Filter" />.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> -Objekt, das die erste Zeile in der <b>Tabelle</b> darstellt, die den Filterkriterien entsprechen. Wenn keine entsprechende Zeile gefunden werden kann, oder die <b>Tabelle</b> keine Zeilen enthält, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</returns>
+        <remarks>
+          <para>
+            <b>FindRow</b> beginnt immer bei der ersten Zeile in der <b>Tabelle</b>.  </para>
+          <para>
+            <b>FindRow</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn eine Eigenschaft im <paramref name="Filter" /> in den angegebenen Namespace nicht vorhanden. Die-Eigenschaft ist eine benannte Eigenschaft im MAPI-Eigenschaftensatz PS_PUBLIC_STRINGS berücksichtigt. <b>FindRow</b> ist keinen Fehler zurück, in diesem Fall.</para>
+          <b>FindRow</b>
+          <para>Gibt einen Fehler zurück, wenn <paramref name="Filter" /> ist eine leere Zeichenfolge oder eine ungültige Einschränkung. In Fällen, in dem <b>FindRow</b> keine Zeile finden, die aktuelle Zeile wird nicht neu positioniert werden an, bei denen es sich vor dem Aufruf von <b>FindRow</b>war.</para>
+          <para>Indizierung Inhaltssuche in einer <b>Tabelle</b>, verwenden Sie verwenden die <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> Methode. <b>FindRow</b> gibt einen Fehler zurück, wenn <paramref name="Filter" /> Content Indizierung Schlüsselwörter enthält. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetArray">
+      <MemberSignature Language="C#" Value="public object GetArray (int MaxRows);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetArray([in]int32 MaxRows) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetArray (MaxRows As Integer) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetArray(int MaxRows);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64463)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="MaxRows" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="MaxRows">Gibt die maximale Anzahl von Zeilen aus der <b>Tabelle</b> zurückgegeben.</param>
+        <summary>Ruft ein zweidimensionales Array, das einen Satz von Zeile und Spalte Werten enthält die <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
+        <returns>
+          <b>Ein Objektwert, der ein zweidimensionales Array, das einen Satz von Zeilen-und Spaltenwerte aus der <b>Tabelle</b>darstellt.</b> Das Array ist nullbasiert. ein Array-Index (i, j) Indizes in der i-ten Spalte und j-ten Zeile im Array. Die Spalten im Array entsprechen Spalten in der <b>Tabelle</b>, und Zeilen im Array entsprechen Zeilen in der <b>Tabelle</b>. Die Anzahl der Zeilen in das zurückgegebene Array ist der kleinere Wert <paramref name="MaxRows" /> und die tatsächliche Anzahl von Zeilen in der <b>Tabelle</b>.</returns>
+        <remarks>
+          <para>
+            <b>GetArray</b> -Methode bietet einen einfachen Prinzip bedeutet, dass beim Abrufen von Werten aus einer <b>Tabelle</b> , indem alle oder einen Teil der Daten in der <b>Tabelle</b> (basierend auf der aktuellen Zeile) auf ein Array kopiert und im Array.</para>
+          <para>Startet 
+            <b>GetArray</b> immer in der aktuellen Zeile der <b>Tabelle</b>. Es gibt ein Array mit <paramref name="MaxRows" /> Anzahl der Zeilen, wenn es mindestens sind <paramref name="MaxRows" /> Anzahl der Zeilen in der <b>Tabelle</b> an der aktuellen Position ab. Wenn <paramref name="MaxRows" /> ist nicht größer als die Gesamtzahl der Zeilen in der <b>Tabelle</b>, und es werden weniger als <paramref name="MaxRows" /> Anzahl von Elementen in der <b>Tabelle</b> beginnend in der aktuellen Zeile wird zurückgegeben, ein Array, nur die verbleibenden enthält, Zeilen in der <b> Tabelle</b>. Wenn <b>GetArray</b> aufgerufen wird und keine verbleibenden Zeilen vorhanden sind, dann <b>GetArray</b> ein leeres Array ohne Elemente gibt.</para>
+          <para>Nach Abrufen der entsprechenden Zeilen aus der <b>Tabelle</b> und vor der Rückgabe, <b>GetArray</b> immer automatisch neu positioniert und die aktuelle Zeile in die nächste Zeile in der <b>Tabelle</b>, wenn eine nächste Zeile vorhanden. GetArray arbeitet als würde <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> ist n Mal aufgerufen.</para>
+          <para>Die Werte in den Spalten Spalten in der <b>Tabelle</b>zugeordnet und werden daher durch das Format des der Name der Eigenschaft für die Spalte verwendet bestimmt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Faktoren beeinflussen die Darstellung von Eigenschaftswerten in der Tabelle und Sicht Klassen</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNextRow">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Row GetNextRow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Row GetNextRow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNextRow () As Row" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Row ^ GetNextRow();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Row</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Verschiebt die aktuelle Zeile in die nächste Zeile in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> und ruft diese Zeile in der <b>Tabelle</b>.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> -Objekt, das die nächste gültige Zeile in der <b>Tabelle</b> darstellt, wenn zusätzliche Zeilen verfügbar sind. Wenn keine weiteren Zeilen vorhanden sind (wobei <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> ist <b>True</b>), <b>GetNextRow</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRowCount">
+      <MemberSignature Language="C#" Value="public int GetRowCount ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetRowCount() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.GetRowCount" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRowCount () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetRowCount();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Ruft die Anzahl der Zeilen in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
+        <returns>Eine <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Anzahl der Zeilen in der Tabelle darstellt.</returns>
+        <remarks>
+          <para>
+            <b>GetRowCount</b> für eine große Tabelle führt zu einer leistungsbeeinträchtigung.  Aufgrund von Einschränkungen MAPI (beispielsweise Speicherkapazität für große Tabellen, gleichzeitige Vorgänge in der <b>Tabelle</b>) <b>GetRowCount</b> möglicherweise nicht die Anzahl der Zeilen in der <b>Tabelle</b>ermitteln oder nur nur eine ungefähre Zeile zurückgeben Count. In diesen Fällen wird <b>GetRowCount</b> einen Fehler zurück. Sie sollten entsprechenden Fehlersuche für <b>GetRowCount</b> verwenden, um festzustellen, ob der Anruf einen Fehler zurückgibt.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToStart">
+      <MemberSignature Language="C#" Value="public void MoveToStart ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MoveToStart() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveToStart ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveToStart();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64286)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Verschiebt die aktuelle Zeile des der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> genau vor die erste Zeile der <b>Tabelle</b>.</summary>
+        <remarks>
+          <para>
+            <b>MoveToStart</b> entspricht der <b>Tabelle</b>zurücksetzen. Wenn Sie aufrufen <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> nach dem Aufruf von <b>MoveToStart</b>zurückgegebenen Sie eine Zeile, die die erste Zeile in der <b>Tabelle</b>darstellt.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt das übergeordnete <b>Objekt</b> zurück, der die <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Table Restrict (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Table Restrict([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Restrict (Filter As String) As Table" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Table ^ Restrict(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Table</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">Gibt die Kriterien für Zeilen im <b>Table</b> -Objekt an.</param>
+        <summary>Wendet einen Filter auf die Zeilen in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> und ein neues <b>Table</b> -Objekt abgerufen werden sollen.</summary>
+        <returns>Ein <b>Table</b> -Objekt, das durch Anwenden zurückgegeben wird <paramref name="Filter" /> auf die Zeilen im übergeordneten <b>Table</b> -Objekt.</returns>
+        <remarks>
+          <para>Sie können nur <b>Table.Restrict</b> verwenden, um einen weiteren Filter zu dieser <b>Tabelle</b> gelten, wenn das übergeordnete Objekt der <b>Tabelle</b> ist eine <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt. Wenn das übergeordnete Objekt ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> -Objekts, <b>Restrict</b> gibt einen Fehler zurück.</para>
+          <para>Seit der Filter auf die Zeilen im Table-Objekt angewendet wird, dies entspricht dem Anwenden eines Filters, der ein logisches AND <paramref name="Filter" /> und alle vorherigen Filter auf die gleiche <b>Tabelle</b> -Objekt angewendet.</para>
+          <para>
+            <paramref name="Filter" /> ist eine Abfrage für die angegebenen Eigenschaften von Elementen, die die Zeilen in der übergeordneten <b>Tabelle</b>dargestellt werden. Die Abfrage verwendet die Microsoft Jet-Syntax oder die Syntax DAV Searching and Locating (DASL). Beispielsweise den folgenden Jet-Filter und DASL-Filter angeben die gleichen Kriterien für Elemente mit <b>LastModificationTime</b> älter als 3:30 Uhr am 12. Juni 2005:</para>
+          <para>Kriterien = "[LastModificationTime] &lt; '" &amp; $-Format ("6/12 / 2005 15:30 Uhr allgemeine Datum "," ") &amp; "'"</para>
+          <para>Kriterien =" @SQL = " &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34) &amp; " &lt; ' " &amp; formatieren$ (" 6/12/2005 15:30 Uhr allgemeine Datum "," ") &amp; "'" </para>
+          <para>Weitere Informationen zum Angeben von Filtern für das <b>Table</b> -Objekt finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
+          <para>Wenn <paramref name="Filter" /> enthält benutzerdefinierte Eigenschaften müssen diese Eigenschaften im übergeordneten Ordner des <b>Table</b> -Objekts in vorhanden Reihenfolge für die Einschränkung ordnungsgemäß funktioniert.  Bestimmte Eigenschaften werden in einem <b>Table</b> -Filter, einschließlich binäre Eigenschaften, berechnete Eigenschaften und HTML- oder RTF-Textinhalte nicht unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Nicht unterstützte Eigenschaften in einem Table-Objekt oder Table-Filter</a></para>
+          <para>Wenn <paramref name="Filter" /> ist eine leere Zeichenfolge, <b>Restrict</b> ein <b>Table</b> -Objekt, das ist identisch mit der übergeordneten <b>Table</b> -Objekt zurückgibt.  </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Table.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public void Sort (string SortProperty, object Descending);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]string SortProperty, [in]object Descending) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sort (SortProperty As String, Optional Descending As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SortProperty" Type="System.String" />
+        <Parameter Name="Descending" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SortProperty">Gibt die Eigenschaft zu verwenden, um die Zeilen der <b>Tabelle</b> zu sortieren.</param>
+        <param name="Descending">Ob die <b>Tabelle</b> in absteigender Reihenfolge zu sortieren.</param>
+        <summary>Sortiert die Zeilen der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> durch die Eigenschaft im angegebenen <paramref name="SortProperty" /> und setzt die aktuelle Zeile genau vor die erste Zeile in der <b>Tabelle</b>.</summary>
+        <remarks>
+          <para>
+            <paramref name="SortProperty" /> kann eine beliebige explizite integrierte Eigenschaft oder benutzerdefinierte Eigenschaft, mit Ausnahme binärer und mehrwertiger Eigenschaften sein. Die-Eigenschaft muss mithilfe ihres expliziten Zeichenfolgennamens verwiesen werden; Es kann nicht mithilfe von Namespaces verwiesen werden. Weitere Informationen zum Angeben von Sortiereigenschaften finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Sortieren von Elementen in einem Ordner</a></para>
+          <para>Sortieren der Tabelle entspricht dem Aufrufen einer <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> Methode. Der Mauszeiger wird an den Anfang der Tabelle positioniert.  </para>
+          <para>Wenn <b>Table.Sort</b> und dann <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> aufgerufen werden, die gefilterten Elemente in der neuen <b>Tabelle</b> sortiert werden sollen mit der gleichen <paramref name="SortProperty" /> und <paramref name="SortOrder" />.</para>
+          <para>
+            <b>Table.Sort</b> unterstützt nur das Sortieren nach einer einzelnen Spalte.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

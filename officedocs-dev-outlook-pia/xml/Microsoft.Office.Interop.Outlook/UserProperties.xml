@@ -1,0 +1,330 @@
+<Type Name="UserProperties" FullName="Microsoft.Office.Interop.Outlook.UserProperties">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d3a7c0f8bc2420670a3ec194bc7e78528d011617" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20637184" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface UserProperties : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserProperties implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Interface UserProperties&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class UserProperties : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0006303D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enthält <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekten, die die benutzerdefinierten Eigenschaften eines Outlook-Elements darstellen.</summary>
+    <remarks>
+      <para>Verwenden Sie die <b>UserProperties</b> -Eigenschaft, um das <b>UserProperties</b> -Objekt für ein Outlook-Element zurückzugeben. Dies gilt für alle Outlook-Elemente, außer für die <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" />.</para>
+      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> -Methode zum Erstellen einer neuen <b>UserProperty</b> für ein Element, und fügen Sie sie auf das <b>UserProperties</b> -Objekt. Die <b>Add</b> -Methode können Sie einen Namen und den Typ für die neue Eigenschaft angeben. Wenn Sie eine neue Eigenschaft erstellen, kann auch hinzugefügt werden als ein benutzerdefiniertes Feld in den Ordner mit dem Element (mit dem gleichen Namen wie die-Eigenschaft) durch Festlegen der <paramref name="AddToFolderFields" /> Parameter auf <b>true fest,</b> Wenn die <b>Add</b> -Methode aufrufen. Dieses Feld kann dann als Spalte im Ordneransichten verwendet werden. </para>
+      <para>Verwendung <b>UserProperties</b>(<paramref name="index" />), wobei <paramref name="index" /> ist ein Name oder Indexnummer 1 beginnenden zur Rückgabe eines einzelnen <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekt.</para>
+      <para>Können Sie die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekts zum Abrufen und überprüfen Sie die Definitionen benutzerdefinierter Eigenschaften auf Elementebene, die ein Ordner in einer Ansicht angezeigt werden kann.</para>
+      <para>Zum Abrufen oder Festlegen der mehrere benutzerdefinierte Eigenschaften, verwenden Sie das <b>PropertyAccessor</b> -Objekt anstelle von der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> -Objekt für eine bessere Leistung.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.UserProperty Add (string Name, Microsoft.Office.Interop.Outlook.OlUserPropertyType Type, object AddToFolderFields, object DisplayFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.UserProperty Add([in]string Name, [in]valuetype Microsoft.Office.Interop.Outlook.OlUserPropertyType Type, [in]object AddToFolderFields, [in]object DisplayFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Name As String, Type As OlUserPropertyType, Optional AddToFolderFields As Object, Optional DisplayFormat As Object) As UserProperty" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Type" Type="Microsoft.Office.Interop.Outlook.OlUserPropertyType" />
+        <Parameter Name="AddToFolderFields" Type="System.Object" />
+        <Parameter Name="DisplayFormat" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Der Name der Eigenschaft. Die Höchstlänge beträgt 64 Zeichen. Die Zeichen , ' [', ']', '_' und '#', sind im Namen nicht zulässig.</param>
+        <param name="Type">Der Typ der neuen Eigenschaft.</param>
+        <param name="AddToFolderFields">
+          <b>True</b>, wenn die Eigenschaft dem Ordner, in dem sich das Element befindet, als benutzerdefiniertes Feld hinzugefügt werden soll. Dieses Feld kann in der Ordneransicht angezeigt werden. <b>False</b>, wenn die Eigenschaft als benutzerdefiniertes Feld zum Element hinzugefügt wird, jedoch nicht zum Ordner. Der Standardwert ist <b>True</b>.</param>
+        <param name="DisplayFormat">Gibt an, wie die-Eigenschaft in der Outlook-Benutzeroberfläche angezeigt wird. Dieser Parameter kann auf einen Wert festgelegt werden, von einem mehrere verschiedene Enumerationen, durch den Eigenschaftstyp in angegebenen bestimmt die <paramref name="Type" /> Parameter. Weitere Informationen zum <paramref name="Type" /> und <paramref name="DisplayFormat" /> interagieren, finden Sie unter <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.DisplayFormat" />.</param>
+        <summary>Erstellt eine neue Benutzereigenschaft in der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> Auflistung.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekt, das die neue Eigenschaft darstellt.</returns>
+        <remarks>
+          <para>Definieren benutzerdefinierter Eigenschaften können durch Aufrufen von entweder die <b>UserProperties.Add</b> -Methode für ein Outlook-Element oder eines Ordners oder die <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> -Methode für einen Ordner.</para>
+          <para>Können Sie eine Eigenschaft eines Typs, der durch die definierten Erstellen der <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> -Enumeration zurück, mit Ausnahme der folgenden Typen: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, und <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
+          <para>Verwenden, um zum ersten Mal eine mithilfe der <b>Add</b> -Methode erstellte Eigenschaft festzulegen, die <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekts anstelle von der <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> oder <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt.</para>
+          <para>, Wenn Sie eine benutzerdefinierte Eigenschaft für ein Element anzeigen möchten, müssen Sie die <b>UserProperties.Add</b> -Methode verwenden, um diese Eigenschaft zu erstellen. Benutzerdefinierte Eigenschaften, erstellt das <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> werden in einer benutzerdefinierten Ansicht nicht unterstützt.</para>
+          <para>Office-Dokumentelementen wie Word, Excel oder PowerPoint-Dateien benutzerdefinierte Eigenschaften hinzugefügt werden kann. Sie erhalten einen Fehler, wenn Sie versuchen, ein benutzerdefiniertes Feld zum programmgesteuerten Hinzufügen einer <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> -Objekt.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserProperties.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserProperties.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserProperties.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.UserProperty Find (string Name, object Custom);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.UserProperty Find([in]string Name, [in]object Custom) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.UserProperties.Find(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (Name As String, Optional Custom As Object) As UserProperty" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Custom" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Der Name der angeforderten Eigenschaft.</param>
+        <param name="Custom">
+          <b>True,</b> Wenn die benutzerdefinierte Eigenschaften für das Element gesucht werden soll, <b>False,</b> Wenn integrierten Eigenschaften gesucht werden soll.</param>
+        <summary>Sucht und gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekts für den angeforderten Eigenschaftsnamen, falls vorhanden.</summary>
+        <returns>Wenn Sie <b>UserProperties.Find</b> verwenden, um nach einer benutzerdefinierten Eigenschaft suchen und der Aufruf erfolgreich ist, wird ein <b>UserProperty</b> -Objekt zurückgegeben. Wenn der Aufruf fehlschlägt, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben. Wenn Sie eine integrierte Eigenschaft gesucht <b>UserProperties.Find</b> verwenden, geben Sie <b>False</b> für die <paramref name="Custom" /> Parameter. Wenn der Aufruf erfolgreich ist, wird die Eigenschaft als ein <b>UserProperty</b> -Objekt zurückgegeben. Wenn der Aufruf fehlschlägt, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben. Wenn Sie <b>True</b> für angeben <paramref name="Custom" />, der Anruf wird die integrierte Eigenschaft nicht gefunden, und kehren <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</returns>
+        <remarks>
+          <para>Wenn <paramref name="Custom" /> Parameter den Wert <b>True</b>hat, werden nur benutzerdefinierte Benutzereigenschaften gesucht werden. Der Standardwert ist <b>True</b>. Geben Sie zum Suchen einer nicht benutzerdefinierten Eigenschaft wie <b>Betreff</b>, <paramref name="Custom" /> Parameter angegebenen Steuerelements als <b>False</b>; andernfalls gibt <b>nichts</b>zurück.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.UserProperty this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.UserProperty Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserProperties.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As UserProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::UserProperty ^ default[System::Object ^] { Microsoft::Office::Interop::Outlook::UserProperty ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.UserProperty</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Entweder der bei 1 beginnende Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</param>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> Objekt aus der Auflistung.</summary>
+        <value>Ein <b>UserProperty</b> -Objekt, das das angegebene Objekt darstellt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserProperties.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.UserProperties.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Der 1-basierte Indexwert des Objekts in der Auflistung.</param>
+        <summary>Entfernt ein Objekt aus der Auflistung.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.UserProperties.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

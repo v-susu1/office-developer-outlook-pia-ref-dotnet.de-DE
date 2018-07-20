@@ -1,0 +1,45 @@
+<Type Name="ReportItem" FullName="Microsoft.Office.Interop.Outlook.ReportItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e769837be4af43c739696f9ab745b17f52a5efa1" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636888" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ReportItem : Microsoft.Office.Interop.Outlook._ReportItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReportItem implements class Microsoft.Office.Interop.Outlook._ReportItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReportItem" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ReportItem&#xA;Implements _ReportItem, ItemEvents_10_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ReportItem : Microsoft::Office::Interop::Outlook::_ReportItem, Microsoft::Office::Interop::Outlook::ItemEvents_10_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._ReportItem</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ItemEvents_10_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.ReportItemClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063026-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Stellt einen Nachrichtenübermittlungsbericht in einem Ordner Posteingang dar.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._ReportItem" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Das <b>ReportItem</b> -Objekt entspricht einer <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekt, und es enthält einen Bericht (normalerweise einen Unzustellbarkeitsbericht) oder eine Fehlermeldung von dem e-Mail-Transportsystem.</para>
+      <para>Im Gegensatz zu anderen Microsoft Outlook-Objekten dieses Objekt kann nicht erstellt. Berichtselemente werden automatisch erstellt, wenn beliebiger Bericht oder Fehler im Allgemeinen aus dem e-Mail-Transportsystem eingeht.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

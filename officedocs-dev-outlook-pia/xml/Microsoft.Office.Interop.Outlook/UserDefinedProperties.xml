@@ -1,0 +1,44 @@
+<Type Name="UserDefinedProperties" FullName="Microsoft.Office.Interop.Outlook.UserDefinedProperties">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="da21376cbb15da7fd810aa367023cac1dc889036" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636010" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface UserDefinedProperties : Microsoft.Office.Interop.Outlook._UserDefinedProperties" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UserDefinedProperties implements class Microsoft.Office.Interop.Outlook._UserDefinedProperties" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.UserDefinedProperties" />
+  <TypeSignature Language="VB.NET" Value="Public Interface UserDefinedProperties&#xA;Implements _UserDefinedProperties" />
+  <TypeSignature Language="C++ CLI" Value="public interface class UserDefinedProperties : Microsoft::Office::Interop::Outlook::_UserDefinedProperties" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook._UserDefinedProperties</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Outlook.UserDefinedPropertiesClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063047-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Enthält eine Reihe von <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> -Objekten, die für die definierten benutzerdefinierten Eigenschaften darstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt.</summary>
+    <remarks>
+      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._UserDefinedProperties" />. </para>
+      <para>Die Elemente der <b>UserDefinedProperties</b> -Auflistung entsprechen den Feldern unter Benutzerdefinierte Ordnerfelder, die Sie im Dialogfeld Felder anzeigen möchten.</para>
+      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> Eigenschaft, um das <b>UserDefinedProperties</b> -Objekt aus einem <b>Ordner</b> -Objekt abzurufen.</para>
+      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> -Methode zum Definieren und Hinzufügen einer benutzerdefinierten Eigenschaft an, und die <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Remove(System.Int32)" /> -Methode, um eine vorhandene benutzerdefinierte Eigenschaft aus zu entfernen, der <b>UserDefinedProperties</b> -Auflistung. Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Item(System.Object)" /> (<b>diese</b> in c#) Eigenschaft abzurufenden nach Name oder Index, oder die <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Find(System.String)" /> Methode zum Suchen und Abrufen von durch den Namen, ein <b>UserDefinedProperty</b> -Objekt aus der <b>UserDefinedProperties</b> -Auflistung. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._UserDefinedProperties.Refresh" /> -Methode, um der <b>UserDefinedProperties</b> -Auflistung aus dem Speicher erneut zu laden.</para>
+      <para>Der <b>UserDefinedProperties</b> -Auflistung enthält nur die Definitionen der benutzerdefinierten Eigenschaften, die für alle Outlook-Elemente im Ordner enthaltenen sind. Verwenden Sie zum Abrufen oder Ändern der Eigenschaftswerte für ein Outlook-Element in dem Ordner, der <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.UserProperties" /> -Eigenschaft des Outlook-Elements, wie eine <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> Objekte, die zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> -Auflistung für das Element. Sie können dann mithilfe der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekt für die entsprechende benutzerdefinierte Eigenschaft zum Abrufen oder ändern Sie den Wert dieser Eigenschaft für das Outlook-Element benutzerdefinierte.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

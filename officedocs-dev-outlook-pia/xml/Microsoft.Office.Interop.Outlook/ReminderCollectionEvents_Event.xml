@@ -1,0 +1,177 @@
+<Type Name="ReminderCollectionEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="82f7e87f4a7c31c6fea7961afdea6e402f53ccb4" />
+    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="de-DE" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20636666" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ReminderCollectionEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReminderCollectionEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ReminderCollectionEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ReminderCollectionEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Outlook.ReminderCollectionEvents), typeof(Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Hierbei handelt es sich um eine .NET-Schnittstelle, die bei der Verarbeitung einer COM-CoClass erstellt wurde, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Diese Schnittstelle implementiert alle Ereignisse früherer Schnittstelle und alle zusätzlichen neuen Ereignisse. Verwenden Sie diese Schnittstelle nur, wenn das Ereignis, das Sie verwenden möchten, den gleichen Namen aufweist wie eine Methode des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um eine Verbindung zum Ereignis herzustellen, und casten Sie zur primären Schnittstelle, um die Methode aufzurufen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeReminderShow">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_BeforeReminderShowEventHandler BeforeReminderShow;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_BeforeReminderShowEventHandler BeforeReminderShow" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event.BeforeReminderShow" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeReminderShow As ReminderCollectionEvents_BeforeReminderShowEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ReminderCollectionEvents_BeforeReminderShowEventHandler ^ BeforeReminderShow;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_BeforeReminderShowEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, bevor das Dialogfeld Erinnerung angezeigt wird.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderAdd">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderAddEventHandler ReminderAdd;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderAddEventHandler ReminderAdd" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event.ReminderAdd" />
+      <MemberSignature Language="VB.NET" Value="Event ReminderAdd As ReminderCollectionEvents_ReminderAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ReminderCollectionEvents_ReminderAddEventHandler ^ ReminderAdd;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, nachdem eine Erinnerung hinzugefügt wurde.</summary>
+        <remarks>
+          <para>Eine Erinnerung wird erst dann tatsächlich erstellt das zugeordnete Microsoft Outlook-Element gespeichert wurde. Daher tritt dieses Ereignis nicht, bis das zugeordnete Objekt gespeichert wurde.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderChangeEventHandler ReminderChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderChangeEventHandler ReminderChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event.ReminderChange" />
+      <MemberSignature Language="VB.NET" Value="Event ReminderChange As ReminderCollectionEvents_ReminderChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ReminderCollectionEvents_ReminderChangeEventHandler ^ ReminderChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, nachdem eine Erinnerung geändert wurde.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderFire">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderFireEventHandler ReminderFire;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderFireEventHandler ReminderFire" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event.ReminderFire" />
+      <MemberSignature Language="VB.NET" Value="Event ReminderFire As ReminderCollectionEvents_ReminderFireEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ReminderCollectionEvents_ReminderFireEventHandler ^ ReminderFire;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderFireEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, bevor die Erinnerung ausgeführt wird.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderRemove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderRemoveEventHandler ReminderRemove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderRemoveEventHandler ReminderRemove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event.ReminderRemove" />
+      <MemberSignature Language="VB.NET" Value="Event ReminderRemove As ReminderCollectionEvents_ReminderRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ReminderCollectionEvents_ReminderRemoveEventHandler ^ ReminderRemove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_ReminderRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt auf, wenn eine <see cref="T:Microsoft.Office.Interop.Outlook.Reminder" /> -Objekt aus der Auflistung entfernt wurde.</summary>
+        <remarks>
+          <para>Eine Erinnerung kann eine der folgenden Arten aus der <b>Reminders</b> -Auflistung entfernt werden:</para>
+          <list type="bullet">
+            <item>
+              <para>Remove-Methode der Reminders-Auflistung.</para>
+            </item>
+            <item>
+              <para>-Methode des Reminder-Objekts Dismiss.</para>
+            </item>
+            <item>
+              <para>Wenn der Benutzer auf die Schaltfläche Dismiss klickt.</para>
+            </item>
+            <item>
+              <para>Bei einer besprechungserinnerung von innerhalb der zugeordneten Objekt ein Benutzers deaktiviert.</para>
+            </item>
+            <item>
+              <para>Wenn ein Benutzer löscht ein Element, das eine Erinnerung enthält.</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Snooze">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_SnoozeEventHandler Snooze;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_SnoozeEventHandler Snooze" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event.Snooze" />
+      <MemberSignature Language="VB.NET" Value="Event Snooze As ReminderCollectionEvents_SnoozeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Outlook::ReminderCollectionEvents_SnoozeEventHandler ^ Snooze;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_SnoozeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Tritt ein, wenn eine Erinnerung mithilfe der Schaltfläche Erneut erinnern geschlossen wird.</summary>
+        <remarks>
+          <para>Dieses Ereignis wird ausgelöst, wenn die <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> -Methode ausgeführt wird, oder wenn der Benutzer auf die Schaltfläche erneut erinnern klickt.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
