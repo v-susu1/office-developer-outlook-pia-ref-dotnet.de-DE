@@ -1,13 +1,5 @@
 <Type Name="AccountRuleCondition" FullName="Microsoft.Office.Interop.Outlook.AccountRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ab2fb2ad4de1c8d3c092db9fdff8bb6ff1786c7d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637378" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AccountRuleCondition : Microsoft.Office.Interop.Outlook._AccountRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4ae3dafc45df9984f8fe87f23dbff4114265c1e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899887" /></Metadata><TypeSignature Language="C#" Value="public interface AccountRuleCondition : Microsoft.Office.Interop.Outlook._AccountRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AccountRuleCondition implements class Microsoft.Office.Interop.Outlook._AccountRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface AccountRuleCondition&#xA;Implements _AccountRuleCondition" />
@@ -30,30 +22,13 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="c1349-101">Stellt eine regelbedingung, die auswertet, ob ein Konto zum Senden einer Nachricht verwendet wurde.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c1349-101">Represents a rule condition that evaluates whether an account was used to send a message.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="c1349-102">
-        <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._AccountRuleCondition" />.</para>
-        <para>
-          <b>AccountRuleCondition</b> abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt. Jede Regel zugeordnet ist ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> -Objekt das besitzt eine <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Account" /> Eigenschaft. Die <b>Konto</b> -Eigenschaft gibt immer ein <b>AccountRuleCondition</b> -Objekt zurück. Wenn die Regel Bedingung aktiviert ist, die die Nachricht gesendet wird mithilfe eines bestimmten Kontos, klicken Sie dann <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /><b>true</b>.</para>
-        <para>Weitere Informationen zum Angeben von Regelaktionen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="c1349-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._AccountRuleCondition" />.</para>
-          <para>
-            <b>AccountRuleCondition</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object. Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> object which has an <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Account" /> property. The <b>Account</b> property always returns a <b>AccountRuleCondition</b> object. If the rule has an enabled rule condition that the message is sent using a specified account, then <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> would be <b>True</b>.</para>
-          <para>For more information on specifying rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="d5d90-101">Stellt eine regelbedingung, die auswertet, ob ein Konto zum Senden einer Nachricht verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="d5d90-101">Represents a rule condition that evaluates whether an account was used to send a message.</span></span></summary>
+    <remarks><para><span data-ttu-id="d5d90-102">Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="d5d90-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="d5d90-103">Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="d5d90-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="d5d90-104">Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="d5d90-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="d5d90-105">Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt.</span><span class="sxs-lookup"><span data-stu-id="d5d90-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="d5d90-106">Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._AccountRuleCondition" />.</span><span class="sxs-lookup"><span data-stu-id="d5d90-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._AccountRuleCondition" />.</span></span></para>
+      <para><span data-ttu-id="d5d90-107">
+        <b>AccountRuleCondition</b> abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="d5d90-107">
+        <b>AccountRuleCondition</b> is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> object.</span></span> <span data-ttu-id="d5d90-108">Jede Regel zugeordnet ist ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> -Objekt das besitzt eine <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Account" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="d5d90-108">Each rule is associated with a <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> object which has an <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Account" /> property.</span></span> <span data-ttu-id="d5d90-109">Die <b>Konto</b> -Eigenschaft gibt immer ein <b>AccountRuleCondition</b> -Objekt zurück.</span><span class="sxs-lookup"><span data-stu-id="d5d90-109">The <b>Account</b> property always returns a <b>AccountRuleCondition</b> object.</span></span> <span data-ttu-id="d5d90-110">Wenn die Regel Bedingung aktiviert ist, die die Nachricht gesendet wird mithilfe eines bestimmten Kontos, klicken Sie dann <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> <b>true</b>.</span><span class="sxs-lookup"><span data-stu-id="d5d90-110">If the rule has an enabled rule condition that the message is sent using a specified account, then <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> would be <b>True</b>.</span></span></para>
+      <para><span data-ttu-id="d5d90-111">Weitere Informationen zum Angeben von Regelaktionen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></span><span class="sxs-lookup"><span data-stu-id="d5d90-111">For more information on specifying rule actions, see <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Specifying Rule Conditions</a></span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

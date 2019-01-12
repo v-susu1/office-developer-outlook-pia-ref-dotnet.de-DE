@@ -1,13 +1,5 @@
 <Type Name="ItemsEvents_Event" FullName="Microsoft.Office.Interop.Outlook.ItemsEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c65291c20f628cc554d12112dfcb9d27603f7631" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635592" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f8986b9deb17b08fe9f3e94f0e21ab2254f077a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897804" /></Metadata><TypeSignature Language="C#" Value="public interface ItemsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemsEvents_Event" />
@@ -29,12 +21,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="6ecb3-p101">Hierbei handelt es sich um eine .NET-Schnittstelle, die bei der Verarbeitung einer COM-CoClass erstellt wurde, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Diese Schnittstelle implementiert alle Ereignisse früherer Schnittstelle und alle zusätzlichen neuen Ereignisse. Verwenden Sie diese Schnittstelle nur, wenn das Ereignis, das Sie verwenden möchten, den gleichen Namen aufweist wie eine Methode des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um eine Verbindung zum Ereignis herzustellen, und casten Sie zur primären Schnittstelle, um die Methode aufzurufen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="6ecb3-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="87d2d-p101">Hierbei handelt es sich um eine .NET-Schnittstelle, die bei der Verarbeitung einer COM-CoClass erstellt wurde, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Diese Schnittstelle implementiert alle Ereignisse früherer Schnittstelle und alle zusätzlichen neuen Ereignisse. Verwenden Sie diese Schnittstelle nur, wenn das Ereignis, das Sie verwenden möchten, den gleichen Namen aufweist wie eine Methode des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um eine Verbindung zum Ereignis herzustellen, und casten Sie zur primären Schnittstelle, um die Methode aufzurufen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="87d2d-p101">This is a .NET interface created when processing a COM coclass that is required by managed code for interoperability with the corresponding COM object. This interface implements all events of earlier interfaces and any additional new events. Use this interface only when the event you want to use shares the same name as a method of the COM object; in this case, cast to this interface to connect to the event, and cast to the primary interface to call the method. Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -53,16 +40,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemAddEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6ecb3-105">Tritt ein, wenn ein oder mehrere Elemente zur angegebenen Auflistung hinzugefügt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6ecb3-105">Occurs when one or more items are added to the specified collection.</span>
-          </span>
-          <span data-ttu-id="6ecb3-106">Dieses Ereignis wird nicht ausgeführt, wenn eine große Anzahl von Elementen gleichzeitig zum Ordner hinzugefügt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6ecb3-106">This event does not run when a large number of items are added to the folder at once.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="87d2d-105">Tritt ein, wenn ein oder mehrere Elemente zur angegebenen Auflistung hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="87d2d-105">Occurs when one or more items are added to the specified collection.</span></span> <span data-ttu-id="87d2d-106">Dieses Ereignis wird nicht ausgeführt, wenn eine große Anzahl von Elementen gleichzeitig zum Ordner hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="87d2d-106">This event does not run when a large number of items are added to the folder at once.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,12 +59,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6ecb3-107">Tritt ein, wenn ein Element in der angegebenen Auflistung geändert wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6ecb3-107">Occurs when an item in the specified collection is changed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="87d2d-107">Tritt ein, wenn ein Element in der angegebenen Auflistung geändert wird.</span><span class="sxs-lookup"><span data-stu-id="87d2d-107">Occurs when an item in the specified collection is changed.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -105,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemsEvents_ItemRemoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="6ecb3-108">Tritt ein, wenn ein Element aus der angegebenen Auflistung gelöscht wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6ecb3-108">Occurs when an item is deleted from the specified collection.</span>
-          </span>
-          <span data-ttu-id="6ecb3-109">Dieses Ereignis wird nicht ausgeführt, wenn das letzte Element in einer Persönliche Ordner-Datei (PST) gelöscht wird oder wenn 16 oder mehr Elemente gleichzeitig aus einer PST-Datei, Microsoft Exchange-Postfach oder einen öffentlichen Exchange-Ordner gelöscht werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="6ecb3-109">This event does not run when the last item in  a Personal Folders file (.pst) is deleted, or if 16 or more items are deleted  at once from a PST file, Microsoft Exchange mailbox, or an Exchange public folder.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="87d2d-108">Tritt ein, wenn ein Element aus der angegebenen Auflistung gelöscht wird.</span><span class="sxs-lookup"><span data-stu-id="87d2d-108">Occurs when an item is deleted from the specified collection.</span></span> <span data-ttu-id="87d2d-109">Dieses Ereignis wird nicht ausgeführt, wenn das letzte Element in einer Persönliche Ordner-Datei (PST) gelöscht wird oder wenn 16 oder mehr Elemente gleichzeitig aus einer PST-Datei, Microsoft Exchange-Postfach oder einen öffentlichen Exchange-Ordner gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="87d2d-109">This event does not run when the last item in  a Personal Folders file (.pst) is deleted, or if 16 or more items are deleted  at once from a PST file, Microsoft Exchange mailbox, or an Exchange public folder.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

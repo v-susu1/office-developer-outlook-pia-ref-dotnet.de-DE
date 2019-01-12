@@ -1,13 +1,5 @@
 <Type Name="_NameSpace" FullName="Microsoft.Office.Interop.Outlook._NameSpace">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="180db45f39b12a2e4725cdddcd3cc5780306b7d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635942" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NameSpace" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="180db45f39b12a2e4725cdddcd3cc5780306b7d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897220" /></Metadata><TypeSignature Language="C#" Value="public interface _NameSpace" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NameSpace" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NameSpace" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NameSpace" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="e8ced-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e8ced-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="e8ced-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e8ced-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="e8ced-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e8ced-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="e8ced-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="e8ced-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="349cc-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="349cc-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="349cc-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="349cc-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="349cc-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="349cc-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="349cc-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,29 +45,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Accounts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> -Auflistungsobjekt, das alle darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> Objekte im aktuellen Profil.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> objects in the current profile.</span>
-          </span>
-          <span data-ttu-id="e8ced-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> -Auflistungsobjekt, das alle darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> Objekte im aktuellen Profil.</span><span class="sxs-lookup"><span data-stu-id="349cc-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> objects in the current profile.</span></span> <span data-ttu-id="349cc-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-106">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-107">
-            <para>Wenn Outlook im sitzungslosen Modus ausgeführt wird, gibt <b>Accounts</b> eine <b>Accounts</b> -Auflistung mit <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> gleich 0.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-107">
-              <para>If Outlook is running in sessionless mode, <b>Accounts</b> returns an <b>Accounts</b> collection with <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> equal to 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-107">Wenn Outlook im sitzungslosen Modus ausgeführt wird, gibt <b>Accounts</b> eine <b>Accounts</b> -Auflistung mit <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> gleich 0.</span><span class="sxs-lookup"><span data-stu-id="349cc-107">If Outlook is running in sessionless mode, <b>Accounts</b> returns an <b>Accounts</b> collection with <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> equal to 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressLists">
@@ -118,29 +74,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressLists</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-108">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" /> Auflistung, das eine Auflistung der Adresse darstellt Adresslisten für diese Sitzung zur Verfügung steht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />  collection representing a collection of the address lists available for this session.</span>
-          </span>
-          <span data-ttu-id="e8ced-109">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-108">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" /> Auflistung, das eine Auflistung der Adresse darstellt Adresslisten für diese Sitzung zur Verfügung steht.</span><span class="sxs-lookup"><span data-stu-id="349cc-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" />  collection representing a collection of the address lists available for this session.</span></span> <span data-ttu-id="349cc-109">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-109">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-110">
-            <para>Die <b>AddressLists</b> -Auflistung stellt den Stamm der Adressbuchhierarchie für die aktuelle Sitzung. Ein bestimmtes <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt stellt einen der verfügbaren Adressbücher dar. Die Art des Zugriffs, die Sie erhalten, hängt die Zugriffsberechtigungen von jedem einzelnen Adressbuchanbieter.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-110">
-              <para>The <b>AddressLists</b> collection represents the root of the address book hierarchy for the current session. A particular <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  object represents one of the available address books. The type of access you obtain depends on the access permissions granted to you by each individual address book provider.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-110">Die <b>AddressLists</b> -Auflistung stellt den Stamm der Adressbuchhierarchie für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="349cc-110">The <b>AddressLists</b> collection represents the root of the address book hierarchy for the current session.</span></span> <span data-ttu-id="349cc-111">Ein bestimmtes <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt stellt einen der verfügbaren Adressbücher dar.</span><span class="sxs-lookup"><span data-stu-id="349cc-111">A particular <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  object represents one of the available address books.</span></span> <span data-ttu-id="349cc-112">Die Art des Zugriffs, die Sie erhalten, hängt die Zugriffsberechtigungen von jedem einzelnen Adressbuchanbieter.</span><span class="sxs-lookup"><span data-stu-id="349cc-112">The type of access you obtain depends on the access permissions granted to you by each individual address book provider.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddStore">
@@ -166,30 +103,10 @@
         <Parameter Name="Store" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="e8ced-p104">Der Pfad der PST-Datei, die dem Profil hinzugefügt werden soll. Wenn die PST-Datei nicht vorhanden ist, wird sie von Microsoft Outlook erstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-p104">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-113">Fügt eine Datei für den Persönlichen Ordner (PST ) zum aktuellen Profil hinzu.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-113">Adds a Personal Folders (.pst) file to the current profile.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="e8ced-114">
-            <para>Verwenden Sie die <b>RemoveStore</b> -Methode, um eine PST-Datei zu entfernen, die einem Profil bereits hinzugefügt wird.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-114">
-              <para>Use the <b>RemoveStore</b> method to remove a .pst that is already added to a profile.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="349cc-p105">Der Pfad der PST-Datei, die dem Profil hinzugefügt werden soll. Wenn die PST-Datei nicht vorhanden ist, wird sie von Microsoft Outlook erstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-p105">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span></span></param>
+        <summary><span data-ttu-id="349cc-115">Fügt eine Datei für den Persönlichen Ordner (PST ) zum aktuellen Profil hinzu.</span><span class="sxs-lookup"><span data-stu-id="349cc-115">Adds a Personal Folders (.pst) file to the current profile.</span></span></summary>
+        <remarks><para><span data-ttu-id="349cc-116">Verwenden Sie die <b>RemoveStore</b> -Methode, um eine PST-Datei zu entfernen, die einem Profil bereits hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-116">Use the <b>RemoveStore</b> method to remove a .pst that is already added to a profile.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddStoreEx">
@@ -216,36 +133,11 @@
         <Parameter Name="Type" Type="Microsoft.Office.Interop.Outlook.OlStoreType" />
       </Parameters>
       <Docs>
-        <param name="Store">
-          <span data-ttu-id="e8ced-p105">Der Pfad der PST-Datei, die dem Profil hinzugefügt werden soll. Wenn die PST-Datei nicht vorhanden ist, wird sie von Microsoft Outlook erstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-p105">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="e8ced-117">Das Format, in dem die Datendatei erstellt werden sollte.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-117">The format in which the data file should be created.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-118">Fügt dem aktuellen Profil in dem angegebenen Format eine Persönliche Ordner-Datei (PST) hinzu.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-118">Adds a Personal Folders file (.pst) in the specified format to the current profile.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="e8ced-119">
-            <para>Verwenden Sie die Konstante <b>OlStoreUnicode</b> , um eine neue PST-Datei hinzuzufügen, die größere Speicherkapazität für Elemente und Ordner und mehrsprachige Unicode-Daten auf das Profil des Benutzers unterstützt. Die Konstante <b>OlStoreANSI</b> können Sie PST-Dateien zu erstellen, die keine vollständigen Unterstützung für mehrsprachige Unicode-Daten bereitstellen, aber mit früheren Versionen von Outlook kompatibel sind.  Die Konstante <b>OlStoreDefault</b> können Sie eine PST-Datei im Standardformat zu erstellen, die mit dem Postfachmodus kompatibel ist, in dem Outlook auf dem Microsoft Exchange Server ausgeführt wird.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-119">
-              <para>Use the <b>olStoreUnicode</b> constant to add a new .pst file that has greater storage capacity for items and folders and supports multilingual Unicode data, to the user's profile. The <b>olStoreANSI</b> constant allows you to create .pst files that do not provide full support for multilingual Unicode data, but are compatible with earlier versions of Outlook.  The <b>olStoreDefault</b> constant helps you create a .pst file in the default format that is compatible with the mailbox mode in which Outlook runs on the Microsoft Exchange Server.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Store"><span data-ttu-id="349cc-p106">Der Pfad der PST-Datei, die dem Profil hinzugefügt werden soll. Wenn die PST-Datei nicht vorhanden ist, wird sie von Microsoft Outlook erstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-p106">The path of the .pst file to be added to the profile. If the .pst file does not exist, Microsoft Outlook creates it.</span></span></param>
+        <param name="Type"><span data-ttu-id="349cc-119">Das Format, in dem die Datendatei erstellt werden sollte.</span><span class="sxs-lookup"><span data-stu-id="349cc-119">The format in which the data file should be created.</span></span></param>
+        <summary><span data-ttu-id="349cc-120">Fügt dem aktuellen Profil in dem angegebenen Format eine Persönliche Ordner-Datei (PST) hinzu.</span><span class="sxs-lookup"><span data-stu-id="349cc-120">Adds a Personal Folders file (.pst) in the specified format to the current profile.</span></span></summary>
+        <remarks><para><span data-ttu-id="349cc-121">Verwenden Sie die Konstante <b>OlStoreUnicode</b>, um eine neue PST-Datei hinzuzufügen, die größere Speicherkapazität für Elemente und Ordner und mehrsprachige Unicode-Daten auf das Profil des Benutzers unterstützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-121">Use the <b>olStoreUnicode</b> constant to add a new .pst file that has greater storage capacity for items and folders and supports multilingual Unicode data, to the user's profile.</span></span> <span data-ttu-id="349cc-122">Die Konstante <b>OlStoreANSI</b> können Sie PST-Dateien zu erstellen, die keine vollständigen Unterstützung für mehrsprachige Unicode-Daten bereitstellen, aber mit früheren Versionen von Outlook kompatibel sind.</span><span class="sxs-lookup"><span data-stu-id="349cc-122">The <b>olStoreANSI</b> constant allows you to create .pst files that do not provide full support for multilingual Unicode data, but are compatible with earlier versions of Outlook.</span></span>  <span data-ttu-id="349cc-123">Die Konstante <b>OlStoreDefault</b> können Sie eine PST-Datei im Standardformat zu erstellen, die mit dem Postfachmodus kompatibel ist, in dem Outlook auf dem Microsoft Exchange Server ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-123">The <b>olStoreDefault</b> constant helps you create a .pst file in the default format that is compatible with the mailbox mode in which Outlook runs on the Microsoft Exchange Server.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -271,16 +163,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-120">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="e8ced-121">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-121">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-124">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-124">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="349cc-125">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-125">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -308,16 +191,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-122">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> -Konstante, die den Typ der Verbindung mit dem Exchange-Server für den Auto-Discovery-Dienst angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-122">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to the Exchange server for auto-discovery service.</span>
-          </span>
-          <span data-ttu-id="e8ced-123">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-123">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-126">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> -Konstante, die den Typ der Verbindung mit dem Exchange-Server für den Auto-Discovery-Dienst angibt.</span><span class="sxs-lookup"><span data-stu-id="349cc-126">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlAutoDiscoverConnectionMode" /> constant that specifies the type of connection to the Exchange server for auto-discovery service.</span></span> <span data-ttu-id="349cc-127">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-127">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -345,31 +219,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-124">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die Informationen im XML-Code stellt aus den Auto-Discovery-Dienst eines Exchange-Servers abgerufen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-124">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of an Exchange server.</span>
-          </span>
-          <span data-ttu-id="e8ced-125">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-125">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-128">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die Informationen im XML-Code stellt aus den Auto-Discovery-Dienst eines Exchange-Servers abgerufen.</span><span class="sxs-lookup"><span data-stu-id="349cc-128">Returns a <b>String</b> (<b>string</b> in C#) that represents information in XML retrieved from the auto-discovery service of an Exchange server.</span></span> <span data-ttu-id="349cc-129">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-129">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-126">
-            <para>Zurückgegebenen XML-Zeichenfolge enthält Informationen zu verschiedenen Webdiensten (beispielsweise Verfügbarkeitsdienst und unified messaging-Dienst) und verfügbaren Server.  </para>
-            <para>Ein Fehler wird zurückgegeben, wenn das aktive Profil nicht über ein Konto für Microsoft Exchange Server 2007 oder höher enthält.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-126">
-              <para>The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.  </para>
-              <para>An error is returned if the active profile does not contain an account for Microsoft Exchange Server 2007 or later.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-130">Die zurückgegebene XML-Zeichenfolge enthält Informationen zu verschiedenen Webdiensten (z. B. zum Availability-Dienst und zum Unified Messaging-Dienst) sowie zu verfügbaren Servern.</span><span class="sxs-lookup"><span data-stu-id="349cc-130">The returned string of XML contains information about various Web services (for example, availability service and unified messaging service) and available servers.</span></span>  </para>
+          <para><span data-ttu-id="349cc-131">Wenn das aktive Profil nicht über ein Konto für Microsoft Exchange Server 2007 oder höher enthält, wird ein Fehler zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="349cc-131">An error is returned if the active profile does not contain an account for Microsoft Exchange Server 2007 or later.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -395,29 +249,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Categories</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-127">Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> -Objekt, das den Satz von darstellt <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> Objekte für den Namespace verfügbar.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-127">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> object that represents the set of <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objects available to the namespace.</span>
-          </span>
-          <span data-ttu-id="e8ced-128">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-132">Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> -Objekt, das den Satz von darstellt <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> Objekte für den Namespace verfügbar.</span><span class="sxs-lookup"><span data-stu-id="349cc-132">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> object that represents the set of <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> objects available to the namespace.</span></span> <span data-ttu-id="349cc-133">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="349cc-133">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-129">
-            <para>Diese Eigenschaft stellt die Hauptkategorienliste, das den Satz der <b>Category</b> -Objekte, auf die durch das <b>NameSpace</b> -Objekt enthaltenen Outlook-Elemente angewendet werden können, und gilt für alle Benutzer dieses Namespaces.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-129">
-              <para>This property represents the Master Category List, which is the set of <b>Category</b> objects that can be applied to Outlook items contained by the <b>NameSpace</b> object, and applies to all users of that namespace.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-134">Diese Eigenschaft stellt die Hauptkategorienliste, das den Satz der <b>Category</b> -Objekte, auf die durch das <b>NameSpace</b> -Objekt enthaltenen Outlook-Elemente angewendet werden können, und gilt für alle Benutzer dieses Namespaces.</span><span class="sxs-lookup"><span data-stu-id="349cc-134">This property represents the Master Category List, which is the set of <b>Category</b> objects that can be applied to Outlook items contained by the <b>NameSpace</b> object, and applies to all users of that namespace.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -443,16 +278,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-130">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-130">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="e8ced-131">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-131">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-135">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="349cc-135">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="349cc-136">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-136">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -481,44 +307,12 @@
         <Parameter Name="SecondEntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FirstEntryID">
-          <span data-ttu-id="e8ced-132">Die erste Eintrags-ID, die verglichen werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-132">The first entry ID to be compared.</span>
-          </span>
-        </param>
-        <param name="SecondEntryID">
-          <span data-ttu-id="e8ced-133">Die zweite Eintrags-ID, die verglichen werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-133">The second entry ID to be compared.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-134">Gibt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angibt, ob zwei Eintrags-ID-Werte auf dasselbe Outlook-Element beziehen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-134">Returns a <b>Boolean</b> value (<b>bool</b> in C#) that indicates if two entry ID values refer to the same Outlook item.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-135">
-            <b>True,</b> Wenn die Eintrags-ID-Werte auf dasselbe Outlook-Element beziehen. anderenfalls <b>False</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-135">
-              <b>True</b> if the entry ID values refer to the same Outlook item; otherwise, <b>False</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-136">
-            <para>Eintragsbezeichner können nicht direkt verglichen werden, da ein Objekt durch zwei unterschiedliche binäre Werte dargestellt werden kann. Verwenden Sie diese Methode, um festzustellen, ob zwei Eintragsbezeichner dasselbe Objekt darstellen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-136">
-              <para>Entry identifiers cannot be compared directly because one object can be represented by two different binary values. Use this method to determine whether two entry identifiers represent the same object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FirstEntryID"><span data-ttu-id="349cc-137">Die erste Eintrags-ID, die verglichen werden soll.</span><span class="sxs-lookup"><span data-stu-id="349cc-137">The first entry ID to be compared.</span></span></param>
+        <param name="SecondEntryID"><span data-ttu-id="349cc-138">Die zweite Eintrags-ID, die verglichen werden soll.</span><span class="sxs-lookup"><span data-stu-id="349cc-138">The second entry ID to be compared.</span></span></param>
+        <summary><span data-ttu-id="349cc-139">Gibt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angibt, ob zwei Eintrags-ID-Werte auf dasselbe Outlook-Element beziehen.</span><span class="sxs-lookup"><span data-stu-id="349cc-139">Returns a <b>Boolean</b> value (<b>bool</b> in C#) that indicates if two entry ID values refer to the same Outlook item.</span></span></summary>
+        <returns><span data-ttu-id="349cc-140"><b>True,</b> Wenn die Eintrags-ID-Werte auf dasselbe Outlook-Element beziehen. anderenfalls <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="349cc-140"><b>True</b> if the entry ID values refer to the same Outlook item; otherwise, <b>False</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-p113">Eintragsbezeichner lassen sich nicht direkt miteinander vergleichen, da ein Objekt durch zwei unterschiedliche binäre Werte dargestellt werden kann. Ermitteln Sie anhand dieser Methode, ob zwei Eintragsbezeichner dasselbe Objekt darstellen.</span><span class="sxs-lookup"><span data-stu-id="349cc-p113">Entry identifiers cannot be compared directly because one object can be represented by two different binary values. Use this method to determine whether two entry identifiers represent the same object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateContactCard">
@@ -543,153 +337,72 @@
         <Parameter Name="AddressEntry" Type="Microsoft.Office.Interop.Outlook.AddressEntry" />
       </Parameters>
       <Docs>
-        <param name="AddressEntry">
-          <span data-ttu-id="e8ced-137">Die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das den Benutzer darstellt, für den die Visitenkarte erstellt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-137">The <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the user for whom the contact card is to be created.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-138">Erstellt eine Instanz einer <see cref="T:Microsoft.Office.Core.ContactCard" /> -Objekt für den Kontakt, indem angegeben wird, die <paramref name="AddressEntry" /> Parameter.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-138">Creates an instance of a <see cref="T:Microsoft.Office.Core.ContactCard" /> object for the contact that is specified by the <paramref name="AddressEntry" /> parameter.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-139">Gibt ein <b>ContactCard</b> -Objekt, das für den angegebenen Benutzer erstellt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-139">Returns a <b>ContactCard</b> object that is created for the specified user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-140">
-            <para>Das <b>ContactCard</b> -Objekt ist in der Typbibliothek von Microsoft Office verfügbar. Vor dem Aufruf von <b>CreateContactCard</b> zum Erstellen einer Visitenkarte in Microsoft Outlook, muss Outlook in eine Outlook-Sitzung angemeldet sein. </para>
-            <para>Der <paramref name="AddressEntry" /> Parameter ist ein <b>AddressEntry</b> -Objekt, das einen der folgenden AddressEntry-Typen, die gemäß der <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> Enumeration:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeDistributionListAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeRemoteUserAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeUserAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookContactAddressEntry" />
-                </para>
-              </item>
-            </list>
-            <para>Outlook löst den <b>E _INVALIDARG</b> Fehler, wenn Sie eines der folgenden <b>OlAddressEntryUserType</b> -Werte der <b>CreateContactCard</b> -Methode als Argument übergeben:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeAgentAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeOrganizationAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangePublicFolderAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olLdapAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOtherAddressEntry" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookDistributionListAddressEntry" />
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-140">
-              <para>The <b>ContactCard</b> object is available in the type library of Microsoft Office. Before calling <b>CreateContactCard</b> to create a contact card in Microsoft Outlook, Outlook must be logged into an Outlook session. </para>
-              <para>The <paramref name="AddressEntry" /> parameter is an <b>AddressEntry</b> object that represents one of the following AddressEntry types defined in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeDistributionListAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeRemoteUserAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeUserAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookContactAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olSmtpAddressEntry" />
-                  </para>
-                </item>
-              </list>
-              <para>Outlook raises the <b>E_INVALIDARG</b> error when you pass any of the following <b>OlAddressEntryUserType</b> values as an argument to the <b>CreateContactCard</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeAgentAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeOrganizationAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangePublicFolderAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olLdapAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOtherAddressEntry" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookDistributionListAddressEntry" />
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="AddressEntry"><span data-ttu-id="349cc-143">Die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das den Benutzer darstellt, für den die Visitenkarte erstellt werden.</span><span class="sxs-lookup"><span data-stu-id="349cc-143">The <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the user for whom the contact card is to be created.</span></span></param>
+        <summary><span data-ttu-id="349cc-144">Erstellt eine Instanz einer <see cref="T:Microsoft.Office.Core.ContactCard" /> -Objekt für den Kontakt, indem angegeben wird, die <paramref name="AddressEntry" /> Parameter.</span><span class="sxs-lookup"><span data-stu-id="349cc-144">Creates an instance of a <see cref="T:Microsoft.Office.Core.ContactCard" /> object for the contact that is specified by the <paramref name="AddressEntry" /> parameter.</span></span></summary>
+        <returns><span data-ttu-id="349cc-145">Gibt ein <b>ContactCard</b> -Objekt, das für den angegebenen Benutzer erstellt wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-145">Returns a <b>ContactCard</b> object that is created for the specified user.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-p114">Das <b>ContactCard</b> -Objekt ist in der Typbibliothek von Microsoft Office verfügbar. Vor dem Aufruf von <b>CreateContactCard</b> zum Erstellen einer Visitenkarte in Microsoft Outlook, muss Outlook in eine Outlook-Sitzung angemeldet sein.</span><span class="sxs-lookup"><span data-stu-id="349cc-p114">The <b>ContactCard</b> object is available in the type library of Microsoft Office. Before calling <b>CreateContactCard</b> to create a contact card in Microsoft Outlook, Outlook must be logged into an Outlook session. </span></span></para>
+          <para><span data-ttu-id="349cc-148">Die <paramref name="AddressEntry" /> Parameter ist ein <b>AddressEntry</b> -Objekt, das einen der folgenden AddressEntry-Typen, die gemäß der <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> Enumeration:</span><span class="sxs-lookup"><span data-stu-id="349cc-148">The <paramref name="AddressEntry" /> parameter is an <b>AddressEntry</b> object that represents one of the following AddressEntry types defined in the <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeDistributionListAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeRemoteUserAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeUserAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookContactAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olSmtpAddressEntry" />
+              </para>
+            </item>
+          </list>
+          <para><span data-ttu-id="349cc-149">Outlook löst den <b>E_INVALIDARG</b> -Fehler aus, wenn Sie eines der folgenden <b>OlAddressEntryUserType</b> -Werte der <b>CreateContactCard</b> -Methode als Argument übergeben:</span><span class="sxs-lookup"><span data-stu-id="349cc-149">Outlook raises the <b>E_INVALIDARG</b> error when you pass any of the following <b>OlAddressEntryUserType</b> values as an argument to the <b>CreateContactCard</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeAgentAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangeOrganizationAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olExchangePublicFolderAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olLdapAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOtherAddressEntry" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="F:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType.olOutlookDistributionListAddressEntry" />
+              </para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateRecipient">
@@ -715,36 +428,11 @@
         <Parameter Name="RecipientName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="RecipientName">
-          <span data-ttu-id="e8ced-141">Der Name des Empfängers kann eine Zeichenfolge sein, die entweder den Anzeigenamen, den Alias oder die vollständige SMTP-E-Mail-Adresse des Empfängers darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-141">The name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-142">Erstellt eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-142">Creates a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-143">Ein <b>Recipient</b> -Objekt, das den neuen Empfänger darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-143">A <b>Recipient</b> object that represents the new recipient.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-144">
-            <para>Diese Methode wird am häufigsten verwendet, um ein <b>Recipient</b> -Objekt für die Verwendung mit Erstellen der <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> -Methode, z. B., eine Delegator Ordner zu öffnen. Auch kann verwendet werden, um einen bestimmten Namen in einem Adressbuch zu überprüfen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-144">
-              <para> This method is most commonly used to create a <b>Recipient</b> object for use with the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />  method, for example, to open a delegator's folder. It can also be used to verify a given name against an address book.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="RecipientName"><span data-ttu-id="349cc-150">Der Name des Empfängers kann eine Zeichenfolge sein, die entweder den Anzeigenamen, den Alias oder die vollständige SMTP-E-Mail-Adresse des Empfängers darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-150">The name of the recipient; it can be a string representing the display name, the alias, or the full SMTP e-mail address of the recipient.</span></span></param>
+        <summary><span data-ttu-id="349cc-151">Erstellt eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="349cc-151">Creates a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span></span></summary>
+        <returns><span data-ttu-id="349cc-152">Ein <b>Recipient</b> -Objekt, das den neuen Empfänger darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-152">A <b>Recipient</b> object that represents the new recipient.</span></span></returns>
+        <remarks><para> <span data-ttu-id="349cc-153">Diese Methode wird am häufigsten verwendet, um ein <b>Recipient</b> -Objekt für die Verwendung mit Erstellen der <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> -Methode, z. B., eine Delegator Ordner zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="349cc-153">This method is most commonly used to create a <b>Recipient</b> object for use with the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" />  method, for example, to open a delegator's folder.</span></span> <span data-ttu-id="349cc-154">Auch kann verwendet werden, um einen bestimmten Namen in einem Adressbuch zu überprüfen.</span><span class="sxs-lookup"><span data-stu-id="349cc-154">It can also be used to verify a given name against an address book.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateSharingItem">
@@ -770,44 +458,13 @@
         <Parameter Name="Provider" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Context">
-          <span data-ttu-id="e8ced-145">Entweder ein Wert vom Typ <b>String</b> (<b>Zeichenfolge</b> in c#) oder eine <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Freigabekontext zu verwendende darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-145">Either a <b>String</b> (<b>string</b> in C#) value or a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object representing the sharing context to be used.</span>
-          </span>
-        </param>
-        <param name="Provider">
-          <span data-ttu-id="e8ced-146">Ein <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" /> Wert, der den Freigabedienstanbieter an verwendet werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-146">An <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />  value representing the sharing provider to be used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-147">Erstellt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-147">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-148">Ein <b>SharingItem</b> -Objekt, das eine Freigabenachricht für den angegebenen Kontext darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-148">A <b>SharingItem</b> object that represents a sharing message for the specified context.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-149">
-            <para>Wenn ein <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, in angegeben ist <paramref name="Context" />, die-Methode wird davon ausgegangen, dass eine URL als Freigabekontext bereitgestellt wurde. Wenn ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt wird angegeben, <paramref name="Context" />, die Methode versucht, den Freigabekontext aus dem Ordner zu erkennen. Wenn keine Freigabe Kontext vorhanden ist oder wenn mehr als eine Freigabekontext vorhanden ist, tritt ein Fehler auf.</para>
-            <para>Wenn <paramref name="Provider" /> nicht angegeben ist, wird die Methode versucht, verwenden Sie den entsprechenden Freigabeanbieter für den Wert im angegebenen <paramref name="Context" />.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-149">
-              <para>If a <b>String</b> (<b>string</b> in C#) value is specified in <paramref name="Context" />, the method assumes that a URL has been provided as a sharing context. If a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object is specified in <paramref name="Context" />, the method attempts to discover the sharing context from the folder. If no sharing context exists, or if more than one sharing context exists, an error occurs.</para>
-              <para>If <paramref name="Provider" /> is not specified, the method attempts to use the appropriate sharing provider for the value specified in <paramref name="Context" />.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Context"><span data-ttu-id="349cc-155">Entweder ein Wert vom Typ <b>String</b> (<b>Zeichenfolge</b> in c#) oder eine <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Freigabekontext zu verwendende darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-155">Either a <b>String</b> (<b>string</b> in C#) value or a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object representing the sharing context to be used.</span></span></param>
+        <param name="Provider"><span data-ttu-id="349cc-156">Ein <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" /> Wert, der den Freigabedienstanbieter an verwendet werden soll.</span><span class="sxs-lookup"><span data-stu-id="349cc-156">An <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingProvider" />  value representing the sharing provider to be used.</span></span></param>
+        <summary><span data-ttu-id="349cc-157">Erstellt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="349cc-157">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> object.</span></span></summary>
+        <returns><span data-ttu-id="349cc-158">Ein <b>SharingItem</b> -Objekt, das eine Freigabenachricht für den angegebenen Kontext darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-158">A <b>SharingItem</b> object that represents a sharing message for the specified context.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-159">Wenn ein <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, in angegeben ist <paramref name="Context" />, die-Methode wird davon ausgegangen, dass eine URL als Freigabekontext bereitgestellt wurde.</span><span class="sxs-lookup"><span data-stu-id="349cc-159">If a <b>String</b> (<b>string</b> in C#) value is specified in <paramref name="Context" />, the method assumes that a URL has been provided as a sharing context.</span></span> <span data-ttu-id="349cc-160">Wenn ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt wird angegeben, <paramref name="Context" />, die Methode versucht, den Freigabekontext aus dem Ordner zu erkennen.</span><span class="sxs-lookup"><span data-stu-id="349cc-160">If a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object is specified in <paramref name="Context" />, the method attempts to discover the sharing context from the folder.</span></span> <span data-ttu-id="349cc-161">Wenn kein Freigabekontext vorhanden ist oder wenn mehr als eine Freigabekontext vorhanden ist, tritt ein Fehler auf.</span><span class="sxs-lookup"><span data-stu-id="349cc-161">If no sharing context exists, or if more than one sharing context exists, an error occurs.</span></span></para>
+          <para><span data-ttu-id="349cc-162">Wenn <paramref name="Provider" /> nicht angegeben ist, wird die Methode versucht, verwenden Sie den entsprechenden Freigabeanbieter für den Wert im angegebenen <paramref name="Context" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-162">If <paramref name="Provider" /> is not specified, the method attempts to use the appropriate sharing provider for the value specified in <paramref name="Context" />.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentProfileName">
@@ -833,33 +490,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-150">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des aktuellen Profils.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-150">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the current profile.</span>
-          </span>
-          <span data-ttu-id="e8ced-151">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-151">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-163">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des aktuellen Profils.</span><span class="sxs-lookup"><span data-stu-id="349cc-163">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the current profile.</span></span> <span data-ttu-id="349cc-164">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-164">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-152">
-            <para>Wenn Sie ein Profil erstellen, weisen Sie einen Profilnamen.</para>
-            <para>Ordnet 
-            <b>CurrentProfileName</b> der MAPI-Eigenschaft <b>PidTagProfileName</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-152">
-              <para>You assign a profile name when you create a profile. </para>
-              <para>
-                <b>CurrentProfileName</b> maps to the MAPI property <b>PidTagProfileName</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-p118">Wenn Sie ein Profil erstellen, weisen Sie einen Profilnamen zu.</span><span class="sxs-lookup"><span data-stu-id="349cc-p118">You assign a profile name when you create a profile. </span></span></para>
+          <para><span data-ttu-id="349cc-166">
+            <b>CurrentProfileName</b> entspricht der MAPI-Eigenschaft <b>PidTagProfileName</b>.</span><span class="sxs-lookup"><span data-stu-id="349cc-166">
+            <b>CurrentProfileName</b> maps to the MAPI property <b>PidTagProfileName</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentUser">
@@ -885,16 +522,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipient</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-153">Gibt den Anzeigenamen des aktuell angemeldeten Benutzers als eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-153">Returns the display name of the currently logged-on user as a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span>
-          </span>
-          <span data-ttu-id="e8ced-154">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-154">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-167">Gibt den Anzeigenamen des aktuell angemeldeten Benutzers als eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="349cc-167">Returns the display name of the currently logged-on user as a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object.</span></span> <span data-ttu-id="349cc-168">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-168">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -922,29 +550,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Store</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-155">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt, das Standard-Informationsspeichers für das Profil darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-155">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object representing the default Store for the profile.</span>
-          </span>
-          <span data-ttu-id="e8ced-156">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-156">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-169">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt, das Standard-Informationsspeichers für das Profil darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-169">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object representing the default Store for the profile.</span></span> <span data-ttu-id="349cc-170">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-157">
-            <para>Gibt einen Fehler zurück, wenn für das aktuelle Profil kein Standardspeicher vorhanden ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-157">
-              <para>Returns an error  if there is no default store for the current profile.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-171">Gibt einen Fehler zurück, wenn für das aktuelle Profil kein Standardspeicher vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="349cc-171">Returns an error  if there is no default store for the current profile.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dial">
@@ -969,18 +578,8 @@
         <Parameter Name="ContactItem" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ContactItem">
-          <span data-ttu-id="e8ced-158">Die <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> -Objekt des Kontakts, die Sie anwählen möchten.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-158">The <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object of the contact you want to dial.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-159">Zeigt das Dialogfeld Neuer Telefonanruf an, das Benutzern erlaubt, die primäre Telefonnummer eines angegebenen Kontakts zu wählen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-159">Displays the New Call dialog box that allows users to dial the primary phone number of a specified contact.</span>
-          </span>
-        </summary>
+        <param name="ContactItem"><span data-ttu-id="349cc-172">Die <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> -Objekt des Kontakts, die Sie anwählen möchten.</span><span class="sxs-lookup"><span data-stu-id="349cc-172">The <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> object of the contact you want to dial.</span></span></param>
+        <summary><span data-ttu-id="349cc-173">Zeigt das Dialogfeld Neuer Telefonanruf an, das Benutzern erlaubt, die primäre Telefonnummer eines angegebenen Kontakts zu wählen.</span><span class="sxs-lookup"><span data-stu-id="349cc-173">Displays the New Call dialog box that allows users to dial the primary phone number of a specified contact.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1007,29 +606,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-160">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> Konstante, die den aktuellen Verbindungsmodus der Benutzer verwendet wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-160">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode the user is using.</span>
-          </span>
-          <span data-ttu-id="e8ced-161">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-161">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-174">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> Konstante, die den aktuellen Verbindungsmodus der Benutzer verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-174">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" /> constant that indicates the current connection mode the user is using.</span></span> <span data-ttu-id="349cc-175">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-175">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-162">
-            <para>Wenn die <b>ExchangeConnectionMode</b> -Eigenschaft <b>OlOffline</b> oder <b>olDisconnected festgelegt ist</b>, ist die <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" /> -Eigenschaft gibt <b>True</b> zurück. Wenn die <b>ExchangeConnectionMode</b> -Eigenschaft <b>OlOnline</b>, <b>OlConnected</b>oder <b>olConnectedHeaders festgelegt</b>ist, gibt die <b>NameSpace.Offline</b> -Eigenschaft <b>False</b>zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-162">
-              <para>If the <b>ExchangeConnectionMode</b> property is <b>olOffline</b> or <b>olDisconnected</b>, the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" /> property will return <b>True</b> . If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>NameSpace.Offline</b> property will return <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-176">Wenn die <b>ExchangeConnectionMode</b> -Eigenschaft <b>OlOffline</b> oder <b>olDisconnected festgelegt ist</b>, ist die <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" /> -Eigenschaft gibt <b>True</b> zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-176">If the <b>ExchangeConnectionMode</b> property is <b>olOffline</b> or <b>olDisconnected</b>, the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Offline" /> property will return <b>True</b> .</span></span> <span data-ttu-id="349cc-177">Wenn die <b>ExchangeConnectionMode</b> -Eigenschaft <b>OlOnline</b>, <b>OlConnected</b>oder <b>olConnectedHeaders festgelegt</b>ist, gibt die <b>NameSpace.Offline</b> -Eigenschaft <b>False</b>zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-177">If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>NameSpace.Offline</b> property will return <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerName">
@@ -1055,29 +635,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-163">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Namen des Exchange-Servers darstellt, auf dem das aktuelle Postfach gehostet wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-163">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Exchange server on which the active mailbox is hosted.</span>
-          </span>
-          <span data-ttu-id="e8ced-164">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-164">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-178">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Namen des Exchange-Servers darstellt, auf dem das aktuelle Postfach gehostet wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-178">Returns a <b>String</b> (<b>string</b> in C#) value that represents the name of the Exchange server on which the active mailbox is hosted.</span></span> <span data-ttu-id="349cc-179">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-179">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-165">
-            <para>Wenn ein Exchange-Postfach nicht im Namespace vorhanden ist, gibt diese Eigenschaft eine leere Zeichenfolge zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-165">
-              <para>If an Exchange mailbox is not present in the namespace, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-180">Wenn im Namespace kein Exchange-Postfach vorhanden ist, gibt diese Eigenschaft eine leere Zeichenfolge zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-180">If an Exchange mailbox is not present in the namespace, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeMailboxServerVersion">
@@ -1103,35 +664,13 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-166">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die Vollversion des Exchange-Servers darstellt, auf dem das aktuelle Postfach gehostet wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-166">Returns a <b>String</b> (<b>string</b> in C#) value that represents the full version of the Exchange server on which the active mailbox is hosted.</span>
-          </span>
-          <span data-ttu-id="e8ced-167">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-167">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-181">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die Vollversion des Exchange-Servers darstellt, auf dem das aktuelle Postfach gehostet wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-181">Returns a <b>String</b> (<b>string</b> in C#) value that represents the full version of the Exchange server on which the active mailbox is hosted.</span></span> <span data-ttu-id="349cc-182">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-182">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-168">
-            <para>Diese Eigenschaft gibt eine Zeichenfolge mit der Versionsnummer des Exchange-Servers für das aktuelle Postfach zurück. Die Versionsnummer besteht aus vier Teilen wie folgt:</para>
-            <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
-            <para>nicht alle Teile darf in die Versionsnummer, je nach Informationen zur Version von Microsoft Exchange Server bereitgestellt wird, vorhanden sein. Beispielsweise gibt diese Eigenschaft "6.5.7638" für Microsoft Exchange Server 2003 Service Pack 2.</para>
-            <para>Wenn ein Exchange-Postfach nicht im Namespace vorhanden ist, gibt diese Eigenschaft eine leere Zeichenfolge.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-168">
-              <para>This property returns a string containing the version number of the Exchange server for the active mailbox. The version number has four parts, as follows:</para>
-              <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
-              <para>Not all parts may be present in the version number, depending on the version information supplied by Microsoft Exchange Server. For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</para>
-              <para>If an Exchange mailbox is not present in the namespace, this property returns an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-183">Diese Eigenschaft gibt eine Zeichenfolge mit der Versionsnummer des Exchange-Servers für das aktuelle Postfach zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-183">This property returns a string containing the version number of the Exchange server for the active mailbox.</span></span> <span data-ttu-id="349cc-184">Die Versionsnummer besteht aus vier Teilen wie folgt:</span><span class="sxs-lookup"><span data-stu-id="349cc-184">The version number has four parts, as follows:</span></span></para>
+          <code>&amp;lt;major version&amp;gt;.&amp;lt;minor version&amp;gt;.&amp;lt;build number&amp;gt;.&amp;lt;revision&amp;gt;</code>
+          <para><span data-ttu-id="349cc-185">Nicht alle Teile können in die Versionsnummer, je nach Informationen zur Version von Microsoft Exchange Server bereitgestellt wird, vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="349cc-185">Not all parts may be present in the version number, depending on the version information supplied by Microsoft Exchange Server.</span></span> <span data-ttu-id="349cc-186">Beispielsweise gibt die Eigenschaft "6.5.7638" für Microsoft Exchange Server 2003 Service Pack 2 zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-186">For example, this property returns "6.5.7638" for Microsoft Exchange Server 2003 Service Pack 2.</span></span></para>
+          <para><span data-ttu-id="349cc-187">Wenn im Namespace kein Exchange-Postfach vorhanden ist, gibt diese Eigenschaft eine leere Zeichenfolge zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-187">If an Exchange mailbox is not present in the namespace, this property returns an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folders">
@@ -1157,29 +696,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Folders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-169">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> -Auflistung, die alle enthaltenen im angegebenen Ordner darstellt, <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-169">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection that represents all the folders contained in the specified <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span>
-          </span>
-          <span data-ttu-id="e8ced-170">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-170">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-188">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> -Auflistung, die alle enthaltenen im angegebenen Ordner darstellt, <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-188">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" />  collection that represents all the folders contained in the specified <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />.</span></span> <span data-ttu-id="349cc-189">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-189">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-171">
-            <para>Das <b>NameSpace</b> -Objekt ist der Stamm des aller Ordner des jeweiligen Namespaces.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-171">
-              <para>The <b>NameSpace</b>  object is the root of all the folders for the given name space. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-190">Das <b>NameSpace</b> -Objekt ist der Stamm des aller Ordner des jeweiligen Namespaces.</span><span class="sxs-lookup"><span data-stu-id="349cc-190">The <b>NameSpace</b>  object is the root of all the folders for the given name space.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAddressEntryFromID">
@@ -1205,46 +725,18 @@
         <Parameter Name="ID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ID">
-          <span data-ttu-id="e8ced-172">Einen Zeichenfolgebezeichner für ein Adresseintrag, für die Sitzung verwaltet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-172">A string identifier for an address entry maintained for the session.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-173">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das den Adresseintrag darstellt <paramref name="ID" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-173">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry  specified by <paramref name="ID" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-174">Ein <b>AddressEntry-Objekt</b> , das hat die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> -Eigenschaft mit dem angegebenen <paramref name="ID" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-174">An <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property matching the specified <paramref name="ID" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-175">
-            <para>Die <b>ID</b> -Eigenschaft für ein <b>AddressEntry-Objekt</b> ist eine dauerhafte, eindeutige Zeichenfolge-ID, die von der Adressbuchhierarchie zugewiesen, wenn ein <b>AddressEntry-Objekt</b> erstellt wird. </para>
-            <para>Outlook eine Hierarchie von Adressbüchern für eine Sitzung verwaltet und der Adresseintrag zurückgegeben, muss übereinstimmen der angegebenen <paramref name="ID" /> und werden in einem der Adressbücher.</para>
-            <para>
-              <b>GetAddressEntryFromID</b> gibt einen Fehler zurück, wenn kein Element mit der angegebenen <paramref name="ID" /> gefunden werden kann.</para>
-            <para>
-              <b>GetAddressEntryFromID</b> gibt ebenfalls einen Fehler zurück, wenn keine Verbindung verfügbar ist oder der Benutzer Offlinearbeit festgelegt ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-175">
-              <para>The  <b>ID</b> property  for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created. </para>
-              <para>Outlook maintains a hierarchy of address books for a session, and the address entry returned must match the given <paramref name="ID" /> and  be in one of the address books.</para>
-              <para>
-                <b>GetAddressEntryFromID</b> returns an error if no item with the given <paramref name="ID" /> can be found.</para>
-              <para>
-                <b>GetAddressEntryFromID</b> also returns an error if no connection is available or the user is set to work offline.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ID"><span data-ttu-id="349cc-191">Einen Zeichenfolgebezeichner für ein Adresseintrag, für die Sitzung verwaltet.</span><span class="sxs-lookup"><span data-stu-id="349cc-191">A string identifier for an address entry maintained for the session.</span></span></param>
+        <summary><span data-ttu-id="349cc-192">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das den Adresseintrag darstellt <paramref name="ID" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-192">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the address entry  specified by <paramref name="ID" />.</span></span></summary>
+        <returns><span data-ttu-id="349cc-193">Ein <b>AddressEntry-Objekt</b> , das hat die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> -Eigenschaft mit dem angegebenen <paramref name="ID" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-193">An <b>AddressEntry</b> that has the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.ID" /> property matching the specified <paramref name="ID" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-194">Die <b>ID</b> -Eigenschaft für ein <b>AddressEntry-Objekt</b> ist eine dauerhafte, eindeutige Zeichenfolge-ID, die von der Adressbuchhierarchie zugewiesen, wenn ein <b>AddressEntry-Objekt</b> erstellt wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-194">The  <b>ID</b> property  for an <b>AddressEntry</b> is a permanent, unique string identifier that the transport provider assigns when an <b>AddressEntry</b> is created.</span></span> </para>
+          <para><span data-ttu-id="349cc-195">Outlook wird eine Hierarchie von Adressbüchern für eine Sitzung verwaltet und der Adresseintrag zurückgegeben, muss übereinstimmen der angegebenen <paramref name="ID" /> und werden in einem der Adressbücher.</span><span class="sxs-lookup"><span data-stu-id="349cc-195">Outlook maintains a hierarchy of address books for a session, and the address entry returned must match the given <paramref name="ID" /> and  be in one of the address books.</span></span></para>
+          <para><span data-ttu-id="349cc-196">
+            <b>GetAddressEntryFromID</b> gibt einen Fehler zurück, wenn kein Element mit der angegebenen <paramref name="ID" /> gefunden werden können.</span><span class="sxs-lookup"><span data-stu-id="349cc-196">
+            <b>GetAddressEntryFromID</b> returns an error if no item with the given <paramref name="ID" /> can be found.</span></span></para>
+          <para><span data-ttu-id="349cc-197">
+            <b>GetAddressEntryFromID</b> gibt ebenfalls einen Fehler zurück, wenn keine Verbindung verfügbar ist oder der Benutzer Offlinearbeit festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="349cc-197">
+            <b>GetAddressEntryFromID</b> also returns an error if no connection is available or the user is set to work offline.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultFolder">
@@ -1270,38 +762,12 @@
         <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
       </Parameters>
       <Docs>
-        <param name="FolderType">
-          <span data-ttu-id="e8ced-176">Der Typ des zurückzugebenden standardmäßigen Ordners.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-176">The type of default folder to return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-177">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Standardordner des angeforderten Typs für das aktuelle Profil; darstellt Beispielsweise ruft den Standardordner Kalender des Benutzers, der derzeit angemeldet ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-177">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the default folder of the requested type for the current profile; for example, obtains the default Calendar folder for the user who is currently logged on.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-178">Ein Objekt vom Typ <b>Folder</b>, das den standardmäßigen Ordner des angeforderten Typs für das aktuelle Profil darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-178">A <b>Folder</b> object that represents the default folder of the requested type for the current profile.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-179">
-            <para>Verwenden Sie zum Zurückgeben eines bestimmten nicht standardmäßigen Ordners die <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> Auflistung.</para>
-            <para>, Wenn Sie der standardmäßigen Ordner des angeforderten Typs nicht vorhanden ist, je nach dem Typ Outlook möglicherweise erstellen und zurückgeben den Ordner oder einen Fehler auslösen. Beispielsweise wenn OlFolderManagedEmail als FolderType angegeben ist, aber die Gruppe verwaltete Ordner nicht bereitgestellt wurde, Microsoft Outlook löst einen Fehler aus.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-179">
-              <para>To return a specific non-default folder, use the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection.</para>
-              <para>If the default folder of the requested type does not exist, depending on the type, Outlook may create and return the folder, or may raise an error. For example, if olFolderManagedEmail is specified as the FolderType but the Managed Folders group has not been deployed, Microsoft Outlook raises an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="FolderType"><span data-ttu-id="349cc-198">Der Typ des zurückzugebenden standardmäßigen Ordners.</span><span class="sxs-lookup"><span data-stu-id="349cc-198">The type of default folder to return.</span></span></param>
+        <summary><span data-ttu-id="349cc-199">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Standardordner des angeforderten Typs für das aktuelle Profil; darstellt Beispielsweise ruft den Standardordner Kalender des Benutzers, der derzeit angemeldet ist.</span><span class="sxs-lookup"><span data-stu-id="349cc-199">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the default folder of the requested type for the current profile; for example, obtains the default Calendar folder for the user who is currently logged on.</span></span></summary>
+        <returns><span data-ttu-id="349cc-200">Ein Objekt vom Typ <b>Folder</b>, das den standardmäßigen Ordner des angeforderten Typs für das aktuelle Profil darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-200">A <b>Folder</b> object that represents the default folder of the requested type for the current profile.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-201">Verwenden Sie zum Zurückgeben eines bestimmten nicht standardmäßigen Ordners die <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="349cc-201">To return a specific non-default folder, use the <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> collection.</span></span></para>
+          <para><span data-ttu-id="349cc-202">Wenn Sie der standardmäßigen Ordner des angeforderten Typs nicht vorhanden ist, je nach dem Typ Outlook erstellen kann und zurückgeben den Ordner oder einen Fehler auslösen.</span><span class="sxs-lookup"><span data-stu-id="349cc-202">If the default folder of the requested type does not exist, depending on the type, Outlook may create and return the folder, or may raise an error.</span></span> <span data-ttu-id="349cc-203">Wenn OlFolderManagedEmail als FolderType angegeben ist, aber die Gruppe verwaltete Ordner nicht bereitgestellt wurde, löst Microsoft Outlook einen Fehler.</span><span class="sxs-lookup"><span data-stu-id="349cc-203">For example, if olFolderManagedEmail is specified as the FolderType but the Managed Folders group has not been deployed, Microsoft Outlook raises an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFolderFromID">
@@ -1327,42 +793,12 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDFolder">
-          <span data-ttu-id="e8ced-180">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> des Ordners.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-180">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the folder.</span>
-          </span>
-        </param>
-        <param name="EntryIDStore">
-          <span data-ttu-id="e8ced-181">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" /> für den Ordner.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-181">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-182">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt durch die angegebene Eintrags-ID (sofern gültig) bezeichnet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-182">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object identified by the specified entry ID (if valid).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-183">Ein<b>Folder</b> -Objekt, das den angegebenen Ordner darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-183">A<b>Folder</b> object that represents the specified folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-184">
-            <para>Diese Methode dient dazu, den Übergang zwischen MAPI- und OLE/Messaging-Anwendungen und Microsoft Outlook andererseits.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-184">
-              <para>This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryIDFolder"><span data-ttu-id="349cc-204">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> des Ordners.</span><span class="sxs-lookup"><span data-stu-id="349cc-204">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the folder.</span></span></param>
+        <param name="EntryIDStore"><span data-ttu-id="349cc-205">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" /> für den Ordner.</span><span class="sxs-lookup"><span data-stu-id="349cc-205">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span></span></param>
+        <summary><span data-ttu-id="349cc-206">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt durch die angegebene Eintrags-ID (sofern gültig) bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="349cc-206">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object identified by the specified entry ID (if valid).</span></span></summary>
+        <returns><span data-ttu-id="349cc-207">Ein<b>Folder</b> -Objekt, das den angegebenen Ordner darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-207">A<b>Folder</b> object that represents the specified folder.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-208">Diese Methode dient dazu, den Übergang zwischen MAPI- und OLE/Messaging-Anwendungen einerseits, und Microsoft Outlook andererseits zu erleichtern.</span><span class="sxs-lookup"><span data-stu-id="349cc-208">This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetGlobalAddressList">
@@ -1386,34 +822,13 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-185">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> -Objekt, das die globale Exchange-Adressenliste darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-185">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that represents the Exchange Global Address List.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-186">Ein <b>AddressList-Objekt</b>, das die globale Adressenliste darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-186">An <b>AddressList</b> that represents the Global Address List.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-187">
-            <para>
-              <b>GetGlobalAddressList</b> unterstützt nur Exchange-Server. Es gibt einen Fehler zurück, wenn der globalen Adressliste nicht verfügbar ist oder wurde nicht gefunden.</para>
-            <para>Auch gibt einen Fehler zurück, wenn keine Verbindung verfügbar ist oder der Benutzer Offlinearbeit festgelegt ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-187">
-              <para>
-                <b>GetGlobalAddressList</b> supports only Exchange servers. It returns an error if the Global Address List is not available or cannot be found.</para>
-              <para>It also returns an error if no connection is available or the user is set to work offline.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="349cc-209">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> -Objekt, das die globale Exchange-Adressenliste darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-209">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that represents the Exchange Global Address List.</span></span></summary>
+        <returns><span data-ttu-id="349cc-210">Ein <b>AddressList-Objekt</b>, das die globale Adressenliste darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-210">An <b>AddressList</b> that represents the Global Address List.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-p131">
+            <b>GetGlobalAddressList</b> unterstützt nur Exchange-Server. Es gibt einen Fehler zurück, wenn der globalen Adressliste nicht verfügbar ist oder kann nicht gefunden werden.</span><span class="sxs-lookup"><span data-stu-id="349cc-p131">
+            <b>GetGlobalAddressList</b> supports only Exchange servers. It returns an error if the Global Address List is not available or cannot be found.</span></span></para>
+          <para><span data-ttu-id="349cc-213">Sie gibt auch dann einen Fehler zurück, wenn keine Verbindung verfügbar ist oder der Benutzer offline arbeitet.</span><span class="sxs-lookup"><span data-stu-id="349cc-213">It also returns an error if no connection is available or the user is set to work offline.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItemFromID">
@@ -1439,50 +854,13 @@
         <Parameter Name="EntryIDStore" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="EntryIDItem">
-          <span data-ttu-id="e8ced-188">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> des Elements.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-188">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the item.</span>
-          </span>
-        </param>
-        <param name="EntryIDStore">
-          <span data-ttu-id="e8ced-189">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" /> für den Ordner.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-189">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span>
-          </span>
-          <span data-ttu-id="e8ced-190">
-            <paramref name="EntryIDStore" />in der Regel muss angegeben werden, wenn ein Element anhand seiner MAPI-IDs abrufen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-190">
-              <paramref name="EntryIDStore" /> usually must be provided when retrieving an item based on its MAPI IDs.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-191">Gibt ein Microsoft Outlook-Element zurück, das durch die angegebene "EntryID" (sofern gültig) bezeichnet wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-191">Returns a Microsoft Outlook item identified by the specified entry ID (if valid).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-192">Ein Objektwert, der das angegebene Outlook-Element darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-192">An Object value that represents the specified Outlook item.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-193">
-            <para>Diese Methode dient zur Erleichterung der Übergang zwischen MAPI- und OLE/Messaging-Anwendungen und Outlook andererseits.</para>
-            <para>Weitere Informationen zu EntryIDs finden Sie unter der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> -Eigenschaft.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-193">
-              <para>This method is used for ease of transition between MAPI and OLE/Messaging applications and Outlook.</para>
-              <para>For more information about Entry IDs, see the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> property. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryIDItem"><span data-ttu-id="349cc-214">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> des Elements.</span><span class="sxs-lookup"><span data-stu-id="349cc-214">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" />  of the item.</span></span></param>
+        <param name="EntryIDStore"><span data-ttu-id="349cc-215">Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" /> für den Ordner.</span><span class="sxs-lookup"><span data-stu-id="349cc-215">The <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.StoreID" />  for the folder.</span></span> <span data-ttu-id="349cc-216"><paramref name="EntryIDStore" />in der Regel muss angegeben werden, wenn ein Element anhand seiner MAPI-IDs abrufen.</span><span class="sxs-lookup"><span data-stu-id="349cc-216"><paramref name="EntryIDStore" /> usually must be provided when retrieving an item based on its MAPI IDs.</span></span></param>
+        <summary><span data-ttu-id="349cc-217">Gibt ein Microsoft Outlook-Element zurück, das durch die angegebene "EntryID" (sofern gültig) bezeichnet wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-217">Returns a Microsoft Outlook item identified by the specified entry ID (if valid).</span></span></summary>
+        <returns><span data-ttu-id="349cc-218">Ein Objektwert, der das angegebene Outlook-Element darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-218">An Object value that represents the specified Outlook item.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-219">Diese Methode dient dazu, den Übergang zwischen MAPI- und OLE/Messaging-Anwendungen einerseits, und Outlook andererseits zu erleichtern.</span><span class="sxs-lookup"><span data-stu-id="349cc-219">This method is used for ease of transition between MAPI and OLE/Messaging applications and Outlook.</span></span></para>
+          <para><span data-ttu-id="349cc-220">Weitere Informationen zu EntryIDs finden Sie unter der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="349cc-220">For more information about Entry IDs, see the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.EntryID" /> property.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecipientFromID">
@@ -1508,36 +886,11 @@
         <Parameter Name="EntryID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="EntryID">
-          <span data-ttu-id="e8ced-194">Die <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> des Empfängers.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-194">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />  of the recipient.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-195">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> Objekt durch die angegebene Eintrags-ID (sofern gültig) bezeichnet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-195">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object identified by the specified entry ID (if valid).</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-196">Ein <b>Recipient</b> -Objekt, das den angegebenen Empfänger darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-196">A <b>Recipient</b> object that represents the specified recipient.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-197">
-            <para>Diese Methode dient dazu, den Übergang zwischen MAPI- und OLE/Messaging-Anwendungen und Microsoft Outlook andererseits.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-197">
-              <para>This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="EntryID"><span data-ttu-id="349cc-221">Die <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> des Empfängers.</span><span class="sxs-lookup"><span data-stu-id="349cc-221">The <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" />  of the recipient.</span></span></param>
+        <summary><span data-ttu-id="349cc-222">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" /> Objekt durch die angegebene Eintrags-ID (sofern gültig) bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="349cc-222">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipient" />  object identified by the specified entry ID (if valid).</span></span></summary>
+        <returns><span data-ttu-id="349cc-223">Ein <b>Recipient</b> -Objekt, das den angegebenen Empfänger darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-223">A <b>Recipient</b> object that represents the specified recipient.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-224">Diese Methode dient dazu, den Übergang zwischen MAPI- und OLE/Messaging-Anwendungen einerseits, und Microsoft Outlook andererseits zu erleichtern.</span><span class="sxs-lookup"><span data-stu-id="349cc-224">This method is used for ease of transition between MAPI and OLE/Messaging applications and Microsoft Outlook.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSelectNamesDialog">
@@ -1561,23 +914,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-198">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-198">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object for the current session.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-199">Ein <b>SelectNamesDialog</b> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-199">A  <b>SelectNamesDialog</b> object for the current session.</span>
-          </span>
-          <span data-ttu-id="e8ced-200">
-            <b>SelectNamesDialog</b> -Objekt unterstützt das Dialogfeld Namen auswählen, für den Benutzer in der aktuellen Sitzung Einträge aus einer oder mehreren Adresslisten auswählen anzuzeigen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-200">The <b>SelectNamesDialog</b> object supports displaying the Select Names dialog box for the user to select entries from one or more address lists in the current session.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="349cc-225">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="349cc-225">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object for the current session.</span></span></summary>
+        <returns><span data-ttu-id="349cc-226">Ein <b>SelectNamesDialog</b> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="349cc-226">A  <b>SelectNamesDialog</b> object for the current session.</span></span> <span data-ttu-id="349cc-227"><b>SelectNamesDialog</b> -Objekt unterstützt das Dialogfeld Namen auswählen, für den Benutzer in der aktuellen Sitzung Einträge aus einer oder mehreren Adresslisten auswählen anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="349cc-227">The <b>SelectNamesDialog</b> object supports displaying the Select Names dialog box for the user to select entries from one or more address lists in the current session.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1604,50 +942,15 @@
         <Parameter Name="FolderType" Type="Microsoft.Office.Interop.Outlook.OlDefaultFolders" />
       </Parameters>
       <Docs>
-        <param name="Recipient">
-          <span data-ttu-id="e8ced-201">Der Besitzer des Ordners.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-201">The owner of the folder.</span>
-          </span>
-          <span data-ttu-id="e8ced-202">Beachten Sie, dass das <b>Recipient</b> -Objekt aufgelöst werden muss.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-202">Note that the <b>Recipient</b> object must be resolved.</span>
-          </span>
-        </param>
-        <param name="FolderType">
-          <span data-ttu-id="e8ced-203">Der Typ des Ordners.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-203">The type of folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-204">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den angegebenen Standardordner für den angegebenen Benutzer darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-204">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the specified default folder for the specified user.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-205">Ein <b>Folder</b> -Objekt, das den angegebenen Standardordner für den angegebenen Benutzer darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-205">A <b>Folder</b> object that represents the specified default folder for the specified user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-206">
-            <para>Diese Methode in einem Delegierungsszenario mit verwendet wird, in dem hat ein Benutzer Zugriff auf einen anderen Benutzer für eine oder mehrere der Standardordner (beispielsweise den freigegebenen Ordner Kalender) delegiert.</para>
-            <para>
-              <paramref name="FolderType" /> kann eine der folgenden <b>OlDefaultFolders</b> -Konstanten sein: <b>OlFolderCalendar</b>, <b>OlFolderContacts</b>, <b>OlFolderDrafts</b>, <b>OlFolderInbox</b>, <b>OlFolderJournal</b>, <b>OlFolderNotes</b>oder <b> OlFolderTasks</b>. (Die Konstanten <b>OlFolderDeletedItems</b>, <b>OlFolderOutbox</b>, <b>OlFolderJunk</b>, <b>OlFolderConflicts</b>, <b>OlFolderLocalFailures</b>, <b>OlFolderServerFailures</b>, <b>OlFolderSyncIssues</b>, <b>OlPublicFoldersAllPublicFolders</b>, <b>OlFolderRssSubscriptions</b>, <b>OlFolderToDo</b>, <b>OlFolderManagedEmail</b>und <b>OlFolderSentMail</b> können für dieses Argument angegeben werden.)</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-206">
-              <para>This method is used in a delegation scenario, where one user has delegated access to another user for one or more of their default folders (for example, their shared Calendar folder).</para>
-              <para>
-                <paramref name="FolderType" /> can be one of the following <b>OlDefaultFolders</b> constants: <b>olFolderCalendar</b>, <b>olFolderContacts</b>, <b>olFolderDrafts</b>, <b>olFolderInbox</b>, <b>olFolderJournal</b>, <b>olFolderNotes</b>, or <b>olFolderTasks</b>. (The constants <b>olFolderDeletedItems</b>, <b>olFolderOutbox</b>, <b>olFolderJunk</b>, <b>olFolderConflicts</b>, <b>olFolderLocalFailures</b>, <b>olFolderServerFailures</b>, <b>olFolderSyncIssues</b>, <b>olPublicFoldersAllPublicFolders</b>, <b>olFolderRssSubscriptions</b>, <b>olFolderToDo</b>, <b>olFolderManagedEmail</b>, and <b>olFolderSentMail</b> cannot be specified for this argument.)</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Recipient"><span data-ttu-id="349cc-228">Der Besitzer des Ordners.</span><span class="sxs-lookup"><span data-stu-id="349cc-228">The owner of the folder.</span></span> <span data-ttu-id="349cc-229">Beachten Sie, dass das <b>Recipient</b> -Objekt aufgelöst werden muss.</span><span class="sxs-lookup"><span data-stu-id="349cc-229">Note that the <b>Recipient</b> object must be resolved.</span></span></param>
+        <param name="FolderType"><span data-ttu-id="349cc-230">Der Typ des Ordners.</span><span class="sxs-lookup"><span data-stu-id="349cc-230">The type of folder.</span></span></param>
+        <summary><span data-ttu-id="349cc-231">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den angegebenen Standardordner für den angegebenen Benutzer darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-231">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the specified default folder for the specified user.</span></span></summary>
+        <returns><span data-ttu-id="349cc-232">Ein <b>Folder</b> -Objekt, das den angegebenen Standardordner für den angegebenen Benutzer darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-232">A <b>Folder</b> object that represents the specified default folder for the specified user.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-233">Diese Methode wird in einem Delegierungsszenario mit verwendet, in dem ein Benutzer Zugriff auf einen anderen Benutzer für eine oder mehrere der Standardordner (beispielsweise den freigegebenen Ordner Kalender) delegiert hat.</span><span class="sxs-lookup"><span data-stu-id="349cc-233">This method is used in a delegation scenario, where one user has delegated access to another user for one or more of their default folders (for example, their shared Calendar folder).</span></span></para>
+          <para><span data-ttu-id="349cc-234">
+            <paramref name="FolderType" />kann eine der folgenden <b>OlDefaultFolders</b> -Konstanten sein: <b>OlFolderCalendar</b>, <b>OlFolderContacts</b>, <b>OlFolderDrafts</b>, <b>OlFolderInbox</b>, <b>OlFolderJournal</b>, <b>OlFolderNotes</b>oder <b>OlFolderTasks </b>.</span><span class="sxs-lookup"><span data-stu-id="349cc-234">
+            <paramref name="FolderType" /> can be one of the following <b>OlDefaultFolders</b> constants: <b>olFolderCalendar</b>, <b>olFolderContacts</b>, <b>olFolderDrafts</b>, <b>olFolderInbox</b>, <b>olFolderJournal</b>, <b>olFolderNotes</b>, or <b>olFolderTasks</b>.</span></span> <span data-ttu-id="349cc-235">(Die Konstanten <b>OlFolderDeletedItems</b>, <b>OlFolderOutbox</b>, <b>OlFolderJunk</b>, <b>OlFolderConflicts</b>, <b>OlFolderLocalFailures</b>, <b>OlFolderServerFailures</b>, <b>OlFolderSyncIssues</b>, <b> OlPublicFoldersAllPublicFolders</b>, <b>OlFolderRssSubscriptions</b>, <b>OlFolderToDo</b>, <b>OlFolderManagedEmail</b>und <b>OlFolderSentMail</b> können für dieses Argument nicht angegeben werden.)</span><span class="sxs-lookup"><span data-stu-id="349cc-235">(The constants <b>olFolderDeletedItems</b>, <b>olFolderOutbox</b>, <b>olFolderJunk</b>, <b>olFolderConflicts</b>, <b>olFolderLocalFailures</b>, <b>olFolderServerFailures</b>, <b>olFolderSyncIssues</b>, <b>olPublicFoldersAllPublicFolders</b>, <b>olFolderRssSubscriptions</b>, <b>olFolderToDo</b>, <b>olFolderManagedEmail</b>, and <b>olFolderSentMail</b> cannot be specified for this argument.)</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetStoreFromID">
@@ -1673,42 +976,15 @@
         <Parameter Name="ID" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ID">
-          <span data-ttu-id="e8ced-207">Ein Zeichenfolgenwert, der einen Speicher angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-207">A string value identifying a store.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-208">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt, den vom angegebenen Speicher darstellt <paramref name="ID" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-208">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store specified by <paramref name="ID" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-209">Ein <b>Store</b> -Objekt, verfügt die <see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" /> Eigenschaft übereinstimmende <paramref name="ID" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-209">A <b>Store</b> object that has the <see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" /> property matching <paramref name="ID" />.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-210">
-            <para>Die <b>StoreID</b> -Eigenschaft eines <b>Store</b> ist eindeutig für das Profil für die Sitzung. Dies entspricht der MAPI-Eigenschaft <b>PidTagStoreEntryId</b>.</para>
-            <para>In der Reihenfolge für diese Methode funktioniert muss der Speicher bereitgestellt werden.</para>
-            <para>
-              <b>GetStoreFromID</b> gibt einen Fehler zurück, wenn kein Speicher mit dem angegebenen <paramref name="ID" /> für die aktuelle Sitzung gefunden werden kann.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-210">
-              <para>The <b>StoreID</b> property of a <b>Store</b> is unique to the profile for the session. It is equivalent to the MAPI property <b>PidTagStoreEntryId</b>.</para>
-              <para>The store must be mounted in order for this method to succeed.</para>
-              <para>
-                <b>GetStoreFromID</b> returns an error  if no store with the specified <paramref name="ID" /> can be found for the current session.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ID"><span data-ttu-id="349cc-236">Ein Zeichenfolgenwert, der einen Speicher angibt.</span><span class="sxs-lookup"><span data-stu-id="349cc-236">A string value identifying a store.</span></span></param>
+        <summary><span data-ttu-id="349cc-237">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt, den vom angegebenen Speicher darstellt <paramref name="ID" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-237">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object that represents the store specified by <paramref name="ID" />.</span></span></summary>
+        <returns><span data-ttu-id="349cc-238">Ein <b>Store</b> -Objekt, verfügt die <see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" /> Eigenschaft übereinstimmende <paramref name="ID" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-238">A <b>Store</b> object that has the <see cref="P:Microsoft.Office.Interop.Outlook._Store.StoreID" /> property matching <paramref name="ID" />.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-239">Die <b>StoreID</b> -Eigenschaft eines <b>Store</b> ist eindeutig für das Profil für die Sitzung.</span><span class="sxs-lookup"><span data-stu-id="349cc-239">The <b>StoreID</b> property of a <b>Store</b> is unique to the profile for the session.</span></span> <span data-ttu-id="349cc-240">Dies entspricht der MAPI-Eigenschaft <b>PidTagStoreEntryId</b>.</span><span class="sxs-lookup"><span data-stu-id="349cc-240">It is equivalent to the MAPI property <b>PidTagStoreEntryId</b>.</span></span></para>
+          <para><span data-ttu-id="349cc-241">Damit diese Methode funktioniert, muss der Speicher bereitgestellt sein.</span><span class="sxs-lookup"><span data-stu-id="349cc-241">The store must be mounted in order for this method to succeed.</span></span></para>
+          <para><span data-ttu-id="349cc-242">
+            <b>GetStoreFromID</b> gibt einen Fehler zurück, wenn kein Speicher mit dem angegebenen <paramref name="ID" /> für die aktuelle Sitzung gefunden werden können.</span><span class="sxs-lookup"><span data-stu-id="349cc-242">
+            <b>GetStoreFromID</b> returns an error  if no store with the specified <paramref name="ID" /> can be found for the current session.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Logoff">
@@ -1732,12 +1008,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-211">Meldet den Benutzer von der aktuellen MAPI-Sitzung ab.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-211">Logs the user off from the current MAPI session.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-243">Meldet den Benutzer von der aktuellen MAPI-Sitzung ab.</span><span class="sxs-lookup"><span data-stu-id="349cc-243">Logs the user off from the current MAPI session.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1766,62 +1037,15 @@
         <Parameter Name="NewSession" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Profile">
-          <span data-ttu-id="e8ced-212">Der MAPI-Profilname als <b>String </b>(<b>Zeichenfolge</b> in c#), für die Sitzung verwendet werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-212">The MAPI profile name, as a <b>String </b>(<b>string</b> in C#), to use for the session.</span>
-          </span>
-          <span data-ttu-id="e8ced-213">Geben Sie das Standardprofil für die aktuelle Sitzung zu verwenden, um eine leere Zeichenfolge.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-213">Specify an empty string to use the default profile for the current session.</span>
-          </span>
-        </param>
-        <param name="Password">
-          <span data-ttu-id="e8ced-214">Das Kennwort (falls vorhanden) als eine <b>Zeichenfolge </b>(<b>String</b> in c#), mit dem Profil verknüpft ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-214">The password (if any), as a <b>String </b>(<b>string</b> in C#), associated with the profile.</span>
-          </span>
-          <span data-ttu-id="e8ced-215">Dieser Parameter wird nur zur Abwärtskompatibilität Kompatibilität und aus Sicherheitsgründen ist es nicht für die Verwendung empfohlen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-215">This parameter exists only for  backwards compatibility and for security reasons, it is not recommended for use.</span>
-          </span>
-          <span data-ttu-id="e8ced-216">Microsoft Oultook fordert den Benutzer in den meisten Systemkonfigurationen ein Kennwort angeben.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-216">Microsoft Oultook will prompt the user to specify a password in most system configurations.</span>
-          </span>
-          <span data-ttu-id="e8ced-217">Dies ist das Anmeldungskennwort und darf nicht mit PST-Kennwörter verwechselt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-217">This is your logon password and  should not be confused with PST passwords.</span>
-          </span>
-        </param>
-        <param name="ShowDialog">
-          <span data-ttu-id="e8ced-218">
-            <b>True</b>, um das MAPI-Anmeldedialogfeld anzuzeigen, sodass der Benutzer ein MAPI-Profil auswählen kann.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-218">
-              <b>True</b> to display the MAPI logon dialog box to allow the user to select a MAPI profile.</span>
-          </span>
-        </param>
-        <param name="NewSession">
-          <span data-ttu-id="e8ced-p123">
-            <b>True</b>, um eine neue Outlook-Sitzung zu erstellen. Da in Outlook nicht mehrere Sitzungen erstellt werden können, sollte dieser Parameter nur dann als True festgelegt werden, wenn noch keine Sitzung vorhanden ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-p123">
-              <b>True</b> to create a new Outlook session. Since multiple sessions cannot be created in Outlook, this parameter should be specified as True only if a session does not already exist.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-221">Meldet den Benutzer bei MAPI an und eröffnet die MAPI-Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-221">Logs the user on to MAPI, obtaining a MAPI session.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="e8ced-222">
-            <para>Verwenden Sie die <b>Logon</b> -Methode nur zur Anmeldung an einem bestimmten Profil, wenn Outlook nicht bereits ausgeführt wird. Dies ist, da nur ein Outlook-Prozess zu einem Zeitpunkt ausführen kann, und dieses Prozesses Outlook verwendet nur ein Profil und unterstützt nur eine MAPI-Sitzung. Wenn ein Benutzer starten Sie Outlook ein zweites Mal, wird diese Instanz von Outlook innerhalb eines Outlook-Prozesses ausgeführt wird, erstellt einen neuen Prozess nicht und das gleiche Profil verwendet. </para>
-            <para>Wenn Outlook bereits ausgeführt wird, wird die Verwendung dieser Methode keine neue Outlook-Sitzung erstellen oder ändern Sie das aktuelle Profil in eine andere.</para>
-            <para>, Wenn Outlook nicht ausgeführt wird und möchten Sie nur Starten von Outlook mit dem Standardprofil verwenden Sie die <b>Logon</b> -Methode nicht. Noch besser ist im folgenden Codebeispiel wird InitializeMAPI dargestellt: Instanziieren Sie zunächst das Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekts, und klicken Sie dann einen Standardordner wie beispielsweise dem Posteingang zu verweisen. Dies hat den Nachteil, verwenden Sie das Standardprofil für und das Objektmodell voll funktionsfähig, MAPI zu initialisieren. </para>
-            <code>
+        <param name="Profile"><span data-ttu-id="349cc-244">Der MAPI-Profilname als <b>String </b>(<b>Zeichenfolge</b> in c#), für die Sitzung verwendet werden soll.</span><span class="sxs-lookup"><span data-stu-id="349cc-244">The MAPI profile name, as a <b>String </b>(<b>string</b> in C#), to use for the session.</span></span> <span data-ttu-id="349cc-245">Geben Sie eine leere Zeichenfolge an, um das Standardprofil für diese Sitzung zu nutzen.</span><span class="sxs-lookup"><span data-stu-id="349cc-245">Specify an empty string to use the default profile for the current session.</span></span></param>
+        <param name="Password"><span data-ttu-id="349cc-246">Das Kennwort (falls vorhanden) als eine <b>Zeichenfolge </b>(<b>String</b> in c#), mit dem Profil verknüpft ist.</span><span class="sxs-lookup"><span data-stu-id="349cc-246">The password (if any), as a <b>String </b>(<b>string</b> in C#), associated with the profile.</span></span>  <span data-ttu-id="349cc-247">Dieser Parameter wird nur zur Abwärtskompatibilität Kompatibilität und aus Sicherheitsgründen ist es nicht für die Verwendung empfohlen.</span><span class="sxs-lookup"><span data-stu-id="349cc-247">This parameter exists only for  backwards compatibility and for security reasons, it is not recommended for use.</span></span>  <span data-ttu-id="349cc-248">Microsoft Oultook fordert den Benutzer in den meisten Systemkonfigurationen auf, ein Kennwort anzugeben.</span><span class="sxs-lookup"><span data-stu-id="349cc-248">Microsoft Oultook will prompt the user to specify a password in most system configurations.</span></span>  <span data-ttu-id="349cc-249">Dies ist das Anmeldungskennwort und darf nicht mit PST-Kennwörter verwechselt werden.</span><span class="sxs-lookup"><span data-stu-id="349cc-249">This is your logon password and  should not be confused with PST passwords.</span></span></param>
+        <param name="ShowDialog"><span data-ttu-id="349cc-250"><b>True</b>, um das MAPI-Anmeldedialogfeld anzuzeigen, sodass der Benutzer ein MAPI-Profil auswählen kann.</span><span class="sxs-lookup"><span data-stu-id="349cc-250"><b>True</b> to display the MAPI logon dialog box to allow the user to select a MAPI profile.</span></span></param>
+        <param name="NewSession"><span data-ttu-id="349cc-p140"><b>True</b>, um eine neue Outlook-Sitzung zu erstellen. Da in Outlook nicht mehrere Sitzungen erstellt werden können, sollte dieser Parameter nur dann als True festgelegt werden, wenn noch keine Sitzung vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="349cc-p140"><b>True</b> to create a new Outlook session. Since multiple sessions cannot be created in Outlook, this parameter should be specified as True only if a session does not already exist.</span></span></param>
+        <summary><span data-ttu-id="349cc-253">Meldet den Benutzer bei MAPI an und eröffnet die MAPI-Sitzung.</span><span class="sxs-lookup"><span data-stu-id="349cc-253">Logs the user on to MAPI, obtaining a MAPI session.</span></span></summary>
+        <remarks><para><span data-ttu-id="349cc-254">Verwenden Sie die <b>Logon</b> -Methode nur zur Anmeldung an einem bestimmten Profil, wenn Outlook nicht bereits ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-254">Use the <b>Logon</b> method only to log on to a specific profile when Outlook is not already running.</span></span> <span data-ttu-id="349cc-255">Grund dafür ist, dass nur einen Outlook-Prozess ausführen kann und dass dieser Outlook-Prozess nur ein Profil verwendet und nur eine MAPI-Sitzung unterstützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-255">This is because only one Outlook process can run at a time, and that Outlook process uses only one profile and supports only one MAPI session.</span></span> <span data-ttu-id="349cc-256">Wenn ein Benutzer starten Sie Outlook ein zweites Mal, wird diese Instanz von Outlook innerhalb eines Outlook-Prozesses ausgeführt wird, erstellt einen neuen Prozess nicht und das gleiche Profil verwendet.</span><span class="sxs-lookup"><span data-stu-id="349cc-256">When a user start Outlook a second time, that instance of Outlook runs within the same Outlook process, does not create a new process, and uses the same profile.</span></span> </para>
+          <para><span data-ttu-id="349cc-p142">Wenn Outlook bereits ausgeführt wird, wird mit dieser Methode keine neue Outlook-Sitzung erstellt oder das aktuelle Profil in ein anderes geändert.</span><span class="sxs-lookup"><span data-stu-id="349cc-p142">If Outlook is already running, using this method does not create a new Outlook session or change the current profile to a different one. </span></span></para>
+          <para><span data-ttu-id="349cc-258">Wenn Outlook wird nicht ausgeführt, und Sie Outlook mit dem Standardprofil starten möchten, verwenden Sie nicht die <b>Logon</b> -Methode.</span><span class="sxs-lookup"><span data-stu-id="349cc-258">If Outlook is not running and you only want to start Outlook with the default profile, do not use the <b>Logon</b> method.</span></span> <span data-ttu-id="349cc-259">Noch besser ist im folgenden Codebeispiel wird InitializeMAPI dargestellt: Instanziieren Sie zunächst das Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekts, und klicken Sie dann einen Standardordner wie beispielsweise dem Posteingang zu verweisen.</span><span class="sxs-lookup"><span data-stu-id="349cc-259">A better alternative is shown in the following code example InitializeMAPI: first, instantiate the Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object, then reference a default folder such as the Inbox.</span></span> <span data-ttu-id="349cc-260">So wird MAPI mit dem Standardprofil gestartet und das Objektmodell ist voll funktionsfähig.</span><span class="sxs-lookup"><span data-stu-id="349cc-260">This has the side effect of initializing MAPI to use the default profile and to make the object model fully functional.</span></span> </para>
+          <code>
 Imports Outlook = Microsoft.Office.Interop.Outlook
 
 Sub InitializeMAPI ()
@@ -1842,40 +1066,8 @@ Sub InitializeMAPI ()
 
     ' Continue to use the object model to automate Outlook.
 End Sub</code>
-            <para>In Outlook 2010 starten, wenn Sie über mehrere Profile verfügen, Sie Outlook ein Standardprofil Verwendung konfiguriert und Sie die <b>Logon</b> -Methode verwenden haben, um das Standardprofil für anmelden, ohne den Benutzer aufzufordern, erhält der Benutzer eine Aufforderung ein Profil trotzdem auswählen. Um dieses Verhalten zu vermeiden, verwenden Sie die <b>Logon</b> -Methode nicht. Verwenden Sie die im vorstehenden Beispiel InitializeMAPI stattdessen vorgeschlagene Abhilfe.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-222">
-              <para>Use the <b>Logon</b> method only to log on to a specific profile when Outlook is not already running. This is because only one Outlook process can run at a time, and that Outlook process uses only one profile and supports only one MAPI session. When a user start Outlook a second time, that instance of Outlook runs within the same Outlook process, does not create a new process, and uses the same profile. </para>
-              <para>If Outlook is already running, using this method does not create a new Outlook session or change the current profile to a different one. </para>
-              <para>If Outlook is not running and you only want to start Outlook with the default profile, do not use the <b>Logon</b> method. A better alternative is shown in the following code example InitializeMAPI: first, instantiate the Outlook <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object, then reference a default folder such as the Inbox. This has the side effect of initializing MAPI to use the default profile and to make the object model fully functional. </para>
-              <code>
-Imports Outlook = Microsoft.Office.Interop.Outlook
-
-Sub InitializeMAPI ()
-
-    ' Start Outlook.
-    Dim olApp As Outlook.Application
-    Set olApp = CreateObject("Outlook.Application")
-    
-    ' Get a session object. 
-    Dim olNs As Outlook.NameSpace
-    Set olNs = olApp.GetNamespace("MAPI")
-    
-    ' Create an instance of the Inbox folder. 
-    ' If Outlook is not already running, this has the side
-    ' effect of initializing MAPI.
-    Dim mailFolder As Outlook.Folder
-    Set mailFolder = olNs.GetDefaultFolder(olFolderInbox)
-
-    ' Continue to use the object model to automate Outlook.
-End Sub</code>
-              <para>Starting in Outlook 2010, if you have multiple profiles, you have configured Outlook to always use a default profile, and you use the <b>Logon</b> method to log onto the default profile without prompting the user, the user will receive a prompt to choose a profile anyway. To avoid this behavior, do not use the <b>Logon</b> method; use the workaround suggested in the preceding InitializeMAPI example instead.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para><span data-ttu-id="349cc-261">Starten in Outlook 2010, wenn Sie über mehrere Profile verfügen, Sie Outlook ein Standardprofil Verwendung konfiguriert und Sie die <b>Logon</b> -Methode verwenden haben, um das Standardprofil für anmelden, ohne den Benutzer aufzufordern, erhält der Benutzer aufgefordert, wählen Sie ein Profil trotzdem.</span><span class="sxs-lookup"><span data-stu-id="349cc-261">Starting in Outlook 2010, if you have multiple profiles, you have configured Outlook to always use a default profile, and you use the <b>Logon</b> method to log onto the default profile without prompting the user, the user will receive a prompt to choose a profile anyway.</span></span> <span data-ttu-id="349cc-262">Um dieses Verhalten zu vermeiden, verwenden Sie die <b>Logon</b> -Methode nicht. Verwenden Sie die im vorstehenden Beispiel InitializeMAPI stattdessen vorgeschlagene Abhilfe.</span><span class="sxs-lookup"><span data-stu-id="349cc-262">To avoid this behavior, do not use the <b>Logon</b> method; use the workaround suggested in the preceding InitializeMAPI example instead.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -1904,12 +1096,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-223">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-223">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-263">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="349cc-263">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1937,31 +1124,11 @@ End Sub</code>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-224">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der <b>True</b> , wenn Outlook offline ist (nicht mit einem Exchange-Server verbunden), und <b>False,</b> Wenn Sie online (mit einem Exchange-Server verbunden).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-224">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating <b>True</b> if Outlook is offline (not connected to an Exchange server), and <b>False</b> if online (connected to an Exchange server).</span>
-          </span>
-          <span data-ttu-id="e8ced-225">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-225">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-264">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der <b>True</b> , wenn Outlook offline ist (nicht mit einem Exchange-Server verbunden), und <b>False,</b> Wenn Sie online (mit einem Exchange-Server verbunden).</span><span class="sxs-lookup"><span data-stu-id="349cc-264">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating <b>True</b> if Outlook is offline (not connected to an Exchange server), and <b>False</b> if online (connected to an Exchange server).</span></span>  <span data-ttu-id="349cc-265">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-265">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-226">
-            <para>Der Offline-Eigenschaft gibt gültige Informationen nur für ein Exchange-Profil. Es ist nicht vorgesehen für nicht-Exchange-Kontotypen wie POP3, IMAPI und HTTP-.</para>
-            <para>Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> -Eigenschaft <b>OlOffline</b> oder <b>olDisconnected festgelegt ist</b>, die <b>Offline</b> -Eigenschaft gibt <b>True</b>zurück. Wenn die <b>ExchangeConnectionMode</b> -Eigenschaft <b>OlOnline</b>, <b>OlConnected</b>oder <b>olConnectedHeaders festgelegt</b>ist, gibt die <b>Offline</b> -Eigenschaft <b>False</b>zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-226">
-              <para>The Offline property returns valid information only for an Exchange profile. It is not intended for  non-Exchange account types such as POP3, IMAPI, and  HTTP.</para>
-              <para>If the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property is <b>olOffline</b> or <b>olDisconnected</b>, the <b>Offline</b> property will return <b>True</b>. If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>Offline</b> property will return <b>False</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="349cc-p146">Durch die Offline-Eigenschaft werden nur gültige Informationen für Exchange-Profile zurückgegeben. Sie ist nicht für Nicht-Exchange-Kontotypen wie POP3, IMAP und HTTP gedacht.</span><span class="sxs-lookup"><span data-stu-id="349cc-p146">The Offline property returns valid information only for an Exchange profile. It is not intended for  non-Exchange account types such as POP3, IMAPI, and  HTTP.</span></span></para>
+          <para><span data-ttu-id="349cc-268">Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> -Eigenschaft <b>OlOffline</b> oder <b>olDisconnected festgelegt ist</b>, die <b>Offline</b> -Eigenschaft gibt <b>True</b>zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-268">If the <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.ExchangeConnectionMode" /> property is <b>olOffline</b> or <b>olDisconnected</b>, the <b>Offline</b> property will return <b>True</b>.</span></span> <span data-ttu-id="349cc-269">Wenn die <b>ExchangeConnectionMode</b> -Eigenschaft <b>OlOnline</b>, <b>OlConnected</b> oder <b>olConnectedHeaders festgelegt</b> ist, gibt die <b>Offline</b> -Eigenschaft <b>False</b> zurück.</span><span class="sxs-lookup"><span data-stu-id="349cc-269">If the <b>ExchangeConnectionMode</b> property is <b>olOnline</b>, <b>olConnected</b>, or <b>olConnectedHeaders</b>, the <b>Offline</b> property will return <b>False</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenSharedFolder">
@@ -1989,98 +1156,38 @@ End Sub</code>
         <Parameter Name="UseTTL" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="e8ced-227">Die URL oder der lokale Dateiname des freigegebenen Ordners, der geöffnet werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-227">The URL or local file name of the shared folder to be opened.</span>
-          </span>
-        </param>
-        <param name="Name">
-          <span data-ttu-id="e8ced-p125">Der Name des RSS-Feeds (Really Simple Syndication) oder Webcal-Kalenders. Dieser Parameter wird für andere Typen freigegebener Ordner ignoriert.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-p125">The name of the Really Simple Syndication (RSS) feed or Webcal calendar. This parameter is ignored for other shared folder types.</span>
-          </span>
-        </param>
-        <param name="DownloadAttachments">
-          <span data-ttu-id="e8ced-230">Gibt an, ob Anlagen für RSS-Feeds oder für Webcal-Kalender heruntergeladen werden sollen. Dieser Parameter wird für andere Typen freigegebener Ordner ignoriert.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-230">Indicates whether to download enclosures (for RSS feeds) or attachments (for Webcal calendars.) This parameter is ignored for other shared folder types.</span>
-          </span>
-        </param>
-        <param name="UseTTL">
-          <span data-ttu-id="e8ced-p126">Gibt an, ob die TTL-Einstellung (Time To Live) in einem RSS-Feed oder WebCal-Kalender verwendet werden soll. Dieser Parameter wird für andere Typen freigegebener Ordner ignoriert.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-p126">Indicates whether the Time To Live (TTL) setting in an RSS feed or WebCal calendar should be used. This parameter is ignored for other shared folder types.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-233">Ein freigegebener Ordner, auf den durch eine URL oder einen Dateinamen verwiesen wird, wird geöffnet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-233">Opens a shared folder referenced through a URL or file name.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-234">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den freigegebenen Ordner darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-234">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the shared folder.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-235">
-            <para>Diese Methode wird verwendet, um die folgenden Typen freigegebener Ordner zugreifen:</para>
+        <param name="Path"><span data-ttu-id="349cc-270">Die URL oder der lokale Dateiname des freigegebenen Ordners, der geöffnet werden soll.</span><span class="sxs-lookup"><span data-stu-id="349cc-270">The URL or local file name of the shared folder to be opened.</span></span></param>
+        <param name="Name"><span data-ttu-id="349cc-p148">Der Name des RSS-Feeds (Really Simple Syndication) oder Webcal-Kalenders. Dieser Parameter wird für andere Typen freigegebener Ordner ignoriert.</span><span class="sxs-lookup"><span data-stu-id="349cc-p148">The name of the Really Simple Syndication (RSS) feed or Webcal calendar. This parameter is ignored for other shared folder types.</span></span></param>
+        <param name="DownloadAttachments"><span data-ttu-id="349cc-273">Gibt an, ob Anlagen für RSS-Feeds oder für Webcal-Kalender heruntergeladen werden sollen. Dieser Parameter wird für andere Typen freigegebener Ordner ignoriert.</span><span class="sxs-lookup"><span data-stu-id="349cc-273">Indicates whether to download enclosures (for RSS feeds) or attachments (for Webcal calendars.) This parameter is ignored for other shared folder types.</span></span></param>
+        <param name="UseTTL"><span data-ttu-id="349cc-p149">Gibt an, ob die TTL-Einstellung (Time To Live) in einem RSS-Feed oder WebCal-Kalender verwendet werden soll. Dieser Parameter wird für andere Typen freigegebener Ordner ignoriert.</span><span class="sxs-lookup"><span data-stu-id="349cc-p149">Indicates whether the Time To Live (TTL) setting in an RSS feed or WebCal calendar should be used. This parameter is ignored for other shared folder types.</span></span></param>
+        <summary><span data-ttu-id="349cc-276">Ein freigegebener Ordner, auf den durch eine URL oder einen Dateinamen verwiesen wird, wird geöffnet.</span><span class="sxs-lookup"><span data-stu-id="349cc-276">Opens a shared folder referenced through a URL or file name.</span></span></summary>
+        <returns><span data-ttu-id="349cc-277">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den freigegebenen Ordner darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-277">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object that represents the shared folder.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-278">Diese Methode wird zum Zugreifen auf die folgenden Typen freigegebener Ordner verwendet:</span><span class="sxs-lookup"><span data-stu-id="349cc-278">This method is used to access the following shared folder types:</span></span></para>
+          <list type="bullet">
             <item>
-              <para>Webcal-Kalender (Webcal://meinesite/MeinKalender)</para>
+              <para><span data-ttu-id="349cc-279">Webcal-Kalender (webcal://MeineSite/MeinKalender)</span><span class="sxs-lookup"><span data-stu-id="349cc-279">Webcal calendars (webcal://mysite/mycalendar)</span></span></para>
             </item>
             <item>
-              <para>RSS-feeds (Feed://meinesite/meinfeed)</para>
+              <para><span data-ttu-id="349cc-280">RSS feeds (feed://mysite/myfeed)</span><span class="sxs-lookup"><span data-stu-id="349cc-280">RSS feeds (feed://mysite/myfeed)</span></span></para>
             </item>
             <item>
-              <para>Microsoft SharePoint Foundation-Ordner (Stssync://mysite/myfolder)</para>
+              <para><span data-ttu-id="349cc-281">Microsoft SharePoint Foundation-Ordner (stssync://MeineSite/MeinOrdner)</span><span class="sxs-lookup"><span data-stu-id="349cc-281">Microsoft SharePoint Foundation folders (stssync://mysite/myfolder)</span></span></para>
             </item>
             <item>
-              <para>iCalendar-Kalenderdateien (ICS)</para>
+              <para><span data-ttu-id="349cc-282">iCalendar-Kalenderdateien (ICS)</span><span class="sxs-lookup"><span data-stu-id="349cc-282">iCalendar calendar (.ics) files</span></span></para>
             </item>
             <item>
-              <para>
-                <list type="bullet">vCard-Kontakt (. VCF) Dateien
-            <item><para>Outlook-Nachrichtendateien (MSG)</para></item></list>
-              </para>
+              <para><span data-ttu-id="349cc-283">vCard-Kontaktdateien (VCF)</span><span class="sxs-lookup"><span data-stu-id="349cc-283">vCard contact (.vcf) files</span></span></para>
             </item>
-            <para>
-              <b>Hinweis</b>: Diese Methode unterstützt keine iCalendar (.ics) Termindateien. Klicken Sie zum Öffnen von iCalendar Termindateien können die <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt.</para>
-            <para>Können Sie die <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> -Methode des <b>Namespace</b> -Objekt zum Freigeben von Standardordnern, beispielsweise dem Ordner Posteingang in Exchange.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-235">
-              <para>This method is used to access the following shared folder types:</para>
-              <list type="bullet">
-                <item>
-                  <para>Webcal calendars (webcal://mysite/mycalendar)</para>
-                </item>
-                <item>
-                  <para>RSS feeds (feed://mysite/myfeed)</para>
-                </item>
-                <item>
-                  <para>Microsoft SharePoint Foundation folders (stssync://mysite/myfolder)</para>
-                </item>
-                <item>
-                  <para>iCalendar calendar (.ics) files</para>
-                </item>
-                <item>
-                  <para>vCard contact (.vcf) files</para>
-                </item>
-                <item>
-                  <para>Outlook message (.msg) files</para>
-                </item>
-              </list>
-              <para>
-                <b>Note</b>: This method does not support iCalendar appointment (.ics) files. To open iCalendar appointment files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</para>
-              <para>You can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> method of the <b>Namespace</b> object to share default folders, such as the Inbox folder,  in Exchange.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+            <item>
+              <para><span data-ttu-id="349cc-284">Outlook-Nachrichtendateien (MSG)</span><span class="sxs-lookup"><span data-stu-id="349cc-284">Outlook message (.msg) files</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="349cc-285">
+            <b>Hinweis</b>: Diese Methode unterstützt keine iCalendar (.ics) Termindateien.</span><span class="sxs-lookup"><span data-stu-id="349cc-285">
+            <b>Note</b>: This method does not support iCalendar appointment (.ics) files.</span></span> <span data-ttu-id="349cc-286">Klicken Sie zum Öffnen von iCalendar Termindateien können Sie die <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="349cc-286">To open iCalendar appointment files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedItem(System.String)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object.</span></span></para>
+          <para><span data-ttu-id="349cc-287">Sie können die <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> -Methode des <b>Namespace</b> -Objekt zum Freigeben von Standardordnern, beispielsweise dem Ordner Posteingang in Exchange.</span><span class="sxs-lookup"><span data-stu-id="349cc-287">You can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetSharedDefaultFolder(Microsoft.Office.Interop.Outlook.Recipient,Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> method of the <b>Namespace</b> object to share default folders, such as the Inbox folder,  in Exchange.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenSharedItem">
@@ -2106,76 +1213,32 @@ End Sub</code>
         <Parameter Name="Path" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="e8ced-236">Der Pfad oder die URL des freigegebenen Elements, das geöffnet werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-236">The path or URL of the shared item to be opened.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-237">Ein freigegebenes Element aus einem freigegebenen Pfad oder einer freigegebenen URL wird geöffnet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-237">Opens a shared item from a specified path or URL.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-238">Ein Objekt, das das entsprechende Outlook-Element für das freigegebene Element darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-238">An Object representing the appropriate Outlook item for the shared item.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-239">
-            <para>Diese Methode wird zum Öffnen von iCalendar (.ics) Termin-Dateien (VCF) vCard-Dateien und Outlook-Nachrichtendateien (MSG) verwendet. Der Typ des durch diese Methode zurückgegebenen Objekts hängt vom Typ des freigegebenen Elements geöffnet, aus, wie in der folgenden Tabelle beschrieben.</para>
-            <list type="table">
-              <item>
-                <description>Shared Elementtyp</description>
-                <description>Outlook-Element</description>
-              </item>
-              <item>
-                <description>iCalendar (.ics) die Datei</description>
-                <description>AppointmentItem</description>
-              </item>
-              <item>
-                <description>vCard-Datei (VCF)</description>
-                <description>ContactItem</description>
-              </item>
-              <item>
-                <description>Outlook-Nachrichtendatei (MSG)</description>
-                <description>Typ entspricht dem Typ des Elements, das als MSG-Datei gespeichert wurde</description>
-              </item>
-            </list>
-            <para>
-              <b>Hinweis</b>: Diese Methode unterstützt keine iCalendar-Kalenderdateien (ICS). Klicken Sie zum Öffnen von iCalendar-Kalenderdateien können Sie die <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> -Methode des <b>NameSpace</b> -Objekts.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-239">
-              <para>This method is used to open iCalendar appointment (.ics) files, vCard (.vcf) files, and Outlook message (.msg) files. The type of object returned by this method depends on the type of shared item opened, as described in the following table.</para>
-              <list type="table">
-                <item>
-                  <description>Shared item type</description>
-                  <description>Outlook item</description>
-                </item>
-                <item>
-                  <description>iCalendar appointment (.ics) file</description>
-                  <description>AppointmentItem</description>
-                </item>
-                <item>
-                  <description>vCard (.vcf) file</description>
-                  <description>ContactItem</description>
-                </item>
-                <item>
-                  <description>Outlook message (.msg) file</description>
-                  <description>Type corresponds to the type of the item that was saved as the .msg file</description>
-                </item>
-              </list>
-              <para>
-                <b>Note</b>: This method does not support iCalendar calendar (.ics) files. To open iCalendar calendar files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> method of the <b>NameSpace</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Path"><span data-ttu-id="349cc-288">Der Pfad oder die URL des freigegebenen Elements, das geöffnet werden soll.</span><span class="sxs-lookup"><span data-stu-id="349cc-288">The path or URL of the shared item to be opened.</span></span></param>
+        <summary><span data-ttu-id="349cc-289">Ein freigegebenes Element aus einem freigegebenen Pfad oder einer freigegebenen URL wird geöffnet.</span><span class="sxs-lookup"><span data-stu-id="349cc-289">Opens a shared item from a specified path or URL.</span></span></summary>
+        <returns><span data-ttu-id="349cc-290">Ein Objekt, das das entsprechende Outlook-Element für das freigegebene Element darstellt.</span><span class="sxs-lookup"><span data-stu-id="349cc-290">An Object representing the appropriate Outlook item for the shared item.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-p151">Diese Methode wird zum Öffnen von iCalendar-Termindateien (ICS), vCard-Dateien (VCF) und Outlook-Nachrichtendateien (MSG) verwendet. Der Typ des durch diese Methode zurückgegebenen Objekts hängt, wie in der folgenden Tabelle beschrieben, vom Typ des geöffneten freigegebenen Elements ab.</span><span class="sxs-lookup"><span data-stu-id="349cc-p151">This method is used to open iCalendar appointment (.ics) files, vCard (.vcf) files, and Outlook message (.msg) files. The type of object returned by this method depends on the type of shared item opened, as described in the following table.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="349cc-293">Typ des freigegebenen Elements</span><span class="sxs-lookup"><span data-stu-id="349cc-293">Shared item type</span></span></description>
+              <description><span data-ttu-id="349cc-294">Outlook-Element</span><span class="sxs-lookup"><span data-stu-id="349cc-294">Outlook item</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="349cc-295">iCalendar-Termindatei (ICS)</span><span class="sxs-lookup"><span data-stu-id="349cc-295">iCalendar appointment (.ics) file</span></span></description>
+              <description><span data-ttu-id="349cc-296">AppointmentItem</span><span class="sxs-lookup"><span data-stu-id="349cc-296">AppointmentItem</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="349cc-297">vCard-Datei (VCF)</span><span class="sxs-lookup"><span data-stu-id="349cc-297">vCard (.vcf) file</span></span></description>
+              <description><span data-ttu-id="349cc-298">ContactItem</span><span class="sxs-lookup"><span data-stu-id="349cc-298">ContactItem</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="349cc-299">Outlook-Nachrichtendatei (MSG)</span><span class="sxs-lookup"><span data-stu-id="349cc-299">Outlook message (.msg) file</span></span></description>
+              <description><span data-ttu-id="349cc-300">Der Typ entspricht dem Typ des Elements, das als MSG-Datei gespeichert wurde.</span><span class="sxs-lookup"><span data-stu-id="349cc-300">Type corresponds to the type of the item that was saved as the .msg file</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="349cc-301">
+            <b>Hinweis</b>: Diese Methode unterstützt keine iCalendar-Kalenderdateien (ICS).</span><span class="sxs-lookup"><span data-stu-id="349cc-301">
+            <b>Note</b>: This method does not support iCalendar calendar (.ics) files.</span></span> <span data-ttu-id="349cc-302">Klicken Sie zum Öffnen von iCalendar-Kalenderdateien können Sie die <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> -Methode des <b>NameSpace</b> -Objekts.</span><span class="sxs-lookup"><span data-stu-id="349cc-302">To open iCalendar calendar files, you can use the <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.OpenSharedFolder(System.String,System.Object,System.Object,System.Object)" /> method of the <b>NameSpace</b> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -2201,12 +1264,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-p127">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-p127">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-p153">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-p153">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2232,30 +1290,10 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-242">Zeigt das Dialogfeld Ordner auswählen an.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-242">Displays the Pick Folder dialog box.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="e8ced-243">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Ordner darstellt, die der Benutzer im Dialogfeld oder <b>Nothing</b> auswählt, wenn das Dialogfeld vom Benutzer abgebrochen wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-243">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object  that represents the folder that the user selects  in the dialog box, or <b>Nothing</b> if the dialog box is canceled by the user.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="e8ced-244">
-            <para>Das Dialogfeld Ordner auswählen, wird ein modales Dialogfeld was bedeutet, dass die Ausführung von Code nicht fortgesetzt wird, bis der Benutzer wählt einen Ordner aus oder das Dialogfeld hebt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-244">
-              <para>The Pick Folder dialog box is a modal dialog box which means that code execution will not continue until the user either selects a folder or cancels the dialog box.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="349cc-305">Zeigt das Dialogfeld Ordner auswählen an.</span><span class="sxs-lookup"><span data-stu-id="349cc-305">Displays the Pick Folder dialog box.</span></span></summary>
+        <returns><span data-ttu-id="349cc-306">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Ordner darstellt, die der Benutzer im Dialogfeld oder <b>Nothing</b> auswählt, wenn das Dialogfeld vom Benutzer abgebrochen wird.</span><span class="sxs-lookup"><span data-stu-id="349cc-306">A <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object  that represents the folder that the user selects  in the dialog box, or <b>Nothing</b> if the dialog box is canceled by the user.</span></span></returns>
+        <remarks><para><span data-ttu-id="349cc-307">Das Dialogfeld Ordner auswählen, wird ein modales Dialogfeld was bedeutet, dass die Ausführung von Code nicht fortgesetzt wird, bis der Benutzer wählt einen Ordner aus oder das Dialogfeld hebt.</span><span class="sxs-lookup"><span data-stu-id="349cc-307">The Pick Folder dialog box is a modal dialog box which means that code execution will not continue until the user either selects a folder or cancels the dialog box.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RefreshRemoteHeaders">
@@ -2282,12 +1320,7 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-245">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-245">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-308">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="349cc-308">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2314,30 +1347,10 @@ End Sub</code>
         <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="Folder">
-          <span data-ttu-id="e8ced-246">Die aus der Liste zu löschende Datei für den Persönlichen Ordner (PST).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-246">The Personal Folders file (.pst) to be deleted from the list.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-247">Entfernt eine Datei für den Persönlichen Ordner (PST) aus dem aktuellen MAPI-Profil oder der Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-247">Removes a Personal Folders file (.pst) from the current MAPI profile or session.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="e8ced-248">
-            <para>Diese Methode entfernt einen Speicher nur aus der Microsoft Outlook-Benutzeroberfläche. Sie können keinen Speicher aus dem Hauptpostfach auf dem Server oder von einem Benutzer Festplatte mithilfe des Outlook-Objektmodells entfernen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-248">
-              <para>This method removes  a store only from the Microsoft Outlook user interface. You cannot remove a store from the main mailbox on the server or from a user's hard disk using the Outlook object model.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Folder"><span data-ttu-id="349cc-309">Die aus der Liste zu löschende Datei für den Persönlichen Ordner (PST).</span><span class="sxs-lookup"><span data-stu-id="349cc-309">The Personal Folders file (.pst) to be deleted from the list.</span></span></param>
+        <summary><span data-ttu-id="349cc-310">Entfernt eine Datei für den Persönlichen Ordner (PST) aus dem aktuellen MAPI-Profil oder der Sitzung.</span><span class="sxs-lookup"><span data-stu-id="349cc-310">Removes a Personal Folders file (.pst) from the current MAPI profile or session.</span></span></summary>
+        <remarks><para><span data-ttu-id="349cc-311">Diese Methode entfernt einen Speicher nur aus der Microsoft Outlook-Benutzeroberfläche.</span><span class="sxs-lookup"><span data-stu-id="349cc-311">This method removes  a store only from the Microsoft Outlook user interface.</span></span> <span data-ttu-id="349cc-312">Es kann kein Informationsspeicher aus dem Hauptpostfach auf dem Server oder auf der Festplatte des Benutzers mithilfe des Outlook-Objektmodells entfernt werden.</span><span class="sxs-lookup"><span data-stu-id="349cc-312">You cannot remove a store from the main mailbox on the server or from a user's hard disk using the Outlook object model.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendAndReceive">
@@ -2363,38 +1376,15 @@ End Sub</code>
         <Parameter Name="showProgressDialog" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="showProgressDialog">
-          <span data-ttu-id="e8ced-249">Gibt an, ob das Dialogfeld Outlook-Nachrichtenübermittlung unabhängig von den Benutzereinstellungen angezeigt werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-249">Indicates whether the Outlook Send/Receive Progress dialog box should be displayed, regardless of user settings.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="e8ced-250">Löst die sofortige Übermittlung aller noch nicht übermittelten Nachrichten, die in der aktuellen Sitzung und sofortigen e-Mail-Empfang für alle Konten im aktuellen Profil gesendet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-250">Initiates immediate delivery of all undelivered messages submitted in the current session, and immediate receipt of  mail for  all accounts in the current profile.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="e8ced-251">
-            <para>Aufrufen der <b>SendAndReceive</b> -Methode ist asynchron.</para>
-            <para>
-              <b>SendAndReceive</b> stellt die programmgesteuerte Entsprechung für den Befehl senden/empfangen alle, die verfügbar ist, wenn Sie auf Extras und dann auf Senden/Empfangen klicken.</para>
-            <para>Wenn nicht alle Objekte synchronisiert werden müssen, können Sie mithilfe der <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> -Auflistungsobjekt zum Auswählen bestimmter Objekte. Weitere Informationen finden Sie unter <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />.</para>
-            <para>In alle senden/empfangen alle Konten im aktuellen Profil definierten verwendet werden. Wenn eine online-Verbindung zum Senden/Empfangen alle ausführen erforderlich ist, wird die Verbindung hergestellt, gemäß den benutzereinstellungen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-251">
-              <para>Calling the <b>SendAndReceive</b> method is asynchronous.</para>
-              <para>
-                <b>SendAndReceive</b> provides the programmatic equivalent to the Send/Receive All command that is available when you click Tools and then Send/Receive.</para>
-              <para>If you do not need to synchronize all objects, you can use the <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> collection object to select specific objects. For more information, see <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />.</para>
-              <para>All accounts defined in the current profile are used in Send/Receive All. If an online connection is required to perform the Send/Receive All, the connection is made according to user preferences.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="showProgressDialog"><span data-ttu-id="349cc-313">Gibt an, ob das Dialogfeld Outlook-Nachrichtenübermittlung unabhängig von den Benutzereinstellungen angezeigt werden soll.</span><span class="sxs-lookup"><span data-stu-id="349cc-313">Indicates whether the Outlook Send/Receive Progress dialog box should be displayed, regardless of user settings.</span></span></param>
+        <summary><span data-ttu-id="349cc-314">Löst die sofortige Übermittlung aller noch nicht übermittelten Nachrichten, die in der aktuellen Sitzung und sofortigen e-Mail-Empfang für alle Konten im aktuellen Profil gesendet.</span><span class="sxs-lookup"><span data-stu-id="349cc-314">Initiates immediate delivery of all undelivered messages submitted in the current session, and immediate receipt of  mail for  all accounts in the current profile.</span></span></summary>
+        <remarks><para><span data-ttu-id="349cc-315">Aufrufen der <b>SendAndReceive</b> -Methode ist asynchron.</span><span class="sxs-lookup"><span data-stu-id="349cc-315">Calling the <b>SendAndReceive</b> method is asynchronous.</span></span></para>
+          <para><span data-ttu-id="349cc-316">
+            <b>SendAndReceive</b> stellt die programmgesteuerte Entsprechung für den Befehl senden/empfangen alle, der verfügbar ist, wenn Sie auf Extras und dann auf Senden/Empfangen klicken.</span><span class="sxs-lookup"><span data-stu-id="349cc-316">
+            <b>SendAndReceive</b> provides the programmatic equivalent to the Send/Receive All command that is available when you click Tools and then Send/Receive.</span></span></para>
+          <para><span data-ttu-id="349cc-317">Wenn Sie nicht alle Objekte synchronisiert werden müssen, können Sie die <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> -Auflistungsobjekt zum Auswählen bestimmter Objekte.</span><span class="sxs-lookup"><span data-stu-id="349cc-317">If you do not need to synchronize all objects, you can use the <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> collection object to select specific objects.</span></span> <span data-ttu-id="349cc-318">Weitere Informationen finden Sie unter <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />.</span><span class="sxs-lookup"><span data-stu-id="349cc-318">For more information, see <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.SyncObjects" />.</span></span></para>
+          <para><span data-ttu-id="349cc-p156">Alle Konten im aktuellen Profil definiert werden in Alle senden/empfangen verwendet. Wenn eine online-Verbindung zum Senden/Empfangen alle ausführen erforderlich ist, erfolgt die Verbindung gemäß den benutzereinstellungen.</span><span class="sxs-lookup"><span data-stu-id="349cc-p156">All accounts defined in the current profile are used in Send/Receive All. If an online connection is required to perform the Send/Receive All, the connection is made according to user preferences.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -2420,41 +1410,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-252">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-252">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="e8ced-253">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-253">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-321">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="349cc-321">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="349cc-322">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-322">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="e8ced-254">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="349cc-323">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="349cc-323">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="349cc-324">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="349cc-324">Both members serve the same purpose.</span></span> <span data-ttu-id="349cc-325">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="349cc-325">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-254">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stores">
@@ -2480,16 +1445,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Stores</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-255">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> -Auflistungsobjekt, das alle darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekte im aktuellen Profil.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-255">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objects in the current profile.</span>
-          </span>
-          <span data-ttu-id="e8ced-256">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-256">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-326">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> -Auflistungsobjekt, das alle darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekte im aktuellen Profil.</span><span class="sxs-lookup"><span data-stu-id="349cc-326">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> collection object that represents all the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> objects in the current profile.</span></span> <span data-ttu-id="349cc-327">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-327">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2517,16 +1473,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.SyncObjects</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-257">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> Auflistung, die alle Senden-Empfangen-Gruppen enthält.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-257">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />  collection containing all Send\Receive groups.</span>
-          </span>
-          <span data-ttu-id="e8ced-258">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-258">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-328">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" /> Auflistung, die alle Senden-Empfangen-Gruppen enthält.</span><span class="sxs-lookup"><span data-stu-id="349cc-328">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.SyncObjects" />  collection containing all Send\Receive groups.</span></span> <span data-ttu-id="349cc-329">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-329">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2554,16 +1501,7 @@ End Sub</code>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="e8ced-259">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Typ des angegebenen Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-259">Returns a <b>String</b> (<b>string</b> in C#) indicating the type of the specified object.</span>
-          </span>
-          <span data-ttu-id="e8ced-260">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="e8ced-260">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="349cc-330">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Typ des angegebenen Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="349cc-330">Returns a <b>String</b> (<b>string</b> in C#) indicating the type of the specified object.</span></span>  <span data-ttu-id="349cc-331">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="349cc-331">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,13 +1,5 @@
 <Type Name="_SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook._SelectNamesDialog">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635749" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900969" /></Metadata><TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SelectNamesDialog" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SelectNamesDialog" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="8eabd-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8eabd-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="8eabd-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8eabd-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="8eabd-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8eabd-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="8eabd-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8eabd-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="b0dfd-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="b0dfd-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="b0dfd-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="b0dfd-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,31 +48,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-105">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der bestimmt, ob mehrere Adresseintrag gleichzeitig in das Dialogfeld Namen auswählen ausgewählt werden kann.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines whether more than one address entry can be selected at a time in the Select Names dialog.</span>
-          </span>
-          <span data-ttu-id="8eabd-106">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-105">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der bestimmt, ob mehrere Adresseintrag gleichzeitig in das Dialogfeld Namen auswählen ausgewählt werden kann.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines whether more than one address entry can be selected at a time in the Select Names dialog.</span></span> <span data-ttu-id="b0dfd-106">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-107">
-            <para>Der Standardwert der <b>AllowMultipleSelection</b> ist <b>True</b>. Wenn <b>AllowMultipleSelection</b> auf <b>True</b>festgelegt ist, kann der Benutzer mithilfe von STRG oder die UMSCHALTTASTE mehrere Empfänger auswählen. Wenn <b>AllowMultipleSelection</b> auf <b>False</b>festgelegt ist, wird die Auswahl mehrerer deaktiviert.   </para>
-            <para>Einstellung <b>AllowMultipleSelection</b> auf <b>false festgelegt</b> wird nicht sichergestellt, dass nur ein Empfänger ausgewählt werden kann. Der Benutzer kann weitere Empfänger Bearbeitungsfeld oder auswählen aus der Empfängerliste mehrfach eingeben. Legen Sie <b>AllowMultipleSelect</b> auf <b>false fest</b> , um sicherzustellen, dass nur ein Empfänger im Dialogfeld ausgewählt werden kann, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>OlShowNone</b>. </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-107">
-              <para>The default value of <b>AllowMultipleSelection</b> is <b>True</b>. If <b>AllowMultipleSelection</b> is set to <b>True</b>, the user can select multiple recipients by using the CTRL or SHIFT key. If <b>AllowMultipleSelection</b> is set to <b>False</b>, multiple selection is disabled.   </para>
-              <para>Setting <b>AllowMultipleSelection</b> to <b>False</b> does not ensure that only one recipient can be selected. The user can type additional recipients in the edit box or select from the recipient list multiple times. To ensure that only one recipient can be selected in the dialog, set <b>AllowMultipleSelect</b> to <b>False</b> and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to <b>olShowNone</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-p103">Der Standardwert der <b>AllowMultipleSelection</b> ist <b>True</b>. Wenn <b>AllowMultipleSelection</b> auf <b>True</b>festgelegt ist, kann der Benutzer mit der Taste STRG oder die UMSCHALTTASTE mehrere Empfänger auswählen. Wenn <b>AllowMultipleSelection</b> auf <b>False</b>festgelegt ist, wird die Auswahl mehrerer deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p103">The default value of <b>AllowMultipleSelection</b> is <b>True</b>. If <b>AllowMultipleSelection</b> is set to <b>True</b>, the user can select multiple recipients by using the CTRL or SHIFT key. If <b>AllowMultipleSelection</b> is set to <b>False</b>, multiple selection is disabled.   </span></span></para>
+          <para><span data-ttu-id="b0dfd-110">Festlegen von <b>AllowMultipleSelection</b> auf <b>False</b> wird nicht sichergestellt, dass nur ein Empfänger ausgewählt werden kann.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-110">Setting <b>AllowMultipleSelection</b> to <b>False</b> does not ensure that only one recipient can be selected.</span></span> <span data-ttu-id="b0dfd-111">Der Benutzer kann weitere Empfänger Bearbeitungsfeld oder auswählen aus der Empfängerliste mehrfach eingeben.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-111">The user can type additional recipients in the edit box or select from the recipient list multiple times.</span></span> <span data-ttu-id="b0dfd-112">Legen Sie <b>AllowMultipleSelect</b> auf <b>false fest</b> , um sicherzustellen, dass nur ein Empfänger im Dialogfeld ausgewählt werden kann, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>OlShowNone</b>.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-112">To ensure that only one recipient can be selected in the dialog, set <b>AllowMultipleSelect</b> to <b>False</b> and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to <b>olShowNone</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -123,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-108">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das die übergeordnete Anwendung (Outlook) für stellt die <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
-          </span>
-          <span data-ttu-id="8eabd-109">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-113">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das die übergeordnete Anwendung (Outlook) für stellt die <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span></span> <span data-ttu-id="b0dfd-114">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,31 +109,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-110">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf die Bcc-Befehlsschaltfläche in das Dialogfeld Namen auswählen angezeigt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-110">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Bcc command button on the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-111">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-115">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf die Bcc-Befehlsschaltfläche in das Dialogfeld Namen auswählen angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-115">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Bcc command button on the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-116">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-116">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-112">
-            <para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, ein kaufmännisches und-Zeichen einfügen (&amp;) Zeichen in der Beschriftung Argumentzeichenfolge, unmittelbar vor dem Zeichen, die als Zugriffstaste fungiert. <b>BccLabel</b> beispielsweise die Zeichenfolge "lokale &amp;Teilnehmer", Benutzer können durch Drücken von ALT + A, um den Fokus auf das erste Bearbeitungsfeld Empfänger. </para>
-            <para>Wenn <b>BccLabel</b> nicht festgelegt ist, und klicken Sie dann der Standardwert die lokalisierte Zeichenfolge für "Bcc" verwendet wird. Wenn die <b>BccLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Bcc-Befehlsschaltfläche zeigt -&gt;. Wenn die <b>BccLabel</b> -Eigenschaft mehr als 32 Zeichen enthält (einschließlich das kaufmännische und-Zeichen (&amp;) Zugriffstaste), nur die ersten 32 Zeichen werden die Befehlsschaltfläche angezeigt werden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-112">
-              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>BccLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
-              <para>If <b>BccLabel</b> is not set, then the default value will be the localized string for "Bcc". If the <b>BccLabel</b> is set to an empty string, then the Bcc command button shows -&gt;. If the <b>BccLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-p107">Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, enthalten Sie ein kaufmännische und-Zeichen in der Beschriftung Argumentzeichenfolge (&amp;) unmittelbar vor dem Zeichen, das als Zugriffstaste fungiert. Beispielsweise können <b>BccLabel</b> die Zeichenfolge "Lokale &amp; Teilnehmer" ist, Benutzer ALT + A, um den Fokus auf den ersten Empfänger-Bearbeitungsfeld drücken.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p107">To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>BccLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </span></span></para>
+          <para><span data-ttu-id="b0dfd-119">Wenn <b>BccLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "Bcc".</span><span class="sxs-lookup"><span data-stu-id="b0dfd-119">If <b>BccLabel</b> is not set, then the default value will be the localized string for "Bcc".</span></span> <span data-ttu-id="b0dfd-120">Wenn die <b>BccLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Bcc-Befehlsschaltfläche zeigt -&gt;.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-120">If the <b>BccLabel</b> is set to an empty string, then the Bcc command button shows -&gt;.</span></span> <span data-ttu-id="b0dfd-121">Wenn die <b>BccLabel</b> -Eigenschaft (einschließlich der Zugriffstaste und-Zeichen (&amp;)) mehr als 32 Zeichen enthält, werden nur die ersten 32 Zeichen in die Befehlsschaltfläche angezeigt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-121">If the <b>BccLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -216,31 +142,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-113">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Titel für das Dialogfeld Namen auswählen darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-113">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the title for the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-114">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-114">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-122">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Titel für das Dialogfeld Namen auswählen darstellt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-122">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the title for the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-123">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-123">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-115">
-            <para>Wenn Sie keine <b>Beschriftung</b>festlegen, werden der Titel des Dialogfelds Namen auswählen oder die lokalisierte Entsprechung. Wenn Sie <b>Beschriftung</b> auf eine leere Zeichenfolge festlegen, werden Titel des Dialogfelds eine leere Zeichenfolge.</para>
-            <para>Bewirkt, dass die Beschriftung abgeschnitten werden und verursacht nicht die Breite des Dialogfelds "Namen auswählen" So ändern Sie die <b>Beschriftung</b> in eine lange Zeichenfolge (z. B. 300 Zeichen) festlegen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-115">
-              <para>If you do not set <b>Caption</b>, the title of the dialog box will be Select Names or the localized equivalent. If you set <b>Caption</b> to an empty string, the dialog box caption will be an empty string.</para>
-              <para>Setting the <b>Caption</b> to a long string (for example, 300 characters) will cause the caption to be truncated, and will not cause the width of the Select Names dialog to change.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-p110">Wenn Sie keine <b>Beschriftung</b> festlegen, werden der Titel des Dialogfelds Namen auswählen oder die lokalisierte Entsprechung. Wenn Sie <b>Beschriftung</b> auf eine leere Zeichenfolge festlegen, werden Titel des Dialogfelds eine leere Zeichenfolge.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p110">If you do not set <b>Caption</b>, the title of the dialog box will be Select Names or the localized equivalent. If you set <b>Caption</b> to an empty string, the dialog box caption will be an empty string.</span></span></para>
+          <para><span data-ttu-id="b0dfd-126">Festlegen der <b>Beschriftung</b> in eine lange Zeichenfolge (z. B. 300 Zeichen) bewirkt, dass die Beschriftung abgeschnitten werden und verursacht nicht die Breite des Dialogfelds " Namen auswählen " zu ändern.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-126">Setting the <b>Caption</b> to a long string (for example, 300 characters) will cause the caption to be truncated, and will not cause the width of the Select Names dialog to change.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CcLabel">
@@ -269,31 +175,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-116">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf der Cc-Befehlsschaltfläche in das Dialogfeld Namen auswählen angezeigt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-116">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Cc command button on the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-117">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-117">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-127">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf der Cc-Befehlsschaltfläche in das Dialogfeld Namen auswählen angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-127">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the Cc command button on the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-128">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-128">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-118">
-            <para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, ein kaufmännisches und-Zeichen einfügen (&amp;) Zeichen in der Beschriftung Argumentzeichenfolge, unmittelbar vor dem Zeichen, die als Zugriffstaste fungiert. <b>CcLabel</b> beispielsweise die Zeichenfolge "lokale &amp;Teilnehmer", Benutzer können durch Drücken von ALT + A, um den Fokus auf das erste Bearbeitungsfeld Empfänger. </para>
-            <para>Wenn <b>CcLabel</b> nicht festgelegt ist, und klicken Sie dann der Standardwert die lokalisierte Zeichenfolge für "Cc" verwendet wird. Wenn die <b>CcLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Cc-Befehlsschaltfläche zeigt -&gt;. Wenn die <b>CcLabel</b> -Eigenschaft mehr als 32 Zeichen enthält (einschließlich das kaufmännische und-Zeichen (&amp;) Zugriffstaste), nur die ersten 32 Zeichen werden die Befehlsschaltfläche angezeigt werden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-118">
-              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>CcLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
-              <para>If <b>CcLabel</b> is not set, then the default value will be the localized string for "Cc". If the <b>CcLabel</b> is set to an empty string, then the Cc command button shows -&gt;. If the <b>CcLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-p112">Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, enthalten Sie ein kaufmännische und-Zeichen in der Beschriftung Argumentzeichenfolge (&amp;) unmittelbar vor dem Zeichen, das als Zugriffstaste fungiert. Beispielsweise können <b>CcLabel</b> die Zeichenfolge "Lokale &amp; Teilnehmer" ist, Benutzer ALT + A, um den Fokus auf den ersten Empfänger-Bearbeitungsfeld drücken.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p112">To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>CcLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </span></span></para>
+          <para><span data-ttu-id="b0dfd-131">Wenn <b>CcLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "Cc".</span><span class="sxs-lookup"><span data-stu-id="b0dfd-131">If <b>CcLabel</b> is not set, then the default value will be the localized string for "Cc".</span></span> <span data-ttu-id="b0dfd-132">Wenn die <b>CcLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Cc-Befehlsschaltfläche zeigt -&gt;.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-132">If the <b>CcLabel</b> is set to an empty string, then the Cc command button shows -&gt;.</span></span> <span data-ttu-id="b0dfd-133">Wenn die <b>CcLabel</b> -Eigenschaft (einschließlich der Zugriffstaste und-Zeichen (&amp;)) mehr als 32 Zeichen enthält, werden nur die ersten 32 Zeichen in die Befehlsschaltfläche angezeigt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-133">If the <b>CcLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -319,16 +205,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-119">Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Enumeration, die die Klasse von der <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-119">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
-          </span>
-          <span data-ttu-id="8eabd-120">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-134">Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Enumeration, die die Klasse von der <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-134">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span></span> <span data-ttu-id="b0dfd-135">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-135">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -354,34 +231,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-121">Das Dialogfeld Namen auswählen wird angezeigt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-121">Displays the Select Names dialog box.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="8eabd-122">Ein <b>boolescher</b> Wert (<b>Bool</b> in c#), der <b>True</b> ist, wenn der Benutzer geklickt hat, OK, und <b>False,</b> Wenn der Benutzer auf Abbrechen oder auf das Symbol Schließen geklickt hat.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-122">A <b>Boolean</b> value (<b>bool</b> in C#) that is <b>True</b> if the user has clicked OK, and <b>False</b> if the user has clicked Cancel or the close icon.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="8eabd-123">
-            <para>Wenn das Dialogfeld Namen auswählen angezeigt wird, verwendet <b>Display</b> die vorherige Position und Größe (angegeben durch Top, Left, Breite und Höhe) des Dialogfelds.</para>
-            <para>Im Dialogfeld die Namen auswählen ist modal, was bedeutet, dass die Ausführung von Code angehalten wird, bis der Benutzer auf OK, Abbrechen oder das Symbol Schließen klickt.</para>
-            <para>Ermitteln für Fehler, die nicht genügend Speicherplatz einbeziehen oder einer anderen Nachricht oder ein Dialogfeld geöffnet ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-123">
-              <para>When displaying the Select Names dialog box, <b>Display</b> uses the previous location and size (indicated by the top, left, width, and height) of the dialog box.</para>
-              <para>The Select Names dialog box is modal, meaning that code execution will halt until the user clicks OK, Cancel, or the close icon.</para>
-              <para>You should detect for error conditions that include insufficient memory or another message or dialog box is open.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="b0dfd-136">Das Dialogfeld Namen auswählen wird angezeigt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-136">Displays the Select Names dialog box.</span></span></summary>
+        <returns><span data-ttu-id="b0dfd-137">Ein <b>boolescher</b> Wert (<b>Bool</b> in c#), der <b>True</b> ist, wenn der Benutzer geklickt hat, OK, und <b>False,</b> Wenn der Benutzer auf Abbrechen oder auf das Symbol Schließen geklickt hat.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-137">A <b>Boolean</b> value (<b>bool</b> in C#) that is <b>True</b> if the user has clicked OK, and <b>False</b> if the user has clicked Cancel or the close icon.</span></span></returns>
+        <remarks><para><span data-ttu-id="b0dfd-138">Wenn das Dialogfeld Namen auswählen angezeigt wird, verwendet die <b>Display</b> die vorherige Position und Größe (angegeben durch Top, Left, Breite und Höhe) des Dialogfelds.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-138">When displaying the Select Names dialog box, <b>Display</b> uses the previous location and size (indicated by the top, left, width, and height) of the dialog box.</span></span></para>
+          <para><span data-ttu-id="b0dfd-139">Das Dialogfeld Namen auswählen ist modal, d. h., die Codeausführung wird angehalten, bis der Benutzer auf OK, Abbrechen oder das Symbol zum Schließen klickt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-139">The Select Names dialog box is modal, meaning that code execution will halt until the user clicks OK, Cancel, or the close icon.</span></span></para>
+          <para><span data-ttu-id="b0dfd-140">Sie sollten Fehlerbedingungen erkennen, z. B. nicht ausreichenden Arbeitsspeicher oder ob ein anderes Meldungs- oder Dialogfeld geöffnet ist.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-140">You should detect for error conditions that include insufficient memory or another message or dialog box is open.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForceResolution">
@@ -410,33 +265,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-124">Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob Outlook alle Empfänger im durch angegebenen Objekt aufgelöst werden muss <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> , bevor der Benutzer klicken Sie auf OK, um die eingegebenen oder ausgewählten Empfänger im Dialogfeld Namen auswählen akzeptieren kann.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-124">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if Outlook must resolve all recipients in the object specified by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> before the user can click OK to accept the typed or selected recipients in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-125">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-125">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-141">Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob Outlook alle Empfänger im durch angegebenen Objekt aufgelöst werden muss <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> , bevor der Benutzer klicken Sie auf OK, um die eingegebenen oder ausgewählten Empfänger im Dialogfeld Namen auswählen akzeptieren kann.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-141">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if Outlook must resolve all recipients in the object specified by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> before the user can click OK to accept the typed or selected recipients in the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-142">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-126">
-            <para>Der Standardwert ist <b>True</b>. Wenn ein Empfänger nicht aufgelöst werden kann, fordert Outlook den Benutzer auf die mehrdeutigen Namen aufzulösen. Der Benutzer muss alle Empfänger im Feld Empfänger bearbeiten aufgelöst, damit Sie auf OK klicken, verfügen.</para>
-            <para>
-              <b>ForceResolution</b> wird ignoriert, wenn der Benutzer auf Abbrechen oder auf das Symbol Schließen klickt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-126">
-              <para>The default value is <b>True</b>. If a recipient cannot be resolved, Outlook will prompt the user to resolve the ambiguous names. The user must have all recipients in the recipient edit box resolved before being able to click OK.</para>
-              <para>
-                <b>ForceResolution</b> is ignored if the user clicks Cancel or the Close icon. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-143">Der Standardwert ist <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-143">The default value is <b>True</b>.</span></span> <span data-ttu-id="b0dfd-144">Wenn ein Empfänger nicht aufgelöst werden kann, fordert Outlook den Benutzer auf die mehrdeutigen Namen aufzulösen.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-144">If a recipient cannot be resolved, Outlook will prompt the user to resolve the ambiguous names.</span></span> <span data-ttu-id="b0dfd-145">Der Benutzer muss alle Empfänger in den Empfänger aufgelöst, damit Sie auf OK klicken, im Feld bearbeiten verfügen.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-145">The user must have all recipients in the recipient edit box resolved before being able to click OK.</span></span></para>
+          <para><span data-ttu-id="b0dfd-p117">
+            <b>ForceResolution</b> wird ignoriert, wenn der Benutzer auf Abbrechen oder auf das Symbol Schließen klickt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p117">
+            <b>ForceResolution</b> is ignored if the user clicks Cancel or the Close icon. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InitialAddressList">
@@ -465,31 +300,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressList</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-127">Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> -Objekt, bestimmt die anfängliche Adressliste, die im Dialogfeld Namen auswählen angezeigt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-127">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that determines the initial address list to be displayed in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-128">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-147">Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> -Objekt, bestimmt die anfängliche Adressliste, die im Dialogfeld Namen auswählen angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-147">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> object that determines the initial address list to be displayed in the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-148">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-148">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-129">
-            <para>Festlegen der <b>InitialAddressList</b> -Eigenschaft ist die programmgesteuerte Entsprechung zum Auswählen eines <b>AddressList-Objekt</b> aus der Dropdownliste für Adressbuch im Dialogfeld Namen auswählen.</para>
-            <para>Im Standardzustand, <b>InitialAddressList</b> ist das <b>AddressList-Objekt</b> , das die Eigenschaft hat <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> auf <b>True</b>festgelegt. <b>IsInitialAddressList</b> entspricht dem Festlegen von diese Adressliste zuerst in das Dialogfeld Adressierung, in dem verfügbar ist, indem Sie auf Extras und dann auf Optionen im Dialogfeld Adressbuch anzeigen.  </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-129">
-              <para>Setting the <b>InitialAddressList</b> property is the programmatic equivalent to selecting an <b>AddressList</b> from the drop-down list for  Address Book in the Select Names dialog box.</para>
-              <para>In its default state, <b>InitialAddressList</b> is the <b>AddressList</b> that has the property <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> set to <b>True</b>. <b>IsInitialAddressList</b> corresponds to setting Show this address list first in the Addressing dialog box, which is available by clicking Tools, and then Options in the Address Book dialog box.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-149">Festlegen der <b>InitialAddressList</b> -Eigenschaft ist die programmgesteuerte Entsprechung zum Auswählen eines <b>AddressList-Objekt</b> aus der Dropdownliste für Adressbuch im Dialogfeld Namen auswählen.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-149">Setting the <b>InitialAddressList</b> property is the programmatic equivalent to selecting an <b>AddressList</b> from the drop-down list for  Address Book in the Select Names dialog box.</span></span></para>
+          <para><span data-ttu-id="b0dfd-150">Im Standardzustand, <b>InitialAddressList</b> ist das <b>AddressList-Objekt</b> , das die Eigenschaft hat <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> auf <b>True</b>festgelegt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-150">In its default state, <b>InitialAddressList</b> is the <b>AddressList</b> that has the property <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> set to <b>True</b>.</span></span> <span data-ttu-id="b0dfd-151"><b>IsInitialAddressList</b> entspricht dem Festlegen von diese Adressliste zuerst in das Dialogfeld Adressierung, in dem verfügbar ist, indem Sie auf Extras und dann auf Optionen im Dialogfeld Adressbuch anzeigen.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-151"><b>IsInitialAddressList</b> corresponds to setting Show this address list first in the Addressing dialog box, which is available by clicking Tools, and then Options in the Address Book dialog box.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfRecipientSelectors">
@@ -518,33 +333,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecipientSelectors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-130">Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> -Konstante, die die Anzahl der Empfänger bestimmt Bearbeitungsfelder (jeweils zugeordnet sind mit einer Befehlsschaltfläche) in das Dialogfeld Namen auswählen angezeigt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-130">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> constant that determines the number of recipient edit boxes (each associated with a command button) displayed in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-131">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-131">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-152">Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> -Konstante, die die Anzahl der Empfänger bestimmt Bearbeitungsfelder (jeweils zugeordnet sind mit einer Befehlsschaltfläche) in das Dialogfeld Namen auswählen angezeigt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-152">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> constant that determines the number of recipient edit boxes (each associated with a command button) displayed in the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-153">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-153">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-132">
-            <para>Ein Empfänger-Bearbeitungsfeld können Sie Empfängernamen eingeben. Jeder Empfänger-Bearbeitungsfeld ist eine Befehlsschaltfläche im Dialogfeld Namen auswählen zugeordnet. Beispiele für eine Befehlsschaltfläche für einen Empfänger-Bearbeitungsfeld sind an und Cc Befehlsschaltflächen. Der Standardwert der <b>NumberOfRecipientSelectors</b> ist <b>OlRecipientSelectors.olToCcBcc</b>.</para>
-            <para>Wenn Sie <b>auf <b>OlRecipientSelectors.olShowTo NumberOfRecipientSelectors</b></b> festlegen und anschließend den Text für <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> oder <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, bleibt <b>NumberOfRecipientSelectors</b> unverändert.</para>
-            <para>Wenn Sie <b>NumberOfRecipientSelectors</b> auf <b>OlRecipientSelectors.olShowNone</b>festlegen und dann die <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> Eigenschaft wird ignoriert.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-132">
-              <para>A recipient edit box allows you to enter recipient names. Each recipient edit box is associated with a command button in the Select Names dialog box; examples of a command button for a recipient edit box are the To and Cc command buttons. The default value of <b>NumberOfRecipientSelectors</b> is <b>OlRecipientSelectors.olToCcBcc</b>.</para>
-              <para>If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowTo</b> and then subsequently set the text for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> or <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, the <b>NumberOfRecipientSelectors</b> will remain unchanged. </para>
-              <para>If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowNone</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> property will be ignored.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-p121">Ein Empfänger-Bearbeitungsfeld können Sie Empfängernamen eingeben. Jeder Empfänger-Bearbeitungsfeld ist eine Befehlsschaltfläche im Dialogfeld Namen auswählen zugeordnet. Beispiele für eine Befehlsschaltfläche für einen Empfänger-Bearbeitungsfeld sind Befehlsschaltflächen an und Cc. Der Standardwert der <b>NumberOfRecipientSelectors</b> ist <b>OlRecipientSelectors.olToCcBcc</b>.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p121">A recipient edit box allows you to enter recipient names. Each recipient edit box is associated with a command button in the Select Names dialog box; examples of a command button for a recipient edit box are the To and Cc command buttons. The default value of <b>NumberOfRecipientSelectors</b> is <b>OlRecipientSelectors.olToCcBcc</b>.</span></span></para>
+          <para><span data-ttu-id="b0dfd-157">Wenn Sie <b>auf <b>OlRecipientSelectors.olShowTo NumberOfRecipientSelectors</b> </b> festlegen und anschließend den Text für <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> oder <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, bleibt <b>NumberOfRecipientSelectors</b> unverändert.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-157">If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowTo</b> and then subsequently set the text for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> or <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, the <b>NumberOfRecipientSelectors</b> will remain unchanged.</span></span> </para>
+          <para><span data-ttu-id="b0dfd-158">Wenn Sie <b>NumberOfRecipientSelectors</b> auf <b>OlRecipientSelectors.olShowNone</b>festlegen und dann die <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> Eigenschaft wird ignoriert.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-158">If you set <b>NumberOfRecipientSelectors</b> to <b>OlRecipientSelectors.olShowNone</b>, then the <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> property will be ignored.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -570,16 +364,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-133">Gibt zurück, das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-133">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span>
-          </span>
-          <span data-ttu-id="8eabd-134">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-159">Gibt zurück, das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-159">Returns the parent object of the <see cref="T:Microsoft.Office.Interop.Outlook.SelectNamesDialog" /> object.</span></span> <span data-ttu-id="b0dfd-160">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-160">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -610,33 +395,12 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-135">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistungsobjekt, die ausgewählten in das Dialogfeld Namen auswählen Empfänger darstellt, oder legt fest, die ein <b>Recipients</b> -Auflistungsobjekt stellt die ursprünglichen Empfänger, die im Dialogfeld Namen auswählen angezeigt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-135">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection object that represents the recipients selected in the Select Names dialog, or sets a <b>Recipients</b> collection object that represents the initial recipients to be displayed in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-136">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-136">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-161">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistungsobjekt, die ausgewählten in das Dialogfeld Namen auswählen Empfänger darstellt, oder legt fest, die ein <b>Recipients</b> -Auflistungsobjekt stellt die ursprünglichen Empfänger, die im Dialogfeld Namen auswählen angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-161">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> collection object that represents the recipients selected in the Select Names dialog, or sets a <b>Recipients</b> collection object that represents the initial recipients to be displayed in the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-162">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-162">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-137">
-            <para>Diese Eigenschaft gibt ein <b>Recipients</b> -Auflistungsobjekt, das hat eine <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> gleich der Gesamtzahl der Empfänger im Feld an, Cc und Bcc Bearbeitungsfelder. </para>
-            <para>Wenn Sie diese Eigenschaft nicht vor dem Anzeigen des Dialogfelds Namen auswählen festlegen, wird durch <b>SelectNamesDialog.Recipients</b> dargestellten <b>Recipients</b> -Objekt <b>Recipients.Count</b> gleich 0 (null) Ihre.</para>
-            <para>, Wenn der Benutzer keine Namen aus dem Dialogfeld Namen auswählen nicht ausgewählt wird und auf OK klickt, <b>SelectNamesDialog.Recipients</b> zurückgegebenen ein <b>Recipients</b> -Auflistungsobjekt mit <b>Recipients.Count</b> gleich null.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-137">
-              <para>This property specifies a <b>Recipients</b> collection object that has a <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> equal to the total number of recipients in the To, Cc, and Bcc edit boxes. </para>
-              <para>If you do not set this property before displaying the Select Names dialog box, then the <b>Recipients</b> object represented by <b>SelectNamesDialog.Recipients</b> will have a <b>Recipients.Count</b> equal to zero.</para>
-              <para>If the user does not select any names from the Select Names dialog box and clicks OK, <b>SelectNamesDialog.Recipients</b> will return a <b>Recipients</b> collection object with <b>Recipients.Count</b> equal to zero. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-163">Diese Eigenschaft gibt ein <b>Recipients</b> -Auflistungsobjekt, das hat eine <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> gleich der Gesamtzahl der Empfänger im Feld an, Cc und Bcc Bearbeitungsfelder.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-163">This property specifies a <b>Recipients</b> collection object that has a <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> equal to the total number of recipients in the To, Cc, and Bcc edit boxes.</span></span> </para>
+          <para><span data-ttu-id="b0dfd-164">Wenn Sie diese Eigenschaft nicht vor dem Anzeigen des Dialogfelds Namen auswählen festlegen, wird durch <b>SelectNamesDialog.Recipients</b> dargestellten <b>Recipients</b> -Objekt <b>Recipients.Count</b> gleich 0 (null) haben.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-164">If you do not set this property before displaying the Select Names dialog box, then the <b>Recipients</b> object represented by <b>SelectNamesDialog.Recipients</b> will have a <b>Recipients.Count</b> equal to zero.</span></span></para>
+          <para><span data-ttu-id="b0dfd-165">Wenn der Benutzer keine Namen aus dem Dialogfeld Namen auswählen nicht ausgewählt wird und auf OK klickt, wird <b>durch SelectNamesDialog.Recipients</b> ein <b>Recipients</b> -Auflistungsobjekt mit <b>Recipients.Count</b> gleich 0 (null) zurück.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-165">If the user does not select any names from the Select Names dialog box and clicks OK, <b>SelectNamesDialog.Recipients</b> will return a <b>Recipients</b> collection object with <b>Recipients.Count</b> equal to zero.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -662,41 +426,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-138">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-138">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="8eabd-139">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-139">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-166">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-166">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="b0dfd-167">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-167">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-140">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="b0dfd-168">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-168">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="b0dfd-169">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-169">Both members serve the same purpose.</span></span> <span data-ttu-id="b0dfd-170">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="b0dfd-170">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-140">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetDefaultDisplayMode">
@@ -722,36 +461,14 @@
         <Parameter Name="defaultMode" Type="Microsoft.Office.Interop.Outlook.OlDefaultSelectNamesDisplayMode" />
       </Parameters>
       <Docs>
-        <param name="defaultMode">
-          <span data-ttu-id="8eabd-141">Eine Konstante in der <b>OlDefaultSelectNamesDisplayMode</b> -Aufzählung, die die standardmäßige Beschriftung und die schaltflächenbezeichnungen für das Dialogfeld Namen auswählen bestimmt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-141">A constant in the <b>OlDefaultSelectNamesDisplayMode</b> enumeration that determines the default caption and button labels for the Select Names dialog box.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8eabd-142">Der Standardanzeigemodus für das Dialogfeld Namen auswählen wird festgelegt, wobei die Beschriftung und die Schaltflächenbezeichnungen angegeben werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-142">Sets the default display mode for the Select Names dialog box, specifying its caption and button labels.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="8eabd-143">
-            <para>
-              <b>SetDefaultDisplayMode</b> ist optional. Wenn Sie nicht <b>SetDefaultDisplayMode</b> vor dem Aufruf von Aufrufen <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, <b>der Standardanzeigemodus OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. Um den Anzeigemodus auf einen anderen Wert festzulegen, sollten Sie <b>SetDefaultDisplayMode</b> vor dem Aufrufen der <b>Display</b> -Methode aufrufen. </para>
-            <para>Mit dieser Methode können Sie das Dialogfeld Namen auswählen angezeigt wird, ohne eine Ressourcendatei So lokalisieren Sie die Werte für die Beschriftung, die Bezeichnung an, Cc, Label und Bcc Label. Sie können integrierte Verhalten außer Kraft setzen, indem Sie Ihre eigenen Werte für festlegen <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
-            <para>Können Sie zusätzliche Eigenschaften festlegen (z. B. <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>olRecipientSelectors.olToCc</b>) nach dem Aufruf von <b>SetDefaultDisplayMode</b>. Das Dialogfeld Namen auswählen wird die nachfolgende Einstellung beobachten.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-143">
-              <para>
-                <b>SetDefaultDisplayMode</b> is optional. If you do not call <b>SetDefaultDisplayMode</b> before calling <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, the default display mode will be <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. To set the display mode to a different value, you should call <b>SetDefaultDisplayMode</b> before calling the <b>Display</b> method. </para>
-              <para>This method allows you to display the Select Names dialog box without using a resource file to localize the values for the caption, the To label, Cc label, and Bcc label. You can override the built-in behavior by setting your own values for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
-              <para>You can set additional properties (for example, setting <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to  <b>olRecipientSelectors.olToCc</b>)  after calling  <b>SetDefaultDisplayMode</b>. The Select Names dialog box will observe the subsequent setting.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="defaultMode"><span data-ttu-id="b0dfd-171">Eine Konstante in der <b>OlDefaultSelectNamesDisplayMode</b> -Aufzählung, die die standardmäßige Beschriftung und die schaltflächenbezeichnungen für das Dialogfeld Namen auswählen bestimmt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-171">A constant in the <b>OlDefaultSelectNamesDisplayMode</b> enumeration that determines the default caption and button labels for the Select Names dialog box.</span></span></param>
+        <summary><span data-ttu-id="b0dfd-172">Der Standardanzeigemodus für das Dialogfeld Namen auswählen wird festgelegt, wobei die Beschriftung und die Schaltflächenbezeichnungen angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-172">Sets the default display mode for the Select Names dialog box, specifying its caption and button labels.</span></span></summary>
+        <remarks><para><span data-ttu-id="b0dfd-173">
+            <b>SetDefaultDisplayMode</b> ist optional.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-173">
+            <b>SetDefaultDisplayMode</b> is optional.</span></span> <span data-ttu-id="b0dfd-174">Wenn Sie nicht <b>SetDefaultDisplayMode</b> vor dem Aufruf von Aufrufen <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, <b>der Standardanzeigemodus OlDefaultSelectNamesDisplayMode.olDefaultMail</b>.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-174">If you do not call <b>SetDefaultDisplayMode</b> before calling <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, the default display mode will be <b>OlDefaultSelectNamesDisplayMode.olDefaultMail</b>.</span></span> <span data-ttu-id="b0dfd-175">Um den Anzeigemodus auf einen anderen Wert festzulegen, sollten Sie <b>SetDefaultDisplayMode</b> vor dem Aufrufen der <b>Display</b> -Methode aufrufen.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-175">To set the display mode to a different value, you should call <b>SetDefaultDisplayMode</b> before calling the <b>Display</b> method.</span></span> </para>
+          <para><span data-ttu-id="b0dfd-176">Mit dieser Methode können Sie das Dialogfeld Namen auswählen anzeigen, ohne eine Ressourcendatei zum Lokalisieren der Werte für die Beschriftung sowie die Bezeichnungen An, Cc und Bcc zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-176">This method allows you to display the Select Names dialog box without using a resource file to localize the values for the caption, the To label, Cc label, and Bcc label.</span></span> <span data-ttu-id="b0dfd-177">Sie können integrierte Verhalten außer Kraft setzen, indem Sie Ihre eigenen Werte für festlegen <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-177">You can override the built-in behavior by setting your own values for <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, and <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />.</span></span> </para>
+          <para><span data-ttu-id="b0dfd-178">Sie können zusätzliche Eigenschaften festlegen (beispielsweise Einstellung <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>olRecipientSelectors.olToCc</b>) nach dem Aufruf von <b>SetDefaultDisplayMode</b>.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-178">You can set additional properties (for example, setting <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> to  <b>olRecipientSelectors.olToCc</b>)  after calling  <b>SetDefaultDisplayMode</b>.</span></span> <span data-ttu-id="b0dfd-179">Das Dialogfeld Namen auswählen wird die nachfolgende Einstellung beobachten.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-179">The Select Names dialog box will observe the subsequent setting.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOnlyInitialAddressList">
@@ -780,31 +497,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-144">Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), der bestimmt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> dargestellt durch <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> ist die einzige <b>AddressList</b> für Adressbuch im Dialogfeld Namen auswählen in der Dropdown Liste verfügbar.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-144">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> represented by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> is the only <b>AddressList</b> available in the drop-down list for Address Book in the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-145">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-145">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-180">Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), der bestimmt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> dargestellt durch <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> ist die einzige <b>AddressList</b> für Adressbuch im Dialogfeld Namen auswählen in der Dropdown Liste verfügbar.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-180">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that determines if the <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> represented by <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> is the only <b>AddressList</b> available in the drop-down list for Address Book in the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-181">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-181">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-146">
-            <para>Der Standardwert dieser Eigenschaft ist <b>False</b>, was bedeutet, dass alle Adresslisten angezeigt werden. Legen Sie <b>ShowOnlyInitialAddressList</b> auf <b>true fest</b>, um die Dropdownliste für Adressbuch auf angegeben wird <b>InitialAddressList</b>zu beschränken. </para>
-            <para>, Wenn Sie nicht die <b>InitialAddressList</b> -Eigenschaft festgelegt und legen Sie dann <b>ShowOnlyInitialAddressList</b> auf <b>"true"</b>, klicken Sie dann das <b>AddressList-Objekt</b> mit <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> gleich <b>True</b> ist die einzige verfügbare Adressliste in der Dropdownliste für Adressbuch.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-146">
-              <para>The default value of this property is <b>False</b>, meaning that all address lists are displayed. To restrict the drop-down list for Address Book to the one indicated by <b>InitialAddressList</b>, set <b>ShowOnlyInitialAddressList</b> to <b>True</b>. </para>
-              <para>If you do not set the <b>InitialAddressList</b> property and then set <b>ShowOnlyInitialAddressList</b> to <b>True</b>, then the <b>AddressList</b> with <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> equal to <b>True</b> will be the only address list available in the drop-down list for Address Book.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-p133">Der Standardwert dieser Eigenschaft ist <b>False</b>, was bedeutet, dass alle Adresslisten angezeigt werden. Legen Sie ShowOnlyInitialAddressList auf <b>true fest</b>, um die Dropdownliste für <b>Adressbuch</b> auf angegeben wird <b>InitialAddressList</b> zu beschränken.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p133">The default value of this property is <b>False</b>, meaning that all address lists are displayed. To restrict the drop-down list for Address Book to the one indicated by <b>InitialAddressList</b>, set <b>ShowOnlyInitialAddressList</b> to <b>True</b>. </span></span></para>
+          <para><span data-ttu-id="b0dfd-184">Wenn Sie nicht die <b>InitialAddressList</b> -Eigenschaft festgelegt und legen Sie dann <b>ShowOnlyInitialAddressList</b> auf <b>"true"</b>, klicken Sie dann das <b>AddressList-Objekt</b> mit <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> gleich <b>True</b> ist die einzige in der Dropdownliste verfügbare Adressliste für das Adressbuch.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-184">If you do not set the <b>InitialAddressList</b> property and then set <b>ShowOnlyInitialAddressList</b> to <b>True</b>, then the <b>AddressList</b> with <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> equal to <b>True</b> will be the only address list available in the drop-down list for Address Book.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToLabel">
@@ -833,31 +530,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8eabd-147">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf die Schaltfläche an Befehl im Dialogfeld Namen auswählen angezeigt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-147">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the To command button on the Select Names dialog box.</span>
-          </span>
-          <span data-ttu-id="8eabd-148">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-148">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="b0dfd-185">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf die Schaltfläche an Befehl im Dialogfeld Namen auswählen angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-185">Returns or sets a <b>String</b> (<b>string</b> in C#) for the text that appears on the To command button on the Select Names dialog box.</span></span> <span data-ttu-id="b0dfd-186">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-186">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8eabd-149">
-            <para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, ein kaufmännisches und-Zeichen einfügen (&amp;) Zeichen in der Beschriftung Argumentzeichenfolge, unmittelbar vor dem Zeichen, die als Zugriffstaste fungiert. <b>ToLabel</b> beispielsweise die Zeichenfolge "lokale &amp;Teilnehmer", Benutzer können durch Drücken von ALT + A, um den Fokus auf das erste Bearbeitungsfeld Empfänger. </para>
-            <para>Wenn <b>ToLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "Zu" sein. Wenn die <b>ToLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Schaltfläche an Befehl zeigt -&gt;. Wenn die <b>ToLabel</b> -Eigenschaft mehr als 32 Zeichen enthält (einschließlich das kaufmännische und-Zeichen (&amp;) Zugriffstaste), nur die ersten 32 Zeichen werden die Befehlsschaltfläche angezeigt werden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8eabd-149">
-              <para>To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>ToLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </para>
-              <para>If <b>ToLabel</b> is not set, the default value will be the localized string for "To". If the <b>ToLabel</b> is set to an empty string, then the To command button shows -&gt;. If the <b>ToLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="b0dfd-p135">Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, enthalten Sie ein kaufmännische und-Zeichen in der Beschriftung Argumentzeichenfolge (&amp;) unmittelbar vor dem Zeichen, das als Zugriffstaste fungiert. Beispielsweise können <b>ToLabel</b> die Zeichenfolge "Lokale &amp; Teilnehmer" ist, Benutzer ALT + A, um den Fokus auf den ersten Empfänger-Bearbeitungsfeld drücken.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-p135">To provide an accelerator key for the recipient edit boxes, include an ampersand (&amp;) character in the label argument string, immediately before the character that serves as the access key. For example, if <b>ToLabel</b> is the string "Local &amp;Attendees", users can press ALT+A to move the focus to the first recipient edit box. </span></span></para>
+          <para><span data-ttu-id="b0dfd-189">Wenn <b>ToLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "An".</span><span class="sxs-lookup"><span data-stu-id="b0dfd-189">If <b>ToLabel</b> is not set, the default value will be the localized string for "To".</span></span> <span data-ttu-id="b0dfd-190">Wenn die <b>ToLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Schaltfläche an Befehl zeigt -&gt;.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-190">If the <b>ToLabel</b> is set to an empty string, then the To command button shows -&gt;.</span></span> <span data-ttu-id="b0dfd-191">Wenn die <b>ToLabel</b> -Eigenschaft (einschließlich der Zugriffstaste und-Zeichen (&amp;)) mehr als 32 Zeichen enthält, werden nur die ersten 32 Zeichen in die Befehlsschaltfläche angezeigt.</span><span class="sxs-lookup"><span data-stu-id="b0dfd-191">If the <b>ToLabel</b> property contains more than 32 characters (including the ampersand (&amp;) access key), only the first 32 characters will be displayed in the command button.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

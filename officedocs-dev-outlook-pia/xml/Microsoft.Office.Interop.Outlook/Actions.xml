@@ -1,13 +1,5 @@
 <Type Name="Actions" FullName="Microsoft.Office.Interop.Outlook.Actions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d75f395e36ce152cc6b4826a48e313413c953e4d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637376" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Actions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10f6d87c81095476b601aadf1e253c798d425324" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896842" /></Metadata><TypeSignature Language="C#" Value="public interface Actions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Actions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Actions" />
   <TypeSignature Language="VB.NET" Value="Public Interface Actions&#xA;Implements IEnumerable" />
@@ -30,26 +22,10 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="033ae-101">Enthält eine Auflistung von <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> -Objekten, die alle speziellen Aktionen darstellt, die für ein Outlook-Element ausgeführt werden können.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="033ae-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Action" />  objects that represent all the specialized actions that can be executed on an Outlook item.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="033ae-102">
-        <para>Verwenden Sie die <b>Actions</b> -Eigenschaft eines Outlook-Elements, wie <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, um das <b>Actions</b> -Objekt zurückzugeben.</para>
-        <para>Use <b>Aktionen</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name einer verfügbaren Aktion, um ein einzelnes <b>Action</b> -Objekt zurückzugeben.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="033ae-102">
-          <para>Use the <b>Actions</b>  property of any Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, to return the <b>Actions</b> object.</para>
-          <para>Use <b>Actions</b>(<paramref name="index" />), where <paramref name="index" /> is the name of an available action, to return a single <b>Action</b> object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="db747-101">Enthält eine Auflistung von <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> -Objekten, die alle speziellen Aktionen darstellt, die für ein Outlook-Element ausgeführt werden können.</span><span class="sxs-lookup"><span data-stu-id="db747-101">Contains a collection of <see cref="T:Microsoft.Office.Interop.Outlook.Action" />  objects that represent all the specialized actions that can be executed on an Outlook item.</span></span></summary>
+    <remarks><para><span data-ttu-id="db747-102">Verwenden Sie die <b>Actions</b> -Eigenschaft eines Outlook-Elements, wie <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, um das <b>Actions</b> -Objekt zurückzugeben.</span><span class="sxs-lookup"><span data-stu-id="db747-102">Use the <b>Actions</b>  property of any Outlook item, such as <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, to return the <b>Actions</b> object.</span></span></para>
+      <para><span data-ttu-id="db747-103">Verwenden Sie <b>Aktionen</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name einer verfügbaren Aktion, um ein einzelnes <b>Action</b> -Objekt zurückzugeben.</span><span class="sxs-lookup"><span data-stu-id="db747-103">Use <b>Actions</b>(<paramref name="index" />), where <paramref name="index" /> is the name of an available action, to return a single <b>Action</b> object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -73,18 +49,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="033ae-103">Erstellt eine neue Aktion in der <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-103">Creates a new action in the <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="033ae-104">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> -Objekt, das die neue Aktion darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-104">An  <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> object that represents the new action.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="db747-104">Erstellt eine neue Aktion in der <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="db747-104">Creates a new action in the <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="db747-105">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> -Objekt, das die neue Aktion darstellt.</span><span class="sxs-lookup"><span data-stu-id="db747-105">An  <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> object that represents the new action.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -111,16 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="033ae-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="033ae-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="db747-106">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="db747-106">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="db747-107">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="db747-107">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,16 +105,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="033ae-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="033ae-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="db747-108">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="db747-108">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="db747-109">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="db747-109">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -185,16 +133,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="033ae-109">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-109">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="033ae-110">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="db747-110">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span><span class="sxs-lookup"><span data-stu-id="db747-110">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="db747-111">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="db747-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -225,24 +164,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="033ae-111">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-111">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="033ae-112">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> Objekt aus der Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="033ae-113">Ein <b>Action</b> -Objekt, das das angegebene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-113">An <b>Action</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="db747-112">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</span><span class="sxs-lookup"><span data-stu-id="db747-112">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="db747-113">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> Objekt aus der Auflistung.</span><span class="sxs-lookup"><span data-stu-id="db747-113">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="db747-114">Ein <b>Action</b> -Objekt, das das angegebene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="db747-114">An <b>Action</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -269,12 +193,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="033ae-p104">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="db747-p104">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="db747-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -302,18 +221,8 @@
         <Parameter Name="Index" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="033ae-116">Der 1-basierte Indexwert des Objekts in der Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-116">The 1-based index value of the object within the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="033ae-117">Entfernt ein Objekt aus der Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-117">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="db747-117">Der 1-basierte Indexwert des Objekts in der Auflistung.</span><span class="sxs-lookup"><span data-stu-id="db747-117">The 1-based index value of the object within the collection.</span></span></param>
+        <summary><span data-ttu-id="db747-118">Entfernt ein Objekt aus der Auflistung.</span><span class="sxs-lookup"><span data-stu-id="db747-118">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -340,41 +249,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="033ae-118">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-118">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="033ae-119">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-119">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="db747-119">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="db747-119">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="db747-120">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="db747-120">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="033ae-120">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="db747-121">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="db747-121">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="db747-122">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="db747-122">Both members serve the same purpose.</span></span> <span data-ttu-id="db747-123">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="db747-123">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="033ae-120">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

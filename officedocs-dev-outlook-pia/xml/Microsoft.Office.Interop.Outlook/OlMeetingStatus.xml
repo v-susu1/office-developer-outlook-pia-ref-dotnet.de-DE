@@ -1,13 +1,5 @@
 <Type Name="OlMeetingStatus" FullName="Microsoft.Office.Interop.Outlook.OlMeetingStatus">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38c172422a2a78e82e775f6f508dd95ec441a6fe" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636772" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlMeetingStatus" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="678440d918ea4b78e7b2b3bccdb01671089dee2d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900853" /></Metadata><TypeSignature Language="C#" Value="public enum OlMeetingStatus" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlMeetingStatus extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlMeetingStatus" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="677c4-101">Gibt den Status der Besprechung an.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="677c4-101">Indicates the status of the meeting.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="677c4-102">
-        <para>Finden Sie unter <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> Eigenschaft.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="677c4-102">
-          <para>See <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> property.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="a8391-101">Gibt den Status der Besprechung an.</span><span class="sxs-lookup"><span data-stu-id="a8391-101">Indicates the status of the meeting.</span></span></summary>
+    <remarks><para><span data-ttu-id="a8391-102">Finden Sie unter <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="a8391-102">See <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> property.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olMeeting">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="677c4-103">Die Besprechung wurde geplant.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="677c4-103">The meeting has been scheduled.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a8391-103">Die Besprechung wurde geplant.</span><span class="sxs-lookup"><span data-stu-id="a8391-103">The meeting has been scheduled.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMeetingCanceled">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>5</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="677c4-104">Die geplante Besprechung wurde abgesagt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="677c4-104">The scheduled meeting has been cancelled.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a8391-104">Die geplante Besprechung wurde abgesagt.</span><span class="sxs-lookup"><span data-stu-id="a8391-104">The scheduled meeting has been cancelled.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMeetingReceived">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="677c4-105">Die Besprechungsanfrage wurde empfangen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="677c4-105">The meeting request has been received.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a8391-105">Die Besprechungsanfrage wurde empfangen.</span><span class="sxs-lookup"><span data-stu-id="a8391-105">The meeting request has been received.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olMeetingReceivedAndCanceled">
@@ -128,12 +90,7 @@
       </ReturnValue>
       <MemberValue>7</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="677c4-106">Die geplante Besprechung wurde abgesagt, wird aber weiterhin im Kalender des Benutzers angezeigt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="677c4-106">The scheduled meeting has been cancelled but still appears on the user's calendar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a8391-106">Die geplante Besprechung wurde abgesagt, wird aber weiterhin im Kalender des Benutzers angezeigt.</span><span class="sxs-lookup"><span data-stu-id="a8391-106">The scheduled meeting has been cancelled but still appears on the user's calendar.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olNonMeeting">
@@ -152,12 +109,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="677c4-p101">Ein Terminelement ohne Teilnehmer wurde geplant. Dieser Status kann verwendet werden, um Feiertage in einem Kalender einzurichten.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="677c4-p101">An Appointment item without attendees has been scheduled.  This status can be used to set up holidays on a calendar.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="a8391-p101">Ein Terminelement ohne Teilnehmer wurde geplant. Dieser Status kann verwendet werden, um Feiertage in einem Kalender einzurichten.</span><span class="sxs-lookup"><span data-stu-id="a8391-p101">An Appointment item without attendees has been scheduled.  This status can be used to set up holidays on a calendar.</span></span></summary>
       </Docs>
     </Member>
   </Members>

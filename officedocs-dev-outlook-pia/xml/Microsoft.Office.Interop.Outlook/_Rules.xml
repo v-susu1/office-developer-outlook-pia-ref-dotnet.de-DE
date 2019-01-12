@@ -1,13 +1,5 @@
 <Type Name="_Rules" FullName="Microsoft.Office.Interop.Outlook._Rules">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e4a0275af7a8c6faf5c2868ab956b5cb5ba6a601" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636432" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rules : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e4a0275af7a8c6faf5c2868ab956b5cb5ba6a601" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901711" /></Metadata><TypeSignature Language="C#" Value="public interface _Rules : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rules implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rules" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rules&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="81321-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="81321-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="81321-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="81321-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="81321-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="81321-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="81321-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="81321-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="baa56-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="baa56-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="baa56-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="baa56-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="baa56-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="baa56-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="baa56-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />.</span><span class="sxs-lookup"><span data-stu-id="baa56-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,16 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="81321-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="81321-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="baa56-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="baa56-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="baa56-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="baa56-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,16 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="81321-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="81321-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="baa56-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="baa56-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="baa56-108">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="baa56-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,16 +105,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="81321-109">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-109">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="81321-110">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="baa56-109">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span><span class="sxs-lookup"><span data-stu-id="baa56-109">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="baa56-110">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="baa56-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -186,48 +134,13 @@
         <Parameter Name="RuleType" Type="Microsoft.Office.Interop.Outlook.OlRuleType" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="81321-111">Einen Zeichenfolgebezeichner für die Regel, die durch dargestellt wird <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" /> nach der Erstellung der Regel.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-111">A string identifier for the  rule, which will be represented by <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" /> after rule creation.</span>
-          </span>
-          <span data-ttu-id="81321-112">Namen von Regeln in einer Auflistung sind nicht eindeutig.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-112">Names of rules in a collection are not unique.</span>
-          </span>
-        </param>
-        <param name="RuleType">
-          <span data-ttu-id="81321-113">Eine Konstante in der <b>OlRuleType</b> -Aufzählung, die bestimmt, ob die Regel auf das Senden oder Empfangen einer Nachricht angewendet wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-113">A constant in the <b>OlRuleType</b> enumeration that determines whether the rule is applied on sending or receiving a message.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="81321-114">Erstellt ein <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> -Objekt mit dem vom angegebenen Namen <paramref name="Name" /> und dessen Regeltyp durch angegebenen <paramref name="RuleType" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-114">Creates a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object with the name specified by <paramref name="Name" /> and the type of rule specified by <paramref name="RuleType" />.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="81321-115">Ein <b>Rule</b> -Objekt, das die neu erstellte Regel darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-115">A <b>Rule</b> object that represents the newly created rule.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="81321-116">
-            <para>Die <paramref name="RuleType" /> -Parameter des hinzugefügten Regel bestimmt gültige Regelaktionen, regelbedingungen, und Regel Ausnahme conditions, die das <b>Rule</b> -Objekt zugeordnet werden kann.</para>
-            <para>, Wenn der Auflistung eine Regel hinzugefügt wird die <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> der neuen Regel ist 1. Die <b>ExecutionOrder</b> der anderen Regeln in der Auflistung, um 1 erhöht.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-116">
-              <para>The <paramref name="RuleType" /> parameter of the added rule determines valid rule actions, rule conditions, and rule exception conditions that can be associated with the <b>Rule</b> object.</para>
-              <para>When a rule is added to the collection, the <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> of the new rule is 1. The <b>ExecutionOrder</b> of other rules in the collection is incremented by 1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Name"><span data-ttu-id="baa56-111">Einen Zeichenfolgebezeichner für die Regel, die durch dargestellt wird <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" /> nach der Erstellung der Regel.</span><span class="sxs-lookup"><span data-stu-id="baa56-111">A string identifier for the  rule, which will be represented by <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" /> after rule creation.</span></span> <span data-ttu-id="baa56-112">Namen von Regeln in einer Auflistung sind nicht eindeutig.</span><span class="sxs-lookup"><span data-stu-id="baa56-112">Names of rules in a collection are not unique.</span></span></param>
+        <param name="RuleType"><span data-ttu-id="baa56-113">Eine Konstante in der <b>OlRuleType</b> -Aufzählung, die bestimmt, ob die Regel auf das Senden oder Empfangen einer Nachricht angewendet wird.</span><span class="sxs-lookup"><span data-stu-id="baa56-113">A constant in the <b>OlRuleType</b> enumeration that determines whether the rule is applied on sending or receiving a message.</span></span></param>
+        <summary><span data-ttu-id="baa56-114">Erstellt ein <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> -Objekt mit dem vom angegebenen Namen <paramref name="Name" /> und dessen Regeltyp durch angegebenen <paramref name="RuleType" />.</span><span class="sxs-lookup"><span data-stu-id="baa56-114">Creates a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object with the name specified by <paramref name="Name" /> and the type of rule specified by <paramref name="RuleType" />.</span></span></summary>
+        <returns><span data-ttu-id="baa56-115">Ein <b>Rule</b> -Objekt, das die neu erstellte Regel darstellt.</span><span class="sxs-lookup"><span data-stu-id="baa56-115">A <b>Rule</b> object that represents the newly created rule.</span></span></returns>
+        <remarks><para><span data-ttu-id="baa56-116">Die <paramref name="RuleType" /> -Parameter des hinzugefügten Regel bestimmt gültige Regelaktionen, regelbedingungen, und Regel Ausnahme conditions, die das <b>Rule</b> -Objekt zugeordnet werden kann.</span><span class="sxs-lookup"><span data-stu-id="baa56-116">The <paramref name="RuleType" /> parameter of the added rule determines valid rule actions, rule conditions, and rule exception conditions that can be associated with the <b>Rule</b> object.</span></span></para>
+          <para><span data-ttu-id="baa56-117">Wenn der Auflistung eine Regel hinzugefügt wird die <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> der neuen Regel ist 1.</span><span class="sxs-lookup"><span data-stu-id="baa56-117">When a rule is added to the collection, the <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> of the new rule is 1.</span></span> <span data-ttu-id="baa56-118">Die <b>ExecutionOrder</b> der anderen Regeln in der Auflistung wird um 1 erhöht.</span><span class="sxs-lookup"><span data-stu-id="baa56-118">The <b>ExecutionOrder</b> of other rules in the collection is incremented by 1.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsRssRulesProcessingEnabled">
@@ -256,31 +169,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="81321-117">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob RSS-regelverarbeitung aktiviert wurde.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-117">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates whether RSS rules processing has been enabled.</span>
-          </span>
-          <span data-ttu-id="81321-118">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-118">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="baa56-119">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob RSS-regelverarbeitung aktiviert wurde.</span><span class="sxs-lookup"><span data-stu-id="baa56-119">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that indicates whether RSS rules processing has been enabled.</span></span> <span data-ttu-id="baa56-120">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="baa56-120">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="81321-119">
-            <para>Sie müssen nach dem Festlegen von <b>IsRssRulesProcessingEnabled</b>Aufrufen <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> diese Einstellung beibehalten werden. Diese Eigenschaft wird auf eine Postfachebene Einstellung, die Roaming wird mit dem Benutzer beibehalten.  </para>
-            <para>Wenn <b>IsRssRulesProcessingEnabled auf</b><b>false festgelegt</b>ist, werden während der regelverarbeitung keine Bedingungen über RSS-Feeds ausgewertet.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-119">
-              <para>After setting <b>IsRssRulesProcessingEnabled</b>, you must call <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> to persist this setting. This property is persisted on a mailbox-level setting that will roam with the user.  </para>
-              <para> If <b>IsRssRulesProcessingEnabled</b> is <b>False</b>, then no conditions about RSS feeds will  be evaluated during rules processing.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="baa56-121">Sie müssen nach dem Festlegen von <b>IsRssRulesProcessingEnabled</b>Aufrufen <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> diese Einstellung beibehalten werden.</span><span class="sxs-lookup"><span data-stu-id="baa56-121">After setting <b>IsRssRulesProcessingEnabled</b>, you must call <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> to persist this setting.</span></span> <span data-ttu-id="baa56-122">Diese Eigenschaft wird auf eine Postfachebene Einstellung, die Roaming wird mit dem Benutzer beibehalten.</span><span class="sxs-lookup"><span data-stu-id="baa56-122">This property is persisted on a mailbox-level setting that will roam with the user.</span></span>  </para>
+          <para> <span data-ttu-id="baa56-123">Wenn <b>IsRssRulesProcessingEnabled</b> auf <b>False</b>festgelegt ist, werden während der regelverarbeitung keine Bedingungen über RSS-Feeds ausgewertet.</span><span class="sxs-lookup"><span data-stu-id="baa56-123">If <b>IsRssRulesProcessingEnabled</b> is <b>False</b>, then no conditions about RSS feeds will  be evaluated during rules processing.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -309,36 +202,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="81321-120">Entweder ein 1-basierter <b>ganze Zahl</b> (<b>Int</b> in c#) Wert Wert, der einen Index in der <b>Rules</b> -Auflistung, oder ein <b>String</b> (<b>Zeichenfolge</b> in c#)-Name, der den Wert der Standardeigenschaft einer Regel darstellt <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-120">Either a 1-based <b>Integer</b> (<b>int</b> in C#) value value representing an index into the <b>Rules</b> collection, or a <b>String</b> (<b>string</b> in C#) name representing the value of the  default property of a rule, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="81321-121">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> durch angegebene Objekt <paramref name="Index" />, also ein numerischen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> -Auflistung oder den Regelnamen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-121">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object specified by <paramref name="Index" />, which is either a numerical index into the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection or the rule name.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="81321-122">Ein <b>Rule</b> -Objekt, das die vom angegebenen Regel entspricht <paramref name="Index" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-122">A <b>Rule</b> object that matches the rule specified by <paramref name="Index" />.</span>
-          </span>
-        </value>
-        <remarks>
-          <span data-ttu-id="81321-123">
-            <para>Gibt einen Fehler zurück, wenn die Regel in der Auflistung gefunden werden kann.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-123">
-              <para>Returns an error when the rule cannot be found in the collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="baa56-124">Entweder ein 1-basierter <b>ganze Zahl</b> (<b>Int</b> in c#) Wert Wert, der einen Index in der <b>Rules</b> -Auflistung, oder ein <b>String</b> (<b>Zeichenfolge</b> in c#)-Name, der den Wert der Standardeigenschaft einer Regel darstellt <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span><span class="sxs-lookup"><span data-stu-id="baa56-124">Either a 1-based <b>Integer</b> (<b>int</b> in C#) value value representing an index into the <b>Rules</b> collection, or a <b>String</b> (<b>string</b> in C#) name representing the value of the  default property of a rule, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span></span></param>
+        <summary><span data-ttu-id="baa56-125">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> durch angegebene Objekt <paramref name="Index" />, also ein numerischen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> -Auflistung oder den Regelnamen.</span><span class="sxs-lookup"><span data-stu-id="baa56-125">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object specified by <paramref name="Index" />, which is either a numerical index into the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection or the rule name.</span></span></summary>
+        <value><span data-ttu-id="baa56-126">Ein <b>Rule</b> -Objekt, das die vom angegebenen Regel entspricht <paramref name="Index" />.</span><span class="sxs-lookup"><span data-stu-id="baa56-126">A <b>Rule</b> object that matches the rule specified by <paramref name="Index" />.</span></span></value>
+        <remarks><para><span data-ttu-id="baa56-127">Gibt einen Fehler zurück, wenn die Regel in der Auflistung nicht gefunden wird.</span><span class="sxs-lookup"><span data-stu-id="baa56-127">Returns an error when the rule cannot be found in the collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -364,25 +232,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="81321-p107">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-p107">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="baa56-p109">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="baa56-p109">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="81321-126">
-            <para>Das übergeordnete Objekt des Rules-Objekts ist die <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-126">
-              <para>The parent of the Rules object is the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="baa56-130">Das übergeordnete Objekt des Rules-Objekts ist die <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="baa56-130">The parent of the Rules object is the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Remove">
@@ -408,30 +261,10 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="81321-127">Entweder eine <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der einen Index in der <b>Rules</b> -Auflistung, oder ein <b>String</b> (<b>Zeichenfolge</b> in c#)-Name, der den Wert der Standardeigenschaft einer Regel darstellt <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-127">Either an <b>Integer</b> (<b>int</b> in C#) value representing an index into the <b>Rules</b> collection, or a <b>String</b> (<b>string</b> in C#) name representing the value of the  default property of a rule, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="81321-128">Entfernt aus der <b>Rules</b> -Auflistung ein <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> durch angegebene Objekt <paramref name="Index" />, also ein numerischen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> -Auflistung oder den Regelnamen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-128">Removes from the <b>Rules</b> collection a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object specified by <paramref name="Index" />, which is either a numerical index into the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection or the rule name.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="81321-129">
-            <para>Gibt einen Fehler zurück, wenn die Regel in der Auflistung gefunden werden kann.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-129">
-              <para>Returns an error when the rule cannot be found in the collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Index"><span data-ttu-id="baa56-131">Entweder eine <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der einen Index in der <b>Rules</b> -Auflistung, oder ein <b>String</b> (<b>Zeichenfolge</b> in c#)-Name, der den Wert der Standardeigenschaft einer Regel darstellt <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span><span class="sxs-lookup"><span data-stu-id="baa56-131">Either an <b>Integer</b> (<b>int</b> in C#) value representing an index into the <b>Rules</b> collection, or a <b>String</b> (<b>string</b> in C#) name representing the value of the  default property of a rule, <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Name" />.</span></span></param>
+        <summary><span data-ttu-id="baa56-132">Entfernt aus der <b>Rules</b> -Auflistung ein <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> durch angegebene Objekt <paramref name="Index" />, also ein numerischen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> -Auflistung oder den Regelnamen.</span><span class="sxs-lookup"><span data-stu-id="baa56-132">Removes from the <b>Rules</b> collection a <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> object specified by <paramref name="Index" />, which is either a numerical index into the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection or the rule name.</span></span></summary>
+        <remarks><para><span data-ttu-id="baa56-133">Gibt einen Fehler zurück, wenn die Regel in der Auflistung nicht gefunden wird.</span><span class="sxs-lookup"><span data-stu-id="baa56-133">Returns an error when the rule cannot be found in the collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -456,40 +289,15 @@
         <Parameter Name="ShowProgress" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <span data-ttu-id="81321-130">
-            <b>True</b>, wenn Statusdialogfelds, <b>False</b>, wenn speichern angezeigt Regeln ohne den Status anzeigen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-130">
-              <b>True</b> to display the progress dialog box, <b>False</b> to save rules without showing the progress.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="81321-131">Speichert alle Regeln in der <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-131">Saves all rules in the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="81321-132">
-            <para>Nachdem Sie eine Regel aktiviert haben, müssen Sie die Regel speichern, mithilfe von <b>Rules.Save</b> , damit die Regel und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Regel wird nur aktiviert, nachdem es erfolgreich gespeichert wurde.</para>
-            <para>
-              <b>Rules.Save</b> kann ein teuerer Vorgang im Hinblick auf Leistung bei langsamer Verbindung mit Exchange-Server sein. Weitere Informationen über das Fortschrittsdialogfeld, finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Verwaltungsregeln im Objektmodell von Outlook</a></para>
-            <para>Aktionen oder Bedingungen definierten Regeln, die nicht kompatibel sind oder nicht ordnungsgemäß speichern (beispielsweise eine leere Zeichenfolge für <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) wird ein Fehler zurückgegeben .</para>
-            <para>Der Exchange-Server begrenzt die maximale Anzahl von Regeln, die von einem Speicher unterstützt werden können. <b>Rules.Save</b> gibt einen Fehler zurück, wenn die Obergrenze erreicht ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-132">
-              <para>After you enable a rule, you must also save the rule by using <b>Rules.Save</b> so that the rule and its enabled state will persist beyond the current session.  A rule is only enabled after it has been saved successfully.</para>
-              <para>
-                <b>Rules.Save</b> can be an expensive operation in terms of performance on slow connections to Exchange server. For more information on using the progress dialog box, see <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Managing Rules in the Outlook Object Model</a></para>
-              <para>Saving rules that are incompatible or have improperly defined actions or conditions (such as an empty string for <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) will return an error.</para>
-              <para>The Exchange server limits the maximum number of rules that can be supported by a store. <b>Rules.Save</b> returns an error when this limit is reached.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ShowProgress"><span data-ttu-id="baa56-134"><b>True</b>, wenn Statusdialogfelds, <b>False</b>, wenn speichern angezeigt Regeln ohne den Status anzeigen.</span><span class="sxs-lookup"><span data-stu-id="baa56-134"><b>True</b> to display the progress dialog box, <b>False</b> to save rules without showing the progress.</span></span></param>
+        <summary><span data-ttu-id="baa56-135">Speichert alle Regeln in der <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="baa56-135">Saves all rules in the <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> collection.</span></span></summary>
+        <remarks><para><span data-ttu-id="baa56-136">Nachdem Sie eine Regel aktiviert haben, müssen Sie die Regel speichern, mithilfe von <b>Rules.Save</b>, damit die Regel und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.</span><span class="sxs-lookup"><span data-stu-id="baa56-136">After you enable a rule, you must also save the rule by using <b>Rules.Save</b> so that the rule and its enabled state will persist beyond the current session.</span></span>  <span data-ttu-id="baa56-137">Eine Regel ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde.</span><span class="sxs-lookup"><span data-stu-id="baa56-137">A rule is only enabled after it has been saved successfully.</span></span></para>
+          <para><span data-ttu-id="baa56-138">
+            <b>Rules.Save</b> kann ein teuerer Vorgang im Hinblick auf Leistung bei langsamer Verbindung mit Exchange-Server sein.</span><span class="sxs-lookup"><span data-stu-id="baa56-138">
+            <b>Rules.Save</b> can be an expensive operation in terms of performance on slow connections to Exchange server.</span></span> <span data-ttu-id="baa56-139">Weitere Informationen über das Fortschrittsdialogfeld finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Verwaltungsregeln im Objektmodell von Outlook</a></span><span class="sxs-lookup"><span data-stu-id="baa56-139">For more information on using the progress dialog box, see <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Managing Rules in the Outlook Object Model</a></span></span></para>
+          <para><span data-ttu-id="baa56-140">Speichern von Regeln, die nicht kompatibel sind oder nicht ordnungsgemäß Aktionen oder Bedingungen definiert (beispielsweise eine leere Zeichenfolge für <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) wird ein Fehler zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="baa56-140">Saving rules that are incompatible or have improperly defined actions or conditions (such as an empty string for <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Text" />) will return an error.</span></span></para>
+          <para><span data-ttu-id="baa56-p112">Der Exchange-Server begrenzt die maximale Anzahl von Regeln, die von einem Speicher unterstützt werden können. <b>Rules.Save</b> gibt einen Fehler zurück, wenn die Obergrenze erreicht ist.</span><span class="sxs-lookup"><span data-stu-id="baa56-p112">The Exchange server limits the maximum number of rules that can be supported by a store. <b>Rules.Save</b> returns an error when this limit is reached.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -515,41 +323,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="81321-133">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-133">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="81321-134">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="baa56-143">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="baa56-143">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="baa56-144">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="baa56-144">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="81321-135">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="baa56-145">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="baa56-145">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="baa56-146">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="baa56-146">Both members serve the same purpose.</span></span> <span data-ttu-id="baa56-147">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="baa56-147">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="81321-135">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

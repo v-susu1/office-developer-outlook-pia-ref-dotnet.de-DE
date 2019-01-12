@@ -1,13 +1,5 @@
 <Type Name="OlkTextBoxEvents_MouseMoveEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseMoveEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="776745e9e47d96a9aa019a11cbdc0214a2b6f17a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635989" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void OlkTextBoxEvents_MouseMoveEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7eea92b1ee32d730b1841039964f4c9f3f39f019" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900454" /></Metadata><TypeSignature Language="C#" Value="public delegate void OlkTextBoxEvents_MouseMoveEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkTextBoxEvents_MouseMoveEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTextBoxEvents_MouseMoveEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkTextBoxEvents_MouseMoveEventHandler(Button As OlMouseButton, Shift As OlShiftState, X As Single, Y As Single)" />
@@ -49,36 +41,11 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Button">
-      <span data-ttu-id="50037-101">Ein <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> Konstante, die angibt, welche Mausereignisses gedrückt wurde.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="50037-101">An  <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constant that specifies which button on the mouse has been pressed.</span>
-      </span>
-    </param>
-    <param name="Shift">
-      <span data-ttu-id="50037-102">Eine bitweise OR-Maske von Konstanten in der <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> -Enumeration, die angibt, ob die UMSCHALTTASTE, STRG oder ALT gedrückt wurde.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="50037-102">A bitwise-OR mask of constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> enumeration that specifies whether the SHIFT, CTRL, or ALT keys have been pressed.</span>
-      </span>
-    </param>
-    <param name="X">
-      <span data-ttu-id="50037-103">Gibt die Position des Mauszeigers auf der X-Achse relativ zum Formular an.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="50037-103">Identifies the location of the mouse cursor on the X-axis relative to the  form.</span>
-      </span>
-    </param>
-    <param name="Y">
-      <span data-ttu-id="50037-104">Gibt die Position des Mauszeigers auf der Y-Achse relativ zum Formular an.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="50037-104">Identifies the location of the mouse cursor on the Y-axis relative to the  form.</span>
-      </span>
-    </param>
-    <summary>
-      <span data-ttu-id="50037-p101">Hierbei handelt es sich um eine Stellvertretung für ein Ereignis im entsprechenden Objekt. Verwenden Sie diese Stellvertretung, nachdem Sie eine Callback-Methode für das Ereignis implementiert haben, um die Callback-Methode mit dem Ereignis zu verbinden. Wenn mehrere Versionen der Ereignisschnittstelle vorhanden sind, verbindet diese Stellvertretung die Callback-Methode für das Ereignis in der angegebenen Outlook-Version.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="50037-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span>
-      </span>
-    </summary>
+    <param name="Button"><span data-ttu-id="9ca4f-101">Ein <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> Konstante, die angibt, welche Mausereignisses gedrückt wurde.</span><span class="sxs-lookup"><span data-stu-id="9ca4f-101">An  <see cref="T:Microsoft.Office.Interop.Outlook.OlMouseButton" /> constant that specifies which button on the mouse has been pressed.</span></span></param>
+    <param name="Shift"><span data-ttu-id="9ca4f-102">Eine bitweise OR-Maske von Konstanten in der <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> -Enumeration, die angibt, ob die UMSCHALTTASTE, STRG oder ALT gedrückt wurde.</span><span class="sxs-lookup"><span data-stu-id="9ca4f-102">A bitwise-OR mask of constants in the <see cref="T:Microsoft.Office.Interop.Outlook.OlShiftState" /> enumeration that specifies whether the SHIFT, CTRL, or ALT keys have been pressed.</span></span></param>
+    <param name="X"><span data-ttu-id="9ca4f-103">Gibt die Position des Mauszeigers auf der X-Achse relativ zum Formular an.</span><span class="sxs-lookup"><span data-stu-id="9ca4f-103">Identifies the location of the mouse cursor on the X-axis relative to the  form.</span></span></param>
+    <param name="Y"><span data-ttu-id="9ca4f-104">Gibt die Position des Mauszeigers auf der Y-Achse relativ zum Formular an.</span><span class="sxs-lookup"><span data-stu-id="9ca4f-104">Identifies the location of the mouse cursor on the Y-axis relative to the  form.</span></span></param>
+    <summary><span data-ttu-id="9ca4f-p101">Hierbei handelt es sich um eine Stellvertretung für ein Ereignis im entsprechenden Objekt. Verwenden Sie diese Stellvertretung, nachdem Sie eine Callback-Methode für das Ereignis implementiert haben, um die Callback-Methode mit dem Ereignis zu verbinden. Wenn mehrere Versionen der Ereignisschnittstelle vorhanden sind, verbindet diese Stellvertretung die Callback-Methode für das Ereignis in der angegebenen Outlook-Version.</span><span class="sxs-lookup"><span data-stu-id="9ca4f-p101">This is a delegate for an event in the corresponding object. After implementing a callback method for the event, use this delegate to connect the callback method to the event. If there are multiple versions of the event interface, this delegate connects the callback method for the event in the specified version of Outlook.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="_ConversationHeader" FullName="Microsoft.Office.Interop.Outlook._ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635718" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3e7523fbc078c04c08925a77c26ff767d6e7a942" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901746" /></Metadata><TypeSignature Language="C#" Value="public interface _ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ConversationHeader" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="83a98-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="83a98-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="83a98-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="83a98-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="83a98-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="83a98-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="83a98-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="83a98-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="62578-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="62578-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="62578-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="62578-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="62578-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="62578-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="62578-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />.</span><span class="sxs-lookup"><span data-stu-id="62578-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das die übergeordnete Outlook-Anwendung für die <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object.</span>
-          </span>
-          <span data-ttu-id="83a98-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62578-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das die übergeordnete Outlook-Anwendung für die <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="62578-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object.</span></span> <span data-ttu-id="62578-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="62578-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the class of the object.</span>
-          </span>
-          <span data-ttu-id="83a98-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62578-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="62578-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the class of the object.</span></span> <span data-ttu-id="62578-108">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="62578-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -144,29 +101,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-109">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die eindeutig identifiziert, die <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt wird an der diese unterhaltungskopfzeile gehört.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-109">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object to which this conversation header belongs.</span>
-          </span>
-          <span data-ttu-id="83a98-110">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62578-109">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die eindeutig identifiziert, die <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt wird an der diese unterhaltungskopfzeile gehört.</span><span class="sxs-lookup"><span data-stu-id="62578-109">Returns a <b>String</b> (<b>string</b> in C#) that uniquely identifies the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object to which this conversation header belongs.</span></span> <span data-ttu-id="62578-110">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="62578-110">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="83a98-111">
-            <para>Diese Eigenschaft ordnet die unterhaltungskopfzeile andere Elemente in der gleichen Unterhaltung. Diese Artikel und die Unterhaltung besitzen denselben Wert in ihrer <b>ConversationID</b> -Eigenschaft.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-111">
-              <para>This property associates the conversation header with other items in the same conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="62578-p105">Diese Eigenschaft ordnet die unterhaltungskopfzeile andere Elemente in der gleichen Unterhaltung. Diese Artikel und die Unterhaltung besitzen denselben Wert in ihrer <b>ConversationID</b> -Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="62578-p105">This property associates the conversation header with other items in the same conversation. These items and the conversation all have the same value in their <b>ConversationID</b> property. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationTopic">
@@ -192,29 +130,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-112">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das Thema des Unterhaltungsthreads des Outlook-Elements darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-112">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="83a98-113">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62578-113">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das Thema des Unterhaltungsthreads des Outlook-Elements darstellt.</span><span class="sxs-lookup"><span data-stu-id="62578-113">Returns a <b>String</b> (<b>string</b> in C#) representing the topic of the conversation thread of the Outlook item.</span></span> <span data-ttu-id="62578-114">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="62578-114">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="83a98-114">
-            <para>Entspricht der MAPI-Eigenschaftpidtagconversationtopic.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-114">
-              <para>Corresponds to the MAPI property PidTagConversationTopic.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="62578-115">Entspricht der MAPI- Eigenschaftpidtagconversationtopic.</span><span class="sxs-lookup"><span data-stu-id="62578-115">Corresponds to the MAPI property PidTagConversationTopic.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -238,60 +157,26 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-115">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt, das die Unterhaltung darstellt, zu der diese unterhaltungskopfzeile gehört.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-115">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this conversation header belongs.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="83a98-116">Gibt ein <b>Conversation</b> -Objekt, das die Unterhaltung darstellt, zu der diese unterhaltungskopfzeile gehört.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-116">Returns a <b>Conversation</b> object that represents the conversation to which this conversation header belongs.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="83a98-117">
-            <para>
-              <b>GetConversation</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine Unterhaltung für das Element vorhanden ist. Keine Unterhaltung vorhanden ist, für ein Element in den folgenden Szenarien:</para>
-            <list type="bullet">
-              <item>
-                <para>das Element noch nicht gespeichert wurde. Ein Element kann programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden. </para>
-              </item>
-              <item>
-                <para>Für ein Element, das (z. B. ein e-Mail-Element, Terminelement oder Kontaktelement) gesendet werden kann, nicht das Element gesendet wurde.</para>
-              </item>
-              <item>
-                <para>Unterhaltungen werden über die Windows-Registrierung deaktiviert.</para>
-              </item>
-              <item>
-                <para>Der Informationsspeicher die Unterhaltungsansicht nicht unterstützt (beispielsweise Outlook im klassischen Onlinemodus für eine Version von Microsoft Exchange, die älter als Microsoft Exchange Server 2010 ausgeführt wird). Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekts, um festzustellen, ob der Informationsspeicher die Unterhaltungsansicht unterstützt.</para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-117">
-              <para>
-                <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item. No conversation exists for an item in the following scenarios:</para>
-              <list type="bullet">
-                <item>
-                  <para>The item has not been saved. An item can be saved programmatically, by user action, or by auto-save. </para>
-                </item>
-                <item>
-                  <para>For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</para>
-                </item>
-                <item>
-                  <para>Conversations are disabled through the Windows registry.</para>
-                </item>
-                <item>
-                  <para>The store does not support the Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange that is earlier than Microsoft Exchange Server 2010). Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the Conversation view.</para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="62578-116">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt, das die Unterhaltung darstellt, zu der diese unterhaltungskopfzeile gehört.</span><span class="sxs-lookup"><span data-stu-id="62578-116">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object that represents the conversation to which this conversation header belongs.</span></span></summary>
+        <returns><span data-ttu-id="62578-117">Gibt ein <b>Conversation</b> -Objekt, das die Unterhaltung darstellt, zu der diese unterhaltungskopfzeile gehört.</span><span class="sxs-lookup"><span data-stu-id="62578-117">Returns a <b>Conversation</b> object that represents the conversation to which this conversation header belongs.</span></span></returns>
+        <remarks><para><span data-ttu-id="62578-118">
+            <b>GetConversation</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine Unterhaltung für das Element vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="62578-118">
+            <b>GetConversation</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no conversation exists for the item.</span></span> <span data-ttu-id="62578-119">Keine Unterhaltung vorhanden ist, für ein Element in den folgenden Szenarien:</span><span class="sxs-lookup"><span data-stu-id="62578-119">No conversation exists for an item in the following scenarios:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="62578-p108">Das Element wurde nicht gespeichert. Ein Element kann programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="62578-p108">The item has not been saved. An item can be saved programmatically, by user action, or by auto-save. </span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="62578-122">Im Fall eines Elements, das gesendet werden kann (z. B. ein E-Mail-, Termin- oder Kontaktelement), wurde das Element nicht gesendet.</span><span class="sxs-lookup"><span data-stu-id="62578-122">For an item that can be sent (for example, a mail item, appointment item, or contact item), the item has not been sent.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="62578-123">Unterhaltungen wurden über die Windows-Registrierung deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="62578-123">Conversations are disabled through the Windows registry.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="62578-124">Der Informationsspeicher die Unterhaltungsansicht nicht unterstützt (beispielsweise Outlook im klassischen Onlinemodus für eine Version von Microsoft Exchange, die älter als Microsoft Exchange Server 2010 ausgeführt wird).</span><span class="sxs-lookup"><span data-stu-id="62578-124">The store does not support the Conversation view (for example, Outlook is running in classic online mode against a version of Microsoft Exchange that is earlier than Microsoft Exchange Server 2010).</span></span> <span data-ttu-id="62578-125">Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekts, um festzustellen, ob der Informationsspeicher die Unterhaltungsansicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="62578-125">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> object to determine whether the store supports the Conversation view.</span></span></para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItems">
@@ -315,30 +200,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-118">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> -Auflistung, die alle Elemente in der Unterhaltung enthält, die sich im selben Ordner wie die ausgewählte unterhaltungskopfzeile befinden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-118">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all of the items in the conversation that reside in the same folder as the selected conversation header.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="83a98-119">Gibt eine <b>SimpleItems</b> -Auflistung der Elemente, die zur gleichen Unterhaltung gehören und befinden sich im selben Ordner wie die unterhaltungskopfzeile.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-119">Returns a <b>SimpleItems</b> collection of items that belong to the same conversation and reside in the same folder as the conversation header.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="83a98-120">
-            <para>Die <b>SimpleItems</b> -Auflistung enthält nur Unterhaltungselemente in den Ordner, der die unterhaltungskopfzeile enthält. Die <b>SimpleItems</b> -Auflistung gibt keine Cross-Ordner Unterhaltungselementen zurück. Wenn Sie Inhalte Cross-Ordner zugreifen müssen, verwenden Sie die <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />Objekt. Wenn im selben Ordner wie die unterhaltungskopfzeile keine Unterhaltungselemente vorhanden ist, gibt <b>GetItems</b> eine <b>SimpleItems</b> -Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> -Eigenschaft den Wert 0.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-120">
-              <para>The <b>SimpleItems</b> collection only contains conversation items in the folder that contains the conversation header. The <b>SimpleItems</b> collection does not return cross-folder conversation items. If you must access cross-folder content, use the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />object.If no conversation items exist in the same folder as the conversation header, <b>GetItems</b> returns a <b>SimpleItems</b> collection with the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property equal to 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="62578-126">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> -Auflistung, die alle Elemente in der Unterhaltung enthält, die sich im selben Ordner wie die ausgewählte unterhaltungskopfzeile befinden.</span><span class="sxs-lookup"><span data-stu-id="62578-126">Obtains a <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection that contains all of the items in the conversation that reside in the same folder as the selected conversation header.</span></span></summary>
+        <returns><span data-ttu-id="62578-127">Gibt eine <b>SimpleItems</b> -Auflistung der Elemente, die zur gleichen Unterhaltung gehören und befinden sich im selben Ordner wie die unterhaltungskopfzeile.</span><span class="sxs-lookup"><span data-stu-id="62578-127">Returns a <b>SimpleItems</b> collection of items that belong to the same conversation and reside in the same folder as the conversation header.</span></span></returns>
+        <remarks><para><span data-ttu-id="62578-128">Die <b>SimpleItems</b> -Auflistung enthält nur Unterhaltungselemente in den Ordner, der die unterhaltungskopfzeile enthält.</span><span class="sxs-lookup"><span data-stu-id="62578-128">The <b>SimpleItems</b> collection only contains conversation items in the folder that contains the conversation header.</span></span> <span data-ttu-id="62578-129">Die <b>SimpleItems</b> -Auflistung gibt keine Cross-Ordner Unterhaltungselementen zurück.</span><span class="sxs-lookup"><span data-stu-id="62578-129">The <b>SimpleItems</b> collection does not return cross-folder conversation items.</span></span> <span data-ttu-id="62578-130">Wenn Sie Inhalte Cross-Ordner zugreifen müssen, verwenden Sie die <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />Objekt. Wenn im selben Ordner wie die unterhaltungskopfzeile keine Unterhaltungselemente vorhanden ist, gibt <b>GetItems</b> eine <b>SimpleItems</b> -Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> -Eigenschaft den Wert 0.</span><span class="sxs-lookup"><span data-stu-id="62578-130">If you must access cross-folder content, use the <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" />object.If no conversation items exist in the same folder as the conversation header, <b>GetItems</b> returns a <b>SimpleItems</b> collection with the <see cref="P:Microsoft.Office.Interop.Outlook._SimpleItems.Count" /> property equal to 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -364,31 +229,11 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-121">Gibt das übergeordnete <see cref="T:System.Object" /> des angegebenen Objekts.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-121">Returns the parent <see cref="T:System.Object" /> of the specified object.</span>
-          </span>
-          <span data-ttu-id="83a98-122">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62578-131">Gibt das übergeordnete <see cref="T:System.Object" /> des angegebenen Objekts.</span><span class="sxs-lookup"><span data-stu-id="62578-131">Returns the parent <see cref="T:System.Object" /> of the specified object.</span></span> <span data-ttu-id="62578-132">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="62578-132">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="83a98-123">
-            <para>Das übergeordnete Objekt des ein <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> -Objekt ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt.</para>
-            <para>Der zurückgegebenen <b>Selection</b> -Objekt enthält <b>ConversationHeader</b> -Objekte. Abrufen der <b>Parent</b> -Eigenschaft entspricht dem Aufrufen der <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> -Methode mit der <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> Argument.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-123">
-              <para>The parent of a <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object is a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object.</para>
-              <para>The returned <b>Selection</b> object contains only <b>ConversationHeader</b> objects. Getting the <b>Parent</b> property is equivalent to calling the <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> method with the <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argument.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="62578-133">Das übergeordnete Objekt des ein <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> -Objekt ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="62578-133">The parent of a <see cref="T:Microsoft.Office.Interop.Outlook.ConversationHeader" /> object is a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object.</span></span></para>
+          <para><span data-ttu-id="62578-134">Das zurückgegebene <b>Selection</b> -Objekt enthält nur <b>ConversationHeader</b> -Objekte.</span><span class="sxs-lookup"><span data-stu-id="62578-134">The returned <b>Selection</b> object contains only <b>ConversationHeader</b> objects.</span></span> <span data-ttu-id="62578-135">Abrufen der <b>Parent</b> -Eigenschaft entspricht dem Aufrufen der <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> -Methode mit der <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> Argument.</span><span class="sxs-lookup"><span data-stu-id="62578-135">Getting the <b>Parent</b> property is equivalent to calling the <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> method with the <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> argument.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -414,31 +259,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="83a98-124">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-124">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="83a98-125">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-125">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="62578-136">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="62578-136">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="62578-137">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="62578-137">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="83a98-126">
-            <para>Wenn keine angemeldete Sitzung vorhanden ist, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben. </para>
-            <para>Können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="83a98-126">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session. </para>
-              <para>You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="62578-138">Wenn keine angemeldete Sitzung vorhanden ist, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="62578-138">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span> </para>
+          <para><span data-ttu-id="62578-139">Sie können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="62578-139">You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

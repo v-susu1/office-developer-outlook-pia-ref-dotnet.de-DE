@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637391" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900843" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -30,52 +22,23 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="20602-101">Stellt eine Microsoft Outlook-Unterhaltungskopfzeile in einer Unterhaltungsansicht dar.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="20602-101">Represents a Microsoft Outlook conversation header in a Conversation view.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="20602-102">
-        <para>In Outlook, eine Unterhaltung gruppiert Nachrichten, die den gleichen Betreff freigeben und mit dem gleichen Thread gehören. Eine Unterhaltung kann auch in den Zweigstellen, enthalten, z. B., wenn eine Nachricht ruft zwei oder mehr Antworten und Diskussionen unabhängig voneinander aus jeder Antwort vergrößert werden. Die Unterhaltungsansicht bezieht sich auf alle Elemente in der gleichen Unterhaltung in Ordnern und speichern. Ein unterhaltungskopfzeile kann es sich um ein Element oder einen Gruppenkopf in einem der folgenden Formate:</para>
-        <list type="bullet">
-          <item>
-            <para>eines Elements in einem Thread, der nur ein einzelnes Element enthält.</para>
-          </item>
-          <item>
-            <para>Eine Gruppenkopfzeile für eine Unterhaltung, die mehrere Elemente enthält.</para>
-          </item>
-          <item>
-            <para>Das erste Element in einer Unterhaltung, die einen einzelnen Thread enthält.</para>
-          </item>
-          <item>
-            <para>Das erste Element in einer geteilten Unterhaltung.</para>
-          </item>
-        </list>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="20602-102">
-          <para>In Outlook, a conversation groups messages that share the same subject and belong to the same thread. A conversation can also include branches, such as when a message gets two or more responses and discussions grow independently from each response. The Conversation view relates all items in the same conversation across folders and stores. A conversation header can be an item or a group header in one of the following forms:</para>
-          <list type="bullet">
-            <item>
-              <para>An item in a thread that contains only a single item.</para>
-            </item>
-            <item>
-              <para>A group header for a conversation that contains multiple items.</para>
-            </item>
-            <item>
-              <para>The first item in a conversation that contains a single thread.</para>
-            </item>
-            <item>
-              <para>The first item in a split conversation.</para>
-            </item>
-          </list>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="9c0f8-101">Stellt eine Microsoft Outlook-Unterhaltungskopfzeile in einer Unterhaltungsansicht dar.</span><span class="sxs-lookup"><span data-stu-id="9c0f8-101">Represents a Microsoft Outlook conversation header in a Conversation view.</span></span></summary>
+    <remarks><para><span data-ttu-id="9c0f8-p101">In Outlook Nachrichten, die den gleichen Betreff freigeben und gehören zu den gleichen Thread in eine Unterhaltung gruppiert. Eine Unterhaltung kann auch in den Zweigstellen, enthalten, z. B., wenn eine Nachricht ruft zwei oder mehr Antworten und Diskussionen unabhängig voneinander aus jeder Antwort vergrößert werden. Die Unterhaltungsansicht bezieht sich auf alle Elemente in der gleichen Unterhaltung in Ordnern und speichern. Ein unterhaltungskopfzeile kann ein Element oder einen Gruppenkopf in einem der folgenden Formate sein:</span><span class="sxs-lookup"><span data-stu-id="9c0f8-p101">In Outlook, a conversation groups messages that share the same subject and belong to the same thread. A conversation can also include branches, such as when a message gets two or more responses and discussions grow independently from each response. The Conversation view relates all items in the same conversation across folders and stores. A conversation header can be an item or a group header in one of the following forms:</span></span></para>
+      <list type="bullet">
+        <item>
+          <para><span data-ttu-id="9c0f8-106">Ein Element in einem Thread, der nur ein einzelnes Element enthält.</span><span class="sxs-lookup"><span data-stu-id="9c0f8-106">An item in a thread that contains only a single item.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="9c0f8-107">Eine Gruppenkopfzeile für eine Unterhaltung, die mehrere Elemente enthält.</span><span class="sxs-lookup"><span data-stu-id="9c0f8-107">A group header for a conversation that contains multiple items.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="9c0f8-108">Das erste Element in einer Unterhaltung, die einen einzelnen Thread enthält.</span><span class="sxs-lookup"><span data-stu-id="9c0f8-108">The first item in a conversation that contains a single thread.</span></span></para>
+        </item>
+        <item>
+          <para><span data-ttu-id="9c0f8-109">Das erste Element in einer geteilten Unterhaltung.</span><span class="sxs-lookup"><span data-stu-id="9c0f8-109">The first item in a split conversation.</span></span></para>
+        </item>
+      </list>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

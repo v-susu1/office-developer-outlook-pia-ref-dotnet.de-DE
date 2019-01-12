@@ -1,13 +1,5 @@
 <Type Name="_CardView" FullName="Microsoft.Office.Interop.Outlook._CardView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="52794ebbb7f5d4a5e1e3ffb6cfd160d8825b436f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637316" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CardView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="52794ebbb7f5d4a5e1e3ffb6cfd160d8825b436f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900787" /></Metadata><TypeSignature Language="C#" Value="public interface _CardView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CardView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CardView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CardView" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="934f5-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="934f5-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="934f5-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="934f5-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="934f5-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="934f5-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="934f5-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="934f5-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="68ab6-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="68ab6-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="68ab6-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="68ab6-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="68ab6-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="68ab6-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span><span class="sxs-lookup"><span data-stu-id="68ab6-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.CardView" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,16 +48,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-105">Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der bestimmt, ob bearbeiten in der Zelle zulässig ist die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether in-cell editing is allowed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-106">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-105">Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der bestimmt, ob bearbeiten in der Zelle zulässig ist die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-105">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines whether in-cell editing is allowed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-106">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-106">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,16 +76,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="934f5-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="68ab6-108">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -145,12 +102,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-109">Wendet die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt, das der aktuellen Ansicht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-109">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object to the current view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-109">Wendet die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt, das der aktuellen Ansicht.</span><span class="sxs-lookup"><span data-stu-id="68ab6-109">Applies the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object to the current view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -177,16 +129,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AutoFormatRules</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-110">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> -Objekt, das den Satz von Formatierung darstellt Vorschriften für die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-111">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-110">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> -Objekt, das den Satz von Formatierung darstellt Vorschriften für die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AutoFormatRules" /> object that represents the set of formatting rules applicable to the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-111">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-111">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -214,16 +157,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-112">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> -Objekt, das die Schriftart zur Anzeige von im Textkörpers der Karte im stellt die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-112">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used to display the body of each card in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-113">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-112">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> -Objekt, das die Schriftart zur Anzeige von im Textkörpers der Karte im stellt die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-112">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used to display the body of each card in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-113">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-113">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -251,16 +185,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-114">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-114">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="934f5-115">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-114">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-114">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="68ab6-115">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-115">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,30 +213,10 @@
         <Parameter Name="SaveOption" Type="Microsoft.Office.Interop.Outlook.OlViewSaveOption" />
       </Parameters>
       <Docs>
-        <param name="Name">
-          <span data-ttu-id="934f5-116">Der Name der neuen Ansicht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-116">The name of the new view.</span>
-          </span>
-        </param>
-        <param name="SaveOption">
-          <span data-ttu-id="934f5-117">Die Speicheroption für die neue Ansicht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-117">The save option for the new view.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="934f5-118">Erstellt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.View" /> Objekt basierend auf dem vorhandenen <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-118">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="934f5-119">Ein <b>View</b> -Objekt, das die neue Ansicht darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-119">A <b>View</b> object that represents the new view.</span>
-          </span>
-        </returns>
+        <param name="Name"><span data-ttu-id="68ab6-116">Der Name der neuen Ansicht.</span><span class="sxs-lookup"><span data-stu-id="68ab6-116">The name of the new view.</span></span></param>
+        <param name="SaveOption"><span data-ttu-id="68ab6-117">Die Speicheroption für die neue Ansicht.</span><span class="sxs-lookup"><span data-stu-id="68ab6-117">The save option for the new view.</span></span></param>
+        <summary><span data-ttu-id="68ab6-118">Erstellt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.View" /> Objekt basierend auf dem vorhandenen <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-118">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object based on the existing <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span></summary>
+        <returns><span data-ttu-id="68ab6-119">Ein <b>View</b> -Objekt, das die neue Ansicht darstellt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-119">A <b>View</b> object that represents the new view.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -336,12 +241,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-120">Löscht ein Objekt aus einer Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-120">Deletes an object from a collection.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-120">Löscht ein Objekt aus einer Auflistung.</span><span class="sxs-lookup"><span data-stu-id="68ab6-120">Deletes an object from a collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -371,29 +271,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-121">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Filter für eine Ansicht darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-121">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span>
-          </span>
-          <span data-ttu-id="934f5-122">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-122">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-121">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Filter für eine Ansicht darstellt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-121">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the filter for a view.</span></span>  <span data-ttu-id="68ab6-122">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-122">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-123">
-            <para>Der Wert dieser Eigenschaft ist eine Zeichenfolge, in der DAV Searching and Locating (DASL) Syntax, die den aktuellen Filter für die Ansicht darstellt. Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-123">
-              <para>The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view. For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-123">Der Wert dieser Eigenschaft ist eine Zeichenfolge in der DASL-Syntax, die den aktuellen Filter für die Ansicht darstellt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-123">The value of this property is a string, in DAV Searching and Locating (DASL) syntax, that represents the current filter for the view.</span></span> <span data-ttu-id="68ab6-124">Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></span><span class="sxs-lookup"><span data-stu-id="68ab6-124">For more information about using DASL syntax to filter items in a view, see <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -419,18 +300,8 @@
         <Parameter Name="Date" Type="System.DateTime" />
       </Parameters>
       <Docs>
-        <param name="Date">
-          <span data-ttu-id="934f5-124">Das Datum, in das die Ansicht geändert werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-124">The date to which the view should be changed.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="934f5-125">Ändert das von der aktuellen Ansicht zum Anzeigen von Informationen verwendete Datum.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-125">Changes the date used by the current view to display information.</span>
-          </span>
-        </summary>
+        <param name="Date"><span data-ttu-id="68ab6-125">Das Datum, in das die Ansicht geändert werden soll.</span><span class="sxs-lookup"><span data-stu-id="68ab6-125">The date to which the view should be changed.</span></span></param>
+        <summary><span data-ttu-id="68ab6-126">Ändert das von der aktuellen Ansicht zum Anzeigen von Informationen verwendete Datum.</span><span class="sxs-lookup"><span data-stu-id="68ab6-126">Changes the date used by the current view to display information.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -457,16 +328,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFont</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-126">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> -Objekt, das die Schriftart, die zum Anzeigen der Überschrift einer Karte im stellt die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-126">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used to display the heading of each card in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-127">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-127">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> -Objekt, das die Schriftart, die zum Anzeigen der Überschrift einer Karte im stellt die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-127">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFont" /> object that represents the font used to display the heading of each card in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-128">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-128">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -497,31 +359,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-128">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Einstellung der Sprache für die Ansicht darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-128">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span>
-          </span>
-          <span data-ttu-id="934f5-129">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-129">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-129">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Einstellung der Sprache für die Ansicht darstellt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-129">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the language setting for the view.</span></span> <span data-ttu-id="68ab6-130">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-130">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-130">
-            <para>Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen. Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</para>
-            <para>Wenn ein gültiger Sprachcode angegeben wird, das Objekt werden nur im Menü Ansicht für die angegebene Sprachtyp verfügbar. Wenn kein Wert angegeben ist, ist das Object-Element für alle Sprachen verfügbar. Der Standardwert für diese Eigenschaft ist eine leere Zeichenfolge.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-130">
-              <para>The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag. For example, the string "EN-US" represents the ISO code for "United States - English."</para>
-              <para>If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-131">Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen.</span><span class="sxs-lookup"><span data-stu-id="68ab6-131">The <b>Language</b> property uses a <b>String</b> (<b>string</b> in C#) to represent an ISO language tag.</span></span> <span data-ttu-id="68ab6-132">Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</span><span class="sxs-lookup"><span data-stu-id="68ab6-132">For example, the string "EN-US" represents the ISO code for "United States - English."</span></span></para>
+          <para><span data-ttu-id="68ab6-p112">Wenn ein gültiger Sprachcode angegeben ist, steht das Objekt nur im Menü Ansicht für den angegebenen Sprachtyp zur Verfügung. Wenn kein Wert angegeben ist, ist das Objektelement für alle Sprachtypen verfügbar. Der Standardwert dieser Eigenschaft ist eine leere Zeichenfolge.</span><span class="sxs-lookup"><span data-stu-id="68ab6-p112">If a valid language code is specified, the object will only be available in the View menu for the specified language type. If no value is specified, the object item is available for all language types. The default value for this property is an empty string.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -550,29 +392,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-131">Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob ein Benutzer die Einstellungen der Ansicht ändern kann.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-131">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span>
-          </span>
-          <span data-ttu-id="934f5-132">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-132">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-136">Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob ein Benutzer die Einstellungen der Ansicht ändern kann.</span><span class="sxs-lookup"><span data-stu-id="68ab6-136">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether a user can modify the settings of the view.</span></span> <span data-ttu-id="68ab6-137">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-137">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-133">
-            <para>Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-133">
-              <para>If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-p114">Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</span><span class="sxs-lookup"><span data-stu-id="68ab6-p114">If <b>True</b>, the user can modify the settings of the specified view. However, changes made to the interface will not be saved. If <b>False</b> (the default), any changes will be saved.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLineFieldHeight">
@@ -601,29 +424,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-134">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der bestimmt, die minimale Anzahl von Zeilen für mehrzeilige Felder angezeigt, der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-134">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that determines the minimum number of lines for multiline fields displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-135">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-135">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-141">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der bestimmt, die minimale Anzahl von Zeilen für mehrzeilige Felder angezeigt, der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-141">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value that determines the minimum number of lines for multiline fields displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-142">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-142">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-136">
-            <para>Diese Eigenschaft kann auf einen Wert zwischen 1 und 20 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 1 festgelegt ist, wird die Eigenschaft auf 1 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Der Standardwert für diese Eigenschaft ist 1.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-136">
-              <para>This property can be set to a value between 1 and 20. If this property is set to a value less than 1, the property is set to 1. If this property is set to a value greater than 20, the property is set to 20. The default value for this property is 1.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-143">Diese Eigenschaft kann auf einen Wert zwischen 1 und 20 festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="68ab6-143">This property can be set to a value between 1 and 20.</span></span> <span data-ttu-id="68ab6-144">Wenn diese Eigenschaft auf einen Wert festgelegt ist, der niedriger als 1 ist, wird die Eigenschaft auf 1 festgelegt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-144">If this property is set to a value less than 1, the property is set to 1.</span></span> <span data-ttu-id="68ab6-145">Wenn diese Eigenschaft auf einen Wert größer als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-145">If this property is set to a value greater than 20, the property is set to 20.</span></span> <span data-ttu-id="68ab6-146">Der Standardwert für diese Eigenschaft ist 1.</span><span class="sxs-lookup"><span data-stu-id="68ab6-146">The default value for this property is 1.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -652,16 +456,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-137">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Anzeigenamen für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-137">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="934f5-138">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-138">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-147">Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Anzeigenamen für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-147">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="68ab6-148">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-148">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -689,12 +484,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-p113">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-p113">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-p118">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-p118">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -720,24 +510,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-141">Setzt eine integrierte Microsoft Outlook-Ansicht auf ihre ursprünglichen Einstellungen zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-141">Resets a built-in Microsoft Outlook view to its original settings.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="934f5-142">
-            <para>Diese Methode funktioniert nur für integrierte Outlook-Ansichten.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-142">
-              <para>This method works only on built-in Outlook views.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="68ab6-151">Setzt eine integrierte Microsoft Outlook-Ansicht auf ihre ursprünglichen Einstellungen zurück.</span><span class="sxs-lookup"><span data-stu-id="68ab6-151">Resets a built-in Microsoft Outlook view to its original settings.</span></span></summary>
+        <remarks><para><span data-ttu-id="68ab6-152">Diese Methode ist nur für integrierte Outlook-Ansichten funktionsfähig.</span><span class="sxs-lookup"><span data-stu-id="68ab6-152">This method works only on built-in Outlook views.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -761,12 +536,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-143">Speichert die Ansicht oder die Änderungen an einer Ansicht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-143">Saves the view, or saves the changes to a view.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-153">Speichert die Ansicht oder die Änderungen an einer Ansicht.</span><span class="sxs-lookup"><span data-stu-id="68ab6-153">Saves the view, or saves the changes to a view.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -793,29 +563,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewSaveOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-144">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> -Konstante, die Ordner angibt, in dem die angegebene Ansicht zur Verfügung steht, und die Berechtigungen lesen, der Ansicht zugeordnet ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-144">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span>
-          </span>
-          <span data-ttu-id="934f5-145">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-145">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-154">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> -Konstante, die Ordner angibt, in dem die angegebene Ansicht zur Verfügung steht, und die Berechtigungen lesen, der Ansicht zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="68ab6-154">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> constant that specifies the folders in which the specified view is available and the read permissions attached to the view.</span></span> <span data-ttu-id="68ab6-155">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-155">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-146">
-            <para>Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-146">
-              <para>The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-156">Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="68ab6-156">The value of the <b>SaveOption</b> property is set when the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object is created by using the <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> method of the <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> collection.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -841,41 +592,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-147">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-147">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="934f5-148">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-148">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-157">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="68ab6-157">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="68ab6-158">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-158">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-149">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="68ab6-159">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="68ab6-159">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="68ab6-160">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="68ab6-160">Both members serve the same purpose.</span></span> <span data-ttu-id="68ab6-161">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="68ab6-161">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-149">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowEmptyFields">
@@ -904,16 +630,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-150">Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der bestimmt, ob leere Felder für Karten angezeigt werden die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-150">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines if empty fields are displayed for cards in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-151">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-151">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-162">Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der bestimmt, ob leere Felder für Karten angezeigt werden die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-162">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) value that determines if empty fields are displayed for cards in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-163">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-163">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -941,16 +658,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OrderFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-152">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> -Objekt, das den Satz von Feldern darstellt, mit dem die Elemente, in angezeigt, der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt sortiert sind.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-152">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object that represents the set of fields by which the items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object are ordered.</span>
-          </span>
-          <span data-ttu-id="934f5-153">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-153">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-164">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> -Objekt, das den Satz von Feldern darstellt, mit dem die Elemente, in angezeigt, der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt sortiert sind.</span><span class="sxs-lookup"><span data-stu-id="68ab6-164">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OrderFields" /> object that represents the set of fields by which the items displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object are ordered.</span></span> <span data-ttu-id="68ab6-165">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-165">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -978,29 +686,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-154">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt ist eine integrierte Outlook-Ansicht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-154">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object is a built-in Outlook view.</span>
-          </span>
-          <span data-ttu-id="934f5-155">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-155">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-166">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt ist eine integrierte Outlook-Ansicht.</span><span class="sxs-lookup"><span data-stu-id="68ab6-166">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that indicates whether the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object is a built-in Outlook view.</span></span> <span data-ttu-id="68ab6-167">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-167">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-156">
-            <para>Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-156">
-              <para>The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-168">Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="68ab6-168">The <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> method can only be used on a view if the value of this property is set to <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewFields">
@@ -1026,16 +715,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ViewFields</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-157">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> -Objekt, das den Satz von Feldern darstellt, mit denen Outlook-Elemente, in angezeigt werden, der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-157">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> object that represents the set of fields with which Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-158">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-158">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-169">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> -Objekt, das den Satz von Feldern darstellt, mit denen Outlook-Elemente, in angezeigt werden, der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-169">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> object that represents the set of fields with which Outlook items are displayed in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-170">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-170">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1063,16 +743,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlViewType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-159">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> Konstante, die den Ansichtstyp der Ansicht angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-159">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span>
-          </span>
-          <span data-ttu-id="934f5-160">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-160">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-171">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> Konstante, die den Ansichtstyp der Ansicht angibt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-171">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlViewType" /> constant that indicates the view type of the view.</span></span> <span data-ttu-id="68ab6-172">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-172">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1103,67 +774,29 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-161">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der der Breite (in Zeichen) von Karten in die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-161">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in characters) of cards in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span>
-          </span>
-          <span data-ttu-id="934f5-162">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-162">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-173">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der der Breite (in Zeichen) von Karten in die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-173">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in characters) of cards in the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span> <span data-ttu-id="68ab6-174">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-174">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-163">
-            <para>Kann diese Eigenschaft auf einen Wert zwischen 20 und 1000 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 1000 festgelegt ist, wird die Eigenschaft auf 1000 festgelegt.</para>
-            <para>Der Standardwert für diese Eigenschaft hängt von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" /> -Eigenschaftswert der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt der Ansicht angezeigten:</para>
-            <list type="table">
-              <item>
-                <description>OlAppointmentItem</description>
-                <description>40</description>
-              </item>
-              <item>
-                <description>OlContactItem, OlDistributionListItem</description>
-                <description>36</description>
-              </item>
-              <item>
-                <description>OlJournalItem, OlMailItem, OlNoteItem OlPostItem</description>
-                <description>32</description>
-              </item>
-              <item>
-                <description>OlTaskItem</description>
-                <description>50</description>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-163">
-              <para>This property can be set to a value between 20 and 1000. If this property is set to a value less than 20, the property is set to 20. If this property is set to a value greater than 1000, the property is set to 1000.</para>
-              <para>The default value for this property depends on the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" /> property value of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object displayed by the view:</para>
-              <list type="table">
-                <item>
-                  <description>olAppointmentItem</description>
-                  <description>40</description>
-                </item>
-                <item>
-                  <description>olContactItem, olDistributionListItem</description>
-                  <description>36</description>
-                </item>
-                <item>
-                  <description>olJournalItem, olMailItem, olNoteItem, olPostItem</description>
-                  <description>32</description>
-                </item>
-                <item>
-                  <description>olTaskItem</description>
-                  <description>50</description>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-175">Diese Eigenschaft kann auf einen Wert zwischen 20 und 1000 festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="68ab6-175">This property can be set to a value between 20 and 1000.</span></span> <span data-ttu-id="68ab6-176">Wenn diese Eigenschaft auf einen Wert kleiner als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-176">If this property is set to a value less than 20, the property is set to 20.</span></span> <span data-ttu-id="68ab6-177">Wenn diese Eigenschaft auf einen Wert größer als 1000 festgelegt ist, wird die Eigenschaft auf 1000 festgelegt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-177">If this property is set to a value greater than 1000, the property is set to 1000.</span></span></para>
+          <para><span data-ttu-id="68ab6-178">Der Standardwert für diese Eigenschaft hängt von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" /> -Eigenschaftswert der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekte, die von der Ansicht angezeigt:</span><span class="sxs-lookup"><span data-stu-id="68ab6-178">The default value for this property depends on the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" /> property value of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object displayed by the view:</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="68ab6-179">olAppointmentItem</span><span class="sxs-lookup"><span data-stu-id="68ab6-179">olAppointmentItem</span></span></description>
+              <description><span data-ttu-id="68ab6-180">40</span><span class="sxs-lookup"><span data-stu-id="68ab6-180">40</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="68ab6-181">OlContactItem olDistributionListItem</span><span class="sxs-lookup"><span data-stu-id="68ab6-181">olContactItem, olDistributionListItem</span></span></description>
+              <description><span data-ttu-id="68ab6-182">36</span><span class="sxs-lookup"><span data-stu-id="68ab6-182">36</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="68ab6-183">OlJournalItem, OlMailItem, OlNoteItem, olPostItem</span><span class="sxs-lookup"><span data-stu-id="68ab6-183">olJournalItem, olMailItem, olNoteItem, olPostItem</span></span></description>
+              <description><span data-ttu-id="68ab6-184">32</span><span class="sxs-lookup"><span data-stu-id="68ab6-184">32</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="68ab6-185">olTaskItem</span><span class="sxs-lookup"><span data-stu-id="68ab6-185">olTaskItem</span></span></description>
+              <description><span data-ttu-id="68ab6-186">50</span><span class="sxs-lookup"><span data-stu-id="68ab6-186">50</span></span></description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="XML">
@@ -1192,31 +825,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="934f5-164">Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die XML-Definition der Ansicht angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-164">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span>
-          </span>
-          <span data-ttu-id="934f5-165">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-165">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="68ab6-187">Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die XML-Definition der Ansicht angibt.</span><span class="sxs-lookup"><span data-stu-id="68ab6-187">Returns or sets a <b>String</b> (<b>string</b> in C#) value that specifies the XML definition of the view.</span></span> <span data-ttu-id="68ab6-188">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="68ab6-188">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="934f5-166">
-            <para>Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Tags und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Wenn die Ansicht erstellt wird, wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht gerendert.</para>
-            <para>, Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen, und klicken Sie dann können Sie die <b>XML</b> -Eigenschaft für diese Ansicht abrufen strukturiert werden soll.  </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="934f5-166">
-              <para>The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</para>
-              <para>To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="68ab6-p131">Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Kennzeichen und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Beim Erstellen der Ansicht wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="68ab6-p131">The XML definition describes the view type by using a series of tags and keywords corresponding to various properties of the view itself. When the view is created, the XML definition is parsed to render the settings for the new view.</span></span></para>
+          <para><span data-ttu-id="68ab6-p132">Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten strukturiert werden soll, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen und Sie können die <b>XML</b> -Eigenschaft für diese Ansicht abrufen.</span><span class="sxs-lookup"><span data-stu-id="68ab6-p132">To determine how the XML should be structured when creating views, you can create a view by using the Outlook user interface and then you can retrieve the <b>XML</b> property for that view.  </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

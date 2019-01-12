@@ -1,13 +1,5 @@
 <Type Name="_ViewFields" FullName="Microsoft.Office.Interop.Outlook._ViewFields">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2fa7e9f0d7874832b1d6dbb48db18e744e8b2a5f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635751" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ViewFields : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2fa7e9f0d7874832b1d6dbb48db18e744e8b2a5f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901599" /></Metadata><TypeSignature Language="C#" Value="public interface _ViewFields : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFields implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFields" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ViewFields&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="33463-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33463-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="33463-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33463-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="33463-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33463-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="33463-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="33463-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="fded8-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="fded8-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="fded8-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="fded8-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="fded8-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="fded8-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="fded8-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />.</span><span class="sxs-lookup"><span data-stu-id="fded8-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,48 +49,15 @@
         <Parameter Name="PropertyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="PropertyName">
-          <span data-ttu-id="33463-105">Der Name der Eigenschaft, der das neue Objekt zugeordnet ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-105">The name of the property to which the new object is associated.</span>
-          </span>
-          <span data-ttu-id="33463-106">Diese Eigenschaft kann durch Name des Felds (in der Feldauswahl angezeigt) oder mithilfe von Namespaces verwiesen werden (dargestellt durch <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-106">This property can be referenced by field name (displayed in the Field Chooser) or by namespace (represented by <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />).</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="33463-107">Fügt das angegebene Feld am Ende der <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> -Auflistung für die Ansicht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-107">Adds the specified field to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection for the view.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="33463-108">Ein <b>ViewField</b> -Objekt, das das neue Ansichtsfeld darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-108">A <b>ViewField</b> object that represents the new view field.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="33463-109">
-            <para>Verweisen auf die Eigenschaft im <paramref name="PropertyName" /> durch das Feld Name den lokalisierten Namen in das entsprechende Gebietsschema erfordert. Weitere Informationen zum Verweisen auf Eigenschaften mithilfe von Namespaces finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></para>
-            <para>, wenn Sie der <b>ViewFields</b> -Auflistung eine benutzerdefinierte Eigenschaft hinzugefügt werden müssen, die-Eigenschaft muss vorhanden sein, der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> -Auflistung für die Anzeigen des übergeordneten Ordners.  </para>
-            <para>, Wenn die Eigenschaft in der <b>ViewFields</b> -Auflistung bereits vorhanden ist, löst Outlook einen Fehler.</para>
-            <para>Zum programmgesteuerten Hinzufügen eines benutzerdefinierten Felds zu einer Ansicht, die <b>ViewFields.Add</b> -Methode verwenden. Dies ist die empfohlene Option zum Dynamisches Ändern der Ansicht über die Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> -Eigenschaft.</para>
-            <para>Bestimmte Eigenschaften nicht zu einer Ansicht <b>ViewFields.Add</b>, einschließlich binäre Eigenschaften, berechnete Eigenschaften und HTML- oder RTF Text Inhalt hinzugefügt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Nicht unterstützte Eigenschaften in einem Table-Objekt oder Table-Filter</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-109">
-              <para>Referencing the property in <paramref name="PropertyName" /> by its field name requires the localized name in the corresponding locale. For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></para>
-              <para>If you are adding a custom property to the <b>ViewFields</b> collection, the property must exist in the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> collection for the View’s parent folder.  </para>
-              <para>If the property already exists in the <b>ViewFields</b> collection, Outlook will raise an error.</para>
-              <para>To programmatically add a custom field to a view, use the <b>ViewFields.Add</b> method. This is the recommended way to dynamically change the view over setting the <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> property.</para>
-              <para>Certain properties cannot be added to a view using <b>ViewFields.Add</b>, including binary properties, computed properties, and HTML or RTF body content. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="PropertyName"><span data-ttu-id="fded8-105">Der Name der Eigenschaft, der das neue Objekt zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="fded8-105">The name of the property to which the new object is associated.</span></span> <span data-ttu-id="fded8-106">Diese Eigenschaft kann durch Name des Felds (in der Feldauswahl angezeigt) oder mithilfe von Namespaces verwiesen werden (dargestellt durch <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />).</span><span class="sxs-lookup"><span data-stu-id="fded8-106">This property can be referenced by field name (displayed in the Field Chooser) or by namespace (represented by <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" />).</span></span></param>
+        <summary><span data-ttu-id="fded8-107">Fügt das angegebene Feld am Ende der <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> -Auflistung für die Ansicht.</span><span class="sxs-lookup"><span data-stu-id="fded8-107">Adds the specified field to the end of the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection for the view.</span></span></summary>
+        <returns><span data-ttu-id="fded8-108">Ein <b>ViewField</b> -Objekt, das das neue Ansichtsfeld darstellt.</span><span class="sxs-lookup"><span data-stu-id="fded8-108">A <b>ViewField</b> object that represents the new view field.</span></span></returns>
+        <remarks><para><span data-ttu-id="fded8-109">Verweisen auf die Eigenschaft im <paramref name="PropertyName" /> durch das Feld Name den lokalisierten Namen in das entsprechende Gebietsschema erfordert.</span><span class="sxs-lookup"><span data-stu-id="fded8-109">Referencing the property in <paramref name="PropertyName" /> by its field name requires the localized name in the corresponding locale.</span></span> <span data-ttu-id="fded8-110">Weitere Informationen zum Verweisen auf Eigenschaften mithilfe von Namespaces finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></span><span class="sxs-lookup"><span data-stu-id="fded8-110">For more information on referencing properties by namespace, see <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Referencing Properties by Namespace</a></span></span></para>
+          <para><span data-ttu-id="fded8-111">Wenn Sie der <b>ViewFields</b> -Auflistung eine benutzerdefinierte Eigenschaft hinzufügen, muss die Eigenschaft vorhanden, der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> -Auflistung für die Ansicht des übergeordneten Ordners.</span><span class="sxs-lookup"><span data-stu-id="fded8-111">If you are adding a custom property to the <b>ViewFields</b> collection, the property must exist in the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.UserDefinedProperties" /> collection for the View’s parent folder.</span></span>  </para>
+          <para><span data-ttu-id="fded8-112">Wenn die Eigenschaft in der <b>ViewFields</b> -Auflistung bereits vorhanden ist, löst Outlook einen Fehler.</span><span class="sxs-lookup"><span data-stu-id="fded8-112">If the property already exists in the <b>ViewFields</b> collection, Outlook will raise an error.</span></span></para>
+          <para><span data-ttu-id="fded8-113">Verwenden Sie zum programmgesteuerten Hinzufügen eines benutzerdefinierten Felds zu einer Ansicht die <b>ViewFields.Add</b> -Methode.</span><span class="sxs-lookup"><span data-stu-id="fded8-113">To programmatically add a custom field to a view, use the <b>ViewFields.Add</b> method.</span></span> <span data-ttu-id="fded8-114">Dies ist die empfohlene Option zum Dynamisches Ändern der Ansicht über die Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="fded8-114">This is the recommended way to dynamically change the view over setting the <see cref="P:Microsoft.Office.Interop.Outlook.View.XML" /> property.</span></span></para>
+          <para><span data-ttu-id="fded8-115">Bestimmte Eigenschaften können nicht in eine Ansicht mit <b>ViewFields.Add</b>, einschließlich binäre Eigenschaften, berechnete Eigenschaften und HTML- oder RTF-Textinhalte hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="fded8-115">Certain properties cannot be added to a view using <b>ViewFields.Add</b>, including binary properties, computed properties, and HTML or RTF body content.</span></span> <span data-ttu-id="fded8-116">Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Nicht unterstützte Eigenschaften in einem Table-Objekt oder Table-Filter</a></span><span class="sxs-lookup"><span data-stu-id="fded8-116">For more information, see <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Unsupported Properties in a Table Object or Table Filter</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -141,16 +83,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33463-110">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-110">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="33463-111">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-111">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fded8-117">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="fded8-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="fded8-118">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="fded8-118">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,16 +111,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33463-112">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-112">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="33463-113">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fded8-119">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="fded8-119">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="fded8-120">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="fded8-120">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -215,16 +139,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33463-114">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> -Objekte in der angegebenen Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-114">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="33463-115">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fded8-121">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> -Objekte in der angegebenen Auflistung.</span><span class="sxs-lookup"><span data-stu-id="fded8-121">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> objects in the specified collection.</span></span> <span data-ttu-id="fded8-122">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="fded8-122">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -253,30 +168,10 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="PropertyName">
-          <span data-ttu-id="33463-116">Der Name der Eigenschaft, der das neue Objekt zugeordnet ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-116">The name of the property to which the new object is associated.</span>
-          </span>
-        </param>
-        <param name="Index">
-          <span data-ttu-id="33463-117">Entweder ein 1-basierte Indexwert an dem das neue Objekt oder ein Wert, der entspricht eingefügt der <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> -Eigenschaftswert eines Objekts in der Auflistung, in dem das neue Objekt eingefügt werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-117">Either a one-based index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an object in the collection where the new object is to be inserted.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="33463-118">Erstellt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> -Objekt und fügt es am angegebenen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-118">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="33463-119">Ein <b>ViewField</b> -Objekt, das das neue Ansichtsfeld darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-119">A <b>ViewField</b> object that represents the new view field.</span>
-          </span>
-        </returns>
+        <param name="PropertyName"><span data-ttu-id="fded8-123">Der Name der Eigenschaft, der das neue Objekt zugeordnet ist.</span><span class="sxs-lookup"><span data-stu-id="fded8-123">The name of the property to which the new object is associated.</span></span></param>
+        <param name="Index"><span data-ttu-id="fded8-124">Entweder ein 1-basierte Indexwert an dem das neue Objekt oder ein Wert, der entspricht eingefügt der <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> -Eigenschaftswert eines Objekts in der Auflistung, in dem das neue Objekt eingefügt werden soll.</span><span class="sxs-lookup"><span data-stu-id="fded8-124">Either a one-based index number at which to insert the new object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an object in the collection where the new object is to be inserted.</span></span></param>
+        <summary><span data-ttu-id="fded8-125">Erstellt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> -Objekt und fügt es am angegebenen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="fded8-125">Creates a new <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> object and inserts it at the specified index within the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="fded8-126">Ein <b>ViewField</b> -Objekt, das das neue Ansichtsfeld darstellt.</span><span class="sxs-lookup"><span data-stu-id="fded8-126">A <b>ViewField</b> object that represents the new view field.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -306,24 +201,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="33463-120">Der Wert kann eine 1-basierte Ganzzahl, die ein <b>ViewField</b> -Objekt in indiziert werden die <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> -Auflistung, eine Zeichenfolge, die ermittelt die <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> -Eigenschaftswert ein <b>ViewField</b> -Objekt in der Auflistung oder ein Feldname in der Feldauswahl angezeigt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-120">The value  can be a one-based integer that indexes an <b>ViewField</b> object in the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection, a string that matches the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an <b>ViewField</b> object in the collection, or a field name as displayed in the Field Chooser.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="33463-121">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> Objekt aus der Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-121">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="33463-122">Ein <b>ViewField</b> -Objekt, das das angegebene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-122">A <b>ViewField</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="fded8-127">Der Wert kann eine 1-basierte Ganzzahl, die ein <b>ViewField</b> -Objekt in indiziert werden die <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> -Auflistung, eine Zeichenfolge, die ermittelt die <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> -Eigenschaftswert ein <b>ViewField</b> -Objekt in der Auflistung oder ein Feldname in der Feldauswahl angezeigt.</span><span class="sxs-lookup"><span data-stu-id="fded8-127">The value  can be a one-based integer that indexes an <b>ViewField</b> object in the <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> collection, a string that matches the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an <b>ViewField</b> object in the collection, or a field name as displayed in the Field Chooser.</span></span></param>
+        <summary><span data-ttu-id="fded8-128">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> Objekt aus der Auflistung.</span><span class="sxs-lookup"><span data-stu-id="fded8-128">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.ViewField" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="fded8-129">Ein <b>ViewField</b> -Objekt, das das angegebene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="fded8-129">A <b>ViewField</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -350,12 +230,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33463-p106">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fded8-p110">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="fded8-p110">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -383,18 +258,8 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="33463-125">Entweder der Indexwert des Objekts oder ein Wert, entspricht die <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> -Eigenschaftswert eines Objekts in der Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-125">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="33463-126">Entfernt ein Objekt aus der Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-126">Removes an object from the collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="fded8-132">Entweder der Indexwert des Objekts oder ein Wert, entspricht die <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> -Eigenschaftswert eines Objekts in der Auflistung.</span><span class="sxs-lookup"><span data-stu-id="fded8-132">Either the index number of the object, or a value used to match the <see cref="P:Microsoft.Office.Interop.Outlook._ViewField.ViewXMLSchemaName" /> property value of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="fded8-133">Entfernt ein Objekt aus der Auflistung.</span><span class="sxs-lookup"><span data-stu-id="fded8-133">Removes an object from the collection.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -421,41 +286,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="33463-127">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-127">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="33463-128">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-128">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="fded8-134">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="fded8-134">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="fded8-135">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="fded8-135">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="33463-129">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="fded8-136">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="fded8-136">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="fded8-137">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="fded8-137">Both members serve the same purpose.</span></span> <span data-ttu-id="fded8-138">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="fded8-138">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="33463-129">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

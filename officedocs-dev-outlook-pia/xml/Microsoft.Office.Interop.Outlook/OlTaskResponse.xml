@@ -1,13 +1,5 @@
 <Type Name="OlTaskResponse" FullName="Microsoft.Office.Interop.Outlook.OlTaskResponse">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5066d3b9b2230725ac20c1fece2b90b1200197a3" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635582" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlTaskResponse" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="91f602f644e62eaf5119ee30bbebd42e810376b0" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896632" /></Metadata><TypeSignature Language="C#" Value="public enum OlTaskResponse" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlTaskResponse extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlTaskResponse" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlTaskResponse" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="bc863-101">Gibt die Antwort auf eine Aufgabenanfrage an.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc863-101">Indicates the response to a task request.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="bc863-102">
-        <para>Anhand der <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" /> -Eigenschaft und als Parameter für die <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Respond(Microsoft.Office.Interop.Outlook.OlTaskResponse,System.Object,System.Object)" /> Methode.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="bc863-102">
-          <para>Used by the <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" /> property and as a parameter to the <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Respond(Microsoft.Office.Interop.Outlook.OlTaskResponse,System.Object,System.Object)" /> method.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="d3ae8-101">Gibt die Antwort auf eine Aufgabenanfrage an.</span><span class="sxs-lookup"><span data-stu-id="d3ae8-101">Indicates the response to a task request.</span></span></summary>
+    <remarks><para><span data-ttu-id="d3ae8-102">Anhand der <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" /> -Eigenschaft und als Parameter für die <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Respond(Microsoft.Office.Interop.Outlook.OlTaskResponse,System.Object,System.Object)" /> Methode.</span><span class="sxs-lookup"><span data-stu-id="d3ae8-102">Used by the <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" /> property and as a parameter to the <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Respond(Microsoft.Office.Interop.Outlook.OlTaskResponse,System.Object,System.Object)" /> method.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olTaskAccept">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc863-103">Die Aufgabe wurde angenommen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc863-103">Task accepted.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d3ae8-103">Die Aufgabe wurde angenommen.</span><span class="sxs-lookup"><span data-stu-id="d3ae8-103">Task accepted.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTaskAssign">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc863-104">Die Aufgabe wurde neu zugewiesen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc863-104">Task reassigned.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d3ae8-104">Die Aufgabe wurde neu zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="d3ae8-104">Task reassigned.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTaskDecline">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc863-105">Die Aufgabe wurde abgelehnt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc863-105">Task declined.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d3ae8-105">Die Aufgabe wurde abgelehnt.</span><span class="sxs-lookup"><span data-stu-id="d3ae8-105">Task declined.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olTaskSimple">
@@ -128,16 +90,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="bc863-106">Vorgang kann ist eine einfache Aufgabe nicht akzeptiert, abgelehnt, oder zugewiesen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc863-106">Task is a simple task and cannot be accepted, declined, or assigned.</span>
-          </span>
-          <span data-ttu-id="bc863-107">Diese Konstante ist kein gültiger Parameter für die <b>TaskItem.Respond</b> -Methode.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="bc863-107">This constant is not a valid parameter to the <b>TaskItem.Respond</b> method.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="d3ae8-106">Vorgang kann ist eine einfache Aufgabe nicht akzeptiert, abgelehnt, oder zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="d3ae8-106">Task is a simple task and cannot be accepted, declined, or assigned.</span></span>  <span data-ttu-id="d3ae8-107">Diese Konstante ist kein gültiger Parameter für die <b>TaskItem.Respond</b> -Methode.</span><span class="sxs-lookup"><span data-stu-id="d3ae8-107">This constant is not a valid parameter to the <b>TaskItem.Respond</b> method.</span></span></summary>
       </Docs>
     </Member>
   </Members>
