@@ -1,13 +1,5 @@
 <Type Name="_FormRegion" FullName="Microsoft.Office.Interop.Outlook._FormRegion">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635925" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormRegion" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="170a1d134f5a487d0a43dde3247d20e4b029e8bb" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902271" /></Metadata><TypeSignature Language="C#" Value="public interface _FormRegion" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormRegion" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormRegion" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormRegion" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="eda8d-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eda8d-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="eda8d-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eda8d-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="eda8d-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eda8d-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="eda8d-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="eda8d-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="2994a-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="2994a-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="2994a-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="2994a-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="2994a-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="2994a-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="2994a-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />.</span><span class="sxs-lookup"><span data-stu-id="2994a-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="eda8d-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="2994a-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="2994a-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,16 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="eda8d-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="2994a-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="2994a-108">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,33 +104,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-109">
-            <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, den zur Laufzeit in der Kopfzeile nach dem Anzeigenamen eines angrenzenden Formularbereichs angezeigten Text darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-109">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text displayed at runtime in the header after the display name of an adjoining form region.</span>
-          </span>
-          <span data-ttu-id="eda8d-110">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-110">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-109"><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, den zur Laufzeit in der Kopfzeile nach dem Anzeigenamen eines angrenzenden Formularbereichs angezeigten Text darstellt.</span><span class="sxs-lookup"><span data-stu-id="2994a-109">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the text displayed at runtime in the header after the display name of an adjoining form region.</span></span> <span data-ttu-id="2994a-110">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="2994a-110">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-111">
-            <para>Die <b>Detail</b> -Eigenschaft wird für angrenzende Formularbereiche nur angezeigt. Es wird bei separaten Formularbereichen ignoriert.</para>
-            <para>
-              <b>Detail</b> -Eigenschaft ist für einen angrenzenden Formularbereich optional.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-111">
-              <para>The <b>Detail</b> property is displayed for adjoining form regions only. It is ignored for separate form regions.</para>
-              <para>The <b>Detail</b> property is optional for an adjoining form region. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-p105">Die <b>Detail</b> -Eigenschaft wird für angrenzende Formularbereiche nur angezeigt. Es wird bei separaten Formularbereichen ignoriert.</span><span class="sxs-lookup"><span data-stu-id="2994a-p105">The <b>Detail</b> property is displayed for adjoining form regions only. It is ignored for separate form regions.</span></span></para>
+          <para><span data-ttu-id="2994a-p106">Die <b>Detail</b> -Eigenschaft ist für einen angrenzenden Formularbereich optional.</span><span class="sxs-lookup"><span data-stu-id="2994a-p106">The <b>Detail</b> property is optional for an adjoining form region. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayName">
@@ -199,31 +134,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-112">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Anzeigenamen des Formularbereichs darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-112">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the form region.</span>
-          </span>
-          <span data-ttu-id="eda8d-113">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-113">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-114">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Anzeigenamen des Formularbereichs darstellt.</span><span class="sxs-lookup"><span data-stu-id="2994a-114">Returns a <b>String</b> (<b>string</b> in C#) representing the display name of the form region.</span></span> <span data-ttu-id="2994a-115">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-115">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-114">
-            <para>Der Anzeigename ist für einen Formularbereich optional. Wenn Sie einen Wert für definiert haben die &lt;FormRegionName&gt; Tag in der entsprechenden Formular Region XML-Manifestdatei, dieser Wert wird auf den Wert der die <b>DisplayName</b> -Eigenschaft zuordnen. Weitere Informationen zum XML-Schema für Formularbereiche finden Sie unter Microsoft Outlook 2010 XML Schema Reference in der <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
-            <para>der Wert der die <b>DisplayName</b> -Eigenschaft wird zur Laufzeit auf der Registerkarte Anzeigen von Microsoft Office Fluent angezeigt. Menüband für einen separaten Formularbereich oder in der Kopfzeile eines angrenzenden Formularbereichs.  Es wird für das Standardgebietsschema verwendet und kann überschrieben werden, indem die &lt;StringOverride&gt; Tag in den entsprechenden Formularbereichmanifest XML-Datei. Die Zeichenfolge wird Groß-/Kleinschreibung unterschieden, und die maximale Länge beträgt 256 Zeichen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-114">
-              <para>The display name is optional for a form region. If you have defined a value for the &lt;formRegionName&gt; tag in the corresponding form region manifest XML file, this value will map to the value of the <b>DisplayName</b> property. For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
-              <para>The value of the <b>DisplayName</b> property is displayed at runtime in the Show tab of the Microsoft Office Fluent ribbon for a separate form region, or in the header of an adjoining form region.  It is used for the default locale, and can be overridden by the &lt;stringOverride&gt; tag in the corresponding form region manifest XML file. The string is case-insensitive, and its maximum length is 256 characters.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-116">Der Anzeigename ist für einen Formularbereich optional.</span><span class="sxs-lookup"><span data-stu-id="2994a-116">The display name is optional for a form region.</span></span> <span data-ttu-id="2994a-117">Wenn Sie einen Wert für definiert haben die &lt;FormRegionName&gt; Tag in der entsprechenden Formular Region XML-Manifestdatei, dieser Wert wird auf den Wert der die <b>DisplayName</b> -Eigenschaft zuordnen.</span><span class="sxs-lookup"><span data-stu-id="2994a-117">If you have defined a value for the &lt;formRegionName&gt; tag in the corresponding form region manifest XML file, this value will map to the value of the <b>DisplayName</b> property.</span></span> <span data-ttu-id="2994a-118">Weitere Informationen zum XML-Schema für Formularbereiche finden Sie unter Microsoft Outlook 2010 XML Schema Reference in der <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library.</a></span><span class="sxs-lookup"><span data-stu-id="2994a-118">For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></span></span></para>
+          <para><span data-ttu-id="2994a-119">Der Wert der <b>DisplayName</b> -Eigenschaft wird zur Laufzeit in der Registerkarte Anzeigen von Microsoft Office Fluent-Menüband für einen separaten Formularbereich oder in der Kopfzeile eines angrenzenden Formularbereichs angezeigt.</span><span class="sxs-lookup"><span data-stu-id="2994a-119">The value of the <b>DisplayName</b> property is displayed at runtime in the Show tab of the Microsoft Office Fluent ribbon for a separate form region, or in the header of an adjoining form region.</span></span>  <span data-ttu-id="2994a-120">Es wird für das Standardgebietsschema verwendet und kann überschrieben werden, indem die &lt;StringOverride&gt; Tag in den entsprechenden Formularbereichmanifest XML-Datei.</span><span class="sxs-lookup"><span data-stu-id="2994a-120">It is used for the default locale, and can be overridden by the &lt;stringOverride&gt; tag in the corresponding form region manifest XML file.</span></span> <span data-ttu-id="2994a-121">Die Zeichenfolge wird Groß-/Kleinschreibung unterschieden, und die maximale Länge beträgt 256 Zeichen.</span><span class="sxs-lookup"><span data-stu-id="2994a-121">The string is case-insensitive, and its maximum length is 256 characters.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnableAutoLayout">
@@ -252,31 +167,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-115">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob Sie das automatische Layout Ändern der Größe Feature beim Entwerfen von Formularbereichen im Formular-Designer verwenden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-115">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether to use the automatic layout resizing feature when designing form regions in the forms designer.</span>
-          </span>
-          <span data-ttu-id="eda8d-116">Lese-/Schreibzugriff</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-116">Read/write</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-122">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob Sie das automatische Layout Ändern der Größe Feature beim Entwerfen von Formularbereichen im Formular-Designer verwenden.</span><span class="sxs-lookup"><span data-stu-id="2994a-122">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that specifies whether to use the automatic layout resizing feature when designing form regions in the forms designer.</span></span> <span data-ttu-id="2994a-123">Lese-/Schreibzugriff</span><span class="sxs-lookup"><span data-stu-id="2994a-123">Read/write</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-117">
-            <para>Das Ändern der Größe Automatisches Layout-Feature im Formular-Designer neu berechnet, wenn das Layout von Formularen dynamisch Größe des Formulars geändert wird. Dieses Feature ist nur verfügbar für Formularbereiche im Formular-Designer.</para>
-            <para>, Wenn diese Eigenschaft auf <b>True</b>festgelegt ist, führt im Formular-Designer Ändern der Größe von automatischen Layouts.  Wenn diese Eigenschaft auf <b>False</b>festgelegt ist, wird im Formular-Designer keine automatische Layout Ändern der Größe von durchgeführt.  Der Standardwert lautet <b>True</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-117">
-              <para>The automatic layout resizing feature in the forms designer recalculates the form layout dynamically as the form is resized. This feature is only available to form regions in the forms designer.</para>
-              <para>When this property is <b>True</b>, the forms designer performs automatic layout resizing.  When this property is <b>False</b>, the forms designer does not perform automatic layout resizing.  The default value is <b>True</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-p111">Die automatische Layoutfunktion zur Größenänderung im Formular-Designer berechnet das Formularlayout dynamisch neu, während die Größe des Formulars geändert wird. Diese Funktion ist nur für Formularbereiche im Formular-Designer verfügbar.</span><span class="sxs-lookup"><span data-stu-id="2994a-p111">The automatic layout resizing feature in the forms designer recalculates the form layout dynamically as the form is resized. This feature is only available to form regions in the forms designer.</span></span></para>
+          <para><span data-ttu-id="2994a-126">Wenn diese Eigenschaft auf <b>True</b> festgelegt ist, führt im Formular-Designer mit der automatischen Layouts ändern der Größe.</span><span class="sxs-lookup"><span data-stu-id="2994a-126">When this property is <b>True</b>, the forms designer performs automatic layout resizing.</span></span>  <span data-ttu-id="2994a-127">Wenn diese Eigenschaft auf <b>False</b> festgelegt ist, wird im Formular-Designer keine automatische Layout Ändern der Größe von durchgeführt.</span><span class="sxs-lookup"><span data-stu-id="2994a-127">When this property is <b>False</b>, the forms designer does not perform automatic layout resizing.</span></span>  <span data-ttu-id="2994a-128">Der Standardwert ist <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="2994a-128">The default value is <b>True</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Form">
@@ -302,12 +197,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-p107">Gibt ein <b>Objekt</b> zurück, das <b>MSForms.UserForm</b> -Objekt darstellt. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-p107">Returns an <b>Object</b> representing the <b>MSForms.UserForm</b> object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-p113">Gibt ein <b>Objekt</b> zurück, das <b>MSForms.UserForm</b> -Objekt darstellt. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-p113">Returns an <b>Object</b> representing the <b>MSForms.UserForm</b> object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -335,25 +225,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlFormRegionMode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-p108">Gibt eine <b>OlFormRegionMode</b> -Konstante, die angibt, ob der Formularbereich in einer Leseseite befindet, Verfassenlayout oder einem Lesebereich. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-p108">Returns an <b>OlFormRegionMode</b> constant that indicates whether the form region is in a read page, compose page, or Reading Pane. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-p114">Gibt eine <b>OlFormRegionMode</b> -Konstante, die angibt, ob der Formularbereich in einer Leseseite befindet, Verfassenlayout oder einem Lesebereich. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-p114">Returns an <b>OlFormRegionMode</b> constant that indicates whether the form region is in a read page, compose page, or Reading Pane. Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-122">
-            <para>Wenn der Benutzer ein e-Mail-Element im Lesebereich verfügt, können Sie die <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> -Eigenschaft auf Weiter zu bestimmen, ob der Benutzer in den Bearbeitungsmodus oder den Lesemodus des Lesebereichs. Ein e-Mail-Element wird im Lesebereich anders angezeigt, wenn sie befindet sich in den Bearbeitungsmodus (das e-Mail-Element ist im Ordner "Entwürfe") als ist, wenn es in der Lesemodus (das e-Mail-Element befindet sich im Ordner Posteingang oder gesendet).</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-122">
-              <para>If the user has a mail item in the Reading Pane, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> property to further determine if the user is in the edit mode or the read mode of the Reading Pane. A mail item is displayed differently in the Reading Pane if it is in the edit mode (the mail item is in the Draft folder) than if it is in the read mode (the mail item is in the Inbox or Sent folder).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-133">Wenn der Benutzer ein e-Mail-Element im Lesebereich verfügt, können Sie die <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> -Eigenschaft auf Weiter zu bestimmen, ob der Benutzer in den Bearbeitungsmodus oder den Lesemodus des Lesebereichs.</span><span class="sxs-lookup"><span data-stu-id="2994a-133">If the user has a mail item in the Reading Pane, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Sent" /> property to further determine if the user is in the edit mode or the read mode of the Reading Pane.</span></span> <span data-ttu-id="2994a-134">Ein e-Mail-Element wird im Lesebereich anders angezeigt, wenn sie befindet sich in den Bearbeitungsmodus (das e-Mail-Element ist im Ordner "Entwürfe") als ist, wenn es in der Lesemodus (das e-Mail-Element befindet sich im Ordner Posteingang oder gesendet).</span><span class="sxs-lookup"><span data-stu-id="2994a-134">A mail item is displayed differently in the Reading Pane if it is in the edit mode (the mail item is in the Draft folder) than if it is in the read mode (the mail item is in the Inbox or Sent folder).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspector">
@@ -379,29 +254,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-123">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das den Inspektor, der als Host für den Formularbereich fungiert darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object representing the Inspector that hosts the form region.</span>
-          </span>
-          <span data-ttu-id="eda8d-124">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-124">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-135">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das den Inspektor, der als Host für den Formularbereich fungiert darstellt.</span><span class="sxs-lookup"><span data-stu-id="2994a-135">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object representing the Inspector that hosts the form region.</span></span> <span data-ttu-id="2994a-136">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-136">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-125">
-            <para>Wenn der Formularbereich im Lesebereich angezeigt wird, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-125">
-              <para>Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the form region is displayed in the Reading Pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-137">Wenn der Formularbereich im Lesebereich angezeigt wird, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="2994a-137">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if the form region is displayed in the Reading Pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternalName">
@@ -427,31 +283,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-126">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), der den internen programmgesteuerten Namen des Formularbereichs gemäß Definition im Manifest für den Formularbereich darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-126">Returns a <b>String</b> (<b>string</b> in C#) that represents the internal programmatic name of the form region as defined in the manifest for the form region.</span>
-          </span>
-          <span data-ttu-id="eda8d-127">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-127">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-138">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), der den internen programmgesteuerten Namen des Formularbereichs gemäß Definition im Manifest für den Formularbereich darstellt.</span><span class="sxs-lookup"><span data-stu-id="2994a-138">Returns a <b>String</b> (<b>string</b> in C#) that represents the internal programmatic name of the form region as defined in the manifest for the form region.</span></span> <span data-ttu-id="2994a-139">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-139">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-128">
-            <para>Der interne Name ist für einen Formularbereich erforderlich. Die &lt;Namen&gt; Tag in den entsprechenden Formularbereichmanifest XML-Datei auf den Wert der <b>InternalName</b> -Eigenschaft zugeordnet wird. Weitere Informationen zum XML-Schema für Formularbereiche finden Sie unter Microsoft Outlook 2010 XML Schema Reference in der <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
-            <para>der Wert der <b>InternalName</b> -Eigenschaft wird von der Add-in oder Microsoft Outlook verweisen auf den Formularbereich beispielsweise, um zu bestimmen, welcher Formularbereich geladen wird oder zum Laden von Zeichenfolgen aus den Ressourcen lokalisierte Zeichenfolge. <b>InternalName</b> -Eigenschaft unterstützt nur ASCII-Zeichen. Die Zeichenfolge wird Groß-/Kleinschreibung unterschieden, und die maximale Länge beträgt 256 Zeichen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-128">
-              <para>The internal name is required for a form region. The &lt;name&gt; tag in the corresponding form region manifest XML file maps to the value of the <b>InternalName</b> property. For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></para>
-              <para>The value of the <b>InternalName</b> property is used by the add-in or Microsoft Outlook to refer to the form region, for example, to determine which form region is being loaded or to load strings from the localized string resources. The <b>InternalName</b> property supports only ASCII characters. The string is case-insensitive, and its maximum length is 256 characters.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-140">Der interne Name ist für einen Formularbereich erforderlich.</span><span class="sxs-lookup"><span data-stu-id="2994a-140">The internal name is required for a form region.</span></span> <span data-ttu-id="2994a-141">Die &lt;Namen&gt; Tag in den entsprechenden Formularbereichmanifest XML-Datei auf den Wert der <b>InternalName</b> -Eigenschaft zugeordnet wird.</span><span class="sxs-lookup"><span data-stu-id="2994a-141">The &lt;name&gt; tag in the corresponding form region manifest XML file maps to the value of the <b>InternalName</b> property.</span></span> <span data-ttu-id="2994a-142">Weitere Informationen zum XML-Schema für Formularbereiche finden Sie unter Microsoft Outlook 2010 XML Schema Reference in der <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library.</a></span><span class="sxs-lookup"><span data-stu-id="2994a-142">For more information on the XML schema for form regions, see the Microsoft Outlook 2010 XML Schema Reference in the <a href="http://msdn.microsoft.com/en-us/library/default.aspx">MSDN Library</a></span></span></para>
+          <para><span data-ttu-id="2994a-p119">Der Wert der <b>InternalName</b> -Eigenschaft wird von der Add-in oder Microsoft Outlook verwendet, beispielsweise verweisen auf den Formularbereich, um zu bestimmen, welcher Formularbereich geladen wird oder zum Laden von Zeichenfolgen aus den Ressourcen lokalisierte Zeichenfolge. <b>InternalName</b> -Eigenschaft unterstützt nur ASCII-Zeichen. Die Zeichenfolge wird Groß-/Kleinschreibung unterschieden, und die maximale Länge beträgt 256 Zeichen.</span><span class="sxs-lookup"><span data-stu-id="2994a-p119">The value of the <b>InternalName</b> property is used by the add-in or Microsoft Outlook to refer to the form region, for example, to determine which form region is being loaded or to load strings from the localized string resources. The <b>InternalName</b> property supports only ASCII characters. The string is case-insensitive, and its maximum length is 256 characters.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsExpanded">
@@ -477,31 +313,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-129">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die angibt, ob der Formularbereich erweitert ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-129">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the form region is expanded.</span>
-          </span>
-          <span data-ttu-id="eda8d-130">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-130">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-146">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die angibt, ob der Formularbereich erweitert ist.</span><span class="sxs-lookup"><span data-stu-id="2994a-146">Returns a <b>Boolean</b> (<b>bool</b> in C#) that indicates if the form region is expanded.</span></span> <span data-ttu-id="2994a-147">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-147">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-131">
-            <para>Diese Eigenschaft betrifft nur angrenzende Formularbereiche und wird bei separaten Formularbereichen ignoriert.</para>
-            <para>Outlook immer zuerst lädt ein Formularbereichs im erweiterten Zustand und <b>IsExpanded</b> auf <b>True</b>festgelegt. Wenn der Anfangszustand des Formularbereichs reduziert wird, wird Outlook sofort den Formularbereich, löst schließt die <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> Ereignis mit der <paramref name="Expand" /> Parameter <b>False</b>und legt <b>IsExpanded</b> auf <b>false festgelegt</b>wird. </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-131">
-              <para>This property applies to adjoining form regions only and is ignored for separate form regions.</para>
-              <para>Outlook always first loads a form region in an expanded state and sets <b>IsExpanded</b> to <b>True</b>. If the initial state of the form region is to be collapsed, then Outlook immediately closes the form region, fires the <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> event with the <paramref name="Expand" /> parameter being <b>False</b>, and sets  <b>IsExpanded</b> to <b>False</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-148">Diese Eigenschaft gilt nur für angrenzende Formularbereiche und wird bei separaten Formularbereichen ignoriert.</span><span class="sxs-lookup"><span data-stu-id="2994a-148">This property applies to adjoining form regions only and is ignored for separate form regions.</span></span></para>
+          <para><span data-ttu-id="2994a-149">Outlook wird immer zuerst lädt ein Formularbereichs im erweiterten Zustand und <b>IsExpanded</b> auf <b>True</b> festgelegt.</span><span class="sxs-lookup"><span data-stu-id="2994a-149">Outlook always first loads a form region in an expanded state and sets <b>IsExpanded</b> to <b>True</b>.</span></span> <span data-ttu-id="2994a-150">Wenn der Anfangszustand des Formularbereichs reduziert wird, wird Outlook sofort den Formularbereich, löst schließt die <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> Ereignis mit der <paramref name="Expand" /> Parameter <b>False</b>und legt <b>IsExpanded</b> auf <b>false festgelegt</b>wird.</span><span class="sxs-lookup"><span data-stu-id="2994a-150">If the initial state of the form region is to be collapsed, then Outlook immediately closes the form region, fires the <see cref="E:Microsoft.Office.Interop.Outlook.FormRegionEvents_Event.Expanded" /> event with the <paramref name="Expand" /> parameter being <b>False</b>, and sets  <b>IsExpanded</b> to <b>False</b>.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -527,12 +343,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-p112">Gibt ein <b>Objekt</b>, das an den Formularbereich gebunden Outlook-Element entspricht. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-p112">Returns an <b>Object</b> corresponding to the Outlook item bound to the form region. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-p122">Gibt ein <b>Objekt</b>, das an den Formularbereich gebunden Outlook-Element entspricht. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-p122">Returns an <b>Object</b> corresponding to the Outlook item bound to the form region. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -560,16 +371,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-134">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die LCID für die aktuelle Sprache angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-134">Returns an <b>Integer</b> (<b>int</b> in C#) value that indicates the LCID for the current language.</span>
-          </span>
-          <span data-ttu-id="eda8d-135">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-135">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-153">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die LCID für die aktuelle Sprache angibt.</span><span class="sxs-lookup"><span data-stu-id="2994a-153">Returns an <b>Integer</b> (<b>int</b> in C#) value that indicates the LCID for the current language.</span></span> <span data-ttu-id="2994a-154">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-154">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -597,12 +399,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-p114">Gibt das übergeordnete <b>Objekt</b> des Formularbereichs zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-p114">Returns the parent <b>Object</b> of the form region. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-p124">Gibt das übergeordnete <b>Objekt</b> des Formularbereichs zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-p124">Returns the parent <b>Object</b> of the form region. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -628,24 +425,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-138">Zwingt Outlook, die Höhe eines angrenzenden Formularbereichs neu zu berechnen, um alle sichtbaren Steuerelemente im Formularbereich anzuzeigen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-138">Causes Outlook to recalculate the height of an adjoining form region to display all  the visible controls in the form region.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="eda8d-139">
-            <para>Die <b>Reflow</b> -Methode gilt nur für angrenzende Formularbereiche. Keine Aktion ausgeführt wird bei separaten Formularbereichen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-139">
-              <para>The <b>Reflow</b> method only applies to adjoining form regions. No action occurs for separate form regions.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2994a-157">Zwingt Outlook, die Höhe eines angrenzenden Formularbereichs neu zu berechnen, um alle sichtbaren Steuerelemente im Formularbereich anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="2994a-157">Causes Outlook to recalculate the height of an adjoining form region to display all  the visible controls in the form region.</span></span></summary>
+        <remarks><para><span data-ttu-id="2994a-p125">Die <b>Reflow</b> -Methode gilt nur für angrenzende Formularbereiche. Keine Aktion ausgeführt wird bei separaten Formularbereichen.</span><span class="sxs-lookup"><span data-stu-id="2994a-p125">The <b>Reflow</b> method only applies to adjoining form regions. No action occurs for separate form regions.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Select">
@@ -669,24 +451,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-140">Aktiviert den Formularbereich, sodass er angezeigt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-140">Makes the form region the active form region such that it becomes visible.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="eda8d-141">
-            <para>Wenn der Formularbereich ein angrenzender Formularbereich befindet, klicken Sie dann <b>Wählen Sie</b> wird erweitern Sie den Formularbereich (sofern er nicht bereits erweitert ist) und setzen Sie den Fokus auf das erste Steuerelement auf der Seite. Wenn der Formularbereich ist ein separater Formularbereich und nicht bereits die aktive Seite und dann <b>wird der Formularbereich</b> Seite und Festlegen des Fokus auf das erste Steuerelement auf der Seite. Wenn der Formularbereich ein separater Formularbereich ist und bereits dem aktiven Zeichenblatt, passiert dann nichts.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-141">
-              <para>If the form region is an adjoining form region, then <b>Select</b> will expand the form region (if it is not already expanded) and set focus on the first control on that page. If the form region is a separate form region and is not already the active page, then <b>Select</b> will swtich to the form region page and set focus on the first control on that page. If the form region is a separate form region and is already the active page, then nothing happens.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="2994a-160">Aktiviert den Formularbereich, sodass er angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="2994a-160">Makes the form region the active form region such that it becomes visible.</span></span></summary>
+        <remarks><para><span data-ttu-id="2994a-p126">Wenn der Formularbereich ein angrenzender Formularbereich befindet, klicken Sie dann <b>Wählen Sie</b> wird erweitern Sie den Formularbereich (sofern er nicht bereits erweitert ist) und setzen Sie den Fokus auf das erste Steuerelement auf der Seite. Wenn der Formularbereich ist ein separater Formularbereich und nicht bereits die aktive Seite und dann <b>wird der Formularbereich</b> Seite und Festlegen des Fokus auf das erste Steuerelement auf der Seite. Wenn der Formularbereich ein separater Formularbereich ist und bereits dem aktiven Zeichenblatt, passiert dann nichts.</span><span class="sxs-lookup"><span data-stu-id="2994a-p126">If the form region is an adjoining form region, then <b>Select</b> will expand the form region (if it is not already expanded) and set focus on the first control on that page. If the form region is a separate form region and is not already the active page, then <b>Select</b> will swtich to the form region page and set focus on the first control on that page. If the form region is a separate form region and is already the active page, then nothing happens.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -712,41 +479,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-142">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-142">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="eda8d-143">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-143">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-164">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="2994a-164">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="2994a-165">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="2994a-165">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-144">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="2994a-166">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="2994a-166">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="2994a-167">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="2994a-167">Both members serve the same purpose.</span></span> <span data-ttu-id="2994a-168">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="2994a-168">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-144">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetControlItemProperty">
@@ -773,44 +515,15 @@
         <Parameter Name="PropertyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Control">
-          <span data-ttu-id="eda8d-145">Ein Steuerelement im Formularbereich, der die Eigenschaft von angegeben <paramref name="PropertyName" /> gebunden werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-145">A control in the form region to which the property specified by <paramref name="PropertyName" /> will be bound.</span>
-          </span>
-        </param>
-        <param name="PropertyName">
-          <span data-ttu-id="eda8d-146">Der Name der Eigenschaft, die an das Steuerelement gebunden wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-146">The name of the property that will be bound to the control.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="eda8d-147">Bindet eine explizite integrierte Eigenschaft oder benutzerdefinierte Eigenschaft an ein Steuerelement im Formularbereich.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-147">Binds an explicit  built-in property or a custom property to a control in the form region.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="eda8d-148">
-            <para>Mit dieser Methode können Sie eine explizite integrierte Eigenschaft oder eine benutzerdefinierte Eigenschaft an ein Steuerelement gebunden werden. Sie müssen auf die Eigenschaft verweisen von Zeichenfolgennamens, beispielsweise <b>Betreff</b>, und nicht von Namespace, z. B. http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
-            <para>Der <paramref name="PropertyName" /> Parameter ist nicht Groß-/Kleinschreibung beachtet. Beispielsweise <b>SetControlItemProperty</b> interpretiert Argument <b>CustomerId</b><b>CustomerID</b> identisch sein und bindet das angegebene Steuerelement an die integrierte <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> -Eigenschaft.</para>
-            <para>Als die <b>SetControlItemProperty</b> -Methode des ein <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> -Objekts, Sie können auch Code ähnlich der folgenden verwenden, um eine Eigenschaft wie die <b>Subject</b> -Eigenschaft auf ein Steuerelement zu binden:</para>
-            <code>myPage.Controls("bar").ItemProperty = "subject"</code>
-            <code>myPage.Controls("bar").ItemProperty = "subject";</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-148">
-              <para>You can use this method to bind an explicit built-in property or a custom property to a control. You must reference the property by its string name, for example, <b>Subject</b>, and not by namespace, for example, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
-              <para>The <paramref name="PropertyName" /> parameter is not case-sensitive. For example, <b>SetControlItemProperty</b> interprets an argument, <b>CustomerId</b>, to be the same as <b>CustomerID</b> and binds the specified control to the built-in <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> property.</para>
-              <para>Other than using the <b>SetControlItemProperty</b> method of a <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> object, you can also use code similar to the following to bind a property such as the  <b>Subject</b> property to a control:</para>
-              <code>myPage.Controls("bar").ItemProperty = "subject"</code>
-              <code>myPage.Controls("bar").ItemProperty = "subject";</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Control"><span data-ttu-id="2994a-169">Ein Steuerelement im Formularbereich, der die Eigenschaft von angegeben <paramref name="PropertyName" /> gebunden werden soll.</span><span class="sxs-lookup"><span data-stu-id="2994a-169">A control in the form region to which the property specified by <paramref name="PropertyName" /> will be bound.</span></span></param>
+        <param name="PropertyName"><span data-ttu-id="2994a-170">Der Name der Eigenschaft, die an das Steuerelement gebunden wird.</span><span class="sxs-lookup"><span data-stu-id="2994a-170">The name of the property that will be bound to the control.</span></span></param>
+        <summary><span data-ttu-id="2994a-171">Bindet eine explizite integrierte Eigenschaft oder benutzerdefinierte Eigenschaft an ein Steuerelement im Formularbereich.</span><span class="sxs-lookup"><span data-stu-id="2994a-171">Binds an explicit  built-in property or a custom property to a control in the form region.</span></span></summary>
+        <remarks><para><span data-ttu-id="2994a-p129">Mit dieser Methode können Sie eine explizite integrierte Eigenschaft oder eine benutzerdefinierte Eigenschaft an ein Steuerelement gebunden werden. Sie müssen die-Eigenschaft von Zeichenfolgennamens, beispielsweise <b>Betreff</b>, und nicht von Namespace, beispielsweise http://schemas.microsoft.com/mapi/proptag/0x0037001E verweisen.</span><span class="sxs-lookup"><span data-stu-id="2994a-p129">You can use this method to bind an explicit built-in property or a custom property to a control. You must reference the property by its string name, for example, <b>Subject</b>, and not by namespace, for example, http://schemas.microsoft.com/mapi/proptag/0x0037001E.</span></span></para>
+          <para><span data-ttu-id="2994a-174">Die <paramref name="PropertyName" /> Parameter ist nicht Groß-/Kleinschreibung beachtet.</span><span class="sxs-lookup"><span data-stu-id="2994a-174">The <paramref name="PropertyName" /> parameter is not case-sensitive.</span></span> <span data-ttu-id="2994a-175">Beispielsweise <b>SetControlItemProperty</b> interpretiert Argument <b>CustomerId</b> <b>CustomerID</b> identisch sein und bindet das angegebene Steuerelement an die integrierte <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="2994a-175">For example, <b>SetControlItemProperty</b> interprets an argument, <b>CustomerId</b>, to be the same as <b>CustomerID</b> and binds the specified control to the built-in <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> property.</span></span></para>
+          <para><span data-ttu-id="2994a-176">Verwenden der <b>SetControlItemProperty</b> -Methode des ein <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> -Objekts, Sie können auch Code ähnlich der folgenden verwenden, um eine Eigenschaft wie die <b>Subject</b> -Eigenschaft auf ein Steuerelement zu binden:</span><span class="sxs-lookup"><span data-stu-id="2994a-176">Other than using the <b>SetControlItemProperty</b> method of a <see cref="T:Microsoft.Office.Interop.Outlook.FormRegion" /> object, you can also use code similar to the following to bind a property such as the  <b>Subject</b> property to a control:</span></span></para>
+          <code>myPage.Controls("bar").ItemProperty = "subject"</code>
+          <code>myPage.Controls("bar").ItemProperty = "subject";</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SuppressControlReplacement">
@@ -839,29 +552,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-149">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die verhindert, dass Outlook automatisch ein Forms 2.0-Steuerelement durch ein entsprechendes mit Design versehenes Outlook-Steuerelement zur Entwurfs- und Laufzeit ersetzt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-149">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that disables Outlook from automatically replacing  a Forms 2.0 control by  a themed Outlook control at design time and runtime.</span>
-          </span>
-          <span data-ttu-id="eda8d-150">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-150">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-177">Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die verhindert, dass Outlook automatisch ein Forms 2.0-Steuerelement durch ein entsprechendes mit Design versehenes Outlook-Steuerelement zur Entwurfs- und Laufzeit ersetzt.</span><span class="sxs-lookup"><span data-stu-id="2994a-177">Returns or sets a <b>Boolean</b> (<b>bool</b> in C#) that disables Outlook from automatically replacing  a Forms 2.0 control by  a themed Outlook control at design time and runtime.</span></span> <span data-ttu-id="2994a-178">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="2994a-178">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-151">
-            <para>Weitere Informationen zu Outlook automatisch ein Forms 2.0-Steuerelement durch ein entsprechendes mit Design versehenes Outlook-Steuerelement ersetzt finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-151">
-              <para>For more information on Outlook automatically replacing a Forms 2.0 control by  a themed Outlook counterpart control, see <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Controls in a Custom Form</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-179">Weitere Informationen zu Outlook automatisch ein Forms 2.0-Steuerelement durch ein entsprechendes mit Design versehenes Outlook-Steuerelement ersetzt finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></span><span class="sxs-lookup"><span data-stu-id="2994a-179">For more information on Outlook automatically replacing a Forms 2.0 control by  a themed Outlook counterpart control, see <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Controls in a Custom Form</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -890,33 +584,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="eda8d-152">Zurückgeben oder Festlegen einer <see cref="T:System.Boolean" /> (<b>Bool</b> für c#)-Wert, der angibt, ob der Formularbereich ein- oder ausgeblendet wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-152">Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the form region is visible or hidden.</span>
-          </span>
-          <span data-ttu-id="eda8d-153">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-153">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="2994a-180">Zurückgeben oder Festlegen einer <see cref="T:System.Boolean" /> (<b>Bool</b> für c#)-Wert, der angibt, ob der Formularbereich ein- oder ausgeblendet wird.</span><span class="sxs-lookup"><span data-stu-id="2994a-180">Returns or sets a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the form region is visible or hidden.</span></span> <span data-ttu-id="2994a-181">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="2994a-181">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="eda8d-154">
-            <para>
-              <b>True,</b> Wenn der Formularbereich angezeigt wird. <b>False,</b> Wenn es ausgeblendet ist. Der Standardwert ist <b>True</b>. </para>
-            <para>Verwenden Sie die <b>Visible</b> -Eigenschaft den um Zugriff auf Informationen zu steuern, ohne es in einem Formularbereich anzuzeigen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="eda8d-154">
-              <para>
-                <b>True</b> if the form region is visible; <b>False</b> if it is hidden. The default is <b>True</b>. </para>
-              <para>Use the <b>Visible</b> property to control access to information without displaying it in a form region.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="2994a-p133">
+            <b>True,</b> Wenn der Formularbereich angezeigt wird. <b>False,</b> Wenn es ausgeblendet ist. Der Standardwert ist <b>True</b>.</span><span class="sxs-lookup"><span data-stu-id="2994a-p133">
+            <b>True</b> if the form region is visible; <b>False</b> if it is hidden. The default is <b>True</b>. </span></span></para>
+          <para><span data-ttu-id="2994a-184">Verwenden Sie die <b>Visible</b> -Eigenschaft, um Zugriff auf Informationen zu steuern, ohne es in einem Formularbereich anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="2994a-184">Use the <b>Visible</b> property to control access to information without displaying it in a form region.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
