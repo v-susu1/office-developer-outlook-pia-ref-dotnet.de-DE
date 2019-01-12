@@ -1,13 +1,5 @@
 <Type Name="_NoteItem" FullName="Microsoft.Office.Interop.Outlook._NoteItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6eb29a0ab255953d2c83cf99a81bdab3101a0cb6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636409" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NoteItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6eb29a0ab255953d2c83cf99a81bdab3101a0cb6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899026" /></Metadata><TypeSignature Language="C#" Value="public interface _NoteItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NoteItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NoteItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NoteItem" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="cb0d8-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0d8-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="cb0d8-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0d8-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="cb0d8-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0d8-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="cb0d8-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="cb0d8-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="df8ac-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="df8ac-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="df8ac-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="df8ac-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="df8ac-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="df8ac-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" />.</span><span class="sxs-lookup"><span data-stu-id="df8ac-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="cb0d8-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="df8ac-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -107,31 +73,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-107">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element eine automatische Konfliktbehebung gewinnen ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-107">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is a winner of an automatic conflict resolution.</span>
-          </span>
-          <span data-ttu-id="cb0d8-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-107">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element eine automatische Konfliktbehebung gewinnen ist.</span><span class="sxs-lookup"><span data-stu-id="df8ac-107">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is a winner of an automatic conflict resolution.</span></span> <span data-ttu-id="df8ac-108">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-108">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-109">
-            <para>Der Wert <b>False</b> wird nicht notwendigerweise, dass das Element eine Verlierer eine automatische Konfliktbehebung ist. Das Element könnte mit einem anderen Element in Konflikt.</para>
-            <para>, Wenn ein Element wurde <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> von dessen <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Conflicts" /> -Eigenschaft größer als 0 (null) und dessen <b>AutoResolvedWinner</b> -Eigenschaft auf <b>True</b>festgelegt ist, ist es eine automatische Konfliktbehebung gewinnen. Andererseits, wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b>ist, ist es eine Verlierer in eine automatische Konfliktbehebung.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-109">
-              <para>A value of <b>False</b> does not necessarily indicate that the item is a loser of an automatic conflict resolution. The item could be in conflict with another item.</para>
-              <para>If an item has  <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> of its <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Conflicts" /> property greater than zero and if its <b>AutoResolvedWinner</b> property is <b>True</b>, it is a winner of an automatic conflict resolution. On the other hand, if the item is in conflict and has its <b>AutoResolvedWinner</b> property as <b>False</b>, it is a loser in an automatic conflict resolution.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-p104">Der Wert <b>False</b> wird nicht notwendigerweise, dass das Element eine Verlierer eine automatische Konfliktbehebung ist. Das Element kann mit einem anderen Element in Konflikt handeln.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p104">A value of <b>False</b> does not necessarily indicate that the item is a loser of an automatic conflict resolution. The item could be in conflict with another item.</span></span></para>
+          <para><span data-ttu-id="df8ac-111">Wenn ein Element wurde <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> von dessen <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Conflicts" /> -Eigenschaft größer als 0 (null) und dessen <b>AutoResolvedWinner</b> -Eigenschaft auf <b>True</b>festgelegt ist, ist es eine automatische Konfliktbehebung gewinnen.</span><span class="sxs-lookup"><span data-stu-id="df8ac-111">If an item has  <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> of its <see cref="P:Microsoft.Office.Interop.Outlook._NoteItem.Conflicts" /> property greater than zero and if its <b>AutoResolvedWinner</b> property is <b>True</b>, it is a winner of an automatic conflict resolution.</span></span> <span data-ttu-id="df8ac-112">Wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b> ist, ist es andererseits, eine Verlierer in eine automatische Konfliktbehebung.</span><span class="sxs-lookup"><span data-stu-id="df8ac-112">On the other hand, if the item is in conflict and has its <b>AutoResolvedWinner</b> property as <b>False</b>, it is a loser in an automatic conflict resolution.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -160,16 +106,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-110">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (C#-<b>Zeichenfolge</b> ) zurück, den Clear-Textkörper des Outlook-Elements darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-110">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-111">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-111">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-113">Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (C#-<b>Zeichenfolge</b> ) zurück, den Clear-Textkörper des Outlook-Elements darstellt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-113">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the clear-text body of the Outlook item.</span></span> <span data-ttu-id="df8ac-114">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-114">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -200,32 +137,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-112">
-            <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Kategorien zugewiesen, um das Outlook-Element darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-112">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the categories assigned to the Outlook item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-113">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-113">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-115"><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Kategorien zugewiesen, um das Outlook-Element darstellt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-115">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the categories assigned to the Outlook item.</span></span> <span data-ttu-id="df8ac-116">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-116">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-114">
-            <para>
-              <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die ein Outlook-Element zugewiesen wurden. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen konvertieren möchten, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-114">
-              <para>
-                <b>Categories</b> is a delimited string of category names that have been assigned to an Outlook item. This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values. To convert the string of category names to an array of category names, use the Microsoft Visual Basic function <b>Split</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-117">
+            <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die einem Outlook-Element zugewiesen wurde.</span><span class="sxs-lookup"><span data-stu-id="df8ac-117">
+            <b>Categories</b> is a delimited string of category names that have been assigned to an Outlook item.</span></span> <span data-ttu-id="df8ac-118">Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben.</span><span class="sxs-lookup"><span data-stu-id="df8ac-118">This property uses the character specified in the value name, sList, under HKEY_CURRENT_USER\Control Panel\International in the Windows registry, as the delimiter for multiple category values.</span></span> <span data-ttu-id="df8ac-119">Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen zu konvertieren, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</span><span class="sxs-lookup"><span data-stu-id="df8ac-119">To convert the string of category names to an array of category names, use the Microsoft Visual Basic function <b>Split</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -251,16 +168,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-115">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-115">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="cb0d8-116">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-116">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-120">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-120">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="df8ac-121">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-121">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -288,18 +196,8 @@
         <Parameter Name="SaveMode" Type="Microsoft.Office.Interop.Outlook.OlInspectorClose" />
       </Parameters>
       <Docs>
-        <param name="SaveMode">
-          <span data-ttu-id="cb0d8-p107">Das Verhalten beim Schließen. Wenn sich das im Inspektor angezeigte Element nicht geändert hat, hat dieses Argument keine Wirkung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-p107">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0d8-119">Das Outlook-Element wird geschlossen, und Änderungen werden optional gespeichert.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-119">Closes and optionally saves changes to the Outlook item.</span>
-          </span>
-        </summary>
+        <param name="SaveMode"><span data-ttu-id="df8ac-p110">Das Verhalten beim Schließen. Wenn sich das im Inspektor angezeigte Element nicht geändert hat, hat dieses Argument keine Wirkung.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p110">The close behavior. If the item displayed within the inspector has not been changed, this argument has no effect.</span></span></param>
+        <summary><span data-ttu-id="df8ac-124">Das Outlook-Element wird geschlossen, und Änderungen werden optional gespeichert.</span><span class="sxs-lookup"><span data-stu-id="df8ac-124">Closes and optionally saves changes to the Outlook item.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -335,12 +233,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlNoteColor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-120">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-120">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-125">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="df8ac-125">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -368,16 +261,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-121">Zurückgeben der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> -Objekt, das die Elemente darstellt, für alle Outlook-Elementobjekt Konflikt stehen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-121">Return the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object that represents the items that are in conflict for any Outlook item object.</span>
-          </span>
-          <span data-ttu-id="cb0d8-122">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-126">Zurückgeben der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> -Objekt, das die Elemente darstellt, für alle Outlook-Elementobjekt Konflikt stehen.</span><span class="sxs-lookup"><span data-stu-id="df8ac-126">Return the <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> object that represents the items that are in conflict for any Outlook item object.</span></span>  <span data-ttu-id="df8ac-127">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-127">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -403,18 +287,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-123">Erstellt eine Instanz eines Objekts.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-123">Creates another instance of an object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0d8-124">Ein <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> -Objekt, das eine Kopie der angegebenen Notiz darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-124">A <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> object that represents a copy of the specified note.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="df8ac-128">Erstellt eine Instanz eines Objekts.</span><span class="sxs-lookup"><span data-stu-id="df8ac-128">Creates another instance of an object.</span></span></summary>
+        <returns><span data-ttu-id="df8ac-129">Ein <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> -Objekt, das eine Kopie der angegebenen Notiz darstellt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-129">A <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> object that represents a copy of the specified note.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -441,29 +315,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-125">Gibt einen <b>DateTime</b> , der angibt, der Erstellungszeit für das Outlook-Element zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-125">Returns a <b>DateTime</b> indicating the creation time for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-126">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-126">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-130">Gibt einen <b>DateTime</b> , der angibt, der Erstellungszeit für das Outlook-Element zurück.</span><span class="sxs-lookup"><span data-stu-id="df8ac-130">Returns a <b>DateTime</b> indicating the creation time for the Outlook item.</span></span> <span data-ttu-id="df8ac-131">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-131">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-127">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-127">
-              <para>This property corresponds to the MAPI property <b>PidTagCreationTime</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-p113">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p113">This property corresponds to the MAPI property <b>PidTagCreationTime</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -487,26 +342,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-128">Entfernt das Element aus dem Ordner, der das Element enthält.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-128">Removes the item from the folder that contains the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="cb0d8-129">
-            <para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Beispielsweise in der Items-Auflistung eines Ordners alle Artikel, wenn n Anzahl der Elemente im Ordner vorhanden sind starten Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
-            <para>Die löschen-Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, die <b>Delete</b> -Methode des Elements dauerhaft entfernt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-129">
-              <para>The <b>Delete</b> method deletes a single item in a collection. To delete all items in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection of a folder, you must delete each item starting with the last item in the folder. For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</para>
-              <para>The Delete method moves the item from the containing folder to the Deleted Items folder. If the containing folder is the Deleted Items folder, the <b>Delete</b> method removes the item permanently.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="df8ac-133">Entfernt das Element aus dem Ordner, der das Element enthält.</span><span class="sxs-lookup"><span data-stu-id="df8ac-133">Removes the item from the folder that contains the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="df8ac-134">Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung.</span><span class="sxs-lookup"><span data-stu-id="df8ac-134">The <b>Delete</b> method deletes a single item in a collection.</span></span> <span data-ttu-id="df8ac-135">So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen.</span><span class="sxs-lookup"><span data-stu-id="df8ac-135">To delete all items in the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection of a folder, you must delete each item starting with the last item in the folder.</span></span> <span data-ttu-id="df8ac-136">Angenommen, starten wenn n Anzahl der Elemente im Ordner vorhanden sind in der Items-Auflistung eines Ordners alle Artikel, Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</span><span class="sxs-lookup"><span data-stu-id="df8ac-136">For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</span></span></para>
+          <para><span data-ttu-id="df8ac-p115">Die Delete -Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, entfernt die <b>Delete</b> -Methode das Element dauerhaft.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p115">The Delete method moves the item from the containing folder to the Deleted Items folder. If the containing folder is the Deleted Items folder, the <b>Delete</b> method removes the item permanently.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -531,34 +370,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <span data-ttu-id="cb0d8-p110">
-            <b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-p110">
-              <b>True</b> to make the window modal. The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0d8-132">Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt für das Element.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-132">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="cb0d8-133">
-            <para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> -Methode.</para>
-            <para>, Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) mithilfe von Microsoft Outlook-Objektmodell zu öffnen, erhalten Sie in den Programmiersprachen C oder C++ den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-133">
-              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
-              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Modal"><span data-ttu-id="df8ac-p116"><b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </span><span class="sxs-lookup"><span data-stu-id="df8ac-p116"><b>True</b> to make the window modal. The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="df8ac-141">Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt für das Element.</span><span class="sxs-lookup"><span data-stu-id="df8ac-141">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> object for the item.</span></span></summary>
+        <remarks><para><span data-ttu-id="df8ac-142">Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-142">The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility.</span></span> <span data-ttu-id="df8ac-143">Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</span><span class="sxs-lookup"><span data-stu-id="df8ac-143">To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</span></span></para>
+          <para><span data-ttu-id="df8ac-p118">Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p118">If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -584,16 +400,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-134">Gibt eine Konstante, die gehört die <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> Enumeration, die den Downloadstatus des Elements angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-134">Returns a constant that belongs to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeration indicating the download state of the item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-135">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-135">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-146">Gibt eine Konstante, die gehört die <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> Enumeration, die den Downloadstatus des Elements angibt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-146">Returns a constant that belongs to the <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> enumeration indicating the download state of the item.</span></span> <span data-ttu-id="df8ac-147">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-147">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -621,31 +428,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-136">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die eindeutige Eintrags-ID des Objekts darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-136">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span>
-          </span>
-          <span data-ttu-id="cb0d8-137">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-137">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-148">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die eindeutige Eintrags-ID des Objekts darstellt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-148">Returns a <b>String</b> (<b>string</b> in C#) representing the unique Entry ID of the object.</span></span>  <span data-ttu-id="df8ac-149">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-149">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-138">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
-            <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs finden Sie http://msdn.microsoft.com für <b>PidTagEntryId</b>. </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-138">
-              <para>This property corresponds to the MAPI property <b>PidTagEntryId</b>.</para>
-              <para>A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-150">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</span><span class="sxs-lookup"><span data-stu-id="df8ac-150">This property corresponds to the MAPI property <b>PidTagEntryId</b>.</span></span></para>
+          <para><span data-ttu-id="df8ac-p121">Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs suchen Sie http://msdn.microsoft.com <b>PidTagEntryId</b>.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p121">A MAPI store provider assigns a unique ID string when an item is created in its store. Therefore, the <b>EntryID</b> property is not set for an Outlook item until it is saved or sent. The Entry ID changes when an item is moved into another store, for example, from your Inbox to a Microsoft Exchange Server public folder, or from one Personal Folders (.pst) file to another .pst file. Solutions should not depend on the <b>EntryID</b> property to be unique unless items will not be moved. The <b>EntryID</b> property returns a MAPI long-term Entry ID. For more information about long- and short-term EntryIDs, search http://msdn.microsoft.com for <b>PidTagEntryId</b>. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -671,29 +458,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-139">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das einen Inspektor darstellt, auf das angegebene Element enthalten initialisiert.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-139">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object that represents an inspector initialized to contain the specified item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-140">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-140">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-157">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das einen Inspektor darstellt, auf das angegebene Element enthalten initialisiert.</span><span class="sxs-lookup"><span data-stu-id="df8ac-157">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object that represents an inspector initialized to contain the specified item.</span></span> <span data-ttu-id="df8ac-158">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-158">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-141">
-            <para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft. Wenn bereits ein <b>Inspector</b> -Objekt für das Element vorhanden ist, gibt die <b>GetInspector</b> -Eigenschaft, anstatt einen neuen Anwendungspool erstellen <b>Inspector</b> -Objekt zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-141">
-              <para>This property is useful for returning a new <b>Inspector</b> object in which to display the item, as opposed to using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  method and setting the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> property. If an <b>Inspector</b> object already exists for the item, the <b>GetInspector</b> property will return that <b>Inspector</b> object instead of creating a new one.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-159">Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="df8ac-159">This property is useful for returning a new <b>Inspector</b> object in which to display the item, as opposed to using the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  method and setting the <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> property.</span></span> <span data-ttu-id="df8ac-160">Wenn bereits ein <b>Inspector</b> -Objekt für das Element vorhanden ist, gibt die <b>GetInspector</b> -Eigenschaft, anstatt einen neuen Anwendungspool erstellen <b>Inspector</b> -Objekt zurück.</span><span class="sxs-lookup"><span data-stu-id="df8ac-160">If an <b>Inspector</b> object already exists for the item, the <b>GetInspector</b> property will return that <b>Inspector</b> object instead of creating a new one.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -722,16 +490,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-142">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, für die Höhe des Notizfensters (in Pixel).</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-142">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the note window.</span>
-          </span>
-          <span data-ttu-id="cb0d8-143">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-143">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-161">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, für die Höhe des Notizfensters (in Pixel).</span><span class="sxs-lookup"><span data-stu-id="df8ac-161">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the note window.</span></span> <span data-ttu-id="df8ac-162">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-162">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -759,31 +518,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-144">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element in Konflikt befindet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-144">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is in conflict.</span>
-          </span>
-          <span data-ttu-id="cb0d8-145">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-145">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-163">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element in Konflikt befindet.</span><span class="sxs-lookup"><span data-stu-id="df8ac-163">Returns a <b>Boolean</b> (<b>bool</b> in C#) that determines if the item is in conflict.</span></span> <span data-ttu-id="df8ac-164">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-164">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-146">
-            <para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b>zurück.</para>
-            <para>Wenn <b>True</b>, das angegebene Element in Konflikt ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-146">
-              <para>Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the <b>IsConflict</b> property will return <b>True</b>.</para>
-              <para>If <b>True</b>, the specified item is in conflict.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-p126">Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b> zurück.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p126">Whether or not an item is in conflict is determined by the state of the application. For example, when a user is offline and tries to access an online folder the action will fail. In this scenario, the <b>IsConflict</b> property will return <b>True</b>.</span></span></para>
+          <para><span data-ttu-id="df8ac-168">Wenn <b>True</b>, das angegebene Element in Konflikt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-168">If <b>True</b>, the specified item is in conflict.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemProperties">
@@ -809,29 +548,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-147">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> -Auflistung, die alle Outlook-Element zugeordneten Standard- und benutzerdefinierte Eigenschaften darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-147">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> collection that represents all standard and user-defined properties associated with the Outlook item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-148">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-148">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-169">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> -Auflistung, die alle Outlook-Element zugeordneten Standard- und benutzerdefinierte Eigenschaften darstellt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-169">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> collection that represents all standard and user-defined properties associated with the Outlook item.</span></span> <span data-ttu-id="df8ac-170">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-170">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-149">
-            <para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-149">
-              <para>The <b>ItemProperties</b> collection is a zero-based collection, meaning that the first object in the collection is referenced by the index 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-171">Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-171">The <b>ItemProperties</b> collection is a zero-based collection, meaning that the first object in the collection is referenced by the index 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -857,29 +577,10 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-150">Gibt einen <b>DateTime</b> angeben von Datum und Uhrzeit der letzten Änderung das Outlook-Element zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-150">Returns a <b>DateTime</b> specifying the date and time that the Outlook item was last modified.</span>
-          </span>
-          <span data-ttu-id="cb0d8-151">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-151">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-172">Gibt einen <b>DateTime</b> angeben von Datum und Uhrzeit der letzten Änderung das Outlook-Element zurück.</span><span class="sxs-lookup"><span data-stu-id="df8ac-172">Returns a <b>DateTime</b> specifying the date and time that the Outlook item was last modified.</span></span>  <span data-ttu-id="df8ac-173">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-173">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-152">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-152">
-              <para>This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-174">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</span><span class="sxs-lookup"><span data-stu-id="df8ac-174">This property corresponds to the MAPI property <b>PidTagLastModificationTime</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -908,16 +609,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-153">Gibt zurück oder legt diesen fest einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Position (in Pixel) des linken vertikalen Randes eines Fensters Hinweis vom Rand des Bildschirms angeben.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-153">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of a note window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="cb0d8-154">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-154">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-175">Gibt zurück oder legt diesen fest einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Position (in Pixel) des linken vertikalen Randes eines Fensters Hinweis vom Rand des Bildschirms angeben.</span><span class="sxs-lookup"><span data-stu-id="df8ac-175">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of a note window from the edge of the screen.</span></span> <span data-ttu-id="df8ac-176">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-176">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -948,12 +640,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Links</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-155">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-155">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-177">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="df8ac-177">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -984,29 +671,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-156">Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> -Konstante, die den Status eines Elements bestimmt, nachdem es von einem Remotebenutzer empfangen wurde.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-156">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  constant that determines the status of an item once it is received by a remote user.</span>
-          </span>
-          <span data-ttu-id="cb0d8-157">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-157">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-178">Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> -Konstante, die den Status eines Elements bestimmt, nachdem es von einem Remotebenutzer empfangen wurde.</span><span class="sxs-lookup"><span data-stu-id="df8ac-178">Returns or sets an <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  constant that determines the status of an item once it is received by a remote user.</span></span> <span data-ttu-id="df8ac-179">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-179">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-158">
-            <para>Diese Eigenschaft verleiht Remotebenutzern mit weniger als idealen zur Datenübertragung Fähigkeiten eine erhöhte messagingflexibilität.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-158">
-              <para>This property gives remote users with less-than-ideal data-transfer capabilities increased messaging flexibility.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-180">Diese Eigenschaft verleiht Remotebenutzern mit nicht idealen Fähigkeiten zur Datenübertragung eine erhöhte Messagingflexibilität.</span><span class="sxs-lookup"><span data-stu-id="df8ac-180">This property gives remote users with less-than-ideal data-transfer capabilities increased messaging flexibility.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1035,30 +703,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-159">
-            <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Nachrichtenklasse für das Outlook-Element darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-159">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-160">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-160">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-181"><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Nachrichtenklasse für das Outlook-Element darstellt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-181">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the message class for the Outlook item.</span></span> <span data-ttu-id="df8ac-182">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-182">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-161">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwortbefehle.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-161">
-              <para>This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-p132">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwort Befehle.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p132">This property corresponds to the MAPI property <b>PidTagMessageClass</b>. The <b>MessageClass</b> property links the item to the form on which it is based. When an item is selected, Outlook uses the message class to locate the form and expose its properties, such as Reply commands. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1084,24 +732,9 @@
         <Parameter Name="DestFldr" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
       </Parameters>
       <Docs>
-        <param name="DestFldr">
-          <span data-ttu-id="cb0d8-p121">Ein Ausdruck, der ein <b>Folder</b> -Objekt zurückgibt. Der Zielordner. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-p121">An expression that returns a <b>Folder</b> object. The destination folder.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0d8-164">Verschiebt ein Microsoft Outlook-Element in einen neuen Ordner.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-164">Moves a Microsoft Outlook item to a new folder.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="cb0d8-165">Ein <b>Object</b>-Wert, der das Element darstellt, das in den festgelegten Ordner verschoben wurde.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-165">An <b>Object</b> value that represents the item which has been moved to the designated folder.</span>
-          </span>
-        </returns>
+        <param name="DestFldr"><span data-ttu-id="df8ac-p133">Ein Ausdruck, der ein <b>Folder</b> -Objekt zurückgibt. Der Zielordner. </span><span class="sxs-lookup"><span data-stu-id="df8ac-p133">An expression that returns a <b>Folder</b> object. The destination folder.</span></span></param>
+        <summary><span data-ttu-id="df8ac-188">Verschiebt ein Microsoft Outlook-Element in einen neuen Ordner.</span><span class="sxs-lookup"><span data-stu-id="df8ac-188">Moves a Microsoft Outlook item to a new folder.</span></span></summary>
+        <returns><span data-ttu-id="df8ac-189">Ein <b>Object</b>-Wert, der das Element darstellt, das in den festgelegten Ordner verschoben wurde.</span><span class="sxs-lookup"><span data-stu-id="df8ac-189">An <b>Object</b> value that represents the item which has been moved to the designated folder.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1128,12 +761,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-p122">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-p122">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-p134">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p134">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1159,12 +787,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-p123">Druckt das Outlook-Element mit allen Standardeinstellungen. Die <b>PrintOut</b> -Methode ist die einzige Outlook-Methode, die zum Drucken verwendet werden können.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-p123">Prints the Outlook item using all default settings. The <b>PrintOut</b> method is the only Outlook method that can be used for printing.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-p135">Druckt das Outlook-Element mit allen Standardeinstellungen. Die <b>PrintOut</b> -Methode ist die einzige Outlook-Methode, die zum Drucken verwendet werden können.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p135">Prints the Outlook item using all default settings. The <b>PrintOut</b> method is the only Outlook method that can be used for printing.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1191,16 +814,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-170">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das Erstellen, abrufen, festlegen und Löschen von Eigenschaften des übergeordneten unterstützt <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-170">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> object.</span>
-          </span>
-          <span data-ttu-id="cb0d8-171">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-171">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-194">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das Erstellen, abrufen, festlegen und Löschen von Eigenschaften des übergeordneten unterstützt <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-194">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.NoteItem" /> object.</span></span> <span data-ttu-id="df8ac-195">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-195">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1226,12 +840,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-172">Speichert das Microsoft Outlook-Element im aktuellen Ordner oder, wenn es sich um ein neues Element handelt, im Outlook-Standardordner für den jeweiligen Elementtyp.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-172">Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-196">Speichert das Microsoft Outlook-Element im aktuellen Ordner oder, wenn es sich um ein neues Element handelt, im Outlook-Standardordner für den jeweiligen Elementtyp.</span><span class="sxs-lookup"><span data-stu-id="df8ac-196">Saves the Microsoft Outlook item to the current folder or, if this is a new item, to the Outlook default folder for the item type.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1258,40 +867,11 @@
         <Parameter Name="Type" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Path">
-          <span data-ttu-id="cb0d8-173">Der Pfad, in dem das Element gespeichert werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-173">The path in which to save the item.</span>
-          </span>
-        </param>
-        <param name="Type">
-          <span data-ttu-id="cb0d8-174">Der Dateityp zu speichern.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-174">The file type to save.</span>
-          </span>
-          <span data-ttu-id="cb0d8-175">Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-175">Can be one of the following <b>OlSaveAsType</b> constants: <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>,  <b>olVCard</b>,  <b>olICal</b>, or <b>olMSGUnicode</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="cb0d8-p126">Speichert das Microsoft Outlook-Element in dem angegebenen Pfad und in dem Format des angegebenen Dateityps. Wenn kein Dateityp angegeben wurde, wird das MSG-Format (MSG) verwendet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-p126">Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="cb0d8-178">
-            <para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-178">
-              <para>Also note that even though <b>olDoc</b> is a valid <b>OlSaveAsType</b> constant, messages in HTML format cannot be saved  in Document format, and the <b>olDoc</b> constant works only if Microsoft Word is set up as the default email editor.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Path"><span data-ttu-id="df8ac-197">Der Pfad, in dem das Element gespeichert werden soll.</span><span class="sxs-lookup"><span data-stu-id="df8ac-197">The path in which to save the item.</span></span></param>
+        <param name="Type"><span data-ttu-id="df8ac-198">Der Dateityp, der gespeichert werden soll.</span><span class="sxs-lookup"><span data-stu-id="df8ac-198">The file type to save.</span></span> <span data-ttu-id="df8ac-199">Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</span><span class="sxs-lookup"><span data-stu-id="df8ac-199">Can be one of the following <b>OlSaveAsType</b> constants: <b>olHTML</b>, <b>olMSG</b>, <b>olRTF</b>, <b>olTemplate</b>, <b>olDoc</b>,<b>olTXT</b>, <b>olVCal</b>,  <b>olVCard</b>,  <b>olICal</b>, or <b>olMSGUnicode</b>.</span></span></param>
+        <summary><span data-ttu-id="df8ac-p138">Speichert das Microsoft Outlook-Element in dem angegebenen Pfad und in dem Format des angegebenen Dateityps. Wenn kein Dateityp angegeben wurde, wird das MSG-Format (MSG) verwendet.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p138">Saves the Microsoft Outlook item to the specified path and in the format of the specified file type. If the file type is not specified, the MSG format (.msg) is used.</span></span></summary>
+        <remarks><para><span data-ttu-id="df8ac-202">Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</span><span class="sxs-lookup"><span data-stu-id="df8ac-202">Also note that even though <b>olDoc</b> is a valid <b>OlSaveAsType</b> constant, messages in HTML format cannot be saved  in Document format, and the <b>olDoc</b> constant works only if Microsoft Word is set up as the default email editor.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -1317,16 +897,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-179">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn das Outlook-Element nicht seit dem letzten Speichern geändert wurde.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-179">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been modified since the last save.</span>
-          </span>
-          <span data-ttu-id="cb0d8-180">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-180">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-203">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn das Outlook-Element nicht seit dem letzten Speichern geändert wurde.</span><span class="sxs-lookup"><span data-stu-id="df8ac-203">Returns a <b>Boolean</b> (<b>bool</b> in C#) value that is <b>True</b> if the Outlook item has not been modified since the last save.</span></span> <span data-ttu-id="df8ac-204">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-204">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1354,41 +925,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-181">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-181">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="cb0d8-182">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-182">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-205">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="df8ac-205">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="df8ac-206">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-206">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-183">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="df8ac-207">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="df8ac-207">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="df8ac-208">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="df8ac-208">Both members serve the same purpose.</span></span> <span data-ttu-id="df8ac-209">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="df8ac-209">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-183">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -1414,16 +960,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-184">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Größe des Outlook-Elements (in Byte) angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-184">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the Outlook item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-185">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-185">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-210">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Größe des Outlook-Elements (in Byte) angibt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-210">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the size (in bytes) of the Outlook item.</span></span> <span data-ttu-id="df8ac-211">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-211">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1451,32 +988,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-186">
-            <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Betreff für das Outlook-Element angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-186">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span>
-          </span>
-          <span data-ttu-id="cb0d8-187">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-187">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-212"><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Betreff für das Outlook-Element angibt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-212">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the subject for the Outlook item.</span></span> <span data-ttu-id="df8ac-213">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-213">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="cb0d8-188">
-            <para>Die <b>Subject</b> -Eigenschaft ist eine <b>Zeichenfolge</b> (<b>String</b> in c#), die aus dem Text der Notiz berechnet wird.</para>
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente. </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-188">
-              <para>The <b>Subject</b> property is a <b>String</b> (<b>string</b> in C#) that is calculated from the body text of the note.</para>
-              <para>This property corresponds to the MAPI property <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="df8ac-214">Die <b>Subject</b> -Eigenschaft ist eine <b>Zeichenfolge</b> (<b>String</b> in c#), die aus dem Text der Notiz berechnet wird.</span><span class="sxs-lookup"><span data-stu-id="df8ac-214">The <b>Subject</b> property is a <b>String</b> (<b>string</b> in C#) that is calculated from the body text of the note.</span></span></para>
+          <para><span data-ttu-id="df8ac-p144">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</span><span class="sxs-lookup"><span data-stu-id="df8ac-p144">This property corresponds to the MAPI property <b>PidTagSubject</b>. The <b>Subject</b> property is the default property for Outlook items. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -1505,16 +1021,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-189">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Position (in Pixel) des oberen Rands horizontale eines Fensters Hinweis aus dem Rand der Bildschirmanzeige angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-189">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of a note window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="cb0d8-190">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-190">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-217">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Position (in Pixel) des oberen Rands horizontale eines Fensters Hinweis aus dem Rand der Bildschirmanzeige angibt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-217">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of a note window from the edge of the screen.</span></span> <span data-ttu-id="df8ac-218">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-218">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1545,16 +1052,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="cb0d8-191">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Breite (in Pixel) des angegebenen Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-191">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span>
-          </span>
-          <span data-ttu-id="cb0d8-192">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="cb0d8-192">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="df8ac-219">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Breite (in Pixel) des angegebenen Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="df8ac-219">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span></span> <span data-ttu-id="df8ac-220">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="df8ac-220">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

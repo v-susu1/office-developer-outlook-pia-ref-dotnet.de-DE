@@ -1,13 +1,5 @@
 <Type Name="Selection" FullName="Microsoft.Office.Interop.Outlook.Selection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c546cacfd6888cac8506d614c46b0204cc42399d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637127" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Selection : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c7af77512ef69a2ad810f96955f3537afca082e8" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902572" /></Metadata><TypeSignature Language="C#" Value="public interface Selection : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Selection implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Selection" />
   <TypeSignature Language="VB.NET" Value="Public Interface Selection&#xA;Implements IEnumerable" />
@@ -30,24 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="8e41b-101">Enthält den Satz an Outlook-Elementen, die aktuell in einem Explorer ausgewählt sind.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8e41b-101">Contains the set of Outlook items currently selected in an explorer.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="8e41b-102">
-        <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> Eigenschaft zum Zurückgeben der <b>Selection</b> -Auflistung aus der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="8e41b-102">
-          <para>Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />  property to return the <b>Selection</b> collection from the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  object.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="220cf-101">Enthält den Satz an Outlook-Elementen, die aktuell in einem Explorer ausgewählt sind.</span><span class="sxs-lookup"><span data-stu-id="220cf-101">Contains the set of Outlook items currently selected in an explorer.</span></span></summary>
+    <remarks><para><span data-ttu-id="220cf-102">Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> Eigenschaft zum Zurückgeben der <b>Selection</b> -Auflistung aus der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="220cf-102">Use the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" />  property to return the <b>Selection</b> collection from the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  object.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -73,16 +50,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e41b-103">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="8e41b-104">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-104">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="220cf-103">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="220cf-103">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="220cf-104">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="220cf-104">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -110,16 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e41b-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="8e41b-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="220cf-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="220cf-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="220cf-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="220cf-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -147,16 +106,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e41b-107">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="8e41b-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="220cf-107">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span><span class="sxs-lookup"><span data-stu-id="220cf-107">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="220cf-108">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="220cf-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -184,35 +134,12 @@
         <Parameter Name="SelectionContents" Type="Microsoft.Office.Interop.Outlook.OlSelectionContents" />
       </Parameters>
       <Docs>
-        <param name="SelectionContents">
-          <span data-ttu-id="8e41b-109">Gibt die Art der Objekte in der zurückzugebenden Auswahl an.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-109">Specifies the kind of objects in the selection to return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8e41b-110">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das die Art der Objekte vom angegebenen enthält die <paramref name="SelectionContents" /> Parameter und, die aktuell im aktiven Explorer ausgewählt sind.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-110">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that contains the kind of objects specified by the <paramref name="SelectionContents" /> parameter, and that are currently selected in the active explorer.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="8e41b-111">Gibt ein <b>Selection</b> -Objekt, das die angegebenen Objekte enthält, die im aktiven Explorer ausgewählt sind.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-111">Returns a <b>Selection</b> object that contains the specified kind of objects that are selected in the active explorer.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="8e41b-112">
-            <para>Das Aufrufen von <b>GetSelection</b> mit <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> wie das Argument ein <b>Selection</b> -Objekt zurückgibt, das hat die <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" /> -Eigenschaft den Wert <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />.</para> Wenn die aktuelle Ansicht eine Unterhaltungsansicht ist oder wenn <b>Speicherort</b> nicht gleich <b>OlSelectionLocation.olViewList</b>ist, das Aufrufen von <b>GetSelection</b> mit <b>OlConversationHeaders</b> als Argument eine <b>Auswahl gibt</b><para> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> gleich 0.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-112">
-              <para>Calling <b>GetSelection</b> with <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> as the argument returns a <b>Selection</b> object that has the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" /> property equal to <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />.</para>
-              <para>If the current view is not a conversation view, or, if <b>Location</b> is not equal to <b>OlSelectionLocation.olViewList</b>, calling <b>GetSelection</b> with <b>olConversationHeaders</b> as the argument returns a <b>Selection</b> object with <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> equal to 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="SelectionContents"><span data-ttu-id="220cf-109">Gibt die Art der Objekte in der zurückzugebenden Auswahl an.</span><span class="sxs-lookup"><span data-stu-id="220cf-109">Specifies the kind of objects in the selection to return.</span></span></param>
+        <summary><span data-ttu-id="220cf-110">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das die Art der Objekte vom angegebenen enthält die <paramref name="SelectionContents" /> Parameter und, die aktuell im aktiven Explorer ausgewählt sind.</span><span class="sxs-lookup"><span data-stu-id="220cf-110">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that contains the kind of objects specified by the <paramref name="SelectionContents" /> parameter, and that are currently selected in the active explorer.</span></span></summary>
+        <returns><span data-ttu-id="220cf-111">Gibt ein <b>Selection</b> -Objekt, das die angegebenen Objekte enthält, die im aktiven Explorer ausgewählt sind.</span><span class="sxs-lookup"><span data-stu-id="220cf-111">Returns a <b>Selection</b> object that contains the specified kind of objects that are selected in the active explorer.</span></span></returns>
+        <remarks><para><span data-ttu-id="220cf-112">Das Aufrufen von <b>GetSelection</b> mit <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> wie das Argument ein <b>Selection</b> -Objekt zurückgibt, das hat die <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" /> -Eigenschaft den Wert <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />.</span><span class="sxs-lookup"><span data-stu-id="220cf-112">Calling <b>GetSelection</b> with <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> as the argument returns a <b>Selection</b> object that has the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Location" /> property equal to <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" />.</span></span></para>
+          <para><span data-ttu-id="220cf-113">Wenn die aktuelle Ansicht nicht um eine Unterhaltungsansicht ist oder, wenn <b>Speicherort</b> nicht gleich <b>OlSelectionLocation.olViewList</b>ist gibt das Aufrufen von <b>GetSelection</b> mit <b>OlConversationHeaders</b> als Argument ein <b>Selection</b> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> gleich 0.</span><span class="sxs-lookup"><span data-stu-id="220cf-113">If the current view is not a conversation view, or, if <b>Location</b> is not equal to <b>OlSelectionLocation.olViewList</b>, calling <b>GetSelection</b> with <b>olConversationHeaders</b> as the argument returns a <b>Selection</b> object with <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> equal to 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -241,24 +168,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="8e41b-113">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-113">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="8e41b-114">Ein Outlook-Element aus einer Auflistung wird zurückgegeben.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-114">Returns an Outlook item from a collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="8e41b-115">Ein Objektwert, der das angegebene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-115">An Object value that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="220cf-114">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</span><span class="sxs-lookup"><span data-stu-id="220cf-114">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="220cf-115">Ein Outlook-Element aus einer Auflistung wird zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="220cf-115">Returns an Outlook item from a collection.</span></span></summary>
+        <value><span data-ttu-id="220cf-116">Ein Objektwert, der das angegebene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="220cf-116">An Object value that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -285,31 +197,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSelectionLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e41b-116">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" /> Konstante, die angibt, in der Microsoft Outlook-Benutzeroberfläche, in dem die aktuelle Auswahl ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-116">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" /> constant that specifies where in the Microsoft Outlook user interface the current selection is.</span>
-          </span>
-          <span data-ttu-id="8e41b-117">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-117">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="220cf-117">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" /> Konstante, die angibt, in der Microsoft Outlook-Benutzeroberfläche, in dem die aktuelle Auswahl ist.</span><span class="sxs-lookup"><span data-stu-id="220cf-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlSelectionLocation" /> constant that specifies where in the Microsoft Outlook user interface the current selection is.</span></span> <span data-ttu-id="220cf-118">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="220cf-118">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8e41b-118">
-            <para>Ein <b>Location</b> -Eigenschaft mit dem Wert <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" /> bedeutet, dass die aktuelle Auswahl in einer Liste von Elementen in einem Explorer. Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> mit <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> wie das Argument gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> gleich der Anzahl von unterhaltungskopfzeilen in der aktuellen Markierung.</para>
-            <para>Ist die <b>Location</b> -Eigenschaft nicht gleich <b>OlViewList</b>, Aufrufen von <b>GetSelection</b> mit <b>OlConversationHeaders</b> als Argument ein <b>Selection</b> -Objekt mit <b>Count</b> gleich 0 zurückgegeben.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-118">
-              <para>A <b>Location</b> property with the value <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" /> means that the current selection is in a list of items in an explorer. Calling <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> with <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> as the argument returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object with <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> equal to the number of conversation headers in the current selection.</para>
-              <para>If the <b>Location</b> property is not equal to <b>olViewList</b>, calling <b>GetSelection</b> with <b>olConversationHeaders</b> as the argument returns a <b>Selection</b> object with <b>Count</b> equal to 0.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="220cf-119">Ein <b>Location</b> -Eigenschaft mit dem Wert <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" /> bedeutet, dass die aktuelle Auswahl in einer Liste von Elementen in einem Explorer.</span><span class="sxs-lookup"><span data-stu-id="220cf-119">A <b>Location</b> property with the value <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionLocation.olViewList" /> means that the current selection is in a list of items in an explorer.</span></span> <span data-ttu-id="220cf-120">Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> mit <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> wie das Argument gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> gleich der Anzahl von unterhaltungskopfzeilen in der aktuellen Auswahl.</span><span class="sxs-lookup"><span data-stu-id="220cf-120">Calling <see cref="M:Microsoft.Office.Interop.Outlook.Selection.GetSelection(Microsoft.Office.Interop.Outlook.OlSelectionContents)" /> with <see cref="F:Microsoft.Office.Interop.Outlook.OlSelectionContents.olConversationHeaders" /> as the argument returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object with <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> equal to the number of conversation headers in the current selection.</span></span></para>
+          <para><span data-ttu-id="220cf-121">Wenn die <b>Location</b> -Eigenschaft nicht gleich <b>OlViewList</b>ist, gibt das Aufrufen von <b>GetSelection</b> mit <b>OlConversationHeaders</b> als Argument ein <b>Selection</b> -Objekt mit <b>Count</b> gleich 0.</span><span class="sxs-lookup"><span data-stu-id="220cf-121">If the <b>Location</b> property is not equal to <b>olViewList</b>, calling <b>GetSelection</b> with <b>olConversationHeaders</b> as the argument returns a <b>Selection</b> object with <b>Count</b> equal to 0.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -335,12 +227,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e41b-p105">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-p105">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="220cf-p106">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="220cf-p106">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -368,41 +255,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="8e41b-121">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-121">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="8e41b-122">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="220cf-124">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="220cf-124">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="220cf-125">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="220cf-125">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="8e41b-123">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="220cf-126">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="220cf-126">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="220cf-127">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="220cf-127">Both members serve the same purpose.</span></span> <span data-ttu-id="220cf-128">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="220cf-128">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="8e41b-123">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
