@@ -1,13 +1,5 @@
 <Type Name="OlExchangeConnectionMode" FullName="Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b39ab38c85bbff93e02638a9f90ec6229d87948a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636510" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlExchangeConnectionMode" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6ddd8fa996f45a721e580356aae89ce185dacaf6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905309" /></Metadata><TypeSignature Language="C#" Value="public enum OlExchangeConnectionMode" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlExchangeConnectionMode extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlExchangeConnectionMode" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlExchangeConnectionMode" />
@@ -20,12 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="505ea-101">Gibt an, ob das Konto mit einem Exchange-Server verbunden ist, und gibt gegebenenfalls den Verbindungsmodus an.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="505ea-101">Specifies whether the account is connected to an Exchange server and if so, the connection mode.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="8d8a1-101">Gibt an, ob das Konto mit einem Exchange-Server verbunden ist, und gibt gegebenenfalls den Verbindungsmodus an.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-101">Specifies whether the account is connected to an Exchange server and if so, the connection mode.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,12 +32,7 @@
       </ReturnValue>
       <MemberValue>600</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-102">Für das Konto wird der Exchange-Cache-Modus verwendet, sodass erst die Kopfzeilen, dann die Texte und dann die Anlagen der vollständigen Elemente heruntergeladen werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-102">The account is using cached Exchange mode such that headers are downloaded first, followed by the bodies and attachments of full items.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-102">Für das Konto wird der Exchange-Cache-Modus verwendet, sodass erst die Kopfzeilen, dann die Texte und dann die Anlagen der vollständigen Elemente heruntergeladen werden.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-102">The account is using cached Exchange mode such that headers are downloaded first, followed by the bodies and attachments of full items.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olCachedConnectedFull">
@@ -69,12 +51,7 @@
       </ReturnValue>
       <MemberValue>700</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-p101">Für das Konto wird der Exchange-Cache-Modus bei einer LAN-Verbindung oder einer schnellen Verbindung mit dem Exchange-Server verwendet. Der Benutzer kann diesen Status auch manuell auswählen und damit die Logik für die automatische Erkennung deaktivieren und unabhängig von der Verbindungsgeschwindigkeit immer die vollständigen Elemente herunterladen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-p101">The account is using cached Exchange mode on a Local Area Network or a fast connection with the Exchange server. The user can also select this state manually, disabling auto-detect logic and always downloading full items regardless of connection speed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-p101">Für das Konto wird der Exchange-Cache-Modus bei einer LAN-Verbindung oder einer schnellen Verbindung mit dem Exchange-Server verwendet. Der Benutzer kann diesen Status auch manuell auswählen und damit die Logik für die automatische Erkennung deaktivieren und unabhängig von der Verbindungsgeschwindigkeit immer die vollständigen Elemente herunterladen.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-p101">The account is using cached Exchange mode on a Local Area Network or a fast connection with the Exchange server. The user can also select this state manually, disabling auto-detect logic and always downloading full items regardless of connection speed.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olCachedConnectedHeaders">
@@ -93,12 +70,7 @@
       </ReturnValue>
       <MemberValue>500</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-p102">Der Exchange-Cache-Modus wird für das Konto bei einer DFÜ-Verbindung oder einer langsamen Verbindung mit dem Exchange-Server verwendet, sodass nur die Kopfzeilen heruntergeladen werden. Die Texte und Anlagen der vollständigen Elemente bleiben auf dem Server. Der Benutzer kann diesen Status unabhängig von der Verbindungsgeschwindigkeit auch manuell auswählen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-p102">The account is using cached Exchange mode on a dial-up or slow connection with the Exchange server, such that only headers are downloaded. Full item bodies and attachments remain on the server. The user can also select this state manually regardless of connection speed.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-p102">Der Exchange-Cache-Modus wird für das Konto bei einer DFÜ-Verbindung oder einer langsamen Verbindung mit dem Exchange-Server verwendet, sodass nur die Kopfzeilen heruntergeladen werden. Die Texte und Anlagen der vollständigen Elemente bleiben auf dem Server. Der Benutzer kann diesen Status unabhängig von der Verbindungsgeschwindigkeit auch manuell auswählen.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-p102">The account is using cached Exchange mode on a dial-up or slow connection with the Exchange server, such that only headers are downloaded. Full item bodies and attachments remain on the server. The user can also select this state manually regardless of connection speed.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olCachedDisconnected">
@@ -117,12 +89,7 @@
       </ReturnValue>
       <MemberValue>400</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-108">Der Exchange-Cache-Modus wird für das Konto verwendet, und die Verbindung mit dem Exchange-Server ist getrennt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-108">The account is using cached Exchange mode with a disconnected connection to the Exchange server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-108">Der Exchange-Cache-Modus wird für das Konto verwendet, und die Verbindung mit dem Exchange-Server ist getrennt.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-108">The account is using cached Exchange mode with a disconnected connection to the Exchange server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olCachedOffline">
@@ -141,12 +108,7 @@
       </ReturnValue>
       <MemberValue>200</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-109">Exchange-Cache-Modus wird für das Konto verwendet, und der Benutzer hat Offline arbeiten im Menü Datei ausgewählt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-109">The account is using cached Exchange mode and the user has selected   Work Offline from the File menu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-109">Exchange-Cache-Modus wird für das Konto verwendet, und der Benutzer hat Offline arbeiten im Menü Datei ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-109">The account is using cached Exchange mode and the user has selected   Work Offline from the File menu.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olDisconnected">
@@ -165,12 +127,7 @@
       </ReturnValue>
       <MemberValue>300</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-110">Die Verbindung für das Konto mit dem Exchange-Server wurde getrennt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-110">The account has a disconnected connection to the Exchange server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-110">Die Verbindung für das Konto mit dem Exchange-Server wurde getrennt.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-110">The account has a disconnected connection to the Exchange server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olNoExchange">
@@ -189,12 +146,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-111">Für das Konto wird kein Exchange-Server verwendet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-111">The account does not use an Exchange server.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-111">Für das Konto wird kein Exchange-Server verwendet.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-111">The account does not use an Exchange server.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olOffline">
@@ -213,16 +165,7 @@
       </ReturnValue>
       <MemberValue>100</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-112">Das Konto ist nicht mit einem Exchange-Server verbunden und befindet sich im klassischen Offlinemodus.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-112">The account is not connected to an Exchange server and is in the classic offline mode.</span>
-          </span>
-          <span data-ttu-id="505ea-113">Dies tritt auf, wenn der Benutzer Offline arbeiten im Menü Datei auswählt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-113">This also occurs when the user selects   Work Offline from the File menu.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-112">Das Konto ist nicht mit einem Exchange-Server verbunden und befindet sich im klassischen Offlinemodus.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-112">The account is not connected to an Exchange server and is in the classic offline mode.</span></span>  <span data-ttu-id="8d8a1-113">Dies tritt auf, wenn der Benutzer Offline arbeiten im Menü Datei auswählt.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-113">This also occurs when the user selects   Work Offline from the File menu.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olOnline">
@@ -241,12 +184,7 @@
       </ReturnValue>
       <MemberValue>800</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="505ea-114">Das Konto ist mit einem Exchange-Server verbunden und befindet sich im klassischen Onlinemodus.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="505ea-114">The account is connected to an Exchange server and is in the classic online mode.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="8d8a1-114">Das Konto ist mit einem Exchange-Server verbunden und befindet sich im klassischen Onlinemodus.</span><span class="sxs-lookup"><span data-stu-id="8d8a1-114">The account is connected to an Exchange server and is in the classic online mode.</span></span></summary>
       </Docs>
     </Member>
   </Members>
