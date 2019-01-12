@@ -1,13 +1,5 @@
 <Type Name="Action" FullName="Microsoft.Office.Interop.Outlook.Action">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="17596c00726166fb08d75936fec79e91f1a60b4f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637389" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Action" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d6062d8975646fc20d49a63e5b13512f4b7f4c11" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897367" /></Metadata><TypeSignature Language="C#" Value="public interface Action" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Action" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Action" />
   <TypeSignature Language="VB.NET" Value="Public Interface Action" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine spezielle Aktion (beispielsweise die Reaktion auf Abstimmungsoptionen) dar, die für ein Outlook-Element ausgeführt werden kann.</summary>
-    <remarks>
-      <para>Das <b>Action</b> -Objekt ist ein Mitglied der <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> Auflistung.</para>
+    <remarks><para>Das <b>Action</b> -Objekt ist ein Mitglied der <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> Auflistung.</para>
       <para>Verwendung <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> (<paramref name="index" />), wobei <paramref name="index" /> ist der Name einer verfügbaren Aktion, um ein einzelnes <b>Action</b> -Objekt aus der Auflistung <b>Aktionen</b> eines Outlook-Elements, wie etwa zurückzugeben <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -118,10 +108,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlActionCopyLike" /> Konstante, die den Vererbungstyp verwenden Sie für die Aktion angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Vererbungstyp wird beim Ausführen der Aktion Kontrolle, wie Eigenschaften in das neue Element, das durch die Aktion erstellt kopiert werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Vererbungstyp wird beim Ausführen der Aktion verwendet, um zu steuern, wie Eigenschaften in das neue Element kopiert werden, das durch die Aktion erstellt wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -202,9 +190,7 @@
       <Parameters />
       <Docs>
         <summary>Führt die Aktion für das angegebene Element aus.</summary>
-        <returns>
-          <b>Ein Objektwert, das durch die Aktion auf Ausführung erstellte Outlook-Element darstellt.</b>
-        </returns>
+        <returns><b>Ein Objektwert, das durch die Aktion auf Ausführung erstellte Outlook-Element darstellt.</b></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -234,13 +220,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Nachrichtenklasse für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.Action" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Nachrichtenklasse für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.Action" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwortbefehle.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwort Befehle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -328,13 +311,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die das Präfix (beispielsweise "Re") an, mit dem Betreff des Elements verwenden Sie beim Ausführen der Aktion angibt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die das Präfix (beispielsweise "Re") an, mit dem Betreff des Elements verwenden Sie beim Ausführen der Aktion angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook fügt automatisch einen Doppelpunkt (:)) auf den Wert der <b>Prefix</b> -Eigenschaft, wenn der Betreff des Elements festgelegt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Outlook fügt automatisch einen Doppelpunkt (:)) auf den Wert der <b>Prefix</b> -Eigenschaft, wenn der Betreff des Elements festgelegt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyStyle">
@@ -424,16 +404,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOn">

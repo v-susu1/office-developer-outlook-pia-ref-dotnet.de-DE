@@ -1,13 +1,5 @@
 <Type Name="_Store" FullName="Microsoft.Office.Interop.Outlook._Store">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637214" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Store" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3f2239ab127f9c76011dbb664fdfb2aec7a1918e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899005" /></Metadata><TypeSignature Language="C#" Value="public interface _Store" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Store" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Store" />
@@ -83,11 +75,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Categories" /> -Auflistung, die alle Kategorien darstellt, die für definiert sind die <see cref="T:Microsoft.Office.Interop.Outlook.Store" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist ähnlich wie die <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekts, abgesehen davon, dass dieser-Eigenschaft gilt für eine Sitzungsprofil, gibt ein oder mehrere Konten und gibt die Kategorien für den Speicher, der ein Konto zugeordnet ist, während, die <b> Kategorien</b> -Eigenschaft des <b>NameSpace</b> -Objekts gilt für eine Sitzung-Profils, das nur ein Konto definiert und gibt die Hauptkategorienliste für diese Sitzung.</para>
-          <para>Für bestimmte sekundären Übermittlung Speicher wie ein IMAP-Speicher, die <b>Categories</b> -Eigenschaft die <b>Categories</b> -Auflistung für den primären Speicher zurückgegeben. IMAP-Speicher nicht tatsächlich eine separate Categories-Auflistung unterstützt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist ähnlich wie die <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekts, abgesehen davon, dass dieser-Eigenschaft gilt für eine Sitzungsprofil, gibt ein oder mehrere Konten und gibt die Kategorien für den Speicher, der ein Konto zugeordnet ist, während, die <b> Kategorien</b> -Eigenschaft des <b>NameSpace</b> -Objekts auf eine Sitzung-Profils, das nur ein Konto definiert und gibt die Hauptkategorienliste für diese Sitzung angewendet.</para>
+          <para>Für bestimmte sekundären Übermittlung Speicher wie ein IMAP-Speicher gibt die <b>Categories</b> -Eigenschaft für den primären Speicher die <b>Categories</b> -Auflistung zurück. IMAP-Speicher unterstützen keine tatsächlich eine separate Categories-Auflistung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -143,13 +133,11 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Anzeigenamen des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
+        <remarks><para>
+            <b>DisplayName</b> ist die Standardeigenschaft des <b>Store</b> -Objekts. Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayName</b>.</para>
           <para>
-            <b>DisplayName</b> ist die Standardeigenschaft des <b>Store</b> -Objekts. Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayName</b>. </para>
-          <para>
-            <b>DisplayName</b> ist schreibgeschützt. Verwenden Sie zum Ändern der <b>DisplayName</b> der eine Persönliche Ordner-Datei (PST) der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> Objekt und die <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> -Methode.</para>
-          <para />
-        </remarks>
+            <b>DisplayName</b> ist schreibgeschützt. Verwenden Sie zum Ändern der <b>DisplayName</b> der eine Persönliche Ordner-Datei (PST) der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> Objekt und die <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> Methode.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExchangeStoreType">
@@ -177,11 +165,8 @@
       <Docs>
         <summary>Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlExchangeStoreType" /> -Enumeration, die den Typ des Exchange-Speicher angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExchangeStoreType</b> -Eigenschaft unterscheidet zwischen verschiedenen Exchange-Speichertypen wie primäres Exchange-Postfach, Exchange-Postfach, Informationsspeicher für Öffentliche Ordner oder nicht-Exchange-Speicher. Diese Eigenschaft unterscheidet sich nicht zwischen den einzelnen Speichertypen, einschließlich Hotmail, HTTP, IMAP und So weiter. Verwendung <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> für den Typ des Servers mit einem e-Mail-Konto an, wie Exchange, HTTP, IMAP oder POP3 verknüpft ist.</para>
-          <para />
-        </remarks>
+        <remarks><para><b>ExchangeStoreType</b> -Eigenschaft unterscheidet zwischen verschiedenen Exchange-Speichertypen wie primäres Exchange-Postfach, Exchange-Postfach, Informationsspeicher für Öffentliche Ordner oder nicht-Exchange-Speicher. Diese Eigenschaft unterscheidet sich nicht zwischen den einzelnen Speichertypen, einschließlich Hotmail, HTTP, IMAP und So weiter. Verwendung <see cref="P:Microsoft.Office.Interop.Outlook._Account.AccountType" /> für den Typ des Servers mit einem e-Mail-Konto an, wie Exchange, HTTP, IMAP oder POP3 verknüpft ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FilePath">
@@ -209,10 +194,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den vollständigen Dateipfad für eine Persönliche Ordner-Datei (PST) oder eines Speichers Offlineordnerdatei (OST) darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft unterstützt sowohl Exchange als auch nicht-Exchange-Speicher. Wenn der Informationsspeicher keinen PST oder OST-Speicher ist, gibt <b>FilePath</b> eine leere Zeichenfolge zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft unterstützt sowohl Exchange als auch nicht-Exchange-Speicher. Wenn der Informationsspeicher keinen PST oder OST-Speicher ist, gibt <b>FilePath</b> eine leere Zeichenfolge zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDefaultFolder">
@@ -240,12 +223,10 @@
       <Docs>
         <param name="FolderType">Gibt den Typ des angeforderten Standardordners an.</param>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.MAPIFolder" /> -Objekt, das den Standardordner im Informationsspeicher darstellt und das von den vom angegebenen Typ ist, die <paramref name="FolderType" /> Argument.</summary>
-        <returns>Gibt ein <b>Folder</b> -Objekt, das den standardmäßigen Ordner des angeforderten Typs darstellt. Wenn Sie der standardmäßigen Ordner des angeforderten Typs nicht vorhanden ist, gibt <b>GetDefaultFolder</b><b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück.</returns>
-        <remarks>
-          <para>Diese Methode ähnelt der <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt. Der Unterschied besteht darin, dass diese Methode den Standardordner auf die übermittlungsspeicher, die das Konto zugeordnet ist, ruft während <b>GetDefaultFolder</b> des <b>NameSpace</b> -Objekts den Standardordner im Standardspeicher für das aktuelle Profil zurückgibt.</para>
-          <para>Ein Beispiel wenn <b>GetDefaultFolder</b><b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c# gibt) ist, wenn <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> wird angegeben, wie die <paramref name="FolderType" /> , aber die Gruppe verwaltete Ordner nicht bereitgestellt wurde.</para>
-          <para />
-        </remarks>
+        <returns>Gibt ein <b>Folder</b> -Objekt, das den standardmäßigen Ordner des angeforderten Typs darstellt. Wenn Sie der standardmäßigen Ordner des angeforderten Typs nicht vorhanden ist, gibt <b>GetDefaultFolder</b> <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück.</returns>
+        <remarks><para>Diese Methode ähnelt der <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.GetDefaultFolder(Microsoft.Office.Interop.Outlook.OlDefaultFolders)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt. Der Unterschied besteht darin, dass diese Methode den Standardordner auf die übermittlungsspeicher, die das Konto zugeordnet ist, ruft während <b>GetDefaultFolder</b> des <b>NameSpace</b> -Objekts den Standardordner im Standardspeicher für das aktuelle Profil zurückgibt.</para>
+          <para>Ein Beispiel wenn <b>GetDefaultFolder</b> <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c# gibt) ist, wenn <see cref="F:Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderManagedEmail" /> wird angegeben, wie die <paramref name="FolderType" /> , aber die Gruppe verwaltete Ordner nicht bereitgestellt wurde.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRootFolder">
@@ -271,15 +252,12 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Stammordner des darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.Store" />. Schreibgeschützt.</summary>
         <returns>Ein <b>Folder</b> -Objekt, das den Ordner im Stamm dieses <b>Store</b> darstellt.</returns>
-        <remarks>
+        <remarks><para><b>GetRootFolder</b> -Methode können Sie die Unterordner des Stammordners des <b>Store</b> aufgelistet werden. Im Gegensatz zu <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> : Dieser Abschnitt enthält alle Ordner für alle Speicher im aktuellen Profil, <b>Store.GetRootFolder.Folders</b> können Sie alle Ordner für ein angegebenes <b>Store</b> -Objekt im aktuellen Profil aufzählen.</para>
+          <para>Die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> -Eigenschaft des Stammordners eines Speichers gibt die Zeichenfolge "Mapi".</para>
+          <para>Der Stammordner für den öffentlichen Exchange-Ordnerspeicher ist der Ordner Öffentliche Ordner. Dieser Ordner wird durch den Aufruf von Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders) zurückgegeben.</para>
           <para>
-            <b>GetRootFolder</b> -Methode können Sie die Unterordner des Stammordners des <b>Store</b>aufgelistet werden. Im Gegensatz zu <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Folders" /> : Dieser Abschnitt enthält alle Ordner für alle Speicher im aktuellen Profil, <b>Store.GetRootFolder.Folders</b> können Sie alle Ordner für ein angegebenes <b>Store</b> -Objekt im aktuellen Profil aufzählen.</para>
-          <para>Der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Parent" /> -Eigenschaft des Stammordners eines Speichers gibt die Zeichenfolge "Mapi".</para>
-          <para>Stammordner für den öffentlichen Ordner von Exchange-Speicher ist der Ordner Öffentliche Ordner. Dieser Ordner wird durch den Aufruf von Application.Session.GetDefaultFolder(olPublicFoldersAllPublicFolders) zurückgegeben.</para>
-          <para>
-            <b>GetRootFolder</b> gibt einen Fehler zurück, wenn der Dienstanbieter Stammordner nicht unterstützt.</para>
-          <para />
-        </remarks>
+            <b>GetRootFolder</b> wird ein Fehler zurückgegeben, wenn der Dienstanbieter Stammordner nicht unterstützt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRules">
@@ -305,11 +283,9 @@
       <Docs>
         <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> für die aktuelle Sitzung definierten Objekte.</summary>
         <returns>Für die aktuelle Sitzung definierten ein <b>Rules</b> -Auflistungsobjekt, das den Satz von <b>Regeln</b> darstellt.</returns>
-        <remarks>
-          <para>Das Aufrufen von <b>GetRules</b> kann ein teuerer Vorgang im Hinblick auf Leistung über langsame Verbindungen mit einem Exchange-Server sein.</para>
-          <para>Die Reihenfolge der <b>Rule</b> -Objekte in der von <b>GetRules</b> zurückgegebenen Auflistung folgt der von <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> mit <b>ExecutionOrder</b> gleich 1 wird die erste <b>Regel</b> in der Auflistung und <b>ExecutionOrder</b> gleich <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> wird die <b>Regel</b> in der Auflistung der letzten.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das Aufrufen von <b>GetRules</b> kann ein teuerer Vorgang im Hinblick auf Leistung über langsame Verbindungen mit einem Exchange-Server sein.</para>
+          <para>Die Reihenfolge der <b>Rule</b> -Objekte in der von <b>GetRules</b> zurückgegebenen Auflistung folgt der von <see cref="P:Microsoft.Office.Interop.Outlook._Rule.ExecutionOrder" /> mit <b>ExecutionOrder</b> gleich 1 wird die erste <b>Regel</b> in der Auflistung und <b>ExecutionOrder</b> gleich <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" /> wird die letzte <b>Regel</b> in der Auflistung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSearchFolders">
@@ -335,14 +311,12 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> -Auflistungsobjekt, das die Suchordner darstellt, die für definiert die <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekt.</summary>
         <returns>Ein <b>Folders</b> -Auflistungsobjekt, das alle Suchordner für das <b>Store</b> -Objekt darstellt.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Durch GetSearchFolders</b> wird alle sichtbaren aktiven Suchordner für den <b>Store</b>. Es gibt keine initialisierte oder veraltete Suchordner zurück.</para>
           <para>
             <b>Durch GetSearchFolders</b> wird ein <b>Folders</b> -Auflistungsobjekt mit <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Count" /> gleich null (0), wenn keine Suchordner für den <b>Speicher</b>definiert wurden.</para>
-          <para>Für ein <b>Folders</b> -Auflistungsobjekt, das eine Auflistung von Suchordnern darstellt <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> gibt dasselbe Objekt wie <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />. <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" /> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+          <para>Für ein <b>Folders</b> -Auflistungsobjekt, das eine Auflistung von Suchordnern darstellt <see cref="P:Microsoft.Office.Interop.Outlook._Folders.Parent" /> gibt dasselbe Objekt wie <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" />. <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Folders" />Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSpecialFolder">
@@ -371,10 +345,8 @@
         <param name="FolderType">Eine Konstante in der <b>OlSpecialFolders</b> -Aufzählung, die den Typ der Ordner mit Sonderfunktion im Speicher angibt.</param>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt für ein vom angegebenen Ordner mit Sonderfunktion <paramref name="FolderType" /> in einem gegebenen Informationsspeicher.</summary>
         <returns>Ein <b>Folder</b> -Objekt, das einen vom angegebenen Ordner mit Sonderfunktion darstellt der <paramref name="FolderType" />.</returns>
-        <remarks>
-          <para>Nicht alle Ordner in allen Speichern vorhanden sein.  Wenn der angeforderte Ordner mit Sonderfunktion nicht vorhanden ist, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nicht alle Ordner in allen Speichern vorhanden sein.  Wenn der angeforderte Ordner mit Sonderfunktion nicht vorhanden ist, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCachedExchange">
@@ -402,11 +374,9 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der angibt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> ist ein zwischengespeicherter Exchange-Speicher. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>IsCachedExchange</b> gibt <b>True</b> zurück, wenn <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> ist ein primäres Exchange-Postfach (<b>Store.ExchangeStoreType</b> ist <b>OlExchangePrimaryMailbox</b>) und das Postfach für die Exchange-Verwendung Cache-Modus konfiguriert ist. Es gibt andernfalls <b>False</b> zurück. Insbesondere wird <b>False</b> zurückgegeben für einen öffentlichen Ordner von Exchange-Speicher, der so konfiguriert ist, um Öffentliche Ordner-Favoriten Cache.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConversationEnabled">
@@ -434,11 +404,9 @@
       <Docs>
         <summary>Gibt eine <see cref="T:System.Boolean" /> (<b>Bool</b> für c#)-Wert, der <b>True</b> ist, wenn der Informationsspeicher die Unterhaltungsansicht unterstützt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>A Store die Unterhaltungsansicht unterstützt, wenn der Informationsspeicher einem POP-, IMAP- oder PST-Speicher ist oder wenn er eine Version von Microsoft Exchange Server ausgeführt wird, das mindestens ist Microsoft Exchange Server 2010. Ein Speicher auch die Unterhaltungsansicht unterstützt, wenn der Informationsspeicher, Microsoft Exchange Server 2007 ausgeführt wird, die Version von Outlook ist mindestens Microsoft Outlook 2010 und Outlook im Cache-Modus ausgeführt wird.</para>
-          <para>, Wenn ein Store Unterhaltungen unterstützt, gibt die <b>GetConversation</b> -Methode eines Elements im Speicher Aufrufen einer <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt für das Element. Wenn der Informationsspeicher keine Unterhaltungen unterstützt, gibt <b>GetConversation</b><b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) für Elemente im Speicher.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein Speicher die Unterhaltungsansicht unterstützt, wenn der Informationsspeicher einem POP-, IMAP- oder PST-Speicher ist oder wenn er eine Version von Microsoft Exchange Server ausgeführt wird, das mindestens ist Microsoft Exchange Server 2010. Ein Speicher auch die Unterhaltungsansicht unterstützt, wenn der Informationsspeicher, Microsoft Exchange Server 2007 ausgeführt wird, die Version von Outlook ist mindestens Microsoft Outlook 2010 und Outlook im Cache-Modus ausgeführt wird.</para>
+          <para>Wenn ein Store Unterhaltungen unterstützt, Aufrufen der <b>GetConversation</b> -Methode eines Elements im Speicher gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt für das Element. Wenn der Informationsspeicher keine Unterhaltungen unterstützt, gibt <b>GetConversation</b> <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) für Elemente im Speicher zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsDataFileStore">
@@ -466,11 +434,13 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der angibt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> ist ein Speichers für ein Outlook-Datendatei, eine Persönliche Ordner-Datei (PST) oder eine Offlineordnerdatei (OST) ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>IsDataFileStore</b> unterstützt nur Exchange-Speicher und gibt <b>False</b> zurück, für HTTP-Speicher wie Hotmail und MSN sowie für IMAP-Speicher.</para>
-          <b>IsDataFileStore</b> - 
-          <para>für Exchange-Speicher gibt <b>False</b> zurück, wenn das Benutzerprofil Exchange-Cache-Modus nicht verwendet wird. <b>IsDataFileStore</b> gibt auch <b>False</b> zurück, wenn der Informationsspeicher einen öffentlichen Exchange-Ordner ist (d. h., <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /><b>OlExchangePublicFolder</b>ist).</para><para><b>IsDataFileStore</b> nicht an, ob der Speicher auf einer lokalen Festplatte befindet. Beispielsweise könnte eine PST-Datei sich nicht auf ein Netzlaufwerk und weiterhin <b>IsDataFileStore</b> gibt <b>True</b>zurück.</para><para>Kann der Rückgabewert der <b>IsDataFileStore</b> ändern, wenn der Benutzer für den klassischen Exchange-Offlinemodus konfiguriert ist. Wenn der Benutzer offline ist und klassischen Exchange-Offlinemodus verwenden, <b>IsDataFileStore</b> wird <b>True</b>zurückgegeben. Wenn der Benutzer online ist und mit Exchange online klassische, <b>IsDataFileStore</b> wird <b>False</b>zurückgegeben.</para><para /></remarks>
+          <para>Für Exchange-Speicher gibt <b>IsDataFileStore</b> <b>False</b> zurück, wenn das Benutzerprofil keine Exchange-Cache-Modus verwendet. <b>IsDataFileStore</b> gibt auch <b>False</b> zurück, wenn der Informationsspeicher einen öffentlichen Exchange-Ordner ist (d. h., <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> <b>OlExchangePublicFolder</b>ist).</para>
+          <para>
+            <b>IsDataFileStore</b> nicht an, ob der Speicher auf einer lokalen Festplatte befindet. Beispielsweise könnte eine PST-Datei sich nicht auf ein Netzlaufwerk und weiterhin <b>IsDataFileStore</b> gibt <b>True</b> zurück.</para>
+          <para>Der Rückgabewert der <b>IsDataFileStore</b> kann ändern, wenn der Benutzer für den klassischen Exchange-Offlinemodus konfiguriert ist. Wenn der Benutzer offline ist und klassischen Exchange-Offlinemodus verwenden, <b>IsDataFileStore</b> wird <b>True</b> zurückgegeben. Wenn der Benutzer online ist, und Verwenden von Exchange online klassische, <b>IsDataFileStore</b> wird <b>False</b> zurückgegeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsInstantSearchEnabled">
@@ -498,10 +468,8 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der angibt, ob für die Sofortsuche in einem Speicher aktiviert und betriebsbereit ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie <b>IsInstantSearchEnabled</b> für ausgewertet werden soll, ob Sie <b>Ci_startswith</b> oder <b>Ci_phrasematch</b> Operatoren in der Abfrage verwenden soll. Wenn Sie <b>Ci_startswith</b> oder <b>Ci_phrasematch</b> im Abfrage- und für die Sofortsuche nicht aktiviert ist, gibt Outlook einen Fehler zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie <b>IsInstantSearchEnabled</b> für ausgewertet werden soll, ob Sie <b>Ci_startswith</b> oder <b>Ci_phrasematch</b> Operatoren in der Abfrage verwenden soll. Wenn Sie <b>Ci_startswith</b> oder <b>Ci_phrasematch</b> im Abfrage- und für die Sofortsuche nicht aktiviert ist, gibt Outlook einen Fehler zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsOpen">
@@ -529,13 +497,11 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der angibt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> wird geöffnet. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft unterstützt Exchange und nicht-Exchange-Speicher.</para>
+        <remarks><para>Durch diese Eigenschaft werden Exchange-Speicher sowie Nicht-Exchange-Speicher unterstützt.</para>
           <para>
-            <b>IsOpen</b> gibt nur an, ob der Speicher geöffnet ist. Es gibt nicht an, wenn der Informationsspeicher offline ist oder wenn es sich um ein Exchange-Postfach oder einen öffentlichen Exchange-Ordner und der Store-Server ist ausgefallen.</para>
-          <para>, Da das Öffnen eines Speichers kann ein Leistungsverlust bedingen und <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> und <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> ein Speichers wird geöffnet, wenn er nicht bereits geöffnet ist, können <b>IsOpen</b> bevor Sie sich entscheiden Sie <b>GetRootFolder</b> oder <b>GetSearchFolders</b> Minimieren von Aufrufen Beeinträchtigung der Systemleistung. </para>
-          <para />
-        </remarks>
+            <b>IsOpen</b> gibt nur an, ob der Speicher geöffnet ist. Es gibt nicht an, wenn der Informationsspeicher offline ist oder wenn es sich um ein Exchange-Postfach oder einen öffentlichen Exchange-Ordner und der Store Server steht nicht zur Verfügung.</para>
+          <para>Da Öffnen eines Speichers kann ein Leistungsverlust bedingen und <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetRootFolder" /> und <see cref="M:Microsoft.Office.Interop.Outlook._Store.GetSearchFolders" /> ein Speichers wird geöffnet, wenn er nicht bereits geöffnet ist, können <b>IsOpen</b> bevor Sie sich entscheiden Sie <b>GetRootFolder</b> oder <b>GetSearchFolders</b> Leistung minimieren aufrufen, um Aufwand. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -594,10 +560,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -650,10 +614,8 @@
       <Parameters />
       <Docs>
         <summary>Aktualisiert die Kontingentinformationen für den Informationsspeicher, die in der Statusleiste im Explorerfenster angezeigt werden.</summary>
-        <remarks>
-          <para>Wenn der Informationsspeicher die Anzeige von Kontingentinformationen nicht unterstützt, hat diese Methode Nothing zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Informationsspeicher die Anzeige von Kontingentinformationen nicht unterstützt, führt die Methode keine Aktion aus.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -681,16 +643,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreID">
@@ -718,11 +678,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die <see cref="T:Microsoft.Office.Interop.Outlook.Store" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>StoreID</b> ist eindeutig für das Profil. Dies entspricht der MAPI-Eigenschaft <b>PidTagStoreEntryId</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

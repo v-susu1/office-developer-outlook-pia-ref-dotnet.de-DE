@@ -1,13 +1,5 @@
 <Type Name="AddressEntry" FullName="Microsoft.Office.Interop.Outlook.AddressEntry">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="682854cc41fd5876bf1d22c8d65e2332e2233750" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636186" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntry" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7c3361d6fae79bf9b2c1326717d5a3bd9227da59" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906751" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntry" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntry" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntry" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntry" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Person, eine Gruppe oder einen öffentlichen Ordner dar, die Nachrichten von einem Nachrichtensystem empfangen können.</summary>
-    <remarks>
-      <para>Das <b>AddressEntry</b> -Objekt ist eine Adresse in eine <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Objekt. Jedes <b>AddressEntry</b> -Objekt in der <b>AddressEntries</b> -Objekt enthält Informationen, die für eine Person, Gruppe oder Öffentliche Ordner, die an die das messaging-System Nachrichten übermitteln kann.</para>
-      <para>Verwendung <b>AddressEntries</b>(<paramref name="index" />), wobei <paramref name="index" /> wird die Indexnummer eines Adresseintrags oder ein Wert, der der Standardeigenschaft eines Adresseintrags, um ein einzelnes <b>AddressEntry</b> -Objekt zurückzugeben entspricht.</para>
-      <para />
-    </remarks>
+    <remarks><para>Das <b>AddressEntry</b> -Objekt ist eine Adresse in eine <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Objekt. Jedes <b>AddressEntry</b> -Objekt in der <b>AddressEntries</b> -Objekt enthält Informationen, die eine Person, Gruppe oder an die Nachrichtensystem Nachrichten übermitteln kann für Öffentliche Ordner darstellt.</para>
+      <para>Verwenden Sie <b>AddressEntries</b>(<paramref name="index" />), wobei <paramref name="index" /> wird die Indexnummer eines Adresseintrags oder ein Wert, entspricht die Standardeigenschaft eines Adresseintrags, um ein einzelnes <b>AddressEntry</b> -Objekt zurückzugeben.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Address">
@@ -60,13 +50,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die e-Mail-Adresse des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die e-Mail-Adresse des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Address</b> -Eigenschaft muss festgelegt werden, bevor die <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> Methode.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Address</b> -Eigenschaft muss festgelegt werden, bevor die <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> Methode.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -94,11 +81,9 @@
       <Docs>
         <summary>Gibt eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> -Enumeration, der den Benutzer geben Sie die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>AddressEntryUserType</b> bietet ein Maß an Granularität für Benutzertypen, die als der feinere ist <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />. Die <b>DisplayType</b> -Eigenschaft unterscheidet nicht Benutzer mit unterschiedlichen Arten von <b>AddressEntry-Objekt</b>wie ein <b>AddressEntry-Objekt</b> , das eine Simple Mail Transfer Protocol (SMTP) E-mail-Adresse ein Lightweight Directory Access Protocol (LDAP) Adresse, eine Exchange-Benutzeradresse oder ein <b>AddressEntry-Objekt</b> in der Outlook-Kontaktadressbuch. Alle diese Einträge haben <b>OlUser</b> als ihre <b>AddressEntry.DisplayType</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>AddressEntryUserType</b> bietet ein Maß an Granularität für Benutzertypen, die als der feinere ist <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" />. Die <b>DisplayType</b> -Eigenschaft unterscheidet nicht Benutzer mit unterschiedlichen Arten von <b>AddressEntry-Objekt</b>wie ein <b>AddressEntry-Objekt</b> , das eine Simple Mail Transfer Protocol (SMTP) E-mail-Adresse ein Lightweight Directory Access Protocol (LDAP) Adresse, eine Exchange-Benutzeradresse oder ein <b>AddressEntry-Objekt</b> in der Outlook-Kontaktadressbuch. Alle diese Einträge haben <b>OlUser</b> als ihre <b>AddressEntry.DisplayType</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -206,12 +191,10 @@
       <Docs>
         <param name="HWnd">Das Handle des übergeordneten Fensters für das Dialogfeld Details. Ein Wert von Null (Standard) gibt an, dass das Dialogfeld Outlook übergeordnet ist. </param>
         <summary>Zeigt ein Dialogfeld ohne Modus, die detaillierte Informationen zur ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Hinweis</b>: die <b>Details</b> -Methode schlägt fehl, wenn die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.Name" /> -Eigenschaft ist leer.</para>
-          <para>Müssen Sie Fehlerbehandlung verwenden, Laufzeitfehler behandelt, wenn der Benutzer im Dialogfeld Abbrechen klickt. Die <b>Details</b> -Methode beendet den Code aus, während das Dialogfeld angezeigt wird.</para>
-          <para />
-        </remarks>
+          <para>Verwenden Sie die Fehlerbehandlung, um Laufzeitfehler behandeln, wenn der Benutzer im Dialogfeld Abbrechen klickt. Die <b>Details</b> -Methode stoppt die Ausführung des Codes, während das Dialogfeld angezeigt wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -239,10 +222,8 @@
       <Docs>
         <summary>Gibt eine Konstante, die zu gehören die <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> -Enumeration, die den Typ des beschreibt die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie können die <b>DisplayType</b> -Eigenschaft, um Adresseinträge zu filtern. Die <b>DisplayType</b> -Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayType</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können die <b>DisplayType</b> -Eigenschaft, um Adresseinträge zu filtern. Die <b>DisplayType</b> -Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayType</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -294,10 +275,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> -Objekt, das stellt die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Zugehörigkeit <b>AddressEntry-Objekt</b> mit einer Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> -Objekt wie beispielsweise die globale Adressenliste (GAL) und Exchange-Verteilungsliste entspricht.</summary>
         <returns>Ein <b>ExchangeDistributionList</b> -Objekt, das die <b>AddressEntry-Objekt</b> darstellt. Wenn das <b>AddressEntry</b> -Objekt nicht Exchange-Verteilungsliste entspricht, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</returns>
-        <remarks>
-          <para>Sie müssen mit dem Exchange-Server zum Verwenden dieser Methode verbunden sein.</para>
-          <para />
-        </remarks>
+        <remarks><para> Zum Verwenden dieser Methode muss eine Verbindung mit dem Exchange-Server bestehen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -323,10 +302,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> -Objekt, das stellt die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Zugehörigkeit <b>AddressEntry-Objekt</b> mit einer Exchange <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> -Objekt wie beispielsweise die globale Adressenliste (GAL) und Exchange-Benutzer entspricht.</summary>
         <returns>Ein <b>ExchangeUser</b> -Objekt, das die <b>AddressEntry-Objekt</b>darstellt. Wenn das <b>AddressEntry</b> -Objekt keinem Exchange-Benutzer entspricht, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</returns>
-        <remarks>
-          <para>Sie müssen mit dem Exchange-Server zum Verwenden dieser Methode verbunden sein.</para>
-          <para />
-        </remarks>
+        <remarks><para> Zum Verwenden dieser Methode muss eine Verbindung mit dem Exchange-Server bestehen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetFreeBusy">
@@ -355,13 +332,12 @@
       <Docs>
         <param name="Start">Gibt das Datum an.</param>
         <param name="MinPerChar">Gibt die Länge der Zeitintervalle in Minuten an. Als Standardwert gilt 30.</param>
-        <param name="CompleteFormat">Gibt einen <b>Boolean</b> -Wert (<b>Bool</b> in c#), der die Ebene der Informationen, die für jedes Zeitintervall zurückgegeben darstellt. Der Standardwert lautet <b>False</b>.</param>
+        <param name="CompleteFormat">Gibt einen <b>Boolean</b> -Wert (<b>Bool</b> in c#), der die Ebene der Informationen, die für jedes Zeitintervall zurückgegeben darstellt. Der Standardwert ist <b>False</b>.</param>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die Verfügbarkeit des individuellen Benutzers für einen Zeitraum von 30 Tagen ab dem Startdatum darstellt, beginnend mit Mitternacht des angegebenen Datums.</summary>
         <returns>Ein <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die Verfügbarkeit des Benutzers für den angegebenen Zeitraum darstellt. Der Zeichenfolgenwert enthält ein Zeichen für jedes Zeitintervall im angegebenen Zeitraum.</returns>
-        <remarks>
-          <para>
-            <b>Hinweis</b>: Wenn ein Adresseintrag eine Verteilerliste darstellt, nicht der Status der einzelnen Mitglieder an Sie zurückgegeben werden, mit der <b>GetFreeBusy</b> -Methode. Nur auf eine Besprechungsanfrage gesendet werden einzelnen messaging-Benutzer. Sie können bestimmen, ob ein messaging-Benutzer eine Verteilerliste ist, indem Sie feststellen, ob die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /> -Eigenschaft ist <b>OlDistList</b> oder <b>OlPrivateDistList</b>.</para>
-          <para>Den Inhalt der durch diese Methode zurückgegebene Zeichenfolge ist abhängig von der <paramref name="CompleteFormat" /> Parameter.</para>
+        <remarks><para>
+            <b>Hinweis</b>: Wenn ein Adresseintrag eine Verteilerliste darstellt, nicht der Status der einzelnen Mitglieder an Sie zurückgegeben werden, mit der <b>GetFreeBusy</b> -Methode. Nur auf eine Besprechungsanfrage gesendet werden einzelnen messaging-Benutzer. Sie können bestimmen, ob ein messaging-Benutzer eine Verteilerliste ist, indem Sie feststellen, ob die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.DisplayType" /> -Eigenschaft auf <b>OlDistList</b> oder <b>OlPrivateDistList</b>ist.</para>
+          <para>Der Inhalt der durch diese Methode zurückgegebene Zeichenfolge ist abhängig von der <paramref name="CompleteFormat" /> Parameter. </para>
           <para>Wenn <paramref name="CompleteFormat" /> festgelegt ist auf <b>false festgelegt</b>, der Standardwert, enthält die durch diese Methode zurückgegebene Zeichenfolge eines der folgenden Zeichen für jedes Zeitintervall:</para>
           <list type="table">
             <item>
@@ -370,11 +346,11 @@
             </item>
             <item>
               <description>0</description>
-              <description>das Zeitintervall stellt einen freien Zeitraum dar.</description>
+              <description>Das Zeitintervall stellt einen freien Zeitraum dar.</description>
             </item>
             <item>
               <description>1</description>
-              <description>das Zeitintervall stellt einen mit Vorbehalt, abwesend (ABWESEND) oder ausgelasteten Zeitraum dar.</description>
+              <description>Das Zeitintervall stellt einen Zeitraum mit Vorbehalt, einen als abwesend angegebenen Zeitraum (OOF, Out Of Office), oder einen ausgelasteten Zeitraum dar.</description>
             </item>
           </list>
           <para>Wenn <paramref name="CompleteFormat" /> festgelegt ist auf <b>"true"</b>, die durch diese Methode zurückgegebene Zeichenfolge enthält eines der folgenden Zeichen für jedes Zeitintervall:</para>
@@ -385,23 +361,22 @@
             </item>
             <item>
               <description>0</description>
-              <description>das Zeitintervall stellt einen freien Zeitraum dar.</description>
+              <description>Das Zeitintervall stellt einen freien Zeitraum dar.</description>
             </item>
             <item>
               <description>1</description>
-              <description>das Zeitintervall stellt einen Zeitraum mit Vorbehalt.</description>
+              <description>Das Zeitintervall stellt einen Zeitraum mit Vorbehalt dar.</description>
             </item>
             <item>
               <description>2</description>
-              <description>das Zeitintervall stellt einen ausgelasteten Zeitraum dar.</description>
+              <description>Das Zeitintervall stellt einen ausgelasteten Zeitraum dar.</description>
             </item>
             <item>
               <description>3</description>
-              <description>das Zeitintervall stellt einen außerhalb des Zeitraum (OOF) Office.</description>
+              <description>Das Zeitintervall stellt einen als abwesend angegebenen Zeitraum (OOF, Out Of Office) dar.</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -429,10 +404,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den eindeutigen Bezeichner für das Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Transportdienst weist eine dauerhafte, eindeutige <b>ID</b> Zeichenfolgeneigenschaft, wenn ein einzelner Member-Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Transportdienst weist eine dauerhafte, eindeutige <b>ID</b> Zeichenfolgeneigenschaft, wenn ein einzelner Member-Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -562,10 +535,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einem <b>String</b> -Wert (<b>String</b> in c#) den Anzeigenamen für das Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Es ist erforderlich, damit die <b>Name</b> -Eigenschaft festgelegt werden, bevor der Aufruf von der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> Methode.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es ist erforderlich, damit die <b>Name</b> -Eigenschaft festgelegt werden, bevor der Aufruf von der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Details(System.Object)" /> Methode.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -649,16 +620,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -687,8 +656,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Typ des Eintrags für diese Adresse wie eine Internetadresse, MacMail-Adresse oder Microsoft Mail-Adresse darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Typ des Eintrags für diese Adresse wie eine Internetadresse, MacMail-Adresse oder Microsoft Mail-Adresse darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -719,11 +687,9 @@
         <param name="MakePermanent">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache geleert wird und alle Änderungen sich, in dem zugrunde liegenden Adressbuch verpflichtet haben. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache gelöscht wird, aber nicht ein beständiger Speicher verwendet. Der Standardwert ist <b>True</b>. </param>
         <param name="Refresh">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache aus den Werten in dem zugrunde liegenden Adressbuch erneut geladen wird. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache nicht neu geladen wird. Der Standardwert ist <b>False</b>. </param>
         <summary>Stellt eine Änderung der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt im Messagingsystem bereit.</summary>
-        <remarks>
-          <para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung, bis die <b>Update</b> -Methode wurde, wobei aufgerufen wurde die <paramref name="MakePermanent" /> Parameter auf <b>True</b>festgelegt.</para>
-          <para>Zum Löschen des Cache und die Werte aus dem Adressbuch anschließend erneut zu laden, rufen Sie <b>Update</b> mit den <paramref name="MakePermanent" /> Parameter auf <b>False</b> festgelegt und die <paramref name="Refresh" /> Parameter auf <b>True</b>festgelegt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung, bis die <b>Update</b> -Methode wurde, wobei aufgerufen wurde die <paramref name="MakePermanent" /> Parameter auf <b>True</b>festgelegt.</para>
+          <para>Um den Cache zu leeren, und die Werte aus dem Adressbuch anschließend erneut zu laden, rufen Sie <b>Update</b> mit den <paramref name="MakePermanent" /> Parameter auf <b>False</b> festgelegt und die <paramref name="Refresh" /> Parameter auf <b>True</b>festgelegt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">

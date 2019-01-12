@@ -1,13 +1,5 @@
 <Type Name="_OlkCommandButton" FullName="Microsoft.Office.Interop.Outlook._OlkCommandButton">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635921" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="341bad149d45b4c5c3e83478e06e67918652fecd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899187" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCommandButton" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCommandButton" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCommandButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCommandButton" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Zugriffstaste oder die Zugriffstaste für das Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist eine leere Zeichenfolge, was bedeutet, dass kein hot Schlüssel vorhanden ist.  Wenn die Eigenschaft eine Zeichenfolge mit mehr als ein Zeichen festgelegt ist, wird der Wert auf das erste Zeichen abgeschnitten.  </para>
-          <para>Können keine Ziffern in einer Zugriffstaste.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist eine leere Zeichenfolge, d. h., es gibt keine Abkürzungstaste. Wird für die Eigenschaft eine Zeichenfolge mit mehr als einem Zeichen festgelegt, wird der Wert bis auf das erste Zeichen abgeschnitten.  </para>
+          <para>Sie können für eine Tastenkombination keine Ziffern verwenden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -93,11 +83,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die automatisch das Steuerelement passt, um den gesamten Inhalt anzuzeigen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
-          <para>Für ein Schaltflächen-Steuerelement gibt diese Eigenschaft an, ob das Steuerelement automatisch so angepasst wird der gesamte Beschriftungswert angezeigt.</para>
-          <para />
-        </remarks>
+        <remarks><para>  Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
+          <para>Für ein Schaltflächen-Steuerelement gibt diese Eigenschaft an, ob das Steuerelement automatisch so angepasst wird, dass der gesamte Beschriftungswert angezeigt wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -128,10 +116,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die angezeigt wird auf ein Objekt zu identifizieren oder zu beschreiben Sie es.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist eine leere Zeichenfolge. Im Formular-Designer wird diese Eigenschaft auf das Steuerelement Standardnamen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist eine leere Zeichenfolge. Diese Eigenschaft wird vom Formular-Designer auf den Standardnamen des Steuerelements festgelegt.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayDropArrow">
@@ -162,10 +148,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die das Rendern von einem nach unten weisenden Pfeil auf der Schaltfläche ermöglicht. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Auf der rechten Seite auf die Schaltfläche links nach rechts geschriebenen Sprachen und auf der linken Seite in Sprachen geschrieben wird diesen Pfeil rechts-nach-links ausgerichtet. <b>True</b> zum Rendern auf des Pfeil der Schaltfläche, <b>False</b> , wenn das Rendern zu deaktivieren.</para>
-          <para />
-        </remarks>
+        <remarks><para>Auf der rechten Seite auf die Schaltfläche links nach rechts geschriebenen Sprachen und auf der linken Seite in Sprachen geschrieben wird diesen Pfeil rechts-nach-links ausgerichtet. <b>True</b> zum Rendern auf des Pfeil der Schaltfläche, <b>False</b>, wenn das Rendern zu deaktivieren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -196,11 +180,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>False</b>.</para>
+        <remarks><para>Der Standardwert lautet <b>False</b>.</para>
           <para>Wenn das Steuerelement deaktiviert ist, werden die Inhalte des Steuerelements abgeblendet angezeigt.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -259,10 +241,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>StdPicture</b> , die ein benutzerdefiniertes Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -293,10 +273,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Picture">
@@ -327,12 +305,10 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>StdPicture</b> , die das Bild darstellt, das auf dem Steuerelement angezeigt wird.    Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para>Ein Bild und Text können nicht gleichzeitig auf dem Steuerelement angezeigt werden, damit die Text-Eigenschaft ignoriert wird, wenn die Picture-Eigenschaft festgelegt ist,.</para>
-          <para>Das Bild wird immer in der Mitte des Schaltflächen-Steuerelements angezeigt.  Das Bild nach Bedarf den verfügbaren Platz abgeschnitten.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para>Ein Bild und Text können nicht gleichzeitig auf einem Steuerelement angezeigt werden. Wenn also die Bildeigenschaft festgelegt ist, wird die Texteigenschaft ignoriert.</para>
+          <para>Das Bild wird immer in der Mitte des Schaltflächen-Steuerelements angezeigt. Das Bild wird bei Bedarf abgeschnitten, damit es auf den verfügbaren Platz passt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PictureAlignment">
@@ -394,11 +370,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> -Konstante, die angibt, wie Text im Steuerelement ausgerichtet wird.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist links-nach-rechts-Sprachen wie Englisch <b>OlTextAlignLeft</b> .</para>
-          <para>Für das Steuerelement Befehlsschaltfläche beim <b>TextAlign</b> auf <b>OlTextAlignLeft</b>festgelegt ist der linke Rand ist nur ein Pixel vom Rahmen des Steuerelements.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlTextAlignLeft</b> links-nach-rechts-Sprachen wie Englisch.</para>
+          <para>Wenn <b>TextAlign</b> auf <b>OlTextAlignLeft</b> festgelegt ist, wird am linke Rand für das Steuerelement Schaltfläche nur ein Pixel vom Rahmen des Steuerelements.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -429,10 +403,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob der Inhalt des Steuerelements automatisch am Ende einer Zeile umbrochen.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

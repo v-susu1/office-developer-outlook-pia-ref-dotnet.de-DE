@@ -1,13 +1,5 @@
 <Type Name="_OlkListBox" FullName="Microsoft.Office.Interop.Outlook._OlkListBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636403" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkListBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e9053f372be4d8cf569cbaf4b62f4d812bf11d7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902761" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkListBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkListBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkListBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkListBox" />
@@ -56,10 +48,8 @@
         <param name="ItemText">Wert, der der Liste im Listenfeld-Steuerelement hinzugefügt werden soll.</param>
         <param name="Index">Ein 0-basierter Wert, der die Reihenfolge des neuen Elements in der Liste angibt.</param>
         <summary>Fügt der Liste ein Element hinzu und kann einen Index für das neue Element in der Liste festlegen.</summary>
-        <remarks>
-          <para>Wenn der Wert der <paramref name="Index" /> ist gleich oder größer als die Anzahl der Elemente in der Liste, wird das neue Element an das Ende der Liste hinzugefügt werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Wert der <paramref name="Index" /> ist gleich oder größer als die Anzahl der Elemente in der Liste, wird das neue Element an das Ende der Liste hinzugefügt werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -93,10 +83,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Hintergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0 x 80000005, "Fenster".</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0 x 80000005, "Fenster". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -127,10 +115,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> -Konstante, die das Format des Rahmens um das Steuerelement definiert.   Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -211,10 +197,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -276,10 +260,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Vordergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItem">
@@ -308,10 +290,8 @@
         <param name="Index">Ein nullbasierter Wert, der die Position eines Elements in der Liste angibt.</param>
         <summary>Ruft eine <b>Zeichenfolge</b> (<b>String</b> in c#), die ein Element an der angegebenen Position in der Liste darstellt.</summary>
         <returns>Eine <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der das Element an der angegebenen Position in der Liste darstellt.</returns>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetSelected">
@@ -340,10 +320,8 @@
         <param name="Index">Ein nullbasierter Wert, der die Position eines Elements in der Liste angibt.</param>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die angibt, ob das indizierte Element derzeit ausgewählt ist.</summary>
         <returns>Ein boolescher Wert (<b>Bool</b> in c#), der <b>True</b> ist, wenn das angegebene Element derzeit wird ausgewählt, <b>False</b> andernfalls.</returns>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -371,10 +349,8 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Anzahl der Elemente in der Dropdownliste aus dem Listenfeld-Steuerelement angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist 0 (null) zurück, der angibt, dass in der Liste keine Elemente vorhanden sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist Null, damit wird angegeben, dass die Liste keine Elemente enthält.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -405,11 +381,9 @@
       <Docs>
         <summary>Steuern, gibt, oder legt ein <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der den Speicherort des aktuell ausgewählten Elements in der Liste des Kombinationsfelds angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>ListIndex</b> ist ein nullbasierter Wert in das Array von Elementen in der Liste.  Der Standardwert ist-1, was bedeutet, dass kein Element ausgewählt ist.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -440,11 +414,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob das Steuerelement gesperrt ist, geändert oder nicht.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>False</b>.</para>
-          <para>, Wenn das Steuerelement gesperrt ist, das Steuerelement hat keine "deaktiviert" aus, aber der Benutzer kann die Inhalte des Steuerelements ändern.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>False</b>.</para>
+          <para>Wenn das Steuerelement gesperrt ist, sieht es nicht "deaktiviert" aus, aber der Benutzer kann die Inhalte des Steuerelements nicht ändern.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MatchEntry">
@@ -475,10 +447,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMatchEntry" /> Konstante, die angibt, wie das Steuerelement die Liste während der Benutzereingabe sucht. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMatchEntryComplete</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMatchEntryComplete</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -509,10 +479,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>StdPicture</b> , das das benutzerdefinierte Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -543,10 +511,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiSelect">
@@ -605,10 +571,8 @@
       <Docs>
         <param name="Index">Ein nullbasierter Wert, der im Array mit Elementen in der Liste einen Index erstellt.</param>
         <summary>Entfernt das angegebene Element aus der Liste.</summary>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetItem">
@@ -638,10 +602,8 @@
         <param name="Index">Ein nullbasierter Wert, der die Position eines Elements in der Liste angibt.</param>
         <param name="Item">Der Wert, der verwendet werden soll, um die Liste an der angegebenen Position zu aktualisieren.</param>
         <summary>Legt für das Element an der angegebenen Position in der Liste den angegebenen Wert fest.</summary>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetSelected">
@@ -669,13 +631,10 @@
       </Parameters>
       <Docs>
         <param name="Index">Ein nullbasierter Wert, der die Position eines Elements in der Liste angibt.</param>
-        <param name="Selected">
-          <b>True,</b> um anzugeben, dass das Element ausgewählt sein sollte, <b>False,</b> um anzugeben, dass das Element nicht ausgewählt sein sollte.</param>
+        <param name="Selected"><b>True,</b> um anzugeben, dass das Element ausgewählt sein sollte, <b>False,</b> um anzugeben, dass das Element nicht ausgewählt sein sollte.</param>
         <summary>Legt den ausgewählten Status eines Elements an der angegebenen Position in der Liste auf der angegebenen <paramref name="Selected" /> Wert.</summary>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -706,11 +665,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die der Text im Steuerelement angezeigt wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert der <b>Text</b> -Eigenschaft ist eine leere Zeichenfolge.</para>
+        <remarks><para>Der Standardwert der <b>Text</b> -Eigenschaft ist die leere Zeichenfolge.</para>
           <para>Die <b>Text</b> -Eigenschaft stellt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Value" /> -Eigenschaft, aber der Wert weist eine starke Typisierung als <b>String</b> (<b>Zeichenfolge</b> in c#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -741,10 +698,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> -Konstante, die angibt, wie Text im Steuerelement ausgerichtet wird.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlTextAlignLeft</b> links-nach-rechts-Sprachen wie Englisch.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlTextAlignLeft</b> links-nach-rechts-Sprachen wie Englisch.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TopIndex">
@@ -775,9 +730,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der den Index des Elements oben im angezeigten Teil der Liste darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wie die Liste der Fensterinhalt verschoben, das Element am oberen Rand der Liste geändert wird und der Wert dieser Eigenschaft ändert sich entsprechend das Element derzeit am Anfang der Liste angezeigt.</para> Der Index 
-          <para>Wert ist nullbasiert. Der Standardwert ist-1, was bedeutet, dass keine besondere Reihenfolge angewendet werden soll.</para><para /></remarks>
+        <remarks><para>Bei einem Durchlauf durch die Liste ändert sich das Element oben in der Liste. Der Wert dieser Eigenschaft ändert sich ebenfalls, um das derzeit oben in der Liste angezeigte Element wiederzugeben.</para>
+          <para>Der Indexwert basiert auf Null. Der Standardwert ist -1. Dieser Wert gibt an, dass keine bestimmte Reihenfolge angewendet werden soll.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -808,10 +763,8 @@
       <Docs>
         <summary>Gibt zurück oder legt diesen fest ein <b>Objekt</b> , das den Inhalt in der vom Steuerelement angezeigten Liste ausgewählte darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert ist identisch mit dem Wert der <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, mit der Ausnahme, dass diese Eigenschaft <b>-Objekt ist</b> und <b>Text</b> eine starke als <b>String</b> (<b>Zeichenfolge</b> in c# Typisierung ist).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert ist identisch mit dem Wert der <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.Text" />, mit der Ausnahme, dass diese Eigenschaft <b>-Objekt ist</b> und <b>Text</b> eine starke als <b>String</b> (<b>Zeichenfolge</b> in c# Typisierung ist).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

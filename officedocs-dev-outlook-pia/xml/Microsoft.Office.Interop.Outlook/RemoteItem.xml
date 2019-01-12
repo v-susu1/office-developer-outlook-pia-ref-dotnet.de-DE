@@ -1,13 +1,5 @@
 <Type Name="RemoteItem" FullName="Microsoft.Office.Interop.Outlook.RemoteItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="185bb292e440d2cfff3fc9eb8ff8016fa4d88ef0" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635826" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RemoteItem : Microsoft.Office.Interop.Outlook._RemoteItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2d1a845c1efe54e2a56a599591afc65f4a592e8c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902138" /></Metadata><TypeSignature Language="C#" Value="public interface RemoteItem : Microsoft.Office.Interop.Outlook._RemoteItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RemoteItem implements class Microsoft.Office.Interop.Outlook._RemoteItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RemoteItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface RemoteItem&#xA;Implements _RemoteItem, ItemEvents_10_Event" />
@@ -34,16 +26,14 @@
   </Attributes>
   <Docs>
     <summary>Stellt ein Remoteelement in dem Ordner Posteingang dar.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._RemoteItem" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
-      <para>Das <b>RemoteItem</b> -Objekt ist vergleichbar mit der <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekt, es enthält jedoch nur Betreff, Empfangsdatum und Uhrzeit, Absender, Größe und die ersten 256 Zeichen im Textkörper der Nachricht. Es wird verwendet, um eine Person mit einer Remoteverbindung über genügend Informationen, um zu entscheiden, ob die entsprechende e-Mail-Nachricht herunterladen. Jedoch die Kopfzeilen in einer Offlineordnerdatei (OST) enthaltenen Elemente können nicht zugegriffen werden mithilfe des <b>RemoteItem</b> -Objekts.</para>
-      <para>Im Gegensatz zu anderen Microsoft Outlook-Objekten dieses Objekt kann nicht erstellt. Remote-Elementen werden automatisch von Outlook erstellt, wenn Sie eine Verbindung System RAS (Remote Access) verwenden. Jedes <b>RemoteItem</b> -Objekt erstellt, auf dem lokalen System entspricht einem bereits vorhandenen <b>MailItem</b> -Objekt auf dem Remotesystem.</para>
-      <para>Das <b>RemoteItem</b> -Objekt erbt eine Anzahl von Eigenschaften, Methoden und Ereignisse, die aufgrund der Art des Objekts keine Funktion haben. Der Objektkatalog zeigt diese Eigenschaften, Methoden und Ereignisse für das <b>RemoteItem</b> -Objekt gehört, aber an erzeugt wirkungslos.</para>
-      <para>Die Methoden für das <b>RemoteItem</b> -Objekt nicht funktionsfähig sind, <b>Close</b>, <b>Copy</b>, <b>Anzeigen</b>, <b>Verschieben</b>und <b>Speichern</b>.</para>
-      <para>Die Eigenschaften, die für das <b>RemoteItem</b> -Objekt nicht funktionsfähig sind, <b>BillingInformation</b>, <b>Body</b>, <b>Categories</b>, <b>Unternehmen</b>und <b>Mileage ein</b>.</para>
-      <para>Die Ereignisse, die für das <b>RemoteItem</b> -Objekt nicht funktionsfähig sind, <b>Open</b>, <b>Close</b>, <b>Weiterleiten</b>, <b>Reply</b>, <b>ReplyAll</b>und <b>Senden</b>.</para>
-      <para />
-    </remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._RemoteItem" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />.</para>
+      <para>Das <b>RemoteItem</b> -Objekt ähnelt der <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekt, es enthält jedoch nur Betreff, Empfangsdatum und Uhrzeit, Absender, Größe und die ersten 256 Zeichen im Textkörper der Nachricht. Es wird verwendet, um eine Person mit einer Remoteverbindung über genügend Informationen, um zu entscheiden, ob die entsprechende e-Mail-Nachricht herunterladen. Die Kopfzeilen in einer Offlineordnerdatei (OST) enthaltenen Elemente können jedoch mithilfe des <b>RemoteItem</b> -Objekts zugegriffen werden.</para>
+      <para>Dieses Objekt kann nicht erstellt werden, im Gegensatz zu anderen Objekten Microsoft Outlook. Remote-Elementen werden automatisch von Outlook erstellt, wenn Sie eine Verbindung System RAS (Remote Access) verwenden. Jedes <b>RemoteItem</b> -Objekt erstellt, auf dem lokalen System entspricht einem bereits vorhandenen <b>MailItem</b> -Objekt auf dem Remotesystem.</para>
+      <para>Das <b>RemoteItem</b> -Objekt erbt eine Anzahl von Eigenschaften, Methoden und Ereignisse, die aufgrund der Art des Objekts keine Funktion haben. Im Objektbrowser angezeigt wird, diese Eigenschaften, Methoden und Ereignisse für das <b>RemoteItem</b> -Objekt gehört, aber an erzeugt keine Auswirkung.</para>
+      <para>Die Methoden für das <b>RemoteItem</b> -Objekt nicht funktionsfähig sind <b>Close</b>, <b>Copy</b>, <b>Anzeigen</b>, <b>Verschieben</b> und <b>Speichern</b>.</para>
+      <para>Die Eigenschaften für das <b>RemoteItem</b> -Objekt nicht funktionsfähig sind <b>BillingInformation</b>, <b>Body</b>, <b>Categories</b>, <b>Unternehmen</b> und <b>Mileage ein</b>.</para>
+      <para>Die Ereignisse, die für das <b>RemoteItem</b> -Objekt nicht funktionsfähig schließen <b>Open</b>, <b>Close</b>, <b>Weiterleiten</b>, <b>Reply</b>, <b>ReplyAll</b> und <b>Senden</b>.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

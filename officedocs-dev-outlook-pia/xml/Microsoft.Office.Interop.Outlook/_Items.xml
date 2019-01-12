@@ -1,0 +1,897 @@
+<Type Name="_Items" FullName="Microsoft.Office.Interop.Outlook._Items">
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7bd8b181e72530f36fac5524b4ed22a89311b9c6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898382" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Items implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Items" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _Items&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _Items : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063041-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt. Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist. Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Items" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public object Add (object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Add([in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Type As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Der Outlook-Elementtyp für das neue Element. Gibt eine <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" /> zum Erstellen von benutzerdefinierter Formularen. Kann eine der folgenden <b>OlItemType</b> -Konstanten sein: <b>OlAppointmentItem</b>, <b>OlContactItem</b>, <b>OlJournalItem</b>, <b>OlMailItem</b>, <b>OlNoteItem</b>, <b>OlPostItem</b> oder <b>OlTaskItem,</b> oder eine beliebige gültige Nachrichtenklasse.</param>
+        <summary>Erstellt ein neues Outlook-Element in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> -Auflistung für den Ordner.</summary>
+        <returns>Ein Objektwert, der das neue Outlook-Element darstellt.</returns>
+        <remarks><para>Wenn nicht angegeben, wird standardmäßig die <b>Type</b> -Eigenschaft des Outlook-Elements in den Typ des Ordners oder zu <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> Wenn des übergeordneten Ordners nicht eingegeben wurde.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Class" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(80)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public object Find (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Find([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (Filter As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Find(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">Eine Zeichenfolge, die die Kriterien angibt, die das zurückgegebene Objekt erfüllen muss.</param>
+        <summary>Sucht und gibt ein Outlook-Elementobjekt, die erfüllt die angegebenen <paramref name="Filter" />.</summary>
+        <returns>Ein Objektwert, der ein Outlook-Element darstellt, wenn der Aufruf erfolgreich ist; Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn der Aufruf fehlschlägt.</returns>
+        <remarks><para>Indizierung Inhaltssuche in verwenden die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> -Auflistung verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> Methode. <b>FindRow</b> gibt einen Fehler zurück, wenn <paramref name="Filter" /> Content Indizierung Schlüsselwörter enthält. Weitere Informationen zu Inhalt indizieren von Schlüsselwörtern finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87947">Filtern von Elementen mithilfe von Abfrageschlüsselwörtern</a></para>
+          <para>Die Methode zurückgegebenen Fehler mit den folgenden Eigenschaften in die <paramref name="Filter" />: </para>
+          <list type="table">
+            <item>
+              <description>BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</description>
+              <description>LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</description>
+            </item>
+          </list>
+          <para>Filter für die Suchen und Einschränken-Methode erstellen</para>
+          <para>Die Syntax für den Filter variiert je nach dem Typ des Felds, das Sie filtern möchten.</para>
+          <para>Zeichenfolge (für Textfelder) </para>
+          <para>Beim Durchsuchen von Textfeldern können Sie entweder ein Apostroph (') oder doppelte Anführungszeichen ("") um die Werte einzugrenzen, die Teil des Filters sind. Bei das Feld vom Typ alle Zeilen in der folgenden Funktion beispielsweise ordnungsgemäß <b>String</b> (<b>Zeichenfolge</b> in c#): </para>
+          <para>sFilter = "[Firma] = 'Microsoft'" </para>
+          <para>sFilter = "[Firma] =""Microsoft" "" </para>
+          <para>sFilter = "[Firma] =" &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</para>
+          <para>Wenn Sie beim Angeben eines Filters in einer Jet- oder DASL-Abfrage ein Paar einfache Anführungszeichen zum Trennen einer Zeichenfolge verwenden, die Bestandteil des Filters ist, und diese Zeichenfolge ein weiteres einfaches Anführungszeichen oder Apostroph enthält, müssen Sie ein weiteres einfaches Anführungszeichen vor dem zusätzlichen einfachen Anführungszeichen bzw. Apostroph als Escapezeichen hinzufügen. Gehen Sie ähnlich vor, wenn ein Paar doppelte Anführungszeichen zum Trennen einer Zeichenfolge verwendet wird. Enthält die Zeichenfolge bereits ein doppeltes Anführungszeichen, fügen Sie ein weiteres doppeltes Anführungszeichen als Escapezeichen vor diesem doppelten Anführungszeichen hinzu.</para>
+          <para>Beispielsweise wird in der DASL-Filter Zeichenfolge, die die Filter für die <b>Subject</b> -Eigenschaft, um das Wort ist nicht möglich, die gesamte Filterzeichenfolge durch ein Paar von doppelten Anführungszeichen begrenzt wird und die eingebettete Zeichenfolge kann nicht durch ein Paar von einfachen Anführungszeichen begrenzt. Es gibt drei Zeichen, die Sie in diese Filterzeichenfolge escape müssen: das Start-Anführungszeichen und das Enddatum Anführungszeichen für den Eigenschaftenverweis http://schemas.microsoft.com/mapi/proptag/0x0037001f, und der Apostroph in der Bedingung Wert für das Wort ist nicht möglich. Durch Anwendung der geeigneten Escapezeichen kann die Filterzeichenfolge wie folgt ausgedrückt werden:</para>
+          <para>Filter = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "=" können '' t'"</para>
+          <para>
+
+ 
+
+Alternativ können Sie die chr(34)-Funktion verwenden, um das doppelte Anführungszeichen darzustellen (dessen ASCII-Zeichenwert "34" ist), das als Escapezeichen verwendet wird. Unter Verwendung der chr(34)-Ersetzung für ein doppeltes Anführungszeichen als Escapezeichen können Sie das letzte Beispiel wie folgt ausdrücken:
+
+ 
+
+</para>
+          <para>Filter = "@SQL =" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</para>
+          <para>    &amp;Chr(34) &amp; "=" &amp; "' können '' t'"</para>
+          <para>Das Escapen von einfachen und doppelten Anführungszeichen ist ebenfalls in DASL-Abfragen mit den Operatoren <b>ci_startswith</b> und <b>ci_phrasematch</b> erforderlich. Folgende Abfrage führt beispielsweise eine Begriffvergleichsabfrage für can't im Nachrichtenbetreff aus:
+
+ 
+
+</para>
+          <para>Filter = "@SQL =" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</para>
+          <para>    &amp;Chr(34) &amp; "Ci_phrasematch" &amp; "' können '' t'"</para>
+          <para>Ein weiteres Beispiel ist eine Zeichenfolge der DASL-Filter, die für die <b>Subject</b> -Eigenschaft, um die Wörter die richtigen Dinge filtert, in dem die Dinge Word in Anführungszeichen eingeschlossen. In diesem Fall müssen Sie die umschließenden doppelten Anführungszeichen wie folgt setzen:</para>
+          <para>Filter = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "="rechts "" Dinge"" ""</para>
+          <para>Ein anderer Satz von Schutzregeln gilt für eine Eigenschaftsreferenz für benannte Eigenschaften, die ein Leerzeichen, einfache Anführungszeichen, doppelte Anführungszeichen oder ein Prozentzeichen enthalten. Weitere Informationen finden Sie unter Eigenschaften nach Namespace referenzieren.</para>
+          <para>Datum</para>
+          <para>Obwohl Datums- und Zeitangaben in der Regel mit einem Datumsformat gespeichert sind, müssen der Find- und Restrict-Methode das Datum und die Uhrzeit in eine String-Darstellung konvertiert werden soll. Um sicherzustellen, dass das Datum wie von Microsoft Outlook erwartet formatiert ist, verwenden Sie die Funktion Format. Im folgenden Beispiel wird einen Filter erstellt, um alle Kontakte zu finden, die nach dem 15. Januar 1999, 15:30 Uhr, geändert wurden </para>
+          <para>sFilter = "[LastModificationTime] &gt; '" &amp; Format ("1/15/99 15:30 Uhr", "Ddddd H:nn AMPM") &amp; "" "</para>
+          <para>Boolesche Operatoren</para>
+          <para>Operatoren vom Typ Boolean (TRUE/FALSE, YES/NO, ON/OFF usw.) dürfen nicht in eine Zeichenfolge konvertiert werden. Wenn Sie z. B. ermitteln möchten, ob das Journal für Kontakte aktiviert ist, können Sie den folgenden Filter verwenden:</para>
+          <para>sFilter = "[Journal] = True" </para>
+          <para>
+            <b>Hinweis</b>: Wenn Sie Anführungszeichen als Trennzeichen in Feldern vom Typ Boolean verwenden, und klicken Sie dann eine leere Zeichenfolge Elemente findet, deren Felder weisen den Wert false, und alle nicht leeren Zeichenfolgen werden Elemente, deren Felder True sind, gefunden.</para>
+          <para>Schlüsselwörter (oder Kategorien)</para>
+          <para>Das Feld Categories ist vom Typ Keywords und ist mehrere Werte enthalten. Das Feld Kategorien verhält sich wie ein Textfeld, und die Zeichenfolge muss exakt übereinstimmen, wenn Sie einen programmgesteuerten Zugriff verwenden. Werte in der Textzeichenfolge sind durch ein Komma und ein Leerzeichen voneinander getrennt. Dies bedeutet normalerweise, dass Sie die Methoden Suchen und Einschränken für ein Keyword-Feld nicht verwenden können, wenn es mehr als einen Wert enthält. Wenn Sie beispielsweise über einen Kontakt in der Kategorie Business verfügen und über je einen Kontakt in den Kategorien Business und Soziales Netzwerk, können Sie nicht einfach die Methoden Suchen und Einschränken verwenden, um alle Elemente in der Kategorie Business abzurufen. Stattdessen können Sie durch alle Kontakte im Ordner blättern und die Funktion Instr verwenden, um zu überprüfen, ob die Zeichenfolge „Business“ im gesamten Keywords-Feld enthalten ist. </para>
+          <para>
+            <b>Hinweis</b>: eine mögliche Ausnahme ist, wenn das Feld Kategorien auf zwei oder eine geringe Anzahl von Werten zu begrenzen. Anschließend können Sie mithilfe der Find- und Restrict-Methode mit den logischen Operator OR alle geschäftlichen Kontakte abrufen. Zum Beispiel (im Pseudocode): "Unternehmen" oder "Unternehmen, persönlich" oder "Persönlich, Unternehmen" Bei Kategoriezeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden.</para>
+          <para>Ganze Zahl</para>
+          <para>Sie können für Felder mit ganzen Zahlen mit oder ohne Anführungszeichen als Trennzeichen suchen. Die folgenden Filter werden nach Kontakten gesucht, die mit Outlook 2000 erstellt wurden: </para>
+          <para>sFilter = "[OutlookInternalVersion] = 92711" </para>
+          <para>sFilter = "[OutlookInternalVersion] = '92711'"</para>
+          <para>Verwendung von Variablen als Teil des Filters</para>
+          <para>Wie Beispiel mit der Restrict-Methode veranschaulicht wird, können Sie die Werte aus Variablen als Teil des Filters. Im folgenden Codebeispiel in Microsoft Visual Basic zeigt Syntax, die Variablen als Teil des Filters verwendet. </para>
+          <para>sFullName = "Dan Wilson" </para>
+          <para> Dieser Ansatz verwendet Chr(34) zum Begrenzen des Werts verwendet: sFilter = "[FullName] =" &amp; Chr(34) &amp; sFullName &amp; Chr(34) </para>
+          <para> Dieser Ansatz werden doppelte Anführungszeichen zum Begrenzen des Werts verwendet: sFilter = "[FullName] =" "" &amp; sFullName &amp; "" "</para>
+          <para>Verwenden von logischen Operatoren als Teil des Filters</para>
+          <para>Logische Operatoren, die zulässig sind, sind UND, ODER und NICHT. Im folgenden werden Variationen für die Restrict-Methode, sodass Sie mehrere Kriterien angeben können.  </para>
+          <para>ODER: Der folgende Code gibt alle Kontaktelemente zurück, die entweder Business oder Persönlich als Kategorie verwenden.</para>
+          <para>sFilter = "[Kategorien] = 'Privat' oder [Kategorien] ="Business"" </para>
+          <para>AND: Der folgende Code ruft alle persönlichen Kontakte auf, die bei Microsoft arbeiten.</para>
+          <para>sFilter = "[Kategorien] = 'Privat' und [Firma] = 'Microsoft'" </para>
+          <para>NOT: Der folgende Code ruft alle persönlichen Kontakte auf, die nicht bei Microsoft arbeiten.</para>
+          <para>sFilter = "[Kategorien] = 'Privat' und nicht ([Firma] ="Microsoft")"</para>
+          <para>Zusätzliche Hinweise</para>
+          <para>Wenn Sie versuchen, die mit benutzerdefinierten Feldern der Find- oder Restrict-Methode verwenden, müssen die Felder im Ordner definiert werden, da andernfalls ein Fehler auftritt. Es gibt keine Möglichkeit, einen "Enthält"-Vorgang auszuführen. Beispielsweise können Sie Sucher oder Einschränken verwenden, um nach Elementen zu suchen, die ein bestimmtes Wort im Feld Betreff enthalten. Sie können stattdessen die Methode AdvancedSearch verwenden, oder durch alle Elemente im Ordner blättern und die Funktion InStr Funktion verwenden, um eine Suche in einem Feld durchzuführen. Sie können die Methode Einschränken verwenden, um nach Elementen zu suchen, die mit einem bestimmten Bereich von Zeichen beginnen. Um beispielsweise nach allen Kontakten zu suchen, deren Nachname mit dem Buchstaben M beginnt, verwenden Sie diesen Filter: </para>
+          <para>sFilter = "[Nachname] &gt; 'LZZZ' And [LastName] &lt; ' n '"</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNext">
+      <MemberSignature Language="C#" Value="public object FindNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object FindNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ FindNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Nach der <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> Methode ausgeführt wird, diese Methode sucht und gibt das nächste Outlook-Element in der angegebenen Auflistung zurück.</summary>
+        <returns>Ein Objektwert, der das nächste gefundene Outlook-Element in der Auflistung darstellt.</returns>
+        <remarks><para> Der Suchvorgang beginnt an der aktuellen Position, die den Ausdruck festgelegte über die <b>Find</b> -Methode entspricht.</para>
+          <para>Die Methode gibt ein Outlook-Element Objekt, wenn der Aufruf erfolgreich ist; Es gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn der Aufruf fehlschlägt.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFirst">
+      <MemberSignature Language="C#" Value="public object GetFirst ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFirst() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFirst () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetFirst();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(86)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Das erste Objekt in der Auflistung wird zurückgegeben.</summary>
+        <returns>Ein Objektwert, der das erste in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para>Gibt <b>Nothing zurück</b> , wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind. Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLast">
+      <MemberSignature Language="C#" Value="public object GetLast ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetLast() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLast () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetLast();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(88)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Das letzte Objekt in der Auflistung wird zurückgegeben.</summary>
+        <returns>Ein Objektwert, der das letzte in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNext">
+      <MemberSignature Language="C#" Value="public object GetNext ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetNext() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetNext () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetNext();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(87)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Das nächste Objekt in der Auflistung wird zurückgegeben.</summary>
+        <returns>Ein Objektwert, der das nächste in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPrevious">
+      <MemberSignature Language="C#" Value="public object GetPrevious ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetPrevious() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPrevious () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetPrevious();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Das vorherige Objekt in der Auflistung wird zurückgegeben.</summary>
+        <returns>Ein Objektwert, der das vorherige in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeRecurrences">
+      <MemberSignature Language="C#" Value="public bool IncludeRecurrences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeRecurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeRecurrences As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeRecurrences { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(206)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der <b>True</b> angibt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung Serienmuster enthalten soll. Lese-/Schreibzugriff.</summary>
+        <value>To be added.</value>
+        <remarks><para>Diese Eigenschaft wird nur wirksam, wenn die <b>Items</b> -Auflistung Termine enthält und nicht nach ist eine beliebige Eigenschaft außer sortiert <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> in aufsteigender Reihenfolge. Der Standardwert ist <b>False</b>. Verwenden Sie diese Eigenschaft, wenn Sie alle Termine für ein bestimmtes Datum abrufen möchten, auf dem würde Terminserien normalerweise nicht angezeigt werden, da sie nicht mit einem bestimmten Datum verknüpft sind. Wenn Sie müssen zum Sortieren und Filtern auf Terminelemente Termine, die Terminserien enthalten, müssen Sie dazu in der angegebenen Reihenfolge: die Elemente in aufsteigender Reihenfolge sortiert, <b>IncludeRecurrences</b> auf <b>True</b> festgelegt und dann die Elemente filtern. Ein Codebeispiel mit dieser Reihenfolge finden Sie im zweite Beispiel unten. Die Auflistung Terminserien ohne Enddatum enthält, kann die Eigenschaft auf <b>True</b> festlegen die Auflistung, das unendlich viele verursachen. Achten Sie darauf, dass Sie einen Test für dieses in jeder Schleife enthalten. Sie sollten nicht <b>Count</b> -Eigenschaft der <b>Items</b> -Auflistung verwenden, wenn Sie die <b>Items</b> -Auflistung mit <b>IncludeRecurrence</b> -Eigenschaft auf <b>True</b> festgelegt. Der Wert von <b>Count</b> wird ein nicht definierter Wert sein.</para>
+          <para>
+            <b>Vorsicht</b>: Filterung anhand einer sortierten Liste von Vorkommen bewirkt, dass die IncludeRecurrences-Eigenschaft nicht wie erwartet funktionieren. Beispielsweise gibt die folgende Sequenz Vorkommen eines Termins zurück. periodischen und nicht wiederkehrende: (1) sortieren nach die Start-Eigenschaft (2) Set-Eigenschaft auf false (3) Anruf Restrict (d. h., Filter).</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</param>
+        <summary>Ein Outlook-Element aus einer Auflistung wird zurückgegeben.</summary>
+        <value>Ein Objektwert, der das angegebene Objekt darstellt.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RawTable">
+      <MemberSignature Language="C#" Value="public object RawTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RawTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.RawTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RawTable As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RawTable { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (int Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Remove([in]int32 Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Remove(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Remove (Index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(int Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(84)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Der 1-basierte Indexwert des Objekts in der Auflistung.</param>
+        <summary>Entfernt ein Objekt aus der Auflistung.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetColumns">
+      <MemberSignature Language="C#" Value="public void ResetColumns ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetColumns() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.ResetColumns" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetColumns ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetColumns();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(93)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Löscht die Eigenschaften, die mit zwischengespeichert wurden die <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> Methode.</summary>
+        <remarks><para>Alle Eigenschaften kann weiterhin zugegriffen werden, nachdem die <b>ResetColumns</b> -Methode aufrufen. <b>SetColumns</b> sollte erneut verwendet werden, um die neue Eigenschaften zu speichern. <b>ResetColumns</b> hat keine Funktion, wenn <b>SetColumns</b> nicht vorher aufgerufen wurde.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Restrict">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.Items Restrict (string Filter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Outlook.Items Restrict([in]string Filter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Restrict (Filter As String) As Items" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Outlook::Items ^ Restrict(System::String ^ Filter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Items</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filter" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filter">Ein Filterausdruck, der angewendet werden sollen. Weitere Informationen hierzu finden Sie unter der <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> Methode.</param>
+        <summary>Wendet einen Filter auf die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung an und gibt eine neue Auflistung mit allen Elementen des Originals zurück, die dem Filter entsprechen.</summary>
+        <returns>Eine <b>Items</b> -Auflistung, die die Elemente darstellt, aus der ursprünglichen <b>Items</b> -Auflistung, die dem Filter entsprechen.</returns>
+        <remarks><para>Diese Methode ist eine Alternative zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> Methode oder <see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" /> -Methode, um bestimmte Elemente in einer Auflistung durchlaufen. Die Methoden <b>Suchen</b> oder <b>FindNext</b> sind schneller als Filtern, wenn eine kleine Anzahl von Elementen vorhanden ist. Die Methode <b>Einschränken</b> ist deutlich schneller, wenn die Anzahl der Elemente in einer Sammlung hoch ist, besonders, wenn in einer großen Sammlung nur wenige Elemente gefunden werden sollen.</para>
+          <para>
+            <b>Hinweis</b>: Wenn Sie benutzerdefinierte Felder als Teil einer <b>Find</b> - oder <b>Restrict</b> -Klausel verwenden, müssen die benutzerdefinierten Felder im Ordner vorhanden. Andernfalls generiert der Code einen Fehler, der besagt, dass das Feld nicht bekannt ist. Sie können ein Feld in einem Ordner hinzufügen, indem Sie mit Feldauswahl anzeigen und auf Neu klicken.</para>
+          <para>Diese Methode kann nicht verwendet werden und verursacht einen Fehler mit den folgenden Eigenschaften:</para>
+          <list type="table">
+            <item>
+              <description>BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</description>
+              <description>LastFirstNoSpaceCompanyLastFirstSpaceOnlyLastFirstSpaceOnlyCompanyLastFirstNoSpaceAndSuffixMemberCountNetMeetingAliasNetMeetingAutoStartNetMeetingOrganizerAliasNetMeetingServerNetMeetingTypeRecurrenceStateReplyRecipientsReceivedByEntryIDRecevedOnBehalfOfEntryIDResponseStateSavedSentSubmittedVotingOptionsDownloadStateIsConflictMeetingWorkspaceURL</description>
+            </item>
+          </list>
+          <para>Filter für die Suchen und Einschränken-Methode erstellen</para>
+          <para>Die Syntax für den Filter variiert je nach dem Typ des Felds, das Sie filtern möchten.</para>
+          <para>Zeichenfolge (für Textfelder) </para>
+          <para>Beim Durchsuchen von Textfeldern können Sie entweder ein Apostroph (') oder doppelte Anführungszeichen (""), um die Werte einzugrenzen, die Teil des Filters sind. Bei das Feld vom Typ alle Zeilen in der folgenden Funktion beispielsweise ordnungsgemäß <b>String</b> (<b>Zeichenfolge</b> in c#): </para>
+          <para>sFilter = "[Firma] = 'Microsoft'" </para>
+          <para>sFilter = "[Firma] =""Microsoft" "" </para>
+          <para>sFilter = "[Firma] =" &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</para>
+          <para>Wenn Sie beim Angeben eines Filters in einer Jet- oder DASL-Abfrage ein Paar einfache Anführungszeichen zum Trennen einer Zeichenfolge verwenden, die Bestandteil des Filters ist, und diese Zeichenfolge ein weiteres einfaches Anführungszeichen oder Apostroph enthält, müssen Sie ein weiteres einfaches Anführungszeichen vor dem zusätzlichen einfachen Anführungszeichen bzw. Apostroph als Escapezeichen hinzufügen. Gehen Sie ähnlich vor, wenn ein Paar doppelte Anführungszeichen zum Trennen einer Zeichenfolge verwendet wird. Enthält die Zeichenfolge bereits ein doppeltes Anführungszeichen, fügen Sie ein weiteres doppeltes Anführungszeichen als Escapezeichen vor diesem doppelten Anführungszeichen hinzu.</para>
+          <para>Beispielsweise wird in der DASL-Filter Zeichenfolge, die die Filter für die <b>Subject</b> -Eigenschaft, um das Wort ist nicht möglich, die gesamte Filterzeichenfolge durch ein Paar von doppelten Anführungszeichen begrenzt wird und die eingebettete Zeichenfolge kann nicht durch ein Paar von einfachen Anführungszeichen begrenzt. Es gibt drei Zeichen, die Sie in diese Filterzeichenfolge escape müssen: das Start-Anführungszeichen und das Enddatum Anführungszeichen für den Eigenschaftenverweis http://schemas.microsoft.com/mapi/proptag/0x0037001f, und der Apostroph in der Bedingung Wert für das Wort ist nicht möglich. Durch Anwendung der geeigneten Escapezeichen kann die Filterzeichenfolge wie folgt ausgedrückt werden:</para>
+          <para>Filter = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "=" können '' t'"</para>
+          <para>
+
+ 
+
+Alternativ können Sie die chr(34)-Funktion verwenden, um das doppelte Anführungszeichen darzustellen (dessen ASCII-Zeichenwert "34" ist), das als Escapezeichen verwendet wird. Unter Verwendung der chr(34)-Ersetzung für ein doppeltes Anführungszeichen als Escapezeichen können Sie das letzte Beispiel wie folgt ausdrücken:
+
+ 
+
+</para>
+          <para>Filter = "@SQL =" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</para>
+          <para>    &amp;Chr(34) &amp; "=" &amp; "' können '' t'"</para>
+          <para>Das Escapen von einfachen und doppelten Anführungszeichen ist ebenfalls in DASL-Abfragen mit den Operatoren <b>ci_startswith</b> und <b>ci_phrasematch</b> erforderlich. Folgende Abfrage führt beispielsweise eine Begriffvergleichsabfrage für can't im Nachrichtenbetreff aus:
+
+ 
+
+</para>
+          <para>Filter = "@SQL =" &amp; Chr(34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</para>
+          <para>    &amp;Chr(34) &amp; "Ci_phrasematch" &amp; "' können '' t'"</para>
+          <para>Ein weiteres Beispiel ist eine Zeichenfolge der DASL-Filter, die für die <b>Subject</b> -Eigenschaft, um die Wörter die richtigen Dinge filtert, in dem die Dinge Word in Anführungszeichen eingeschlossen. In diesem Fall müssen Sie die umschließenden doppelten Anführungszeichen wie folgt setzen:</para>
+          <para>Filter = "@SQL =" "http://schemas.microsoft.com/mapi/proptag/0x0037001f" "="rechts "" Dinge"" ""</para>
+          <para>Ein anderer Satz von Schutzregeln gilt für eine Eigenschaftsreferenz für benannte Eigenschaften, die ein Leerzeichen, einfache Anführungszeichen, doppelte Anführungszeichen oder ein Prozentzeichen enthalten. Weitere Informationen finden Sie unter Eigenschaften nach Namespace referenzieren.</para>
+          <para>Datum</para>
+          <para>Obwohl Datums- und Zeitangaben in der Regel mit einem Datumsformat, <b>Suchen Sie nach</b> gespeichert und <b>Restrict</b> Methoden, dass erfordern werden Datum und Uhrzeit in eine String-Darstellung konvertiert. Um sicherzustellen, dass das Datum wie von Microsoft Outlook erwartet formatiert ist, verwenden Sie die Funktion <b>Format</b>. Im folgenden Beispiel wird einen Filter erstellt, um alle Kontakte zu finden, die nach dem 15. Januar 1999, 15:30 Uhr, geändert wurden </para>
+          <para>sFilter = "[LastModificationTime] &gt; '" &amp; Format ("1/15/99 15:30 Uhr", "Ddddd H:nn AMPM") &amp; "" "</para>
+          <para>Boolesche Operatoren</para>
+          <para>Operatoren vom Typ Boolean (TRUE/FALSE, YES/NO, ON/OFF usw.) dürfen nicht in eine Zeichenfolge konvertiert werden. Wenn Sie z. B. ermitteln möchten, ob das Journal für Kontakte aktiviert ist, können Sie den folgenden Filter verwenden:</para>
+          <para>sFilter = "[Journal] = True" </para>
+          <para>
+            <b>Hinweis</b>: Wenn Sie Anführungszeichen als Trennzeichen in Feldern <b>vom Typ Boolean verwenden</b> , und klicken Sie dann eine leere Zeichenfolge Elemente findet, deren Felder <b>False sind,</b> und alle nicht leeren Zeichenfolgen werden Elemente, deren Felder <b>True sind,</b>gefunden. </para>
+          <para>Schlüsselwörter (oder Kategorien)</para>
+          <para>Das Feld Categories ist vom Typ Keywords und ist mehrere Werte enthalten. Das Feld Kategorien verhält sich wie ein Textfeld, und die Zeichenfolge muss exakt übereinstimmen, wenn Sie einen programmgesteuerten Zugriff verwenden. Werte in der Textzeichenfolge sind durch ein Komma und ein Leerzeichen voneinander getrennt. Dies bedeutet normalerweise, dass Sie die Methoden <b>Suchen</b> und <b>Einschränken</b> für ein Keyword-Feld nicht verwenden können, wenn es mehr als einen Wert enthält. Wenn Sie beispielsweise über einen Kontakt in der Kategorie Business verfügen und über je einen Kontakt in den Kategorien Business und Soziales Netzwerk, können Sie nicht einfach die Methoden <b>Suchen</b> und <b>Einschränken</b> verwenden, um alle Elemente in der Kategorie Business abzurufen. Stattdessen können Sie durch alle Kontakte im Ordner blättern und die Funktion <b>Instr</b> verwenden, um zu überprüfen, ob die Zeichenfolge „Business“ im gesamten Keywords-Feld enthalten ist. </para>
+          <para>
+            <b>Hinweis</b>: eine mögliche Ausnahme ist, wenn das Feld Kategorien auf zwei oder eine geringe Anzahl von Werten zu begrenzen. Klicken Sie dann können die Methoden " <b>Find</b> " und " <b>Restrict</b> mit den logischen OR-Operator Sie alle geschäftlichen Kontakte abrufen. Zum Beispiel (im Pseudocode): "Unternehmen" oder "Unternehmen, persönlich" oder "Persönlich, Unternehmen" Bei Kategoriezeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden. </para>
+          <para>Ganze Zahl</para>
+          <para>Sie können für Felder mit <b>ganzen Zahlen</b> mit oder ohne Anführungszeichen als Trennzeichen suchen. Die folgenden Filter werden nach Kontakten gesucht, die mit Outlook 2000 erstellt wurden: </para>
+          <para>sFilter = "[OutlookInternalVersion] = 92711" </para>
+          <para>sFilter = "[OutlookInternalVersion] = '92711'"</para>
+          <para>Verwendung von Variablen als Teil des Filters</para>
+          <para>Wie Beispiel mit der <b>Restrict</b> -Methode veranschaulicht wird, können Sie die Werte aus Variablen als Teil des Filters. Im folgenden Codebeispiel in Microsoft Visual Basic zeigt Syntax, die Variablen als Teil des Filters verwendet. </para>
+          <para>sFullName = "Dan Wilson" </para>
+          <para>"Dieser Ansatz verwendet Chr(34) Trennzeichen verwendet. </para>
+          <para>sFilter = "[FullName] =" &amp; Chr(34) &amp; sFullName &amp; Chr(34) </para>
+          <para>"Diesem Ansatz werden doppelte Anführungszeichen zum Begrenzen des Werts verwendet. </para>
+          <para>sFilter = "[FullName] =" "" &amp; sFullName &amp; "" "</para>
+          <para>Verwenden von logischen Operatoren als Teil des Filters</para>
+          <para>Logische Operatoren, die zulässig sind, sind UND, ODER und NICHT. Im folgenden werden Variationen für die <b>Restrict</b> -Methode, damit Sie mehrere Kriterien angeben können.  </para>
+          <para>ODER: Der folgende Code gibt alle Kontaktelemente zurück, die entweder Business oder Persönlich als Kategorie verwenden.</para>
+          <para>sFilter = "[Kategorien] = 'Privat' oder [Kategorien] ="Business"" </para>
+          <para>AND: Der folgende Code ruft alle persönlichen Kontakte auf, die bei Microsoft arbeiten.</para>
+          <para>sFilter = "[Kategorien] = 'Privat' und [Firma] = 'Microsoft'" </para>
+          <para>NOT: Der folgende Code ruft alle persönlichen Kontakte auf, die nicht bei Microsoft arbeiten.</para>
+          <para>sFilter = "[Kategorien] = 'Privat' und nicht ([Firma] ="Microsoft")"</para>
+          <para>Zusätzliche Hinweise</para>
+          <para>Wenn Sie versuchen, die mit benutzerdefinierten Feldern die <b>Find</b> - oder <b>Restrict</b> -Methoden verwenden, müssen die Felder im Ordner definiert werden, da andernfalls ein Fehler auftritt. Es gibt keine Möglichkeit, einen "Enthält"-Vorgang auszuführen. Beispielsweise können Sie <b>Sucher</b> oder <b>Einschränken</b> verwenden, um nach Elementen zu suchen, die ein bestimmtes Wort im Feld Betreff enthalten. Verwenden Sie stattdessen die <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> -Methode, oder Sie können eine Schleife durch alle Elemente im Ordner und verwenden Sie die <b>InStr</b> -Funktion in einem Feld gesucht werden soll. Sie können die Methode <b>Einschränken</b> verwenden, um nach Elementen zu suchen, die mit einem bestimmten Bereich von Zeichen beginnen. Um beispielsweise nach allen Kontakten zu suchen, deren Nachname mit dem Buchstaben M beginnt, verwenden Sie diesen Filter: </para>
+          <para>sFilter = "[Nachname] &gt; 'LZZZ' And [LastName] &lt; ' n '"</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook._Items.Session" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
+        <value>To be added.</value>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
+    Application.GetNamespace("MAPI")</code>
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
+    Application.GetNamespace("MAPI");</code>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetColumns">
+      <MemberSignature Language="C#" Value="public void SetColumns (string Columns);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetColumns([in]string Columns) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetColumns (Columns As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetColumns(System::String ^ Columns);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(92)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Columns" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Columns">Eine Zeichenfolge, die die Namen der zwischenzuspeichernden Eigenschaften enthält. Die Eigenschaftsnamen werden in dieser Zeichenfolge durch Kommas getrennt.</param>
+        <summary>Bestimmte Eigenschaften werden für den sehr schnellen Zugriff auf die jeweiligen Eigenschaften eines Elements innerhalb der Auflistung zwischengespeichert.</summary>
+        <remarks><para>Die <b>SetColumns</b> -Methode eignet sich zum Durchlaufen der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung. Wenn Sie diese Methode nicht verwenden, müssen Microsoft Outlook jedes Element zum Zugriff auf die Eigenschaft öffnen. Mit der <b>SetColumns</b> -Methode überprüft Outlook nur die Eigenschaften, die Sie zwischengespeichert wurden, und ermöglicht den schnellen, schreibgeschützten Zugriff auf diese Eigenschaften.</para>
+          <para>Sie können nicht nach dem Anwenden der <b>SetColumns</b> -Methode zu bestimmten Eigenschaften der Auflistung, andere Eigenschaften dieser Auflistung gelesen. Eigenschaften, die nicht zwischengespeichert werden, werden leer zurückgegeben. Sie können nicht in allen Eigenschaften dieser Auflistung entweder geschrieben werden. Alternativ verwenden, wenn Sie über Lese-/ Schreibzugriff, schnellen Zugriff auf eine Gruppe von Elementen benötigen, die <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekt.</para>
+          <para>
+            <b>SetColumns</b> kann nicht verwendet werden und verursacht einen Fehler, jede Eigenschaft, die ein Objekt zurückgibt. Es kann nicht mit den folgenden Eigenschaften verwendet werden:</para>
+          <list type="table">
+            <item>
+              <description>AutoResolvedWinner</description>
+              <description>InternetCodePage</description>
+            </item>
+            <item>
+              <description>Text</description>
+              <description>MeetingWorkspaceURL</description>
+            </item>
+            <item>
+              <description>BodyFormat</description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description>Categories</description>
+              <description>ReceivedByEntryID</description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description>ReceivedOnBehalfOfEntryID</description>
+            </item>
+            <item>
+              <description>Klasse</description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description>Unternehmen</description>
+              <description>ReplyRecipients</description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description>DownloadState</description>
+              <description>Gespeichert</description>
+            </item>
+            <item>
+              <description>EntryID</description>
+              <description>Gesendet</description>
+            </item>
+            <item>
+              <description>HTMLBody</description>
+              <description>Übermittelt</description>
+            </item>
+            <item>
+              <description>IsConflict</description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.VotingOptions" />
+              </description>
+            </item>
+          </list>
+          <para><b>ConversationIndex</b> -Eigenschaft kann nicht mit der <b>SetColumns</b> -Methode zwischengespeichert werden sollen. Diese Eigenschaft führt jedoch nicht zu einem Fehler wie die oben aufgelisteten Eigenschaften.</para>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public void Sort (string Property, object Descending);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Sort([in]string Property, [in]object Descending) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook._Items.Sort(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Sort (Property As String, Optional Descending As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="System.String" />
+        <Parameter Name="Descending" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Property">Der Name der Eigenschaft, anhand der sortiert werden soll; dieser kann in Klammer eingeschlossen sein, z. B. "[CompanyName]". Benutzerdefinierte Eigenschaften, die Leerzeichen enthalten, müssen in Klammern eingeschlossen werden. Darf keine benutzerdefinierte Eigenschaft von type-Schlüsselwörtern und keine mehrwertige Eigenschaft, z. B. „category“, sein. Für benutzerdefinierte Eigenschaften die Eigenschaft muss in der <b>UserDefinedProperties</b> -Auflistung vorhanden <see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />, welche stellt die <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das die Elemente enthält.</param>
+        <param name="Descending"><b>True,</b> um in absteigender Reihenfolge zu sortieren. Der Standardwert ist <b>False</b> (aufsteigend). </param>
+        <summary>Sortiert die Auflistung der Elemente nach der angegebenen Eigenschaft. Der Index für die Auflistung wird nach Abschluss dieser Methode auf 1 zurückgesetzt.</summary>
+        <remarks><para>
+            <b>Sort</b> wirkt sich lediglich auf die Reihenfolge der Elemente in einer Auflistung. Es wirkt sich nicht auf die Reihenfolge von Elementen in einem Explorer-Ansicht.</para>
+          <para>
+            <b>Sort</b> kann nicht verwendet werden und verursacht einen Fehler, wenn die <paramref name="property" /> Parameters ist eine der folgenden Eigenschaften:                </para>
+          <list type="table">
+            <item>
+              <description>
+                <b>Kategorien</b>
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnly" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.Children" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstSpaceOnlyCompany" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>Klasse</b>
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.MemberCount" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstNoSpace" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.NetMeetingAlias" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CompanyLastFirstSpaceOnly" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.RecurrenceState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._DistListItem.DLName" />
+              </description>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ResponseState" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstAndSuffix" />
+              </description>
+              <description>
+                <b>Gespeichert</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpace" />
+              </description>
+              <description>
+                <b>Gesendet</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstNoSpaceCompany" />
+              </description>
+              <description />
+            </item>
+          </list>
+          <para> </para></remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

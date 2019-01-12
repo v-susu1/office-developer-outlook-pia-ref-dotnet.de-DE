@@ -1,13 +1,5 @@
 <Type Name="OutlookBarGroup" FullName="Microsoft.Office.Interop.Outlook.OutlookBarGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="85ca0de3e88bd9c5976bfd7505500d389abf4bd8" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637115" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarGroup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="4832de3e6e97658b3771932387a27b9514bc5a81" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901466" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarGroup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarGroup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarGroup" />
@@ -27,10 +19,8 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Gruppe von Verknüpfungen im Verknüpfungsbereich eines Explorer-Fensters dar.</summary>
-    <remarks>
-      <para>Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarGroups.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) zum Abrufen des <b>OutlookBarGroup</b> -Objekts aus einer <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> Objekt. Da die <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarGroup.Name" /> -Eigenschaft die Standardeigenschaft des <b>OutlookBarGroup</b> -Objekts ist, können Sie die Gruppe namentlich identifizieren.</para>
-      <para />
-    </remarks>
+    <remarks><para>Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarGroups.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) zum Abrufen des <b>OutlookBarGroup</b> -Objekts aus einer <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> Objekt. Da die <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarGroup.Name" /> -Eigenschaft die Standardeigenschaft des <b>OutlookBarGroup</b> -Objekts ist, können Sie die Gruppe namentlich identifizieren.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -173,16 +163,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Shortcuts">
@@ -241,10 +229,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlOutlookBarViewType" /> Geben Sie Konstante, die die Ansicht darstellt ein <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroup" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft hat keine Auswirkung auf die im Verknüpfungsbereich angezeigten Symbole. Große Symbole wurden entfernt, und wenn diese Eigenschaft auf <b>OlLargeIcon</b>festgelegt ist, wird es nicht keinen Einfluss haben.  In früheren Versionen von Microsoft Outlook gibt, oder legt die Symbolansicht durch die angegebene Gruppe von Outlook-Leiste angezeigt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft hat keine Auswirkung auf die im Verknüpfungsbereich angezeigten Symbole. Große Symbole wurden entfernt, und wenn diese Eigenschaft auf <b>OlLargeIcon</b> festgelegt ist, wird es nicht keinen Einfluss haben.  In früheren Versionen von Microsoft Outlook gibt, oder legt die Symbolansicht durch die angegebene Gruppe von Outlook-Leiste angezeigt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

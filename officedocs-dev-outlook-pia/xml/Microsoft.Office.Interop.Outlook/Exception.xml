@@ -1,13 +1,5 @@
 <Type Name="Exception" FullName="Microsoft.Office.Interop.Outlook.Exception">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9b115b7a385cbe53cefdab4d3a549f6f64635e72" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636461" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Exception" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="47943f3ce7b614b555767c32ad8d514efe3bf2b1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899985" /></Metadata><TypeSignature Language="C#" Value="public interface Exception" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Exception" />
   <TypeSignature Language="VB.NET" Value="Public Interface Exception" />
@@ -27,14 +19,12 @@
   </Attributes>
   <Docs>
     <summary>Stellt Informationen zu einer Instanz einer <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekt, das eine Ausnahme in einer Terminserie ist.</summary>
-    <remarks>
-      <para>Im Gegensatz zu anderen Microsoft Outlook-Objekten ist das <b>Exception</b> -Objekt ein nur-Lese-Objekt. Dies bedeutet, dass Sie ein <b>Exception</b> -Objekt können nicht erstellt werden, aber das Objekt wird vielmehr erstellt, wenn eine Eigenschaft eines <b>AppointmentItem-Objekts</b> geändert wird. Angenommen, Sie ändern die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> -Eigenschaft eines <b>AppointmentItem-Objekts</b>, Sie haben eine <b>Ausnahme</b><b>das Objekt</b>erstellt.</para>
+    <remarks><para> Im Gegensatz zu anderen Microsoft Outlook-Objekten ist das <b>Exception</b> -Objekt ein nur-Lese-Objekt. Dies bedeutet, dass Sie ein <b>Exception</b> -Objekt können nicht erstellt werden, aber das Objekt wird vielmehr erstellt, wenn eine Eigenschaft eines <b>AppointmentItem-Objekts</b> geändert wird. Angenommen, Sie ändern die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> -Eigenschaft eines <b>AppointmentItem-Objekts</b>, Sie haben eine <b>Ausnahme</b> erstellt, <b>das Objekt</b>.</para>
       <para>
         <b>Hinweis</b>: die <see cref="T:Microsoft.Office.Interop.Outlook.Exceptions" /> -Objekt befindet sich die <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> , nicht im eigentlichen <b>AppointmentItem</b> -Objekt.</para>
-      <para>Beim Arbeiten mit Terminserien Termin, sollten Sie vorherige freigeben Referenzen, erhalten neue Verweise auf die wiederkehrenden Terminelement, bevor Sie zugreifen, oder ändern Sie das Element, und diese Verweise freigeben, sobald Sie fertig sind und gespeichert haben die ändert. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Um einen Verweis in Visual Basic freizugeben, legen Sie das vorhandene Objekt auf <b>Nothing zurück</b>. In c# explizit freigeben des Speichers für dieses Objekt. </para>
-      <para>Beachten Sie, dass auch wenn Sie den Verweis freigeben, und versuchen, einen neuen Verweis, abzurufen, wenn sich weiterhin ein aktiver Verweis, frei, die von einem anderen-add-in oder Outlook, können Sie eine der oben genannten Objekte, der neue Verweis noch eine veraltete Kopie der verweisen wird die -Objekt. Daher ist es wichtig, dass Sie Ihre Verweise freigeben, sobald Sie mit der Terminserie fertig sind.</para>
-      <para />
-    </remarks>
+      <para>Wenn Sie mit Terminserien arbeiten, müssen Sie vorherige Verweise freigeben, neue Verweise auf das Terminserienelement abrufen, bevor Sie das Element öffnen oder bearbeiten, und diese Verweise freigeben, sobald Sie Ihre Änderungen abgeschlossen und gespeichert haben. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Legen Sie zum Freigeben eines Verweises in Visual Basic das vorhandene Objekt auf <b>Nothing</b> fest. Geben Sie in C# den Arbeitsspeicher für dieses Objekt explizit frei. </para>
+      <para>Beachten Sie Folgendes: Selbst wenn Sie den Verweis freigegeben haben und versuchen, einen neuen Verweise abzurufen, zeigt der neue Verweis weiterhin auf eine veraltete Kopie des Objekts, wenn immer noch ein aktiver Verweis auf eines der obigen Objekte vorhanden ist, der von einem anderen Add-In oder von Outlook verwendet wird. Deshalb ist es wichtig, dass Sie die Verweise freigeben, sobald Sie die Bearbeitung der Terminserie abgeschlossen haben.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -90,11 +80,9 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt, das die Ausnahme ist. Nicht für gelöschten Termine zulässig. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Beim Arbeiten mit Terminserien Termin, sollten Sie vorherige freigeben Referenzen, erhalten neue Verweise auf die wiederkehrenden Terminelement, bevor Sie zugreifen, oder ändern Sie das Element, und diese Verweise freigeben, sobald Sie fertig sind und gespeichert haben die ändert. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Um einen Verweis in Visual Basic freizugeben, legen Sie das vorhandene Objekt auf <b>Nothing zurück</b>. In c# explizit freigeben des Speichers für dieses Objekt. </para>
-          <para>Beachten Sie, dass auch wenn Sie den Verweis freigeben, und versuchen, einen neuen Verweis, abzurufen, wenn sich weiterhin ein aktiver Verweis, frei, die von einem anderen-add-in oder Outlook, können Sie eine der oben genannten Objekte, der neue Verweis noch eine veraltete Kopie des Objekts verweisen wird . Daher ist es wichtig, dass Sie Ihre Verweise freigeben, sobald Sie mit der Terminserie fertig sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn Sie mit Terminserien arbeiten, müssen Sie vorherige Verweise freigeben, neue Verweise auf das Terminserienelement abrufen, bevor Sie das Element öffnen oder bearbeiten, und diese Verweise freigeben, sobald Sie Ihre Änderungen abgeschlossen und gespeichert haben. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Legen Sie zum Freigeben eines Verweises in Visual Basic das vorhandene Objekt auf <b>Nothing</b> fest. Geben Sie in C# den Arbeitsspeicher für dieses Objekt explizit frei. </para>
+          <para>Beachten Sie Folgendes: Selbst wenn Sie den Verweis freigegeben haben und versuchen, einen neuen Verweise abzurufen, zeigt der neue Verweis weiterhin auf eine veraltete Kopie des Objekts, wenn immer noch ein aktiver Verweis auf eines der obigen Objekte vorhanden ist, der von einem anderen Add-In oder von Outlook verwendet wird. Deshalb ist es wichtig, dass Sie die Verweise freigeben, sobald Sie die Bearbeitung der Terminserie abgeschlossen haben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -265,16 +253,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

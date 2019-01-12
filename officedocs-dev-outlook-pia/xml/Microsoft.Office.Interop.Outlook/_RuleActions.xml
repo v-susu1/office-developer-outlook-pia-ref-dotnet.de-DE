@@ -1,13 +1,5 @@
 <Type Name="_RuleActions" FullName="Microsoft.Office.Interop.Outlook._RuleActions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="7b0d9621b3685ab22d601175636ec9ed19292022" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636413" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleActions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b0d9621b3685ab22d601175636ec9ed19292022" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902159" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleActions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleActions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleActions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleActions&#xA;Implements IEnumerable" />
@@ -85,13 +77,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> -Objekts mit <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.ActionType" /><b>OlRuleAssignToCategory</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AssignToCategoryRuleAction" /> -Objekts mit <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.ActionType" /> <b>OlRuleAssignToCategory</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>AssignToCategoryRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die mit der einer Nachricht Kategorien zugeordnet.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AssignToCategoryRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>AssignToCategoryRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die mit der einer Nachricht Kategorien zugeordnet.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AssignToCategoryRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AssignToCategoryRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -117,13 +107,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>OlRuleActionCcMessage</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>OlRuleActionCcMessage</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die cc-Kopieren einer Nachricht an bestimmte Empfänger als Aktion gibt an. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die cc-Kopieren einer Nachricht an bestimmte Empfänger als Aktion gibt an. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -179,11 +167,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> des <b>OlRuleActionClearCategories</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer Regel, Entfernen aller Kategorien einer Nachricht als Aktion angibt.   </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt, unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /><b>true</b>.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer Regel, Entfernen aller Kategorien einer Nachricht als Aktion angibt.   </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt, unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> <b>true</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CopyToFolder">
@@ -209,13 +195,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /><b>OlRuleActionCopyToFolder</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> <b>OlRuleActionCopyToFolder</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>MoveOrCopyRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Kopieren einer Nachricht in einen bestimmten Ordner als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>MoveOrCopyRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>MoveOrCopyRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Kopieren einer Nachricht in einen bestimmten Ordner als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>MoveOrCopyRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -243,10 +227,8 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie können Auflisten der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> Auflistung von 1 bis <b>RuleActions.Count</b> die Regelaktionen einer vorhandenen Regel zu bestimmen. Zwar Erstellen der Regeln OM unterstützt Regeln nur mit den am häufig Regelaktionen und nicht alle Regelaktionen, die von den Regeln und Benachrichtigungen Wizard unterstützt, verwendet die <b>RuleActions</b> -Auflistung enthält alle Regelaktionen einer Regel. Daher können Sie immer aufzählen das <b>RuleActions</b> -Auflistungsobjekt, um zu bestimmen, welche Regelaktionen für eine vorhandene Regel aktiviert sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können Auflisten der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> Auflistung von 1 bis <b>RuleActions.Count</b> die Regelaktionen einer vorhandenen Regel zu bestimmen. Zwar Erstellen der Regeln OM unterstützt Regeln nur mit den am häufig Regelaktionen und nicht alle Regelaktionen, die von den Regeln und Benachrichtigungen Wizard unterstützt, verwendet die <b>RuleActions</b> -Auflistung enthält alle Regelaktionen einer Regel. Daher können Sie immer aufzählen das <b>RuleActions</b> -Auflistungsobjekt, um zu bestimmen, welche Regelaktionen für eine vorhandene Regel aktiviert sind.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -272,13 +254,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>OlRuleActionDelete</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>OlRuleActionDelete</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Löschen einer Nachricht als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Löschen einer Nachricht als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeletePermanently">
@@ -304,13 +284,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>OlRuleActionDeletePermanently</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>OlRuleActionDeletePermanently</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, Löschen einer Nachricht dauerhaft als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, Löschen einer Nachricht dauerhaft als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DesktopAlert">
@@ -336,13 +314,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>OlRuleActionDesktopAlert</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>OlRuleActionDesktopAlert</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Anzeigen einer desktopbenachrichtigung als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Anzeigen einer desktopbenachrichtigung als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -368,13 +344,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>OlRuleActionForward</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>OlRuleActionForward</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Weiterleiten einer Nachricht an bestimmte Empfänger als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Weiterleiten einer Nachricht an bestimmte Empfänger als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForwardAsAttachment">
@@ -400,13 +374,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>OlRuleActionForwardAsAttachment</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>OlRuleActionForwardAsAttachment</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Weiterleiten einer Nachricht als Anlage an bestimmte Empfänger als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Weiterleiten einer Nachricht als Anlage an bestimmte Empfänger als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -438,11 +410,8 @@
         <param name="Index">Ein 1-basierter numerischen Wert, der die Ordnungsposition des Regelaktion innerhalb der <b>RuleActions</b> -Auflistung. Angenommen, der Indexwert des ersten Regelaktion in der Auflistung ist 1, und der Indexwert des zweiten Regelaktion ist 2.</param>
         <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> durch angegebene Objekt <paramref name="Index" /> also ein numerischen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> Auflistung.</summary>
         <value>Ein <b>RuleAction</b> -Objekt, die vom angegebenen Regelaktion entspricht <paramref name="Index" />.</value>
-        <remarks>
-          <para>
-            <b>RuleActions</b> -Auflistungsobjekt ist eine feste Auflistung. Sie enthält <b>RuleAction</b> -Objekte oder Objekte <b>RuleAction</b>abgeleitet. Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung, aber Sie können <b>Element</b> verwenden, um Elemente der Regelaktion aufzählen, und legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> -Eigenschaft der Regelaktion. Wenn <b>Element</b> die Auflistung aufzulisten, können Sie aufzählen <paramref name="Index" /> von 1 bis <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />.</para>
-          <para />
-        </remarks>
+        <remarks><para><b>RuleActions</b> -Auflistungsobjekt ist eine feste Auflistung. Sie enthält <b>RuleAction</b> -Objekte oder Objekte <b>RuleAction</b> abgeleitet. Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung, aber Sie können <b>Element</b> verwenden, um Elemente der Regelaktion aufzählen, und legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> -Eigenschaft der Regelaktion. Wenn <b>Element</b> die Auflistung aufzulisten, können Sie aufzählen <paramref name="Index" /> von 1 bis <see cref="P:Microsoft.Office.Interop.Outlook._RuleActions.Count" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkAsTask">
@@ -468,13 +437,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.ActionType" /><b>OlRuleActionMarkAsTask</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.MarkAsTaskRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.ActionType" /> <b>OlRuleActionMarkAsTask</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>MarkAsTaskRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die die Aktion des Markierens einer Nachricht als Aufgabe angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>MarkAsTaskRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>MarkAsTaskRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die die Aktion des Markierens einer Nachricht als Aufgabe angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>MarkAsTaskRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MarkAsTaskRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MoveToFolder">
@@ -500,13 +467,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /><b>OlRuleActionMoveToFolder</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.MoveOrCopyRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.ActionType" /> <b>OlRuleActionMoveToFolder</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>MoveOrCopyRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Kopieren einer Nachricht in einen bestimmten Ordner als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>MoveOrCopyRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>MoveOrCopyRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Kopieren einer Nachricht in einen bestimmten Ordner als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>MoveOrCopyRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewItemAlert">
@@ -532,13 +497,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.ActionType" /><b>OlRuleActionNewItemAlert</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.NewItemAlertRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.ActionType" /> <b>OlRuleActionNewItemAlert</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>NewItemAlertRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Anzeigen einer Benachrichtigung für ein neues Element als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>NewItemAlertRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>NewItemAlertRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Anzeigen einer Benachrichtigung für ein neues Element als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>NewItemAlertRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._NewItemAlertRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotifyDelivery">
@@ -564,13 +527,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>OlRuleActionNotifyDelivery</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>OlRuleActionNotifyDelivery</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt zum Aufzählen die Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Benachrichtigen über die Übermittlung einer Nachricht als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt zum Aufzählen die Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Benachrichtigen über die Übermittlung einer Nachricht als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotifyRead">
@@ -596,13 +557,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>olRuleActionNotifyRead</b>. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>olRuleActionNotifyRead</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die das Senden einer Benachrichtigung über das Öffnen einer Nachricht als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die das Senden einer Benachrichtigung über das Öffnen einer Nachricht als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -630,10 +589,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PlaySound">
@@ -659,13 +616,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PlaySoundRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.ActionType" /><b>olRuleActionNotifyRead</b>. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.PlaySoundRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.ActionType" /> <b>olRuleActionNotifyRead</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>PlaySoundRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Wiedergeben einer Audiodatei als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>PlaySoundRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>PlaySoundRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Wiedergeben einer Audiodatei als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>PlaySoundRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._PlaySoundRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Redirect">
@@ -691,13 +646,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SendRuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /><b>OlRuleActionRedirect</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.SendRuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.ActionType" /> <b>OlRuleActionRedirect</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Umleiten einer Nachricht an bestimmte Empfänger als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>SendRuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Umleiten einer Nachricht an bestimmte Empfänger als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SendRuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SendRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -725,16 +678,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Stop">
@@ -760,13 +711,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.RuleAction</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /><b>OlRuleActionStop</b>wird. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> -Objekt mit <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.ActionType" /> <b>OlRuleActionStop</b>wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Beenden der Verarbeitung weiterer Regeln als Aktion angibt. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleAction</b> -Objekt beim Aufzählen der Regelaktionen einer vorhandenen Regel oder zum Erstellen einer neuen Regel, die Beenden der Verarbeitung weiterer Regeln als Aktion angibt. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>RuleAction</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleActions</b> -Auflistung eine solche Regelaktion definiert wurde. Wenn die Regel definiert und eine solche Regelaktion, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._MoveOrCopyRuleAction.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Panes" FullName="Microsoft.Office.Interop.Outlook.Panes">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="60e4cc75a46518099c824ac6d0a1fc25086de563" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636323" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="de8d3a723c79d054b93d65efa593bff55eab354c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906604" /></Metadata><TypeSignature Language="C#" Value="public interface Panes : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Panes implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Panes" />
   <TypeSignature Language="VB.NET" Value="Public Interface Panes&#xA;Implements IEnumerable" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Enthält die durch die angegebene angezeigten Fensterausschnitte <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</summary>
-    <remarks>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /> -Eigenschaft auf <b>die Panes-Auflistung</b> aus einem <b>Explorer</b> -Objekt zurückzugeben.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) um einen bestimmten Fensterausschnitt abzurufen.</para>
-      <para>Für MicrosoftOutlook 2000 und höher, der Verknüpfungsbereich ist der einzige Bereich, die Sie über das <b>Panes</b> -Objekt zugreifen können.</para>
-      <para />
-    </remarks>
+    <remarks><para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Panes" /> -Eigenschaft auf <b>die Panes-Auflistung</b> aus einem <b>Explorer</b> -Objekt zurückzugeben.</para>
+      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.Panes.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) um einen bestimmten Fensterausschnitt abzurufen. </para>
+      <para>Microsoft Outlook 2000 und höher kann im Verknüpfungsbereich lediglich auf, die Sie über das <b>Panes</b> -Objekt zugreifen können.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -208,16 +198,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

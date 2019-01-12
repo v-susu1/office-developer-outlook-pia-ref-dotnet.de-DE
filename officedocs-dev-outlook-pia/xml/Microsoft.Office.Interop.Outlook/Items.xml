@@ -1,13 +1,5 @@
 <Type Name="Items" FullName="Microsoft.Office.Interop.Outlook.Items">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1e3de493e19325af09d183b904f6c6e91262246a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637267" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Items : Microsoft.Office.Interop.Outlook._Items, Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2dc29234823d7c38611faa5417dc9357f80ff797" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897717" /></Metadata><TypeSignature Language="C#" Value="public interface Items : Microsoft.Office.Interop.Outlook._Items, Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Items implements class Microsoft.Office.Interop.Outlook._Items, class Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Items" />
   <TypeSignature Language="VB.NET" Value="Public Interface Items&#xA;Implements _Items, ItemsEvents_Event" />
@@ -34,14 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Auflistung von <a href="http://go.microsoft.com/fwlink/?LinkId=89798">Outlook-Elementobjekte</a></summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Items" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" /> Eigenschaft, um das <b>Items</b> -Objekt eines zurückzugeben eine <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt.</para>
-      <para>Verwendung <b>Elemente</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name oder die Indexzahl darstellt, um ein einzelnes Outlook-Element zurückzugeben.</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Items" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ItemsEvents_Event" />.</para>
+      <para>Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Items" /> -Eigenschaft auf das <b>Items</b> -Objekt eines Zurückgeben einer <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt.</para>
+      <para>Verwenden Sie <b>Elemente</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name oder die Indexzahl darstellt, um ein einzelnes Outlook-Element zurückzugeben.</para>
       <para>
         <b>Hinweis</b>: der Index für die <b>Items</b> -Auflistung beginnt mit 1 und die Elemente im <b>Items</b> -Auflistungsobjekt sind nicht unbedingt in einer bestimmten Reihenfolge.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

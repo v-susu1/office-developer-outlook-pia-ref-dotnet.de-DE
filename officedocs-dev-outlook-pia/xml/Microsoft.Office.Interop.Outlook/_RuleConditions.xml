@@ -1,13 +1,5 @@
 <Type Name="_RuleConditions" FullName="Microsoft.Office.Interop.Outlook._RuleConditions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636739" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee9e9cd5e60909dd8c8b2a0698b75286f18e83ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905463" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleConditions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleConditions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleConditions&#xA;Implements IEnumerable" />
@@ -57,13 +49,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /><b>olConditionAccount festgelegt ist</b>. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AccountRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.ConditionType" /> <b>olConditionAccount festgelegt ist</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>AccountRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass eine Nachricht wird gesendet oder empfangen, über wurden die angegebene Konto. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AccountRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>AccountRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass eine Nachricht wird gesendet oder empfangen, über wurden die angegebene Konto. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AccountRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AccountRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnyCategory">
@@ -91,11 +81,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionAnyCategory</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer Regel, die angibt, die Bedingung oder eine Ausnahmebedingung, die die Nachricht wird jeder Kategorie zugewiesen.  </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt, unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer Regel, die angibt, die Bedingung oder eine Ausnahmebedingung, die die Nachricht wird jeder Kategorie zugewiesen.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt, unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -151,11 +139,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> des <b>OlConditionBody</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die bestimmten Text im Textkörper Nachricht ist. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die bestimmten Text im Textkörper Nachricht ist. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BodyOrSubject">
@@ -183,11 +169,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> des <b>OlConditionBodyOrSubject</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die bestimmten Text im Betreff oder Nachrichtentext ist . </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die bestimmten Text im Betreff oder Nachrichtentext ist . </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Category">
@@ -215,11 +199,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.CategoryRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.ConditionType" /> des <b>OlConditionCategory</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>CategoryRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, die angibt, die Bedingung oder eine Ausnahmebedingung, die die Nachricht zugewiesen ist bestimmte Kategorien. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>CategoryRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>CategoryRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, die angibt, die Bedingung oder eine Ausnahmebedingung, die die Nachricht zugewiesen ist bestimmte Kategorien. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>CategoryRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._CategoryRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -247,11 +229,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionCc</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen in das Feld Cc.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen in das Feld "Cc" ist.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -307,10 +287,8 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie können Auflisten der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> Auflistung von 1 bis <b>RuleConditions.Count</b> , um den regelbedingungen für eine vorhandene Regel zu bestimmen. Zwar das Erstellen von Regeln nur mit den am häufigsten Regeln OM unterstützt regelbedingungen und nicht alle regelbedingungen, die von den Regeln und Benachrichtigungen Wizard unterstützt, enthält die <b>RuleConditions</b> -Auflistung alle regelbedingungen einer Regel. Daher können Sie immer aufzählen das <b>RuleConditions</b> -Auflistungsobjekt, um zu bestimmen, welche regelbedingungen für eine vorhandene Regel aktiviert sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können Auflisten der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> Auflistung von 1 bis <b>RuleConditions.Count</b> , um den regelbedingungen für eine vorhandene Regel zu bestimmen. Zwar das Erstellen von Regeln nur mit den am häufigsten Regeln OM unterstützt regelbedingungen und nicht alle regelbedingungen, die von den Regeln und Benachrichtigungen Wizard unterstützt, enthält die <b>RuleConditions</b> -Auflistung alle regelbedingungen einer Regel. Daher können Sie immer aufzählen das <b>RuleConditions</b> -Auflistungsobjekt, um zu bestimmen, welche regelbedingungen für eine vorhandene Regel aktiviert sind.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormName">
@@ -338,11 +316,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.FormNameRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.ConditionType" /> des <b>OlConditionFormName</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>FormNameRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass die Nachricht mit ein angegebenen Formular verwendet wird.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>FormNameRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>FormNameRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass die Nachricht mit ein angegebenen Formular verwendet wird.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>FormNameRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._FormNameRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="From">
@@ -370,11 +346,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> der <b>OlConditionFrom</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>ToOrFromRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die in der Absender der Nachricht ist die  die angegebene Liste von <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>ToOrFromRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>ToOrFromRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die in der Absender der Nachricht ist die  die angegebene Liste von <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>ToOrFromRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromAnyRSSFeed">
@@ -402,11 +376,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionFromAnyRssFeed</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer Regel, die angibt, die Bedingung oder eine Ausnahmebedingung, die ein RSS-Abonnement die Meldung stammt.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt, unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer Regel, die angibt, die Bedingung oder eine Ausnahmebedingung, die ein RSS-Abonnement die Meldung stammt.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt, unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromRssFeed">
@@ -434,11 +406,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.FromRssFeedRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.ConditionType" /> des <b>OlConditionFromRssFeed</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>FromRSSFeedRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die einem bestimmten RSS die Meldung stammt Abonnement.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>FromRSSFeedRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /><b>true</b>.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>FromRSSFeedRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die einem bestimmten RSS-Abonnement die Meldung stammt.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>FromRSSFeedRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition.Enabled" /> <b>true</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HasAttachment">
@@ -466,11 +436,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionHasAttachment</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass die Nachricht eine Anlage enthält.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass die Nachricht eine Anlage enthält.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -498,11 +466,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ImportanceRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.ConditionType" /> des <b>OlConditionImportance</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>ImportanceRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Nachricht der angegebenen Ebene ist Wichtigkeitsstufe.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>ImportanceRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>ImportanceRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Nachricht der angegebenen Ebene ist von Bedeutung.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>ImportanceRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._ImportanceRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -534,11 +500,8 @@
         <param name="Index">Ein 1-basierter numerischen Wert, der die Ordnungsposition des eine Regel in der <b>RuleConditions</b> -Auflistung. Angenommen, der Indexwert des ersten regelbedingung in der Auflistung ist 1, und der Wert für die zweite regelbedingung 2 ist.</param>
         <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> durch angegebene Objekt <paramref name="Index" /> also ein numerischen Index in der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> Auflistung.</summary>
         <value>Ein <b>RuleCondition</b> -Objekt, das das angegebene Objekt darstellt.</value>
-        <remarks>
-          <para>
-            <b>RuleConditions</b> -Auflistungsobjekt ist eine feste Auflistung. Sie enthält <b>RuleCondition</b> -Objekte oder abgeleiteten <b>RuleCondition</b>-Objekte. Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung, aber Sie können einen index in der Auflistung, das Aufzählen von Elementen der Rule-Bedingung, und legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> Eigenschaft der regelbedingung. Wenn <b>Element</b> die Auflistung aufzulisten, können Sie aufzählen <paramref name="Index" /> von 1 bis <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</para>
-          <para />
-        </remarks>
+        <remarks><para><b>RuleConditions</b> -Auflistungsobjekt ist eine feste Auflistung. Sie enthält <b>RuleCondition</b> -Objekte oder abgeleiteten <b>RuleCondition</b> -Objekte. Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung, aber Sie können einen index in der Auflistung, das Aufzählen von Elementen der Rule-Bedingung, und legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> Eigenschaft der regelbedingung. Wenn <b>Element</b> die Auflistung aufzulisten, können Sie aufzählen <paramref name="Index" /> von 1 bis <see cref="P:Microsoft.Office.Interop.Outlook._RuleConditions.Count" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingInviteOrUpdate">
@@ -566,11 +529,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionMeetingInviteOrUpdate</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass die Nachricht eine Besprechungsanfrage oder eine Besprechung Aktualisieren von.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass die Nachricht eine Besprechungsanfrage oder eine Besprechung aktualisieren.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageHeader">
@@ -598,11 +559,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> des <b>OlConditionMessageHeader</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass der Nachrichtenkopf die angegebene enthält Text.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass der Nachrichtenkopf die angegebene enthält Text.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NotTo">
@@ -630,11 +589,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionNotTo</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen nicht im Feld an ist.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen im Feld an nicht ist.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnLocalMachine">
@@ -662,11 +619,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> der <b>olConditionLocalMachineOnly zu</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Regel nur auf diesem Computer ausgeführt werden kann. Wenn Sie die gleiche Regel auf einem anderen Computer ausführen, die Regel zeigt an, dass die Bedingung <b>OlConditionOtherMachine</b> aktiviert ist.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Sie können programmgesteuert eine regelbedingung dieses Typs aktivieren. In bestimmten Fällen wird <b>OlConditionLocalMachine</b> automatisch festgelegt, aktivieren eine weitere regelbedingung wie <b>olConditionAccount festgelegt ist</b>. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Regel nur auf diesem Computer ausgeführt werden kann. Wenn Sie die gleiche Regel auf einem anderen Computer ausführen, zeigt die Regel an, dass die Bedingung <b>OlConditionOtherMachine</b> aktiviert ist.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Sie können programmgesteuert eine regelbedingung dieses Typs aktivieren. In bestimmten Fällen wird <b>OlConditionLocalMachine</b> automatisch festgelegt, aktivieren eine weitere regelbedingung wie <b>olConditionAccount festgelegt ist</b>. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnlyToMe">
@@ -694,11 +649,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionOnlyToMe</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Nachricht nur an Sie gesendet wird.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Nachricht nur an Sie gesendet wird.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OnOtherMachine">
@@ -726,12 +679,10 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> der <b>OlConditionOtherMachine</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt zum Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel. Diese Bedingung gibt an, dass die Regel nur auf einem Computer als dem lokalen Computer ausgeführt werden kann.</para>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt zum Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel. Diese Bedingung gibt an, dass die Regel nur auf einem Computer als dem lokalen Computer ausgeführt werden kann.</para>
           <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde.</para>
-          <para>Können nicht programmgesteuert aktivieren oder deaktivieren eine Bedingung vom Typ <b>OlConditionOtherMachine</b>. Diese Art von regelbedingung gibt an, dass die Regel nur auf einem bestimmten Computer ausgeführt werden kann, die nicht den aktuellen Computer handelt. Dies geschieht, wenn die Regel auf erstellt wird, dass der Computer und die Regel Bedingung <b>OlConditionLocalMachineOnly</b> aktiviert ist, was bedeutet, dass die Regel nur auf diesem Computer ausgeführt werden kann. Wenn Sie die gleiche Regel auf einem anderen Computer ausführen, die Regel zeigt an, dass die Bedingung <b>OlConditionOtherMachine</b> aktiviert ist.</para>
-          <para />
-        </remarks>
+          <para>Sie können nicht programmgesteuert aktivieren oder deaktivieren eine Bedingung vom Typ <b>OlConditionOtherMachine</b>. Diese Art von regelbedingung gibt an, dass die Regel nur auf einem bestimmten Computer ausgeführt werden kann, die nicht den aktuellen Computer handelt. Dies geschieht, wenn die Regel auf erstellt wird, dass der Computer und die Regel Bedingung <b>OlConditionLocalMachineOnly</b> aktiviert ist, was bedeutet, dass die Regel nur auf diesem Computer ausgeführt werden kann. Wenn Sie die gleiche Regel auf einem anderen Computer ausführen, zeigt die Regel an, dass die Bedingung <b>OlConditionOtherMachine</b> aktiviert ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -759,10 +710,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RecipientAddress">
@@ -790,11 +739,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> der <b>OlConditionRecipientAddress</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>AddressRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, die die Bedingung oder eine Ausnahmebedingung, die die Adresse des Empfängers enthalten gibt die angegebenen Text. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AddressRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>AddressRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, die die Bedingung oder eine Ausnahmebedingung, die die Adresse des Empfängers enthalten gibt die angegebenen Text. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AddressRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderAddress">
@@ -822,11 +769,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.ConditionType" /> der <b>OlConditionSenderAddress</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>AddressRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Absenderadresse enthält die angegebenen Text. </para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AddressRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>AddressRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die die Absenderadresse enthält die angegebenen Text. </para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>AddressRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._AddressRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderInAddressList">
@@ -852,13 +797,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /><b>olConditionAccount festgelegt ist</b>. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.SenderInAddressListRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.ConditionType" /> <b>olConditionAccount festgelegt ist</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>SenderInAddressListRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die der Absender befindet sich in einem angegebenen Adressliste.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SenderInAddressListRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>SenderInAddressListRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die der Absender befindet sich in einem angegebenen Adressliste.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>SenderInAddressListRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._SenderInAddressListRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentTo">
@@ -886,11 +829,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.ConditionType" /> der <b>OlConditionSentTo</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie dem zurückgegebenen <b>ToOrFromRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, die den Zustand oder eine Ausnahme gibt an, die Bedingung Empfänger (in an und Cc Text Felder) der Nachricht befinden sich in der angegebenen Liste von <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>ToOrFromRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie dem zurückgegebenen <b>ToOrFromRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, die den Zustand oder eine Ausnahme gibt an, die Bedingung Empfänger (in an und Cc Text Felder) der Nachricht befinden sich in der angegebenen Liste von <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>ToOrFromRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -918,16 +859,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -955,11 +894,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.TextRuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.ConditionType" /> des <b>OlConditionSubject</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass der Betreff der Nachricht dem angegebenen enthält Text.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>TextRuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, dass der Betreff der Nachricht dem angegebenen enthält Text.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> immer-Auflistung zurückgibt ein <b>TextRuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._TextRuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToMe">
@@ -987,11 +924,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionTo</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen im Feld an.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen im Feld an.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToOrCc">
@@ -1019,11 +954,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekts mit einer <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.ConditionType" /> des <b>OlConditionToOrCc</b>. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen im Feld an oder Cc ist Feld.</para>
-          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /><b>true</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie das zurückgegebene <b>RuleCondition</b> -Objekt beim Aufzählen der regelbedingungen oder Ausnahmebedingungen einer vorhandenen Regel oder beim Erstellen einer neuen Regel, gibt die Bedingung oder eine Ausnahmebedingung, die Ihren Namen im Feld an oder Cc ist im Feld.</para>
+          <para>Diese Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> immer-Auflistung zurückgibt ein <b>RuleCondition</b> -Objekt unabhängig davon, ob die Regel für diese <b>RuleConditions</b> -Auflistung eine solche regelbedingung definiert wurde. Wenn die Regel definiert und eine solche regelbedingung, klicken Sie dann aktiviert wurde <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> <b>true</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="Attachments" FullName="Microsoft.Office.Interop.Outlook.Attachments">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2b8b26dcc7340ad097dbcab31fa6b4722b3b19e2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635954" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6f34c001cfd4c3278473ca2d66f73650667d3c4b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898732" /></Metadata><TypeSignature Language="C#" Value="public interface Attachments : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachments implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachments" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachments&#xA;Implements IEnumerable" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Reihe von <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> -Objekten, die die Anlagen in einem Outlook-Element darstellen.</summary>
-    <remarks>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> Eigenschaft, um die <b>Attachments</b> -Auflistung für ein beliebiges Outlook-Element (mit Ausnahme von Notizen) zurückzugeben.</para>
+    <remarks><para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> Eigenschaft, um die <b>Attachments</b> -Auflistung für ein beliebiges Outlook-Element (mit Ausnahme von Notizen) zurückzugeben.</para>
       <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> -Methode, um eine Anlage zu einem Element hinzuzufügen.</para>
-      <para>Um konsistent um Ergebnisse zu erzielen, speichern Sie ein Element vor dem Hinzufügen oder Entfernen von Objekten in der <b>Attachments</b> -Auflistung des Elements.</para>
-      <para />
-    </remarks>
+      <para>Um übereinstimmende Ergebnisse zu gewährleisten, speichern Sie ein Element vor dem Hinzufügen oder Entfernen von Objekten in der <b>Attachments</b> -Auflistung des Elements.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -70,10 +60,8 @@
         <param name="DisplayName">Dieser Parameter gilt nur, wenn das e-Mail-Element im Rich-Text-Format wird und Typ <b>olByValue</b>festgelegt ist: der Name wird in ein <b>Inspector</b> -Objekt für die Anlage oder beim Anzeigen der Eigenschaften der Anlage angezeigt. Wenn das e-Mail-Element im Nur-Text "oder" HTML-Format, wird die Anlage angezeigt wird, mit dem Namen in der <paramref name="Source" /> Parameter.</param>
         <summary>Erstellt eine neue Anlage in die <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> -Objekt, das die neue Anlage darstellt.</returns>
-        <remarks>
-          <para>Wenn der <b>Attachments</b> -Auflistung ein Element eine <b>Anlage</b> hinzugefügt wird, gibt die <b>Type</b> -Eigenschaft der <b>Anlage</b> immer zurück <b>OlOLE</b> (6), bis das Element gespeichert wird. Um übereinstimmende Ergebnisse zu gewährleisten, speichern Sie ein Element vor dem Hinzufügen oder Entfernen von Objekten in der <b>Attachments</b> -Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Sammlung <b>Attachments</b> eines Elements ein Objekt <b>Attachment</b> hinzugefügt wird, gibt die Eigenschaft <b>Type</b> des Objekts <b>Attachment</b> solange den Wert <b>olOLE</b> (6) zurück, bis das Element gespeichert wird. Um konsistente Ergebnisse sicherzustellen, speichern Sie stets ein Element, bevor Sie der Sammlung <b>Attachments</b> Objekte hinzufügen oder Objekte aus der Sammlung entfernen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -273,16 +261,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

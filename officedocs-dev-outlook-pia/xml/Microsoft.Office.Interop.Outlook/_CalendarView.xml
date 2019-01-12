@@ -1,13 +1,5 @@
 <Type Name="_CalendarView" FullName="Microsoft.Office.Interop.Outlook._CalendarView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636408" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8c7ada2ab310628efbbc8d226c17eaf90fb9cad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896513" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarView" />
@@ -290,10 +282,8 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Anzahl der angezeigten aufeinander folgenden Tage darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> Objekt. Lese-/Schreibzugriff</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft kann auf einen Wert zwischen 2 und 14 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 2 festgelegt ist, wird die Eigenschaft auf 2 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 14 festgelegt ist, wird die Eigenschaft auf 14 festgelegt. Der Standardwert für diese Eigenschaft ist 5.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft kann auf einen Wert zwischen 2 und 14 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner 2 festgelegt wird, wird sie auf 2 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 14 festgelegt ist, wird die Eigenschaft auf 14 festgelegt. Der Standardwert für diese Eigenschaft ist 5.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DayWeekFont">
@@ -439,10 +429,8 @@
       <Docs>
         <summary>Gibt ein <b>Object</b> -Array mit Zeichenfolgen, die im angezeigten Tagen darstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt ein Array von Zeichenfolgen, in denen jede Datumszeichenfolge einen Tag angezeigt, in dem <b>CalendarView</b> -Objekt darstellt. Die Zeichenfolgen werden mithilfe der kurzen Datumsformat Format-Einstellungen für das Betriebssystem formatiert.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt ein Array von Zeichenfolgen, in denen jede Datumszeichenfolge einen Tag angezeigt, in dem <b>CalendarView</b> -Objekt darstellt. Die Zeichenfolgen werden mithilfe der kurzen Datumsformat Format-Einstellungen für das Betriebssystem formatiert.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EndField">
@@ -473,10 +461,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Namen der Eigenschaft darstellt, die die Zeitdauer für Outlook-Elemente im angezeigten endet der <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Werte der <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> und <b>EndField</b> Eigenschaften geben an, welche Outlook-Elementeigenschaften von <b>CalendarView</b> -Objekts verwendet werden, um die Dauer eines Outlook-Elements darstellen. Benutzerdefinierte und integrierte Eigenschaften können angegeben werden, aber nur Eigenschaften von Datum/Uhrzeit sind zulässig.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Werte der <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.StartField" /> und <b>EndField</b> Eigenschaften geben an, welche Outlook-Elementeigenschaften von <b>CalendarView</b> -Objekts verwendet werden, um die Dauer eines Outlook-Elements darstellen. Benutzerdefinierte und integrierte Eigenschaften können angegeben werden, aber nur Eigenschaften von Datum/Uhrzeit sind zulässig.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Filter">
@@ -507,10 +493,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Filter für eine Ansicht darstellt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft ist eine Zeichenfolge, in der DAV Searching and Locating (DASL) Syntax, die den aktuellen Filter für die Ansicht darstellt. Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert dieser Eigenschaft ist eine Zeichenfolge in der DASL-Syntax, die den aktuellen Filter für die Ansicht darstellt. Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -569,11 +553,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Einstellung der Sprache für die Ansicht darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen. Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</para>
-          <para>Wenn ein gültiger Sprachcode angegeben wird, das Objekt werden nur im Menü Ansicht für die angegebene Sprachtyp verfügbar. Wenn kein Wert angegeben ist, ist das Object-Element für alle Sprachen verfügbar. Der Standardwert für diese Eigenschaft ist eine leere Zeichenfolge.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen. Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</para>
+          <para>Wenn ein gültiger Sprachcode angegeben ist, steht das Objekt nur im Menü Ansicht für den angegebenen Sprachtyp zur Verfügung. Wenn kein Wert angegeben ist, ist das Objektelement für alle Sprachtypen verfügbar. Der Standardwert dieser Eigenschaft ist eine leere Zeichenfolge.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -604,10 +586,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob ein Benutzer die Einstellungen der Ansicht ändern kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MonthFont">
@@ -669,10 +649,8 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>Boolean</b> (<b>Bool</b> in c#)-Wert, der angibt, ob Endzeiten für Outlook-Elemente, in angezeigt werden der <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft ist nur anwendbar, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> -Eigenschaft des <b>CalendarView</b> -Objekts auf <b>OlCalendarViewMonth</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert dieser Eigenschaft ist nur anwendbar, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.CalendarViewMode" /> -Eigenschaft des <b>CalendarView</b> -Objekts auf <b>OlCalendarViewMonth</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -756,10 +734,8 @@
       <Parameters />
       <Docs>
         <summary>Setzt eine integrierte Microsoft Outlook-Ansicht auf ihre ursprünglichen Einstellungen zurück.</summary>
-        <remarks>
-          <para>Diese Methode funktioniert nur für integrierte Outlook-Ansichten.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Methode ist nur für integrierte Outlook-Ansichten funktionsfähig.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -812,10 +788,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> -Konstante, die Ordner angibt, in dem die angegebene Ansicht zur Verfügung steht, und die Berechtigungen lesen, der Ansicht zugeordnet ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedEndTime">
@@ -843,13 +817,11 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> -Wert, der die Endzeit in einer Auswahl darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Zweck der der <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> und programmgesteuert, replizieren <b>SelectedEndTime</b> Eigenschaften ist die Möglichkeit, dass Benutzer einen Termin in der Microsoft Outlook-Benutzeroberfläche erstellen. In der Regel ein Benutzer wählt in der Kalenderansicht einen Zeitbereich und klicken Sie dann einen neuen Termin erstellt, durch Doppelklicken auf die Auswahl oder indem Sie auf der Registerkarte Start des Microsoft Office Fluent-Menüband neuer Termin. Mit diesen beiden Eigenschaften des <b>CalendarView</b> -Objekts können Sie die Startzeit und die Endzeit der jede Auswahl in dieser Ansicht programmgesteuert abrufen. Anschließend können Sie programmgesteuert erstellen der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt durch Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> und <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> Eigenschaften des <b>AppointmentItem</b> -Objekts auf die Eigenschaften <b>SelectedStartTime</b> und <b>SelectedEndTime</b> , um alle Benutzer angezeigt wird, Auswahl in der Kalenderansicht.</para>
-          <para>Wenn die Auswahl in der Kalenderansicht ein Zeitbereich und anstelle eines Elements ist, gibt <b>SelectedEndTime</b> einen <b>DateTime</b> -Wert gleich Zeit für das Ende der Auswahl.</para>
-          <para>, Wenn in der Kalenderansicht ein oder mehrere Elemente ausgewählt sind, gibt <b>SelectedEndTime</b> einen <b>DateTime</b> -Wert gleich Zeit für das Ende des ersten Elements in der Auswahl des Explorers, in dem die Kalenderansicht angezeigt. Auswahl vom angegebenen ist die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</para>
-          <para>Verwenden Sie diese Eigenschaft auf ein <b>CalendarView</b> -Objekt, das Abrufen des <b>CalendarView</b> -Objekts aus der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> -Eigenschaft des aktiven <b>Explorer</b> -Objekt (die vom zurückgegeben werden die <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> Methode). Ein bekanntes Problem bei der Verwendung dieser Eigenschaft für ein <b>CalendarView</b> -Objekt abgerufen vorhanden ist, andernfalls - mithilfe der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt (zurückgegebene der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> -Eigenschaft des Objekts dargestellt durch <b> Application.ActiveExplorer</b>).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Zweck der der <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedStartTime" /> und programmgesteuert, replizieren <b>SelectedEndTime</b> Eigenschaften ist die Möglichkeit, dass Benutzer einen Termin in der Microsoft Outlook-Benutzeroberfläche erstellen. In der Regel ein Benutzer wählt in der Kalenderansicht einen Zeitbereich und klicken Sie dann einen neuen Termin erstellt, durch Doppelklicken auf die Auswahl oder indem Sie auf der Registerkarte Start des Microsoft Office Fluent-Menüband neuer Termin. Mit diesen beiden Eigenschaften des <b>CalendarView</b> -Objekts können Sie die Startzeit und die Endzeit der jede Auswahl in dieser Ansicht programmgesteuert abrufen. Anschließend können Sie programmgesteuert erstellen der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt durch Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> und <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> Eigenschaften des <b>AppointmentItem</b> -Objekts auf die Eigenschaften <b>SelectedStartTime</b> und <b>SelectedEndTime</b> , um alle Benutzer angezeigt wird, Auswahl in der Kalenderansicht.</para>
+          <para>Wenn die Auswahl in der Kalenderansicht ein Zeitbereich und anstelle eines Elements ist, gibt <b>SelectedEndTime</b> einen <b>DateTime</b> -Wert an die Endzeit der Auswahl zurück.</para>
+          <para>Wenn in der Kalenderansicht ein oder mehrere Elemente ausgewählt sind, gibt <b>SelectedEndTime</b> einen <b>DateTime</b> -Wert gleich Zeit für das Ende des ersten Elements in der Auswahl des Explorers, in dem die Kalenderansicht angezeigt. Auswahl vom angegebenen ist die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</para>
+          <para>Um diese Eigenschaft auf ein <b>CalendarView</b> -Objekt verwenden, erhalten das <b>CalendarView</b> -Objekt aus der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> -Eigenschaft des aktiven <b>Explorer</b> -Objekt (die zurückgegeben werden durch die <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> Methode). Ein bekanntes Problem bei der Verwendung dieser Eigenschaft für ein <b>CalendarView</b> -Objekt abgerufen vorhanden ist, andernfalls - mithilfe der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt (zurückgegebene der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> -Eigenschaft des Objekts dargestellt durch <b>Application.ActiveExplorer </b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedStartTime">
@@ -877,13 +849,11 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> -Wert, der die Startzeit in einer Auswahl darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Zweck der der <b>SelectedStartTime</b><see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> Eigenschaften programmgesteuert, replizieren ist die Möglichkeit, dass Benutzer einen Termin in der Microsoft Outlook-Benutzeroberfläche erstellen. In der Regel ein Benutzer wählt in der Kalenderansicht einen Zeitbereich und klicken Sie dann einen neuen Termin erstellt, durch Doppelklicken auf die Auswahl oder indem Sie auf der Registerkarte Start des Microsoft Office Fluent-Menüband neuer Termin. Mit diesen beiden Eigenschaften des <b>CalendarView</b> -Objekts können Sie die Startzeit und die Endzeit der jede Auswahl in dieser Ansicht programmgesteuert abrufen. Anschließend können Sie programmgesteuert erstellen der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt durch Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> und <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> Eigenschaften des <b>AppointmentItem</b> -Objekts auf die Eigenschaften <b>SelectedStartTime</b> und <b>SelectedEndTime</b> , um alle Benutzer angezeigt wird, Auswahl in der Kalenderansicht.</para>
-          <para>Wenn die Auswahl in der Kalenderansicht ein Zeitbereich und anstelle eines Elements ist, gibt <b>SelectedStartTime</b> einen <b>DateTime</b> -Wert gleich dem Anfangszeitpunkt der Auswahl.</para>
-          <para>, Wenn in der Kalenderansicht ein oder mehrere Elemente ausgewählt sind, gibt <b>SelectedStartTime</b> einen <b>DateTime</b> -Wert die Anfangszeit des ersten Elements gleich in der Auswahl des Explorers, in dem die Kalenderansicht angezeigt. Auswahl vom angegebenen ist die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</para>
-          <para>Verwenden Sie diese Eigenschaft auf ein <b>CalendarView</b> -Objekt, das Abrufen des <b>CalendarView</b> -Objekts aus der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> -Eigenschaft des aktiven <b>Explorer</b> -Objekt (die vom zurückgegeben werden die <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> Methode). Ein bekanntes Problem bei der Verwendung dieser Eigenschaft für ein <b>CalendarView</b> -Objekt abgerufen vorhanden ist, andernfalls - mithilfe der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt (zurückgegebene der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> -Eigenschaft des Objekts dargestellt durch <b> Application.ActiveExplorer</b>).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Zweck der der <b>SelectedStartTime</b> <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.SelectedEndTime" /> Eigenschaften programmgesteuert, replizieren ist die Möglichkeit, dass Benutzer einen Termin in der Microsoft Outlook-Benutzeroberfläche erstellen. In der Regel ein Benutzer wählt in der Kalenderansicht einen Zeitbereich und klicken Sie dann einen neuen Termin erstellt, durch Doppelklicken auf die Auswahl oder indem Sie auf der Registerkarte Start des Microsoft Office Fluent-Menüband neuer Termin. Mit diesen beiden Eigenschaften des <b>CalendarView</b> -Objekts können Sie die Startzeit und die Endzeit der jede Auswahl in dieser Ansicht programmgesteuert abrufen. Anschließend können Sie programmgesteuert erstellen der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt durch Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> und <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> Eigenschaften des <b>AppointmentItem</b> -Objekts auf die Eigenschaften <b>SelectedStartTime</b> und <b>SelectedEndTime</b> , um alle Benutzer angezeigt wird, Auswahl in der Kalenderansicht.</para>
+          <para>Wenn die Auswahl in der Kalenderansicht ein Zeitbereich und anstelle eines Elements ist, gibt <b>SelectedStartTime</b> einen <b>DateTime</b> -Wert an die Anfangszeit der Auswahl zurück.</para>
+          <para>Wenn in der Kalenderansicht ein oder mehrere Elemente ausgewählt sind, gibt <b>SelectedStartTime</b> einen <b>DateTime</b> -Wert die Anfangszeit des ersten Elements gleich in der Auswahl des Explorers, in dem die Kalenderansicht angezeigt. Auswahl vom angegebenen ist die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</para>
+          <para>Um diese Eigenschaft auf ein <b>CalendarView</b> -Objekt verwenden, erhalten das <b>CalendarView</b> -Objekt aus der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView" /> -Eigenschaft des aktiven <b>Explorer</b> -Objekt (die zurückgegeben werden durch die <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer" /> Methode). Ein bekanntes Problem bei der Verwendung dieser Eigenschaft für ein <b>CalendarView</b> -Objekt abgerufen vorhanden ist, andernfalls - mithilfe der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt (zurückgegebene der <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> -Eigenschaft des Objekts dargestellt durch <b>Application.ActiveExplorer </b>).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -911,16 +881,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -948,10 +916,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> -Objekt ist eine integrierte Outlook-Ansicht. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartField">
@@ -982,10 +948,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Namen der Eigenschaft darstellt, der die Zeitdauer für angezeigte Outlook-Elemente beginnt, die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Werte der <b>StartField</b> und <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> Eigenschaften geben an, welche Outlook-Elementeigenschaften von <b>CalendarView</b> -Objekts verwendet werden, um die Dauer eines Outlook-Elements darstellen. Benutzerdefinierte und integrierte Eigenschaften können angegeben werden, aber nur Eigenschaften von Datum/Uhrzeit sind zulässig.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Werte der <b>StartField</b> und <see cref="P:Microsoft.Office.Interop.Outlook._CalendarView.EndField" /> Eigenschaften geben an, welche Outlook-Elementeigenschaften von <b>CalendarView</b> -Objekts verwendet werden, um die Dauer eines Outlook-Elements darstellen. Benutzerdefinierte und integrierte Eigenschaften können angegeben werden, aber nur Eigenschaften von Datum/Uhrzeit sind zulässig.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewType">
@@ -1044,11 +1008,9 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die XML-Definition der Ansicht angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Tags und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Wenn die Ansicht erstellt wird, wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht gerendert.</para>
-          <para>, Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen, und klicken Sie dann können Sie die <b>XML</b> -Eigenschaft für diese Ansicht abrufen strukturiert werden soll.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Kennzeichen und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Beim Erstellen der Ansicht wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht zu erhalten.</para>
+          <para>Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten strukturiert werden soll, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen und Sie können die <b>XML</b> -Eigenschaft für diese Ansicht abrufen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

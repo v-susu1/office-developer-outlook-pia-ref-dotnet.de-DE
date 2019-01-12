@@ -1,13 +1,5 @@
 <Type Name="OlkTimeControlEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="cfbfa60de7a215622018c53101fa4e0701747578" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637113" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTimeControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b3bb8ffef8f60e28419591ef86a7fa3d796ff0b9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901690" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTimeControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeControlEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeControlEvents_Event" />
@@ -49,12 +41,11 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, nachdem die Daten im Steuerelement über die Benutzeroberfläche geändert wurden.</summary>
-        <remarks>
-          <para>
-            <b>BeforeUpdate</b> und <b>AfterUpdate</b> können jederzeit auftreten, die die Daten im Steuerelement für das Element gespeichert wird.  Die normale Abfolge der Ereignisse im Zusammenhang mit <b>AfterUpdate</b> für dieses Steuerelement wie folgt ist:</para>
+        <remarks><para>
+            <b>BeforeUpdate</b> und <b>AfterUpdate</b> können jederzeit auftreten, die die Daten im Steuerelement für das Element gespeichert wird.  Die normale Abfolge der Ereignisse im Zusammenhang mit <b>AfterUpdate</b> für dieses Steuerelement lautet wie folgt:</para>
           <list type="number">
             <item>
-              <description>auf das Steuerelement Benutzer verschiebt Fokus</description>
+              <description>Benutzer verschiebt Fokus auf das Steuerelement</description>
             </item>
             <item>
               <description>
@@ -74,8 +65,7 @@
                 <b>Exit</b>: Benutzer verschiebt Fokus weg vom Steuerelement</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeUpdate">
@@ -94,13 +84,12 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn die Daten im Steuerelement über die Benutzeroberfläche geändert werden und im Element gespeichert werden sollen.</summary>
-        <remarks>
-          <para>Stornieren dieser Eigenschaft wird das Steuerelement der aktuelle Wert der Eigenschaft und den Fokus auf das Steuerelement zurück.</para>
+        <remarks><para>Wenn diese Eigenschaft abgebrochen wird, wird für das Steuerelement der aktuelle Wert der Eigenschaft wiederhergestellt, und der Fokus wird wieder auf das Steuerelement verschoben.</para>
           <para>
-            <b>BeforeUpdate</b> und <b>AfterUpdate</b> können jederzeit auftreten, die Daten im Steuerelement für das Element gespeichert wird.  Die normale Abfolge der Ereignisse im Zusammenhang mit <b>BeforeUpdate</b> für dieses Steuerelement wie folgt ist:</para>
+            <b>BeforeUpdate</b> und <b>AfterUpdate</b> können jederzeit auftreten, die die Daten im Steuerelement für das Element gespeichert wird.  Die normale Abfolge der Ereignisse im Zusammenhang mit <b>BeforeUpdate</b> für dieses Steuerelement lautet wie folgt:</para>
           <list type="number">
             <item>
-              <description>auf das Steuerelement Benutzer verschiebt Fokus</description>
+              <description>Benutzer verschiebt Fokus auf das Steuerelement</description>
             </item>
             <item>
               <description>
@@ -120,8 +109,7 @@
                 <b>Exit</b>: Benutzer verschiebt Fokus weg vom Steuerelement</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Change">
@@ -254,10 +242,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn ein Benutzer eine Taste drückt.</summary>
-        <remarks>
-          <para>Der Status der Zusatztasten (UMSCHALTTASTE, STRG oder ALT), die während das <b>KeyDown</b> -Ereignis gedrückt werden ist über die <paramref name="Shift" /> Parameter.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Status der Zusatztasten (UMSCHALTTASTE, STRG oder ALT), die während das <b>KeyDown</b> -Ereignis gedrückt werden ist über die <paramref name="Shift" /> Parameter.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyPress">
@@ -276,25 +262,23 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer eine ANSI-TASTE drückt.</summary>
-        <remarks>
-          <para>Eine ANSI-Taste ist eine, die ein darstellbares Zeichen generiert, wenn der Benutzer es drückt. Das <b>KeyPress</b> -Ereignis tritt auf, wenn der Benutzer eine ANSI-Taste, in einem Formular ausgeführt wird, während das Formular drückt oder ein Steuerelement den Fokus hat. Das Ereignis kann eintreten, bevor oder nachdem Sie die Taste losgelassen wird.</para>
+        <remarks><para>Eine ANSI-Taste ist eine, die ein darstellbares Zeichen generiert, wenn der Benutzer es drückt. Das <b>KeyPress</b> -Ereignis tritt auf, wenn der Benutzer eine ANSI-Taste, in einem Formular ausgeführt wird, während das Formular drückt oder ein Steuerelement den Fokus hat. Das Ereignis kann eintreten, entweder vor oder nach die Taste losgelassen wird.</para>
           <para>Ein <b>KeyPress</b> -Ereignis tritt unter den folgenden Umständen nicht auf:</para>
           <list type="bullet">
             <item>
-              <para>Drücken der Registerkarte</para>
+              <para>Beim Drücken der TAB-TASTE</para>
             </item>
             <item>
-              <para>Drücken Geben Sie</para>
+              <para>Beim Drücken der EINGABETASTE</para>
             </item>
             <item>
-              <para>beim Drücken einer Pfeiltaste</para>
+              <para>Beim Drücken einer Pfeiltaste</para>
             </item>
             <item>
-              <para>Wenn eine Tastatureingabe den Fokus von einem Steuerelement in ein anderes übergeht.</para>
+              <para>Wenn der Fokus aufgrund einer Tastenbetätigung von einem Steuerelement auf ein anderes übergeht.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="KeyUp">
@@ -313,10 +297,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer eine Taste loslässt.</summary>
-        <remarks>
-          <para>Der Status der Zusatztasten (UMSCHALTTASTE, STRG oder ALT), die während das <b>KeyUp</b> -Ereignis gedrückt werden ist über die <paramref name="Shift" /> Parameter.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Status der Zusatztasten (UMSCHALTTASTE, STRG oder ALT), die während das <b>KeyUp</b> -Ereignis gedrückt werden ist über die <paramref name="Shift" /> Parameter.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseDown">
@@ -354,10 +336,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, nachdem eine Mausbewegung über dem Steuerelement erkannt wurde.</summary>
-        <remarks>
-          <para>Das <b>MouseMove</b> -Ereignis wird ausgelöst, wenn Sie die ALT-Taste drücken.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das MouseMove -Ereignis wird ausgelöst, wenn Sie die <b>ALT</b>-Taste drücken.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">
