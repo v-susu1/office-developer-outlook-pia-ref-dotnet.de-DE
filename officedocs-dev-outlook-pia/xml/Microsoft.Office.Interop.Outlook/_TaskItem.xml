@@ -1,13 +1,5 @@
 <Type Name="_TaskItem" FullName="Microsoft.Office.Interop.Outlook._TaskItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2a35c7405b9fc22f26e90c7b5d2f5b3599e1c497" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636909" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TaskItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2a35c7405b9fc22f26e90c7b5d2f5b3599e1c497" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904357" /></Metadata><TypeSignature Language="C#" Value="public interface _TaskItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TaskItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TaskItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TaskItem" />
@@ -86,11 +78,9 @@
       <Docs>
         <summary>Zurückgeben oder einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, des ist-Aufwands für den Vorgang aufgewendeten festlegen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>ActualWork</b> wird in Einheiten von Minuten gespeichert. Das Feld <b>ActualWork</b> standard Aufgabenformular wird an die <b>ActualWork</b> -Eigenschaft gebunden. Standardmäßig wird das Feld ein 8-Stunden-Tag und 40 Stunden Woche vorausgesetzt.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -144,10 +134,8 @@
       <Docs>
         <summary>Ordnet eine Aufgabe und gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> -Objekt, das es darstellt.</summary>
         <returns>Ein <b>TaskItem</b> -Objekt, das die Aufgabe darstellt.</returns>
-        <remarks>
-          <para>Diese Methode ermöglicht eine Aufgabe zugewiesen werden soll (delegiert) an einen anderen Benutzer. Erstellen einer Aufgabe müssen Sie vor dem zuweisen, und Sie müssen eine Aufgabe zuweisen, bevor Sie sie senden können. Eine zugewiesene Aufgabe wird als gesendet eine <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Mit dieser Methode kann eine Aufgabe einem anderen Benutzer zugewiesen (an einen anderen Benutzer delegiert) werden. Sie müssen eine Aufgabe erstellen, bevor Sie sie zuweisen können, und Sie müssen eine Aufgabe zuweisen, bevor Sie sie senden können. Eine zugewiesene Aufgabe wird als gesendet eine <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Attachments">
@@ -203,11 +191,9 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element eine automatische Konfliktbehebung gewinnen ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert <b>False</b> wird nicht notwendigerweise, dass das Element eine Verlierer eine automatische Konfliktbehebung ist. Das Element könnte mit einem anderen Element in Konflikt.</para>
-          <para>, Wenn ein Element wurde <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> von dessen <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Conflicts" /> -Eigenschaft größer als 0 (null) und dessen <b>AutoResolvedWinner</b> -Eigenschaft auf <b>True</b>festgelegt ist, ist es eine automatische Konfliktbehebung gewinnen. Andererseits, wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b>ist, ist es eine Verlierer in eine automatische Konfliktbehebung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert <b>False</b> wird nicht notwendigerweise, dass das Element eine Verlierer eine automatische Konfliktbehebung ist. Das Element kann mit einem anderen Element in Konflikt handeln.</para>
+          <para>Wenn ein Element wurde <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> von dessen <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Conflicts" /> -Eigenschaft größer als 0 (null) und dessen <b>AutoResolvedWinner</b> -Eigenschaft auf <b>True</b>festgelegt ist, ist es eine automatische Konfliktbehebung gewinnen. Wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b> ist, ist es andererseits, eine Verlierer in eine automatische Konfliktbehebung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -236,13 +222,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der das Outlook-Element zugeordnete Abrechnungsinformationen darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der das Outlook-Element zugeordnete Abrechnungsinformationen darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Textfeld.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Textfeld.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -298,10 +281,8 @@
       <Parameters />
       <Docs>
         <summary>Setzt eine ungesendete Antwort auf eine Aufgabenanfrage auf eine einfache Aufgabe zurück.</summary>
-        <remarks>
-          <para>Nachdem Sie eine Aufgabenanfrage erhalten und darauf, jedoch vor dem Senden der Antwort zu reagieren, können Sie diese Methode verwenden, die Aufgabe in den Zustand zurückzuversetzen wiederherzustellen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nachdem Sie eine Aufgabenanfrage erhalten und darauf geantwortet haben, können Sie diese Methode verwenden, um die Aufgabe vor dem Senden in den vor der Antwort gültigen Zustand zurückzuversetzen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CardData">
@@ -330,8 +311,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die den Text der Kartendaten für die Aufgabe darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die den Text der Kartendaten für die Aufgabe darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -362,14 +342,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Kategorien zugewiesen, um das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Kategorien zugewiesen, um das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die ein Outlook-Element zugewiesen wurden. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen konvertieren möchten, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die einem Outlook-Element zugewiesen wurde. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen zu konvertieren, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -479,13 +456,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, das die Namen der Organisationen im Zusammenhang mit der Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, das die Namen der Organisationen im Zusammenhang mit der Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Textfeld.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Textfeld. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Complete">
@@ -573,8 +547,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die das Outlook-Element zugeordneten Kontaktnamen darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die das Outlook-Element zugeordneten Kontaktnamen darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -641,12 +614,10 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die eindeutig identifiziert, eine <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekts, das die <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> -Objekt gehört. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ordnet Elemente einer Unterhaltung. Diese Artikel und die Unterhaltung besitzen denselben Wert in ihrer <b>ConversationID</b> -Eigenschaft.</para>
+        <remarks><para>Diese Eigenschaft ordnet Elemente zu einer Unterhaltung. Diese Elemente und der Unterhaltung haben denselben Wert in die Eigenschaft <b>ConversationID</b>.</para>
           <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagConversationId</b>.</para>
-          <para>Wenn das <b>TaskItem</b> -Objekt in einer Microsoft Outlook-Version vor Microsoft Outlook 2010 erstellt wird, oder wenn Outlook im Onlinemodus für Versionen vor Microsoft Exchange Server 2010, diese Eigenschaft eine Version von Microsoft Exchange Server ausgeführt wird Gibt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ConversationTopic" /> -Eigenschaft.</para>
-          <para />
-        </remarks>
+          <para>Wenn das <b>TaskItem</b> -Objekt in einer Microsoft Outlook-Version vor Microsoft Outlook 2010 erstellt wird, oder wenn Outlook im Onlinemodus für Versionen vor Microsoft Exchange Server 2010, diese Eigenschaft eine Version von Microsoft Exchange Server ausgeführt wird Gibt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ConversationTopic" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -756,10 +727,8 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> , der angibt, der Erstellungszeit für das Outlook-Element zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DateCompleted">
@@ -871,11 +840,9 @@
       <Parameters />
       <Docs>
         <summary>Entfernt das Element aus dem Ordner, der das Element enthält.</summary>
-        <remarks>
-          <para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Beispielsweise in der Items-Auflistung eines Ordners alle Artikel, wenn n Anzahl der Elemente im Ordner vorhanden sind starten Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
-          <para>Die löschen-Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, die <b>Delete</b> -Methode des Elements dauerhaft entfernt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Angenommen, starten wenn n Anzahl der Elemente im Ordner vorhanden sind in der Items-Auflistung eines Ordners alle Artikel, Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
+          <para>Die Delete -Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, entfernt die <b>Delete</b> -Methode das Element dauerhaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -900,14 +867,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
+        <param name="Modal"><b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
         <summary>Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt für das Element.</summary>
-        <remarks>
-          <para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> -Methode.</para>
-          <para>, Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) mithilfe von Microsoft Outlook-Objektmodell zu öffnen, erhalten Sie in den Programmiersprachen C oder C++ den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</para>
+          <para>Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -994,11 +958,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die eindeutige Eintrags-ID des Objekts darstellt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
-          <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs finden Sie http://msdn.microsoft.com für <b>PidTagEntryId</b>. </para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
+          <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs suchen Sie http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormDescription">
@@ -1052,15 +1014,14 @@
       <Docs>
         <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</summary>
         <returns>Gibt ein <b>Conversation</b> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetConversation</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine Unterhaltung für das Element vorhanden ist. Keine Unterhaltung vorhanden ist, für ein Element in den folgenden Szenarien:</para>
           <list type="bullet">
             <item>
-              <para>das Element noch nicht gespeichert wurde. Ein Element programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden kann.</para>
+              <para>Das Element wurde nicht gespeichert. Ein Element kann programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden.</para>
             </item>
             <item>
-              <para>Für ein Element, das (z. B. ein e-Mail-Element, Terminelement oder Kontaktelement) gesendet werden kann, nicht das Element gesendet wurde.</para>
+              <para>Im Fall eines Elements, das gesendet werden kann (z. B. ein E-Mail-, Termin- oder Kontaktelement), wurde das Element nicht gesendet.</para>
             </item>
             <item>
               <para>Unterhaltungen wurden über die Windows-Registrierung deaktiviert.</para>
@@ -1069,8 +1030,7 @@
               <para>Der Informationsspeicher die Unterhaltungsansicht nicht unterstützt (beispielsweise Outlook im klassischen Onlinemodus für Versionen vor Microsoft Exchange Server 2010 eine Version von Microsoft Exchange ausgeführt wird). Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekts, um festzustellen, ob der Informationsspeicher die Unterhaltungsansicht unterstützt.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1098,10 +1058,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das einen Inspektor darstellt, auf das angegebene Element enthalten initialisiert. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetRecurrencePattern">
@@ -1158,10 +1116,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> Konstante, die die relative Wichtigkeitsstufe für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagImportance</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagImportance</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternetCodepage">
@@ -1192,10 +1148,8 @@
       <Docs>
         <summary>Zurückgeben oder einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der bestimmt, die vom Objekt verwendete Internetcodepage festlegen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die InternetCodePage definiert das vom Objekt verwendete Textkodierungsschema.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Internetcodepage definiert das vom Objekt verwendete Textkodierungsschema.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1223,11 +1177,9 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element in Konflikt befindet. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b>zurück.</para>
-          <para>Wenn <b>True</b>, das angegebene Element in Konflikt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b> zurück.</para>
+          <para>Wenn <b>True</b>, das angegebene Element in Konflikt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsRecurring">
@@ -1255,10 +1207,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn der Vorgang einen sich wiederholenden Vorgang ist.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn die <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.GetRecurrencePattern" /> -Methode wird verwendet, mit einem <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> -Objekts, diese Eigenschaft auf <b>True</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn die <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.GetRecurrencePattern" /> -Methode wird verwendet, mit einem <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> -Objekts, diese Eigenschaft auf <b>True</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemProperties">
@@ -1286,10 +1236,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> -Auflistung, die alle Outlook-Element zugeordneten Standard- und benutzerdefinierte Eigenschaften darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1317,10 +1265,8 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> angeben von Datum und Uhrzeit der letzten Änderung das Outlook-Element zurück.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -1407,10 +1353,8 @@
       <Parameters />
       <Docs>
         <summary>Markiert die Aufgabe als abgeschlossen.</summary>
-        <remarks>
-          <para>Legt <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.PercentComplete" /> "100 %", <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Complete" /> auf <b>"true"</b>, und <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.DateCompleted" /> auf das aktuelle Datum.</para>
-          <para />
-        </remarks>
+        <remarks><para> Legt <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.PercentComplete" /> "100 %", <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Complete" /> auf <b>"true"</b>, und <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.DateCompleted" /> auf das aktuelle Datum.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1441,10 +1385,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> -Konstante, die den Status eines Elements bestimmt, nachdem es von einem Remotebenutzer empfangen wurde. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft verleiht Remotebenutzern mit weniger als idealen zur Datenübertragung Fähigkeiten eine erhöhte messagingflexibilität.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft verleiht Remotebenutzern mit nicht idealen Fähigkeiten zur Datenübertragung eine erhöhte Messagingflexibilität.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1473,13 +1415,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Nachrichtenklasse für das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Nachrichtenklasse für das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwortbefehle.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwort Befehle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -1508,13 +1447,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Mileage für ein Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Mileage für ein Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Feld und zum Speichern von Mileage Informationen im Zusammenhang mit dem Element (beispielsweise 100 Meilen für einen Termin, Kontakt oder Aufgabe dokumentiert) aus Gründen der Spesen verwendet werden kann.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Zeichenfolgenfeld, das zur Speicherung von Entfernungsinformationen zum Zweck der Kostenerstattung verwendet werden kann, die dem Element zugeordnet sind (z. B. 100 km zur Wahrnehmung eines Termins, einer Besprechung oder einer Aufgabe). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1690,13 +1626,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die für die Aufgabe zuständigen angibt.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die für die Aufgabe zuständigen angibt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies-Feld. Durch Festlegen dieser Eigenschaft an eine Person als dem aktuellen Benutzer muss sich nicht auf die Auswirkungen der Aufgabe delegieren. Lese-/Schreibzugriff, wenn die Aufgabe auf den öffentlichen Ordner von Exchange Server gespeichert ist. Schreibgeschützt, wenn sie im Postfach eines Benutzers oder der PST-Datei gespeichert ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich hierbei um ein formfreies Textfeld. Wenn diese Eigenschaft auf eine andere Person als den aktuellen Benutzer festgelegt wird, führt dies nicht zum Zuordnen der Aufgabe an jemand anderen. Lese-/Schreibzugriff, wenn die Aufgabe im Öffentlichen Ordner von Exchange Server gespeichert wird. Schreibgeschützt, wenn sie im Postfach eines Benutzers oder in die Persönliche Ordner-Datei gespeichert wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Ownership">
@@ -1864,10 +1797,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung, die alle Empfänger für das Outlook-Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ein Empfänger kann durch eine Zeichenfolge zur Darstellung des Empfängers Anzeigenamen, den Alias oder vollständige SMTP-e-Mail-Adresse angegeben werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein Empfänger kann von einer Zeichenfolge festgelegt werden, die den Anzeigenamen des Empfängers, den Alias oder die vollständige SMTP-E-Mail-Adresse darstellt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderOverrideDefault">
@@ -1898,10 +1829,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn die Erinnerung das Standardverhalten Erinnerung für das Element überschreibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie müssen die <b>ReminderOverrideDefault</b> -Eigenschaft, um zu überprüfen Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> und die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> Eigenschaften.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie müssen die <b>ReminderOverrideDefault</b> -Eigenschaft, um zu überprüfen Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> und die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> Eigenschaften.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -1932,10 +1861,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn die Erinnerung ein akustisches Signal wiedergegeben werden soll, tritt für dieses Element. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>ReminderPlaySound</b> -Eigenschaft muss festgelegt werden, um die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>ReminderPlaySound</b> -Eigenschaft muss festgelegt werden, um die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderSoundFile" /> Eigenschaft. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -1995,13 +1922,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der Pfad und der Dateiname der Audiodatei wiedergeben, tritt die Erinnerung für das Outlook-Element. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der Pfad und der Dateiname der Audiodatei wiedergeben, tritt die Erinnerung für das Outlook-Element. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist nur gültig Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderOverrideDefault" /> und <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> Eigenschaften auf <b>True</b>festgelegt sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist nur gültig Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderOverrideDefault" /> und <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.ReminderPlaySound" /> Eigenschaften auf <b>True</b>festgelegt sind. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2061,21 +1985,31 @@
       </Parameters>
       <Docs>
         <param name="Response">Die Antwort auf die Anfrage.</param>
-        <param name="fNoUI">
-          <b>True</b>, wenn ein Dialogfeld nicht angezeigt; die Antwort wird automatisch gesendet. <b>False</b>, wenn das Dialogfeld für die Reaktion anzuzeigen. </param>
-        <param name="fAdditionalTextDialog">
-          <b>False</b>, wenn keine Aufforderung den Benutzer zur Eingabe; die Antwort wird zur Bearbeitung im Inspektor angezeigt. <b>True</b>, wenn fordert den Benutzer auf Senden oder mit Kommentaren senden. Dieses Argument ist nur gültig, wenn <b>fNoUI</b> auf <b>false festgelegt</b> ist. </param>
+        <param name="fNoUI"><b>True</b>, wenn ein Dialogfeld nicht angezeigt; die Antwort wird automatisch gesendet. <b>False</b>, wenn das Dialogfeld für die Reaktion anzuzeigen. </param>
+        <param name="fAdditionalTextDialog"><b>False</b>, wenn keine Aufforderung den Benutzer zur Eingabe; die Antwort wird zur Bearbeitung im Inspektor angezeigt. <b>True</b>, wenn fordert den Benutzer auf Senden oder mit Kommentaren senden. Dieses Argument ist nur gültig, wenn <b>fNoUI</b> auf <b>false festgelegt</b> ist. </param>
         <summary>Antwortet auf eine Aufgabenanfrage.</summary>
         <returns>Eine <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> , das die Antwort auf die Aufgabenanfrage darstellt.</returns>
-        <remarks>
-          <para>Wenn Sie die <b>Antworten</b> -Methode mit dem Argument als OlTaskAccept aufrufen, erstellt Microsoft Outlook eine neue <b>TaskItem</b> , die die aufgabenanfrageelement dupliziert. Das neue Element hat eine andere Eintrags-ID Outlook entfernt dann das Originalelement.</para>
+        <remarks><para>Wenn Sie die <b>Antworten</b> -Methode mit dem Argument als OlTaskAccept aufrufen, erstellt Microsoft Outlook eine neue <b>TaskItem</b> , die die aufgabenanfrageelement dupliziert. Das neue Element hat eine andere Eintrags-ID Outlook entfernt das Originalelement.</para>
           <para>In der folgenden Tabelle wird das Verhalten der <b>reagieren</b> -Methode abhängig von der übergeordnete Objekt beschrieben und die <paramref name="fNoUI" /> und <paramref name="fAdditionalTextDialog" /> Parameter.</para>
-          <description>True, True</description>
-          <description> Antwort 
-            <item><list type="table">Element wird ohne Benutzeroberfläche zurückgegeben. Um die Antwort zu senden, müssen Sie die Send-Methode aufrufen.    
-            <item><description>True, False</description><description> Gleiches Ergebnis wie bei True, True.  </description></item><item><description>Falsch, WAHR</description><description> , wenn die Display-Methode aufgerufen wurde, der Benutzer aufgefordert werden. Andernfalls wird das Element ohne Bestätigung gesendet und das resultierende Element wird Nothing zurück. </description></item><item><description>"False", "false"</description><description> hat keine Auswirkung.  </description></item></list></item></description>
-          <para />
-        </remarks>
+          <list type="table">
+            <item>
+              <description>True, True</description>
+              <description> Antwortelement wird ohne Benutzeroberfläche zurückgegeben. Um die Antwort zu senden, müssen Sie die Methode Send aufrufen. </description>
+            </item>
+            <item>
+              <description>True, False</description>
+              <description> Gleiches Ergebnis wie bei True, True.</description>
+            </item>
+            <item>
+              <description>False, True</description>
+              <description> Wenn die Display-Methode aufgerufen wurde, wird die Aufforderung des Benutzers angezeigt. Andernfalls wird das Element ohne Bestätigung gesendet und das resultierende Element wird Nothing zurück. </description>
+            </item>
+            <item>
+              <description>False, False</description>
+              <description> Hat keine Wirkung. </description>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ResponseState">
@@ -2132,8 +2066,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der eine Rolle für den Vorgang den Besitzer einer Aufgabe zuordnen Freitext-Zeichenfolge enthält. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der eine Rolle für den Vorgang den Besitzer einer Aufgabe zuordnen Freitext-Zeichenfolge enthält. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2166,10 +2099,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer Byte-Array, das den Text des Microsoft Outlook-Element im RTF-Format darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Methode System.Text.Encoding.AsciiEncoding.GetString() in c# oder Visual Basic können Sie um ein Array von Bytes in eine Zeichenfolge zu konvertieren.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Methode System.Text.Encoding.AsciiEncoding.GetString() in c# oder Visual Basic können Sie um ein Array von Bytes in eine Zeichenfolge zu konvertieren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -2221,12 +2152,10 @@
       </Parameters>
       <Docs>
         <param name="Path">Der Pfad, in dem das Element gespeichert werden soll.</param>
-        <param name="Type">Der Dateityp zu speichern. Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</param>
+        <param name="Type">Der Dateityp, der gespeichert werden soll. Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</param>
         <summary>Speichert das Microsoft Outlook-Element in dem angegebenen Pfad und in dem Format des angegebenen Dateityps. Wenn kein Dateityp angegeben wurde, wird das MSG-Format (MSG) verwendet.</summary>
-        <remarks>
-          <para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -2283,13 +2212,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die Microsoft Schedule+ Priorität für die Aufgabe darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die Microsoft Schedule+ Priorität für die Aufgabe darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>1 bis 9, A bis Z oder A1 bis Z9 kann sein. Priorität 1 ist die höchste.</para>
-          <para />
-        </remarks>
+        <remarks><para>Mögliche Werte sind: 1 bis 9, A bis Z oder A1 bis Z9. Der Wert 1 hat die höchste Priorität. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -2345,11 +2271,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt, das Konto, unter dem darstellt, der <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> -Objekt ist gesendet werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SendUsingAccount</b> -Eigenschaft kann verwendet werden, um das Konto anzugeben, die verwendet werden soll, um das <b>TaskItem</b> -Objekt senden bei der <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> -Methode aufgerufen wird. Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn das angegebene Konto für das <b>TaskItem</b> -Objekt nicht mehr vorhanden ist.</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SendUsingAccount</b> -Eigenschaft kann verwendet werden, um das Konto anzugeben, die verwendet werden soll, um das <b>TaskItem</b> -Objekt senden bei der <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> -Methode aufgerufen wird. Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn das angegebene Konto für das <b>TaskItem</b> -Objekt nicht mehr vorhanden ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -2380,10 +2303,8 @@
       <Docs>
         <summary>Gibt zurück oder legt eine Konstante der <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> Enumeration zurück, der die Vertraulichkeit für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSensitivity</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSensitivity</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -2411,16 +2332,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -2498,8 +2417,7 @@
       <Parameters />
       <Docs>
         <summary>Löscht die aktuelle Instanz einer Aufgabenserie und legt die Serie auf die nächste Instanz dieser Aufgabe fest.</summary>
-        <returns>
-          <b>False</b> gibt an, dass die Aufgabe wurde die letzte Aufgabe in die Serie aus, damit es keine Aufgabe ist auf die Serie festgelegt werden soll.  <b>True</b> gibt an, dass die Serie auf die nächste Instanz dieser Aufgabe erfolgreich festgelegt wurde.</returns>
+        <returns><b>False</b> gibt an, dass die Aufgabe wurde die letzte Aufgabe in die Serie aus, damit es keine Aufgabe ist auf die Serie festgelegt werden soll.  <b>True</b> gibt an, dass die Serie auf die nächste Instanz dieser Aufgabe erfolgreich festgelegt wurde.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2593,10 +2511,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer durch Semikolons getrennten <b>Zeichenfolge</b> (<b>String</b> in c#) der Anzeigenamen von Empfängern, die nach Abschluss der Aufgabe Statusinformationen erhalten sollen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird von berechnet die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> Eigenschaft. Von der <b>StatusOnCompletionRecipients</b> -Eigenschaft zurückgegebene Empfänger entsprechen den BCC-Empfänger in der <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft wird von berechnet die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> Eigenschaft. Von der <b>StatusOnCompletionRecipients</b> -Eigenschaft zurückgegebene Empfänger entsprechen den BCC-Empfänger in der <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StatusReport">
@@ -2653,10 +2569,8 @@
       <Docs>
         <summary>Gibt eine durch Semikolons getrennte <b>Zeichenfolge</b> (<b>String</b> in c#) von Anzeigenamen für Empfänger statusaktualisierungen für den Vorgang zu erhalten.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird von berechnet die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> Eigenschaft. Von der <b>StatusUpdateRecipients</b> -Eigenschaft zurückgegebene Empfänger entsprechen CC-Empfänger in der <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft wird von berechnet die <see cref="P:Microsoft.Office.Interop.Outlook._TaskItem.Recipients" /> Eigenschaft. Von der <b>StatusUpdateRecipients</b> -Eigenschaft zurückgegebene Empfänger entsprechen CC-Empfänger in der <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Subject">
@@ -2685,13 +2599,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Betreff für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Betreff für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TeamTask">
@@ -2753,10 +2664,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der den Ordinalwert der Aufgabe für die <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird verwendet, um anzugeben, wie die Aufgabe innerhalb der übergeordneten Gruppen, wie heute oder morgen, der Aufgabenleiste sortiert werden soll.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft wird verwendet, um anzugeben, wie die Aufgabe innerhalb der übergeordneten Gruppen, wie Heute oder Morgen, der Aufgabenleiste sortiert werden soll.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TotalWork">
@@ -2787,11 +2696,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der angibt, der gesamten Arbeit für den Vorgang. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>TotalWork</b> entspricht dem Feld Gesamtaufwand auf der Registerkarte Details eines Aufgabenelements. Es wird in Einheiten von Minuten gespeichert. Feld Gesamtaufwand auf dem standard Aufgabenformular wird an die <b>TotalWork (</b> Eigenschaft) gebunden. Standardmäßig wird das Feld ein 8-Stunden-Tag und 40 Stunden Woche vorausgesetzt.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">

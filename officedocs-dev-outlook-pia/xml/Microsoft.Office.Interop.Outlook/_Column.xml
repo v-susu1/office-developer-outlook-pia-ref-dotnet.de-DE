@@ -1,13 +1,5 @@
 <Type Name="_Column" FullName="Microsoft.Office.Interop.Outlook._Column">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="adbe9af5926d15b27b9c5b30432c3473b39e888c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635742" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Column" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="adbe9af5926d15b27b9c5b30432c3473b39e888c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905421" /></Metadata><TypeSignature Language="C#" Value="public interface _Column" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Column" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Column" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Column" />
@@ -111,11 +103,9 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Namen des darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.Column" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Name</b> -Eigenschaft ist das Standardelement des <b>Column</b> -Objekts. </para>
-          <para>, Wenn die <b>Spalte</b> eine Standardspalte ist die <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, oder wenn er auf die <b>Tabelle</b> mit den expliziten integrierten Namen für die Eigenschaft hinzugefügt wurde, wird der Wert der <b>Name</b> der expliziten integrierten Namen (ohne Klammern) für die -Eigenschaft. Wenn die <b>Spalte</b> der <b>Tabelle</b> mit einem Eigenschaftennamen verweisen auf ein Namespace hinzugefügt wurde, wird der Wert der <b>Name</b> der Name der Eigenschaft mithilfe von Namespaces verwiesen wird.  Weitere Informationen zum Verweisen auf Eigenschaften mithilfe von Namespaces finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Name</b> -Eigenschaft ist das Standardelement des <b>Column</b> -Objekts.</para>
+          <para>Wenn die <b>Spalte</b> eine Standardspalte ist die <see cref="T:Microsoft.Office.Interop.Outlook.Table" />, oder wenn er auf die <b>Tabelle</b> mit den expliziten integrierten Namen für die Eigenschaft hinzugefügt wurde, ist der Wert der <b>Name</b> der expliziten integrierten Namen (ohne Klammern) für die Eigenschaft. Wenn die <b>Spalte</b> der <b>Tabelle</b> mit einem Eigenschaftennamen verweisen auf ein Namespace hinzugefügt wurde, wird der Wert der <b>Name</b> der Name der Eigenschaft mithilfe von Namespaces verwiesen wird.  Weitere Informationen zum Verweisen auf Eigenschaften mithilfe von Namespaces finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -171,16 +161,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
