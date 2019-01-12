@@ -1,13 +1,5 @@
 <Type Name="OlStorageIdentifierType" FullName="Microsoft.Office.Interop.Outlook.OlStorageIdentifierType">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4dd7c0d0df6981cc301899c6761c9fb713d38374" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636102" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlStorageIdentifierType" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7e1dddb1f2922a1eb5d9f138495c724f1f826492" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904147" /></Metadata><TypeSignature Language="C#" Value="public enum OlStorageIdentifierType" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlStorageIdentifierType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlStorageIdentifierType" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlStorageIdentifierType" />
@@ -20,24 +12,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-      <span data-ttu-id="b9938-101">Gibt den Bezeichnertyp für ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> Objekt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b9938-101">Specifies the type of identifier for a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> object.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="b9938-102">
-        <para>Die Nachrichtenklasse des <b>StorageItem-Objekt</b> ist nicht als eine explizite integrierte Eigenschaft verfügbar gemacht. Sie können die Klasse Message-Eigenschaft, durch zugreifen die <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das vom bereitgestellten <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.PropertyAccessor" />.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="b9938-102">
-          <para>The message class of a <b>StorageItem</b> is not exposed as an explicit built-in property. You can access the message class property through the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that is provided by  <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.PropertyAccessor" />. </para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="79a81-101">Gibt den Bezeichnertyp für ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="79a81-101">Specifies the type of identifier for a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" /> object.</span></span></summary>
+    <remarks><para><span data-ttu-id="79a81-102">Die Nachrichtenklasse des <b>StorageItem-Objekt</b> ist nicht als eine explizite integrierte Eigenschaft verfügbar gemacht.</span><span class="sxs-lookup"><span data-stu-id="79a81-102">The message class of a <b>StorageItem</b> is not exposed as an explicit built-in property.</span></span> <span data-ttu-id="79a81-103">Sie können die Klasse Message-Eigenschaft, durch zugreifen die <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das vom bereitgestellten <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.PropertyAccessor" />.</span><span class="sxs-lookup"><span data-stu-id="79a81-103">You can access the message class property through the <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that is provided by  <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.PropertyAccessor" />.</span></span> </para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olIdentifyByEntryID">
@@ -56,12 +33,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9938-103">Identifiziert ein <b>StorageItem</b> durch <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9938-103">Identifies a <b>StorageItem</b> by <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="79a81-104">Identifiziert ein <b>StorageItem</b> durch <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />.</span><span class="sxs-lookup"><span data-stu-id="79a81-104">Identifies a <b>StorageItem</b> by <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.EntryID" />.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olIdentifyByMessageClass">
@@ -80,12 +52,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9938-104">Identifiziert ein <b>StorageItem</b> durch die Nachrichtenklasse.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9938-104">Identifies a <b>StorageItem</b> by message class.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="79a81-105">Identifiziert ein <b>StorageItem</b> durch die Nachrichtenklasse.</span><span class="sxs-lookup"><span data-stu-id="79a81-105">Identifies a <b>StorageItem</b> by message class.</span></span></summary>
       </Docs>
     </Member>
     <Member MemberName="olIdentifyBySubject">
@@ -104,12 +71,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="b9938-105">Identifiziert ein <b>StorageItem</b> durch <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="b9938-105">Identifies a <b>StorageItem</b> by <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="79a81-106">Identifiziert ein <b>StorageItem</b> durch <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />.</span><span class="sxs-lookup"><span data-stu-id="79a81-106">Identifies a <b>StorageItem</b> by <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Subject" />.</span></span></summary>
       </Docs>
     </Member>
   </Members>

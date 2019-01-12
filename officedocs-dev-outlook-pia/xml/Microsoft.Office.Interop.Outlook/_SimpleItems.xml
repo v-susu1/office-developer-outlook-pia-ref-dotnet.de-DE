@@ -1,13 +1,5 @@
 <Type Name="_SimpleItems" FullName="Microsoft.Office.Interop.Outlook._SimpleItems">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d86021a7f901451e7d4f548b758b4fb5fb10168e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636396" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SimpleItems : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d86021a7f901451e7d4f548b758b4fb5fb10168e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903363" /></Metadata><TypeSignature Language="C#" Value="public interface _SimpleItems : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SimpleItems implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SimpleItems" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SimpleItems&#xA;Implements IEnumerable" />
@@ -30,24 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="87547-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="87547-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="87547-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="87547-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="87547-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="87547-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="87547-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="87547-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="6fa7e-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="6fa7e-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="6fa7e-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="6fa7e-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -74,16 +49,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="87547-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das übergeordnete Microsoft Outlook-Anwendung für die <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Microsoft Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> object.</span>
-          </span>
-          <span data-ttu-id="87547-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6fa7e-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das übergeordnete Microsoft Outlook-Anwendung für die <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent Microsoft Outlook application for the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> object.</span></span> <span data-ttu-id="6fa7e-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -111,16 +77,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="87547-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span>
-          </span>
-          <span data-ttu-id="87547-108">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-108">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6fa7e-107">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-107">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant that indicates the object's class.</span></span> <span data-ttu-id="6fa7e-108">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-108">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -148,16 +105,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="87547-109">Gibt eine <b>ganze Zahl</b> (<b>Int</b> in c#), der angibt, die Anzahl der Objekte in der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-109">Returns an <b>Integer</b> (<b>int</b> in C#) that indicates the count of objects in the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection.</span>
-          </span>
-          <span data-ttu-id="87547-110">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6fa7e-109">Gibt eine <b>ganze Zahl</b> (<b>Int</b> in c#), der angibt, die Anzahl der Objekte in der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-109">Returns an <b>Integer</b> (<b>int</b> in C#) that indicates the count of objects in the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection.</span></span> <span data-ttu-id="6fa7e-110">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -188,31 +136,11 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="87547-111">Der nullbasierte Indexwert des Objekts in der <b>SimpleItems</b> -Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-111">The zero-based index number of the object in the <b>SimpleItems</b> collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="87547-112">Gibt ein <see cref="T:System.Object" /> (in c#-<b>Objekt</b> ) in der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-112">Returns an <see cref="T:System.Object" /> (<b>object</b> in C#) in the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection.</span>
-          </span>
-        </summary>
+        <param name="Index"><span data-ttu-id="6fa7e-111">Der nullbasierte Indexwert des Objekts in der <b>SimpleItems</b> -Auflistung.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-111">The zero-based index number of the object in the <b>SimpleItems</b> collection.</span></span></param>
+        <summary><span data-ttu-id="6fa7e-112">Gibt ein <see cref="T:System.Object" /> (in c#-<b>Objekt</b> ) in der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-112">Returns an <see cref="T:System.Object" /> (<b>object</b> in C#) in the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> collection.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="87547-113">
-            <para>Wenn diese Eigenschaft ein Fehler auftritt, um ein Objekt in der Auflistung als zurückzugeben angegeben, durch die <paramref name="Index" /> -Parameter gibt die-Methode <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-113">
-              <para>If this property fails to return an object in the collection as specified by the <paramref name="Index" /> parameter, the method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="6fa7e-113">Wenn diese Eigenschaft ein Fehler auftritt, um ein Objekt in der Auflistung als zurückzugeben angegeben, durch die <paramref name="Index" /> -Parameter gibt die-Methode <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-113">If this property fails to return an object in the collection as specified by the <paramref name="Index" /> parameter, the method returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -238,29 +166,10 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="87547-114">Gibt das übergeordnete <see cref="T:System.Object" /> (in c#-<b>Objekt</b> ) von der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-114">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> object.</span>
-          </span>
-          <span data-ttu-id="87547-115">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6fa7e-114">Gibt das übergeordnete <see cref="T:System.Object" /> (in c#-<b>Objekt</b> ) von der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-114">Returns the parent <see cref="T:System.Object" /> (<b>object</b> in C#) of the <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> object.</span></span> <span data-ttu-id="6fa7e-115">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-115">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="87547-116">
-            <para>Das übergeordnete Objekt eines <b>SimpleItems</b> -Objekts ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> Objekt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-116">
-              <para>The parent object of a <b>SimpleItems</b> object is a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="6fa7e-116">Das übergeordnete Objekt eines <b>SimpleItems</b> -Objekts ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-116">The parent object of a <b>SimpleItems</b> object is a <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -286,31 +195,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="87547-117">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-117">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="87547-118">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="6fa7e-117">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-117">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="6fa7e-118">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-118">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="87547-119">
-            <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine angemeldete Sitzung vorhanden ist.</para>
-            <para>Können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Beide Member denselben Zweck.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="87547-119">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</para>
-              <para>You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session. Both members serve the same purpose.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="6fa7e-119">Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine angemeldete Sitzung vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-119">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if there is no logged-on session.</span></span></para>
+          <para><span data-ttu-id="6fa7e-120">Sie können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-120">You can use the <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method interchangeably to obtain the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="6fa7e-121">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="6fa7e-121">Both members serve the same purpose.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
