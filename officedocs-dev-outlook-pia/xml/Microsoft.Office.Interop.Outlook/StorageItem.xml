@@ -1,13 +1,5 @@
 <Type Name="StorageItem" FullName="Microsoft.Office.Interop.Outlook.StorageItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="64f3b31b5fb2ef6128f00acedda29ebf7479b98f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635909" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface StorageItem : Microsoft.Office.Interop.Outlook._StorageItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c64c36639bcd5a18e335c495a91dc7dbbeb81751" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905414" /></Metadata><TypeSignature Language="C#" Value="public interface StorageItem : Microsoft.Office.Interop.Outlook._StorageItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StorageItem implements class Microsoft.Office.Interop.Outlook._StorageItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StorageItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface StorageItem&#xA;Implements _StorageItem" />
@@ -31,11 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Ein Meldungsobjekt in MAPI, das immer als ausgeblendetes Element im übergeordneten Ordner gespeichert wird und in dem private Daten für Outlook-Lösungen gespeichert werden.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._StorageItem" />. </para>
-      <para>Ein <b>StorageItem</b> -Objekt wird auf Ordnerebene, sodass es mit dem Konto wandern und online oder offline zur Verfügung gespeichert.</para>
-      <para>Das Outlook-Objektmodell bietet keine Auflistungsobjekt für <b>StorageItem</b> -Objekte. Können jedoch <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> zum Abrufen einer <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> mit ausgeblendeten Elementen in einer <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, wenn Sie angeben die <paramref name="TableContents" /> Parameter als <b>oHiddenItems</b>. Schutz der Daten wichtig ist, sollten Sie die Daten vor dem Speichern darauf verweisen verschlüsseln</para>
-      <para>Wenn Sie ein <b>StorageItem</b> -Objekt abgerufen haben, können Sie folgendermaßen vorgehen, um Lösungsdaten zu speichern:</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._StorageItem" />. </para>
+      <para>Ein <b>StorageItem</b> -Objekt wird gespeichert, auf Ordnerebene, sodass es mit dem Konto wandern und online oder offline zur Verfügung.</para>
+      <para>Outlook-Objektmodell bietet keine Auflistungsobjekt für <b>StorageItem</b> -Objekte. Können jedoch <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> zum Abrufen einer <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> mit ausgeblendeten Elementen in einer <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, wenn Sie angeben die <paramref name="TableContents" /> Parameter als <b>oHiddenItems</b>. Wenn der Schutz der Daten wichtig ist, sollten Sie die Daten verschlüsseln, vor dem Speichern.</para>
+      <para>Wenn Sie ein <b>StorageItem</b> -Objekt abgerufen haben, können Sie Folgendes ein, um das Speichern von Lösungsdaten ausführen:</para>
       <list type="bullet">
         <item>
           <para>Fügen Sie zur Speicherung dem Element Anlagen hinzu.</para>
@@ -44,7 +35,7 @@
           <para>Verwenden Sie explizite integrierte Eigenschaften des Elements wie <see cref="P:Microsoft.Office.Interop.Outlook._StorageItem.Body" /> zum Speichern von benutzerdefinierter Daten.</para>
         </item>
         <item>
-          <para>Hinzufügen benutzerdefinierter Eigenschaften auf dem Element mit <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> Methode. Beachten Sie, dass in diesem Fall die optionalen <paramref name="AddToFolderFields" /> und <paramref name="DisplayFormat" /> Argumente für die <b>UserProperties.Add</b> -Methode werden ignoriert.</para>
+          <para>Hinzufügen von benutzerdefinierten Eigenschaften auf dem Element mit <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> Methode. Beachten Sie, dass in diesem Fall die optionalen <paramref name="AddToFolderFields" /> und <paramref name="DisplayFormat" /> Argumente für die <b>UserProperties.Add</b> -Methode werden ignoriert.</para>
         </item>
         <item>
           <para>Verwendung der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, benutzerdefinierte Eigenschaften abzurufen oder festzulegen.</para>
@@ -52,8 +43,7 @@
       </list>
       <para>Die Standardnachrichtenklasse für ein neues <b>StorageItem-Objekt</b> ist <b>IPM. Speicher</b>. Wenn das <b>StorageItem-Objekt</b> als ausgeblendete Nachricht in einer Version von Outlook vor Microsoft Office Outlook 2007 vorhanden ist, bleibt die Nachrichtenklasse unverändert. Um die Änderung der Nachrichtenklasse zu verhindern, macht <b>StorageItem-Objekt</b> eine explizite <b>MessageClass</b> -Eigenschaft nicht verfügbar.</para>
       <para>Weitere Informationen zum Speichern von Lösungsdaten mithilfe des <b>StorageItem</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87931">Speichern von Daten für Lösungen</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

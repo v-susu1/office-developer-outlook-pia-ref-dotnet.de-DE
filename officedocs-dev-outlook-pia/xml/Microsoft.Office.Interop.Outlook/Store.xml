@@ -1,13 +1,5 @@
 <Type Name="Store" FullName="Microsoft.Office.Interop.Outlook.Store">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6445374782d0b4add1312b6169f01fab8b0ba475" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636862" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80f18cf084b45ff5e3b2a810c96deb110c412178" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903139" /></Metadata><TypeSignature Language="C#" Value="public interface Store : Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Store implements class Microsoft.Office.Interop.Outlook._Store" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Store" />
   <TypeSignature Language="VB.NET" Value="Public Interface Store&#xA;Implements _Store" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Datei auf dem lokalen Computer oder einem Netzlaufwerk dar, in der E-Mail-Nachrichten und andere Elemente für ein Konto im aktuellen Profil gespeichert werden.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Store" />. </para>
-      <para>Ein Profil definiert eine oder mehrere e-Mail-Konten, und jedes e-Mail-Konto mit einem Server eines bestimmten Typs verknüpft ist. Ein Speicher kann für einen Exchange-Server auf dem Server, in einem öffentlichen Exchange-Ordner oder in einer lokalen Persönliche Ordner-Datei (PST) oder Offlineordnerdatei (OST) sein. Für einen POP3-, IMAP- oder HTTP-e-Mail-Server ist ein Speicher eine PST-Datei.</para>
-      <para>Können Sie die <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> und <b>Store</b> -Objekten zum Aufzählen aller Ordner und Suchordner in allen Speichern in der aktuellen Sitzung.  Da die erste den Stammordner oder von Suchordnern in einem Speicher erfordert den Speicher geöffnet sein, und Öffnen eines Speichers erfordert ein Mehraufwand auf die Leistung, können Sie überprüfen die <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" /> -Eigenschaft fest, bevor Sie den Vorgang fortsetzen möchten. </para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Store" />. </para>
+      <para>Durch ein Profil wird mindestens ein E-Mail-Konto definiert, und jedes E-Mail-Konto ist einem Server eines bestimmten Typs zugeordnet. Für einen Exchange-Server kann sich ein Speicher auf dem Server, in einem öffentlichen Exchange-Ordner oder in einer lokalen Persönliche Ordner-Datei (PST) oder einer Offlineordnerdatei (OST) befinden. Bei einem POP3-, IMAP- oder HTTP-E-Mail-Server ist ein Speicher eine PST-Datei.</para>
+      <para>Sie können die <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> und <b>Store</b> -Objekten zum Aufzählen aller Ordner und Suchordner in allen Speichern in der aktuellen Sitzung.  Da die erste den Stammordner oder von Suchordnern in einem Speicher erfordert den Speicher geöffnet sein, und Öffnen eines Speichers erfordert ein Mehraufwand auf die Leistung, können Sie überprüfen die <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsOpen" /> -Eigenschaft fest, bevor Sie den Vorgang fortsetzen möchten. </para>
       <para>Wenn Sie einen Exchange-Server verwenden, können Sie andere explizite integrierte Aufrufen <b>Speichern</b> Eigenschaften für Speichern Merkmale wie <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" />, <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsCachedExchange" />, und <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsDataFileStore" />. Verwendung der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> von zurückgegebene Objekt <see cref="P:Microsoft.Office.Interop.Outlook._Store.PropertyAccessor" /> auf andere Speichereigenschaften zugreifen, die nicht im Outlook-Objektmodell verfügbar gemacht werden.</para>
       <para>Weitere Informationen zum Speichern von Outlook-Elementen in Ordnern und speichern finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87932">Speichern von Outlook-Elementen</a></para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

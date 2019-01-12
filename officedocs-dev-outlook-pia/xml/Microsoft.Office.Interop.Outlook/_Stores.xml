@@ -1,13 +1,5 @@
 <Type Name="_Stores" FullName="Microsoft.Office.Interop.Outlook._Stores">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="1140b6b1b491b9b987703c19f7175944985e3b9b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635765" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Stores : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1140b6b1b491b9b987703c19f7175944985e3b9b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903230" /></Metadata><TypeSignature Language="C#" Value="public interface _Stores : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Stores implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Stores" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Stores&#xA;Implements IEnumerable" />
@@ -147,11 +139,9 @@
         <param name="Index">Entweder eine <b>ganze Zahl</b> , einen 1 beginnenden Index in der <b>Stores</b> -Auflistung angibt, oder ein <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der angibt der <see cref="P:Microsoft.Office.Interop.Outlook._Store.DisplayName" /> eines <b>Store</b> in der <b>Stores</b> -Auflistung.</param>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt, das vom angegeben wird <paramref name="Index" />. Schreibgeschützt.</summary>
         <value>Ein <b>Store</b> -Objekt im übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> -Auflistung; gemäß <paramref name="Index" />.</value>
-        <remarks>
-          <para>Die <b>Store.DisplayName</b> -Eigenschaft ist die Standardeigenschaft eines <b>Store</b>.</para>
+        <remarks><para>Die <b>Store.DisplayName</b> -Eigenschaft ist die Standardeigenschaft eines <b>Store</b>.</para>
           <para>Wenn <paramref name="Index" /> eine Zeichenfolge ist und kein Element gefunden werden kann mit diesem Namen wird ein Fehler zurückgegeben werden.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -179,10 +169,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt des ein <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt des ein <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -210,16 +198,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

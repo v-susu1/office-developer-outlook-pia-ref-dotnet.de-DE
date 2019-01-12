@@ -1,13 +1,5 @@
 <Type Name="_AddressRuleCondition" FullName="Microsoft.Office.Interop.Outlook._AddressRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636367" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="84f193c25f7f01534bbcd631f87bc3b9044e6e05" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905106" /></Metadata><TypeSignature Language="C#" Value="public interface _AddressRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AddressRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AddressRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AddressRuleCondition" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Zurück oder legt ein Array von <b>String</b> (<b>Zeichenfolge</b> in c#)-Elementen für die Adresse regelbedingung ausgewertet werden soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie ein Array mit einem Element für eine einzelne Adresse ausgewertet werden soll oder ein Array mit mehreren Zeichenfolgen, um mehrere Adressen auszuwerten zuweisen können. Mehrere Adresszeichenfolgen in einem Array zugewiesen werden mithilfe des logischen Operators OR ausgewertet.</para>
-          <para>Falls eine durch <b>Address</b> angegebene Zeichenfolge in der Empfänger- oder Absenderadresse Adresse enthalten ist, wird die Bedingung mit <b>True</b>ausgewertet.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können ein Array mit einem Element zuweisen, um eine einzelne Adresse auszuwerten, oder ein Array mit mehreren Zeichenfolgen zuweisen, um mehrere Adressen auszuwerten. Mehrere, in einem Array zugewiesene Adresszeichenfolgen werden mithilfe der logischen OR-Operation ausgewertet.</para>
+          <para>Falls eine durch <b>Address</b> angegebene Zeichenfolge in der Empfänger- oder Absenderadresse enthalten ist, wird die Bedingung zu <b>True</b> ausgewertet.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -146,11 +136,9 @@
       <Docs>
         <summary>Gibt eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> -Enumeration, die den Typ des regelbedingung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> -Objekt wird durch Typen <b>OlRuleSend</b> und <b>OlRuleReceive</b>-Regeln verwendet. Wenn die Regel als eine Regel <b>OlRuleSend</b> erstellt wird, wird der Typ des zugeordneten <b>AddressRuleCondition</b> -Objekts <b>OlConditionSenderAddress</b>. Wenn die Regel als eine Regel <b>OlRuleReceive</b> erstellt wird, wird der Typ des zugeordneten <b>AddressRuleCondition</b> -Objekts <b>OlConditionRecipientAddress</b>. </para>
+        <remarks><para>Die <see cref="T:Microsoft.Office.Interop.Outlook.AddressRuleCondition" /> -Objekt wird durch Typen <b>OlRuleSend</b> und <b>OlRuleReceive</b>-Regeln verwendet. Wenn die Regel als eine Regel <b>OlRuleSend</b> erstellt wird, wird der Typ des zugeordneten <b>AddressRuleCondition</b> -Objekts <b>OlConditionSenderAddress</b>. Wenn die Regel als eine Regel <b>OlRuleReceive</b> erstellt wird, wird der Typ des zugeordneten <b>AddressRuleCondition</b> -Objekts <b>OlConditionRecipientAddress</b>. </para>
           <para>Dies bedeutet jedoch nicht, dass die Regel immer eine definierte regelbedingung für Adressen, die Absender oder Empfänger verwendet. Unabhängig davon, ob vorhanden ist eine solche definierten oder aktivierten regelbedingung wird die <b>AddressRuleCondition.ConditionType</b> -Eigenschaft immer initialisiert, nachdem die zugeordnete Regel erstellt wurde. Weitere Informationen zu regelbedingungen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -181,10 +169,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die bestimmt, ob die Regel aktiviert ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Regel wird erst aktiviert, nachdem es erfolgreich gespeichert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Regel ist nur dann aktiviert, nachdem sie erfolgreich gespeichert wurde.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -212,10 +198,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -243,16 +227,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

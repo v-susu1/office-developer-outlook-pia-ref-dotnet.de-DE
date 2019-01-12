@@ -1,13 +1,5 @@
 <Type Name="AttachmentSelection" FullName="Microsoft.Office.Interop.Outlook.AttachmentSelection">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89d4cc40051887ef0752881948727d49c4a4034f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636934" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AttachmentSelection : Microsoft.Office.Interop.Outlook._AttachmentSelection" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5df6fe2a5d806356f31002cd4706f333d2625a82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904399" /></Metadata><TypeSignature Language="C#" Value="public interface AttachmentSelection : Microsoft.Office.Interop.Outlook._AttachmentSelection" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AttachmentSelection implements class Microsoft.Office.Interop.Outlook._AttachmentSelection" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" />
   <TypeSignature Language="VB.NET" Value="Public Interface AttachmentSelection&#xA;Implements _AttachmentSelection" />
@@ -31,13 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Reihe von <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> -Objekten, die die ausgewählten Anlagen in einem Outlook-Element darstellen.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />.</para>
-      <para>
-        <b>AttachmentSelection</b> -Objekt enthält eine schreibgeschützte Auflistung von Anlagen, die in einem Element ausgewählt sind, die in der aktiven Inspektor oder im aktiven Explorer wird.</para>
-      <para>Zum Anlagen-Kontextmenü anpassen mithilfe von Microsoft Office Fluent-Menüband-Erweiterbarkeit, verwenden Sie die <b>Context</b> -Eigenschaft des <b>IRibbonControl</b> -Schnittstelle, um ein <b>AttachmentSelection</b> -Objekt abzurufen.</para>
-      <para />
-    </remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._AttachmentSelection" />.</para>
+      <para><b>AttachmentSelection</b> -Objekt enthält eine schreibgeschützte Auflistung von Anlagen, die in einem Element ausgewählt sind, die im aktiven Inspektor oder im aktiven Explorer ist.</para>
+      <para>Verwenden Sie die <b>Context</b> -Eigenschaft des <b>IRibbonControl</b> -Schnittstelle zum Anlagen-Kontextmenü anpassen mithilfe von Microsoft Office Fluent-Menüband-Erweiterbarkeit, um ein <b>AttachmentSelection</b> -Objekt abzurufen.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

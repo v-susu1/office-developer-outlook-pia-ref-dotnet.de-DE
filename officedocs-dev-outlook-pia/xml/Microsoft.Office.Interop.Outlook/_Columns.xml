@@ -1,13 +1,5 @@
 <Type Name="_Columns" FullName="Microsoft.Office.Interop.Outlook._Columns">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636381" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="9300e361b5107c915d7b8582ebd31d96a46678c7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902803" /></Metadata><TypeSignature Language="C#" Value="public interface _Columns : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Columns implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Columns" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Columns&#xA;Implements IEnumerable" />
@@ -60,14 +52,15 @@
         <param name="Name">Der Name der Eigenschaft, die als Spalte hinzugefügt wird.</param>
         <summary>Fügt der <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> vom angegebenen <paramref name="Name" /> an die <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> -Auflistung und setzt die <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
         <returns>Ein <b>Column</b> -Objekt, das die neue Spalte darstellt.</returns>
-        <remarks>
+        <remarks><para>
+            <b>Columns.Add</b> fügt die angegebene <b>Spalte</b> an das Ende der <b>Columns</b> -Auflistung für die <b>Tabelle</b> und setzt die <b>Tabelle</b> durch die aktuelle Zeile genau vor die erste Zeile der <b>Tabelle</b> verschieben. Wenn <b>Columns.Add</b> einen Fehler zurückgibt, wird die aktuelle Zeile nicht geändert.</para>
           <para>
-            <b>Columns.Add</b> fügt die angegebene <b>Spalte</b> an das Ende der <b>Columns</b> -Auflistung für die <b>Tabelle</b>und setzt die <b>Tabelle</b> durch die aktuelle Zeile genau vor die erste Zeile der <b>Tabelle</b>verschieben. Wenn <b>Columns.Add</b> einen Fehler zurückgibt, wird die aktuelle Zeile nicht geändert. </para>
-          <para>
-            <paramref name="Name" /> eine explizite integrierte Eigenschaft oder den Namen einer Eigenschaft mithilfe von Namespaces verwiesen werden kann. Es muss als Name in das englische Gebietsschema verwiesen werden. Weitere Informationen zum Verweisen auf Eigenschaften mithilfe von Namespaces finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></para>
-          <para>, wenn Sie eine Eigenschaft hinzufügen möchten, zum Beispiel eine explizite integrierte Eigenschaft im Objektmodell ist, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, müssen Sie <paramref name="Name" />als explizite integrierte Eigenschaftenname in Englisch.  Für bestimmte Arten von Eigenschaften, die das Format verwendet, wenn diese Eigenschaften die Spalten hinzufügen wirkt sich auf wie ihre Werte in der <b>Tabelle</b>ausgedrückt werden. Weitere Informationen zur Darstellung von Eigenschaftswerten in einer <b>Tabelle</b>finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Faktoren beeinflussen die Darstellung von Eigenschaftswerten in der Tabelle und Sicht Klassen</a></para>
-          <para>, wenn Sie eine benutzerdefinierte Eigenschaft zu einer <b>Tabelle</b>hinzufügen verweisen auf die Mithilfe der MAPI-Eigenschaft müssen Sie den Typ der Eigenschaft explizit an das Ende der Eigenschaftenverweis anfügen. Beispielsweise um die benutzerdefinierte Eigenschaft MeineBenutzerdefinierteEigenschaft hinzuzufügen, die den Typ Unicode-Zeichenfolge hat, Sie müssen den Typ 001f explizit an den Verweis anfügen im resultierenden: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, wobei {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} den Namespace darstellt GUID.</para> Können nicht 
-          <para>bestimmte Eigenschaften werden hinzugefügt, die einer <b>Tabelle</b> mit <b>Columns.Add</b>, einschließlich binäre Eigenschaften von berechneten Eigenschaften und HTML- oder RTF body-Inhalt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Nicht unterstützte Eigenschaften in einem Table-Objekt oder Table-Filter</a></para><para>während <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> kann verwendet werden, um zu vereinfachen, Zwischenspeichern bestimmter Eigenschaften für den sehr schnellen Zugriff auf die Eigenschaften einer <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> -Auflistung; einige Eigenschaften sind von <b>SetColumns</b>ausgeschlossen. Da diese Einschränkung nicht für <b>Columns.Add</b>gelten, wird das <b>Table</b> -Objekt ist eine weniger restriktiv Alternative als <b>Elemente</b>.</para><para /></remarks>
+            <paramref name="Name" />eine explizite integrierte Eigenschaft oder den Namen einer Eigenschaft mithilfe von Namespaces verwiesen kann werden. Der Verweis muss mit dem Namen aus dem englischen Gebietsschemas erfolgen. Weitere Informationen zum Verweisen auf Eigenschaften mithilfe von Namespaces finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></para>
+          <para>Wenn Sie eine Eigenschaft hinzufügen möchten, zum Beispiel eine explizite integrierte Eigenschaft im Objektmodell ist, <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.FirstName" />, geben Sie <paramref name="Name" /> als explizite integrierte Eigenschaftenname in Englisch.  Für bestimmte Arten von Eigenschaften, die das Format verwendet, wenn diese Eigenschaften die Spalten hinzufügen wirkt sich auf wie ihre Werte in der <b>Tabelle</b> ausgedrückt werden. Weitere Informationen zur Darstellung von Eigenschaftswerten in einer <b>Tabelle</b>finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Faktoren beeinflussen die Darstellung von Eigenschaftswerten in der Tabelle und Sicht Klassen</a></para>
+          <para>Wenn Sie eine benutzerdefinierte Eigenschaft zu einer <b>Tabelle</b> hinzufügen, müssen auf die Eigenschaft durch den MAPI-Namespace String Sie den Typ der Eigenschaft explizit an das Ende der Eigenschaftenverweis anfügen. Beispielsweise um die benutzerdefinierte Eigenschaft MeineBenutzerdefinierteEigenschaft hinzuzufügen, die den Typ Unicode-Zeichenfolge hat, Sie müssen den Typ 001f explizit an den Verweis anfügen im resultierenden: http://schemas.microsoft.com/mapi/string/{HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH}/MyCustomProperty/0x0000001f, wobei {HHHHHHHH-HHHH-HHHH-HHHH-HHHHHHHHHHHH} die Namespace-GUID darstellt .</para>
+          <para>Bestimmte Eigenschaften für eine <b>Tabelle</b> mit <b>Columns.Add</b>, einschließlich binäre Eigenschaften, berechnete Eigenschaften und HTML- oder RTF-Textinhalte können nicht hinzugefügt werden. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Nicht unterstützte Eigenschaften in einem Table-Objekt oder Table-Filter</a></para>
+          <para>Während <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> kann verwendet werden, um zu vereinfachen, Zwischenspeichern bestimmter Eigenschaften für den sehr schnellen Zugriff auf die Eigenschaften einer <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> -Auflistung; einige Eigenschaften <b>SetColumns</b>gehindert werden. Da diese Einschränkung nicht für <b>Columns.Add</b> gelten, wird das <b>Table</b> -Objekt eine weniger restriktiv Alternative als <b>Elemente</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -239,11 +232,9 @@
       <Docs>
         <param name="Index">Ein 1-basierter Indexwert, Wert entweder ein <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der den Spaltenindex für die <b>Columns</b> -Auflistung oder eine <b>Zeichenfolge</b> (<b>String</b> in c#), darstellt sein kann die <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> der <b>Spalte</b>.</param>
         <summary>Entfernt die <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> durch angegebene Objekt <paramref name="Index" /> und setzt die <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
-        <remarks>
-          <para>Die <b>Remove</b> -Methode setzt die <b>Tabelle</b> durch die aktuelle Zeile genau vor die erste Zeile der <b>Tabelle</b>verschieben. "If"; jedoch eine ungültige <paramref name="Index" /> angegeben wurde, und klicken Sie dann es nicht eine beliebige Spalte entfernen oder der <b>Tabelle zurücksetzen</b>.</para>
-          <para>Wird eine Fehlermeldung zurückgegeben, wenn eine ungültige <paramref name="Index" /> angegeben wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Remove</b> -Methode setzt die <b>Tabelle</b> durch die aktuelle Zeile genau vor die erste Zeile der <b>Tabelle</b> verschieben. "If"; jedoch eine ungültige <paramref name="Index" /> angegeben wurde, und klicken Sie dann es nicht eine beliebige Spalte entfernen oder der <b>Tabelle zurücksetzen</b>.</para>
+          <para>Gibt eine Fehlermeldung zurück, wenn eine ungültige <paramref name="Index" /> angegeben wurde.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAll">
@@ -268,11 +259,9 @@
       <Parameters />
       <Docs>
         <summary>Entfernt alle Spalten aus der <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> -Auflistung und setzt die <see cref="T:Microsoft.Office.Interop.Outlook.Table" />.</summary>
-        <remarks>
-          <para>
-            <b>RemoveAll</b> setzt die <b>Tabelle</b> durch die aktuelle Zeile genau vor die erste Zeile der <b>Tabelle</b>verschieben. Nach einem Aufruf von <b>RemoveAll</b><see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> wird NULL (0).</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>RemoveAll</b> setzt die <b>Tabelle</b> durch die aktuelle Zeile genau vor die erste Zeile der <b>Tabelle</b> verschieben. Nach einem Aufruf von <b>RemoveAll</b> <see cref="P:Microsoft.Office.Interop.Outlook._Columns.Count" /> wird NULL (0). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -300,16 +289,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

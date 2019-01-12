@@ -1,13 +1,5 @@
 <Type Name="SimpleItems" FullName="Microsoft.Office.Interop.Outlook.SimpleItems">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="aef8169af3ab4e02672bf2917159049b4f1b960a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636855" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface SimpleItems : Microsoft.Office.Interop.Outlook._SimpleItems" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e39918a9974a243be7b5c1007c62b88b66df87f3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904735" /></Metadata><TypeSignature Language="C#" Value="public interface SimpleItems : Microsoft.Office.Interop.Outlook._SimpleItems" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SimpleItems implements class Microsoft.Office.Interop.Outlook._SimpleItems" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.SimpleItems" />
   <TypeSignature Language="VB.NET" Value="Public Interface SimpleItems&#xA;Implements _SimpleItems" />
@@ -31,10 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Sammlung möglicherweise heterogener Microsoft Outlook-Elemente dar, wobei jedes Element in der Sammlung nur eine kleine, allgemeine Gruppe von Eigenschaften protokolliert, die für Outlook_Elemente im Allgemeinen gilt.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._SimpleItems" />.</para>
-      <para>Der <b>SimpleItems</b> -Auflistung wird verwendet, um untergeordnete Objekte des ein <b>Conversation</b> -Knotenobjekt darstellen. Diese Auflistung verfügt über nur einige Elemente und dient zur einfachen Zugriff auf diese Elemente im Gegensatz zur Bereitstellung der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> und <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> Sammlungen mehr Membern haben.</para> Die Reihenfolge der Elemente in der Auflistung 
-      <para>ist identisch mit der Reihenfolge der Elemente in der Unterhaltung. Die Auflistung wird durch den Wert der <b>CreationTime</b> -Eigenschaft der einzelnen Elemente in aufsteigender Reihenfolge sortiert.</para><para /></remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._SimpleItems" />.</para>
+      <para>Die <b>SimpleItems</b> -Auflistung wird verwendet, um untergeordnete Objekte des ein <b>Conversation</b> -Knotenobjekt darstellen. Diese Auflistung verfügt über nur einige Elemente und dient zur einfachen Zugriff auf diese Elemente im Gegensatz zur Bereitstellung der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> und <see cref="T:Microsoft.Office.Interop.Outlook.Results" /> Websitesammlungen, die mehr Membern haben.</para>
+      <para>Die Reihenfolge der Elemente in der Auflistung ist identisch mit der Reihenfolge der Elemente in der Unterhaltung. Die Auflistung wird durch den Wert der <b>CreationTime</b> -Eigenschaft der einzelnen Elemente in aufsteigender Reihenfolge sortiert.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

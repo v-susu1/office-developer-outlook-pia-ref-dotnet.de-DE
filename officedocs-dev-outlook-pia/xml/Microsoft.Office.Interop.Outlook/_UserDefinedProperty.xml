@@ -1,13 +1,5 @@
 <Type Name="_UserDefinedProperty" FullName="Microsoft.Office.Interop.Outlook._UserDefinedProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636148" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d8729233aeddbd5461aab178148b6ab4c140eb82" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905169" /></Metadata><TypeSignature Language="C#" Value="public interface _UserDefinedProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _UserDefinedProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._UserDefinedProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface _UserDefinedProperty" />
@@ -136,21 +128,21 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, die das Anzeigeformat für die <see cref="T:Microsoft.Office.Interop.Outlook.UserDefinedProperty" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft ist eine Konstante aus einer Aufzählung, wobei die Aufzählung hängt von den Wert der <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> -Eigenschaft für das <b>UserDefinedProperty</b> -Objekt:</para>
+        <remarks><para>Der Wert dieser Eigenschaft ist eine Konstante aus einer Aufzählung, wobei die Aufzählung hängt von den Wert der <see cref="P:Microsoft.Office.Interop.Outlook._UserDefinedProperty.Type" /> -Eigenschaft für das <b>UserDefinedProperty</b> -Objekt:</para>
           <list type="table">
             <item>
-              <description>Wert der Type</description>-
-              <description>DisplayFormat-Aufzählung</description></item>
-            <item>
-              <description>
-                <b>OlCombination</b>
-              </description>
-              <description>keine Aufzählung verfügbar. Diese Eigenschaft gibt immer 1 für <b>OlCombination</b>.</description>
+              <description>Typwert</description>
+              <description>DisplayFormat-Aufzählung</description>
             </item>
             <item>
               <description>
-                <b>OlCurrency</b>
+                <b>olCombination</b>
+              </description>
+              <description>Keine Aufzählung verfügbar. Diese Eigenschaft gibt immer 1 für <b>OlCombination</b>.</description>
+            </item>
+            <item>
+              <description>
+                <b>olCurrency</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" />
@@ -158,7 +150,7 @@
             </item>
             <item>
               <description>
-                <b>OlDateTime</b>
+                <b>olDateTime</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDateTime" />
@@ -166,7 +158,7 @@
             </item>
             <item>
               <description>
-                <b>OlDuration</b>
+                <b>olDuration</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatDuration" />
@@ -174,7 +166,7 @@
             </item>
             <item>
               <description>
-                <b>OlEnumeration</b>
+                <b>olEnumeration</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatEnumeration" />
@@ -182,13 +174,13 @@
             </item>
             <item>
               <description>
-                <b>OlFormula</b>
+                <b>olFormula</b>
               </description>
-              <description>keine Aufzählung verfügbar. Diese Eigenschaft gibt immer 1 für <b>OlFormula</b>.</description>
+              <description>Keine Aufzählung verfügbar. Diese Eigenschaft gibt immer 1 für <b>OlFormula</b>.</description>
             </item>
             <item>
               <description>
-                <b>OlInteger</b>
+                <b>olInteger</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatInteger" />
@@ -196,7 +188,7 @@
             </item>
             <item>
               <description>
-                <b>OlKeywords</b>
+                <b>olKeywords</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatKeywords" />
@@ -204,7 +196,7 @@
             </item>
             <item>
               <description>
-                <b>OlNumber</b>
+                <b>olNumber</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatNumber" />
@@ -212,13 +204,13 @@
             </item>
             <item>
               <description>
-                <b>OlOutlookInternal</b>
+                <b>olOutlookInternal</b>
               </description>
-              <description>keine Aufzählung verfügbar. Diese Eigenschaft gibt immer 1 für <b>OlOutlookInternal</b>.</description>
+              <description>Keine Aufzählung verfügbar. Diese Eigenschaft gibt immer 1 für <b>OlOutlookInternal</b>.</description>
             </item>
             <item>
               <description>
-                <b>OlPercent</b>
+                <b>olPercent</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatPercent" />
@@ -226,7 +218,7 @@
             </item>
             <item>
               <description>
-                <b>OlSmartFrom</b>
+                <b>olSmartFrom</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatSmartFrom" />
@@ -234,21 +226,22 @@
             </item>
             <item>
               <description>
-                <b>OlText</b>
+                <b>olText</b>
               </description>
               <description>
                 <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatText" />
               </description>
             </item>
-            <description>
-              <b>olYesNo</b>
-            </description>
-            <description>
-              <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
-            </description>
+            <item>
+              <description>
+                <b>olYesNo</b>
+              </description>
+              <description>
+                <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatYesNo" />
+              </description>
+            </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Formula">
@@ -360,16 +353,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">

@@ -1,13 +1,5 @@
 <Type Name="_OlkCategory" FullName="Microsoft.Office.Interop.Outlook._OlkCategory">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636682" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCategory" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="bfef22c75845cc5449966a7acca35e34e14c7181" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904154" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCategory" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCategory" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCategory" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCategory" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die automatisch das Steuerelement passt, um den gesamten Inhalt anzuzeigen.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert für diese Eigenschaft lautet <b>True</b>.</para>
-          <para>Wird davon ausgegangen dieses Steuerelement eine Zeile, wenn der Inhalt wird erweitert und mehr Speicherplatz benötigt.  In diesem Fall das Steuerelement vergrößert, zum Anzeigen des Inhalts und der restliche Formularinhalt nach unten verschieben, um Speicherplatz freizugeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>  Der Standardwert für diese Eigenschaft ist <b>True</b>.</para>
+          <para>Dieses Steuerelement geht von einer Zeile aus, außer der Inhalt wird erweitert und benötigt mehr Platz. In diesem Fall wird das Steuerelement zum Anzeigen des Inhalts vergrößert und der restliche Formularinhalt wird um den benötigten Platz nach unten verschoben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -96,10 +86,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Hintergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x8000000F "Schaltflächensymbol."</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x8000000F, "Schaltflächensymbol". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -130,10 +118,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> -Konstante, die das Hintergrundformat eines Steuerelements zwischen transparent und undurchsichtig geändert wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -164,10 +150,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -201,10 +185,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Vordergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -235,10 +217,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>StdPicture</b>, die ein benutzerdefiniertes Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -269,10 +249,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

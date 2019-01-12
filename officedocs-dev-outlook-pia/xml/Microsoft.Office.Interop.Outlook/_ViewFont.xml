@@ -1,13 +1,5 @@
 <Type Name="_ViewFont" FullName="Microsoft.Office.Interop.Outlook._ViewFont">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637348" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ViewFont" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="dce221fa9294212037ac54a826838b60f072a320" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903594" /></Metadata><TypeSignature Language="C#" Value="public interface _ViewFont" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ViewFont" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ViewFont" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ViewFont" />
@@ -176,10 +168,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlCategoryColor" /> Konstante als die Schriftfarbe der Ansicht. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie können die <see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" /> -Eigenschaft oder der <b>ExtendedColor</b> -Eigenschaft, um die Farbe der Schriftart in einer Ansicht festzulegen. Für eine Kalenderansicht müssen Sie insbesondere die <b>ExtendedColor</b> -Eigenschaft verwenden, um die Schriftfarbe festzulegen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können die <see cref="P:Microsoft.Office.Interop.Outlook._ViewFont.Color" /> -Eigenschaft oder der <b>ExtendedColor</b> -Eigenschaft, um die Farbe der Schriftart in einer Ansicht festzulegen. Für eine Kalenderansicht müssen Sie insbesondere die <b>ExtendedColor</b> -Eigenschaft verwenden, um die Schriftfarbe festzulegen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Italic">
@@ -297,16 +287,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -337,11 +325,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der die Größe (in Punkt) der Schriftart in der Ansicht darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Kann diese Eigenschaft auf einen Wert zwischen 1 und 127 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 1 festgelegt ist, wird die Eigenschaft auf 1 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 127 festgelegt ist, wird die Eigenschaft auf 127 festgelegt.</para>
+        <remarks><para>Diese Eigenschaft kann auf einen Wert zwischen 1 und 127 festgelegt werden. Wenn diese Eigenschaft auf einen Wert festgelegt ist, der unter 2 liegt, wird die Eigenschaft auf 1 festgelegt. Wenn diese Eigenschaft auf einen Wert festgelegt ist, der größer ist als 127, wird die Eigenschaft auf 127 festgelegt.</para>
           <para>Der Standardwert für diese Eigenschaft wird vom Betriebssystem bestimmt.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Strikethrough">

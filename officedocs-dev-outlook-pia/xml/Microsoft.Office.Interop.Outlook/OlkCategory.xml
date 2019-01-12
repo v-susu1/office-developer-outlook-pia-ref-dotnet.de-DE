@@ -1,13 +1,5 @@
 <Type Name="OlkCategory" FullName="Microsoft.Office.Interop.Outlook.OlkCategory">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bcb08f12205e840788d139e67ae0b289e13bd211" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636523" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkCategory : Microsoft.Office.Interop.Outlook._OlkCategory, Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7f0400f006793cc2657fe02b32faea660f80ca57" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902859" /></Metadata><TypeSignature Language="C#" Value="public interface OlkCategory : Microsoft.Office.Interop.Outlook._OlkCategory, Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkCategory implements class Microsoft.Office.Interop.Outlook._OlkCategory, class Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkCategory" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkCategory&#xA;Implements _OlkCategory, OlkCategoryEvents_Event" />
@@ -34,11 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Ein Steuerelement, das die ausgewählten Kategorien anzeigt.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkCategory" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />.</para>
-      <para>, Bevor Sie dieses Steuerelement zum ersten Mal im Formular-Designer verwenden Kategorie-Steuerelement von Microsoft Outlook zur Steuerelement-Toolbox hinzufügen. Sie können nur einen Formularbereich in einem Outlook-Formular im Formular-Designer mit diesem Steuerelement hinzufügen; Sie können dieses Steuerelement ein Visual Basic- <b>UserForm</b> -Objekt in Visual Basic-Editor Hinzufügen.</para>
-      <para>Zeigt dieses Steuerelement den Namen der Kategorie und die Kategoriefarbe.  Mit der rechten Maustaste dieses Steuerelements zeigt Kategorie Datenauswahl im Kontextmenü, das dem Benutzer ermöglicht, wählen Sie Kategorien im Outlook-Standardformulare aus. Wenn es keine Kategorien gibt angezeigt werden, dieses Steuerelements automatisch angepasst, eine Höhe Null.</para> Die folgenden 
-      <para>ist ein Beispiel für eine Kategoriesteuerelement zur Laufzeit. Dieses Steuerelement unterstützt Microsoft Windows-Designs.</para><para>Weitere Informationen zu Outlook-Steuerelementen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para><para /></remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkCategory" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkCategoryEvents_Event" />.</para>
+      <para>Bevor Sie dieses Steuerelement zum ersten Mal im Formular-Designer verwenden, fügen Sie Microsoft Outlook Kategoriensteuerelement zur Steuerelement-Toolbox. Sie können nur einen Formularbereich in einem Outlook-Formular im Formular-Designer mit diesem Steuerelement hinzufügen; Dieses Steuerelement kann nicht auf ein Visual Basic- <b>UserForm</b> -Objekt in Visual Basic-Editor Hinzufügen werden.</para>
+      <para>Dieses Steuerelement zeigt den Namen der Kategorie und die Kategoriefarbe.  Mit der rechten Maustaste dieses Steuerelements zeigt Kategorie Datenauswahl im Kontextmenü, das dem Benutzer ermöglicht, wählen Sie Kategorien im Outlook-Standardformulare aus. Wenn es keine Kategorien gibt angezeigt werden, wird dieses Steuerelement Größe automatisch auf eine Höhe Null.</para>
+      <para>Das folgende Beispiel zeigt ein Kategoriesteuerelement zur Laufzeit. Dieses Steuerelement unterstützt Microsoft Windows-Designs.</para>
+      <para>Weitere Informationen zu Outlook-Steuerelemente finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

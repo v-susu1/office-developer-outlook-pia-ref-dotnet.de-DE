@@ -1,13 +1,5 @@
 <Type Name="_Inspector" FullName="Microsoft.Office.Interop.Outlook._Inspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636683" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Inspector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c0c4b10538c5018a1ef11ef94f135148361dc521" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905911" /></Metadata><TypeSignature Language="C#" Value="public interface _Inspector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Inspector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Inspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Inspector" />
@@ -251,10 +243,8 @@
       <Docs>
         <summary>Gibt ein <b>Objekt</b> zurück, das aktuelle Element im Inspektor angezeigt wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn kein Element aktuell geöffnet ist, wird eine Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn kein Element aktuell geöffnet ist, wird eine Fehlermeldung zurückgegeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -279,14 +269,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
+        <param name="Modal"><b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
         <summary>Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt für das Element.</summary>
-        <remarks>
-          <para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> -Methode.</para>
-          <para>, Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) mithilfe von Microsoft Outlook-Objektmodell zu öffnen, erhalten Sie in den Programmiersprachen C oder C++ den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</para>
+          <para>Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EditorType">
@@ -314,10 +301,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlEditorType" /> Konstante, die den Typ des Editors angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Seit Microsoft Office Outlook 2007 gibt die <b>EditorType</b> -Eigenschaft immer OlEditorWord zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Seit Microsoft Office Outlook 2007 gibt die <b>EditorType</b> -Eigenschaft immer OlEditorWord zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -376,10 +361,8 @@
       <Docs>
         <param name="PageName">Der Anzeigename der Formularseite oder den internen Namen eines Formularbereichs ausgeblendet werden sollen.</param>
         <summary>Blendet einen Formularbereich im Inspektor oder Formularseite an.</summary>
-        <remarks>
-          <para>Sie können <b>HideFormRegion</b> verwenden, um das Ausblenden eines Formularbereichs durch Angeben der <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, wenn der Formularbereich ein angrenzender ist oder separater Formularbereich. Den Formularbereich kann nur das Add-in, in dem den Formularbereich implementiert ausblenden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können <b>HideFormRegion</b> verwenden, um das Ausblenden eines Formularbereichs durch Angeben der <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, wenn der Formularbereich ein angrenzender ist oder separater Formularbereich. Den Formularbereich kann nur das Add-in, in dem den Formularbereich implementiert ausblenden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HTMLEditor">
@@ -435,8 +418,7 @@
       <Parameters />
       <Docs>
         <summary>Bestimmt, ob die einem Inspektor zugeordnete e-Mail-Nachricht in Outlook angezeigte <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> oder in Microsoft Word.</summary>
-        <returns>
-          <b>True,</b> Wenn die e-Mail-Nachricht, in Microsoft angezeigt wird Word (d. h., wenn Word Mail verwendet wird); anderenfalls <b>False</b>.</returns>
+        <returns><b>True,</b> Wenn die e-Mail-Nachricht, in Microsoft angezeigt wird Word (d. h., wenn Word Mail verwendet wird); anderenfalls <b>False</b>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -496,10 +478,8 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.Pages" /> -Auflistung, die alle Seiten für das Element im Inspektor darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Hauptseite und bis zu fünf benutzerdefinierte Seiten können erhalten werden mithilfe der <see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" /> Methode.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Hauptseite und bis zu fünf benutzerdefinierte Seiten können erhalten werden mithilfe der <see cref="M:Microsoft.Office.Interop.Outlook.Pages.Add(System.Object)" /> Methode. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NewFormRegion">
@@ -525,11 +505,9 @@
       <Docs>
         <summary>Öffnet im Inspektor für einen neuen Formularbereich eine neue Seite im Entwurfsmodus.</summary>
         <returns>Ein Objekt, das die Seite darstellt, auf der der Formularbereich im Inspektor angezeigt wird.</returns>
-        <remarks>
-          <para>Wenn sich der Inspektor noch nicht in Entwurfsmodus befindet, <b>NewFormRegion</b> wird versetzt es im Entwurfsmodus.</para>
-          <para>Diese Methode wird nur für einen neuen Formularbereich eine Seite im Entwurfsmodus geöffnet. Diese Methode dient nicht zum Erstellen eines Formularbereichs zur Laufzeit.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Inspektor noch nicht in Entwurfsmodus befindet, wird <b>NewFormRegion</b> in den Entwurfsmodus versetzt.</para>
+          <para>Bei dieser Methode wird lediglich eine Seite für einen neuen Formularbereich im Entwurfsmodus geöffnet. Die Methode dient nicht zum Erstellen eines Formularbereichs zur Laufzeit.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OpenFormRegion">
@@ -558,10 +536,8 @@
         <param name="Path">Ein vollständiger lokaler Pfad zur OFS-Datei (Outlook Form Storage) für den Formularbereich, der im Inspektor geöffnet werden soll.</param>
         <summary>Öffnet im Inspektor für den angegebenen Formularbereich eine Seite im Entwurfsmodus.</summary>
         <returns>Ein Objekt, das die Seite darstellt, auf der der Formularbereich im Inspektor angezeigt wird.</returns>
-        <remarks>
-          <para>Wenn der Inspektor noch nicht in Entwurfsmodus befindet, wird <b>OpenFormRegion</b> in den Entwurfsmodus versetzt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Inspektor noch nicht in Entwurfsmodus befindet, wird <b>OpenFormRegion</b> in den Entwurfsmodus versetzt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -619,10 +595,8 @@
         <param name="Page">Die Seite, auf der der Formularbereich im Inspektor angezeigt wird.</param>
         <param name="FileName">Der vollständige lokale Pfad zu einer OFS-Datei (Outlook Form Storage), unter der der Formularbereich gespeichert wird.</param>
         <summary>Speichert im Inspektor die Seite im Entwurfsmodus unter der angegebenen Datei.</summary>
-        <remarks>
-          <para>In der Reihenfolge <b>SaveFormRegion</b> zum Speichern des Formularbereichs muss der Formularbereich im Entwurfsmodus im Inspektor geladen wurden.</para>
-          <para />
-        </remarks>
+        <remarks><para>In der Reihenfolge <b>SaveFormRegion</b> zum Speichern des Formularbereichs muss der Formularbereich im Entwurfsmodus im Inspektor geladen wurden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -650,16 +624,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetControlItemProperty">
@@ -689,10 +661,10 @@
         <param name="Control">Das Steuerelement, das an eine Eigenschaft gebunden wird.</param>
         <param name="PropertyName">Der Name der Eigenschaft, die an das Steuerelement gebunden wird.</param>
         <summary>Eine integrierte Eigenschaft oder benutzerdefinierte Eigenschaft an ein Steuerelement in einem Inspektor gebunden.</summary>
-        <remarks>
-          <para>Mit dieser Methode können Sie eine explizite integrierte Eigenschaft oder eine benutzerdefinierte Eigenschaft an ein Steuerelement gebunden werden. Sie müssen auf die Eigenschaft verweisen von Zeichenfolgennamens, beispielsweise <b>Betreff</b>, und nicht von Namespace, z. B. http://schemas.microsoft.com/mapi/proptag/0x0037001E.</para>
-          <para>Der <paramref name="PropertyName" /> Parameter ist nicht Groß-/Kleinschreibung beachtet. Beispielsweise <b>SetControlItemProperty</b> interpretiert Argument <b>CustomerId</b><b>CustomerID</b> identisch sein und bindet das angegebene Steuerelement an die integrierte <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> -Eigenschaft.</para> Sie können auch die folgende Codezeile Code MyPage.Controls("bar"). verwenden 
-          <para>. ItemProperty = "subject", um die Subject-Eigenschaft auf ein Steuerelement zu binden. Beachten Sie jedoch, dass nicht vertrauenswürdigem Code mit dies einen Sicherheitshinweis löst, wenn die Eigenschaft durch den Objektmodellschutz Sicherheit wie <b>auf</b>geschützt ist, und der Clientcomputer, Microsoft Office Outlook 2007 oder höher jedoch ausgeführt wird nicht vorhanden ist ein entsprechend Antivirensoftware eingerichtet. <b>SetControlItemProperty</b> -Methode können Sie um Sicherheitswarnungen mit vertrauenswürdigen Anwendungen zu vermeiden.  Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Sicherheitsverhalten des Outlook-Objektmodell</a></para><para /></remarks>
+        <remarks><para>Mit dieser Methode können Sie eine explizite integrierte Eigenschaft oder eine benutzerdefinierte Eigenschaft an ein Steuerelement gebunden werden. Sie müssen die-Eigenschaft von Zeichenfolgennamens, beispielsweise <b>Betreff</b>, und nicht von Namespace, beispielsweise http://schemas.microsoft.com/mapi/proptag/0x0037001E verweisen.</para>
+          <para>Die <paramref name="PropertyName" /> Parameter ist nicht Groß-/Kleinschreibung beachtet. Beispielsweise <b>SetControlItemProperty</b> interpretiert Argument <b>CustomerId</b> <b>CustomerID</b> identisch sein und bindet das angegebene Steuerelement an die integrierte <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.CustomerID" /> Eigenschaft.</para>
+          <para>Sie können auch die folgende Codezeile Code MyPage.Controls("bar"). verwenden. ItemProperty = "subject", um die Subject-Eigenschaft auf ein Steuerelement zu binden. Beachten Sie jedoch, dass mit diesem nicht vertrauenswürdiger Code einen Sicherheitshinweis ausgelöst wird, wenn die Eigenschaft Objektmodellschutz-Sicherheit wie <b>an</b> geschützt ist, und der Clientcomputer Microsoft Office Outlook 2007 oder höher ausgeführt wird, jedoch keinen entsprechend festgelegt von Antivirussoftware. <b>SetControlItemProperty</b> -Methode können Sie um Sicherheitswarnungen mit vertrauenswürdigen Anwendungen zu vermeiden.  Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87941">Sicherheitsverhalten des Outlook-Objektmodells</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetCurrentFormPage">
@@ -720,10 +692,8 @@
       <Docs>
         <param name="PageName">Der Anzeigename der Formularseite oder den internen Namen des Formularbereichs.</param>
         <summary>Zeigt den Formularbereich oder die angegebene Formularseite im Inspektor an.</summary>
-        <remarks>
-          <para>Sie können <b>SetCurrentFormPage</b> verwenden, um die Anzeige eines Formularbereichs durch Angeben der <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, wenn der Formularbereich befindet ein eine Separate, ersetzen oder alle ersetzen Formularbereich.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können <b>SetCurrentFormPage</b> verwenden, um die Anzeige eines Formularbereichs durch Angeben der <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, wenn der Formularbereich befindet ein eine Separate, ersetzen oder alle ersetzen Formularbereich.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetSchedulingStartTime">
@@ -751,10 +721,8 @@
       <Docs>
         <param name="Start">Der Anfang des Zeitraums, der auf der Registerkarte Terminplanungs-Assistent des Inspektors für Frei-/Gebucht-Zeiten für Besprechungsteilnehmer angezeigt wird.</param>
         <summary>Legt den Beginn für ein Besprechungselement im Frei-/Gebucht-Raster auf der Registerkarte Terminplanungs-Assistent des Inspektors fest.</summary>
-        <remarks>
-          <para>Das vom angegebenen Objekt der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> -Eigenschaft des übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> Objekt muss ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />. Die Registerkarte Terminplanungs muss im Inspektor angezeigt werden, andernfalls löst einen Fehler aus Microsoft Outlook. Wenn Outlook auf die Registerkarte Terminplanungs für den Elementtyp angezeigt werden kann, wird Outlook die folgende Fehlermeldung angezeigt: die scheduling Startzeit kann nur festgelegt werden, wenn die Terminplanungs auf ein Besprechungselement angezeigt wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das vom angegebenen Objekt der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> -Eigenschaft des übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> Objekt muss ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />. Die Registerkarte Terminplanungs muss im Inspektor angezeigt werden, andernfalls Microsoft Outlook löst einen Fehler aus. Wenn Outlook auf die Registerkarte Terminplanungs für den Elementtyp angezeigt werden kann, zeigt Outlook die folgende Fehlermeldung: die scheduling Startzeit kann nur festgelegt werden, wenn die Terminplanungs auf ein Besprechungselement angezeigt wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFormPage">
@@ -782,10 +750,8 @@
       <Docs>
         <param name="PageName">Der Anzeigename der Formularseite oder den internen Namen eines Formularbereichs angezeigt werden soll.</param>
         <summary>Zeigt eine Schaltfläche in der Gruppe Anzeigen der Microsoft Office Fluent-Menüband für den Inspektor, auf dem die Seite oder den Formularbereich vom angegebenen anzeigen wird <paramref name="PageName" />.</summary>
-        <remarks>
-          <para>Für Formularbereiche können <b>ShowFormPage</b> zum Anzeigen der Schaltfläche durch Angabe der <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, wenn der Formularbereich ein angrenzender ist oder separater Formularbereich. <b>ShowFormRegion</b> können nur das Add-in, in dem den Formularbereich implementiert die Schaltfläche angezeigt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Für Formularbereiche können <b>ShowFormPage</b> zum Anzeigen der Schaltfläche durch Angabe der <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, wenn der Formularbereich ein angrenzender ist oder separater Formularbereich. <b>ShowFormRegion</b> können nur das Add-in, in dem den Formularbereich implementiert die Schaltfläche angezeigt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -906,8 +872,7 @@
       <Docs>
         <summary>Gibt das Microsoft Word-Dokumentobjektmodell der angezeigten Nachricht zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>WordEditor</b> -Eigenschaft ist nur gültig Wenn <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" /> gibt <b>True</b> zurück, und die <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> ist <b>olEditorWord zurück</b>. Das zurückgegebene <b>WordDocument</b> -Objekt ermöglicht den Zugriff auf die meisten der Word-Objektmodell mit Ausnahme der folgenden Elemente: </para>
+        <remarks><para>Die <b>WordEditor</b> -Eigenschaft ist nur gültig Wenn <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.IsWordMail" /> gibt <b>True</b> zurück, und die <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> ist <b>olEditorWord zurück</b>. Das zurückgegebene <b>WordDocument</b> -Objekt ermöglicht den Zugriff auf die meisten der Word-Objektmodell mit Ausnahme der folgenden Elemente: </para>
           <list type="bullet">
             <item>
               <para>
@@ -945,8 +910,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="TaskRequestItem" FullName="Microsoft.Office.Interop.Outlook.TaskRequestItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ca2148a5b7cda0116aa8e3dbfee3aea7f0f7f33e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636672" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface TaskRequestItem : Microsoft.Office.Interop.Outlook._TaskRequestItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1fd285a13a5cf9596e7f9e5ceba005eebbde6d2e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904133" /></Metadata><TypeSignature Language="C#" Value="public interface TaskRequestItem : Microsoft.Office.Interop.Outlook._TaskRequestItem, Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TaskRequestItem implements class Microsoft.Office.Interop.Outlook._TaskRequestItem, class Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.TaskRequestItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface TaskRequestItem&#xA;Implements _TaskRequestItem, ItemEvents_10_Event" />
@@ -34,12 +26,10 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Änderung in der Aufgabenliste des Empfängers dar, die von einer anderen Person oder als Ergebnis einer Gruppenaktion initiiert wurde.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestItem" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItemClass" />.</para>
-      <para>Im Gegensatz zu anderen Microsoft Outlook-Objekten dieses Objekt kann nicht erstellt. Wenn der Absender gilt die <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Assign" /> und <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> Methoden verwenden, um eine <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> Objekt zuweisen () des zugeordneten Vorgangs an einen anderen Benutzer, der <b>TaskRequestItem</b> -Delegatobjekt wird erstellt, wenn das Element im Posteingang des Empfängers eingeht.</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._TaskRequestItem" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.TaskRequestItemClass" />.</para>
+      <para>Im Gegensatz zu anderen Microsoft Outlook-Objekten können Sie dieses Objekt nicht erstellen. Wenn der Absender gilt die <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Assign" /> und <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> Methoden verwenden, um eine <see cref="T:Microsoft.Office.Interop.Outlook.TaskItem" /> Objekt zuweisen () des zugeordneten Vorgangs an einen anderen Benutzer, der <b>TaskRequestItem</b> -Delegatobjekt wird erstellt, wenn das Element im Posteingang des Empfängers eingeht.</para>
       <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._TaskRequestItem.GetAssociatedTask(System.Boolean)" /> -Methode, um das <b>TaskItem</b> -Objekt zurückzugeben und direkt mit dem <b>TaskItem</b> -Objekt, um die Anfrage zu beantworten können.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

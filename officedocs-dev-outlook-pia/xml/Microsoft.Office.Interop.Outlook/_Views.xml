@@ -1,13 +1,5 @@
 <Type Name="_Views" FullName="Microsoft.Office.Interop.Outlook._Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636428" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="66617b0bde6b97d2cfc7ba1b7b89affe0a7d6251" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903937" /></Metadata><TypeSignature Language="C#" Value="public interface _Views : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Views implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Views&#xA;Implements IEnumerable" />
@@ -63,8 +55,7 @@
         <param name="SaveOption">Die Speicheroption, die die Berechtigungen der neuen Ansicht angibt. <b>olViewSaveOptionAllFoldersOfType auf</b> Die Ansicht kann in allen Ordnern dieses Typs zugegriffen werden. <b>olViewSaveOptionThisFolderEveryone auf</b> Die Ansicht kann in diesem Ordner nur von allen Benutzern zugegriffen werden. <b>olViewSaveOptionThisFolderOnlyMe auf</b> Die Ansicht kann in diesem Ordner nur vom Benutzer zugegriffen werden.</param>
         <summary>Erstellt eine neue Sicht in der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.View" /> -Objekt, das die neue Ansicht darstellt.</returns>
-        <remarks>
-          <para>Wenn Sie eine <b>Ansicht</b> einer <b>Views</b> -Auflistung eines Ordners, die nicht im aktuellen Ordner befindet hinzufügen, müssen Sie zunächst Speichern einer Kopie der <b>Views</b> -Auflistungsobjekt und der <b>Ansicht</b> klicken Sie dann auf dieses Auflistungsobjekt hinzufügen, wie im folgenden Codebeispiel gezeigt. Dies ist eine Umgehung für ein vorhandenes Problem, die andernfalls verursacht einen Anruf an <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> für die hinzugefügten <b>Ansicht</b> ein Fehler auftritt.</para>
+        <remarks><para>Wenn Sie eine <b>Ansicht</b> einer <b>Views</b> -Auflistung eines Ordners, die nicht im aktuellen Ordner befindet hinzufügen, müssen Sie zunächst Speichern einer Kopie der <b>Views</b> -Auflistungsobjekt und der <b>Ansicht</b> klicken Sie dann auf dieses Auflistungsobjekt hinzufügen, wie im folgenden Codebeispiel gezeigt. Dies ist eine Umgehung für ein vorhandenes Problem, die andernfalls verursacht einen Anruf an <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" /> für die hinzugefügten <b>Ansicht</b> ein Fehler auftritt.</para>
           <code>Sub CalendarView()
     Dim calView As Outlook.View
     Dim vws As Outlook.Views
@@ -110,8 +101,7 @@ End Sub</code>
     // This Apply call will be fine.
     calView.Apply();
 }</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -343,16 +333,14 @@ End Sub</code>
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

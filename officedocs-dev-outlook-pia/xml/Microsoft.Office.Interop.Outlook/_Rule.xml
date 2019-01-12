@@ -1,13 +1,5 @@
 <Type Name="_Rule" FullName="Microsoft.Office.Interop.Outlook._Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635729" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Rule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fc7984ff84a0eea00858aa8ce56abf24313ff68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902796" /></Metadata><TypeSignature Language="C#" Value="public interface _Rule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Rule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Rule" />
@@ -55,11 +47,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" /> -Auflistungsobjekt, das alle für die Regel verfügbaren Regelaktionen darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Können Sie auflisten und Aktivieren von Regeln mit jeder Regelaktion, die die Regeln und Benachrichtigungen Assistenten unterstützen, aber Sie können die Regeln, die nur die am häufigsten verwendeten Regelaktionen und nicht in einer Regelaktion rückgängig, die Regeln und Benachrichtigungen-Assistent unterstützt, programmgesteuert erstellen. Weitere Informationen zur Regel Aktion-Unterstützung finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Angeben von Regelaktionen</a></para>
-          <para>über die <b>Actions</b> -Eigenschaft, jede Regel ein <b>RuleActions</b> -Objekt zugeordnet ist. Die <b>RuleActions</b> -Auflistung ist eine feste Objekt – Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung. Regelaktionen, die in der Regel aktiviert sind, werden in der <b>RuleActions</b> -Auflistung eine Regelaktion aktiviert haben. Regel Aktionen, die nicht in der Regel aktiviert sind, weisen eine Regelaktion im dieser Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> -Eigenschaft auf <b>False</b>festgelegt. Regelaktionen, die beim programmgesteuerten Erstellen von Regeln nicht unterstützt werden können nur in der <b>RuleActions</b> -Auflistung für eine vorhandene Regel aufgelistet werden, aber, da die <b>RuleActions</b> -Auflistung behoben wurde, kann keine Regel erstellen und diese eine Aktion hinzufügen der dazugehörigen <b>RuleActions</b> -Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können auflisten und Aktivieren von Regeln mit jeder Regelaktion, die die Regeln und Benachrichtigungen Assistenten unterstützen, jedoch können Sie Regeln, die nur die am häufigsten verwendeten Regelaktionen und nicht in einer Regelaktion rückgängig, die Regeln und Benachrichtigungen Assistenten unterstützt, programmgesteuert erstellen. Weitere Informationen zur Regel Aktion-Unterstützung finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Angeben von Regelaktionen</a></para>
+          <para>Über die <b>Actions</b> -Eigenschaft ist ein <b>RuleActions</b> -Objekt zugeordnet jede Regel. Die <b>RuleActions</b> -Auflistung ist eine feste Objekt - Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung. Regelaktionen, die in der Regel aktiviert sind, werden in der <b>RuleActions</b> -Auflistung eine Regelaktion aktiviert haben. Regel Aktionen, die nicht in der Regel aktiviert sind, weisen eine Regelaktion im dieser Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._RuleAction.Enabled" /> -Eigenschaft auf <b>False</b>festgelegt. Regelaktionen, die beim programmgesteuerten Erstellen von Regeln nicht unterstützt werden können nur in der <b>RuleActions</b> -Auflistung für eine vorhandene Regel aufgelistet werden, aber, da die <b>RuleActions</b> -Auflistung behoben wurde, können nicht Sie eine Regel erstellen, und der dazugehörigen <b>RuleActions</b> -Auflistung eine solche Aktion hinzugefügt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -143,12 +133,10 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> -Auflistungsobjekt, das alle verfügbaren regelprädikate für die Regel darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Eine Bedingung für eine Regel gibt die Bedingung an, unter der die Regel angewendet werden soll. Beide <b>Bedingungen</b> und <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> Eigenschaften den gleichen Pool Bedingungen freigeben und ein entsprechendes Objekt des <b>RuleConditions</b> -Auflistung zurückzugeben.</para>
-          <para>Programmgesteuert Sie auflisten und ermöglichen können Regeln mit einer regelbedingung, die die Regeln und Benachrichtigungen Assistenten unterstützen, aber Sie können Regeln, die nur die am häufigsten verwendeten regelbedingungen sowie Bedingung nicht in einer Regel, die die Regeln und Benachrichtigungen Assistenten erstellen unterstützt. Weitere Informationen zur Regel Bedingung-Unterstützung finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-          <para>über die <b>Bedingungen</b> -Eigenschaft, jede Regel ein <b>RuleConditions</b> -Objekt zugeordnet ist. <b>RuleConditions</b> -Auflistung ist eine feste Objekt – Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung. Regelbedingungen, die in der Regel aktiviert sind, werden in der <b>RuleConditions</b> -Auflistung Bedingung aktiviert haben. Regel Bedingungen, die nicht in der Regel aktiviert sind, weisen eine regelbedingung im dieser Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> -Eigenschaft auf <b>False</b>festgelegt. Regelbedingungen, die während der programmgesteuerte Erstellung nicht unterstützt werden können nur in der <b>RuleConditions</b> -Auflistung für eine vorhandene Regel aufgelistet werden, aber, da die <b>RuleConditions</b> -Auflistung behoben wurde, kann keine Regel erstellen und hinzufügen eine solche Bedingung der zugeordneten <b>RuleConditions</b> -Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Eine Bedingung für eine Regel gibt die Bedingung an, unter der die Regel angewendet werden soll. Beide <b>Bedingungen</b> und <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Exceptions" /> Eigenschaften den gleichen Pool Bedingungen freigeben und ein entsprechendes <b>RuleConditions</b> -Auflistung zurück.</para>
+          <para>Sie können programmgesteuert auflisten und Aktivieren von Regeln mit einer regelbedingung, die die Regeln und Benachrichtigungen Assistenten unterstützen, jedoch können Sie Regeln, die nur die am häufigsten verwendeten regelbedingungen und nicht in einer Regel, die die Regeln und Benachrichtigungen Assistenten unterstützt erstellen. Weitere Informationen zur Regel Bedingung-Unterstützung finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+          <para>Über die <b>Bedingungen</b> -Eigenschaft ist jede Regel ein <b>RuleConditions</b> -Objekt zugeordnet. <b>RuleConditions</b> -Auflistung ist eine feste Objekt - Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung. Regelbedingungen, die in der Regel aktiviert sind, werden in der <b>RuleConditions</b> -Auflistung Bedingung aktiviert haben. Regel Bedingungen, die nicht in der Regel aktiviert sind, weisen eine regelbedingung im dieser Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> -Eigenschaft auf <b>False</b>festgelegt. Regelbedingungen, die während der programmgesteuerte Erstellung nicht unterstützt werden können nur in der <b>RuleConditions</b> -Auflistung für eine vorhandene Regel aufgelistet werden, aber, da die <b>RuleConditions</b> -Auflistung behoben wurde, können nicht Sie eine Regel erstellen, und der dazugehörigen <b>RuleConditions</b> -Auflistung eine solche Bedingung hinzugefügt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -179,11 +167,9 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der bestimmt, ob die Regel angewendet werden soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Festlegen der <b>Enabled</b> -Eigenschaft einer Regel wird nicht garantiert, dass die Regel aktiviert wird. Die Regel wird erst aktiviert, wenn <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> erfolgreich ausgeführt.</para>
-          <para>Using <b>Rule.Enabled</b> und <b>Rules.Save</b> wendet die Regel konsistent und die Regeln über die aktuelle Sitzung. Aktivieren eine Regel (, die erfolgreich gespeichert wurde) wird sichergestellt, dass die Regel angewendet wird. Wenn es sich um eine Regel lokalen Client ist, wird die Regel angewendet werden, wenn Outlook ausgeführt wird, und wenn die Regel eine serverbasierte Regel ist, angewandt wird unabhängig davon, ob Outlook ausgeführt wird. Wenn Sie die Regel nicht aktivieren, klicken Sie dann die Regel definiert ist, jedoch nicht angewendet. Sie können jedoch <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> zum Anwenden einer Regel als einmaligen Vorgang unabhängig davon, ob die Regel aktiviert ist.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Festlegen der <b>Enabled</b> -Eigenschaft einer Regel wird nicht garantiert, dass die Regel aktiviert wird. Die Regel wird erst aktiviert, wenn <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> erfolgreich ausgeführt wird.</para>
+          <para>Verwenden von <b>Rule.Enabled</b> und <b>Rules.Save</b> wendet die Regel konsistent und die Regeln über die aktuelle Sitzung. Aktivieren eine Regel (, die erfolgreich gespeichert wurde) wird sichergestellt, dass die Regel angewendet wird. Wenn es sich um eine Regel lokalen Client ist, wird die Regel angewendet werden, wenn Outlook ausgeführt wird, und wenn die Regel eine serverbasierte Regel ist, angewandt wird unabhängig davon, ob Outlook ausgeführt wird. Wenn Sie die Regel nicht aktivieren, klicken Sie dann die Regel definiert ist, jedoch nicht angewendet. Sie können jedoch <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> zum Anwenden einer Regel als einmaligen Vorgang unabhängig davon, ob die Regel aktiviert ist.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Exceptions">
@@ -211,12 +197,10 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" /> -Auflistungsobjekt, das alle verfügbaren Regel Ausnahmebedingungen für die Regel darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Eine Ausnahmebedingung für eine Regel gibt die Bedingung an, unter der die Regel nicht angewendet werden soll. Sowohl die <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /><b>Ausnahmen</b> Eigenschaften und den gleichen Pool Bedingungen freigeben und ein entsprechendes Objekt des <b>RuleConditions</b> -Auflistung zurückzugeben.</para>
-          <para>Können Sie auflisten und Aktivieren von Regeln mit jeder Regel Ausnahmebedingung, die die Regeln und Benachrichtigungen Assistenten unterstützen, aber Sie können die Regeln, die nur die am häufigsten verwendeten Ausnahmebedingungen und nicht in einer Regel Ausnahme Bedingung, die programmgesteuert erstellen die Regeln und Benachrichtigungen Assistenten unterstützt. Weitere Informationen zur Regel Bedingung-Unterstützung finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-          <para>über die <b>Bedingungen</b> -Eigenschaft, jede Regel ein <b>RuleConditions</b> -Objekt zugeordnet ist. <b>RuleConditions</b> -Auflistung ist eine feste Objekt – Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung. Regel Ausnahmebedingungen, die in der Regel aktiviert sind, werden eine Ausnahmebedingung aktivierte Regel in der <b>RuleConditions</b> -Auflistung haben. Regel Ausnahmebedingungen, die nicht in der Regel aktiviert sind, weisen eine Ausnahmebedingung Regel im dieser Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> -Eigenschaft auf <b>False</b>festgelegt. Regel Ausnahmebedingungen, die während der programmgesteuerte Erstellung nicht unterstützt werden können nur in der <b>RuleConditions</b> -Auflistung für eine vorhandene Regel aufgelistet werden, aber, da die <b>RuleConditions</b> -Auflistung behoben wurde, ist nicht möglich, erstellen Sie eine Regel und der dazugehörigen <b>RuleConditions</b> -Auflistung eine solche eine Ausnahmebedingung hinzuzufügen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Eine Ausnahmebedingung für eine Regel gibt die Bedingung an, unter der die Regel nicht angewendet werden soll. Sowohl die <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Conditions" /> <b>Ausnahmen</b> Eigenschaften und den gleichen Pool Bedingungen freigeben und ein entsprechendes <b>RuleConditions</b> -Auflistung zurück.</para>
+          <para>Sie können auflisten und Aktivieren von Regeln mit jeder Regel Ausnahmebedingung, die die Regeln und Benachrichtigungen Assistenten unterstützen, jedoch können Sie Regeln, die nur die am häufigsten verwendeten Ausnahmebedingungen und nicht in einer Regel Ausnahme Bedingung, die programmgesteuert erstellen der Regeln und Benachrichtigungen Assistenten unterstützt. Weitere Informationen zur Regel Bedingung-Unterstützung finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+          <para>Über die <b>Bedingungen</b> -Eigenschaft ist jede Regel ein <b>RuleConditions</b> -Objekt zugeordnet. <b>RuleConditions</b> -Auflistung ist eine feste Objekt - Sie können nicht hinzufügen oder Entfernen von Elementen aus dieser Auflistung. Regel Ausnahmebedingungen, die in der Regel aktiviert sind, werden eine Ausnahmebedingung aktivierte Regel in der <b>RuleConditions</b> -Auflistung haben. Regel Ausnahmebedingungen, die nicht in der Regel aktiviert sind, weisen eine Ausnahmebedingung Regel im dieser Auflistung mit der <see cref="P:Microsoft.Office.Interop.Outlook._RuleCondition.Enabled" /> -Eigenschaft auf <b>False</b>festgelegt. Regel Ausnahmebedingungen, die während der programmgesteuerte Erstellung nicht unterstützt werden können nur in der <b>RuleConditions</b> -Auflistung für eine vorhandene Regel aufgelistet werden, aber, da die <b>RuleConditions</b> -Auflistung behoben wurde, können nicht Sie eine Regel erstellen, und der dazugehörigen <b>RuleConditions</b> -Auflistung solche eine Ausnahmebedingung hinzugefügt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Execute">
@@ -244,20 +228,18 @@
         <Parameter Name="RuleExecuteOption" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="ShowProgress">
-          <b>True</b>, wenn das Dialogfeld Status angezeigt wird, wenn die Regel ausgeführt wird, <b>False</b>, wenn die Regel ausgeführt wird, ohne das Dialogfeld anzuzeigen.</param>
+        <param name="ShowProgress"><b>True</b>, wenn das Dialogfeld Status angezeigt wird, wenn die Regel ausgeführt wird, <b>False</b>, wenn die Regel ausgeführt wird, ohne das Dialogfeld anzuzeigen.</param>
         <param name="Folder">Stellt den Ordner dar, in dem die Regel angewendet wird.</param>
-        <param name="IncludeSubfolders">
-          <b>True,</b> um die Regel auf Unterordner des durch den Parameter Folder angegeben anzuwenden. <b>False</b>, wenn die Regel nur auf diesen Ordner jedoch nicht seine Unterordner anzuwenden. </param>
+        <param name="IncludeSubfolders"><b>True,</b> um die Regel auf Unterordner des durch den Parameter Folder angegeben anzuwenden. <b>False</b>, wenn die Regel nur auf diesen Ordner jedoch nicht seine Unterordner anzuwenden. </param>
         <param name="RuleExecuteOption">Gibt an, ob die Regel auf gelesene, ungelesene oder alle Nachrichten in den durch die Parameter Folder und IncludeSubfolders angegebenen Ordnern angewendet werden soll.</param>
         <summary>Wendet eine Regel als einmaligen Vorgang an.</summary>
-        <remarks>
-          <para>Verwendung <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> eine Regel als einmaligen Vorgang unabhängig davon, ob anwenden <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> ist <b>True</b>. Verwenden Sie <b>Rule.Enabled</b> und dann <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> sollten Sie die Regel konsistent anzuwenden und Regeln über die aktuelle Sitzung.</para>
-          <para>Die Parameter der <b>Execute</b> -Methode sind optional. Wenn Sie keine Parameter nicht angeben, wird die Regel auf alle Nachrichten im Posteingang, jedoch nicht für die Unterordner des Posteingangs angewendet werden. Die Standardwerte für die optionalen Argumente sind wie folgt: </para>
+        <remarks><para>Verwendung <see cref="M:Microsoft.Office.Interop.Outlook._Rule.Execute(System.Object,System.Object,System.Object,System.Object)" /> eine Regel als einmaligen Vorgang unabhängig davon, ob anwenden <see cref="P:Microsoft.Office.Interop.Outlook._Rule.Enabled" /> ist <b>True</b>. Verwenden Sie <b>Rule.Enabled</b> und dann <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> Wenn Sie die Regel konsistent anzuwenden und die Regeln über die aktuelle Sitzung beibehalten möchten.</para>
+          <para>Der Parameter der <b>Execute</b> -Methode sind optional. Wenn Sie keine Parameter nicht angeben, wird die Regel auf alle Nachrichten im Posteingang, jedoch nicht für die Unterordner des Posteingangs angewendet werden. Die Standardwerte für die optionalen Argumente sind wie folgt:</para>
           <list type="table">
             <item>
-              <description>Standardwert</description>des 
-              <description>Parameters</description></item>
+              <description>Parameter</description>
+              <description>Standardwert</description>
+            </item>
             <item>
               <description>ShowProgress</description>
               <description>False</description>
@@ -267,7 +249,7 @@
               <description>Posteingang</description>
             </item>
             <item>
-              <description> IncludeSubfolders</description>
+              <description>IncludeSubfolders</description>
               <description>False</description>
             </item>
             <item>
@@ -277,10 +259,9 @@
               </description>
             </item>
           </list>
-          <para>Wenn <paramref name="ShowProgress" /><b>True</b> festgelegt ist und der Benutzer das Dialogfeld Status abbricht Regel Ausführung wird auf die gleiche Weise abgebrochen, wie bei Ausführung der Regeln und Benachrichtigungen Assistenten Regel wurde vom Benutzer abgebrochen wurde. Führen Sie gibt einen Fehler zurück, wenn der Benutzer Statusdialogfelds abbricht.</para>
-          <para>Wenn Sie eine benutzerdefinierte Benutzeroberfläche statt Statusdialogfelds anzeigen möchten, beachten Sie, dass es keine Ereignisse, die beim Ausführen der Regel startet und beendet.</para>
-          <para />
-        </remarks>
+          <para>Wenn <paramref name="ShowProgress" /> <b>True</b> festgelegt ist und der Benutzer bricht ab Statusdialogfelds, Ausführen der Regel wird auf die gleiche Weise abgebrochen, als würde der Benutzer storniert hätten Regel Ausführung der Regeln und Benachrichtigungen-Assistenten. Execute gibt einen Fehler zurück, wenn der Benutzer Statusdialogfelds abbricht.</para>
+          <para>Wenn Sie anstelle des Dialogfelds mit dem Fortschritt eine benutzerdefinierte Benutzeroberfläche für den Fortschritt anzeigen möchten, sollten Sie beachten, dass durch keine Ereignisse angegeben wird, wann die Ausführung einer Regel beginnt und wann sie endet.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExecutionOrder">
@@ -311,11 +292,9 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, die Reihenfolge der Ausführung der Regel unter anderen Regeln in der <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> Auflistung. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ExecutionOrder</b> wird direkt zugeordnet, mit der numerische Wert <paramref name="Index" /> in <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />. Beispielsweise Rules.Item(1) stellt eine Regel mit <b>ExecutionOrder</b> 1, Rules.Item(2) stellt eine Regel mit <b>ExecutionOrder</b> wird 2 und Rules.Item(Rules.Count) stellt die Regel mit <b>ExecutionOrder</b><see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>ExecutionOrder</b> wird direkt zugeordnet, mit der numerische Wert <paramref name="Index" /> in <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Item(System.Object)" />. Beispielsweise Rules.Item(1) stellt eine Regel mit <b>ExecutionOrder</b> 1, Rules.Item(2) stellt eine Regel mit <b>ExecutionOrder</b> wird 2 und Rules.Item(Rules.Count) stellt die Regel mit <b>ExecutionOrder</b> <see cref="P:Microsoft.Office.Interop.Outlook._Rules.Count" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsLocalRule">
@@ -343,12 +322,10 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die angibt, ob die Regel in der Regel mithilfe der clientseitigen ausgeführt wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Eine Client Regel wird ausgeführt, wenn Outlook ausgeführt wird. Wenn <b>IsLocalRule</b><b>False</b>, wird die Regel ausgeführt, als eine serverbasierte Regel wird.</para>
-          <para>, Wenn Sie ein Microsoft Exchange Server-e-Mail-Konto verfügen, kann der Server serverbasierten Regeln auf Ihre Nachrichten anwenden, selbst wenn Sie Outlook ausgeführt haben. Die Regeln müssen festgelegt werden, auf Nachrichten angewendet werden soll, wenn sie an Ihren Posteingang auf dem Server übermittelt werden, und die Regeln müssen erfolgreich abgeschlossen auf dem Server ausgeführt werden. Beispielsweise kann keine Regel vollständig auf dem Server ausgeführt, wenn die Aktion gibt an, dass eine Nachricht gedruckt werden. Wenn eine Regel auf dem Server angewendet werden kann, wird sie beim Starten von Outlook angewendet.</para>
-          <para>Enthält die Regelsammlung in einem Speicher sowohl Server-als auch mithilfe der clientseitigen Regeln, die serverseitige Regeln werden zuerst angewendet, gefolgt von den Regeln mithilfe der clientseitigen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Eine Client Regel wird ausgeführt, wenn Outlook ausgeführt wird. Wenn <b>IsLocalRule</b> auf <b>False</b> festgelegt ist, wird die Regel als eine serverbasierte Regel ausgeführt.</para>
+          <para>Wenn Sie über ein Microsoft Exchange Server-E-Mail-Konto verfügen, kann der Server auch dann serverbasierte Regeln auf Ihre Nachrichten anwenden, wenn Sie Outlook nicht ausführen. Die Regeln müssen so festgelegt sein, dass sie auf Nachrichten angewendet werden, wenn sie in Ihren Posteingang auf dem Server übermittelt werden, und die Regeln müssen auf dem Server vollständig ausgeführt werden können. So kann eine Regel z. B. auf einem Server nicht vollständig ausgeführt werden, wenn die Aktion angibt, dass eine Nachricht gedruckt werden soll. Wenn eine Regel auf dem Server nicht angewendet werden kann, wird sie angewendet, sobald Sie Outlook starten.</para>
+          <para>Wenn die Regelsammlung in einem Speicher sowohl server- als auch clientbasierte Regeln umfasst, werden zuerst die serverbasierten Regeln und dann die clientbasierten Regeln angewendet.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -377,15 +354,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Namen der Regel. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Namen der Regel. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Name</b> ist die Standardeigenschaft und Indexer für eine Regel in einer <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> -Auflistungsobjekt. Es entspricht der <b>PidTagRuleMsgName</b> (0x65EC001E).</para>
-          <para>Regelnamen sind nicht unter Regeln in der gleichen Auflistung eindeutig.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Name</b> ist die Standardeigenschaft und Indexer für eine Regel in einer <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> -Auflistungsobjekt. <b>PidTagRuleMsgName</b> (0x65EC001E) entspricht.</para>
+          <para>Regelnamen sind unter Regeln in der gleichen Auflistung nicht eindeutig.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -413,10 +387,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rules" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RuleType">
@@ -472,16 +444,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

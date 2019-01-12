@@ -1,13 +1,5 @@
 <Type Name="_CalendarSharing" FullName="Microsoft.Office.Interop.Outlook._CalendarSharing">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="0fa933e0b4d67bf2f8c2536ee0c2d6c3a656ea10" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635720" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CalendarSharing" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="0fa933e0b4d67bf2f8c2536ee0c2d6c3a656ea10" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903741" /></Metadata><TypeSignature Language="C#" Value="public interface _CalendarSharing" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CalendarSharing" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CalendarSharing" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CalendarSharing" />
@@ -86,21 +78,19 @@
       <Docs>
         <summary>Zurück oder legt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlCalendarDetail" /> Wert, der die Detailebene für Kalenderelemente, die in der erstellten iCalendar (.ics)-Datei enthalten die <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> oder <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>Ein <b>OlCalendarDetail</b> -Wert, der die Detailebene für Kalenderelemente angibt.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft bestimmt die zulässigen Werte für die folgenden Eigenschaften des <b>CalendarSharing</b> -Objekts:</para>
+        <remarks><para>Der Wert dieser Eigenschaft bestimmt die zulässigen Werte für die folgenden Eigenschaften des <b>CalendarSharing</b> -Objekts:</para>
           <list type="bullet">
             <item>
-              <para>IncludeAttachments muss auf False festgelegt werden, wenn CalendarDetail auf OlFreeBusyOnly oder OlFreeBusyAndSubject festgelegt ist.</para>
+              <para>IncludeAttachments muss auf False festgelegt sein, wenn CalendarDetail auf olFreeBusyOnly oder olFreeBusyAndSubject festgelegt ist.</para>
             </item>
             <item>
-              <para>IncludePrivateDetails muss auf False festgelegt werden, wenn CalendarDetail auf OlFreeBusyOnly festgelegt ist.</para>
+              <para>IncludePrivateDetails muss auf False festgelegt sein, wenn CalendarDetail auf olFreeBusyOnly festgelegt ist.</para>
             </item>
             <item>
-              <para>RestrictToWorkingHours muss auf False festgelegt werden, wenn CalendarDetail auf OlFreeBusyAndSubject oder OlFullDetails festgelegt ist.</para>
+              <para>RestrictToWorkingHours muss auf False festgelegt sein, wenn CalendarDetail auf olFreeBusyAndSubject oder olFullDetails festgelegt ist.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -159,10 +149,8 @@
       <Docs>
         <summary>Gibt zurück oder legt diesen fest einen <b>DateTime</b> -Wert, der angibt, das inklusive Enddatum des Bereichs der Kalenderelemente durch freigegeben werden die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird ignoriert, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> -Eigenschaft des <b>CalendarSharing</b> -Objekts auf <b>true</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft wird ignoriert, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> -Eigenschaft des <b>CalendarSharing</b> -Objekts auf <b>true</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Folder">
@@ -219,19 +207,16 @@
         <param name="MailFormat">Bestimmt das Format der Kalenderinformationen im Text des durch diese Methode erstellte <b>MailItem-Objekt</b> .</param>
         <summary>Leitet Kalenderinformationen vom übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> von der <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> -Objekt als Nutzlast ein <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />.</summary>
         <returns>Ein <b>MailItem</b> -Objekt, das das neue e-Mail-Element darstellt, das die Kalenderinformationen angefügt werden.</returns>
-        <remarks>
-          <para>
-            <b>ForwardAsICal</b> -Methode stellt eine einzelne Methode, die Sie nutzlastverteilung verwenden können zu ein Kalenders für andere Benutzer freigeben. Die Methode:</para>
+        <remarks><para><b>ForwardAsICal</b> -Methode stellt eine einzelne Methode, die Sie nutzlastverteilung verwenden können zu ein Kalenders für andere Benutzer freigeben. Die Methode:</para>
           <list type="bullet">
             <item>
-              <para>ein MailItem-Objekt erstellt und bietet eine Darstellung der Kalenderinformationen im Text des e-Mail-Elements.</para>
+              <para>Es wird ein MailItem -Objekt erstellt, und es wird eine Darstellung der Kalenderinformationen im Text des E-Mail-Elements bereitgestellt.</para>
             </item>
             <item>
-              <para>Erstellt eine iCalendar (.ics)-Datei, die die Kalenderinformationen enthält und fügt Sie die Datei an MailItem.</para>
+              <para>Es wird eine iCalendar-Datei (ICS) erstellt, die die Kalenderinformationen enthält, und die Datei wird dem MailItem -Objekt angefügt.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludeAttachments">
@@ -262,12 +247,10 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob Anlagen für Kalenderelemente in der erstellten iCalendar (.ics)-Datei enthalten sein sollen die <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> oder <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> gibt an, dass die Anlagen für Kalenderelemente enthalten sein sollen.</para>
           <para>Diese Eigenschaft muss auf <b>False</b> festgelegt werden, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> -Eigenschaft des <b>CalendarSharing</b> -Objekts auf <b>OlFreeBusyOnly</b> oder <b>OlFreeBusyAndSubject</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludePrivateDetails">
@@ -298,12 +281,10 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob private Details für Kalenderelemente in der erstellten iCalendar (.ics)-Datei enthalten sein sollen die <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> oder <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> gibt an, dass die private Details für Kalenderelemente enthalten sein sollen.</para>
           <para>Diese Eigenschaft muss auf <b>False</b> festgelegt werden, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> -Eigenschaft des <b>CalendarSharing</b> -Objekts auf <b>OlFreeBusyOnly</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IncludeWholeCalendar">
@@ -334,13 +315,11 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob alle Kalenderelemente im Ordner in der erstellten iCalendar (.ics)-Datei enthalten sein sollen die <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> oder <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> gibt an, dass alle Kalenderelemente im Ordner enthalten sein sollen.</para>
-          <para>, Wenn diese Eigenschaft auf <b>True</b>festgelegt ist die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> und <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> Eigenschaften des <b>CalendarSharing</b> -Objekts ignoriert, und alle Kalenderelemente im Ordner sind enthalten.</para>
+          <para>Wenn diese Eigenschaft auf <b>True</b>festgelegt ist die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> und <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> Eigenschaften des <b>CalendarSharing</b> -Objekts ignoriert, und alle Kalenderelemente im Ordner sind enthalten.</para>
           <para>Wenn diese Eigenschaft auf <b>False</b>festgelegt ist, bestimmen die <b>StartDate</b> und <b>EndDate</b> -Eigenschaften den Bereich der Kalenderelemente enthalten sein.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -399,12 +378,10 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob Kalenderelemente, die nicht innerhalb der Arbeitsstunden auftreten, in der erstellten iCalendar (.ics)-Datei enthalten sein sollen die <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.ForwardAsICal(Microsoft.Office.Interop.Outlook.OlCalendarMailFormat)" /> oder <see cref="M:Microsoft.Office.Interop.Outlook._CalendarSharing.SaveAsICal(System.String)" /> Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> gibt an, dass die Kalenderelemente, die nicht innerhalb der Arbeitsstunden auftreten, enthalten sein sollen.</para>
           <para>Diese Eigenschaft muss auf <b>False</b> festgelegt werden, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.CalendarDetail" /> -Eigenschaft des <b>CalendarSharing</b> -Objekts auf <b>OlFreeBusyOnly</b> oder <b>OlFullDetails</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SaveAsICal">
@@ -432,8 +409,7 @@
       <Docs>
         <param name="Path">Der Pfad und Dateiname der iCalendar-Datei.</param>
         <summary>Exportiert Kalenderinformationen vom übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> von der <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekts als iCalendar-Kalenderdatei (ICS).</summary>
-        <remarks>
-          <para>Die in die iCalendar-Datei bereitgestellte Detailebene wird durch eine Kombination von Werten in den folgenden <b>CalendarSharing</b> -Eigenschaften bestimmt:</para>
+        <remarks><para>Die in die iCalendar-Datei bereitgestellte Detailebene wird durch eine Kombination von Werten in den folgenden <b>CalendarSharing</b> -Eigenschaften bestimmt:</para>
           <list type="bullet">
             <item>
               <para>CalendarDetail</para>
@@ -445,12 +421,11 @@
               <para>IncludePrivateDetails</para>
             </item>
             <item>
-              <para> RestrictToWorkingHours</para>
+              <para>RestrictToWorkingHours</para>
             </item>
           </list>
-          <para>können Sie festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> -Eigenschaft auf <b>true fest,</b> um alle Elemente in den Ordner, oder Sie exportieren kann Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> und <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> Eigenschaften die exportierten Elemente auf einen Datumsbereich zwischen einem angegebenen beschränken Startdatum und Enddatum, jeweils.</para>
-          <para />
-        </remarks>
+          <para>Sie können festlegen, die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> -Eigenschaft auf <b>true fest,</b> um alle Elemente in den Ordner, oder Sie exportieren kann Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.StartDate" /> und <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.EndDate" /> Eigenschaften zur Begrenzung der exportierten Elemente zu einem Datum liegen zwischen einem angegebenen Startdatum und Enddatum,.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -478,16 +453,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StartDate">
@@ -518,10 +491,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der angibt, das inklusive Startdatum des Bereichs von Kalenderelementen durch freigegeben werden die <see cref="T:Microsoft.Office.Interop.Outlook.CalendarSharing" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird ignoriert, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> -Eigenschaft des <b>CalendarSharing</b> -Objekts auf <b>True</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft wird ignoriert, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._CalendarSharing.IncludeWholeCalendar" /> -Eigenschaft des <b>CalendarSharing</b> -Objekts auf <b>True</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkOptionButton" FullName="Microsoft.Office.Interop.Outlook.OlkOptionButton">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="ef2474442b7e1c7ee1d7dad51b9d70bbcaf1f6c1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635816" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkOptionButton : Microsoft.Office.Interop.Outlook._OlkOptionButton, Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="28581b5d3b68461ec58f8b1c4d6f5e2604c8f788" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904364" /></Metadata><TypeSignature Language="C#" Value="public interface OlkOptionButton : Microsoft.Office.Interop.Outlook._OlkOptionButton, Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkOptionButton implements class Microsoft.Office.Interop.Outlook._OlkOptionButton, class Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkOptionButton" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkOptionButton&#xA;Implements _OlkOptionButton, OlkOptionButtonEvents_Event" />
@@ -34,11 +26,12 @@
   </Attributes>
   <Docs>
     <summary>Ein Steuerelement, das die Auswahl einer einzigen Option in einer definierten Gruppe von Optionsfeldern unterstützt.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkOptionButton" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />.</para>
-      <para>, Bevor Sie dieses Steuerelement zum ersten Mal im Formular-Designer, verwenden Sie das Microsoft Outlook Optionsfeld-Steuerelement zur Steuerelement-Toolbox hinzufügen. Sie können dieses Steuerelement nur einen Formularbereich in einem Outlook-Formular im Formular-Designer mit hinzufügen.</para> Die folgenden 
-      <para>ist ein Beispiel für ein Optionsfeld-Steuerelement zur Laufzeit. Dieses Steuerelement unterstützt Microsoft Windows-Designs.</para> In der Regel mehr als eine Option 
-      <para>Button-Steuerelement ist in einer Gruppe definiert.  Jedes Optionsfeld-Steuerelement in der Gruppe bietet eine Auswahl einzelne, schließen sich gegenseitig aus.  Aktivieren ein Optionsfeld in der Gruppe wird automatisch die vorherige Auswahl eines anderen Optionsfeld in der gleichen Gruppe entfernen.</para><para>Weitere Informationen zu Outlook-Steuerelementen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para><para /></remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkOptionButton" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkOptionButtonEvents_Event" />.</para>
+      <para>Damit Sie dieses Steuerelement erstmalig im Formular-Designer verwenden können, müssen Sie das Optionsfeld-Steuerelement von Microsoft Outlook der Steuerelement-Toolbox hinzufügen. Sie können nur einen Formularbereich in einem Outlook-Formular im Formular-Designer verwenden dieses Steuerelement hinzufügen.</para>
+      <para>Das folgende Beispiel zeigt ein Optionsfeld-Steuerelement zur Laufzeit. Dieses Steuerelement unterstützt Microsoft Windows-Designs.</para>
+      <para>In der Regel werden in einer Gruppe mehrere Optionsfeld-Steuerelemente definiert. Jedes Optionsfeld-Steuerelement in der Gruppe ermöglicht eine einzige, die anderen Optionen ausschließende Auswahlmöglichkeit. Durch die Auswahl einer Optionsschaltfläche der Gruppe, wird automatisch die vorherige Auswahl eines anderen Optionsfeld derselben Gruppe entfernt.</para>
+      <para>Weitere Informationen zu Outlook-Steuerelemente finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

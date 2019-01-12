@@ -1,13 +1,5 @@
 <Type Name="_DDocSiteControl" FullName="Microsoft.Office.Interop.Outlook._DDocSiteControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636907" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="12a286b8e35832938e6762766814ade975f518fd" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905225" /></Metadata><TypeSignature Language="C#" Value="public interface _DDocSiteControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DDocSiteControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DDocSiteControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DDocSiteControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>Ein Steuerelement, das den Textkörper eines Outlook-Elements angezeigt.</summary>
-    <remarks>
-      <para>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese Schnittstelle Zugriff auf das Objekt und seine Member. Weitere Informationen zu diesen diese Schnittstelle finden Sie unter.</para>
-      <para />
-    </remarks>
+    <remarks><para>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese Schnittstelle Zugriff auf das Objekt und seine Member. Weitere Informationen zu diesen diese Schnittstelle finden Sie unter.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="ReadOnly">
@@ -64,11 +54,9 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angibt, ob der im Steuerelement angezeigte Text nur angezeigt werden kann und kann nicht geändert werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> gibt an, dass das Steuerelement nur wird der Text angezeigt und eine Modifizierung wird nicht unterstützt. <b>False,</b> um anzugeben, dass das Steuerelement unterstützt sowohl anzuzeigen und zu ändern, der den Textkörper des Elements.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SuppressAttachments">
@@ -99,12 +87,10 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angegeben wird, ob Anlagen eines Outlook-Element nicht im Steuerelement angezeigt werden soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gilt nur für Dateien, die an das Outlook-Element im Anlage angefügt und gilt nicht für Anlagen Inline als eingebettete Elemente in der Outlook-Element.</para>
+        <remarks><para>Diese Eigenschaft gilt nur für Dateien, die an das Outlook-Element im Anlage angefügt und gilt nicht für Anlagen Inline als eingebettete Elemente in der Outlook-Element. </para>
           <para>
-            <b>True,</b> um anzugeben, dass das Steuerelement nicht Anlagen des Elements angezeigt wird; <b>False,</b> um anzugeben, dass das Steuerelement unterstützt das Anzeigen von Anlagen des Elements.</para>
-          <para />
-        </remarks>
+            <b>True</b> gibt an, dass das Steuerelement nicht Anlagen des Elements angezeigt wird. <b>False,</b> um anzugeben, dass das Steuerelement unterstützt das Anzeigen von Anlagen des Elements.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

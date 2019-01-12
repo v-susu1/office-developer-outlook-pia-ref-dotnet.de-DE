@@ -1,13 +1,5 @@
 <Type Name="_ExchangeUser" FullName="Microsoft.Office.Interop.Outlook._ExchangeUser">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635626" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ExchangeUser" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902908" /></Metadata><TypeSignature Language="C#" Value="public interface _ExchangeUser" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ExchangeUser" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ExchangeUser" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ExchangeUser" />
@@ -56,14 +48,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die X400 darstellen e-Mail-Adresse des der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die X400 darstellen e-Mail-Adresse des der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird davon ausgegangen, die X400-Adresse des Benutzers. Um die primäre Internetadresse zu bestimmen, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> -Eigenschaft.</para>
-          <para>Die <b>Address</b> -Eigenschaft muss festgelegt werden, bevor die <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> -Methode.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft setzt die X400-Adresse des Benutzers voraus. Um die primäre Internetadresse zu bestimmen, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> Eigenschaft.</para>
+          <para>Die <b>Address</b> -Eigenschaft muss festgelegt werden, bevor die <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> Methode. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -91,10 +80,8 @@
       <Docs>
         <summary>Gibt <b>OlExchangeUserAddressEntry</b> , eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> -Enumeration, der den Benutzer geben Sie die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>AddressEntryUserType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b>sollte <b>AddressEntryUserType</b> immer <b>OlExchangeUserAddressEntry</b>zurückgeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>AddressEntryUserType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b>sollte <b>AddressEntryUserType</b> immer <b>OlExchangeUserAddressEntry</b>zurückgeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alias">
@@ -122,11 +109,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Alias für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagAccount</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagAccount</b>.</para>
+          <para>Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -185,11 +170,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des Assistenten für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagAssistant</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagAssistant</b>.</para>
+          <para>Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessTelephoneNumber">
@@ -220,11 +203,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die geschäftliche Telefonnummer für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagBusinessTelephoneNumber</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagBusinessTelephoneNumber</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="City">
@@ -255,11 +236,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Ort für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLocality</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLocality</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -318,11 +297,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Kommentare für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagComment</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagComment</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CompanyName">
@@ -353,11 +330,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des Unternehmens für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCompanyName</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCompanyName</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -382,10 +357,8 @@
       <Parameters />
       <Docs>
         <summary>Löscht die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> -Objekt aus der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> -Auflistungsobjekt zu dem es gehört.</summary>
-        <remarks>
-          <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Ein <b>ExchangeUser</b> -Objekt ist ein <b>AddressEntry</b> -Objekt, das <b>OlExchangeUserAddressEntry</b> als hat die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> das entsprechende <b>ExchangeUser</b> -Objekt zurückgibt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Ein <b>ExchangeUser</b> -Objekt ist ein <b>AddressEntry</b> -Objekt, das <b>OlExchangeUserAddressEntry</b> als hat die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> das entsprechende <b>ExchangeUser</b> -Objekt zurückgibt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Department">
@@ -416,11 +389,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Abteilung zum Darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDepartmentName</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDepartmentName</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Details">
@@ -448,11 +419,9 @@
         <param name="HWnd">Die Zugriffsnummer des übergeordneten Dialogfelds für das Dialogfeld Details. Ein Wert von Null (Standard) gibt ein modales Dialogfeld an.
 </param>
         <summary>Zeigt ein modales Dialogfeld, das detaillierte Informationen zu bietet eine <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</summary>
-        <remarks>
-          <para>Die <b>Details</b> -Methode schlägt fehl, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> -Eigenschaft ist leer. Sie müssen zum Behandeln von Laufzeitfehlern, Fehlerbehandlung verwenden und wenn der Benutzer im Dialogfeld Abbrechen klickt. </para>
-          <para>Die <b>Details</b> -Methode stoppt tatsächlich des Codes, während das Dialogfeld angezeigt wird.   </para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Details</b> -Methode schlägt fehl, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> -Eigenschaft ist leer. Sie müssen zum Behandeln von Laufzeitfehlern, Fehlerbehandlung verwenden und der Benutzer im Dialogfeld Abbrechen klickt. </para>
+          <para>Die <b>Details</b> -Methode stoppt die Ausführung des Codes, während das Dialogfeld angezeigt wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -480,11 +449,9 @@
       <Docs>
         <summary>Gibt <b>OlUser</b> , eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> -Enumeration, der die Art der der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayType</b>.</para>
-          <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>DisplayType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b><b>DisplayType</b> sollte immer zurückgeben <b>OlUser</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayType</b>.</para>
+          <para> Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>DisplayType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b>sollte <b>DisplayType</b> immer <b>OlUser</b>zurückgeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FirstName">
@@ -515,11 +482,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Vornamen des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagGivenName</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagGivenName</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -544,12 +509,9 @@
       <Parameters />
       <Docs>
         <summary>Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, da die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt keinem Kontakt in einem Adressbuch Kontakte entspricht.</summary>
-        <returns>
-          <b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem Kontakt in einem Adressbuch Kontakte entspricht.</returns>
-        <remarks>
-          <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>GetContact</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</para>
-          <para />
-        </remarks>
+        <returns><b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem Kontakt in einem Adressbuch Kontakte entspricht.</returns>
+        <remarks><para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>GetContact</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDirectReports">
@@ -575,11 +537,9 @@
       <Docs>
         <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> -Auflistungsobjekt, das alle Benutzer, die den Exchange-Benutzer direkt unterstellt enthält.</summary>
         <returns>Ein <b>AddressEntries</b> -Auflistungsobjekt, die an die Exchange-Benutzer direkt unterstellt enthält. <b>AddressEntries</b> -Objekt haben eine Count 0 (null), wenn kein Direct Bericht dargestellt ist durch ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> in der aktuellen Sitzung, oder wenn Mitarbeiter im Exchange-Verzeichnis nicht implementiert wurden.</returns>
-        <remarks>
-          <para>Wenn eine langsame Verbindung zu dem Exchange-Server vorhanden ist, ist 
+        <remarks><para>Wenn eine langsame Verbindung zu dem Exchange-Server vorhanden ist, ist 
             <b>GetDirectReports</b> hinsichtlich der Leistung ein teurer Vorgang.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeDistributionList">
@@ -604,12 +564,9 @@
       <Parameters />
       <Docs>
         <summary>Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, da die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt entspricht keiner <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> Objekt.</summary>
-        <returns>
-          <b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem <b>ExchangeDistributionList</b> -Objekt entspricht.</returns>
-        <remarks>
-          <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>GetExchangeDistributionList</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</para>
-          <para />
-        </remarks>
+        <returns><b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem <b>ExchangeDistributionList</b> -Objekt entspricht.</returns>
+        <remarks><para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>GetExchangeDistributionList</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -719,11 +676,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekten, die alle Exchange-Verteilerlisten darstellen Listen, mit denen der Benutzer angehört.</summary>
         <returns>Ein <b>AddressEntries</b> -Auflistungsobjekt, die Exchange-Verteilerlisten darstellt, dem Listet die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> gehört. Gibt ein <b>AddressEntries</b> -Auflistungsobjekt mit dem Wert 0 (null) zurück, wenn die <b>ExchangeUser</b> nicht Mitglied einer Exchange-Verteilerliste ist.</returns>
-        <remarks>
-          <para>Wenn eine langsame Verbindung zu Exchange Server vorhanden ist, ist 
+        <remarks><para>Wenn eine langsame Verbindung zu Exchange Server vorhanden ist, ist 
             <b>GetMemberOfList</b> ein teuerer Vorgang im Hinblick auf Leistung.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPicture">
@@ -749,11 +704,9 @@
       <Docs>
         <summary>Ruft ein <see cref="T:stdole.StdPicture" /> -Objekt, das das Bild des Microsoft Exchange-Benutzers darstellt, die in Microsoft Outlook angezeigt wird.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Das Bild des Exchange-Benutzers in Active Directory gespeichert und an verschiedenen Stellen in Outlook, einschließlich des Dialogfelds für Outlook-Eigenschaften angezeigt und Kontakt Card.If das Bild für den Benutzer, <b>GetPicture</b> nicht existiert gibt <b>Nothing</b> (a Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para>Können Sie nur <b>GetPicture</b> aus Code aufgerufen wird, wird als Outlook prozessinternes Protokoll. Ein <b>StdPicture</b> -Objekt kann nicht über die Grenzen hinweg Prozess gemarshallt werden sollen. Wenn Sie versuchen, <b>GetPicture</b> aus Out-of-Process-Code aufgerufen werden, tritt eine Ausnahme auf. Weitere Informationen finden Sie unter <a href="http://support.microsoft.com/kb/150034">Automatisierungsserver einen Zeiger auf das Objekt Picture IPictureDisp-Implementierung über die Grenzen hinweg Prozess kann nicht übergeben werden</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Das Bild des Exchange-Benutzers in Active Directory gespeichert und an verschiedenen Stellen in Outlook, einschließlich des Dialogfelds für Outlook-Eigenschaften angezeigt und Kontakt Card.If das Bild für den Benutzer, <b>GetPicture</b> nicht existiert gibt <b>Nothing</b> (a Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para>Sie können nur <b>GetPicture</b> aus Code aufgerufen wird, wird als Outlook prozessinternes Protokoll. Ein <b>StdPicture</b> -Objekt kann nicht über die Grenzen hinweg Prozess gemarshallt werden sollen. Wenn Sie versuchen, <b>GetPicture</b> aus Out-of-Process-Code aufgerufen werden, tritt eine Ausnahme auf. Weitere Informationen finden Sie unter <a href="http://support.microsoft.com/kb/150034">Automatisierungsserver einen Zeiger auf das Objekt Picture IPictureDisp-Implementierung über die Grenzen hinweg Prozess kann nicht übergeben werden</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -781,10 +734,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den eindeutigen Bezeichner für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>ID</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Der Transportdienst weist eine dauerhafte, eindeutige Zeichenfolgen-ID an, wenn ein <b>AddressEntry</b> -Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
-          <para />
-        </remarks>
+        <remarks><para> Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>ID</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Der Transportdienst weist eine dauerhafte, eindeutige Zeichenfolgen-ID an, wenn ein <b>AddressEntry</b> -Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="JobTitle">
@@ -815,11 +766,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die Position des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagTitle</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagTitle</b>.</para>
+          <para>Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastName">
@@ -850,11 +799,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Nachnamen des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSurname</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagSurname</b>.</para>
+          <para>Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -984,11 +931,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Mobile Telefonnummer für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMobileTelephoneNumber</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagMobileTelephoneNumber</b>.</para>
+          <para>Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -1050,11 +995,9 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) Darstellung des Speicherorts für Office für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagOfficeLocation</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagOfficeLocation</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -1113,11 +1056,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die für die Postleitzahl darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagPostalCode</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagPostalCode</b>.</para>
+          <para>Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrimarySmtpAddress">
@@ -1145,11 +1086,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die primäre Simple Mail Transfer Protocol (SMTP)-Adresse für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEmailAddress</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEmailAddress</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -1205,16 +1144,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StateOrProvince">
@@ -1245,11 +1182,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, das darstellt, das Bundesland oder Kanton für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStateOrProvince</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStateOrProvince</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StreetAddress">
@@ -1280,11 +1215,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die Straße für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStreetAddress</b>.</para>
-          <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStreetAddress</b>.</para>
+          <para> Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -1315,10 +1248,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Typ des Eintrags für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>Type</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b>ist der Typ immer die Zeichenfolge "EX".</para>
-          <para />
-        </remarks>
+        <remarks><para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>Type</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b> ist der Typ immer die Zeichenfolge "EX".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -1347,11 +1278,9 @@
         <param name="MakePermanent">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache geleert wird und alle Änderungen sich, in dem zugrunde liegenden Adressbuch verpflichtet haben. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache gelöscht wird, aber nicht ein beständiger Speicher verwendet. Der Standardwert ist <b>True</b>. </param>
         <param name="Refresh">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache aus den Werten in dem zugrunde liegenden Adressbuch erneut geladen wird. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache nicht neu geladen wird. Der Standardwert ist <b>False</b>. </param>
         <summary>Stellt eine Änderung der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt im Messagingsystem bereit.</summary>
-        <remarks>
-          <para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung, bis die <b>Update</b> -Methode wurde, wobei aufgerufen wurde die <paramref name="MakePermanent" /> Parameter auf <b>True</b>festgelegt.  </para>
-          <para>Leeren des Caches und die Werte aus dem Adressbuch anschließend erneut zu laden, rufen Sie <b>Update</b> mit den <paramref name="MakePermanent" /> Parameter auf <b>False</b> festgelegt und die <paramref name="Refresh" /> Parameter auf <b>True</b>festgelegt.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung, bis die <b>Update</b> -Methode wurde, wobei aufgerufen wurde die <paramref name="MakePermanent" /> Parameter auf <b>True</b>festgelegt.  </para>
+          <para>Um den Cache zu leeren, und die Werte aus dem Adressbuch anschließend erneut zu laden, rufen Sie <b>Update</b> mit den <paramref name="MakePermanent" /> Parameter auf <b>False</b> festgelegt und die <paramref name="Refresh" /> Parameter auf <b>True</b>festgelegt.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">

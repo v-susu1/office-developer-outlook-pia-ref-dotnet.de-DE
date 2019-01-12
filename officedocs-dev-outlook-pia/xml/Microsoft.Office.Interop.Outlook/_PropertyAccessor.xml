@@ -1,13 +1,5 @@
 <Type Name="_PropertyAccessor" FullName="Microsoft.Office.Interop.Outlook._PropertyAccessor">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635734" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="78e2122c80a9c947755c0b2d0a28a1c207ecb94a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906212" /></Metadata><TypeSignature Language="C#" Value="public interface _PropertyAccessor" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _PropertyAccessor" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._PropertyAccessor" />
   <TypeSignature Language="VB.NET" Value="Public Interface _PropertyAccessor" />
@@ -84,10 +76,8 @@
         <param name="Value">Stellt das zu konvertierende Bytearray dar.</param>
         <summary>Durch angegebene Bytearray konvertiert <paramref name="Value" /> in einen <b>String</b> (<b>Zeichenfolge</b> in c#).</summary>
         <returns>Eine hexadezimale <b>Zeichenfolge</b> (<b>String</b> in c#), die den konvertierten Wert darstellt.</returns>
-        <remarks>
-          <para>Weitere Informationen zur typenkonvertierung beim Verwenden des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Weitere Informationen zur typenkonvertierung beim Verwenden des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -144,10 +134,8 @@
         <param name="SchemaNames">Ein Array, das die Namen der Eigenschaften, die für das übergeordnete Objekt des gelöscht werden sollen enthält, die <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> Objekt. Diese Eigenschaften werden mithilfe von Namespaces verwiesen. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></param>
         <summary>Im Array angegebenen Eigenschaften werden gelöscht <paramref name="SchemaNames" />.</summary>
         <returns>Ein <b>Objekt</b> , das <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) ist, wenn der Vorgang erfolgreich ausgeführt wurde, oder ein Array von <b>Err</b> -Objekten ist, wenn ein Fehler auftritt. Wenn der Rückgabewert ein Array ist, wird die Größe dieses Arrays SchemaNames Array identisch. Ein Wert <b>Err</b> im Array wird dem Fehlerergebnis der Löschung der entsprechenden Eigenschaft im Parameter SchemaNames zugeordnet.</returns>
-        <remarks>
-          <para>Der Aufrufer muss die Berechtigung zum Löschen von Eigenschaften. <b>DeleteProperties</b> -Methode löscht nur benutzerdefinierte Eigenschaften, die vorhanden sind. Integrierte Outlook-Eigenschaften oder MAPI-Eigenschaften werden nicht gelöscht. Löscht keine benutzerdefinierte Eigenschaften der <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Aufrufer muss die Berechtigung zum Löschen von Eigenschaften. <b>DeleteProperties</b> -Methode löscht nur benutzerdefinierte Eigenschaften, die vorhanden sind. Integrierte Outlook-Eigenschaften oder MAPI-Eigenschaften werden nicht gelöscht. Löscht keine benutzerdefinierte Eigenschaften der <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteProperty">
@@ -175,10 +163,8 @@
       <Docs>
         <param name="SchemaName">Der Name der Eigenschaft, die für das übergeordnete Objekt des zu löschenden ist die <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> Objekt. Die Eigenschaft wird mithilfe von Namespaces verwiesen. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></param>
         <summary>Löscht die Eigenschaft durch angegebenen <paramref name="SchemaName" />.</summary>
-        <remarks>
-          <para>Der Aufrufer muss die Berechtigung zum Löschen von Eigenschaften. <b>DeleteProperty</b> -Methode wird nur benutzerdefinierte Eigenschaften gelöscht. integrierte Outlook-Eigenschaften oder MAPI-Eigenschaften werden nicht gelöscht. Löscht keine benutzerdefinierte Eigenschaften der <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Aufrufer muss die Berechtigung zum Löschen von Eigenschaften. <b>DeleteProperty</b> -Methode wird nur benutzerdefinierte Eigenschaften gelöscht. integrierte Outlook-Eigenschaften oder MAPI-Eigenschaften werden nicht gelöscht. Löscht keine benutzerdefinierte Eigenschaften der <see cref="T:Microsoft.Office.Interop.Outlook.DocumentItem" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperties">
@@ -207,11 +193,9 @@
         <param name="SchemaNames">Ein Array, das die Namen der Eigenschaften enthält, deren Werte zurückgegeben werden sollen. Auf diese Eigenschaften wird mithilfe von Namespaces verwiesen. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></param>
         <summary>Die Werte der durch das eindimensionale Array angegebenen Eigenschaften <paramref name="SchemaNames" />.</summary>
         <returns>Ein <b>Objekt</b> , das ein Array von Werten der im Parameter angegebenen Eigenschaften stellt <paramref name="SchemaNames" />. Die Anzahl der Elemente im zurückgegebenen Array entspricht der Anzahl der Elemente in der <paramref name="SchemaNames" /> Array.  Wenn ein Fehler, zum Abrufen einer bestimmten Eigenschaft auftritt, wird der <b>Err</b> -Wert in der entsprechenden Stelle im zurückgegebenen Array zurückgegeben werden.</returns>
-        <remarks>
-          <para>Das von <b>GetProperties</b> zurückgegebene Array kann mit unterschiedlichen Typen, je nach Art der angeforderten Eigenschaft Elemente enthalten. Der Typ des <b>GetProperties</b> zurückgegebene Array-Elements wird der Typ der zugrunde liegenden-Eigenschaft identisch sein. Bestimmte unformatierte Eigenschaftstypen wie <b>PT_OBJECT</b> werden nicht unterstützt und löst einen Fehler. Wenn Sie die Konvertierung der Eigenschaftstyp benötigen, beispielsweise aus <b>PT_BINARY</b> in eine Zeichenfolge oder aus <b>PT_SYSTIME</b> in eine Ortszeit verwenden Sie die Hilfsmethoden <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> und <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
+        <remarks><para>Das von <b>GetProperties</b> zurückgegebene Array kann mit unterschiedlichen Typen, je nach Art der angeforderten Eigenschaft Elemente enthalten. Der Typ des <b>GetProperties</b> zurückgegebene Array-Elements wird der Typ der zugrunde liegenden-Eigenschaft identisch sein. Bestimmte unformatierte Eigenschaftstypen wie <b>PT_OBJECT</b> werden nicht unterstützt und löst einen Fehler. Wenn Sie die Konvertierung der Eigenschaftstyp benötigen, beispielsweise aus <b>PT_BINARY</b> in eine Zeichenfolge oder aus <b>PT_SYSTIME</b> in eine Ortszeit verwenden Sie die Hilfsmethoden <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> und <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
           <para>Weitere Informationen zum Abrufen von Eigenschaften mithilfe des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetProperty">
@@ -239,14 +223,10 @@
       <Docs>
         <param name="SchemaName">Der Name der Eigenschaft, deren Wert zurückgegeben werden soll. Auf die Eigenschaft wird mithilfe eines Namespace verwiesen. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></param>
         <summary>Gibt ein <b>Objekt</b> , das den Wert der vom angegebenen Eigenschaft darstellt <paramref name="SchemaName" />.</summary>
-        <returns>
-          <b>Ein Objektwert, der den Wert der angeforderten Eigenschaft gemäß darstellt</b>
-          <paramref name="SchemaName" />.</returns>
-        <remarks>
-          <para>Der Typ des Rückgabewerts wird der Typ der zugrunde liegenden-Eigenschaft identisch sein. Bestimmte unformatierte Eigenschaftstypen wie <b>PT_OBJECT</b> werden nicht unterstützt und löst einen Fehler. Wenn Sie die Konvertierung der Eigenschaftstyp benötigen, beispielsweise aus <b>PT_BINARY</b> in eine Zeichenfolge oder aus <b>PT_SYSTIME</b> in eine Ortszeit verwenden Sie die Hilfsmethoden <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> und <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
+        <returns><b>Ein Objektwert, der den Wert der angeforderten Eigenschaft gemäß darstellt</b> <paramref name="SchemaName" />.</returns>
+        <remarks><para>Der Typ des Rückgabewerts wird der Typ der zugrunde liegenden-Eigenschaft identisch sein. Bestimmte unformatierte Eigenschaftstypen wie <b>PT_OBJECT</b> werden nicht unterstützt und löst einen Fehler. Wenn Sie die Konvertierung der Eigenschaftstyp benötigen, beispielsweise aus <b>PT_BINARY</b> in eine Zeichenfolge oder aus <b>PT_SYSTIME</b> in eine Ortszeit verwenden Sie die Hilfsmethoden <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.BinaryToString(System.Object)" /> und <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.UTCToLocalTime(System.DateTime)" />. </para>
           <para>Weitere Informationen zum Abrufen von Eigenschaften mithilfe des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LocalTimeToUTC">
@@ -275,10 +255,8 @@
         <param name="Value">Der DateTime-Wert aus der Ortszeit in UTC konvertiert werden soll.</param>
         <summary>Konvertiert einen vom angegebenen DateTime-Wert <paramref name="Value" /> aus dem lokalen Zeitformat in Format (Coordinated Universal Time, UTC).</summary>
         <returns>Ein DateTime-Wert, der darstellt <paramref name="Value" /> nach der Konvertierung aus der Ortszeit in UTC.</returns>
-        <remarks>
-          <para>Weitere Informationen zur typenkonvertierung beim Verwenden des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Weitere Informationen zur typenkonvertierung beim Verwenden des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -334,16 +312,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperties">
@@ -374,37 +350,35 @@
         <param name="Values">Ein Array aus Werten, die für die durch den SchemaNames-Parameter angegebenen Eigenschaften festgelegt werden sollen.</param>
         <summary>Legt die Eigenschaften, die durch das Array angegebenen <paramref name="SchemaNames" /> auf die durch das Array angegebenen Werte <paramref name="Values" />.</summary>
         <returns>Ein <b>Objekt</b> , das <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) ist, wenn der Vorgang erfolgreich ist. Wenn ein Fehler aufgetreten ist, bevor alle Eigenschaften festgelegt werden, beispielsweise die Anzahl der Elemente im Array SchemaNames stimmt nicht überein, die im Array Values und ein <b>Err</b> -Wert zurückgegeben. Wenn beim Festlegen der Eigenschaften ein Fehler aufgetreten ist, ist der Rückgabewert ein Array von <b>Err</b> -Objekten, mit der Anzahl der Elemente in diesem Array wird das Array SchemaNames identisch. Ein Wert <b>Err</b> im Array ist das Fehlerergebnis durch Festlegen der entsprechenden Eigenschaft im Parameter SchemaNames zugeordnet.</returns>
-        <remarks>
-          <para>Wenn die Eigenschaft nicht vorhanden ist und die <paramref name="SchemaNames" /> -Element enthält eine gültige Eigenschaftenbezeichner und dann <b>SetProperties</b> wird die Eigenschaft erstellt und weist die Eigenschaft mit dem Wert von angegebenen <paramref name="Values" />. Der Typ der Eigenschaft wird der Typ des Elements übergeben werden <paramref name="Values" />. Wenn die Eigenschaft ist vorhanden, und klicken Sie dann <b>SetProperties</b> der-Eigenschaft den Wert gemäß weist <paramref name="Values" />.</para>
-          <para>Beachten Sie, dass eine benutzerdefinierte Eigenschaft mithilfe von <b>"PropertyAccessor"</b> erstellt eine benutzerdefinierte Ansicht nicht unterstützt wird. Wenn Sie eine benutzerdefinierte Eigenschaft für ein Element anzeigen möchten, erstellen Sie die Eigenschaft mithilfe der <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> -Methode.</para>
-          <para>Wenn das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> unterstützt eine explizite Vorgang <b>Speichern</b> , und klicken Sie dann auf die Eigenschaften für das Objekt durch eine explizite <b>Speichern</b> gespeichert werden sollen Methodenaufruf. Wenn das Objekt nicht explizit unterstützt Vorgang <b>Speichern</b> , und klicken Sie dann auf die Eigenschaften auf das Objekt gespeichert werden, wenn <b>SetProperties</b> aufgerufen wird. </para>
-          <para>Mit Bedacht vor, und stellen Sie sicher, dass alle Ausnahmen ordnungsgemäß verarbeitet werden. Bedingungen, in dem Fehler bei der Einstellung Eigenschaften umfassen:</para>
+        <remarks><para>Wenn die Eigenschaft nicht vorhanden ist und die <paramref name="SchemaNames" /> -Element enthält eine gültige Eigenschaftenbezeichner und dann <b>SetProperties</b> wird die Eigenschaft erstellt und weist die Eigenschaft mit dem Wert von angegebenen <paramref name="Values" />. Der Typ der Eigenschaft wird der Typ des Elements übergeben werden <paramref name="Values" />. Wenn die Eigenschaft ist vorhanden, und klicken Sie dann <b>SetProperties</b> der-Eigenschaft den Wert gemäß weist <paramref name="Values" />.</para>
+          <para>Beachten Sie, dass eine mithilfe von <b>PropertyAccessor</b> erstellte benutzerdefinierte Eigenschaft in einer benutzerdefinierten Ansicht nicht unterstützt wird. Wenn Sie eine benutzerdefinierte Eigenschaft für ein Element anzeigen möchten, erstellen Sie die Eigenschaft mithilfe der <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> Methode.</para>
+          <para>Wenn das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> unterstützt eine explizite Vorgang <b>Speichern</b> , und klicken Sie dann auf die Eigenschaften für das Objekt durch eine explizite <b>Speichern</b> gespeichert werden sollen Methodenaufruf. Wenn das Objekt nicht explizit unterstützt Vorgang <b>Speichern</b>, und klicken Sie dann auf die Eigenschaften auf das Objekt gespeichert werden, wenn <b>SetProperties</b> aufgerufen wird. </para>
+          <para>Gehen Sie vorsichtig vor, und stellen Sie sicher, dass alle Ausnahmen korrekt behandelt werden. Beispiele für Bedingungen, unter denen das Festlegen von Eigenschaften fehlschlägt:</para>
           <list type="bullet">
             <item>
-              <para>die-Eigenschaft ist schreibgeschützt, als einige Outlook- und MAPI-Eigenschaften sind schreibgeschützt.</para>
+              <para>Die Eigenschaft ist schreibgeschützt, da einige Outlook- und MAPI-Eigenschaften schreibgeschützt sind.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft, die durch den angegebenen Namespace verwiesen wurde nicht gefunden.</para>
+              <para>Die Eigenschaft, auf die durch den angegebenen Namespace verwiesen wird, wird nicht gefunden.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft wird ein ungültiges Format angegeben und kann nicht analysiert werden.</para>
+              <para>Die Eigenschaft ist in einem ungültigen Format angegeben und kann nicht analysiert werden.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft ist nicht vorhanden und kann nicht erstellt werden.</para>
+              <para>Die Eigenschaft ist nicht vorhanden und kann nicht erstellt werden.</para>
             </item>
             <item>
-              <para>Ist vorhanden, aber die-Eigenschaft wird einen Wert eines falschen Typs übergeben.</para>
+              <para>Die Eigenschaft ist vorhanden, aber es wird ein Wert eines falschen Typs übergeben.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft kann nicht geöffnet werden, da der Client offline ist.</para>
+              <para>Die Eigenschaft kann nicht geöffnet werden, da der Client offline ist.</para>
             </item>
             <item>
-              <para>, Wenn die Eigenschaft mithilfe der <b>Add</b> -Methode der erstellt wird die <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> Objekt. Wenn die Eigenschaft zum ersten Mal festlegen, müssen Sie verwenden die <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> anstelle der <b>SetProperties</b> -Objekt oder <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> -Methode des <b>PropertyAccessor</b> -Objekt.</para>
+              <para>Die Eigenschaft wird erstellt, verwenden die <b>Add</b> -Methode der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> Objekt. Wenn die Eigenschaft zum ersten Mal festlegen, müssen Sie verwenden die <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> anstelle der <b>SetProperties</b> -Objekt oder <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperty(System.String,System.Object)" /> -Methode des <b>PropertyAccessor</b> -Objekt.</para>
             </item>
           </list>
           <para>Weitere Informationen zum Festlegen von Eigenschaften mithilfe des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetProperty">
@@ -434,37 +408,35 @@
         <param name="SchemaName">Der Name einer Eigenschaft, deren Wert festgelegt werden soll, wie angegeben durch <paramref name="Value" />. Die Eigenschaft wird mithilfe von Namespaces verwiesen. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87860">Verweisen auf Eigenschaften mithilfe von Namespace</a></param>
         <param name="Value">Der Wert, der für die durch angegebene Eigenschaft festgelegt werden soll <paramref name="SchemaName" />.</param>
         <summary>Durch angegebene Eigenschaft festgelegt <paramref name="SchemaName" /> auf den Wert von angegebenen <paramref name="Value" />.</summary>
-        <remarks>
-          <para>Wenn die Eigenschaft nicht vorhanden ist und die <paramref name="SchemaName" /> enthält eine gültige Eigenschaftenbezeichner <b>SetProperty</b> wird die Eigenschaft erstellt und weist den angegebenen Wert <paramref name="Value" />. Wenn die Eigenschaft vorhanden ist und <paramref name="SchemaName" /> ist gültig, und klicken Sie dann <b>SetProperty</b> die-Eigenschaft mit dem Wert von angegebenen weist <paramref name="Value" />.</para>
-          <para>Beachten Sie, dass eine benutzerdefinierte Eigenschaft mithilfe von <b>"PropertyAccessor"</b> erstellt eine benutzerdefinierte Ansicht nicht unterstützt wird. Wenn Sie eine benutzerdefinierte Eigenschaft für ein Element anzeigen möchten, erstellen Sie die Eigenschaft mithilfe der <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> -Methode.</para>
-          <para>, Wenn das übergeordnete Objekt des <b>PropertyAccessor</b> eine explizite unterstützt Vorgang <b>Speichern</b> , und klicken Sie dann auf die Eigenschaften für das Objekt durch eine explizite <b>Speichern</b> gespeichert werden sollen Methodenaufruf. Wenn das Objekt nicht explizit unterstützt Vorgang <b>Speichern</b> , und klicken Sie dann auf die Eigenschaften auf das Objekt gespeichert werden, wenn <b>SetProperties</b> aufgerufen wird. </para>
-          <para>Mit Bedacht vor, und stellen Sie sicher, dass alle Ausnahmen ordnungsgemäß verarbeitet werden. Bedingungen, in dem Fehler bei der Einstellung Eigenschaften umfassen:</para>
+        <remarks><para>Wenn die Eigenschaft nicht vorhanden ist und die <paramref name="SchemaName" /> enthält eine gültige Eigenschaftenbezeichner <b>SetProperty</b> wird die Eigenschaft erstellt und weist den angegebenen Wert <paramref name="Value" />. Wenn die Eigenschaft vorhanden ist und <paramref name="SchemaName" /> ist gültig, und klicken Sie dann <b>SetProperty</b> die-Eigenschaft mit dem Wert von angegebenen weist <paramref name="Value" />.</para>
+          <para>Beachten Sie, dass eine mithilfe von <b>PropertyAccessor</b> erstellte benutzerdefinierte Eigenschaft in einer benutzerdefinierten Ansicht nicht unterstützt wird. Wenn Sie eine benutzerdefinierte Eigenschaft für ein Element anzeigen möchten, erstellen Sie die Eigenschaft mithilfe der <see cref="M:Microsoft.Office.Interop.Outlook.UserProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> Methode.</para>
+          <para>Wenn das übergeordnete Objekt des <b>PropertyAccessor</b> eine explizite unterstützt Vorgang <b>Speichern</b>, und klicken Sie dann auf die Eigenschaften für das Objekt durch eine explizite <b>Speichern</b> gespeichert werden sollen Methodenaufruf. Wenn das Objekt nicht explizit unterstützt Vorgang <b>Speichern</b>, und klicken Sie dann auf die Eigenschaften auf das Objekt gespeichert werden, wenn <b>SetProperties</b> aufgerufen wird.</para>
+          <para>Gehen Sie vorsichtig vor, und stellen Sie sicher, dass alle Ausnahmen korrekt behandelt werden. Beispiele für Bedingungen, unter denen das Festlegen von Eigenschaften fehlschlägt:</para>
           <list type="bullet">
             <item>
-              <para>die-Eigenschaft ist schreibgeschützt, als einige Outlook- und MAPI-Eigenschaften sind schreibgeschützt.</para>
+              <para>Die Eigenschaft ist schreibgeschützt, da einige Outlook- und MAPI-Eigenschaften schreibgeschützt sind.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft, die durch den angegebenen Namespace verwiesen wurde nicht gefunden.</para>
+              <para>Die Eigenschaft, auf die durch den angegebenen Namespace verwiesen wird, wird nicht gefunden.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft wird ein ungültiges Format angegeben und kann nicht analysiert werden.</para>
+              <para>Die Eigenschaft ist in einem ungültigen Format angegeben und kann nicht analysiert werden.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft ist nicht vorhanden und kann nicht erstellt werden.</para>
+              <para>Die Eigenschaft ist nicht vorhanden und kann nicht erstellt werden.</para>
             </item>
             <item>
-              <para>Ist vorhanden, aber die-Eigenschaft wird einen Wert eines falschen Typs übergeben.</para>
+              <para>Die Eigenschaft ist vorhanden, aber es wird ein Wert eines falschen Typs übergeben.</para>
             </item>
             <item>
-              <para>Die-Eigenschaft kann nicht geöffnet werden, da der Client offline ist.</para>
+              <para>Die Eigenschaft kann nicht geöffnet werden, da der Client offline ist.</para>
             </item>
             <item>
-              <para>, Wenn die Eigenschaft mithilfe der <b>Add</b> -Methode der erstellt wird die <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> Objekt. Beim Festlegen der Eigenschaft zum ersten Mal müssen Sie verwenden die <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekt, anstatt die <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> oder <b>SetProperty</b> -Methode des <b>PropertyAccessor</b> -Objekts.</para>
+              <para>Die Eigenschaft wird erstellt, verwenden die <b>Add</b> -Methode der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> Objekt. Beim Festlegen der Eigenschaft zum ersten Mal müssen Sie verwenden die <see cref="P:Microsoft.Office.Interop.Outlook.UserProperty.Value" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.UserProperty" /> -Objekt, anstatt die <see cref="M:Microsoft.Office.Interop.Outlook._PropertyAccessor.SetProperties(System.Object,System.Object)" /> oder <b>SetProperty</b> -Methode des <b>PropertyAccessor</b> -Objekts.</para>
             </item>
           </list>
           <para>Weitere Informationen zum Festlegen von Eigenschaften mithilfe des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StringToBinary">
@@ -492,13 +464,9 @@
       <Docs>
         <param name="Value">Ein hexadezimaler Zeichenfolgenwert, der in ein Bytearray konvertiert werden soll.</param>
         <summary>Konvertiert eine Zeichenfolge, die vom angegebenen <paramref name="Value" /> in ein Bytearray.</summary>
-        <returns>
-          <b>Ein Objektwert, der ein durch die Konvertierung zurückgegebenes Bytearray darstellt.</b>
-        </returns>
-        <remarks>
-          <para>Weitere Informationen zur typenkonvertierung beim Verwenden des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+        <returns><b>Ein Objektwert, der ein durch die Konvertierung zurückgegebenes Bytearray darstellt.</b></returns>
+        <remarks><para>Weitere Informationen zur typenkonvertierung beim Verwenden des <b>PropertyAccessor</b> -Objekts finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UTCToLocalTime">
@@ -527,10 +495,8 @@
         <param name="Value">Die DateTime-Wert, der aus UTC in die Ortszeit konvertiert werden soll.</param>
         <summary>Konvertiert den DateTime-Wert, der vom angegeben ist <paramref name="Value" /> und in koordinierter Weltzeit (UTC) auf einen Wert in Ortszeit ausgedrückt.</summary>
         <returns>Ein DateTime-Wert, der darstellt <paramref name="Value" /> nach der Konvertierung aus UTC in die Ortszeit.</returns>
-        <remarks>
-          <para>Weitere Informationen zur typenkonvertierung beim Verwenden der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekts, finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Weitere Informationen zur typenkonvertierung beim Verwenden der <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekts, finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87854">Best Practices zum Abrufen und Festlegen von Eigenschaften</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

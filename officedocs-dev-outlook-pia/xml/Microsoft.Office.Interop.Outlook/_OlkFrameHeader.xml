@@ -1,13 +1,5 @@
 <Type Name="_OlkFrameHeader" FullName="Microsoft.Office.Interop.Outlook._OlkFrameHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="80ea7261ca8c917e5107fde1b844bf7e7b71d2e4" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635919" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkFrameHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="80ea7261ca8c917e5107fde1b844bf7e7b71d2e4" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904042" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkFrameHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkFrameHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkFrameHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkFrameHeader" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> -Konstante, die Position des Steuerelements im Verhältnis zu seinem Titel zurück.    Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlAlignmentLeft</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlAlignmentLeft</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die angezeigt wird auf ein Objekt zu identifizieren oder zu beschreiben Sie es.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist eine leere Zeichenfolge. Im Formular-Designer wird diese Eigenschaft auf das Steuerelement Standardnamen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist eine leere Zeichenfolge. Diese Eigenschaft wird vom Formular-Designer auf den Standardnamen des Steuerelements festgelegt.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -126,11 +114,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>False</b>.</para>
+        <remarks><para>Der Standardwert lautet <b>False</b>.</para>
           <para>Wenn das Steuerelement deaktiviert ist, werden die Inhalte des Steuerelements abgeblendet angezeigt.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -192,11 +178,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Vordergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ist diese Eigenschaft vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".  </para>
-          <para>Das Rahmenkopfzeilen-Steuerelement weist nur eine Vordergundfarbe und keine Hintergrundfarbe.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".  </para>
+          <para>Das Rahmenkopfzeilen-Steuerelement weist nur eine Vordergundfarbe und keine Hintergrundfarbe auf.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -227,10 +211,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>StdPicture</b> , das das benutzerdefinierte Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -261,10 +243,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

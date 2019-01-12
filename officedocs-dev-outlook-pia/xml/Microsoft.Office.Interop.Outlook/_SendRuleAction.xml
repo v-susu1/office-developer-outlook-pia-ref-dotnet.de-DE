@@ -1,13 +1,5 @@
 <Type Name="_SendRuleAction" FullName="Microsoft.Office.Interop.Outlook._SendRuleAction">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="57a5a5c0a8f59db1968d1ea961ef6bf80215bc8d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637208" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SendRuleAction" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="57a5a5c0a8f59db1968d1ea961ef6bf80215bc8d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903377" /></Metadata><TypeSignature Language="C#" Value="public interface _SendRuleAction" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SendRuleAction" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SendRuleAction" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SendRuleAction" />
@@ -55,10 +47,8 @@
       <Docs>
         <summary>Gibt eine Konstante, <b>OlRuleActionRedirect</b>aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleActionType" /> -Enumeration, die den Typ der Aktion angibt, die von der Regel. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Regelaktion zum Senden wird nur von Regeln zum Empfangen von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Angeben von Regelaktionen</a></para>
-          <para />
-        </remarks>
+        <remarks><para> Die Regelaktion zum Senden wird nur von Regeln zum Empfangen von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87797">Angeben von Regelaktionen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -145,10 +135,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die bestimmt, ob die Regelaktion aktiviert ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die Regel und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Regel ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die Regel und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Regel ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -176,10 +164,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Recipients">
@@ -207,10 +193,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung, die Empfängerliste für die Send-Aktion darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Mithilfe des logischen Operators OR, werden mehrere Empfänger ausgewertet.</para>
-          <para />
-        </remarks>
+        <remarks><para>Mithilfe des logischen Operators OR werden mehrere Empfänger ausgewertet.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -238,16 +222,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

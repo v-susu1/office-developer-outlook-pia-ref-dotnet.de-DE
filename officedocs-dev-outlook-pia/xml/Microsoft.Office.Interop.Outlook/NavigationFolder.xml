@@ -1,13 +1,5 @@
 <Type Name="NavigationFolder" FullName="Microsoft.Office.Interop.Outlook.NavigationFolder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c2a2409fbe1ec306f5eef687c9635875089a48f5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637247" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationFolder : Microsoft.Office.Interop.Outlook._NavigationFolder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5130e9ede7b54fc9d0edf44f38d128541dedc4e9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904539" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationFolder : Microsoft.Office.Interop.Outlook._NavigationFolder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationFolder implements class Microsoft.Office.Interop.Outlook._NavigationFolder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationFolder" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationFolder&#xA;Implements _NavigationFolder" />
@@ -31,14 +23,12 @@
   </Attributes>
   <Docs>
     <summary>Stellt einen Navigationsordner dar, der in einer Navigationsgruppe eines Navigationsmoduls im Navigationsbereich angezeigt wird.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />. </para>
-      <para>Verwenden die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) zum Abrufen von <b>NavigationFolder</b> -Objekt aus der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> Auflistung des übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> Objekt. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> -Methode der <b>NavigationFolders</b> -Auflistung ein neues <b>NavigationFolder</b> -Objekt erstellen basierend auf einem vorhandenen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt.</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._NavigationFolder" />. </para>
+      <para>Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolders.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) zum Abrufen von <b>NavigationFolder</b> -Objekt aus der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> Auflistung des übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> Objekt. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._NavigationFolders.Add(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> -Methode der <b>NavigationFolders</b> -Auflistung ein neues <b>NavigationFolder</b> -Objekt erstellen basierend auf einem vorhandenen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt.</para>
       <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Folder" /> -Methode zum Zurückgeben oder Festlegen des <b>Folder</b> -Objekts, auf dem das <b>NavigationFolder</b> -Objekt basiert.</para>
       <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSelected" /> Eigenschaft, um zu bestimmen, ob der Navigationsordner ausgewählt ist und die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.Position" /> -Eigenschaft zum Zurückgeben oder Festlegen der Anzeigeposition von der Navigationsordner im Navigationsbereich. Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.DisplayName" /> Eigenschaft, um den Anzeigenamen des Navigationsordners im Navigationsbereich zurückzugeben.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> Eigenschaft, um zu bestimmen, ob ein Navigationsordner aus der <b>NavigationFolders</b> -Auflistung entfernt werden kann und die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSideBySide" /> -Eigenschaft zum Zurückgeben oder Festlegen des Anzeigemodus für einen Navigationsordner zugeordnet eine <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> -Objekt.</para>
-      <para />
-    </remarks>
+      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> Eigenschaft, um zu bestimmen, ob ein Navigationsordner aus der <b>NavigationFolders</b> -Auflistung entfernt werden kann und die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsSideBySide" /> -Eigenschaft zum Zurückgeben oder Festlegen des Anzeigemodus für einen Navigationsordner zugeordnet einer <see cref="T:Microsoft.Office.Interop.Outlook.CalendarModule" /> Objekt.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

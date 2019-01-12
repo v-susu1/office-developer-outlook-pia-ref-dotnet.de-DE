@@ -1,13 +1,5 @@
 <Type Name="_MailModule" FullName="Microsoft.Office.Interop.Outlook._MailModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f4a919f25b3d83f96d4b107547649713c302fb12" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637149" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _MailModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f4a919f25b3d83f96d4b107547649713c302fb12" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905288" /></Metadata><TypeSignature Language="C#" Value="public interface _MailModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MailModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MailModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MailModule" />
@@ -83,10 +75,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>OlMailModule</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>OlMailModule</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -170,10 +160,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> -Konstante, die den Navigationsmodultyp für das Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>OlModuleMail</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>OlModuleMail</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -232,19 +220,17 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (Int in c#)-Wert, der die Ordnungsposition des darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> Objekt, wenn Sie im Navigationsbereich angezeigt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft kann nur auf einen Wert zwischen 1 und 8 festgelegt werden. Ein Fehler tritt auf, wenn Sie versuchen, diese Eigenschaft auf einen Wert außerhalb dieses Bereichs festgelegt.</para>
+        <remarks><para>Diese Eigenschaft kann nur auf einen Wert zwischen 1 und 8 festgelegt werden. Wenn Sie versuchen, diese Eigenschaft auf einen Wert außerhalb dieses Bereichs festzulegen, wird ein Fehler angezeigt.</para>
           <para>Ändern des Werts dieser Eigenschaft für ein <b>MailModule</b> -Objekt ändert die <b>Position</b> Werte anderer Navigationsmodule enthaltene eine <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> je nach der relativen Änderung zwischen dem neuen Wert und den ursprünglichen Wert der <b>-Auflistung Position</b> -Eigenschaft für das <b>MailModule</b> -Objekt:</para>
           <list type="bullet">
             <item>
-              <para>, wenn der neue Wert kleiner als der ursprüngliche Wert ist, und klicken Sie dann das angegebene <b>MailModule</b> -Objekt wird an die neue Position verschoben und die anderen Navigationsmodule, die sich bereits an oder unterhalb Diese neue Position nach unten.</para>
+              <para>Wenn der neue Wert kleiner als der ursprüngliche Wert ist, klicken Sie dann das angegebene <b>MailModule</b> -Objekt wird an die neue Position verschoben, und die anderen Navigationsmodule, die sich bereits an oder unterhalb dieser neuen Position nach unten.</para>
             </item>
             <item>
-              <para>, Wenn der neue Wert größer als der ursprüngliche Wert ist, und klicken Sie dann das angegebene <b>MailModule</b> -Objekt an die neue Position nach unten verschoben und die anderen zwischen der alten und die neue Position nach oben Navigationsmodule, füllen Sie die alte Position.</para>
+              <para>Ist der neue Wert größer als der ursprüngliche Wert, klicken Sie dann das angegebene <b>MailModule</b> -Objekt an die neue Position nach unten verschoben und die anderen Navigationsmodule zwischen der alten und der neuen Position, füllen die alte Position.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -272,16 +258,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">

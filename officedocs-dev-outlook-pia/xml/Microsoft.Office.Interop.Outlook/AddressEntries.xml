@@ -1,13 +1,5 @@
 <Type Name="AddressEntries" FullName="Microsoft.Office.Interop.Outlook.AddressEntries">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4bda78f2cfac522b2c9037bd4e14d0b6b1213f6c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636436" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="934ec4a81165b2002ddbd25cdf69cfc08184863b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903153" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntries implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntries" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntries&#xA;Implements IEnumerable" />
@@ -31,10 +23,8 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Auflistung von Adressen für ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt.</summary>
-    <remarks>
-      <para>Das Objekt kann keine oder mehrere enthalten <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte und bietet Zugriff auf die Einträge im Adressbuchcontainer eines Transportdienstes.</para>
-      <para />
-    </remarks>
+    <remarks><para>Das Objekt kann keine oder mehrere enthalten <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte und bietet Zugriff auf die Einträge im Adressbuchcontainer eines Transportdienstes.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -66,10 +56,8 @@
         <param name="Address">Die Adresse.</param>
         <summary>Fügt einen neuen Eintrag, der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das den neuen Eintrag darstellt.</returns>
-        <remarks>
-          <para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung erst nach dem Aufrufen der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" /> Methode.</para>
-          <para />
-        </remarks>
+        <remarks><para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung erst nach dem Aufrufen der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" /> Methode.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -179,10 +167,8 @@
       <Docs>
         <summary>Gibt das erste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das erste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Gibt <b>Nothing zurück</b> , wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind. Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b><see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Gibt <b>Nothing zurück</b>, wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind. Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b> <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -208,10 +194,8 @@
       <Docs>
         <summary>Gibt das letzte Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das letzte in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -237,10 +221,8 @@
       <Docs>
         <summary>Gibt das nächste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das nächste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -266,10 +248,8 @@
       <Docs>
         <summary>Gibt das vorherige Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das vorherige in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -388,16 +368,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -426,11 +404,9 @@
         <param name="Property">Der Name der Eigenschaft, nach der sortiert werden soll. Der Name kann in eckige Klammern eingeschlossen sein (zum Beispiel: "[CompanyName]"). Es darf sich dabei nicht um ein benutzerdefiniertes Feld handeln und nicht um eine mehrwertige Eigenschaft, wie z. B. eine Kategorie.</param>
         <param name="Order">Die Reihenfolge für die angegebene Adresseinträge. Kann eine der folgenden <b>OlSortOrder</b> -Konstanten sein: <b>OlAscending</b>, <b>OlDescending</b> oder <b>OlSortNone</b>. </param>
         <summary>Sortiert die Auflistung der Elemente nach der angegebenen Eigenschaft. Der Index für die Auflistung wird nach Abschluss dieser Methode auf 1 zurückgesetzt.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Sort</b> wirkt sich lediglich auf die Reihenfolge der Elemente in einer Auflistung. Es wirkt sich nicht auf die Reihenfolge von Elementen in einem Explorer-Ansicht.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

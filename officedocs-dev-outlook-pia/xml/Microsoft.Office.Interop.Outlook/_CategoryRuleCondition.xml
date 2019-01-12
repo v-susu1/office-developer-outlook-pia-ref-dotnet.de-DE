@@ -1,13 +1,5 @@
 <Type Name="_CategoryRuleCondition" FullName="Microsoft.Office.Interop.Outlook._CategoryRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="14c716cb0655da2cc8cc9a5e5df763b607e40c44" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637313" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CategoryRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="14c716cb0655da2cc8cc9a5e5df763b607e40c44" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902565" /></Metadata><TypeSignature Language="C#" Value="public interface _CategoryRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CategoryRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CategoryRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CategoryRuleCondition" />
@@ -86,14 +78,12 @@
       <Docs>
         <summary>Zurück oder legt ein Array von <b>String</b> (<b>Zeichenfolge</b> in c#)-Elementen, die die Kategorien, die von der regelbedingung ausgewertet darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie ein Array mit einem Element für eine einzelne Kategorie ausgewertet werden soll, oder ein Array mit mehreren Zeichenfolgen für mehrere Kategorien ausgewertet werden soll zuweisen können. Mehrere Kategoriezeichenfolgen in einem Array zugewiesen werden mithilfe des logischen Operators OR ausgewertet.</para>
-          <para>Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategorien angegeben.</para>
-          <para>Wenn eine mit <b>Categories</b> angegebene Zeichenfolge eine Kategorie der Nachricht entspricht, die Bedingung <b>True</b>ergibt.</para>
+        <remarks><para>Sie können ein Array mit einem Element zuweisen, um eine einzelne Kategorie auszuwerten, oder ein Array mit mehreren Zeichenfolgen zuweisen, um mehrere Kategorien auszuwerten. Mehrere, in einem Array zugewiesene Kategoriezeichenfolgen werden mithilfe der logischen OR-Operation ausgewertet.</para>
+          <para>Diese Eigenschaft verwendet das im Wertnamen sList unter HKEY_CURRENT_USER\Control Panel\International in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategorien.</para>
+          <para>Wenn eine mit <b>Categories</b> angegebene Zeichenfolge eine Kategorie der Nachricht entspricht, ergibt die Bedingung <b>True</b>.</para>
           <para>Outlook wird nicht überprüft, um festzustellen, ob die <b>Categories</b> -Eigenschaft Kategorienamen enthält, die in der Hauptkategorienliste befinden.</para>
           <para>Gibt einen Fehler zurück, wenn <b>Categories</b> eine oder mehrere leere Zeichenfolgen enthält.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -149,10 +139,8 @@
       <Docs>
         <summary>Gibt eine Konstante, <b>OlConditionCategory</b>aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> -Enumeration, die den Typ des regelbedingung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Kategorie regelbedingung wird von Regeln zum Empfangen von Nachrichten und Regeln zum Senden von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Die Kategorie regelbedingung wird von Regeln zum Empfangen von Nachrichten und Regeln zum Senden von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -183,10 +171,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die bestimmt, ob die Regel aktiviert ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Bedingung ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Bedingung ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -214,10 +200,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -245,16 +229,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
