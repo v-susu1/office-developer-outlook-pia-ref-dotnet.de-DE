@@ -1,13 +1,5 @@
 <Type Name="_Explorer" FullName="Microsoft.Office.Interop.Outlook._Explorer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635746" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorer" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906191" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorer" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorer" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="44e3f-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="44e3f-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="44e3f-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="44e3f-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="44e3f-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="44e3f-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="44e3f-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="44e3f-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="92a29-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="92a29-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="92a29-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="92a29-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="92a29-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="92a29-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="92a29-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span><span class="sxs-lookup"><span data-stu-id="92a29-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -70,16 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AccountSelector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> -Objekt, das die Microsoft Office Backstage-Ansicht für die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object that represents the Microsoft Office Backstage view for the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />object.</span>
-          </span>
-          <span data-ttu-id="44e3f-106">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-106">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-105">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> -Objekt, das die Microsoft Office Backstage-Ansicht für die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />Objekt.</span><span class="sxs-lookup"><span data-stu-id="92a29-105">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AccountSelector" /> object that represents the Microsoft Office Backstage view for the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />object.</span></span> <span data-ttu-id="92a29-106">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-106">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -105,12 +71,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-107">Ein Explorer-Fenster wird aktiviert, indem es im Vordergrund angezeigt wird und der Fokus für die Tastatureingabe festgelegt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-107">Activates an explorer window by bringing it to the foreground and setting keyboard focus.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-107">Ein Explorer-Fenster wird aktiviert, indem es im Vordergrund angezeigt wird und der Fokus für die Tastatureingabe festgelegt wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-107">Activates an explorer window by bringing it to the foreground and setting keyboard focus.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,107 +98,58 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-108">Gibt ein Elementobjekt, das aktive Inline-Antwort-Element im Lesebereich Explorer darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-108">Returns an item object representing the active inline response item in the explorer reading pane.</span>
-          </span>
-          <span data-ttu-id="44e3f-109">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-108">Gibt ein Elementobjekt, das aktive Inline-Antwort-Element im Lesebereich Explorer darstellt.</span><span class="sxs-lookup"><span data-stu-id="92a29-108">Returns an item object representing the active inline response item in the explorer reading pane.</span></span> <span data-ttu-id="92a29-109">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-109">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-110">
-            <para>Sie können die meisten Eigenschaften und Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekts auf dieses Element. Sie können nicht die folgenden Methoden verwenden:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> Eigenschaft</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> Methode</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> Methode</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> Methode</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> Methode</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> Methode</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> Methode </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> Methode</para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> Methode</para>
-              </item>
-            </list>
-            <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn keine inlineantwort im Lesebereich angezeigt wird.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-110">
-              <para>You can use most of the properties and methods of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object on this item. You cannot use the following methods:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> property</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> method</para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> method</para>
-                </item>
-              </list>
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="92a29-110">Sie können die meisten Eigenschaften und Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekts auf dieses Element.</span><span class="sxs-lookup"><span data-stu-id="92a29-110">You can use most of the properties and methods of the <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> object on this item.</span></span> <span data-ttu-id="92a29-111">Sie können nicht die folgenden Methoden verwenden:</span><span class="sxs-lookup"><span data-stu-id="92a29-111">You cannot use the following methods:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="92a29-112">
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />Eigenschaft</span><span class="sxs-lookup"><span data-stu-id="92a29-112">
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> property</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-113">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-113">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-114">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-114">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-115">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-115">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-116">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-116">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-117">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-117">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-118">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-118">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-119">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-119">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> method</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-120">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />Methode</span><span class="sxs-lookup"><span data-stu-id="92a29-120">
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> method</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="92a29-121">Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn keine inlineantwort im Lesebereich angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-121">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInlineResponseWordEditor">
@@ -263,103 +175,47 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-111">Gibt das Wort <see cref="T:Microsoft.Office.Interop.Word.Document" /> Objekt der aktiven inlineantwort, die im Explorer im Lesebereich angezeigt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-111">Returns the Word <see cref="T:Microsoft.Office.Interop.Word.Document" /> object of the active inline response that is displayed in the explorer Reading Pane.</span>
-          </span>
-          <span data-ttu-id="44e3f-112">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-122">Gibt das Wort <see cref="T:Microsoft.Office.Interop.Word.Document" /> Objekt der aktiven inlineantwort, die im Explorer im Lesebereich angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-122">Returns the Word <see cref="T:Microsoft.Office.Interop.Word.Document" /> object of the active inline response that is displayed in the explorer Reading Pane.</span></span> <span data-ttu-id="92a29-123">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-123">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-113">
-            <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn keine inlineantwort im Lesebereich angezeigt wird. Das zurückgegebene Word- <b>Dokument</b> -Objekt ermöglicht den Zugriff auf die meisten der Word-Objektmodell mit Ausnahme der folgenden Elemente:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-113">
-              <para>This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane. The returned Word <b>Document</b> object provides access to most of the Word object model except for the following members:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="92a29-124">Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn keine inlineantwort im Lesebereich angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-124">This property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) if no inline response is visible in the Reading Pane.</span></span> <span data-ttu-id="92a29-125">Das zurückgegebene Word- <b>Dokument</b> -Objekt ermöglicht den Zugriff auf die meisten der Word-Objektmodell mit Ausnahme der folgenden Elemente:</span><span class="sxs-lookup"><span data-stu-id="92a29-125">The returned Word <b>Document</b> object provides access to most of the Word object model except for the following members:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.InlineShapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.ConvertToTable(System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.ImportFragment(System.String,System.Boolean)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Range.InsertXML(System.String,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Shapes.AddChart2(System.Int32,Microsoft.Office.Core.XlChartType,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Selection.InsertXML(System.String,System.Object@)" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="M:Microsoft.Office.Interop.Word.Tables.Add(Microsoft.Office.Interop.Word.Range,System.Int32,System.Int32,System.Object@,System.Object@)" />
+              </para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToSelection">
@@ -385,127 +241,60 @@
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="44e3f-114">Das Element, das der Auswahl im aktiven Explorer hinzugefügt werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-114">The item to add to the selection in the active explorer.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44e3f-115">Das angegebene Microsoft Outlook-Element hinzugefügt der Markierung im aktiven Explorer.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-115">Adds the specified Microsoft Outlook item to the selection in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-116">
-            <para>Die Auswahl im aktiven Explorer wird durch dargestellt die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft.</para>
-            <para>Ausgewählt werden, das Element muss in der aktuellen Ansicht des aktiven Explorers ausgewählt werden. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann. Das Element hat keinen in der Ansicht sichtbar sein. </para>
-            <para>Unter folgenden Umständen gibt Outlook einen Fehler beim Aufruf der <b>AddToSelection</b> -Methode:</para>
-            <list type="bullet">
-              <item>
-                <para>das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</para>
-              </item>
-              <item>
-                <para>Das angegebene Element in der aktuellen Ansicht des aktiven Explorers bearbeitet wird.</para>
-              </item>
-              <item>
-                <para>Die aktuelle Ansicht wurde gefiltert, und die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</para>
-              </item>
-              <item>
-                <para>Das angegebene Element wurde nicht gespeichert.</para>
-              </item>
-              <item>
-                <para>Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
-              </item>
-              <item>
-                <para>Für den aktiven Explorer ist keine aktuelle Ansicht vorhanden.</para>
-              </item>
-            </list>
-            <para>Aufruf von <b>AddToSelection</b> Ursachen, wenn das Element nicht ausgewählt ist und in der aktuellen Ansicht ausgewählt ist, die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst.</para>
-            <para>Aufruf von <b>AddToSelection</b> nicht den Fensterinhalt, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht der Ansicht.</para>
-            <para>Die folgende Tabelle veranschaulicht die Ergebnisse der aufrufenden <b>AddToSelection</b>, Berücksichtigung der aktuellen Auswahl (der <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft) und gibt an, ob im Lesebereich angezeigt wird.</para>
-            <list type="table">
-              <item>
-                <description>0</description>
-                <description>Ja</description>
-                <description>das Element wird in der Auswahl<b> hinzugefügt. SelectionChange</b> ausgelöst wird. Das im Lesebereich angezeigt.</description>
-              </item>
-              <item>
-                <description>0</description>
-                <description>No</description>
-                <description>das Element wird in der Auswahl<b> hinzugefügt. SelectionChange</b> löst.</description>
-              </item>
-              <item>
-                <description> &gt;= 1</description>
-                <description>Ja</description>
-                <description>wird das Element in der Auswahl<b> hinzugefügt SelectionChange</b> ausgelöst wird. Lesen der Bereich wird das Element angezeigt, wenn die Ansicht eine Kalenderansicht ist nicht geändert, in diesem Fall Aufruf von <b>AddToSelection</b> kann dazu führen, dass zum Anzeigen eines anderen Elements im Lesebereich.</description>
-              </item>
-              <item>
-                <description> &gt;= 1</description>
-                <description>No</description>
-                <description>wird das Element in der Auswahl<b> hinzugefügt SelectionChange</b> löst.</description>
-              </item>
-            </list>
-            <para>Wenn das angegebene Element bereits im aktiven Explorer ausgewählt ist, Aufruf von <b>AddToSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</para> Wenn Sie ein Element in einer Terminserie oder eine Aufgabe angeben, wie ein Argument an die <b>AddToSelection</b> -Methode, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten 
-          <para>die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung. Wenn Sie nicht die Wiederholungen erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, übergeben Sie eine Instanzvariable, die die Datenreihe Termins oder einer Aufgabe darstellt, und die <b>AddToSelection</b> -Methode der Datenreihe nicht das kontinuierlich ausgeführt wird. </para><para>Beachten Sie, dass <b>AddToSelection</b> zum Hinzufügen von Elementen zu einer Auswahl können, aber Sie nicht von unterhaltungskopfzeilen zu einer Auswahl hinzufügen können.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-116">
-              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
-              <para>To be selected, the item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
-              <para>Under the following conditions, Outlook returns an error when you call the <b>AddToSelection</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>The specified item is not in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The specified item is being edited in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
-                </item>
-                <item>
-                  <para>The specified item has not been saved.</para>
-                </item>
-                <item>
-                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
-                </item>
-                <item>
-                  <para>No current view exists for the active explorer.</para>
-                </item>
-              </list>
-              <para>If the item is not selected and is selectable in the current view, calling <b>AddToSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</para>
-              <para>Calling <b>AddToSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
-              <para>The following table illustrates the results of calling <b>AddToSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property) and whether the Reading Pane is displayed.</para>
-              <list type="table">
-                <item>
-                  <description>0</description>
-                  <description>Yes</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane displays the item.</description>
-                </item>
-                <item>
-                  <description>0</description>
-                  <description>No</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>Yes</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane does not change the item it displays unless the view is a Calendar view, in which case, calling <b>AddToSelection</b> can cause the Reading Pane to display a different item.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>No</description>
-                  <description>The item is added to the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-              </list>
-              <para>If the specified item is already selected in the active explorer, calling <b>AddToSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
-              <para>When you specify an item in a recurring appointment or task as an argument to the <b>AddToSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you pass an instance variable that represents the appointment or task series, and the <b>AddToSelection</b> method operates on the series instead of the occurrence. </para>
-              <para>Note that you can use <b>AddToSelection</b> to add items to a selection, but you cannot add conversation headers to a selection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="92a29-126">Das Element, das der Auswahl im aktiven Explorer hinzugefügt werden soll.</span><span class="sxs-lookup"><span data-stu-id="92a29-126">The item to add to the selection in the active explorer.</span></span></param>
+        <summary><span data-ttu-id="92a29-127">Das angegebene Microsoft Outlook-Element hinzugefügt der Markierung im aktiven Explorer.</span><span class="sxs-lookup"><span data-stu-id="92a29-127">Adds the specified Microsoft Outlook item to the selection in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-128">Die Auswahl im aktiven Explorer dargestellt, durch die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="92a29-128">The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</span></span></para>
+          <para><span data-ttu-id="92a29-129">Damit es ausgewählt wird, muss das Element in der aktuellen Ansicht des aktuellen Explorers auswählbar sein.</span><span class="sxs-lookup"><span data-stu-id="92a29-129">To be selected, the item must be selectable in the current view of the active explorer.</span></span> <span data-ttu-id="92a29-130">Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann.</span><span class="sxs-lookup"><span data-stu-id="92a29-130">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view.</span></span> <span data-ttu-id="92a29-131">Das Element muss in der Ansicht nicht sichtbar sein.</span><span class="sxs-lookup"><span data-stu-id="92a29-131">The item does not have to be visible in the view.</span></span> </para>
+          <para><span data-ttu-id="92a29-132">Unter den folgenden Umständen gibt Outlook beim Aufruf der <b>AddToSelection</b> -Methode einen Fehler zurück:</span><span class="sxs-lookup"><span data-stu-id="92a29-132">Under the following conditions, Outlook returns an error when you call the <b>AddToSelection</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="92a29-133">Das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</span><span class="sxs-lookup"><span data-stu-id="92a29-133">The specified item is not in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-134">Das angegebene Element wird in der aktuellen Ansicht des aktiven Explorers bearbeitet.</span><span class="sxs-lookup"><span data-stu-id="92a29-134">The specified item is being edited in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-135">Die aktuelle Ansicht wurde gefiltert, und durch die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</span><span class="sxs-lookup"><span data-stu-id="92a29-135">The current view has been filtered and the application of the filter removed the item from the view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-136">Das angegebene Element wurde nicht gespeichert.</span><span class="sxs-lookup"><span data-stu-id="92a29-136">The specified item has not been saved.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-137">Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span><span class="sxs-lookup"><span data-stu-id="92a29-137">The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-138">Für den aktiven Explorer ist keine aktuelle Ansicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="92a29-138">No current view exists for the active explorer.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="92a29-139">Wenn das Element nicht ausgewählt ist und in der aktuellen Ansicht ausgewählt ist, der Aufruf von <b>AddToSelection</b> Ursachen der <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-139">If the item is not selected and is selectable in the current view, calling <b>AddToSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</span></span></para>
+          <para><span data-ttu-id="92a29-140">Aufruf von <b>AddToSelection</b> nicht den Fensterinhalt der Ansicht, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht.</span><span class="sxs-lookup"><span data-stu-id="92a29-140">Calling <b>AddToSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</span></span></para>
+          <para><span data-ttu-id="92a29-141">Die folgende Tabelle veranschaulicht die Ergebnisse der aufrufenden <b>AddToSelection</b>, Berücksichtigung der aktuellen Auswahl (der <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft) und gibt an, ob im Lesebereich angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-141">The following table illustrates the results of calling <b>AddToSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property) and whether the Reading Pane is displayed.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="92a29-142">0</span><span class="sxs-lookup"><span data-stu-id="92a29-142">0</span></span></description>
+              <description><span data-ttu-id="92a29-143">Ja</span><span class="sxs-lookup"><span data-stu-id="92a29-143">Yes</span></span></description>
+              <description><span data-ttu-id="92a29-144">Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst. Das Element wird im Lesebereich angezeigt.</span><span class="sxs-lookup"><span data-stu-id="92a29-144">The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane displays the item.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="92a29-145">0</span><span class="sxs-lookup"><span data-stu-id="92a29-145">0</span></span></description>
+              <description><span data-ttu-id="92a29-146">Nein</span><span class="sxs-lookup"><span data-stu-id="92a29-146">No</span></span></description>
+              <description><span data-ttu-id="92a29-147">Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-147">The item is added to the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="92a29-148">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="92a29-148">&gt;=1</span></span></description>
+              <description><span data-ttu-id="92a29-149">Ja</span><span class="sxs-lookup"><span data-stu-id="92a29-149">Yes</span></span></description>
+              <description><span data-ttu-id="92a29-150">Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst. Im Lesebereich ändert nicht das Element, das es wird angezeigt, wenn die Ansicht handelt es sich um eine Kalenderansicht, in diesem Fall Aufruf von <b>AddToSelection</b> zum Anzeigen eines anderen Elements im Lesebereich verursachen kann.</span><span class="sxs-lookup"><span data-stu-id="92a29-150">The item is added to the selection.<b>SelectionChange</b> fires.Reading Pane does not change the item it displays unless the view is a Calendar view, in which case, calling <b>AddToSelection</b> can cause the Reading Pane to display a different item.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="92a29-151">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="92a29-151">&gt;=1</span></span></description>
+              <description><span data-ttu-id="92a29-152">Nein</span><span class="sxs-lookup"><span data-stu-id="92a29-152">No</span></span></description>
+              <description><span data-ttu-id="92a29-153">Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-153">The item is added to the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="92a29-154">Wenn das angegebene Element bereits im aktiven Explorer ausgewählt ist, Aufruf von <b>AddToSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-154">If the specified item is already selected in the active explorer, calling <b>AddToSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</span></span></para>
+          <para><span data-ttu-id="92a29-155">Wenn Sie ein Element in einer Terminserie oder eine Aufgabe als Argument an die <b>AddToSelection</b> -Methode angeben, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> -Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="92a29-155">When you specify an item in a recurring appointment or task as an argument to the <b>AddToSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="92a29-156">Wenn Sie nicht die Wiederholungen erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, übergeben Sie eine Instanzvariable, die die Datenreihe Termins oder einer Aufgabe darstellt, und die <b>AddToSelection</b> -Methode der Datenreihe nicht das kontinuierlich ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-156">If you do not expand the recurrences and obtain an occurrence in the series, you pass an instance variable that represents the appointment or task series, and the <b>AddToSelection</b> method operates on the series instead of the occurrence.</span></span> </para>
+          <para><span data-ttu-id="92a29-157">Beachten Sie, dass Sie <b>AddToSelection</b> zum Hinzufügen von Elementen zu einer Auswahl verwenden können, aber Sie können nicht hinzufügen von unterhaltungskopfzeilen zu einer Auswahl.</span><span class="sxs-lookup"><span data-stu-id="92a29-157">Note that you can use <b>AddToSelection</b> to add items to a selection, but you cannot add conversation headers to a selection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -531,16 +320,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-117">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-117">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="44e3f-118">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-118">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-158">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="92a29-158">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="92a29-159">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-159">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -568,16 +348,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-119">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> Objekt bestehend aus eine oder mehrere Anlagen, die in der aktuellen Ansicht des Explorers ausgewählt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-119">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the current view of the explorer.</span>
-          </span>
-          <span data-ttu-id="44e3f-120">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-120">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-160">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> Objekt bestehend aus eine oder mehrere Anlagen, die in der aktuellen Ansicht des Explorers ausgewählt werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-160">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> object consisting of one or more attachments that are selected in the current view of the explorer.</span></span> <span data-ttu-id="92a29-161">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-161">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -605,16 +376,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-121">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Titel darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-121">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span>
-          </span>
-          <span data-ttu-id="44e3f-122">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-122">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-162">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Titel darstellt.</span><span class="sxs-lookup"><span data-stu-id="92a29-162">Returns a <b>String</b> (<b>string</b> in C#) representing the title.</span></span> <span data-ttu-id="92a29-163">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-163">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -642,16 +404,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-123">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-123">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="44e3f-124">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-124">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-164">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="92a29-164">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="92a29-165">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-165">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -677,26 +430,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-125">Lösch das Ergebnis einer Microsoft-Sofortsuche in einem <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Wenn Ergebnisse im <b>Explorer</b>angezeigt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-125">Clears results from a Microsoft Instant Search in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> if results are displayed in the <b>Explorer</b>.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-126">
-            <para>Die Funktionalität dieser Methode ist vergleichbar mit der Schaltfläche Löschen in der Sofortsuche.   </para>
-            <para>, Wenn keine Suchergebnisse, im Explorer <b>ClearSearch angezeigt werden</b> wird keine Aktion. Wenn die aktuelle Ansicht des <b>Explorer</b> keine Suche Ansicht angezeigt werden, <b>ClearSearch</b> nicht löst einen Fehler.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-126">
-              <para>The functionality of this  method is analogous  to the Clear button in Instant Search.   </para>
-              <para>If no search results are displayed in the Explorer, <b>ClearSearch</b> will not take any action. If the current view of the <b>Explorer</b> does not present a search view, <b>ClearSearch</b> will not raise an error.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="92a29-166">Lösch das Ergebnis einer Microsoft-Sofortsuche in einem <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Wenn Ergebnisse im <b>Explorer</b>angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-166">Clears results from a Microsoft Instant Search in an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> if results are displayed in the <b>Explorer</b>.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-167">Die Funktionalität dieser Methode entspricht der Schaltfläche Löschen in der Sofortsuche.</span><span class="sxs-lookup"><span data-stu-id="92a29-167">The functionality of this  method is analogous  to the Clear button in Instant Search.</span></span>   </para>
+          <para><span data-ttu-id="92a29-p115">Wenn keine Suchergebnisse im Explorer angezeigt werden, wird <b>ClearSearch</b> keine Aktion. Wenn die aktuelle Ansicht des <b>Explorer</b> eine Ansicht für die Suche nicht vorhanden ist, löst <b>ClearSearch</b> keinen Fehler.</span><span class="sxs-lookup"><span data-stu-id="92a29-p115">If no search results are displayed in the Explorer, <b>ClearSearch</b> will not take any action. If the current view of the <b>Explorer</b> does not present a search view, <b>ClearSearch</b> will not raise an error.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearSelection">
@@ -720,32 +457,14 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-127">Hebt jede Auswahl im aktiven Explorer auf.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-127">Cancels any selection in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-128">
-            <para>Nachdem die <b>ClearSelection</b> -Methode aufgerufen wird, die <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekts, das die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft gibt 0 (null) zurück. Anschließend kann die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird ausgelöst, wenn vor dem Aufruf von <b>ClearSelection</b>, die aktuelle Ansicht entweder keine Elemente enthält, der aktuelle Ordner leer ist oder die <b>Count</b> -Eigenschaft bereits 0 (null wurde). </para>
-            <para>Wenn im Lesebereich sichtbar ist und die aktuelle Ansicht eine Tabellenansicht ist, Aufruf von <b>ClearSelection</b> gerendert wird im Lesebereich leer.</para>
-            <para>, Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>ClearSelection</b> nicht zu einer Änderung der Auswahl und nicht zum Auslösen des <b>SelectionChange</b> -Ereignisses.</para>
-            <para>
-              <b>ClearSelection</b> gibt einen Fehler zurück, wenn das Element in der aktuellen Ansicht bearbeitet wird.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-128">
-              <para>After the <b>ClearSelection</b> method is called, the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property returns is zero. Then, the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires unless prior to calling of <b>ClearSelection</b>, the current view did not contain any items, the current folder was empty, or the <b>Count</b> property was already zero. </para>
-              <para>If the Reading Pane is visible and the current view is a table view, calling <b>ClearSelection</b> renders the Reading Pane blank.</para>
-              <para>If the current view or current folder does not contain any items, calling <b>ClearSelection</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
-              <para>
-                <b>ClearSelection</b> returns an error if the item is being edited in the current view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="92a29-170">Hebt jede Auswahl im aktiven Explorer auf.</span><span class="sxs-lookup"><span data-stu-id="92a29-170">Cancels any selection in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-171">Nachdem die <b>ClearSelection</b> -Methode aufgerufen wird, die <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekts, das die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft gibt 0 (null) zurück.</span><span class="sxs-lookup"><span data-stu-id="92a29-171">After the <b>ClearSelection</b> method is called, the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property returns is zero.</span></span> <span data-ttu-id="92a29-172">Anschließend kann die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird ausgelöst, wenn vor dem Aufruf von <b>ClearSelection</b>, die aktuelle Ansicht entweder keine Elemente enthält, der aktuelle Ordner leer ist oder die <b>Count</b> -Eigenschaft bereits 0 (null wurde).</span><span class="sxs-lookup"><span data-stu-id="92a29-172">Then, the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires unless prior to calling of <b>ClearSelection</b>, the current view did not contain any items, the current folder was empty, or the <b>Count</b> property was already zero.</span></span> </para>
+          <para><span data-ttu-id="92a29-173">Wenn im Lesebereich sichtbar ist und die aktuelle Ansicht eine Tabellenansicht ist, rendert das Aufruf von <b>ClearSelection</b> im Lesebereich leer.</span><span class="sxs-lookup"><span data-stu-id="92a29-173">If the Reading Pane is visible and the current view is a table view, calling <b>ClearSelection</b> renders the Reading Pane blank.</span></span></para>
+          <para><span data-ttu-id="92a29-p117">Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>ClearSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-p117">If the current view or current folder does not contain any items, calling <b>ClearSelection</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </span></span></para>
+          <para><span data-ttu-id="92a29-175">
+            <b>ClearSelection</b> gibt einen Fehler zurück, wenn das Element in der aktuellen Ansicht bearbeitet wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-175">
+            <b>ClearSelection</b> returns an error if the item is being edited in the current view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -769,12 +488,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-129">Schließt die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-129">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-176">Schließt die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="92a29-176">Closes the  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -804,12 +518,7 @@
         <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-130">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-130">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-177">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-177">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -840,29 +549,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-131">Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den aktuellen Ordner im Explorer angezeigten darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-131">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the current folder displayed in the explorer.</span>
-          </span>
-          <span data-ttu-id="44e3f-132">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-132">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-178">Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den aktuellen Ordner im Explorer angezeigten darstellt.</span><span class="sxs-lookup"><span data-stu-id="92a29-178">Returns or sets a <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />  object that represents the current folder displayed in the explorer.</span></span> <span data-ttu-id="92a29-179">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="92a29-179">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-133">
-            <para>Verwenden Sie diese Eigenschaft, um den Ordner zu ändern, die, den der Benutzer angezeigt wird.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-133">
-              <para>Use this property to change the folder the user is viewing.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="92a29-180">Verwenden Sie diese Eigenschaft, um den Ordner zu ändern, der für den Benutzer angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-180">Use this property to change the folder the user is viewing.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -891,23 +581,12 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-134">Gibt zurück oder legt diesen fest ein <b>Objekt</b> , das die aktuelle Ansicht darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-134">Returns or sets an <b>Object</b> representing the current view.</span>
-          </span>
-          <span data-ttu-id="44e3f-135">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-135">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-181">Gibt zurück oder legt diesen fest ein <b>Objekt</b> , das die aktuelle Ansicht darstellt.</span><span class="sxs-lookup"><span data-stu-id="92a29-181">Returns or sets an <b>Object</b> representing the current view.</span></span> <span data-ttu-id="92a29-182">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="92a29-182">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-136">
-            <para>Zum Abrufen einer <see cref="T:Microsoft.Office.Interop.Outlook.View" /> -Objekt für die Ansicht des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, verwenden Sie <b>Explorer.CurrentView</b> anstelle von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> von zurückgegebene Objekt <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-            <para>Müssen Sie einen Verweis auf das <b>View</b> -Objekt, das von <b>CurrentView</b> zurückgegebene, bevor Sie fortfahren, um es zu Zwecken verwenden speichern.</para>
-            <para>Ordnungsgemäß Zurücksetzen die aktuelle Ansicht, müssen Sie eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> und führen Sie dann eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. Das folgende Codebeispiel veranschaulicht die Reihenfolge der Aufrufe:</para>
-            <code>Sub ResetView()
+        <remarks><para><span data-ttu-id="92a29-183">Zum Abrufen einer <see cref="T:Microsoft.Office.Interop.Outlook.View" /> -Objekt für die Ansicht des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, verwenden Sie <b>Explorer.CurrentView</b> anstelle von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> von zurückgegebene Objekt <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span><span class="sxs-lookup"><span data-stu-id="92a29-183">To obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the view of the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer.CurrentView</b> instead of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object returned by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />.</span></span> </para>
+          <para><span data-ttu-id="92a29-184">Speichern Sie einen Verweis auf das <b>View</b> -Objekt, das von <b>CurrentView</b> zurückgegebene, bevor Sie fortfahren, um es zu Zwecken zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="92a29-184">You must save a reference to the <b>View</b> object returned by <b>CurrentView</b> before you proceed to use it for any purpose.</span></span></para>
+          <para><span data-ttu-id="92a29-185">Um die aktuelle Ansicht ordnungsgemäß zurückzusetzen, führen Sie eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> und führen Sie dann eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />.</span><span class="sxs-lookup"><span data-stu-id="92a29-185">To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />.</span></span> <span data-ttu-id="92a29-186">Die Reihenfolge der Aufrufe wird im folgenden Codebeispiel dargestellt:</span><span class="sxs-lookup"><span data-stu-id="92a29-186">The code sample below illustrates the order of the calls:</span></span></para>
+          <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
     Set v = Application.ActiveExplorer().CurrentView
@@ -915,7 +594,7 @@
     v.Reset
     v.Apply
 End Sub</code>
-            <code>private void ResetView()
+          <code>private void ResetView()
 {
     // Save a reference to the current view object    
     Outlook.View v = Application.ActiveExplorer().CurrentView 
@@ -925,37 +604,8 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-            <para>, wenn diese Eigenschaft festgelegt ist, zwei Ereignisse auftreten: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" /> tritt auf, bevor die Änderung der aktuellen Ansicht erfolgt und kann verwendet werden, um die Änderungen zu verwerfen und <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> erfolgt Nachdem die Änderung wirksam wird.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-136">
-              <para>To obtain a <see cref="T:Microsoft.Office.Interop.Outlook.View" /> object for the view of the current <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, use <b>Explorer.CurrentView</b> instead of the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> property of the current <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object returned by <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-              <para>You must save a reference to the <b>View</b> object returned by <b>CurrentView</b> before you proceed to use it for any purpose.</para>
-              <para>To properly reset the current view, you must do a <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> and then a <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. The code sample below illustrates the order of the calls:</para>
-              <code>Sub ResetView()
-    Dim v as Outlook.View
-    ' Save a reference to the current view object
-    Set v = Application.ActiveExplorer().CurrentView
-    ' Reset and then apply the current view
-    v.Reset
-    v.Apply
-End Sub</code>
-              <code>private void ResetView()
-{
-    // Save a reference to the current view object    
-    Outlook.View v = Application.ActiveExplorer().CurrentView 
-        as Outlook.View; 
-    
-    // Reset and then apply the current view
-    v.Reset();
-    v.Apply();
-}</code>
-              <para>When this property is set, two events occur: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />  occurs before the actual view change takes place and can be used to cancel the change and <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />  takes place after the change is effective.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para><span data-ttu-id="92a29-187">Wenn diese Eigenschaft festgelegt wird, treten zwei Ereignisse: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" /> tritt auf, bevor die Änderung der aktuellen Ansicht erfolgt und kann verwendet werden, um die Änderungen zu verwerfen und <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> erfolgt, nachdem die Änderung wirksam wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-187">When this property is set, two events occur: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" />  occurs before the actual view change takes place and can be used to cancel the change and <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" />  takes place after the change is effective.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeselectFolder">
@@ -985,12 +635,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="44e3f-137">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-137">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-188">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-188">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1015,26 +660,10 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-138">Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> -Objekt für den Ordner.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-138">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object for the folder.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-139">
-            <para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> -Methode.</para>
-            <para>, Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) mithilfe von Microsoft Outlook-Objektmodell zu öffnen, erhalten Sie in den Programmiersprachen C oder C++ den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-139">
-              <para>The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility. To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</para>
-              <para>If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="92a29-189">Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> -Objekt für den Ordner.</span><span class="sxs-lookup"><span data-stu-id="92a29-189">Displays a new <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object for the folder.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-190">Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-190">The <b>Display</b> method is supported for explorer and inspector windows for the sake of backward compatibility.</span></span> <span data-ttu-id="92a29-191">Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</span><span class="sxs-lookup"><span data-stu-id="92a29-191">To activate an explorer or inspector window, use the <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> method.</span></span></para>
+          <para><span data-ttu-id="92a29-p123">Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</span><span class="sxs-lookup"><span data-stu-id="92a29-p123">If you attempt to open an "unsafe" file system object (or "freedoc" file) by using the Microsoft Outlook object model, you receive the E_FAIL return code in the C or C++ programming languages. In Outlook 2000 and earlier, you could open an "unsafe" file system object by using the <b>Display</b> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -1063,16 +692,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-140">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Höhe (in Pixel) des Explorer-Fensters angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-140">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the explorer window.</span>
-          </span>
-          <span data-ttu-id="44e3f-141">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-141">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-194">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Höhe (in Pixel) des Explorer-Fensters angibt.</span><span class="sxs-lookup"><span data-stu-id="92a29-194">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the height (in pixels) of the explorer window.</span></span> <span data-ttu-id="92a29-195">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="92a29-195">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1100,25 +720,10 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-p112">Gibt ein <b>HTMLDocument</b> -Objekt, das das mit dem HTML-Dokument in der aktuellen Ansicht (sofern vorhanden) verknüpfte HTML-Objektmodell angibt. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-p112">Returns an <b>HTMLDocument</b> object that specifies the HTML object model associated with the HTML document in the current view (assuming one exists). Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-p125">Gibt ein <b>HTMLDocument</b> -Objekt, das das mit dem HTML-Dokument in der aktuellen Ansicht (sofern vorhanden) verknüpfte HTML-Objektmodell angibt. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-p125">Returns an <b>HTMLDocument</b> object that specifies the HTML object model associated with the HTML document in the current view (assuming one exists). Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-144">
-            <para>Diese Eigenschaft verwenden zu können, muss auf einen Ordner eine Ordnerhomepage verwenden werden, oder Sie können festlegen, die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt in einer Webseite.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-144">
-              <para>In order to use this property, a folder must be using a folder home page, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object to a Web page.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="92a29-198">Diese Eigenschaft verwenden zu können, muss auf einen Ordner eine Ordnerhomepage verwenden werden, oder Sie können festlegen, die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt in einer Webseite.</span><span class="sxs-lookup"><span data-stu-id="92a29-198">In order to use this property, a folder must be using a folder home page, or you can set the <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> object to a Web page.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsFolderSelected">
@@ -1148,12 +753,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="44e3f-145">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-199">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-199">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1181,40 +781,15 @@ End Sub</code>
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="44e3f-146">Das Element, das für die Auswahl in Frage kommt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-146">The item that is being considered for selection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44e3f-147">Gibt einen Wert zurück, der angibt, ob das angegebene Microsoft OutlookElement in der aktuellen Ansicht des aktiven Explorers ausgewählt werden kann.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-147">Returns a value that indicates whether the specified Microsoft Outlook item can be selected in the current view of the active explorer.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="44e3f-148">Gibt eine <see cref="T:System.Boolean" /> (<b>Bool</b> für c#)-Wert, der angibt, ob das angegebene Element in der aktuellen Ansicht ausgewählt werden kann.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-148">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the specified item can be selected in the current view.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="44e3f-149">
-            <para>Gibt <b>true,</b> Wenn das Element in der aktuellen Ansicht ausgewählt werden kann Andernfalls wird <b>False</b>zurückgegeben. </para>
-            <para>Die-Methode gibt <b>True</b> oder <b>False</b> zurück, je nachdem, ob das Element in der Ansicht ausgewählt ist. Es gibt nicht an, ob das Element in der Ansicht sichtbar ist. Wenn das Element in einer reduzierten Gruppe in der Ansicht enthalten ist, gibt die Methode <b>False</b>zurück. </para>
-            <para>Wenn Bearbeiten in der Zelle und für die aktuelle Ansicht für den aktiven Explorer eingeschaltet ist und wird ausgeführt auf das Element bearbeiten in der Zelle, die Methode <b>"false"</b>zurückgibt. Ist die aktuelle Ansicht einer Tabellenansicht, überprüfen Sie in der Zelle bearbeiten für die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Wenn die aktuelle Ansicht einer Kartenansicht ist, Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />-Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</para> Wenn Sie ein Element in einer Terminserie oder eine Aufgabe angeben, als Argument an die <b>IsItemSelectableInView</b> -Methode, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /><para><b>IsItemSelectableInView</b> -Methode löst einen Fehler aus, wenn die aktuelle Ansicht eine Unterhaltungsansicht ist.</para><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-149">
-              <para>Returns <b>True</b> if the item can be selected in the current view; otherwise returns <b>False</b>. </para>
-              <para>The method returns <b>True</b> or <b>False</b> depending on whether the item is selectable in the view. It does not indicate whether the item is visible in the view. If the item is contained within a collapsed group in the view, the method returns <b>False</b>. </para>
-              <para>If in-cell editing is turned on for the current view for the active explorer and in-cell editing is in progress on the item, the method returns <b>False</b>. If the current view is a table view, you can check for in-cell editing by using the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object. Similarly, if the current view is a card view, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />property of the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</para>
-              <para>When you specify an item in a recurring appointment or task as argument to the <b>IsItemSelectableInView</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>IsItemSelectableInView</b> method would be operating on the series instead of the occurrence. </para>
-              <para>The <b>IsItemSelectableInView</b> method raises an error if the current view is a conversation view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="92a29-200">Das Element, das für die Auswahl in Frage kommt.</span><span class="sxs-lookup"><span data-stu-id="92a29-200">The item that is being considered for selection.</span></span></param>
+        <summary><span data-ttu-id="92a29-201">Gibt einen Wert zurück, der angibt, ob das angegebene Microsoft OutlookElement in der aktuellen Ansicht des aktiven Explorers ausgewählt werden kann.</span><span class="sxs-lookup"><span data-stu-id="92a29-201">Returns a value that indicates whether the specified Microsoft Outlook item can be selected in the current view of the active explorer.</span></span></summary>
+        <returns><span data-ttu-id="92a29-202">Gibt eine <see cref="T:System.Boolean" /> (<b>Bool</b> für c#)-Wert, der angibt, ob das angegebene Element in der aktuellen Ansicht ausgewählt werden kann.</span><span class="sxs-lookup"><span data-stu-id="92a29-202">Returns a <see cref="T:System.Boolean" /> (<b>bool</b> for C#) value that indicates whether the specified item can be selected in the current view.</span></span></returns>
+        <remarks><para><span data-ttu-id="92a29-p126">Gibt <b>true,</b> Wenn das Element in der aktuellen Ansicht ausgewählt werden kann Andernfalls wird <b>False</b> zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="92a29-p126">Returns <b>True</b> if the item can be selected in the current view; otherwise returns <b>False</b>. </span></span></para>
+          <para><span data-ttu-id="92a29-p127">Die Methode gibt <b>True</b> oder <b>False</b> zurück, je nachdem, ob das Element in der Ansicht ausgewählt ist. Es gibt nicht an, ob das Element in der Ansicht sichtbar ist. Wenn das Element in einer reduzierten Gruppe in der Ansicht enthalten ist, gibt die Methode <b>False</b> zurück.</span><span class="sxs-lookup"><span data-stu-id="92a29-p127">The method returns <b>True</b> or <b>False</b> depending on whether the item is selectable in the view. It does not indicate whether the item is visible in the view. If the item is contained within a collapsed group in the view, the method returns <b>False</b>. </span></span></para>
+          <para><span data-ttu-id="92a29-207">Wenn Bearbeiten in der Zelle und für die aktuelle Ansicht für den aktiven Explorer eingeschaltet ist, und Bearbeiten in der Zelle für das Element ausgeführt wird, gibt die Methode <b>False</b> zurück.</span><span class="sxs-lookup"><span data-stu-id="92a29-207">If in-cell editing is turned on for the current view for the active explorer and in-cell editing is in progress on the item, the method returns <b>False</b>.</span></span> <span data-ttu-id="92a29-208">Ist die aktuelle Ansicht einer Tabellenansicht, überprüfen Sie in der Zelle bearbeiten für die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="92a29-208">If the current view is a table view, you can check for in-cell editing by using the <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> property of the <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> object.</span></span> <span data-ttu-id="92a29-209">Wenn die aktuelle Ansicht einer Kartenansicht ist, Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />-Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="92a29-209">Similarly, if the current view is a card view, you can use the <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />property of the <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> object.</span></span></para>
+          <para><span data-ttu-id="92a29-210">Wenn Sie ein Element in einer Terminserie oder eine Aufgabe als Argument an die <b>IsItemSelectableInView</b> -Methode angeben, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="92a29-210">When you specify an item in a recurring appointment or task as argument to the <b>IsItemSelectableInView</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="92a29-211">Wenn Sie nicht die Wiederholungen erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, würde übergeben eine Instanzvariable, die die Datenreihe Termins oder einer Aufgabe darstellt, und würde die <b>IsItemSelectableInView</b> -Methode auf die Datenreihe nicht das betrieben werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-211">If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>IsItemSelectableInView</b> method would be operating on the series instead of the occurrence.</span></span> </para>
+          <para><span data-ttu-id="92a29-212">Die <b>IsItemSelectableInView</b> -Methode erzeugt einen Fehler, wenn die aktuelle Ansicht eine Unterhaltungsansicht ist.</span><span class="sxs-lookup"><span data-stu-id="92a29-212">The <b>IsItemSelectableInView</b> method raises an error if the current view is a conversation view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsPaneVisible">
@@ -1240,38 +815,11 @@ End Sub</code>
         <Parameter Name="Pane" Type="Microsoft.Office.Interop.Outlook.OlPane" />
       </Parameters>
       <Docs>
-        <param name="Pane">
-          <span data-ttu-id="44e3f-150">Der zu aktivierende Bereich.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-150">The pane to check.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44e3f-151">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#), der angibt, ob ein bestimmtes Explorer-Fenster sichtbar ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-151">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating  whether a specific explorer pane is visible.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="44e3f-152">
-            <b>True,</b> Wenn der angegebene Bereich im Explorer angezeigt wird. anderenfalls <b>False</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-152">
-              <b>True</b> if the specified pane is displayed in the explorer; otherwise, <b>False</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="44e3f-153">
-            <para>Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekts, um festzustellen, ob der Bereich Verknüpfungen eingeblendet ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-153">
-              <para>You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to determine whether the Shortcuts pane is visible.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Pane"><span data-ttu-id="92a29-213">Der zu aktivierende Bereich.</span><span class="sxs-lookup"><span data-stu-id="92a29-213">The pane to check.</span></span></param>
+        <summary><span data-ttu-id="92a29-214">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#), der angibt, ob ein bestimmtes Explorer-Fenster sichtbar ist.</span><span class="sxs-lookup"><span data-stu-id="92a29-214">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating  whether a specific explorer pane is visible.</span></span></summary>
+        <returns><span data-ttu-id="92a29-215"><b>True,</b> Wenn der angegebene Bereich im Explorer angezeigt wird. anderenfalls <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="92a29-215"><b>True</b> if the specified pane is displayed in the explorer; otherwise, <b>False</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="92a29-216">Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekts, um festzustellen, ob der Bereich Verknüpfungen eingeblendet ist.</span><span class="sxs-lookup"><span data-stu-id="92a29-216">You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to determine whether the Shortcuts pane is visible.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -1300,16 +848,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-154">Gibt zurück oder legt diesen fest einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Position (in Pixel) des linken vertikalen Randes eines Explorer-Fensters vom Rand des Bildschirms angeben.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-154">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="44e3f-155">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-155">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-217">Gibt zurück oder legt diesen fest einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Position (in Pixel) des linken vertikalen Randes eines Explorer-Fensters vom Rand des Bildschirms angeben.</span><span class="sxs-lookup"><span data-stu-id="92a29-217">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen.</span></span> <span data-ttu-id="92a29-218">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="92a29-218">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1337,29 +876,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NavigationPane</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-156">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> -Objekt, das im Navigationsbereich für stellt eine <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-156">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object that represents the Navigation Pane for an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span>
-          </span>
-          <span data-ttu-id="44e3f-157">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-157">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-219">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> -Objekt, das im Navigationsbereich für stellt eine <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="92a29-219">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> object that represents the Navigation Pane for an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> object.</span></span> <span data-ttu-id="92a29-220">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-220">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-158">
-            <para>Einige <b>Explorer</b> -Objekten verfügen möglicherweise nicht über ein zugeordnetes <b>NavigationPane</b> -Objekt. In diesem Fall gibt diese Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#)</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-158">
-              <para>Some <b>Explorer</b> objects may not have an associated <b>NavigationPane</b> object. In such cases, this property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="92a29-221">Einige <b>Explorer</b> -Objekten verfügen möglicherweise nicht über ein zugeordnetes <b>NavigationPane</b> -Objekt.</span><span class="sxs-lookup"><span data-stu-id="92a29-221">Some <b>Explorer</b> objects may not have an associated <b>NavigationPane</b> object.</span></span> <span data-ttu-id="92a29-222">In diesem Fall gibt diese Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#)</span><span class="sxs-lookup"><span data-stu-id="92a29-222">In such cases, this property returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#)</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Panes">
@@ -1385,12 +905,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Panes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-159">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Panes" /> -Auflistungsobjekt zurück, die vom angegebenen Explorer angezeigten Fensterausschnitte darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-159">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Panes" />  collection object representing the panes displayed by the specified explorer.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-223">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Panes" /> -Auflistungsobjekt zurück, die vom angegebenen Explorer angezeigten Fensterausschnitte darstellt.</span><span class="sxs-lookup"><span data-stu-id="92a29-223">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Panes" />  collection object representing the panes displayed by the specified explorer.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1418,12 +933,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-p115">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-p115">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-p133">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-p133">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1451,117 +961,66 @@ End Sub</code>
         <Parameter Name="Item" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="44e3f-162">Das aus der Auswahl zu entfernende Element.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-162">The item to be removed from the selection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44e3f-163">Hebt die Auswahl des angegebenen Microsoft Outlook-Elements im aktiven Explorer.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-163">Cancels the selection of the specified Microsoft Outlook item in the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-164">
-            <para>Die Auswahl im aktiven Explorer wird durch dargestellt die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft.</para>
-            <para>Entfernt werden soll, muss ein Element in der aktuellen Ansicht des aktiven Explorers ausgewählt werden. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann. Das Element hat keinen in der Ansicht sichtbar sein. </para>
-            <para>Unter folgenden Umständen gibt Outlook einen Fehler beim Aufruf der <b>RemoveFromSelection</b> -Methode:</para>
-            <list type="bullet">
-              <item>
-                <para>das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</para>
-              </item>
-              <item>
-                <para>Das angegebene Element in der aktuellen Ansicht des aktiven Explorers bearbeitet wird.</para>
-              </item>
-              <item>
-                <para>Die aktuelle Ansicht wurde gefiltert, und die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</para>
-              </item>
-              <item>
-                <para>Das angegebene Element wurde nicht gespeichert.</para>
-              </item>
-              <item>
-                <para>Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
-              </item>
-              <item>
-                <para>Die aktuelle Ansicht ist eine Unterhaltungsansicht.</para>
-              </item>
-              <item>
-                <para>Für den aktiven Explorer ist keine aktuelle Ansicht vorhanden.</para>
-              </item>
-            </list>
-            <para>, Wenn das Element Aufrufen von <b>RemoveFromSelection</b> Ursachen ausgewählt ist, die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst. Wenn das Element nicht ausgewählt ist, Aufrufen von <b>RemoveFromSelection</b> nicht bewirkt, dass das <b>SelectionChange</b> -Ereignis ausgelöst.</para>
-            <para>Aufrufen von <b>RemoveFromSelection</b> nicht den Fensterinhalt, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht der Ansicht.</para>
-            <para>Der folgenden Tabelle veranschaulicht die Ergebnisse der aufrufenden <b>RemoveFromSelection</b>, Berücksichtigung der aktuellen Auswahl (der <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft), ob im Lesebereich angezeigt wird und ob das angegebene Element in angezeigt wird der Lesebereich.</para>
-            <description>Ja</description>,
-              <description>Ja</description><description>die Auswahl wird aufgehoben 
-          <list type="table"><item><description>1</description>.<b> SelectionChange</b> ausgelöst wird. Der Lesebereich ist leer. 
-            </item></list><item><description> &gt;1</description><description>Ja</description><description>No</description><description>das Element wird aus der Auswahl.<b> SelectionChange</b> ausgelöst wird. Im Lesebereich wird nicht geändert.</description></item><item><description> &gt;1</description><description>Ja</description>,
-              <description>Ja</description><description>das Element wird aus der Auswahl.<b> SelectionChange</b> ausgelöst wird. Der Lesebereich zeigt das nächste Element oder das benachbarte Element in der Auswahl.</description></item><item><description> &gt;= 1</description><description>No</description><description>n/v</description><description>das Element wird aus der Auswahl.<b> SelectionChange</b> löst.</description></item><para>Wenn das angegebene Element in der aktuellen Ansicht vorhanden ist, aber nicht ausgewählt ist, Ansicht Aufrufen von <b>RemoveFromSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</para> Wenn Sie ein Element in einer Terminserie oder eine Aufgabe angeben, wie ein Argument an die <b>RemoveFromSelection</b> -Methode, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /></description><para /></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-164">
-              <para>The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</para>
-              <para>To be removed, an item must be selectable in the current view of the active explorer. Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view. The item does not have to be visible in the view. </para>
-              <para>Under the following conditions, Outlook returns an error when you call the <b>RemoveFromSelection</b> method:</para>
-              <list type="bullet">
-                <item>
-                  <para>The specified item is not in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The specified item is being edited in the current view of the active explorer.</para>
-                </item>
-                <item>
-                  <para>The current view has been filtered and the application of the filter removed the item from the view.</para>
-                </item>
-                <item>
-                  <para>The specified item has not been saved.</para>
-                </item>
-                <item>
-                  <para>The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
-                </item>
-                <item>
-                  <para>The current view is a conversation view.</para>
-                </item>
-                <item>
-                  <para>No current view exists for the active explorer.</para>
-                </item>
-              </list>
-              <para>If the item is selected, calling <b>RemoveFromSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire. If the item is not selected, calling <b>RemoveFromSelection</b> will not cause the <b>SelectionChange</b> event to fire.</para>
-              <para>Calling <b>RemoveFromSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</para>
-              <para>The following table illustrates the results of calling <b>RemoveFromSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property), whether the Reading Pane is displayed, and whether the specified item is displayed in the Reading Pane.</para>
-              <list type="table">
-                <item>
-                  <description>1</description>
-                  <description>Yes</description>
-                  <description>Yes</description>
-                  <description>The selection is cleared.<b>SelectionChange</b> fires.Reading Pane is empty.</description>
-                </item>
-                <item>
-                  <description>&gt;1</description>
-                  <description>Yes</description>
-                  <description>No</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane does not change.</description>
-                </item>
-                <item>
-                  <description>&gt;1</description>
-                  <description>Yes</description>
-                  <description>Yes</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane displays the next item or adjacent item in the selection.</description>
-                </item>
-                <item>
-                  <description>&gt;=1</description>
-                  <description>No</description>
-                  <description>N/A</description>
-                  <description>The item is removed from the selection.<b>SelectionChange</b> fires.</description>
-                </item>
-              </list>
-              <para>If the specified item exists in the current view but is not selected in that view calling <b>RemoveFromSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</para>
-              <para>When you specify an item in a recurring appointment or task as an argument to the <b>RemoveFromSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection. If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>RemoveFromSelection</b> method would be operating on the series instead of the occurrence. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="92a29-226">Das aus der Auswahl zu entfernende Element.</span><span class="sxs-lookup"><span data-stu-id="92a29-226">The item to be removed from the selection.</span></span></param>
+        <summary><span data-ttu-id="92a29-227">Hebt die Auswahl des angegebenen Microsoft Outlook-Elements im aktiven Explorer.</span><span class="sxs-lookup"><span data-stu-id="92a29-227">Cancels the selection of the specified Microsoft Outlook item in the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-228">Die Auswahl im aktiven Explorer dargestellt, durch die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="92a29-228">The selection in the active explore is represented by the <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object that is returned by the <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> property.</span></span></para>
+          <para><span data-ttu-id="92a29-229">Um entfernt werden soll, muss ein Element in der aktuellen Ansicht des aktiven Explorers ausgewählt werden können.</span><span class="sxs-lookup"><span data-stu-id="92a29-229">To be removed, an item must be selectable in the current view of the active explorer.</span></span> <span data-ttu-id="92a29-230">Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann.</span><span class="sxs-lookup"><span data-stu-id="92a29-230">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> method to determine whether the item can be selected in the view.</span></span> <span data-ttu-id="92a29-231">Das Element muss in der Ansicht nicht sichtbar sein.</span><span class="sxs-lookup"><span data-stu-id="92a29-231">The item does not have to be visible in the view.</span></span> </para>
+          <para><span data-ttu-id="92a29-232">Unter den folgenden Umständen gibt Outlook beim Aufruf der <b>RemoveFromSelection</b> -Methode einen Fehler zurück:</span><span class="sxs-lookup"><span data-stu-id="92a29-232">Under the following conditions, Outlook returns an error when you call the <b>RemoveFromSelection</b> method:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="92a29-233">Das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</span><span class="sxs-lookup"><span data-stu-id="92a29-233">The specified item is not in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-234">Das angegebene Element wird in der aktuellen Ansicht des aktiven Explorers bearbeitet.</span><span class="sxs-lookup"><span data-stu-id="92a29-234">The specified item is being edited in the current view of the active explorer.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-235">Die aktuelle Ansicht wurde gefiltert, und durch die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</span><span class="sxs-lookup"><span data-stu-id="92a29-235">The current view has been filtered and the application of the filter removed the item from the view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-236">Das angegebene Element wurde nicht gespeichert.</span><span class="sxs-lookup"><span data-stu-id="92a29-236">The specified item has not been saved.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-237">Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span><span class="sxs-lookup"><span data-stu-id="92a29-237">The specified item represents a <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</span></span> </para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-238">Die aktuelle Ansicht ist eine Unterhaltungsansicht.</span><span class="sxs-lookup"><span data-stu-id="92a29-238">The current view is a conversation view.</span></span></para>
+            </item>
+            <item>
+              <para><span data-ttu-id="92a29-239">Für den aktiven Explorer ist keine aktuelle Ansicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="92a29-239">No current view exists for the active explorer.</span></span></para>
+            </item>
+          </list>
+          <para><span data-ttu-id="92a29-240">Wenn das Element ausgewählt ist, beim Aufrufen von <b>RemoveFromSelection</b> Ursachen der <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-240">If the item is selected, calling <b>RemoveFromSelection</b> causes the <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event to fire.</span></span> <span data-ttu-id="92a29-241">Wenn das Element nicht ausgewählt ist, wird durch Aufrufen von <b>RemoveFromSelection</b> das <b>SelectionChange</b> -Ereignis ausgelöst werden nicht verursacht.</span><span class="sxs-lookup"><span data-stu-id="92a29-241">If the item is not selected, calling <b>RemoveFromSelection</b> will not cause the <b>SelectionChange</b> event to fire.</span></span></para>
+          <para><span data-ttu-id="92a29-242">Aufrufen von <b>RemoveFromSelection</b> nicht den Fensterinhalt der Ansicht, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht.</span><span class="sxs-lookup"><span data-stu-id="92a29-242">Calling <b>RemoveFromSelection</b> does not scroll the view to make the selected item visible in the view and does not expand or collapse groups in the view.</span></span></para>
+          <para><span data-ttu-id="92a29-243">Die folgende Tabelle veranschaulicht die Ergebnisse der aufrufenden <b>RemoveFromSelection</b>, Berücksichtigung der aktuellen Auswahl (der <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft), ob im Lesebereich angezeigt wird und ob das angegebene Element in der Leseansicht angezeigt wird Bereich.</span><span class="sxs-lookup"><span data-stu-id="92a29-243">The following table illustrates the results of calling <b>RemoveFromSelection</b>, taking into consideration any current selection (the <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> property), whether the Reading Pane is displayed, and whether the specified item is displayed in the Reading Pane.</span></span></para>
+          <list type="table">
+            <item>
+              <description><span data-ttu-id="92a29-244">1</span><span class="sxs-lookup"><span data-stu-id="92a29-244">1</span></span></description>
+              <description><span data-ttu-id="92a29-245">Ja</span><span class="sxs-lookup"><span data-stu-id="92a29-245">Yes</span></span></description>
+              <description><span data-ttu-id="92a29-246">Ja</span><span class="sxs-lookup"><span data-stu-id="92a29-246">Yes</span></span></description>
+              <description><span data-ttu-id="92a29-247">Die Auswahl wird aufgehoben. <b>SelectionChange</b> wird ausgelöst. Der Lesebereich ist leer.</span><span class="sxs-lookup"><span data-stu-id="92a29-247">The selection is cleared.<b>SelectionChange</b> fires.Reading Pane is empty.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="92a29-248">&gt;1</span><span class="sxs-lookup"><span data-stu-id="92a29-248">&gt;1</span></span></description>
+              <description><span data-ttu-id="92a29-249">Ja</span><span class="sxs-lookup"><span data-stu-id="92a29-249">Yes</span></span></description>
+              <description><span data-ttu-id="92a29-250">Nein</span><span class="sxs-lookup"><span data-stu-id="92a29-250">No</span></span></description>
+              <description><span data-ttu-id="92a29-251">Das Element wurde aus der Auswahl entfernt. <b>SelectionChange</b> wird ausgelöst. Im Lesebereich wird nicht geändert.</span><span class="sxs-lookup"><span data-stu-id="92a29-251">The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane does not change.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="92a29-252">&gt;1</span><span class="sxs-lookup"><span data-stu-id="92a29-252">&gt;1</span></span></description>
+              <description><span data-ttu-id="92a29-253">Ja</span><span class="sxs-lookup"><span data-stu-id="92a29-253">Yes</span></span></description>
+              <description><span data-ttu-id="92a29-254">Ja</span><span class="sxs-lookup"><span data-stu-id="92a29-254">Yes</span></span></description>
+              <description><span data-ttu-id="92a29-255">Das Element wurde aus der Auswahl entfernt. <b>SelectionChange</b> wird ausgelöst. Im Lesebereich zeigt das nächste Element oder das benachbarte Element in der Auswahl an.</span><span class="sxs-lookup"><span data-stu-id="92a29-255">The item is removed from the selection.<b>SelectionChange</b> fires.Reading Pane displays the next item or adjacent item in the selection.</span></span></description>
+            </item>
+            <item>
+              <description><span data-ttu-id="92a29-256">&gt;= 1</span><span class="sxs-lookup"><span data-stu-id="92a29-256">&gt;=1</span></span></description>
+              <description><span data-ttu-id="92a29-257">Nein</span><span class="sxs-lookup"><span data-stu-id="92a29-257">No</span></span></description>
+              <description><span data-ttu-id="92a29-258">n/v</span><span class="sxs-lookup"><span data-stu-id="92a29-258">N/A</span></span></description>
+              <description><span data-ttu-id="92a29-259">Das Element wurde aus der Auswahl entfernt. <b>SelectionChange</b> wird ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-259">The item is removed from the selection.<b>SelectionChange</b> fires.</span></span></description>
+            </item>
+          </list>
+          <para><span data-ttu-id="92a29-260">Wenn das angegebene Element in der aktuellen Ansicht vorhanden ist, aber nicht aktiviert ist, Ansicht Aufrufen von <b>RemoveFromSelection</b> nicht führt wird jede Änderung an der Auswahl und das <b>SelectionChange</b> -Ereignis nicht ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-260">If the specified item exists in the current view but is not selected in that view calling <b>RemoveFromSelection</b> does not result in any change to the selection and the <b>SelectionChange</b> event does not fire.</span></span></para>
+          <para><span data-ttu-id="92a29-261">Wenn Sie ein Element in einer Terminserie oder eine Aufgabe als Argument an die <b>RemoveFromSelection</b> -Methode angeben, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="92a29-261">When you specify an item in a recurring appointment or task as an argument to the <b>RemoveFromSelection</b> method, make sure that before you pass the argument, you obtain an instance of the occurrence by first expanding the recurrences, using the <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> property and the <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> collection.</span></span> <span data-ttu-id="92a29-262">Wenn Sie keine Serie erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, würde übergeben eine Instanzvariable, die der Termin oder die Aufgabe Datenreihe darstellt und der <b>RemoveFromSelection</b> -Methode würde werden auf die Datenreihe anstatt der vorkommen.</span><span class="sxs-lookup"><span data-stu-id="92a29-262">If you do not expand the recurrences and obtain an occurrence in the series, you would be passing an instance variable that represents the appointment or task series, and the <b>RemoveFromSelection</b> method would be operating on the series instead of the occurrence.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Search">
@@ -1588,39 +1047,12 @@ End Sub</code>
         <Parameter Name="SearchScope" Type="Microsoft.Office.Interop.Outlook.OlSearchScope" />
       </Parameters>
       <Docs>
-        <param name="Query">
-          <span data-ttu-id="44e3f-165">Eine Suchzeichenfolge, die alle gültigen Schlüsselwörter enthalten kann, die in der Sofortsuche unterstützt werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-165">A search string that can contain any valid keywords supported in Instant Search.</span>
-          </span>
-        </param>
-        <param name="SearchScope">
-          <span data-ttu-id="44e3f-166">Gibt hinsichtlich der Ordner den Umfang für die Suche an.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-166">Specifies the scope in terms of folders for the search.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44e3f-167">Führt eine Microsoft-Sofortsuche auf dem aktuellen Ordner angezeigt, in der Explorer mit der angegebenen <paramref name="Query" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-167">Performs a Microsoft Instant Search on the current folder displayed in the Explorer using the given <paramref name="Query" />.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-168">
-            <para>Die Funktionalität des <b>Explorer.Search</b> entspricht der Schaltfläche "Suchen" in der Sofortsuche. Es verhält sich wie bei der Benutzer hat die Abfragezeichenfolge in der Benutzeroberfläche des Sofortsuche eingegeben und dann auf Suchen.  Beim Aufruf von <b>Suche</b>, wird die Abfrage in der Benutzeroberfläche ausgeführt, und es gibt keinen programmgesteuerten Mechanismus zum Abrufen der Ergebnisse der Suche. Weitere Informationen für die Sofortsuche, Abfragen für "Sofortsuche" in der Outlook-Hilfe.</para>
-            <para>
-              <b>Search</b> -Methode ermöglicht keinen Rückruf zum Aktivieren des Entwickler ermitteln, wann die Suche abgeschlossen ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-168">
-              <para>The functionality of <b>Explorer.Search</b> is analogous to the Search button in Instant Search. It behaves as if the user has typed the query string in the Instant Search user interface and then clicked Search.  When calling <b>Search</b>, the query is run in the user interface, and there is no programmatic mechanism to obtain the search results. For more information on Instant Search, query for "Instant Search" in the Outlook Help.</para>
-              <para>The <b>Search</b> method does not provide a callback to enable the developer to determine when the search is complete. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Query"><span data-ttu-id="92a29-263">Eine Suchzeichenfolge, die alle gültigen Schlüsselwörter enthalten kann, die in der Sofortsuche unterstützt werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-263">A search string that can contain any valid keywords supported in Instant Search.</span></span></param>
+        <param name="SearchScope"><span data-ttu-id="92a29-264">Gibt hinsichtlich der Ordner den Umfang für die Suche an.</span><span class="sxs-lookup"><span data-stu-id="92a29-264">Specifies the scope in terms of folders for the search.</span></span></param>
+        <summary><span data-ttu-id="92a29-265">Führt eine Microsoft-Sofortsuche auf dem aktuellen Ordner angezeigt, in der Explorer mit der angegebenen <paramref name="Query" />.</span><span class="sxs-lookup"><span data-stu-id="92a29-265">Performs a Microsoft Instant Search on the current folder displayed in the Explorer using the given <paramref name="Query" />.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-266">Die Funktionalität des <b>Explorer.Search</b> entspricht der Schaltfläche " Suchen " in der Sofortsuche.</span><span class="sxs-lookup"><span data-stu-id="92a29-266">The functionality of <b>Explorer.Search</b> is analogous to the Search button in Instant Search.</span></span> <span data-ttu-id="92a29-267">Es verhält sich wie bei der Benutzer hat die Abfragezeichenfolge in der Benutzeroberfläche des Sofortsuche eingegeben und dann auf Suchen.</span><span class="sxs-lookup"><span data-stu-id="92a29-267">It behaves as if the user has typed the query string in the Instant Search user interface and then clicked Search.</span></span>  <span data-ttu-id="92a29-268">Beim Aufruf von <b>Suche</b>, wird die Abfrage in der Benutzeroberfläche ausgeführt, und es gibt keinen programmgesteuerten Mechanismus zum Abrufen der Ergebnisse der Suche.</span><span class="sxs-lookup"><span data-stu-id="92a29-268">When calling <b>Search</b>, the query is run in the user interface, and there is no programmatic mechanism to obtain the search results.</span></span> <span data-ttu-id="92a29-269">Weitere Informationen zur Sofortsuche finden Sie Abfrage für "Sofortsuche" in der Outlook-Hilfe.</span><span class="sxs-lookup"><span data-stu-id="92a29-269">For more information on Instant Search, query for "Instant Search" in the Outlook Help.</span></span></para>
+          <para><span data-ttu-id="92a29-p139">Die <b>Search</b> -Methode bietet kein Rückrufs zur Behandlung der Entwickler zu bestimmen, wann die Suche abgeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="92a29-p139">The <b>Search</b> method does not provide a callback to enable the developer to determine when the search is complete. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectAllItems">
@@ -1644,34 +1076,15 @@ End Sub</code>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-169">Wählt alle Elemente aus, die in der aktuellen Ansicht des aktiven Explorers enthalten sind.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-169">Selects all items that are contained in the current view of the active explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-170">
-            <para>Wenn einer oder mehrerer Gruppen in der aktuellen Ansicht reduziert sind, wird Aufruf von <b>SelectAllItems</b> nicht Elemente in der reduzierten Gruppen auswählen. Nur Elemente im erweiterten Gruppen ausgewählt sind.</para>
-            <para>, Wenn die aktuelle Ansicht eine Kalenderansicht ist, wählt Aufruf von <b>SelectAllItems</b> alle Termine und ganztägige Ereignisse in der Ansicht. Aufruf von <b>SelectAllItems</b> in der Kalenderansicht nicht Elemente in der täglichen Aufgabenliste ausgewählt.</para>
-            <para>Der <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird nur einmal ausgelöst, nachdem die <b>SelectAllItems</b> -Methode aufgerufen wird.</para>
-            <para>, Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>SelectAllItems</b> nicht zu einer Änderung der Auswahl und nicht zum Auslösen des <b>SelectionChange</b> -Ereignisses.</para>
-            <para>
-              <b>SelectAllItems</b> löst einen Fehler aus, wenn das Element in der aktuellen Ansicht bearbeitet wird, oder die aktuelle Ansicht eine Unterhaltungsansicht ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-170">
-              <para>If one or more groups are collapsed in the current view, calling <b>SelectAllItems</b> does not select items in the collapsed groups. Only items in expanded groups are selected.</para>
-              <para>If the current view is a calendar view, calling <b>SelectAllItems</b> selects all appointments and all-day events in the view. Calling <b>SelectAllItems</b> on a calendar view does not select items in the Daily Task List.</para>
-              <para>The <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires only once after the <b>SelectAllItems</b> method is called.</para>
-              <para>If the current view or current folder does not contain any items, calling <b>SelectAllItems</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </para>
-              <para>
-                <b>SelectAllItems</b> raises an error if the item is being edited in the current view, or the current view is a conversation view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="92a29-271">Wählt alle Elemente aus, die in der aktuellen Ansicht des aktiven Explorers enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="92a29-271">Selects all items that are contained in the current view of the active explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-p140">Wenn einer oder mehrerer Gruppen in der aktuellen Ansicht reduziert sind, wird Aufruf von <b>SelectAllItems</b> nicht Elemente in der reduzierten Gruppen auswählen. Nur Elemente im erweiterten Gruppen ausgewählt sind.</span><span class="sxs-lookup"><span data-stu-id="92a29-p140">If one or more groups are collapsed in the current view, calling <b>SelectAllItems</b> does not select items in the collapsed groups. Only items in expanded groups are selected.</span></span></para>
+          <para><span data-ttu-id="92a29-p141">Wenn die aktuelle Ansicht eine Kalenderansicht ist, wählt Aufruf von <b>SelectAllItems</b> alle Termine und ganztägige Ereignisse, in der Ansicht. Aufruf von <b>SelectAllItems</b> in der Kalenderansicht, werden Elemente nicht in der täglichen Aufgabenliste auszuwählen.</span><span class="sxs-lookup"><span data-stu-id="92a29-p141">If the current view is a calendar view, calling <b>SelectAllItems</b> selects all appointments and all-day events in the view. Calling <b>SelectAllItems</b> on a calendar view does not select items in the Daily Task List.</span></span></para>
+          <para><span data-ttu-id="92a29-276">Die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird nur einmal ausgelöst, nachdem die <b>SelectAllItems</b> -Methode aufgerufen wird.</span><span class="sxs-lookup"><span data-stu-id="92a29-276">The <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> event fires only once after the <b>SelectAllItems</b> method is called.</span></span></para>
+          <para><span data-ttu-id="92a29-p142">Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>SelectAllItems</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</span><span class="sxs-lookup"><span data-stu-id="92a29-p142">If the current view or current folder does not contain any items, calling <b>SelectAllItems</b> does not result in any change to the selection and does not fire the <b>SelectionChange</b> event. </span></span></para>
+          <para><span data-ttu-id="92a29-278">
+            <b>SelectAllItems</b> löst einen Fehler aus, wenn das Element in der aktuellen Ansicht bearbeitet wird, oder die aktuelle Ansicht eine Unterhaltungsansicht ist.</span><span class="sxs-lookup"><span data-stu-id="92a29-278">
+            <b>SelectAllItems</b> raises an error if the item is being edited in the current view, or the current view is a conversation view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectFolder">
@@ -1701,12 +1114,7 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Folder">To be added.</param>
-        <summary>
-          <span data-ttu-id="44e3f-171">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-171">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-279">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-279">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1733,29 +1141,10 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.Selection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-172">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> Objekt bestehend aus einem oder mehreren Elementen in der aktuellen Ansicht ausgewählt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-172">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object consisting of one or more items selected in the current view.</span>
-          </span>
-          <span data-ttu-id="44e3f-173">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-173">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-280">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> Objekt bestehend aus einem oder mehreren Elementen in der aktuellen Ansicht ausgewählt.</span><span class="sxs-lookup"><span data-stu-id="92a29-280">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> object consisting of one or more items selected in the current view.</span></span> <span data-ttu-id="92a29-281">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-281">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-174">
-            <para>Wenn der aktuelle Ordner ein Ordner des Dateisystems ist oder wenn Outlook Heute oder ein beliebiger Ordner mit einer Webansicht derzeit angezeigt wird, gibt diese Eigenschaft eine leere Auflistung zurück. Wenn eine Gruppenkopfzeile ausgewählt ist, gibt die <b>Count</b> -Eigenschaft der Markierung 0 (null) zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-174">
-              <para>If the current folder is a file-system folder, or if Microsoft Outlook Today or any folder with a Web view is currently displayed, this property returns an empty collection. Also if a group header is selected, the <b>Count</b> property on the selection returns zero.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="92a29-282">Wenn der aktuelle Ordner ein Ordner des Dateisystems ist oder wenn Outlook Heute oder ein beliebiger Ordner mit einer Webansicht derzeit angezeigt wird, gibt diese Eigenschaft eine leere Auflistung zurück.</span><span class="sxs-lookup"><span data-stu-id="92a29-282">If the current folder is a file-system folder, or if Microsoft Outlook Today or any folder with a Web view is currently displayed, this property returns an empty collection.</span></span> <span data-ttu-id="92a29-283">Wenn eine Gruppenkopfzeile ausgewählt ist, gibt die <b>Count</b> -Eigenschaft der Markierung 0 (null) zurück.</span><span class="sxs-lookup"><span data-stu-id="92a29-283">Also if a group header is selected, the <b>Count</b> property on the selection returns zero.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1781,41 +1170,16 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-175">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-175">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="44e3f-176">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-176">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-284">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="92a29-284">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="92a29-285">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="92a29-285">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="44e3f-177">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="92a29-286">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="92a29-286">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="92a29-287">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="92a29-287">Both members serve the same purpose.</span></span> <span data-ttu-id="92a29-288">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="92a29-288">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-177">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowPane">
@@ -1842,40 +1206,13 @@ End Sub</code>
         <Parameter Name="Visible" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="Pane">
-          <span data-ttu-id="44e3f-178">Der anzuzeigende Bereich.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-178">The pane to display.</span>
-          </span>
-        </param>
-        <param name="Visible">
-          <span data-ttu-id="44e3f-179">
-            <b>True</b>, wenn das Fenster einzublenden, <b>False,</b> um das Fenster auszublenden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-179">
-              <b>True</b> to make the pane visible, <b>False</b> to hide the pane.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="44e3f-180">Blendet ein bestimmtes Fenster im Explorer ein oder aus.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-180">Displays or hides a specific pane in the explorer.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="44e3f-181">
-            <para>
-              <b>Hinweis</b>: Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekt ein-oder ausblenden im Verknüpfungsbereich.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-181">
-              <para>
-                <b>Note</b>: You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to display or hide the Shortcuts pane.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Pane"><span data-ttu-id="92a29-289">Der anzuzeigende Bereich.</span><span class="sxs-lookup"><span data-stu-id="92a29-289">The pane to display.</span></span></param>
+        <param name="Visible"><span data-ttu-id="92a29-290"><b>True</b>, wenn das Fenster einzublenden, <b>False,</b> um das Fenster auszublenden.</span><span class="sxs-lookup"><span data-stu-id="92a29-290"><b>True</b> to make the pane visible, <b>False</b> to hide the pane.</span></span></param>
+        <summary><span data-ttu-id="92a29-291">Blendet ein bestimmtes Fenster im Explorer ein oder aus.</span><span class="sxs-lookup"><span data-stu-id="92a29-291">Displays or hides a specific pane in the explorer.</span></span></summary>
+        <remarks><para><span data-ttu-id="92a29-292">
+            <b>Hinweis</b>: Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekt ein-oder ausblenden im Verknüpfungsbereich.</span><span class="sxs-lookup"><span data-stu-id="92a29-292">
+            <b>Note</b>: You can also use the <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" />  property of the <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" />  object to display or hide the Shortcuts pane.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">
@@ -1904,16 +1241,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-182">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Position (in Pixel) des oberen Rands horizontale eines Explorer-Fensters aus den Rand der Bildschirmanzeige angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-182">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen.</span>
-          </span>
-          <span data-ttu-id="44e3f-183">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-183">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-293">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Position (in Pixel) des oberen Rands horizontale eines Explorer-Fensters aus den Rand der Bildschirmanzeige angibt.</span><span class="sxs-lookup"><span data-stu-id="92a29-293">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen.</span></span> <span data-ttu-id="92a29-294">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="92a29-294">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1944,12 +1272,7 @@ End Sub</code>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-184">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-184">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-295">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="92a29-295">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1980,16 +1303,7 @@ End Sub</code>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-185">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Breite (in Pixel) des angegebenen Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-185">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span>
-          </span>
-          <span data-ttu-id="44e3f-186">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-186">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-296">Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Breite (in Pixel) des angegebenen Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="92a29-296">Returns or sets an <b>Integer</b> (<b>int</b> in C#) value indicating the width (in pixels) of the specified object.</span></span> <span data-ttu-id="92a29-297">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="92a29-297">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2020,16 +1334,7 @@ End Sub</code>
         <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="44e3f-187">Zurückgeben oder festlegen die Eigenschaft mit einer Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> -Enumeration, die den Fensterstatus eines Explorer- oder Inspektor-Fensters angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-187">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span>
-          </span>
-          <span data-ttu-id="44e3f-188">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="44e3f-188">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="92a29-298">Zurückgeben oder festlegen die Eigenschaft mit einer Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> -Enumeration, die den Fensterstatus eines Explorer- oder Inspektor-Fensters angibt.</span><span class="sxs-lookup"><span data-stu-id="92a29-298">Returns or sets the property with a constant in the  <see cref="T:Microsoft.Office.Interop.Outlook.OlWindowState" /> enumeration specifying the window state of an explorer or inspector window.</span></span> <span data-ttu-id="92a29-299">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="92a29-299">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
