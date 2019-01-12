@@ -1,13 +1,5 @@
 <Type Name="_OutlookBarPane" FullName="Microsoft.Office.Interop.Outlook._OutlookBarPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2923a9288732ec725b287e2a4c842456a050a185" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635552" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OutlookBarPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2923a9288732ec725b287e2a4c842456a050a185" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906730" /></Metadata><TypeSignature Language="C#" Value="public interface _OutlookBarPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OutlookBarPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OutlookBarPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OutlookBarPane" />
@@ -232,16 +224,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -272,12 +262,10 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die den sichtbaren Zustand des angegebenen Objekts angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>True,</b> um das Objekt anzuzeigen; <b>False</b> , wenn das Objekt auszublenden.</para>
-          <para>Können Sie auch die <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" /> Methode oder die <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" /> -Methode des ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> -Objekt, das dieser Wert festzulegen oder abzurufen.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>True,</b> um das Objekt anzuzeigen; <b>False</b>, wenn das Objekt auszublenden.</para>
+          <para>Sie können auch die <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" /> Methode oder die <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" /> -Methode des ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt, das dieser Wert festzulegen oder abzurufen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

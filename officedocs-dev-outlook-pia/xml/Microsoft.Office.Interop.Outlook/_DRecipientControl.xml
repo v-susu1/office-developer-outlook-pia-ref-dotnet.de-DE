@@ -1,13 +1,5 @@
 <Type Name="_DRecipientControl" FullName="Microsoft.Office.Interop.Outlook._DRecipientControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636349" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _DRecipientControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="91463f2529a6dfcee01b73552457d2058180496f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903083" /></Metadata><TypeSignature Language="C#" Value="public interface _DRecipientControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _DRecipientControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._DRecipientControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _DRecipientControl" />
@@ -30,10 +22,8 @@
   </Attributes>
   <Docs>
     <summary>Ein Steuerelement, das die Empfänger eines Outlook-Elements angezeigt.</summary>
-    <remarks>
-      <para>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese Schnittstelle Zugriff auf das Objekt und seine Member. Weitere Informationen zu diesen diese Schnittstelle finden Sie unter.</para>
-      <para />
-    </remarks>
+    <remarks><para>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese Schnittstelle Zugriff auf das Objekt und seine Member. Weitere Informationen zu diesen diese Schnittstelle finden Sie unter.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="BackColor">
@@ -64,10 +54,8 @@
       <Docs>
         <summary>Zurück oder legt eine <b>ganze Zahl</b> , die die Hintergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> , eine <b>ganze</b> Zahl ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> , eine <b>ganze</b> Zahl ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -98,10 +86,8 @@
       <Docs>
         <summary>Gibt an, oder ruft ein <b>Boolean</b> (<b>Bool</b> in c#), der angibt, ob das Steuerelement funktioniert zulässig ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -163,10 +149,8 @@
       <Docs>
         <summary>Zurück oder legt eine <b>ganze Zahl</b> , die die Vordergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> , eine <b>ganze</b> Zahl ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> , eine <b>ganze</b> Zahl ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadOnly">
@@ -197,11 +181,9 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angibt, ob die im Steuerelement angezeigte Empfänger nur angezeigt können und können nicht geändert werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> gibt an, dass das Steuerelement nur den Empfänger zeigt und Ändern der Empfänger nicht unterstützt. <b>False,</b> um anzugeben, dass das Steuerelement unterstützt sowohl anzeigen und Ändern der Empfänger.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SpecialEffect">
@@ -232,22 +214,20 @@
       <Docs>
         <summary>Dient zum Zurückgeben oder Festlegen eines Werts vom Typ <b>Integer</b>, der die grafische Darstellungsweise eines Objekts angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Einstellungen für <b>SpecialEffect</b> lauten:</para>
+        <remarks><para>Die Einstellungen für <b>SpecialEffect</b> sind:</para>
           <list type="table">
             <item>
               <description>0</description>
-              <description>Objekt erscheint flach und wird vom umgebenden Formular durch einen Rahmen, eine andere Farbe oder beides.</description>
+              <description>Objekt erscheint flach und wird vom umgebenden Formular durch einen Rahmen, eine andere Farbe oder beides abgehoben.</description>
             </item>
             <item>
               <description>2</description>
-              <description>Objekt hat oben und links einen Schatten und unten und rechts hervorgehoben. Das Steuerelement und dessen Rahmen wirken Graviert in das Formular, das sie enthält. Standardeinstellung für <b>_DRecipientControl</b>.</description>
+              <description>Objekt hat oben und links einen Schatten und unten und rechts hervorgehoben. Das Steuerelement und dessen Rahmen wirken Graviert in das Formular, das sie enthält. Die Standardeinstellung für <b>_DRecipientControl</b>.</description>
             </item>
           </list>
           <para>
             <b>SpecialEffect</b> verwendet die Systemfarben, um Rahmen zu definieren.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

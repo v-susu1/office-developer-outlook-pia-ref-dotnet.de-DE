@@ -1,13 +1,5 @@
 <Type Name="OutlookBarStorage" FullName="Microsoft.Office.Interop.Outlook.OutlookBarStorage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="043c8ecdd93490c3e8263146a82163cecdeb3921" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636018" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d13a6d2bb6e5b24337516ec0dbcf6227c9faa792" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905764" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarStorage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarStorage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarStorage" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarStorage" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Stellt den Speicherort für Objekte im Verknüpfungsbereich dar.</summary>
-    <remarks>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" /> -Eigenschaft des ein <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekts, um das <b>OutlookBarStorage</b> -Objekt für den Fensterausschnitt abzurufen.</para>
+    <remarks><para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Contents" /> -Eigenschaft des ein <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekts, um das <b>OutlookBarStorage</b> -Objekt für den Fensterausschnitt abzurufen.</para>
       <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarStorage.Groups" /> Eigenschaft zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarGroups" /> -Objekt für den Fensterausschnitt des Verknüpfungsbereichs.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -171,16 +161,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

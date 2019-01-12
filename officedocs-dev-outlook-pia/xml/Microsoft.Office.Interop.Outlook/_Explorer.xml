@@ -1,13 +1,5 @@
 <Type Name="_Explorer" FullName="Microsoft.Office.Interop.Outlook._Explorer">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635746" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Explorer" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="02e6b6bf31313c1005d6164751409bb9920fa9f9" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906191" /></Metadata><TypeSignature Language="C#" Value="public interface _Explorer" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Explorer" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Explorer" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Explorer" />
@@ -108,49 +100,47 @@
       <Docs>
         <summary>Gibt ein Elementobjekt, das aktive Inline-Antwort-Element im Lesebereich Explorer darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie können die meisten Eigenschaften und Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekts auf dieses Element. Sie können nicht die folgenden Methoden verwenden:</para>
+        <remarks><para>Sie können die meisten Eigenschaften und Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekts auf dieses Element. Sie können nicht die folgenden Methoden verwenden:</para>
           <list type="bullet">
             <item>
               <para>
-                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" /> Eigenschaft</para>
+                <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Actions" />Eigenschaft</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" /> Methode</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Close(Microsoft.Office.Interop.Outlook.OlInspectorClose)" />Methode</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" /> Methode</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Copy" />Methode</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" /> Methode</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Delete" />Methode</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" /> Methode</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Forward" />Methode</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" /> Methode</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Move(Microsoft.Office.Interop.Outlook.MAPIFolder)" />Methode</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" /> Methode </para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Reply" />Methode</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" /> Methode</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.ReplyAll" />Methode</para>
             </item>
             <item>
               <para>
-                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" /> Methode</para>
+                <see cref="M:Microsoft.Office.Interop.Outlook._MailItem.Send" />Methode</para>
             </item>
           </list>
           <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn keine inlineantwort im Lesebereich angezeigt wird.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInlineResponseWordEditor">
@@ -178,8 +168,7 @@
       <Docs>
         <summary>Gibt das Wort <see cref="T:Microsoft.Office.Interop.Word.Document" /> Objekt der aktiven inlineantwort, die im Explorer im Lesebereich angezeigt wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn keine inlineantwort im Lesebereich angezeigt wird. Das zurückgegebene Word- <b>Dokument</b> -Objekt ermöglicht den Zugriff auf die meisten der Word-Objektmodell mit Ausnahme der folgenden Elemente:</para>
+        <remarks><para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn keine inlineantwort im Lesebereich angezeigt wird. Das zurückgegebene Word- <b>Dokument</b> -Objekt ermöglicht den Zugriff auf die meisten der Word-Objektmodell mit Ausnahme der folgenden Elemente:</para>
           <list type="bullet">
             <item>
               <para>
@@ -217,8 +206,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddToSelection">
@@ -246,57 +234,58 @@
       <Docs>
         <param name="Item">Das Element, das der Auswahl im aktiven Explorer hinzugefügt werden soll.</param>
         <summary>Das angegebene Microsoft Outlook-Element hinzugefügt der Markierung im aktiven Explorer.</summary>
-        <remarks>
-          <para>Die Auswahl im aktiven Explorer wird durch dargestellt die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft.</para>
-          <para>Ausgewählt werden, das Element muss in der aktuellen Ansicht des aktiven Explorers ausgewählt werden. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann. Das Element hat keinen in der Ansicht sichtbar sein. </para>
-          <para>Unter folgenden Umständen gibt Outlook einen Fehler beim Aufruf der <b>AddToSelection</b> -Methode:</para>
+        <remarks><para>Die Auswahl im aktiven Explorer dargestellt, durch die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> Eigenschaft.</para>
+          <para>Damit es ausgewählt wird, muss das Element in der aktuellen Ansicht des aktuellen Explorers auswählbar sein. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann. Das Element muss in der Ansicht nicht sichtbar sein. </para>
+          <para>Unter den folgenden Umständen gibt Outlook beim Aufruf der <b>AddToSelection</b> -Methode einen Fehler zurück:</para>
           <list type="bullet">
             <item>
-              <para>das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</para>
+              <para>Das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</para>
             </item>
             <item>
-              <para>Das angegebene Element in der aktuellen Ansicht des aktiven Explorers bearbeitet wird.</para>
+              <para>Das angegebene Element wird in der aktuellen Ansicht des aktiven Explorers bearbeitet.</para>
             </item>
             <item>
-              <para>Die aktuelle Ansicht wurde gefiltert, und die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</para>
+              <para>Die aktuelle Ansicht wurde gefiltert, und durch die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</para>
             </item>
             <item>
               <para>Das angegebene Element wurde nicht gespeichert.</para>
             </item>
             <item>
-              <para>Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
+              <para>Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
             </item>
             <item>
               <para>Für den aktiven Explorer ist keine aktuelle Ansicht vorhanden.</para>
             </item>
           </list>
-          <para>Aufruf von <b>AddToSelection</b> Ursachen, wenn das Element nicht ausgewählt ist und in der aktuellen Ansicht ausgewählt ist, die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst.</para>
-          <para>Aufruf von <b>AddToSelection</b> nicht den Fensterinhalt, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht der Ansicht.</para>
+          <para>Wenn das Element nicht ausgewählt ist und in der aktuellen Ansicht ausgewählt ist, der Aufruf von <b>AddToSelection</b> Ursachen der <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst.</para>
+          <para>Aufruf von <b>AddToSelection</b> nicht den Fensterinhalt der Ansicht, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht.</para>
           <para>Die folgende Tabelle veranschaulicht die Ergebnisse der aufrufenden <b>AddToSelection</b>, Berücksichtigung der aktuellen Auswahl (der <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft) und gibt an, ob im Lesebereich angezeigt wird.</para>
           <list type="table">
             <item>
               <description>0</description>
               <description>Ja</description>
-              <description>das Element wird in der Auswahl<b> hinzugefügt. SelectionChange</b> ausgelöst wird. Das im Lesebereich angezeigt.</description>
+              <description>Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst. Das Element wird im Lesebereich angezeigt.</description>
             </item>
             <item>
               <description>0</description>
-              <description>No</description>
-              <description>das Element wird in der Auswahl<b> hinzugefügt. SelectionChange</b> löst.</description>
+              <description>Nein</description>
+              <description>Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst.</description>
             </item>
             <item>
-              <description> &gt;= 1</description>
+              <description>&gt;= 1</description>
               <description>Ja</description>
-              <description>wird das Element in der Auswahl<b> hinzugefügt SelectionChange</b> ausgelöst wird. Lesen der Bereich wird das Element angezeigt, wenn die Ansicht eine Kalenderansicht ist nicht geändert, in diesem Fall Aufruf von <b>AddToSelection</b> kann dazu führen, dass zum Anzeigen eines anderen Elements im Lesebereich.</description>
+              <description>Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst. Im Lesebereich ändert nicht das Element, das es wird angezeigt, wenn die Ansicht handelt es sich um eine Kalenderansicht, in diesem Fall Aufruf von <b>AddToSelection</b> zum Anzeigen eines anderen Elements im Lesebereich verursachen kann.</description>
             </item>
             <item>
-              <description> &gt;= 1</description>
-              <description>No</description>
-              <description>wird das Element in der Auswahl<b> hinzugefügt SelectionChange</b> löst.</description>
+              <description>&gt;= 1</description>
+              <description>Nein</description>
+              <description>Das Element wird die Markierung hinzugefügt. <b>SelectionChange</b> wird ausgelöst.</description>
             </item>
           </list>
-          <para>Wenn das angegebene Element bereits im aktiven Explorer ausgewählt ist, Aufruf von <b>AddToSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</para> Wenn Sie ein Element in einer Terminserie oder eine Aufgabe angeben, wie ein Argument an die <b>AddToSelection</b> -Methode, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten 
-          <para>die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung. Wenn Sie nicht die Wiederholungen erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, übergeben Sie eine Instanzvariable, die die Datenreihe Termins oder einer Aufgabe darstellt, und die <b>AddToSelection</b> -Methode der Datenreihe nicht das kontinuierlich ausgeführt wird. </para><para>Beachten Sie, dass <b>AddToSelection</b> zum Hinzufügen von Elementen zu einer Auswahl können, aber Sie nicht von unterhaltungskopfzeilen zu einer Auswahl hinzufügen können.</para><para /></remarks>
+          <para>Wenn das angegebene Element bereits im aktiven Explorer ausgewählt ist, Aufruf von <b>AddToSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</para>
+          <para>Wenn Sie ein Element in einer Terminserie oder eine Aufgabe als Argument an die <b>AddToSelection</b> -Methode angeben, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> -Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung. Wenn Sie nicht die Wiederholungen erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, übergeben Sie eine Instanzvariable, die die Datenreihe Termins oder einer Aufgabe darstellt, und die <b>AddToSelection</b> -Methode der Datenreihe nicht das kontinuierlich ausgeführt wird. </para>
+          <para>Beachten Sie, dass Sie <b>AddToSelection</b> zum Hinzufügen von Elementen zu einer Auswahl verwenden können, aber Sie können nicht hinzufügen von unterhaltungskopfzeilen zu einer Auswahl.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -433,11 +422,9 @@
       <Parameters />
       <Docs>
         <summary>Lösch das Ergebnis einer Microsoft-Sofortsuche in einem <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Wenn Ergebnisse im <b>Explorer</b>angezeigt werden.</summary>
-        <remarks>
-          <para>Die Funktionalität dieser Methode ist vergleichbar mit der Schaltfläche Löschen in der Sofortsuche.   </para>
-          <para>, Wenn keine Suchergebnisse, im Explorer <b>ClearSearch angezeigt werden</b> wird keine Aktion. Wenn die aktuelle Ansicht des <b>Explorer</b> keine Suche Ansicht angezeigt werden, <b>ClearSearch</b> nicht löst einen Fehler.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Funktionalität dieser Methode entspricht der Schaltfläche Löschen in der Sofortsuche.   </para>
+          <para>Wenn keine Suchergebnisse im Explorer angezeigt werden, wird <b>ClearSearch</b> keine Aktion. Wenn die aktuelle Ansicht des <b>Explorer</b> eine Ansicht für die Suche nicht vorhanden ist, löst <b>ClearSearch</b> keinen Fehler.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearSelection">
@@ -462,14 +449,12 @@
       <Parameters />
       <Docs>
         <summary>Hebt jede Auswahl im aktiven Explorer auf.</summary>
-        <remarks>
-          <para>Nachdem die <b>ClearSelection</b> -Methode aufgerufen wird, die <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekts, das die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft gibt 0 (null) zurück. Anschließend kann die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird ausgelöst, wenn vor dem Aufruf von <b>ClearSelection</b>, die aktuelle Ansicht entweder keine Elemente enthält, der aktuelle Ordner leer ist oder die <b>Count</b> -Eigenschaft bereits 0 (null wurde). </para>
-          <para>Wenn im Lesebereich sichtbar ist und die aktuelle Ansicht eine Tabellenansicht ist, Aufruf von <b>ClearSelection</b> gerendert wird im Lesebereich leer.</para>
-          <para>, Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>ClearSelection</b> nicht zu einer Änderung der Auswahl und nicht zum Auslösen des <b>SelectionChange</b> -Ereignisses.</para>
+        <remarks><para>Nachdem die <b>ClearSelection</b> -Methode aufgerufen wird, die <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekts, das die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft gibt 0 (null) zurück. Anschließend kann die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird ausgelöst, wenn vor dem Aufruf von <b>ClearSelection</b>, die aktuelle Ansicht entweder keine Elemente enthält, der aktuelle Ordner leer ist oder die <b>Count</b> -Eigenschaft bereits 0 (null wurde). </para>
+          <para>Wenn im Lesebereich sichtbar ist und die aktuelle Ansicht eine Tabellenansicht ist, rendert das Aufruf von <b>ClearSelection</b> im Lesebereich leer.</para>
+          <para>Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>ClearSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</para>
           <para>
             <b>ClearSelection</b> gibt einen Fehler zurück, wenn das Element in der aktuellen Ansicht bearbeitet wird.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -556,10 +541,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den aktuellen Ordner im Explorer angezeigten darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie diese Eigenschaft, um den Ordner zu ändern, die, den der Benutzer angezeigt wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie diese Eigenschaft, um den Ordner zu ändern, der für den Benutzer angezeigt wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentView">
@@ -590,10 +573,9 @@
       <Docs>
         <summary>Gibt zurück oder legt diesen fest ein <b>Objekt</b> , das die aktuelle Ansicht darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Zum Abrufen einer <see cref="T:Microsoft.Office.Interop.Outlook.View" /> -Objekt für die Ansicht des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, verwenden Sie <b>Explorer.CurrentView</b> anstelle von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> von zurückgegebene Objekt <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
-          <para>Müssen Sie einen Verweis auf das <b>View</b> -Objekt, das von <b>CurrentView</b> zurückgegebene, bevor Sie fortfahren, um es zu Zwecken verwenden speichern.</para>
-          <para>Ordnungsgemäß Zurücksetzen die aktuelle Ansicht, müssen Sie eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> und führen Sie dann eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. Das folgende Codebeispiel veranschaulicht die Reihenfolge der Aufrufe:</para>
+        <remarks><para>Zum Abrufen einer <see cref="T:Microsoft.Office.Interop.Outlook.View" /> -Objekt für die Ansicht des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />, verwenden Sie <b>Explorer.CurrentView</b> anstelle von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> von zurückgegebene Objekt <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" />. </para>
+          <para>Speichern Sie einen Verweis auf das <b>View</b> -Objekt, das von <b>CurrentView</b> zurückgegebene, bevor Sie fortfahren, um es zu Zwecken zu verwenden.</para>
+          <para>Um die aktuelle Ansicht ordnungsgemäß zurückzusetzen, führen Sie eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> und führen Sie dann eine <see cref="M:Microsoft.Office.Interop.Outlook.View.Apply" />. Die Reihenfolge der Aufrufe wird im folgenden Codebeispiel dargestellt:</para>
           <code>Sub ResetView()
     Dim v as Outlook.View
     ' Save a reference to the current view object
@@ -612,9 +594,8 @@ End Sub</code>
     v.Reset();
     v.Apply();
 }</code>
-          <para>, wenn diese Eigenschaft festgelegt ist, zwei Ereignisse auftreten: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" /> tritt auf, bevor die Änderung der aktuellen Ansicht erfolgt und kann verwendet werden, um die Änderungen zu verwerfen und <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> erfolgt Nachdem die Änderung wirksam wird.</para>
-          <para />
-        </remarks>
+          <para>Wenn diese Eigenschaft festgelegt wird, treten zwei Ereignisse: <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch" /> tritt auf, bevor die Änderung der aktuellen Ansicht erfolgt und kann verwendet werden, um die Änderungen zu verwerfen und <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch" /> erfolgt, nachdem die Änderung wirksam wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeselectFolder">
@@ -670,11 +651,9 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> -Objekt für den Ordner.</summary>
-        <remarks>
-          <para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> -Methode.</para>
-          <para>, Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) mithilfe von Microsoft Outlook-Objektmodell zu öffnen, erhalten Sie in den Programmiersprachen C oder C++ den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</para>
+          <para>Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Height">
@@ -733,10 +712,8 @@ End Sub</code>
       <Docs>
         <summary>Gibt ein <b>HTMLDocument</b> -Objekt, das das mit dem HTML-Dokument in der aktuellen Ansicht (sofern vorhanden) verknüpfte HTML-Objektmodell angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft verwenden zu können, muss auf einen Ordner eine Ordnerhomepage verwenden werden, oder Sie können festlegen, die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt in einer Webseite.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft verwenden zu können, muss auf einen Ordner eine Ordnerhomepage verwenden werden, oder Sie können festlegen, die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.WebViewURL" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt in einer Webseite.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsFolderSelected">
@@ -797,10 +774,12 @@ End Sub</code>
         <param name="Item">Das Element, das für die Auswahl in Frage kommt.</param>
         <summary>Gibt einen Wert zurück, der angibt, ob das angegebene Microsoft OutlookElement in der aktuellen Ansicht des aktiven Explorers ausgewählt werden kann.</summary>
         <returns>Gibt eine <see cref="T:System.Boolean" /> (<b>Bool</b> für c#)-Wert, der angibt, ob das angegebene Element in der aktuellen Ansicht ausgewählt werden kann.</returns>
-        <remarks>
-          <para>Gibt <b>true,</b> Wenn das Element in der aktuellen Ansicht ausgewählt werden kann Andernfalls wird <b>False</b>zurückgegeben. </para>
-          <para>Die-Methode gibt <b>True</b> oder <b>False</b> zurück, je nachdem, ob das Element in der Ansicht ausgewählt ist. Es gibt nicht an, ob das Element in der Ansicht sichtbar ist. Wenn das Element in einer reduzierten Gruppe in der Ansicht enthalten ist, gibt die Methode <b>False</b>zurück. </para>
-          <para>Wenn Bearbeiten in der Zelle und für die aktuelle Ansicht für den aktiven Explorer eingeschaltet ist und wird ausgeführt auf das Element bearbeiten in der Zelle, die Methode <b>"false"</b>zurückgibt. Ist die aktuelle Ansicht einer Tabellenansicht, überprüfen Sie in der Zelle bearbeiten für die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Wenn die aktuelle Ansicht einer Kartenansicht ist, Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />-Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</para> Wenn Sie ein Element in einer Terminserie oder eine Aufgabe angeben, als Argument an die <b>IsItemSelectableInView</b> -Methode, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /><para><b>IsItemSelectableInView</b> -Methode löst einen Fehler aus, wenn die aktuelle Ansicht eine Unterhaltungsansicht ist.</para><para /></remarks>
+        <remarks><para>Gibt <b>true,</b> Wenn das Element in der aktuellen Ansicht ausgewählt werden kann Andernfalls wird <b>False</b> zurückgegeben.</para>
+          <para>Die Methode gibt <b>True</b> oder <b>False</b> zurück, je nachdem, ob das Element in der Ansicht ausgewählt ist. Es gibt nicht an, ob das Element in der Ansicht sichtbar ist. Wenn das Element in einer reduzierten Gruppe in der Ansicht enthalten ist, gibt die Methode <b>False</b> zurück.</para>
+          <para>Wenn Bearbeiten in der Zelle und für die aktuelle Ansicht für den aktiven Explorer eingeschaltet ist, und Bearbeiten in der Zelle für das Element ausgeführt wird, gibt die Methode <b>False</b> zurück. Ist die aktuelle Ansicht einer Tabellenansicht, überprüfen Sie in der Zelle bearbeiten für die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Wenn die aktuelle Ansicht einer Kartenansicht ist, Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._CardView.AllowInCellEditing" />-Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt.</para>
+          <para>Wenn Sie ein Element in einer Terminserie oder eine Aufgabe als Argument an die <b>IsItemSelectableInView</b> -Methode angeben, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung. Wenn Sie nicht die Wiederholungen erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, würde übergeben eine Instanzvariable, die die Datenreihe Termins oder einer Aufgabe darstellt, und würde die <b>IsItemSelectableInView</b> -Methode auf die Datenreihe nicht das betrieben werden. </para>
+          <para>Die <b>IsItemSelectableInView</b> -Methode erzeugt einen Fehler, wenn die aktuelle Ansicht eine Unterhaltungsansicht ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsPaneVisible">
@@ -828,12 +807,9 @@ End Sub</code>
       <Docs>
         <param name="Pane">Der zu aktivierende Bereich.</param>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#), der angibt, ob ein bestimmtes Explorer-Fenster sichtbar ist.</summary>
-        <returns>
-          <b>True,</b> Wenn der angegebene Bereich im Explorer angezeigt wird. anderenfalls <b>False</b>.</returns>
-        <remarks>
-          <para>Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekts, um festzustellen, ob der Bereich Verknüpfungen eingeblendet ist.</para>
-          <para />
-        </remarks>
+        <returns><b>True,</b> Wenn der angegebene Bereich im Explorer angezeigt wird. anderenfalls <b>False</b>.</returns>
+        <remarks><para>Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekts, um festzustellen, ob der Bereich Verknüpfungen eingeblendet ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Left">
@@ -892,10 +868,8 @@ End Sub</code>
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> -Objekt, das im Navigationsbereich für stellt eine <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Einige <b>Explorer</b> -Objekten verfügen möglicherweise nicht über ein zugeordnetes <b>NavigationPane</b> -Objekt. In diesem Fall gibt diese Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#)</para>
-          <para />
-        </remarks>
+        <remarks><para>Einige <b>Explorer</b> -Objekten verfügen möglicherweise nicht über ein zugeordnetes <b>NavigationPane</b> -Objekt. In diesem Fall gibt diese Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#)</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Panes">
@@ -979,25 +953,24 @@ End Sub</code>
       <Docs>
         <param name="Item">Das aus der Auswahl zu entfernende Element.</param>
         <summary>Hebt die Auswahl des angegebenen Microsoft Outlook-Elements im aktiven Explorer.</summary>
-        <remarks>
-          <para>Die Auswahl im aktiven Explorer wird durch dargestellt die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> -Eigenschaft.</para>
-          <para>Entfernt werden soll, muss ein Element in der aktuellen Ansicht des aktiven Explorers ausgewählt werden. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann. Das Element hat keinen in der Ansicht sichtbar sein. </para>
-          <para>Unter folgenden Umständen gibt Outlook einen Fehler beim Aufruf der <b>RemoveFromSelection</b> -Methode:</para>
+        <remarks><para>Die Auswahl im aktiven Explorer dargestellt, durch die <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> -Objekt, das von zurückgegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.Selection" /> Eigenschaft.</para>
+          <para>Um entfernt werden soll, muss ein Element in der aktuellen Ansicht des aktiven Explorers ausgewählt werden können. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)" /> -Methode, um zu bestimmen, ob das Element in der Ansicht ausgewählt werden kann. Das Element muss in der Ansicht nicht sichtbar sein. </para>
+          <para>Unter den folgenden Umständen gibt Outlook beim Aufruf der <b>RemoveFromSelection</b> -Methode einen Fehler zurück:</para>
           <list type="bullet">
             <item>
-              <para>das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</para>
+              <para>Das angegebene Element befindet sich nicht in der aktuellen Ansicht des aktiven Explorers.</para>
             </item>
             <item>
-              <para>Das angegebene Element in der aktuellen Ansicht des aktiven Explorers bearbeitet wird.</para>
+              <para>Das angegebene Element wird in der aktuellen Ansicht des aktiven Explorers bearbeitet.</para>
             </item>
             <item>
-              <para>Die aktuelle Ansicht wurde gefiltert, und die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</para>
+              <para>Die aktuelle Ansicht wurde gefiltert, und durch die Anwendung des Filters wurde das Element aus der Ansicht entfernt.</para>
             </item>
             <item>
               <para>Das angegebene Element wurde nicht gespeichert.</para>
             </item>
             <item>
-              <para>Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />.</para>
+              <para>Das angegebene Element stellt ein <see cref="T:Microsoft.Office.Interop.Outlook.StorageItem" />. </para>
             </item>
             <item>
               <para>Die aktuelle Ansicht ist eine Unterhaltungsansicht.</para>
@@ -1006,14 +979,38 @@ End Sub</code>
               <para>Für den aktiven Explorer ist keine aktuelle Ansicht vorhanden.</para>
             </item>
           </list>
-          <para>, Wenn das Element Aufrufen von <b>RemoveFromSelection</b> Ursachen ausgewählt ist, die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst. Wenn das Element nicht ausgewählt ist, Aufrufen von <b>RemoveFromSelection</b> nicht bewirkt, dass das <b>SelectionChange</b> -Ereignis ausgelöst.</para>
-          <para>Aufrufen von <b>RemoveFromSelection</b> nicht den Fensterinhalt, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht der Ansicht.</para>
-          <para>Der folgenden Tabelle veranschaulicht die Ergebnisse der aufrufenden <b>RemoveFromSelection</b>, Berücksichtigung der aktuellen Auswahl (der <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft), ob im Lesebereich angezeigt wird und ob das angegebene Element in angezeigt wird der Lesebereich.</para>
-          <description>Ja</description>,
-              <description>Ja</description><description>die Auswahl wird aufgehoben 
-          <list type="table"><item><description>1</description>.<b> SelectionChange</b> ausgelöst wird. Der Lesebereich ist leer. 
-            </item></list><item><description> &gt;1</description><description>Ja</description><description>No</description><description>das Element wird aus der Auswahl.<b> SelectionChange</b> ausgelöst wird. Im Lesebereich wird nicht geändert.</description></item><item><description> &gt;1</description><description>Ja</description>,
-              <description>Ja</description><description>das Element wird aus der Auswahl.<b> SelectionChange</b> ausgelöst wird. Der Lesebereich zeigt das nächste Element oder das benachbarte Element in der Auswahl.</description></item><item><description> &gt;= 1</description><description>No</description><description>n/v</description><description>das Element wird aus der Auswahl.<b> SelectionChange</b> löst.</description></item><para>Wenn das angegebene Element in der aktuellen Ansicht vorhanden ist, aber nicht ausgewählt ist, Ansicht Aufrufen von <b>RemoveFromSelection</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</para> Wenn Sie ein Element in einer Terminserie oder eine Aufgabe angeben, wie ein Argument an die <b>RemoveFromSelection</b> -Methode, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /></description><para /></remarks>
+          <para>Wenn das Element ausgewählt ist, beim Aufrufen von <b>RemoveFromSelection</b> Ursachen der <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis ausgelöst. Wenn das Element nicht ausgewählt ist, wird durch Aufrufen von <b>RemoveFromSelection</b> das <b>SelectionChange</b> -Ereignis ausgelöst werden nicht verursacht.</para>
+          <para>Aufrufen von <b>RemoveFromSelection</b> nicht den Fensterinhalt der Ansicht, um das ausgewählte Element in der Ansicht sichtbar zu machen und erweitert oder reduziert keine Gruppen in der Ansicht.</para>
+          <para>Die folgende Tabelle veranschaulicht die Ergebnisse der aufrufenden <b>RemoveFromSelection</b>, Berücksichtigung der aktuellen Auswahl (der <see cref="P:Microsoft.Office.Interop.Outlook.Selection.Count" /> -Eigenschaft), ob im Lesebereich angezeigt wird und ob das angegebene Element in der Leseansicht angezeigt wird Bereich.</para>
+          <list type="table">
+            <item>
+              <description>1</description>
+              <description>Ja</description>
+              <description>Ja</description>
+              <description>Die Auswahl wird aufgehoben. <b>SelectionChange</b> wird ausgelöst. Der Lesebereich ist leer.</description>
+            </item>
+            <item>
+              <description>&gt;1</description>
+              <description>Ja</description>
+              <description>Nein</description>
+              <description>Das Element wurde aus der Auswahl entfernt. <b>SelectionChange</b> wird ausgelöst. Im Lesebereich wird nicht geändert.</description>
+            </item>
+            <item>
+              <description>&gt;1</description>
+              <description>Ja</description>
+              <description>Ja</description>
+              <description>Das Element wurde aus der Auswahl entfernt. <b>SelectionChange</b> wird ausgelöst. Im Lesebereich zeigt das nächste Element oder das benachbarte Element in der Auswahl an.</description>
+            </item>
+            <item>
+              <description>&gt;= 1</description>
+              <description>Nein</description>
+              <description>n/v</description>
+              <description>Das Element wurde aus der Auswahl entfernt. <b>SelectionChange</b> wird ausgelöst.</description>
+            </item>
+          </list>
+          <para>Wenn das angegebene Element in der aktuellen Ansicht vorhanden ist, aber nicht aktiviert ist, Ansicht Aufrufen von <b>RemoveFromSelection</b> nicht führt wird jede Änderung an der Auswahl und das <b>SelectionChange</b> -Ereignis nicht ausgelöst.</para>
+          <para>Wenn Sie ein Element in einer Terminserie oder eine Aufgabe als Argument an die <b>RemoveFromSelection</b> -Methode angeben, stellen Sie sicher, bevor Sie das Argument übergeben, Sie eine Instanz des Vorkommens durch das Erweitern von der Wiederholungen mit erhalten die <see cref="P:Microsoft.Office.Interop.Outlook._Items.IncludeRecurrences" /> Eigenschaft und die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung. Wenn Sie keine Serie erweitern und das auftreten ein Serientermins in der Datenreihe zu erhalten, würde übergeben eine Instanzvariable, die der Termin oder die Aufgabe Datenreihe darstellt und der <b>RemoveFromSelection</b> -Methode würde werden auf die Datenreihe anstatt der vorkommen. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Search">
@@ -1043,12 +1040,9 @@ End Sub</code>
         <param name="Query">Eine Suchzeichenfolge, die alle gültigen Schlüsselwörter enthalten kann, die in der Sofortsuche unterstützt werden.</param>
         <param name="SearchScope">Gibt hinsichtlich der Ordner den Umfang für die Suche an.</param>
         <summary>Führt eine Microsoft-Sofortsuche auf dem aktuellen Ordner angezeigt, in der Explorer mit der angegebenen <paramref name="Query" />.</summary>
-        <remarks>
-          <para>Die Funktionalität des <b>Explorer.Search</b> entspricht der Schaltfläche "Suchen" in der Sofortsuche. Es verhält sich wie bei der Benutzer hat die Abfragezeichenfolge in der Benutzeroberfläche des Sofortsuche eingegeben und dann auf Suchen.  Beim Aufruf von <b>Suche</b>, wird die Abfrage in der Benutzeroberfläche ausgeführt, und es gibt keinen programmgesteuerten Mechanismus zum Abrufen der Ergebnisse der Suche. Weitere Informationen für die Sofortsuche, Abfragen für "Sofortsuche" in der Outlook-Hilfe.</para>
-          <para>
-            <b>Search</b> -Methode ermöglicht keinen Rückruf zum Aktivieren des Entwickler ermitteln, wann die Suche abgeschlossen ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Funktionalität des <b>Explorer.Search</b> entspricht der Schaltfläche " Suchen " in der Sofortsuche. Es verhält sich wie bei der Benutzer hat die Abfragezeichenfolge in der Benutzeroberfläche des Sofortsuche eingegeben und dann auf Suchen.  Beim Aufruf von <b>Suche</b>, wird die Abfrage in der Benutzeroberfläche ausgeführt, und es gibt keinen programmgesteuerten Mechanismus zum Abrufen der Ergebnisse der Suche. Weitere Informationen zur Sofortsuche finden Sie Abfrage für "Sofortsuche" in der Outlook-Hilfe.</para>
+          <para>Die <b>Search</b> -Methode bietet kein Rückrufs zur Behandlung der Entwickler zu bestimmen, wann die Suche abgeschlossen ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectAllItems">
@@ -1073,15 +1067,13 @@ End Sub</code>
       <Parameters />
       <Docs>
         <summary>Wählt alle Elemente aus, die in der aktuellen Ansicht des aktiven Explorers enthalten sind.</summary>
-        <remarks>
-          <para>Wenn einer oder mehrerer Gruppen in der aktuellen Ansicht reduziert sind, wird Aufruf von <b>SelectAllItems</b> nicht Elemente in der reduzierten Gruppen auswählen. Nur Elemente im erweiterten Gruppen ausgewählt sind.</para>
-          <para>, Wenn die aktuelle Ansicht eine Kalenderansicht ist, wählt Aufruf von <b>SelectAllItems</b> alle Termine und ganztägige Ereignisse in der Ansicht. Aufruf von <b>SelectAllItems</b> in der Kalenderansicht nicht Elemente in der täglichen Aufgabenliste ausgewählt.</para>
-          <para>Der <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird nur einmal ausgelöst, nachdem die <b>SelectAllItems</b> -Methode aufgerufen wird.</para>
-          <para>, Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>SelectAllItems</b> nicht zu einer Änderung der Auswahl und nicht zum Auslösen des <b>SelectionChange</b> -Ereignisses.</para>
+        <remarks><para>Wenn einer oder mehrerer Gruppen in der aktuellen Ansicht reduziert sind, wird Aufruf von <b>SelectAllItems</b> nicht Elemente in der reduzierten Gruppen auswählen. Nur Elemente im erweiterten Gruppen ausgewählt sind.</para>
+          <para>Wenn die aktuelle Ansicht eine Kalenderansicht ist, wählt Aufruf von <b>SelectAllItems</b> alle Termine und ganztägige Ereignisse, in der Ansicht. Aufruf von <b>SelectAllItems</b> in der Kalenderansicht, werden Elemente nicht in der täglichen Aufgabenliste auszuwählen.</para>
+          <para>Die <see cref="E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange" /> -Ereignis wird nur einmal ausgelöst, nachdem die <b>SelectAllItems</b> -Methode aufgerufen wird.</para>
+          <para>Wenn die aktuelle Ansicht oder der aktuelle Ordner keine Elemente enthalten, führt Aufruf von <b>SelectAllItems</b> nicht zu einer Änderung der Auswahl und das <b>SelectionChange</b> -Ereignis wird nicht ausgelöst.</para>
           <para>
             <b>SelectAllItems</b> löst einen Fehler aus, wenn das Element in der aktuellen Ansicht bearbeitet wird, oder die aktuelle Ansicht eine Unterhaltungsansicht ist.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectFolder">
@@ -1140,10 +1132,8 @@ End Sub</code>
       <Docs>
         <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Selection" /> Objekt bestehend aus einem oder mehreren Elementen in der aktuellen Ansicht ausgewählt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn der aktuelle Ordner ein Ordner des Dateisystems ist oder wenn Outlook Heute oder ein beliebiger Ordner mit einer Webansicht derzeit angezeigt wird, gibt diese Eigenschaft eine leere Auflistung zurück. Wenn eine Gruppenkopfzeile ausgewählt ist, gibt die <b>Count</b> -Eigenschaft der Markierung 0 (null) zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der aktuelle Ordner ein Ordner des Dateisystems ist oder wenn Outlook Heute oder ein beliebiger Ordner mit einer Webansicht derzeit angezeigt wird, gibt diese Eigenschaft eine leere Auflistung zurück. Wenn eine Gruppenkopfzeile ausgewählt ist, gibt die <b>Count</b> -Eigenschaft der Markierung 0 (null) zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1171,16 +1161,14 @@ End Sub</code>
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowPane">
@@ -1208,14 +1196,11 @@ End Sub</code>
       </Parameters>
       <Docs>
         <param name="Pane">Der anzuzeigende Bereich.</param>
-        <param name="Visible">
-          <b>True</b>, wenn das Fenster einzublenden, <b>False,</b> um das Fenster auszublenden.</param>
+        <param name="Visible"><b>True</b>, wenn das Fenster einzublenden, <b>False,</b> um das Fenster auszublenden.</param>
         <summary>Blendet ein bestimmtes Fenster im Explorer ein oder aus.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>Hinweis</b>: Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarPane.Visible" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarPane" /> Objekt ein-oder ausblenden im Verknüpfungsbereich.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Top">

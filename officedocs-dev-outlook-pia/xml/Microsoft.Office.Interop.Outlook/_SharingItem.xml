@@ -1,13 +1,5 @@
 <Type Name="_SharingItem" FullName="Microsoft.Office.Interop.Outlook._SharingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2a2b248af606d583a4be509e00fba5f14cadd876" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636789" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SharingItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2a2b248af606d583a4be509e00fba5f14cadd876" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906281" /></Metadata><TypeSignature Language="C#" Value="public interface _SharingItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SharingItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SharingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SharingItem" />
@@ -83,30 +75,28 @@
       <Docs>
         <param name="contact">Das Kontaktelement, von dem die Visitenkarteninformationen abgerufen werden.</param>
         <summary>Fügt auf Basis der elektronischen Visitenkarte (EBC) mit dem angegebenen verknüpft ist, Kontaktinformationen <see cref="T:Microsoft.Office.Interop.Outlook.ContactItem" /> -Objekt wird an die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt.</summary>
-        <remarks>
-          <para>Diese Methode fügt die Kontaktinformationen aus den Informationen in das <b>ContactItem</b> -Objekt an das vorhandene <b>SharingItem</b> -Objekt gespeicherten generiert.  Die Informationen enthalten hängt vom Wert der der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BodyFormat" /> -Eigenschaft für das <b>SharingItem</b> -Objekt:</para>
+        <remarks><para>Diese Methode fügt die Kontaktinformationen aus den Informationen in das <b>ContactItem</b> -Objekt an das vorhandene <b>SharingItem</b> -Objekt gespeicherten generiert.  Die Informationen enthalten hängt vom Wert der der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BodyFormat" /> -Eigenschaft für das <b>SharingItem</b> -Objekt:</para>
           <list type="table">
             <item>
               <description>Eigenschaftswert</description>
               <description>Ergebnis</description>
             </item>
             <item>
-              <description>OlFormatPlain</description>
-              <description>(VCF) vCard-Datei erstellt und hinzugefügt wird die Attachments-Auflistung des SharingItem-Objekts.</description>
+              <description>olFormatPlain</description>
+              <description>Eine VCF-Datei (vCard) wird erstellt und zur Attachments -Auflistung des SharingItem -Objekts hinzugefügt.</description>
             </item>
             <item>
               <description>olFormatRichText festgelegt</description>
-              <description>(VCF) vCard-Datei erstellt und zur Attachments-Auflistung des SharingItem-Objekts hinzugefügt.</description>
+              <description>Eine VCF-Datei (vCard) wird erstellt und zur Attachments -Auflistung des SharingItem -Objekts hinzugefügt.</description>
             </item>
             <item>
-              <description>OlFormatHTML</description>
-              <description>ein Bild der Visitenkarte wird erstellt und in die Body-Eigenschaft des SharingItem-Objekts enthalten, und eine vCard (VCF)-Datei wird erstellt und zur Attachments-Auflistung des SharingItem-Objekts hinzugefügt.</description>
+              <description>olFormatHTML</description>
+              <description>Ein Bild der Visitenkarte wird erstellt und zur Body -Eigenschaft des SharingItem -Objekts hinzugefügt, und eine VCF-Datei (vCard) wird erstellt und zur Attachments -Auflistung des SharingItem -Objekts hinzugefügt.</description>
             </item>
           </list>
           <para>
             <b>Hinweis</b>: die angefügte vCard-Datei enthält nur die Kontaktinformationen in der elektronischen Visitenkarte das <b>ContactItem</b> -Objekt zugeordnet. Informationen, die nicht in der elektronischen Visitenkarte angezeigt wird aus der vCard-Datei ausgeschlossen.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Allow">
@@ -131,13 +121,11 @@
       <Parameters />
       <Docs>
         <summary>Eine freigabeanforderung und sendet eine Freigabeantwort an den Absender der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
-        <remarks>
-          <para>Die <b>Allow</b> -Methode kann nur aufgerufen werden, auf <b>SharingItem</b> -Objekte mit einem <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaftswert <b>OlSharingMsgTypeRequest</b> oder <b>OlSharingMsgTypeInviteAndRequest</b>.</para>
-          <para>Die <b>Type</b> -Eigenschaft der beim Aufruf dieser Methode gesendeten Freigabeantwort wird auf <b>OlSharingMsgTypeResponseAllow</b>festgelegt.</para>
+        <remarks><para>Die <b>Allow</b> -Methode kann nur aufgerufen werden, auf <b>SharingItem</b> -Objekte mit einem <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaftswert <b>OlSharingMsgTypeRequest</b> oder <b>OlSharingMsgTypeInviteAndRequest</b>.</para>
+          <para>Die <b>Type</b> -Eigenschaft der beim Aufruf dieser Methode gesendeten Freigabeantwort wird auf <b>OlSharingMsgTypeResponseAllow</b> festgelegt.</para>
           <para>
             <b>Hinweis</b>: Freigabe zulässig ist, unmittelbar nach dem Aufrufen dieser Methode ist unabhängig davon, ob die Freigabeantwort empfangen wurde.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AllowWriteAccess">
@@ -167,13 +155,10 @@
       </ReturnValue>
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob eine freigabeeinladung Schreibzugriff auf den Ordner enthalten soll. Lese-/Schreibzugriff.</summary>
-        <value>
-          <b>True,</b> Wenn der Empfänger die Einladung zur Freigabe Schreibzugriff empfangen sollen. andernfalls <b>False</b>. Der Standardwert ist <b>False</b>.</value>
-        <remarks>
-          <para>Beim Senden einer freigabeeinladung für einen Standardordner, kann der Empfänger Schreibzugriff auf den Ordner zusätzlich zu den standardmäßigen Lesezugriff erteilt werden.  Diese Eigenschaft bestimmt, ob Schreibberechtigung für den Empfänger erteilt werden sollte bei der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> wird gesendet.</para>
-          <para>Tritt ein Fehler auf, wenn Sie versuchen, diese Eigenschaft festzulegen, nachdem die Freigabe Nachricht wurde gesendet oder empfangen wurden.</para>
-          <para />
-        </remarks>
+        <value><b>True,</b> Wenn der Empfänger die Einladung zur Freigabe Schreibzugriff empfangen sollen. andernfalls <b>False</b>. Der Standardwert ist <b>False</b>.</value>
+        <remarks><para>Wenn eine Freigabeeinladung für einen Nichtstandardordner gesendet wird, kann dem Empfänger zusätzlich zum Standardlesezugriff Schreibzugriff auf den Ordner gewährt werden.  Diese Eigenschaft bestimmt, ob Schreibberechtigung für den Empfänger erteilt werden sollte bei der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> wird gesendet.</para>
+          <para>Wenn Sie versuchen, diese Eigenschaft festzulegen, nachdem die Freigabenachricht gesendet oder empfangen wurde, tritt ein Fehler auf.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlternateRecipientAllowed">
@@ -322,12 +307,10 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die angezeigten Liste von Namen für blind Carbon Copy, Blindkopie (BCC) darstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft enthält nur die Anzeigenamen, die getrennt durch Semikolon (;) Zeichen. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung sollte zum Ändern der BCC-Empfänger verwendet werden. </para>
+        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen, die getrennt durch Semikolon (;) Zeichen. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung sollte zum Ändern der BCC-Empfänger verwendet werden. </para>
           <para>
-            <b>Hinweis</b>: Wenn das <b>SharingItem-Objekt</b> ein Exchange-Freigabekontext verwendet, außer durch Festlegen dieser Eigenschaft auf einen beliebigen Wert <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) verhindert, dass das Element gesendet werden und bewirkt, dass die <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" />-Methode, um ein Fehler ausgelöst.</para>
-          <para />
-        </remarks>
+            <b>Hinweis</b>: Wenn das <b>SharingItem-Objekt</b> ein Exchange-Freigabekontext verwendet, außer durch Festlegen dieser Eigenschaft auf einen beliebigen Wert <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) verhindert, dass das Element gesendet werden und bewirkt, dass die <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> -Methode meldet einen Fehler.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -358,10 +341,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#) zurück, die der Abrechnungsinformationen zugeordnet die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Textfeld.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Textfeld.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -390,8 +371,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die den Clear-Textkörper des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die den Clear-Textkörper des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -424,11 +404,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBodyFormat" /> Konstante, die das Format des Textkörpers angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das Textkörperformat bestimmt den Standard verwendet, um den Text der Nachricht anzuzeigen. Microsoft Outlook bietet drei Body Text-Format-Optionen: nur-Text, Rich-Text (RTF) und HTML.</para>
-          <para>Alle Text-Formatierung verloren, wenn die <b>BodyFormat</b> -Eigenschaft von RTF in HTML und umgekehrt geändert wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das Textkörperformat bestimmt, welcher Standard zum Anzeigen des Nachrichtentextes verwendet wird. Microsoft Outlook stellt drei Optionen für das Textkörperformat zur Verfügung: unformatierter Text, RTF-Text und HTML.</para>
+          <para>Sämtliche Textformatierungen gehen verloren, wenn die Eigenschaft <b>BodyFormat</b> von RTF in HTML und umgekehrt geändert wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Categories">
@@ -459,10 +437,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#) zurück, die die Kategorien zugewiesen der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert der <b>Categories</b> -Eigenschaft ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die ein Outlook-Element zugewiesen wurden. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen konvertieren möchten, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert der <b>Categories</b> -Eigenschaft ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die ein Outlook-Element zugewiesen wurden. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen zu konvertieren, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CC">
@@ -493,12 +469,10 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die angezeigten Liste von Carbon Copy, Kopie (CC) für Namen darstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft enthält nur die Anzeigenamen, die durch Semikolon (;) getrennte Zeichen. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung sollte zum Ändern der CC-Empfänger verwendet werden. </para>
+        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen, die durch Semikolon (;) getrennte Zeichen. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung sollte zum Ändern der CC-Empfänger verwendet werden. </para>
           <para>
             <b>Hinweis</b>: Wenn das <b>SharingItem-Objekt</b> ein Exchange-Freigabekontext verwendet, wird diese Eigenschaft auf einen anderen Wert als <b>Nothing</b> verhindert, dass das Element gesendet werden und bewirkt, dass die <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> -Methode, um ein Fehler ausgelöst.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -526,10 +500,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt immer <b>OlSharing</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt immer <b>OlSharing</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ClearConversationIndex">
@@ -579,10 +551,8 @@
       <Parameters />
       <Docs>
         <summary>Löscht die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekt als Aufgabe.</summary>
-        <remarks>
-          <para>Durch Aufrufen dieser Methode wird die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>false festgelegt</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Durch Aufrufen dieser Methode wird die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>false festgelegt</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -641,10 +611,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#) zurück, die die Namen der Unternehmen zugeordnet die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Textfeld.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Textfeld. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -700,12 +668,10 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die eindeutig identifiziert, eine <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekts, das die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekt gehört. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ordnet Elemente einer Unterhaltung. Diese Artikel und die Unterhaltung besitzen denselben Wert in ihrer <b>ConversationID</b> -Eigenschaft.</para>
+        <remarks><para>Diese Eigenschaft ordnet Elemente zu einer Unterhaltung. Diese Elemente und der Unterhaltung haben denselben Wert in die Eigenschaft <b>ConversationID</b>.</para>
           <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagConversationId</b>.</para>
-          <para>Wenn das <b>SharingItem</b> -Objekt in einer Microsoft Outlook-Version vor Microsoft Outlook 2010 erstellt wird, oder wenn Outlook im Onlinemodus mit einer Microsoft Exchange Server-Version vor Microsoft Exchange Server 2010 ausgeführt wird dies -Eigenschaft gibt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ConversationTopic" /> -Eigenschaft.</para>
-          <para />
-        </remarks>
+          <para>Wenn das <b>SharingItem</b> -Objekt in einer Microsoft Outlook-Version vor Microsoft Outlook 2010 erstellt wird, oder wenn Outlook im Onlinemodus für Versionen vor Microsoft Exchange Server 2010, diese Eigenschaft eine Version von Microsoft Exchange Server ausgeführt wird Gibt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ConversationTopic" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -815,10 +781,8 @@
       <Docs>
         <summary>Gibt eine <b>DateTime</b> , der angibt, für den Zeitpunkt der Erstellung der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeferredDeliveryTime">
@@ -849,10 +813,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>DateTime</b> , der angibt, das Datum und die Uhrzeit der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> gesendet werden soll.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDeferredDeliveryTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDeferredDeliveryTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -877,11 +839,9 @@
       <Parameters />
       <Docs>
         <summary>Entfernt die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Element aus dem Ordner, der das Element enthält.</summary>
-        <remarks>
-          <para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Beispielsweise in der Items-Auflistung eines Ordners alle Artikel, wenn n Anzahl der Elemente im Ordner vorhanden sind starten Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
-          <para>Die löschen-Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, die <b>Delete</b> -Methode des Elements dauerhaft entfernt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Angenommen, starten wenn n Anzahl der Elemente im Ordner vorhanden sind in der Items-Auflistung eines Ordners alle Artikel, Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
+          <para>Die Delete -Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, entfernt die <b>Delete</b> -Methode das Element dauerhaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteAfterSubmit">
@@ -938,13 +898,11 @@
       <Docs>
         <summary>Lehnt eine Freigabeanfrage und sendet eine Freigabeantwort an den Absender der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
         <returns>Ein <b>SharingItem</b> -Objekt, das die Freigabeantwort darstellt.</returns>
-        <remarks>
-          <para>Die <b>Deny</b> -Methode kann nur aufgerufen werden, auf <b>SharingItem</b> -Objekte mit einem <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaftswert <b>OlSharingMsgTypeRequest</b> oder <b>OlSharingMsgTypeInviteAndRequest</b>.</para>
-          <para>Diese Methode generiert ein neues <b>SharingItem</b> -Objekt und die <b>Type</b> -Eigenschaft des neuen Objekts auf <b>OlSharingMsgTypeResponseDeny</b>festgelegt. <b>SharingItem-Objekt</b> ist nicht sofort gesendet an den Absender des Freigabeanfrage, jedoch so, dass Sie die Freigabeantwort bearbeiten können, je nach Bedarf.</para>
+        <remarks><para>Die <b>Deny</b> -Methode kann nur aufgerufen werden, auf <b>SharingItem</b> -Objekte mit einem <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaftswert <b>OlSharingMsgTypeRequest</b> oder <b>OlSharingMsgTypeInviteAndRequest</b>.</para>
+          <para>Diese Methode generiert ein neues <b>SharingItem</b> -Objekt und die <b>Type</b> -Eigenschaft des neuen Objekts auf <b>OlSharingMsgTypeResponseDeny</b> festgelegt. <b>SharingItem-Objekt</b> ist nicht sofort an den Absender des Freigabeanfrage, jedoch gesendet, sodass Sie die Freigabeantwort bearbeiten können, je nach Bedarf.</para>
           <para>
             <b>Hinweis</b>: Freigabe unmittelbar nach dem Aufrufen dieser Methode ist unabhängig davon, ob die Freigabeantwort empfangen wurde verweigert.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Display">
@@ -969,14 +927,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
+        <param name="Modal"><b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
         <summary>Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekts für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
-        <remarks>
-          <para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> -Methode.</para>
-          <para>, Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) mithilfe von Microsoft Outlook-Objektmodell zu öffnen, erhalten Sie in den Programmiersprachen C oder C++ den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</para>
+          <para>Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -1069,11 +1024,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die eindeutige Eintrags-ID des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
-          <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs finden Sie http://msdn.microsoft.com für <b>PidTagEntryId</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
+          <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs suchen Sie http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpiryTime">
@@ -1207,13 +1160,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der angeforderten Aktion für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der angeforderten Aktion für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Textfeld.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Textfeld.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FlagStatus">
@@ -1304,10 +1254,8 @@
       <Docs>
         <summary>Führt die Forward-Aktion für ein Element aus und gibt die entstandene Kopie als ein <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt.</summary>
         <returns>Ein <b>SharingItem</b> -Objekt, das die neue freigabeeinladung darstellt.</returns>
-        <remarks>
-          <para>Ein Fehler tritt auf, wenn diese Methode für freigabeeinladungen mithilfe einer Exchange-Freigabekontexts oder für freigabeanforderungen aufgerufen wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn diese Methode für Freigabeeinladungen mithilfe eines Exchange-Freigabekontexts oder für Freigabeanforderungen aufgerufen wird, tritt ein Fehler auf.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetConversation">
@@ -1333,15 +1281,14 @@
       <Docs>
         <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</summary>
         <returns>Gibt ein <b>Conversation</b> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetConversation</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine Unterhaltung für das Element vorhanden ist. Keine Unterhaltung vorhanden ist, für ein Element in den folgenden Szenarien:</para>
           <list type="bullet">
             <item>
-              <para>das Element noch nicht gespeichert wurde. Ein Element programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden kann.</para>
+              <para>Das Element wurde nicht gespeichert. Ein Element kann programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden.</para>
             </item>
             <item>
-              <para>Für ein Element, das (z. B. ein e-Mail-Element, Terminelement oder Kontaktelement) gesendet werden kann, nicht das Element gesendet wurde.</para>
+              <para>Im Fall eines Elements, das gesendet werden kann (z. B. ein E-Mail-, Termin- oder Kontaktelement), wurde das Element nicht gesendet.</para>
             </item>
             <item>
               <para>Unterhaltungen wurden über die Windows-Registrierung deaktiviert.</para>
@@ -1350,8 +1297,7 @@
               <para>Der Informationsspeicher die Unterhaltungsansicht nicht unterstützt (beispielsweise Outlook im klassischen Onlinemodus für Versionen vor Microsoft Exchange Server 2010 eine Version von Microsoft Exchange ausgeführt wird). Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekts, um festzustellen, ob der Informationsspeicher die Unterhaltungsansicht unterstützt.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1379,10 +1325,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das einen Inspektor darstellt, mit dem angegebenen enthalten initialisiert <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HTMLBody">
@@ -1411,15 +1355,12 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die den HTML-Textkörper des angegebenen darstellen <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die den HTML-Textkörper des angegebenen darstellen <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>HTMLBody</b> -Eigenschaft sollte eine Zeichenfolge mit HTML-Syntax sein.</para>
+        <remarks><para>Die <b>HTMLBody</b> -Eigenschaft sollte eine Zeichenfolge mit HTML-Syntax sein.</para>
           <para>Beim Festlegen der <b>HTMLBody</b> -Eigenschaft wird die <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.EditorType" /> -Eigenschaft des Elements <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> auf <b>olEditorHTML festgelegt</b>.</para>
-          <para>Beim Festlegen der <b>HTMLBody</b> -Eigenschaft immer aktualisiert die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Body" /> Eigenschaft unmittelbar.</para>
-          <para />
-        </remarks>
+          <para>Beim Festlegen der <b>HTMLBody</b> -Eigenschaft immer aktualisiert die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Body" /> sofort-Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -1450,10 +1391,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> -Konstanten, die die relative Wichtigkeitsstufe für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagImportance</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagImportance</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InternetCodepage">
@@ -1484,281 +1423,279 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der von verwendete Internetcodepage bestimmt die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die InternetCodePage definiert das vom Objekt verwendete Textkodierungsschema.</para>
+        <remarks><para>Die Internetcodepage definiert das vom Objekt verwendete Textkodierungsschema.</para>
           <para>Die folgende Tabelle enthält die durch die <b>InternetCodepage</b> -Eigenschaft unterstützten Werte.</para>
           <list type="table">
-            <description>
-              <item>
-                <description>Zeichensatz</description>
-                <description>Codepage</description>
-              </item>
-            </description>
             <item>
-              <description>Iso-8859-6 </description>für die
-              <description>Arabisch (ISO)</description><description>28596 </description></item>
+              <description>Name</description>
+              <description>Zeichensatz</description>
+              <description>Codepage</description>
+            </item>
+            <item>
+              <description>Arabisch (ISO)</description>
+              <description>ISO-8859-6 </description>
+              <description>28596 </description>
+            </item>
             <item>
               <description>Arabisch (Windows)</description>
-              <description>Windows 1256 </description>
-              <description>1256 </description>
-            </item>
-            <item>
-              <description>Baltisch (ISO )</description>
-              <description>Iso-8859-4 </description>
-              <description>28594 </description>
-            </item>
-            <item>
-              <description>Baltisch (Windows)</description>
-              <description>Windows 1257 </description>
-              <description>1257 </description>
-            </item>
-            <item>
-              <description>Mitteleuropäisch (ISO)</description>
-              <description>Iso-8859-2 </description>
-              <description>28592 </description>
-            </item>
-            <item>
-              <description>Central European (Windows)</description>
-              <description>Windows-1250 </description>
-              <description>1250 </description>
-            </item>
-            <item>
-              <description>Chinesisch vereinfacht (GB2312) </description>
-              <description>gb2312 </description>
-              <description>936 </description>
-            </item>
-            <item>
-              <description>Chinesisch vereinfacht (HZ) </description>
-              <description>hz-gb-2312 </description>
-              <description>52936</description>
-            </item>
-            <item>
-              <description>Chinesisch traditionell (Big5) </description>
-              <description>big5 </description>
-              <description>950</description>
-            </item>
-            <item>
-              <description>Kyrillisch (ISO) </description>
-              <description>Iso-8859-5 </description>
-              <description>28595</description>
-            </item>
-            <item>
-              <description>Kyrillisch (KOI8-R) </description>
-              <description>koi8-R </description>
-              <description>20866</description>
-            </item>
-            <item>
-              <description>Kyrillisch (KOI8-U) </description>
-              <description>koi8-u </description>
-              <description>21866</description>
-            </item>
-            <item>
-              <description>Kyrillisch (Windows) </description>
-              <description>Windows 1251 </description>
-              <description>1251</description>
-            </item>
-            <item>
-              <description>Griechisch (ISO) </description>
-              <description>Iso-8859-7 </description>
-              <description>28597</description>
-            </item>
-            <item>
-              <description>Griechisch (Windows) </description>
-              <description>Windows-1253 </description>
-              <description>1253</description>
-            </item>
-            <item>
-              <description>Hebräisch (ISO-Logical) </description>
-              <description>Iso-8859-8-i </description>
-              <description>38598</description>
-            </item>
-            <item>
-              <description>Hebräisch (Windows) </description>
-              <description>Windows-1255 </description>
-              <description>1255</description>
-            </item>
-            <item>
-              <description>Japanisch (EUC) </description>
-              <description>Euc-jp </description>
-              <description>51932</description>
-            </item>
-            <item>
-              <description>Japanisch (JIS) </description>
-              <description>Iso-2022-jp </description>
-              <description>50220</description>
-            </item>
-            <item>
-              <description>Japanisch (JIS-1 Byte Kana erlaubt) </description>
-              <description>csISO2022JP </description>
-              <description>50221</description>
-            </item>
-            <item>
-              <description>Japanisch (Shift-JIS) </description>
-              <description>Iso-2022-jp </description>
-              <description>932</description>
-            </item>
-            <item>
-              <description>Koreanisch </description>
-              <description>ks_c_5601 1987 </description>
-              <description>949</description>
-            </item>
-            <item>
-              <description>Koreanisch (EUC) </description>
-              <description>Euc-Kr </description>
-              <description>51949</description>
-            </item>
-            <item>
-              <description>Lateinisch 3 (ISO) </description>
-              <description>Iso-8859-3 </description>
-              <description>28593</description>
-            </item>
-            <item>
-              <description>Lateinisch 9 (ISO) </description>
-              <description>Iso-8859-15 </description>
-              <description>28605</description>
-            </item>
-            <item>
-              <description>Thailändisch (Windows) </description>
-              <description>Windows-874 </description>
-              <description>874</description>
-            </item>
-            <item>
-              <description>Türkisch (ISO) </description>
-              <description>Iso-8859-9 </description>
-              <description>28599</description>
-            </item>
-            <item>
-              <description>Türkisch (Windows) </description>
-              <description>Windows-1254 </description>
-              <description>1254</description>
-            </item>
-            <item>
-              <description>Unicode (UTF-7) </description>
-              <description>Utf-7- </description>
-              <description>65000</description>
-            </item>
-            <item>
-              <description>Unicode (UTF-8) </description>
-              <description>Utf-8 </description>
-              <description>65001</description>
-            </item>
-            <item>
-              <description>US-ASCII- </description>
-              <description>us-Ascii </description>
-              <description>20127</description>
-            </item>
-            <item>
-              <description>Vietnamesisch (Windows) </description>
-              <description>Windows-1258 </description>
-              <description>1258</description>
-            </item>
-            <item>
-              <description>Westeuropäisch (ISO) </description>
-              <description>Iso-8859-1 </description>
-              <description>28591</description>
-            </item>
-            <item>
-              <description>Westeuropäisch (Windows) </description>
-              <description>Windows-1252 </description>
-              <description>1252</description>
-            </item>
-          </list>
-          <para>In der folgenden Tabelle sind die Codepages aufgeführt Microsoft empfiehlt, die beste Kompatibilität mit älteren e-Mail-Systemen zu erzielen.</para>
-          <list type="table">
-            <description>
-              <item>
-                <description>Zeichensatz</description>
-                <description>Codepage</description>
-              </item>
-            </description>
-            <item>
-              <description>Arabisch (Windows)</description>
-              <description>Windows 1256 </description>
+              <description>Windows-1256 </description>
               <description>1256 </description>
             </item>
             <item>
               <description>Baltisch (ISO)</description>
-              <description>Iso-8859-4</description>
-              <description> 28594 </description>
+              <description>ISO-8859-4 </description>
+              <description>28594 </description>
+            </item>
+            <item>
+              <description>Baltisch (Windows)</description>
+              <description>Windows-1257 </description>
+              <description>1257 </description>
             </item>
             <item>
               <description>Mitteleuropäisch (ISO)</description>
-              <description>Iso-8859-2 </description>
+              <description>ISO-8859-2 </description>
               <description>28592 </description>
             </item>
             <item>
-              <description>Chinesisch vereinfacht (GB2312) </description>
-              <description>gb2312 </description>
+              <description>Mitteleuropäisch (Windows)</description>
+              <description>Windows-1250 </description>
+              <description>1250 </description>
+            </item>
+            <item>
+              <description>Chinesisch Vereinfacht (GB2312) </description>
+              <description>GB2312 </description>
               <description>936 </description>
             </item>
             <item>
-              <description>Chinesisch traditionell () Big5) </description>
+              <description>Chinesisch Vereinfacht (HZ) </description>
+              <description>hz-gb-2312 </description>
+              <description>52936 </description>
+            </item>
+            <item>
+              <description>Chinesisch Traditionell (Big5) </description>
+              <description>big5 </description>
+              <description>950 </description>
+            </item>
+            <item>
+              <description>Kyrillisch (ISO) </description>
+              <description>ISO-8859-5 </description>
+              <description>28595 </description>
+            </item>
+            <item>
+              <description>Kyrillisch (KOI8-R) </description>
+              <description>KOI8-R </description>
+              <description>20866 </description>
+            </item>
+            <item>
+              <description>Kyrillisch (KOI8-U) </description>
+              <description>KOI8-U </description>
+              <description>21866 </description>
+            </item>
+            <item>
+              <description>Kyrillisch (Windows) </description>
+              <description>Windows-1251 </description>
+              <description>1251 </description>
+            </item>
+            <item>
+              <description>Griechisch (ISO) </description>
+              <description>ISO-8859-7 </description>
+              <description>28597 </description>
+            </item>
+            <item>
+              <description>Griechisch (Windows) </description>
+              <description>Windows-1253 </description>
+              <description>1253 </description>
+            </item>
+            <item>
+              <description>Hebräisch (ISO-Logical) </description>
+              <description>ISO-8859-8-I </description>
+              <description>38598 </description>
+            </item>
+            <item>
+              <description>Hebräisch (Windows) </description>
+              <description>Windows-1255 </description>
+              <description>1255 </description>
+            </item>
+            <item>
+              <description>Japanisch (EUC) </description>
+              <description>euc-jp </description>
+              <description>51932 </description>
+            </item>
+            <item>
+              <description>Japanisch (JIS) </description>
+              <description>ISO-2022-JP </description>
+              <description>50220 </description>
+            </item>
+            <item>
+              <description>Japanisch (JIS, 1 Byte Kana erlaubt) </description>
+              <description>csISO2022JP </description>
+              <description>50221 </description>
+            </item>
+            <item>
+              <description>Japanisch (Shift-JIS) </description>
+              <description>ISO-2022-JP </description>
+              <description>932 </description>
+            </item>
+            <item>
+              <description>Koreanisch </description>
+              <description>ks_c_5601-1987 </description>
+              <description>949 </description>
+            </item>
+            <item>
+              <description>Koreanisch (EUC) </description>
+              <description>euc-kr </description>
+              <description>51949 </description>
+            </item>
+            <item>
+              <description>Lateinisch 3 (ISO) </description>
+              <description>ISO-8859-3 </description>
+              <description>28593 </description>
+            </item>
+            <item>
+              <description>Lateinisch 9 (ISO) </description>
+              <description>ISO-8859-15 </description>
+              <description>28605 </description>
+            </item>
+            <item>
+              <description>Thailändisch (Windows) </description>
+              <description>Windows-874 </description>
+              <description>874 </description>
+            </item>
+            <item>
+              <description>Türkisch (ISO) </description>
+              <description>ISO-8859-9 </description>
+              <description>28599 </description>
+            </item>
+            <item>
+              <description>Türkisch (Windows) </description>
+              <description>Windows-1254 </description>
+              <description>1254 </description>
+            </item>
+            <item>
+              <description>Unicode (UTF-7) </description>
+              <description>UTF-7 </description>
+              <description>65000 </description>
+            </item>
+            <item>
+              <description>Unicode (UTF-8) </description>
+              <description>UTF-8 </description>
+              <description>65001 </description>
+            </item>
+            <item>
+              <description>US-ASCII </description>
+              <description>US-ASCII </description>
+              <description>20127 </description>
+            </item>
+            <item>
+              <description>Vietnamesisch (Windows) </description>
+              <description>Windows-1258 </description>
+              <description>1258 </description>
+            </item>
+            <item>
+              <description>Westeuropäisch (ISO) </description>
+              <description>ISO-8859-1 </description>
+              <description>28591 </description>
+            </item>
+            <item>
+              <description>Westeuropäisch (Windows) </description>
+              <description>Windows-1252 </description>
+              <description>1252 </description>
+            </item>
+          </list>
+          <para>In der folgenden Tabelle sind die Codepages aufgeführt, die von die Microsoft empfohlen, für die beste Kompatibilität mit älteren e-Mail-Systemen zu verwenden.</para>
+          <list type="table">
+            <item>
+              <description>Name</description>
+              <description>Zeichensatz</description>
+              <description>Codepage</description>
+            </item>
+            <item>
+              <description>Arabisch (Windows)</description>
+              <description>Windows-1256 </description>
+              <description>1256 </description>
+            </item>
+            <item>
+              <description>Baltisch (ISO)</description>
+              <description>ISO-8859-4 </description>
+              <description>28594 </description>
+            </item>
+            <item>
+              <description>Mitteleuropäisch (ISO)</description>
+              <description>ISO-8859-2 </description>
+              <description>28592 </description>
+            </item>
+            <item>
+              <description>Chinesisch Vereinfacht (GB2312) </description>
+              <description>GB2312 </description>
+              <description>936 </description>
+            </item>
+            <item>
+              <description>Chinesisch Traditionell (Big5) </description>
               <description>big5 </description>
               <description>950 </description>
             </item>
             <item>
               <description>Kyrillisch (KOI8-R) </description>
-              <description>koi8-R </description>
+              <description>KOI8-R </description>
               <description>20866 </description>
             </item>
             <item>
               <description>Kyrillisch (Windows) </description>
-              <description>Windows 1251 </description>
-              <description>1251</description>
+              <description>Windows-1251 </description>
+              <description>1251 </description>
             </item>
             <item>
-              <description>Griechisch (ISO)</description>
-              <description>ISO-8859-7</description>
-              <description>28597</description>
+              <description>Griechisch (ISO) </description>
+              <description>ISO-8859-7 </description>
+              <description>28597 </description>
             </item>
             <item>
               <description>Hebräisch (Windows) </description>
               <description>Windows-1255 </description>
-              <description>1255</description>
+              <description>1255 </description>
             </item>
             <item>
               <description>Japanisch (JIS) </description>
-              <description>Iso-2022-jp </description>
-              <description>50220</description>
+              <description>ISO-2022-JP </description>
+              <description>50220 </description>
             </item>
             <item>
               <description>Koreanisch </description>
-              <description>ks_c_5601 1987 </description>
-              <description>949</description>
+              <description>ks_c_5601-1987 </description>
+              <description>949 </description>
             </item>
             <item>
               <description>Thailändisch (Windows) </description>
               <description>Windows-874 </description>
-              <description>874</description>
+              <description>874 </description>
             </item>
             <item>
               <description>Türkisch (ISO) </description>
-              <description>Iso-8859-9 </description>
-              <description>28599</description>
+              <description>ISO-8859-9 </description>
+              <description>28599 </description>
             </item>
             <item>
               <description>Unicode (UTF-8) </description>
-              <description>Utf-8 </description>
-              <description>65001</description>
+              <description>UTF-8 </description>
+              <description>65001 </description>
             </item>
             <item>
-              <description>US-ASCII- </description>
-              <description>us-Ascii </description>
-              <description>20127</description>
+              <description>US-ASCII </description>
+              <description>US-ASCII </description>
+              <description>20127 </description>
             </item>
             <item>
               <description>Vietnamesisch (Windows) </description>
               <description>Windows-1258 </description>
-              <description>1258</description>
+              <description>1258 </description>
             </item>
             <item>
               <description>Westeuropäisch (ISO) </description>
-              <description>Iso-8859-1 </description>
-              <description>28591</description>
+              <description>ISO-8859-1 </description>
+              <description>28591 </description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1786,11 +1723,9 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der bestimmt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> liegt ein Konflikt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b>zurück.</para>
-          <para>Wenn <b>True</b>, das angegebene Element in Konflikt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b> zurück.</para>
+          <para>Wenn <b>True</b>, das angegebene Element in Konflikt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsMarkedAsTask">
@@ -1846,10 +1781,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> Auflistung, die alle Standard- und benutzerdefinierte Eigenschaften darstellt zugeordnet sind die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1877,10 +1810,8 @@
       <Docs>
         <summary>Gibt eine <b>DateTime</b> angeben das Datum und Uhrzeit der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> zuletzt geändert wurde.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -1939,10 +1870,8 @@
       <Docs>
         <param name="MarkInterval">Das Aufgabenintervall für das <b>SharingItem-Objekt</b>.</param>
         <summary>Markiert ein <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekt als Aufgabe und weist ein Aufgabenintervall für das Objekt.</summary>
-        <remarks>
-          <para>Durch Aufrufen dieser Methode wird die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>True</b> und Updates der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, und <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ToDoTaskOrdinal" /> Eigenschaften je nach Wert gemäß <paramref name="MarkInterval" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Durch Aufrufen dieser Methode wird die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>True</b> und Updates der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, und <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ToDoTaskOrdinal" /> Eigenschaften je nach Wert gemäß <paramref name="MarkInterval" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MarkForDownload">
@@ -1973,10 +1902,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> -Konstante, die den Status eines Elements bestimmt, nachdem es von einem Remotebenutzer empfangen wurde. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft verleiht Remotebenutzern mit weniger als idealen zur Datenübertragung Fähigkeiten eine erhöhte messagingflexibilität.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft verleiht Remotebenutzern mit nicht idealen Fähigkeiten zur Datenübertragung eine erhöhte Messagingflexibilität.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -2005,12 +1932,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Nachrichtenklasse für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Nachrichtenklasse für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwortbefehle.</para> Der Standardwert für diese Eigenschaft 
-          <para>lautet IPM. Freigeben von.</para><para /></remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwort Befehle.</para>
+          <para>IPM.Sharing ist der Standardwert für diese Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -2039,13 +1965,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die für die Mileage darstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die für die Mileage darstellen einer <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Feld und zum Speichern von Mileage Informationen im Zusammenhang mit dem Element (beispielsweise 100 Meilen für einen Termin, Kontakt oder Aufgabe dokumentiert) aus Gründen der Spesen verwendet werden kann.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Zeichenfolgenfeld, das zur Speicherung von Entfernungsinformationen zum Zweck der Kostenerstattung verwendet werden kann, die dem Element zugeordnet sind (z. B. 100 km zur Wahrnehmung eines Termins, einer Besprechung oder einer Aufgabe). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -2131,10 +2054,8 @@
       <Docs>
         <summary>Ein freigegebener Ordner, der durch eine Freigabeeinladung angeboten wurde, wird geöffnet.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den freigegebenen Ordner darstellt.</returns>
-        <remarks>
-          <para>Mit dieser Methode können den Empfänger über eine Einladung zur Freigabe zum Öffnen des freigegebenen Ordners vom Absender angeboten. Tritt ein Fehler auf, wenn diese Methode aufgerufen wird, klicken Sie auf eine <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekt mit einem Wert der Type-Eigenschaft als <b>OlSharingMsgTypeInvite</b> oder <b>OlSharingMsgTypeInviteAndRequest</b>, oder wenn Outlook keine Verbindung mit dem freigegebenen Ordner herstellen kann.</para>
-          <para />
-        </remarks>
+        <remarks><para>Mit dieser Methode können den Empfänger über eine Einladung zur Freigabe zum Öffnen des freigegebenen Ordners vom Absender angeboten. Tritt ein Fehler auf, wenn diese Methode aufgerufen wird, klicken Sie auf eine <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekt mit einem Wert der Type-Eigenschaft als <b>OlSharingMsgTypeInvite</b> oder <b>OlSharingMsgTypeInviteAndRequest</b>, oder wenn Outlook keine Verbindung mit dem freigegebenen Ordner herstellen kann.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginatorDeliveryReportRequested">
@@ -2165,11 +2086,9 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>Boolean</b> (<b>Bool</b> in c#)-Wert, der bestimmt, ob der Absender des der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> ein Unzustellbarkeitsberichts erhalten. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Aller Transport-Dienstanbieter, die Ihre Nachricht behandelt sendet eine einzelne Übermittlungsstatus mit den Namen und Adressen für jeden Empfänger, denen sie bereitgestellt wurde. Zustellung impliziert nicht, dass die Nachricht gelesen wurde. True, wenn der Absender der Nachricht eine Empfangsbestätigung angefordert. </para>
+        <remarks><para>Jeder Transportdienst, der die Nachricht verarbeitet, sendet eine einzelne Übermittlungsbestätigung, die die Namen und Adressen aller Empfänger enthält, an die die Nachricht übermittelt wurde. Die Übermittlung der Nachricht bedeutet nicht zwangsläufig, dass die Nachricht auch gelesen wurde. True, wenn der Absender eine Übermittlungsbestätigung für die Nachricht angefordert hat.</para>
           <para>Die <b>OriginatorDeliveryReportRequested</b> -Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagOriginatorDeliveryReportRequested</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookInternalVersion">
@@ -2253,10 +2172,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn das <b>SharingItem-Objekt</b> soeben erstellt wurde, gibt diese Eigenschaft ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Ordner Posteingang darstellt. Andernfalls gibt diese Eigenschaft ein <b>Folder</b> -Objekt, das den Ordner, in dem das <b>SharingItem-Objekt</b> gespeichert wurde, darstellt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn das <b>SharingItem-Objekt</b> soeben erstellt wurde, gibt diese Eigenschaft ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Ordner Posteingang darstellt. Andernfalls gibt diese Eigenschaft ein <b>Folder</b> -Objekt, das den Ordner, in dem das <b>SharingItem-Objekt</b> gespeichert wurde, darstellt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Permission">
@@ -2287,12 +2204,10 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlPermission" /> -Konstante, die bestimmt, die Berechtigungen der Empfänger hat auf die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Permission</b> -Eigenschaft synchronisiert werden soll, mit der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionTemplateGuid" /> -Eigenschaft entsprechend den Berechtigung Status des <b>SharingItem-Objekt</b>. Festlegen der <b>PermissionTemplateGuid</b> -Eigenschaft auf eine gültige GUID sollte auch ein entstehen Festlegen der <b>Permission</b> -Eigenschaft auf <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />. </para>
-          <para>, Wenn keine Information Rights Management (IRM) eingerichtet wurde (in diesem Fall die <b>Permission</b> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), oder die Beschränkung ist nicht weiterleiten <b>SharingItem-Objekt</b> (in diesem Fall die <b>Permission</b> -Eigenschaft <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />), sollte der Wert der <b>PermissionTemplateGuid</b> -Eigenschaft eine leere Zeichenfolge sein.</para>
-          <para>Obwohl Sie Inhalte anzeigen können, die auf Computern unter Microsoft Office System 2007 oder höher durch IRM geschützt sind, benötigen Sie Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 oder eine höhere Version von Outlook zum Erstellen oder Senden einer E-mail, die durch IRM geschützt sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Permission</b> -Eigenschaft synchronisiert werden soll, mit der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionTemplateGuid" /> -Eigenschaft entsprechend den Berechtigung Status des <b>SharingItem-Objekt</b>. Festlegen der <b>PermissionTemplateGuid</b> -Eigenschaft auf eine gültige GUID sollte auch ein entstehen Festlegen der <b>Permission</b> -Eigenschaft auf <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />. </para>
+          <para>Wenn keine Information Rights Management (IRM) eingerichtet wurde (in diesem Fall die <b>Permission</b> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), oder die Beschränkung ist nicht weiterleiten <b>SharingItem-Objekt</b> (in diesem Fall die <b>Permission</b> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />), der Wert der <b>PermissionTemplateGuid</b> -Eigenschaft sollte eine leere Zeichenfolge.</para>
+          <para>Obwohl Sie Inhalt, der IRM-geschützt ist, auf jedem Computer, auf dem 2007 Microsoft Office system oder höher ausgeführt wird, anzeigen können, müssen Sie zum Erstellen oder Senden einer durch IRM geschützten E-Mail-Nachricht über Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 oder eine höhere Version von Outlook verfügen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionService">
@@ -2323,11 +2238,9 @@
       <Docs>
         <summary>Zurück oder legt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlPermissionService" /> -Konstante, die den Berechtigungsdienst festlegt, die verwendet wird, beim Senden einer <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> von Information Rights Management (IRM) geschützt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist nur hilfreich, wenn Sie über mehr als eine Berechtigungsidentität für eine bestimmte SMTP-Adresse verfügen.</para>
-          <para>, Während Sie Inhalte anzeigen können, die auf Computern unter Microsoft Office System 2007 oder höher durch IRM geschützt sind, benötigen Sie Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007 oder eine höhere Version von Outlook zum Erstellen oder senden eine e-Mail-Nachricht, die durch IRM geschützt sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist nur hilfreich, wenn Sie für eine bestimmte SMTP-Adresse mehr als eine Berechtigungsidentität besitzen. </para>
+          <para>Obwohl Sie Inhalt, der IRM-geschützt ist, auf jedem Computer, auf dem 2007 Microsoft Office system oder höher ausgeführt wird, anzeigen können, müssen Sie zum Erstellen oder Senden einer durch IRM geschützten E-Mail-Nachricht über Microsoft Office Professional Edition 2003, Microsoft Office Outlook 2007oder eine höhere Version von Outlook verfügen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PermissionTemplateGuid">
@@ -2358,13 +2271,11 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die GUID der Vorlagendatei zuweisen darstellt die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> , um Berechtigungen (Information Rights Management, IRM) angeben. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ergänzt die IRM-Eigenschaften für ein <b>SharingItem</b> -Objekt; d. h., die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Permission" /> Eigenschaft und die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionService" /> Eigenschaften.</para>
-          <para>Insbesondere die <b>PermissionTemplateGuid</b> -Eigenschaft mit der <b>Permission</b> -Eigenschaft den Berechtigung Status des <b>SharingItem-Objekt</b>entsprechend synchronisiert werden soll. Festlegen der <b>PermissionTemplateGuid</b> -Eigenschaft auf eine gültige GUID sollte auch ein entstehen Festlegen der <b>Permission</b> -Eigenschaft auf <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />.</para>
-          <para>Einen leeren Zeichenfolgenwert für die <b>PermissionTemplateGuid</b> -Eigenschaft bedeutet, dass es keine Berechtigung Vorlagendatei für das <b>SharingItem-Objekt</b>angegeben ist. Wenn keine IRM eingerichtet wurde, beispielsweise (in diesem Fall die <b>Permission</b> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), oder die Beschränkung ist nicht weiterleiten <b>SharingItem-Objekt</b> (in diesem Fall die <b>Permission</b> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />).</para>
-          <para>Wenn Sie versuchen, die <b>PermissionTemplateGuid</b> -Eigenschaft einer empfangenen Nachricht festgelegt (d. h., die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> -Eigenschaft des <b>SharingItem-Objekt</b><b>True</b>ist), Microsoft Outlook gibt einen Fehler zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ergänzt die IRM-Eigenschaften für ein <b>SharingItem</b> -Objekt; d. h., die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Permission" /> Eigenschaft und die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.PermissionService" /> Eigenschaften.</para>
+          <para>Insbesondere sollten die <b>PermissionTemplateGuid</b> -Eigenschaft mit der <b>Permission</b> -Eigenschaft den Berechtigung Status des <b>SharingItem-Objekt</b>entsprechend synchronisiert werden. Festlegen der <b>PermissionTemplateGuid</b> -Eigenschaft auf eine gültige GUID sollte auch ein entstehen Festlegen der <b>Permission</b> -Eigenschaft auf <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olPermissionTemplate" />.</para>
+          <para>Ein leeren Zeichenfolgenwert für die <b>PermissionTemplateGuid</b> -Eigenschaft bedeutet, dass es keine Berechtigung Vorlagendatei für das <b>SharingItem-Objekt</b>angegeben ist. Wenn keine IRM eingerichtet wurde, beispielsweise (in diesem Fall die <b>Permission</b> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olUnrestricted" />), oder die Beschränkung ist nicht weiterleiten <b>SharingItem-Objekt</b> (in diesem Fall die <b>Permission</b> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlPermission.olDoNotForward" />).</para>
+          <para>Wenn Sie versuchen, die <b>PermissionTemplateGuid</b> -Eigenschaft einer empfangenen Nachricht festgelegt (d. h., die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> -Eigenschaft des <b>SharingItem-Objekt</b> <b>True</b>ist), Microsoft Outlook gibt einen Fehler zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrintOut">
@@ -2389,10 +2300,8 @@
       <Parameters />
       <Docs>
         <summary>Druckt die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> mit allen Standardeinstellungen.</summary>
-        <remarks>
-          <para>Die <b>PrintOut</b> -Methode ist die einzige Outlook-Methode, die zum Drucken verwendet werden können.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>PrintOut</b> -Methode ist die einzige Outlook-Methode, die zum Drucken verwendet werden können.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -2451,10 +2360,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> angibt, wenn eine lesebestätigung vom Absender angefordert wurde.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReadReceiptRequested</b>. Diese Eigenschaft ist schreibgeschützt für <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekten, die erstellt wurden, aber nicht gesendet oder wurden gebucht. Es ist schreibgeschützt für gesendete <b>SharingItem</b> -Objekte.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReadReceiptRequested</b>. Diese Eigenschaft ist schreibgeschützt für <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekten, die erstellt wurden, aber nicht gesendet oder wurden gebucht. Es ist schreibgeschützt für gesendete <b>SharingItem</b> -Objekte. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByEntryID">
@@ -2482,10 +2389,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) zurück die <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> des tatsächlichen Empfängers als vom Transportdienst festgelegt wurde, die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedByEntryId</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedByEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedByName">
@@ -2513,10 +2418,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Anzeigenamen des tatsächlichen Empfängers für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedByName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedByName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfEntryID">
@@ -2544,10 +2447,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) zurück die <see cref="P:Microsoft.Office.Interop.Outlook.Recipient.EntryID" /> des Benutzers zur Darstellung des Empfängers für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedRepresentingEntryId</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedRepresentingEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedOnBehalfOfName">
@@ -2575,10 +2476,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) delegiert, der den Anzeigenamen des Benutzers darstellt, zur Darstellung des Empfängers für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedRepresentingName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagReceivedRepresentingName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReceivedTime">
@@ -2665,10 +2564,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung, die alle Empfänger für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ein Empfänger kann durch eine Zeichenfolge zur Darstellung des Empfängers Anzeigenamen, den Alias oder vollständige SMTP-e-Mail-Adresse angegeben werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein Empfänger kann durch eine Zeichenfolge zur Darstellung des Empfängers Anzeigenamen, den Alias oder vollständige SMTP-e-Mail-Adresse angegeben werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderOverrideDefault">
@@ -2699,10 +2596,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn die Erinnerung das Standardverhalten Erinnerung für das angegebene überschreibt <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie müssen die <b>ReminderOverrideDefault</b> -Eigenschaft, um zu überprüfen Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> und die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> Eigenschaften.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie müssen die <b>ReminderOverrideDefault</b> -Eigenschaft, um zu überprüfen Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> und die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> Eigenschaften.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderPlaySound">
@@ -2733,10 +2628,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn die Erinnerung ein akustisches Signal wiedergegeben werden soll, tritt für das angegebene <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>ReminderPlaySound</b> -Eigenschaft muss festgelegt werden, um die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>ReminderPlaySound</b> -Eigenschaft muss festgelegt werden, um die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderSoundFile" /> Eigenschaft. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -2796,13 +2689,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der Pfad und der Dateiname der Audiodatei wiedergeben, tritt die Erinnerung für das Outlook-Element. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der Pfad und der Dateiname der Audiodatei wiedergeben, tritt die Erinnerung für das Outlook-Element. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist nur gültig Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderOverrideDefault" /> und <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> Eigenschaften auf <b>True</b>festgelegt sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist nur gültig Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderOverrideDefault" /> und <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReminderPlaySound" /> Eigenschaften auf <b>True</b>festgelegt sind. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderTime">
@@ -2831,7 +2721,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück oder legt diesen fest, der angibt, Datum und Uhrzeit an, die eine Erinnerung angezeigt werden sollte, für den angegebenen <b>DateTime</b><see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt diesen fest, der angibt, Datum und Uhrzeit an, die eine Erinnerung angezeigt werden sollte, für den angegebenen <b>DateTime</b> <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2861,11 +2751,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die den eindeutigen Bezeichner des Freigabekontexts für ein <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft enthält eine GUID oder EntryID für den Freigabekontext <b>SharingItem</b> -Objekt enthaltenen.</para>
-          <para>Wird diese Eigenschaft auf eine leere Zeichenfolge festgelegt, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlSharingMsgTypeRequest</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft enthält eine GUID oder EntryID für den Freigabekontext, der im <b>SharingItem</b> -Objekt.</para>
+          <para>Diese Eigenschaft wird auf eine leere Zeichenfolge festgelegt, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlSharingMsgTypeRequest</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoteName">
@@ -2893,11 +2781,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die den Namen des Freigabekontexts für ein <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft enthält den Namen für den Freigabekontext, beispielsweise den Namen des Ordners oder Elements, das <b>SharingItem</b> -Objekt enthaltenen.</para>
-          <para>Wird diese Eigenschaft auf eine leere Zeichenfolge festgelegt, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlSharingMsgTypeRequest</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft enthält den Namen für den Freigabekontext, beispielsweise den Namen des Ordners oder Elements, das <b>SharingItem</b> -Objekt enthaltenen verwendet.</para>
+          <para>Diese Eigenschaft wird auf eine leere Zeichenfolge festgelegt, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlSharingMsgTypeRequest</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemotePath">
@@ -2925,11 +2811,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die den Pfad des Freigabekontexts für steht ein <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft enthält den Pfad des Freigabekontexts, wie die URL eines WebCal-Kalenders, in dem <b>SharingItem</b> -Objekt enthaltenen.</para>
-          <para>Wird diese Eigenschaft auf eine leere Zeichenfolge festgelegt, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlSharingMsgTypeRequest</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft enthält den Pfad des Freigabekontexts, wie die URL eines WebCal-Kalenders in das <b>SharingItem</b> -Objekt enthalten sind.</para>
+          <para>Diese Eigenschaft wird auf eine leere Zeichenfolge festgelegt, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Type" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlSharingMsgTypeRequest</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoteStatus">
@@ -3040,10 +2924,8 @@
       <Docs>
         <summary>Gibt eine durch Semikolons getrennte <b>Zeichenfolge</b> (<b>String</b> in c#) Liste der Antwortempfänger für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft enthält nur die Anzeigenamen der Antwortempfänger. Liste der Antwortempfänger festgelegt werden sollte, mithilfe der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReplyRecipients" /> Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen der Antwortempfänger. Liste der Antwortempfänger festgelegt werden sollte, mithilfe der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReplyRecipients" /> Auflistung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyRecipients">
@@ -3099,10 +2981,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> -Konstante, die den Typ des Standardordners darstellt, der Zugriff durch eine Freigabeanfrage angefordert wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ein <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekt, das eine Freigabeanfrage darstellt, kann nur Zugriff auf einen Standardordner anfordern.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> -Objekt, das eine Freigabeanfrage darstellt, kann nur Zugriff auf einen Standardordner anfordern.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionExpirationDate">
@@ -3130,24 +3010,22 @@
       <Docs>
         <summary>Gibt eine <see cref="T:System.DateTime" /> Wert, der angibt, das Datum bei der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt abläuft, nach dem wird der Assistent (Messaging Records Management, MRM) für das Element gelöscht. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Eine Aufbewahrungsrichtlinie aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Dieses Feature ist nur in einem Exchange Server 2010-Postfach mit MRM 2.0 aktiviert verfügbar. </para>
-          <para>Microsoft Outlook berechnet den Wert dieser Eigenschaft basierend auf dem Element aufbewahrungsstartdatum und die Aufbewahrungszeit, wenn Outlook im Cache oder Offlinemodus ist. Der Exchange-Server gibt den Wert an, ob Outlook im Onlinemodus ist.</para>
-          <para>Im Allgemeinen die Aufbewahrung Startdatum für das Element wird wie folgt ermittelt:</para>
+        <remarks><para>Eine Aufbewahrungsrichtlinie aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Dieses Feature ist nur in einem Exchange Server 2010-Postfach mit MRM 2.0 aktiviert verfügbar. </para>
+          <para>Microsoft Outlook berechnet den Wert dieser Eigenschaft basierend auf dem Startdatum der Elementaufbewahrung und dem Aufbewahrungszeitraum, wenn sich Outlook im Cache- oder Offlinemodus befindet. Der Computer mit Exchange Server gibt den Wert an, wenn sich Outlook im Onlinemodus befindet.</para>
+          <para>Im Allgemeinen wird das Aufbewahrungsstartdatum für das Element wie folgt ermittelt:</para>
           <list type="bullet">
             <item>
-              <para>Empfangene oder gesendete Elemente: das aufbewahrungsstartdatum ist das Empfangsdatum.</para>
+              <para>Empfangene oder gesendete Elemente: Das Aufbewahrungsstartdatum ist das Empfangsdatum.</para>
             </item>
             <item>
-              <para>Einmalige Kalenderelemente: das aufbewahrungsstartdatum ist das Enddatum des Termins.</para>
+              <para>Kalenderelemente ohne Terminserie: Das Aufbewahrungsstartdatum ist das Terminenddatum.</para>
             </item>
             <item>
-              <para>Periodisch Kalenderelemente: das aufbewahrungsstartdatum ist das Enddatum des letzten Wiederholung. Wenn kein Enddatum vorhanden ist, das Element läuft nie ab.</para>
+              <para>Kalenderelemente mit Terminserie: Das Aufbewahrungsstartdatum ist das Enddatum der letzten Serie. Ist kein Enddatum vorhanden, läuft das Element nie ab.</para>
             </item>
           </list>
-          <para />
-          <para />
-        </remarks>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionPolicyName">
@@ -3175,10 +3053,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), der den Namen der Aufbewahrungsrichtlinie angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Aufbewahrung aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Das Feature ist verfügbar, nur auf einem Exchange Server 2010-Postfach mit Messaging Records Management (MRM) 2.0 ist aktiviert. Ein Beispiel für einen Richtliniennamen Retention ist "Zeitintervall für Ablauf schnelle Suche definieren".</para>
-          <para />
-        </remarks>
+        <remarks><para>Aufbewahrung aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Das Feature ist verfügbar, nur auf einem Exchange Server 2010-Postfach mit Messaging Records Management (MRM) 2.0 ist aktiviert. Ein Beispiel für einen Richtliniennamen Retention ist "Zeitintervall für Ablauf schnelle Suche definieren".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RTFBody">
@@ -3209,10 +3085,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer Byte-Array, das den Text des Microsoft Outlook-Element im RTF-Format darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Methode System.Text.Encoding.AsciiEncoding.GetString() in c# oder Visual Basic können Sie um ein Array von Bytes in eine Zeichenfolge zu konvertieren.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Methode System.Text.Encoding.AsciiEncoding.GetString() in c# oder Visual Basic können Sie um ein Array von Bytes in eine Zeichenfolge zu konvertieren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -3264,12 +3138,10 @@
       </Parameters>
       <Docs>
         <param name="Path">Der Pfad, in dem das Element gespeichert werden soll.</param>
-        <param name="Type">Der Dateityp zu speichern. Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</param>
+        <param name="Type">Der Dateityp, der gespeichert werden soll. Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</param>
         <summary>Speichert die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> in dem angegebenen Pfad und im Format des angegebenen Dateityps. Wenn kein Dateityp angegeben wurde, wird das MSG-Format (MSG) verwendet.</summary>
-        <remarks>
-          <para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -3353,12 +3225,10 @@
       <Parameters />
       <Docs>
         <summary>Sendet die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.</summary>
-        <remarks>
-          <para>Die Methode <b>Send</b> sendet ein Element mit dem Standardkonto für die Sitzung angegeben. In einer Sitzung, in dem mehrere Microsoft Exchange-Konten im Profil definiert sind, das erste Exchange-Konto dem Profil hinzugefügt wird das primäre Exchange-Konto, und auch das Standardkonto für die Sitzung ist. Um ein anderes Konto zum Senden eines Elements anzugeben, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" /> -Eigenschaft auf die gewünschte <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt und rufen Sie die Methode <b>Send</b> .</para>
-          <para>Möglicherweise bestimmte sharing Anbieter Einschränkungen für den Typ der Empfänger zulässig müssen. Wenn diese Methode aufgerufen wird, versucht einige Anbieter Access für jeden Empfänger in der <b>SharingItem-Objekt</b>enthaltenen Steuerelementeinträge (List, ACL) für den Ordner festzulegen. Wenn ein Fehler, beim Versuch auftritt, ACLs für einen Empfänger festzulegen, löst diese Methode einen Fehler und <b>SharingItem-Objekt</b> nicht an der Empfänger gesendet.</para>
-          <para>Tritt ein Fehler auf, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BCC" /> oder <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.CC" /> Eigenschaften für ein <b>SharingItem-Objekt</b> festgelegt werden mit einem Exchange-Freigabekontext.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Send</b> -Methode sendet ein Element mit dem Standardkonto für die Sitzung angegeben. In einer Sitzung, in dem mehrere Microsoft Exchange-Konten im Profil definiert sind, das erste Exchange-Konto dem Profil hinzugefügt wird das primäre Exchange-Konto, und auch das Standardkonto für die Sitzung ist. Um ein anderes Konto zum Senden eines Elements anzugeben, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" /> -Eigenschaft auf die gewünschte <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt und rufen Sie die Methode <b>Send</b> .</para>
+          <para>Bestimmte Anbieter sharing möglicherweise Einschränkungen für den Typ der Empfänger zulässig. Wenn diese Methode aufgerufen wird, versucht einige Anbieter Access für jeden Empfänger in der <b>SharingItem-Objekt</b> enthaltenen Steuerelementeinträge (List, ACL) für den Ordner festzulegen. Bei einem beim Versuch Fehler, ACLs für einen Empfänger festzulegen, löst diese Methode einen Fehler und das <b>SharingItem-Objekt</b> nicht an der Empfänger gesendet.</para>
+          <para>Tritt ein Fehler auf, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.BCC" /> oder <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.CC" /> Eigenschaften werden mit einem Exchange-Freigabekontext für ein <b>SharingItem-Objekt</b> festgelegt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailAddress">
@@ -3386,10 +3256,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die die e-Mail-Adresse des Absenders der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.   Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderEmailAddress</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderEmailAddress</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailType">
@@ -3445,11 +3313,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der angibt, der des Anzeigenamen des Absenders für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderName</b>.</para>
-          <para>Wenn Sie die vollqualifizierte E-mail-Adresse des Absenders abrufen möchten, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SenderEmailAddress" /> -Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderName</b>.</para>
+          <para>Wenn Sie die vollqualifizierte E-mail-Adresse des Absenders abrufen möchten, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SenderEmailAddress" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendUsingAccount">
@@ -3480,12 +3346,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt, das Konto, unter dem darstellt, der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> gesendet werden sollen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SendUsingAccount</b> -Eigenschaft kann verwendet werden, um das Konto anzugeben, die verwendet werden soll, Senden von <b>SharingItem</b> bei der <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> -Methode aufgerufen wird. Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn das Konto für die angegebene <b>SharingItem-Objekt</b> nicht mehr vorhanden ist oder das <b>SharingItem-Objekt</b> ist ein empfangenes Element.</para>
-          <para>Diese Eigenschaft ist schreibgeschützt, wenn das <b>SharingItem-Objekt</b> um ein empfangenes Element handelt oder wenn das <b>SharingItem-Objekt</b> bereits gesendet wurde (die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> -Eigenschaft des Objekts auf <b>True</b>festgelegt ist.)</para>
-          <para />
-        </remarks>
+        <remarks><para><b>SendUsingAccount</b> -Eigenschaft kann verwendet werden, um das Konto anzugeben, die verwendet werden soll, Senden von <b>SharingItem</b> bei der <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> -Methode aufgerufen wird. Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn das Konto für angegeben <b>SharingItem-Objekt</b> nicht mehr vorhanden ist oder das <b>SharingItem-Objekt</b> ist ein empfangenes Element.</para>
+          <para> Diese Eigenschaft ist schreibgeschützt, wenn das <b>SharingItem-Objekt</b> um ein empfangenes Element handelt oder wenn das <b>SharingItem-Objekt</b> bereits gesendet wurde (die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Sent" /> -Eigenschaft des Objekts auf <b>True</b>festgelegt ist.)</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -3516,10 +3379,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> -Konstanten, die die Vertraulichkeit für das <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSensitivity</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSensitivity</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sent">
@@ -3547,11 +3408,9 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> gesendet wurde. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sind im Allgemeinen gibt es drei verschiedene Arten von Nachrichten: gesendet, bereitgestellt und gespeichert. Gesendete Nachrichten sind an einen Empfänger oder öffentlichen Ordner Gesendete Elemente. Bereitgestellte Nachrichten werden in einem öffentlichen Ordner erstellt. Gespeicherte Nachrichten werden erstellt und gespeichert, ohne senden oder bereitzustellen.</para>
-          <para>Versuch, dass wenn diese Eigenschaft auf <b>True</b>festgelegt ist, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" /> -Eigenschaft erzeugt einen Fehler.</para>
-          <para />
-        </remarks>
+        <remarks><para>In der Regel gibt es drei verschiedene Arten von Nachrichten: gesendet, bereitgestellt und gespeichert. Gesendete Nachrichten sind Elemente, die an einen Empfänger oder einen Öffentlichen Ordner gesendet wurden. Bereitstellungen werden in einem Öffentlichen Ordner erstellt. Gespeicherte Nachrichten werden erstellt und gespeichert, ohne sie zu senden oder bereitzustellen.</para>
+          <para>Wenn diese Eigenschaft auf <b>True</b>festgelegt ist, versucht, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SendUsingAccount" /> -Eigenschaft erzeugt einen Fehler.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOn">
@@ -3579,10 +3438,8 @@
       <Docs>
         <summary>Gibt eine <b>DateTime</b> , der angibt, das Datum und die Uhrzeit auf dem die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> gesendet wurde. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagClientSubmitTime</b>. Beim Senden eines Elements mithilfe des Objekts <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> -Methode, legt der Transportdienst die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReceivedTime" /> und <b>SentOn</b> -Eigenschaften für Sie.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagClientSubmitTime</b>. Beim Senden eines Elements mithilfe des Objekts <see cref="M:Microsoft.Office.Interop.Outlook._SharingItem.Send" /> -Methode, legt der Transportdienst die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.ReceivedTime" /> und <b>SentOn</b> -Eigenschaften für Sie. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOnBehalfOfName">
@@ -3611,13 +3468,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der des Anzeigenamen für den beabsichtigten Absender der der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der des Anzeigenamen für den beabsichtigten Absender der der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSentRepresentingName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSentRepresentingName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -3645,16 +3499,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SharingProvider">
@@ -3710,12 +3562,10 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#), die die GUID des den Freigabedienstanbieter von verwendet die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die GUID wird als Zeichenfolge im folgenden Format zurückgegeben:</para>
+        <remarks><para>Die GUID wird als Zeichenfolge mit folgendem Format zurückgegeben:</para>
           <code>{00000000-0000-0000-0000-000000000000}</code>
-          <para>Wenn das <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SharingProvider" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlProviderUnknown</b>festgelegt ist, können Sie die <b>SharingProviderGUID</b> -Eigenschaft verwenden, um die Freigabe zu identifizieren. Anbieter.</para>
-          <para />
-        </remarks>
+          <para>Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.SharingProvider" /> -Eigenschaft des <b>SharingItem</b> -Objekts auf <b>OlProviderUnknown</b>festgelegt ist, können Sie die <b>SharingProviderGUID</b> -Eigenschaft verwenden, um den Freigabedienstanbieter zu identifizieren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -3797,13 +3647,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, des der Betreffs der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, des der Betreffs der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Submitted">
@@ -3831,10 +3678,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> übermittelt wurde. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Eine Nachricht wird immer erstellt und in einem Ordner, gewöhnlich im Ordner Postausgang gesendet.</para>
-          <para />
-        </remarks>
+        <remarks><para>Eine Nachricht wird immer in einem Ordner, gewöhnlich im Ordner Postausgang, erstellt und abgesendet. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskCompletedDate">
@@ -3865,10 +3710,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der das Datum der Fertigstellung des Vorgangs für dieses <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskDueDate">
@@ -3899,10 +3742,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der das Fälligkeitsdatum der Aufgabe für dieses <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskStartDate">
@@ -3933,10 +3774,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der das Startdatum des Vorgangs für dieses <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TaskSubject">
@@ -3967,10 +3806,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Betreff der Aufgabe für darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt den Wert der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Subject" /> Eigenschaft Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt den Wert der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.Subject" /> Eigenschaft Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="To">
@@ -4001,10 +3838,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen eine durch Semikolons getrennte <b>Zeichenfolge</b> (<b>String</b> in c#) Liste der Anzeigenamen der an-Empfänger für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft enthält nur die Anzeigenamen. Die To-Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayTo</b>. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung sollte verwendet werden, um diese Eigenschaft zu ändern.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen. To-Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayTo</b>. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung sollte verwendet werden, um diese Eigenschaft zu ändern. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToDoTaskOrdinal">
@@ -4035,11 +3870,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der den Ordinalwert der Aufgabe für die <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
-          <para>Diese Eigenschaft wird verwendet, um anzugeben, wie die Aufgabe innerhalb der übergeordneten Gruppen, wie heute oder morgen, der Aufgabenleiste sortiert werden soll. Der Wert, der in dieser Eigenschaft hat keinen Bezug zu der Werte von der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, oder <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskCompletedDate" /> Eigenschaften.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn die <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.IsMarkedAsTask" /> -Eigenschaft auf <b>False</b>festgelegt ist.</para>
+          <para>Diese Eigenschaft wird verwendet, um anzugeben, wie die Aufgabe innerhalb der übergeordneten Gruppen, wie Heute oder Morgen, der Aufgabenleiste sortiert werden soll. Der Wert, der in dieser Eigenschaft hat keinen Bezug zu der Werte von der <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskStartDate" />, <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskDueDate" />, oder <see cref="P:Microsoft.Office.Interop.Outlook._SharingItem.TaskCompletedDate" /> Eigenschaften.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -4070,10 +3903,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlSharingMsgType" /> -Konstante, die den Typ des dargestellten Freigabenachricht angibt der <see cref="T:Microsoft.Office.Interop.Outlook.SharingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ein Fehler tritt auf, wenn Sie versuchen, diese Eigenschaft festzulegen, nachdem die Freigabenachricht gesendet oder empfangen wurde, oder wenn Sie versuchen, diese Eigenschaft auf <b>OlSharingMsgTypeResponseAllow</b> oder <b>OlSharingMsgTypeResponseDeny</b>festzulegen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein Fehler tritt auf, wenn Sie versuchen, diese Eigenschaft festzulegen, nachdem die Freigabenachricht gesendet oder empfangen wurde, oder wenn Sie versuchen, diese Eigenschaft auf <b>OlSharingMsgTypeResponseAllow</b> oder <b>OlSharingMsgTypeResponseDeny</b> festzulegen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">

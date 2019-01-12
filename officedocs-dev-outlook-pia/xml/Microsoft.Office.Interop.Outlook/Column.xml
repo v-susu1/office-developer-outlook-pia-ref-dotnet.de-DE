@@ -1,13 +1,5 @@
 <Type Name="Column" FullName="Microsoft.Office.Interop.Outlook.Column">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="46ea2650432468cf516946b92fbae341d0c68957" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635588" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Column : Microsoft.Office.Interop.Outlook._Column" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b2633365f3bf01e8376f60873e9b594ca9522299" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904462" /></Metadata><TypeSignature Language="C#" Value="public interface Column : Microsoft.Office.Interop.Outlook._Column" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Column implements class Microsoft.Office.Interop.Outlook._Column" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Column" />
   <TypeSignature Language="VB.NET" Value="Public Interface Column&#xA;Implements _Column" />
@@ -31,12 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Spalte mit Daten in einem <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekt.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Column" />.</para>
-      <para>Eine <b>Tabelle</b> besteht aus Zeilen und Spalten. Es stellt ein nur-Lese-dynamisches Rowset von Daten in einem <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> Objekt. Jede Zeile einer <b>Tabelle</b> kann als ein Element in den Ordner jeder Spalte als Eigenschaft des Elements angesehen werden. Standardmäßig enthält eine <b>Tabelle</b> nur eine Teilmenge der Eigenschaften für Elemente im Ordner. Dadurch wird die <b>Tabelle</b> mit einem in-Memory-Rowset, das schnelles Aufzählen und Filtern von Elementen im Ordner ermöglicht.</para>
-      <para>Zum Abrufen des Wertes einer Eigenschaft (Spalte) für ein bestimmtes Element (Zeile) in einer <b>Tabelle</b>, können Sie entweder die <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" /> -Methode und Index in der zurückgegebenen Array, oder verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" /><b />Eigenschaft (<b>diese</b> in c#), die <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" />der Spalte.</para>
-      <para />
-    </remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Column" />.</para>
+      <para>Eine <b>Tabelle</b> besteht aus Zeilen und Spalten. Es stellt ein nur-Lese-dynamisches Rowset von Daten in einem <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> Objekt. Jede Zeile einer <b>Tabelle</b> kann als ein Element in den Ordner jeder Spalte als Eigenschaft des Elements angesehen werden. Standardmäßig enthält eine <b>Tabelle</b> nur eine Teilmenge der Eigenschaften für Elemente im Ordner. Dadurch wird die <b>Tabelle</b> zu einem in-Memory-Rowset, das schnelles Aufzählen und Filtern von Elementen im Ordner ermöglicht.</para>
+      <para>Um den Wert einer Eigenschaft (Spalte) für ein bestimmtes Element (Zeile) in einer <b>Tabelle</b>zu erhalten, können Sie entweder die <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetArray(System.Int32)" /> -Methode und Index in der zurückgegebenen Array, oder verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._Row.Item(System.Object)" /> <b />Eigenschaft (<b>diese</b> in c#), Angeben der <see cref="P:Microsoft.Office.Interop.Outlook._Column.Name" /> der Spalte.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>
