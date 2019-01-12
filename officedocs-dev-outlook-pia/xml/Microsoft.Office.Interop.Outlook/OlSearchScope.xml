@@ -1,13 +1,5 @@
 <Type Name="OlSearchScope" FullName="Microsoft.Office.Interop.Outlook.OlSearchScope">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5bf874a2f107891f654d5c42c74f87e291457f1b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635566" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public enum OlSearchScope" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6e37dca2d95b84fa85e86240986f903d21b6057e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904210" /></Metadata><TypeSignature Language="C#" Value="public enum OlSearchScope" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlSearchScope extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlSearchScope" />
   <TypeSignature Language="VB.NET" Value="Public Enum OlSearchScope" />
@@ -21,11 +13,9 @@
   </Base>
   <Docs>
     <summary>Gibt hinsichtlich der Ordner den Umfang für die Suche an.</summary>
-    <remarks>
-      <para>Können Sie Speicher in die Positionen der Suche im Menü durchsuchen, indem Sie auf Suchtools in der Gruppe "Optionen" von der Suche Kontextregisterkarte in der Microsoft Office Fluent-Menüband auswählen.</para>
-      <para>Standardmäßig Suche schließt nicht den Ordner Gelöschte Objekte. Suchen den Ordner Gelöschte Objekte, legen Sie diesen Ordner als aktuellen Ordner und zum Suchen nach <see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />.</para>
-      <para />
-    </remarks>
+    <remarks><para>Sie können die zu durchsuchenden Informationsspeicher im Menü Zu durchsuchende Speicherorte auswählen, indem Sie auf der Kontextregisterkarte Suche im Microsoft Office Fluent-Menüband in der Gruppe Optionen auf Suchtools.</para>
+      <para>Standardmäßig umfasst die Suche nicht den Ordner Gelöschte Elemente. Suchen den Ordner Gelöschte Objekte, legen Sie diesen Ordner als aktuellen Ordner und zum Suchen nach <see cref="F:Microsoft.Office.Interop.Outlook.OlSearchScope.olSearchScopeCurrentFolder" />.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="olSearchScopeAllFolders">

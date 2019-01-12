@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_BeforeSizeEventHandler" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="27ba9a210bb6cae2b0d77c0a84ee44ce59811f1e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636216" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeSizeEventHandler(out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c8f33a726136d77683d940115f3e88dc18c63015" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905568" /></Metadata><TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeSizeEventHandler(out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExplorerEvents_10_BeforeSizeEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ExplorerEvents_10_BeforeSizeEventHandler(ByRef Cancel As Boolean)" />
@@ -34,8 +26,7 @@
     <ReturnType>System.Void</ReturnType>
   </ReturnValue>
   <Docs>
-    <param name="Cancel">
-      <b>False,</b> Wenn das Ereignis auftritt. Wenn die Ereignisprozedur dieses Argument auf <b>True</b> festgelegt wird, ist nicht abgeschlossen, und klicken Sie im <b>Explorer</b> Größe wird nicht geändert. </param>
+    <param name="Cancel"><b>False,</b> Wenn das Ereignis auftritt. Wenn die Ereignisprozedur dieses Argument auf <b>True</b> festgelegt wird, ist nicht abgeschlossen, und klicken Sie im <b>Explorer</b> Größe wird nicht geändert. </param>
     <summary>Hierbei handelt es sich um eine Stellvertretung für ein Ereignis im entsprechenden Objekt. Verwenden Sie diese Stellvertretung, nachdem Sie eine Callback-Methode für das Ereignis implementiert haben, um die Callback-Methode mit dem Ereignis zu verbinden. Wenn mehrere Versionen der Ereignisschnittstelle vorhanden sind, verbindet diese Stellvertretung die Callback-Methode für das Ereignis in der angegebenen Outlook-Version.</summary>
     <remarks>To be added.</remarks>
   </Docs>

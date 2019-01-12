@@ -1,13 +1,5 @@
 <Type Name="Attachment" FullName="Microsoft.Office.Interop.Outlook.Attachment">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="bca3de4ee3e1766193a9380a2d4dcee5344f4ba1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635884" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Attachment" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="eadbaac7ca2fb1ea21fb2b4899e303c68daea5b3" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904217" /></Metadata><TypeSignature Language="C#" Value="public interface Attachment" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Attachment" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Attachment" />
   <TypeSignature Language="VB.NET" Value="Public Interface Attachment" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Stellt ein Dokument oder eine Verknüpfung zu einem Dokument dar, das/die in einem Outlook-Element enthalten ist.</summary>
-    <remarks>
-      <para>Verwendung <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), wobei <paramref name="index" /> wird die Indexzahl darstellt, um ein einzelnes <b>Attachment</b> -Objekt zurückzugeben.</para>
+    <remarks><para>Verwendung <see cref="P:Microsoft.Office.Interop.Outlook.Attachments.Item(System.Object)" /> (<paramref name="index" />), wobei <paramref name="index" /> wird die Indexzahl darstellt, um ein einzelnes <b>Attachment</b> -Objekt zurückzugeben.</para>
       <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook.Attachments.Add(System.Object,System.Object,System.Object,System.Object)" /> -Methode, um eine Anlage zu einem Element hinzuzufügen.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -87,10 +77,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlAttachmentBlockLevel" /> -Konstante, die angibt, ob eine Einschränkung auf das Attachment-Objekt basierend auf ihrer Erweiterung vorhanden ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft entspricht, ob eine Anlage blockiert wird basierend auf ihrer Erweiterung und wie für die Sicherheit von Anhängen auf dem Clientcomputer eingerichtet wurde. Weitere Informationen zur Sicherheit von Anlagen in Outlook finden Sie in der Office Resource Kit-Websites.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieser Wert dieser Eigenschaft gibt wieder, ob eine Anlage basierend auf ihrer Dateierweiterung blockiert wird und wie die Anlagensicherheit auf dem Client-Computer eingerichtet wurde. Weitere Informationen zur Anlagensicherheit finden Sie auf der Office Resource Kit-Website.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -172,13 +160,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Namen, die nicht den tatsächlichen Dateinamen, unter dem Symbol, das die eingebettete Anlage darstellt angezeigt werden muss. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Namen, die nicht den tatsächlichen Dateinamen, unter dem Symbol, das die eingebettete Anlage darstellt angezeigt werden muss. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayName</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayName</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FileName">
@@ -206,10 +191,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Dateinamen der Anlage darstellt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Verwenden Sie diese Eigenschaft in Verbindung mit der <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Verwenden Sie diese Eigenschaft in Verbindung mit der <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.PathName" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTemporaryFilePath">
@@ -235,11 +218,9 @@
       <Docs>
         <summary>Gibt den vollständigen Pfad zu der angefügten Datei in einem Ordner temporäre Dateien zurück. Schreibgeschützt.</summary>
         <returns>Gibt eine <see cref="T:System.String" /> , der den vollständigen Pfad zum temporären Anlagedatei darstellt.</returns>
-        <remarks>
+        <remarks><para><b>GetTemporaryFilePath</b> -Methode gilt nur für diese Anlagen, deren <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. Das bedeutet, dass die Anlage eine Kopie ist und dass die Kopie zugegriffen werden kann, selbst wenn die ursprüngliche Datei entfernt wird. Für andere Typen von Anhängen gibt die <b>GetTemporaryFilePath</b> -Methode einen Fehler zurück. </para>
           <para>
-            <b>GetTemporaryFilePath</b> -Methode gilt nur für diese Anlagen, deren <see cref="P:Microsoft.Office.Interop.Outlook.Attachment.Type" /> -Eigenschaft ist <see cref="F:Microsoft.Office.Interop.Outlook.OlAttachmentType.olByValue" />. Das bedeutet, dass die Anlage eine Kopie ist und dass die Kopie zugegriffen werden kann, selbst wenn die ursprüngliche Datei entfernt wird. Für andere Typen von Anhängen gibt die <b>GetTemporaryFilePath</b> -Methode einen Fehler zurück. </para>
-          <para>
-            <b>GetTemporaryFilePath</b> gibt auch einen Fehler zurück, wenn Sie den Zugriff auf ein <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> -Objekt in einer <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> Auflistung oder in der <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> Objekt. Verwendung <b>GetTemporaryFilePath</b> nur in Anlage Ereignisrückrufe für verschiedene Microsoft Outlook-Elemente unten aufgeführten:</para>
+            <b>GetTemporaryFilePath</b> gibt auch einen Fehler zurück, wenn Sie den Zugriff auf ein <see cref="T:Microsoft.Office.Interop.Outlook.Attachment" /> -Objekt in einer <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> Auflistung oder in der <see cref="T:Microsoft.Office.Interop.Outlook.AttachmentSelection" /> Objekt. Verwenden Sie <b>GetTemporaryFilePath</b> nur in Anlage Ereignisrückrufe für verschiedene Microsoft Outlook Elemente unten aufgeführten:</para>
           <list type="bullet">
             <item>
               <para>
@@ -282,8 +263,7 @@
               </para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -311,10 +291,8 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Position des Objekts innerhalb der Auflistung zurück.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Index</b> -Eigenschaft ist nur während der aktuellen Sitzung gültig und kann ändern, wie Objekte hinzugefügt oder aus der Auflistung gelöscht. Das erste Objekt in der Auflistung hat <b>einen Indexwert 1</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Index</b> -Eigenschaft ist nur während der aktuellen Sitzung gültig und kann ändern, wie Objekte hinzugefügt oder aus der Auflistung gelöscht. Das erste Objekt in der Auflistung hat <b>einen Indexwert 1</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MAPIOBJECT">
@@ -401,10 +379,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den vollständigen Pfad zu der verknüpften Datei angefügt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist nur für verknüpfte Dateien zulässig.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist nur für verknüpfte Dateien zulässig.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -435,12 +411,10 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Position der Anlage in den Textkörper des Elements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Position</b> -Eigenschaft funktioniert nur auf eine Anlage für ein Element, in dem das Format des Textkörpers Rich-Text (RTF) ist. Ist das Format des Textkörpers nicht RTF, die <b>Position</b> -Eigenschaft für einen Set-Vorgang ignoriert, und gibt immer null (0) für einen Abrufvorgang.</para>
-          <para>, Wenn Sie die <b>Position</b> -Eigenschaft auf 0 für ein Element festlegen, in dem Text formatieren RTF, wird die Anlage im Outlook Benutzeroberfläche ausgeblendet werden. Die Anlage ist nicht in einer Ansicht sichtbar, und der Benutzer kann nicht aus dem Textkörper des Elements die Anlage entfernen. Die Anlage weiterhin über zugegriffen werden kann die <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> Auflistung für das Element.</para>
-          <para>Das einzige Element, das ermöglicht das programmgesteuerte Einstellung der BodyFormat-Eigenschaft ist ein <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Andere Elementtypen wie Termin, Kontakt und Aufgabe sind RTF standardmäßig. </para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Position</b> -Eigenschaft funktioniert nur auf eine Anlage für ein Element, in dem das Format des Textkörpers Rich-Text (RTF) ist. Ist das Format des Textkörpers nicht RTF, die <b>Position</b> -Eigenschaft für einen Set-Vorgang ignoriert, und gibt immer null (0) für einen Get-Vorgang zurück.</para>
+          <para>Wenn Sie die <b>Position</b> -Eigenschaft für ein Element auf 0 festlegen, in dem das Format des Textkörpers RTF ist, wird die Anlage im Outlook Benutzeroberfläche ausgeblendet werden. Die Anlage ist nicht in einer Ansicht sichtbar, und der Benutzer kann nicht aus dem Textkörper des Elements die Anlage entfernen. Die Anlage weiterhin über zugegriffen werden kann die <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> Auflistung für das Element.</para>
+          <para>Das einzige Element, das programmgesteuerte Einstellung der Eigenschaft BodyFormat ermöglicht ist ein <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />. Andere Elementtypen wie Termin, Kontakt und Aufgabe sind RTF standardmäßig. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -524,16 +498,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Size">
@@ -561,10 +533,9 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Größe (in Bytes) der Anlage zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Informationen können nicht immer für Anlagen verfügbar sein.  Beispielsweise sind für eine S/MIME-Nachricht, die tatsächliche Anlagengröße unbekannt, bis die Anlage extrahiert wird. In Fällen, in dem die Größe der Anlage nicht ermittelt werden kann, gibt diese Eigenschaft 0 zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Information ist möglicherweise nicht immer für Anlagen verfügbar. Bei einer S/MIME-Nachricht beispielsweise ist die tatsächliche Größe der Anlage erst nach dem Extrahieren der Anlage bekannt. Wenn die Größe der Anlage nicht ermittelt werden kann, gibt diese Eigenschaft 0 zurück. 
+  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">

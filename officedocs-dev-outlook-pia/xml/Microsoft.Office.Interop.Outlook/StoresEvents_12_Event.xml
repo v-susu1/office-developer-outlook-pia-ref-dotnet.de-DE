@@ -1,13 +1,5 @@
 <Type Name="StoresEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b7130da689629b3854734549d3eea36f219b10b1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636608" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1da25ba77d55a14d75d64b193c88a0a25d516efe" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903818" /></Metadata><TypeSignature Language="C#" Value="public interface StoresEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract StoresEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface StoresEvents_12_Event" />
@@ -49,37 +41,35 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn eine <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> ist entweder programmgesteuert oder durch eine Benutzeraktion aus der aktuellen Sitzung entfernt werden soll.</summary>
-        <remarks>
-          <para>Muss in damit dieses Ereignis ausgelöst werden Outlook ausgeführt werden. Dieses Ereignis wird ausgelöst, wenn einer der folgenden eintritt: </para>
+        <remarks><para>Outlook muss ausgeführt werden, damit dieses Ereignis ausgelöst wird. Dieses Ereignis wird ausgelöst, wenn Folgendes auftritt:</para>
           <list type="bullet">
             <item>
-              <para>ein Speicher wird vom Benutzer durch Klicken auf den Befehl Schließen im Kontextmenü entfernt.</para>
+              <para>Ein Speicher wird vom Benutzer durch Klicken auf den Befehl Schließen im Kontextmenü entfernt.</para>
             </item>
             <item>
               <para>Ein Speicher wird programmatisch durch Aufrufen von entfernt <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.RemoveStore(Microsoft.Office.Interop.Outlook.MAPIFolder)" />.</para>
             </item>
           </list>
-          <para>Dieses Ereignis wird nicht ausgelöst, wenn einer der folgenden eintritt:</para>
+          <para>Dieses Ereignis wird nicht ausgelöst, wenn Folgendes auftritt: </para>
           <list type="bullet">
             <item>
-              <para>Wenn Outlook heruntergefahren, und schließt ein primärer Speicher oder Delegatspeicher.</para>
+              <para>Outlook wird heruntergefahren, und ein primärer Speicher oder Delegatspeicher wird geschlossen.</para>
             </item>
             <item>
-              <para>Wenn ein Speicher über das Applet Mail in der Systemsteuerung von Microsoft Windows entfernt wird und Outlook wird nicht ausgeführt.</para>
+              <para>Ein Speicher wird über das Applet Mail in der Systemsteuerung von Microsoft Windows entfernt, und Outlook wird nicht ausgeführt.</para>
             </item>
             <item>
               <para>Ein Delegatspeicher wird auf der Registerkarte Erweitert des Dialogfelds Microsoft Exchange Server entfernt.</para>
             </item>
             <item>
-              <para>Ein Speicher wird über die Registerkarte Datendateien des Dialogfelds Konto-Manager entfernt, wenn Outlook nicht ausgeführt wird.</para>
+              <para>Ein Speicher wird über die Registerkarte Datendateien des Dialogfelds Konto-Manager entfernt, während Outlook nicht ausgeführt wird.</para>
             </item>
             <item>
               <para>Ein IMAP-Speicher wird aus dem Profil entfernt.</para>
             </item>
           </list>
-          <para>Können mit diesem Ereignis können Sie feststellen, dass ein Speicher entfernt wurde, und geeignete Maßnahmen ergreifen, wenn der Informationsspeicher für die Anwendung (z. B. Erneutes Bereitstellen des Speichers) erforderlich ist. Andernfalls müssen Sie Abfragen der <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> Auflistung.</para>
-          <para />
-        </remarks>
+          <para>Sie können mit diesem Ereignis können Sie feststellen, dass ein Speicher entfernt wurde, und geeignete Maßnahmen ergreifen, wenn der Informationsspeicher für die Anwendung (z. B. Erneutes Bereitstellen des Speichers) erforderlich ist. Andernfalls müssen Sie Abfragen der <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> Auflistung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StoreAdd">
@@ -98,34 +88,32 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn eine <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> wurde entweder programmgesteuert oder durch eine Benutzeraktion der aktuellen Sitzung hinzugefügt wurde.</summary>
-        <remarks>
-          <para>Muss in damit dieses Ereignis ausgelöst werden Outlook ausgeführt werden. Dieses Ereignis wird ausgelöst, wenn Folgendes auftritt: </para>
+        <remarks><para>Outlook muss ausgeführt werden, damit dieses Ereignis ausgelöst wird. Dieses Ereignis wird ausgelöst, wenn Folgendes auftritt:</para>
           <list type="bullet">
             <item>
-              <para>ein Speicher wird über das Dialogfeld Outlook-Datendatei öffnen durch Auswählen von öffnen und klicken Sie dann auf Outlook-Datendatei im Menü Datei hinzugefügt.</para>
+              <para>Ein Speicher wird über das Dialogfeld Outlook-Datendatei öffnen durch Auswählen von Öffnen und dann Outlook-Datendatei im Menü Datei hinzugefügt.</para>
             </item>
             <item>
               <para>Ein Speicher wird über die Registerkarte Datendateien des Dialogfelds Konto-Manager hinzugefügt.</para>
             </item>
             <item>
-              <para>Ein Speicher wird durch Aufrufen von erfolgreich hinzugefügt die <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> -Methode.</para>
+              <para>Ein Speicher wird erfolgreich hinzugefügt, durch Aufrufen der <see cref="M:Microsoft.Office.Interop.Outlook._NameSpace.AddStore(System.Object)" /> Methode.</para>
             </item>
           </list>
-          <para>Dieses Ereignis wird nicht ausgelöst, wenn einer der folgenden eintritt:</para>
+          <para>Dieses Ereignis wird nicht ausgelöst, wenn Folgendes auftritt: </para>
           <list type="bullet">
             <item>
-              <para>Wenn Outlook startet und öffnet ein primärer Speicher oder Delegatspeicher.</para>
+              <para>Outlook wird gestartet, und ein primärer Speicher oder Delegatspeicher wird geöffnet.</para>
             </item>
             <item>
-              <para>Wenn ein Speicher über das Applet Mail in der Microsoft Windows-Systemsteuerung hinzugefügt wird und Outlook wird nicht ausgeführt.</para>
+              <para>Ein Speicher wird über das Applet Mail in der Systemsteuerung von Microsoft Windows hinzugefügt, und Outlook wird nicht ausgeführt.</para>
             </item>
             <item>
-              <para>Ein Delegatspeicher wird über die Registerkarte Erweitert im Dialogfeld Microsoft Exchange Server hinzugefügt.</para>
+              <para>Ein Delegatspeicher wird über die Registerkarte Erweitert des Dialogfelds Microsoft Exchange Server hinzugefügt.</para>
             </item>
           </list>
-          <para>Können Sie mit diesem Ereignis können Sie bestimmen, ob ein Speicher hinzugefügt wurde und entsprechenden Aktionen für Elemente in diesen Speicher. Andernfalls müssen Sie Abfragen der <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> Auflistung.</para>
-          <para />
-        </remarks>
+          <para>Sie können mithilfe dieses Ereignisses ermitteln, ob ein Speicher hinzugefügt wurde, und geeignete Maßnahmen für Elemente in diesem Speicher ergreifen. Andernfalls müssen Sie Abfragen der <see cref="T:Microsoft.Office.Interop.Outlook.Stores" /> Auflistung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

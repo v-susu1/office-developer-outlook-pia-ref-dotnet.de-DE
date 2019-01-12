@@ -1,13 +1,5 @@
 <Type Name="_SimpleItems" FullName="Microsoft.Office.Interop.Outlook._SimpleItems">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d86021a7f901451e7d4f548b758b4fb5fb10168e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636396" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SimpleItems : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="d86021a7f901451e7d4f548b758b4fb5fb10168e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903363" /></Metadata><TypeSignature Language="C#" Value="public interface _SimpleItems : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SimpleItems implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SimpleItems" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SimpleItems&#xA;Implements IEnumerable" />
@@ -147,10 +139,8 @@
         <param name="Index">Der nullbasierte Indexwert des Objekts in der <b>SimpleItems</b> -Auflistung.</param>
         <summary>Gibt ein <see cref="T:System.Object" /> (in c#-<b>Objekt</b> ) in der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Auflistung.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn diese Eigenschaft ein Fehler auftritt, um ein Objekt in der Auflistung als zurückzugeben angegeben, durch die <paramref name="Index" /> -Parameter gibt die-Methode <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn diese Eigenschaft ein Fehler auftritt, um ein Objekt in der Auflistung als zurückzugeben angegeben, durch die <paramref name="Index" /> -Parameter gibt die-Methode <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -178,10 +168,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <see cref="T:System.Object" /> (in c#-<b>Objekt</b> ) von der <see cref="T:Microsoft.Office.Interop.Outlook.SimpleItems" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt eines <b>SimpleItems</b> -Objekts ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt eines <b>SimpleItems</b> -Objekts ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -209,11 +197,9 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine angemeldete Sitzung vorhanden ist.</para>
-          <para>Können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Beide Member denselben Zweck.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine angemeldete Sitzung vorhanden ist.</para>
+          <para>Sie können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode austauschbar zum Abrufen der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Beide Elemente dienen demselben Zweck.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

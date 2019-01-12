@@ -1,13 +1,5 @@
 <Type Name="_OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook._OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635741" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="634eab2d4b9fd488a079b785a9e53badada48a71" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902789" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkTimeZoneControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkTimeZoneControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkTimeZoneControl" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlAppointmentTimeField" /> -Konstante, die das Uhrzeitfeld für den Termin angibt, die das Steuerelement gebunden.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dieses Steuerelement unterstützt keine Standarddaten Bindung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Steuerelement unterstützt keine Standarddatenbindung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> -Konstante, die das Format des Rahmens um das Steuerelement definiert.   Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -120,10 +108,8 @@
       <Parameters />
       <Docs>
         <summary>Erweitert den Dropdownteil des Zeitzonen-Steuerelements.</summary>
-        <remarks>
-          <para>Simuliert den Benutzer auf die Dropdownschaltfläche für das Steuerelement. Mit dieser Methode wird die <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> -Ereignis ausgelöst.</para>
-          <para />
-        </remarks>
+        <remarks><para>Simuliert den Benutzer, der auf die Dropdownschaltfläche des Steuerelements klickt. Mit dieser Methode wird die <see cref="E:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event.DropButtonClick" /> -Ereignis ausgelöst.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -154,10 +140,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -188,11 +172,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob das Steuerelement gesperrt ist, geändert oder nicht. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>False</b>.  </para>
-          <para>, Wenn das Steuerelement gesperrt ist, das Steuerelement ist nicht "deaktiviert" aus, aber der Benutzer kann die Inhalte des Steuerelements ändern.   </para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>False</b>.</para>
+          <para>Wenn das Steuerelement gesperrt ist, sieht es nicht "deaktiviert" aus, aber der Benutzer kann die Inhalte des Steuerelements nicht ändern.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -223,10 +205,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>StdPicture</b> , das das benutzerdefinierte Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -257,10 +237,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedTimeZoneIndex">
@@ -291,11 +269,9 @@
       <Docs>
         <summary>Gibt zurück oder legt eine <b>ganze Zahl</b> (<b>Int</b> in c#), die in den Index darstellt der <see cref="P:Microsoft.Office.Interop.Outlook._Application.TimeZones" /> -Auflistung, die die ausgewählte Zeitzone bestimmt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>SelectedTimeZoneIndex</b> ist 1-basierte und ein Wert von null (0) bedeutet, dass keine Zeitzone ausgewählt wurde.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">

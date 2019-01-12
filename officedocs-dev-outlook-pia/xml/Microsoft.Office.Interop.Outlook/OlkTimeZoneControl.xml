@@ -1,13 +1,5 @@
 <Type Name="OlkTimeZoneControl" FullName="Microsoft.Office.Interop.Outlook.OlkTimeZoneControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="50bfd42f60ae3c7bd0edffbf6b1ad877dd6ddd26" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636714" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkTimeZoneControl : Microsoft.Office.Interop.Outlook._OlkTimeZoneControl, Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="39efe87db427ad99a3ea7a5d45fd528e7acf508e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904637" /></Metadata><TypeSignature Language="C#" Value="public interface OlkTimeZoneControl : Microsoft.Office.Interop.Outlook._OlkTimeZoneControl, Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkTimeZoneControl implements class Microsoft.Office.Interop.Outlook._OlkTimeZoneControl, class Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkTimeZoneControl&#xA;Implements _OlkTimeZoneControl, OlkTimeZoneControlEvents_Event" />
@@ -34,10 +26,11 @@
   </Attributes>
   <Docs>
     <summary>Ein Steuerelement, die eine Auswahl aus einer Dropdownliste mit Zeitzonen unterstützt.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />.</para>
-      <para>, Bevor Sie dieses Steuerelement zum ersten Mal im Formular-Designer verwenden Microsoft Outlook Zeitzonen-Steuerelements zur Steuerelement-Toolbox hinzufügen. Sie können nur einen Formularbereich in einem Outlook-Formular im Formular-Designer mit diesem Steuerelement hinzufügen; Sie können dieses Steuerelement ein Visual Basic-UserForm-Objekt in Visual Basic-Editor Hinzufügen.</para> Die folgenden 
-      <para>ist ein Beispiel für ein Zeitzonen-Steuerelement.  Die Zeitzonendaten aus dem Windows-Registrierungsschlüssel HKEY LOCAL MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones abgerufen werden können.</para><para>Wenn ein Terminelement ursprünglich mit einem Zeitzonenwert, die nicht mehr vorhanden ist erstellt wurde, wird die Zeit des Termins in die aktuellen Ortszeitzone konvertiert.</para><para /></remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkTimeZoneControl" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkTimeZoneControlEvents_Event" />.</para>
+      <para>Damit Sie dieses Steuerelement erstmalig im Formular-Designer verwenden können, müssen Sie das Zeitzonen-Steuerelement von Microsoft Outlook der Steuerelement-Toolbox hinzufügen. Sie können dieses Steuerelement nur mithilfe des Formular-Designers einem Bereich eines Outlook-Formulars hinzufügen. Es ist nicht möglich, das Steuerelement einem Visual Basic-UserForm-Objekt im Visual Basic-Editor hinzuzufügen.</para>
+      <para>Das folgende Beispiel zeigt ein Zeitzonen-Steuerelement. Die Zeitzonendaten können aus dem Windows-Registrierungsschlüssel HKEY LOCAL MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones abgerufen werden.</para>
+      <para>Wenn ein Terminelement ursprünglich mit einem nicht mehr vorhandenen Zeitzonenwert erstellt wurde, wird die Zeit des Termins in die aktuellen Ortszeitzone konvertiert.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

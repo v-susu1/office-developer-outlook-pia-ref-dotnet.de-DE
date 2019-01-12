@@ -1,13 +1,5 @@
 <Type Name="ItemEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ItemEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="fd919c2e15484df8a6620c4aef0387453e2d0b25" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636223" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10db76b897312de282fe89c78af9317334dffa68" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904609" /></Metadata><TypeSignature Language="C#" Value="public interface ItemEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemEvents_10_Event" />
@@ -49,15 +41,13 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, nachdem Microsoft Outlook das Element gespeichert hat.</summary>
-        <remarks>
-          <para>Das <b>AfterWrite</b> -Ereignis tritt ein, nachdem die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> Ereignis. Dieses Ereignis ist nicht abgebrochen werden. Um zu bestimmen, wann das Element aus dem Speicher entfernt wird, verwenden Sie die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> Ereignis. </para>
-          <para>
-            <b>AfterWrite</b> -Ereignis entspricht dem Exchange Client Extensions (ECE)-Ereignis <b>iexchextmessageevents:: Onwritecomplete</b>.</para>
-          <para>Im <b>AfterWrite</b> -Ereignis nur die folgenden Member des Item-Objekts zugegriffen werden können:</para>
+        <remarks><para>Das <b>AfterWrite</b> -Ereignis tritt ein, nachdem die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Write" /> Ereignis. Dieses Ereignis ist nicht abgebrochen werden. Um zu bestimmen, wann das Element aus dem Speicher entfernt wird, verwenden Sie die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> Ereignis. </para>
+          <para>Das <b>AfterWrite</b> -Ereignis entspricht dem Exchange Client Extensions (ECE)-Ereignis <b>iexchextmessageevents:: Onwritecomplete</b>.</para>
+          <para>Im <b>AfterWrite</b> -Ereignis können nur auf die folgenden Member des Item-Objekts zugegriffen werden: </para>
           <list type="bullet">
             <item>
               <para>
-                <b>Klasse</b>
+                <b>class</b>
               </para>
             </item>
             <item>
@@ -71,11 +61,10 @@
               </para>
             </item>
           </list>
-          <para>Der <b>MAPIOBJECT</b> -Eigenschaft ist ein hidden-Eigenschaft im Outlook-Objektmodell. Diese Eigenschaft bietet Zugriff auf das zugrunde liegende Objekt MAPI-IMessage und kann nur über die IUnknown-Schnittstelle aufgerufen werden. Die Eigenschaft ist für Programme in Sprachen wie C oder C++, <b>die IUnknown</b>unterstützen, zugänglich ist. <b>MAPIOBJECT</b> ist nicht verfügbar, bis die IDispatch-Schnittstelle. Entwicklungssprachen wie Visual Basic für Applikationen (VBA), Visual c# und Visual Basic unterstützen die <b>IDispatch</b> -Schnittstelle und nicht von <b>IUnknown</b>und aus diesem Grund können nicht um <b>MAPIOBJECT</b>zugreifen. Wenn andere Eigenschaften oder Methoden des übergeordneten Elements in diesem Ereignis zugegriffen werden, löst Outlook einen Fehler. </para>
-          <para>Das Objekt abgerufen, die von der <b>MAPIOBJECT</b> -Eigenschaft in diesem Fall muss enthalten alle Änderungen von Outlook beibehalten. Der Implementierer kann die SaveChanges-Methode aufrufen, die <b>IMessage</b> -Objekt, um die Änderungen am zugrunde liegenden <b>IMessage</b> -Objekt dargestellte <b>MAPIOBJECT</b>beibehalten werden, und diese Änderungen wird von Outlook nicht zurückgesetzt. </para>
-          <para>Implementierer müssen freigeben, das Objekt aus der <b>MAPIOBJECT</b> -Eigenschaft im Ereignis vor Abschluss des-Ereignisses abgerufen. Bei dem Versuch, verwenden Sie dieses Objekt außerhalb des Kontexts des Ereignisses wird nicht unterstützt und führt zu unvorhersehbaren.</para>
-          <para />
-        </remarks>
+          <para>Die <b>MAPIOBJECT</b> -Eigenschaft ist ein hidden-Eigenschaft im Outlook-Objektmodell. Diese Eigenschaft bietet Zugriff auf das zugrunde liegende Objekt MAPI- IMessage und kann nur über die Schnittstelle IUnknown aufgerufen werden. Die Eigenschaft ist für Programme in Sprachen wie C oder C++, <b>die IUnknown</b> unterstützen, zugänglich ist. <b>MAPIOBJECT</b> ist nicht über die Schnittstelle IDispatch verfügbar. Entwicklungssprachen wie Visual Basic für Applikationen (VBA), Visual c# und Visual Basic unterstützen die <b>IDispatch</b> -Schnittstelle und nicht von <b>IUnknown</b> und aus diesem Grund können nicht um <b>MAPIOBJECT</b> zugreifen. Wenn andere Eigenschaften oder Methoden des übergeordneten Elements in diesem Ereignis zugegriffen werden, löst Outlook einen Fehler.</para>
+          <para>Das Objekt abgerufen, die von der <b>MAPIOBJECT</b> -Eigenschaft in diesem Fall muss alle enthalten, die von Outlook die Änderungen beibehalten. Der Implementierer kann die SaveChanges -Methode aufrufen, für das <b>IMessage</b> -Objekt zum Beibehalten von Änderungen am zugrunde liegenden <b>IMessage</b> -Objekt durch <b>MAPIOBJECT</b> dargestellt, und diese Änderungen wird von Outlook nicht zurückgesetzt.</para>
+          <para>Implementierer müssen freigeben, das Objekt aus der <b>MAPIOBJECT</b> -Eigenschaft im Ereignis vor Abschluss des-Ereignisses abgerufen. Verwenden Sie dieses Objekt außerhalb des Kontexts des Ereignisses versucht, wird nicht unterstützt und führt zu unvorhersehbaren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AttachmentAdd">
@@ -170,10 +159,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, bevor eine Vorschau einer Anlage, die einer Instanz des übergeordneten Objekts zugeordnet ist, angezeigt wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis tritt auf, bevor eine Anlage aus der anlagenleiste im Lesebereich des aktiven Explorers oder vom aktiven Inspektor angezeigt wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis tritt auf, bevor eine Vorschau einer Anlage angezeigt wird. Die Vorschau erfolgt entweder über die Anlagenzeile im Lesebereich des aktiven Explorers oder über den aktiven Inspektor.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentRead">
@@ -211,10 +198,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt kurz vor dem Speichern einer Anlage ein.</summary>
-        <remarks>
-          <para>Dieses Ereignis entspricht bei Anlagen auf den messaging-Speicher gespeichert werden. <b>BeforeAttachmentSave</b> -Ereignis tritt ein, kurz bevor eine Anlage gespeichert wird, wenn ein Element gespeichert wird. Wenn ein Benutzer eine Anlage bearbeitet und speichert anschließend diese Änderungen das <b>BeforeAttachmentSave</b> -Ereignis tritt nicht zu diesem Zeitpunkt; Stattdessen wird es auftreten, wenn das Element selbst später gespeichert wird. Es tritt ebenfalls nicht auf, wenn die Anlage mithilfe der <b>SaveAsFile</b> -Methode auf der Festplatte gespeichert wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis entspricht bei Anlagen auf den messaging-Speicher gespeichert werden. <b>BeforeAttachmentSave</b> -Ereignis tritt ein, kurz bevor eine Anlage gespeichert wird, wenn ein Element gespeichert wird. Wenn ein Benutzer eine Anlage bearbeitet und speichert anschließend diese Änderungen das <b>BeforeAttachmentSave</b> -Ereignis tritt nicht zu diesem Zeitpunkt; Stattdessen wird es auftreten, wenn das Element selbst später gespeichert wird. Es tritt ebenfalls nicht auf, wenn die Anlage mithilfe der <b>SaveAsFile</b> -Methode auf der Festplatte gespeichert wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeAttachmentWriteToTempFile">
@@ -271,24 +256,22 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, bevor in Microsoft Outlook mit dem Auflösen von Namen in der Empfängerauflistung für ein Element (bei dem es sich um eine Instanz des übergeordneten Objekts handelt) begonnen wird.</summary>
-        <remarks>
-          <para>Das Ereignis wird unter den folgenden Umständen nicht ausgelöst:</para>
+        <remarks><para>Das Ereignis wird unter den folgenden Umständen nicht ausgelöst:  </para>
           <list type="bullet">
             <item>
-              <para>Sie haben ein Journaleintragsformular angepasst und anschließend einen Kontakt im Feld Kontakte aufgelöst.</para>
+              <para>Sie haben ein Journaleintragsformular angepasst und anschließend einen Kontakt im Feld Kontakte aufgelöst. </para>
             </item>
             <item>
-              <para>Haben ein Kontaktformular angepasst und anschließend einen Kontakt im Feld Kontakte aufgelöst.</para>
+              <para>Sie haben ein Kontaktformular angepasst und anschließend einen Kontakt im Feld Kontakte aufgelöst. </para>
             </item>
             <item>
-              <para>Sie alle erstellender Formulartyp angepasst und Outlook automatisch den Namen im Hintergrund aufgelöst.</para>
+              <para>Sie haben einen beliebigen Formulartyp angepasst, und Outlook hat den Namen automatisch im Hintergrund aufgelöst. </para>
             </item>
             <item>
-              <para>Programmgesteuert erstellt und einen Empfänger aufgelöst.</para>
+              <para>Sie haben einen Empfänger programmseitig erstellt und aufgelöst.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeDelete">
@@ -307,11 +290,9 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, bevor ein Element (bei dem es sich um eine Instanz des übergeordneten Objekts handelt) gelöscht wird.</summary>
-        <remarks>
-          <para>In Reihenfolge damit dieses Ereignis ausgelöst, wenn eine E-mail-Nachricht, Verteilerliste, Journaleintrag, Aufgabe, Kontakt, oder Beitrag durch eine Aktion gelöscht werden, muss ein Inspektor geöffnet sein.</para>
-          <para>Das Ereignis tritt jedes Mal ein Element gelöscht wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um dieses Ereignis auszulösen, wenn eine E-Mail-Nachricht, eine Verteilerliste, ein Journaleintrag, eine Aufgabe, ein Kontakt oder ein Sendevorgang durch eine Aktion gelöscht wird, muss ein Inspektor geöffnet sein.</para>
+          <para>Das Ereignis tritt bei jedem Löschen eines Objekts ein.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeRead">
@@ -330,14 +311,13 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, bevor Microsoft Outlook damit beginnt, die Eigenschaften des Elements zu lesen.</summary>
-        <remarks>
-          <para>Das <b>BeforeRead</b> -Ereignis tritt ein, nachdem die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> Ereignis. Im Gegensatz zu anderen Ereignissen mit dem Präfix <b>vor</b> ist dieses Ereignis nicht abgebrochen werden. Um zu bestimmen, wann das Element aus dem Speicher entfernt wird, verwenden Sie die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> Ereignis. </para>
+        <remarks><para>Das <b>BeforeRead</b> -Ereignis tritt ein, nachdem die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> Ereignis. Im Gegensatz zu anderen Ereignissen mit dem Präfix <b>vor</b> ist dieses Ereignis nicht abgebrochen werden. Um zu bestimmen, wann das Element aus dem Speicher entfernt wird, verwenden Sie die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> Ereignis. </para>
           <para>Das <b>BeforeRead</b> -Ereignis entspricht dem Exchange Client Extensions (ECE)-Ereignis <b>iexchextmessageevents:: Onread</b>.</para>
-          <para>Im <b>BeforeRead</b> -Ereignis nur die folgenden Member des Item-Objekts zugegriffen werden können:</para>
+          <para>Im <b>BeforeRead</b> -Ereignis können nur auf die folgenden Member des Item-Objekts zugegriffen werden: </para>
           <list type="bullet">
             <item>
               <para>
-                <b>Klasse</b>
+                <b>class</b>
               </para>
             </item>
             <item>
@@ -351,11 +331,10 @@
               </para>
             </item>
           </list>
-          <para>Der <b>MAPIOBJECT</b> -Eigenschaft ist ein hidden-Eigenschaft im Outlook-Objektmodell. Diese Eigenschaft bietet Zugriff auf das zugrunde liegende Objekt MAPI-IMessage und kann nur über die IUnknown-Schnittstelle aufgerufen werden. Die Eigenschaft ist für Programme in Sprachen wie C oder C++, <b>die IUnknown</b>unterstützen, zugänglich ist. <b>MAPIOBJECT</b> ist nicht verfügbar, bis die IDispatch-Schnittstelle. Entwicklungssprachen wie Visual Basic für Applikationen (VBA), Visual c# und Visual Basic unterstützen die <b>IDispatch</b> -Schnittstelle und nicht von <b>IUnknown</b>und aus diesem Grund können nicht um <b>MAPIOBJECT</b>zugreifen. Wenn andere Eigenschaften oder Methoden des übergeordneten Elements in diesem Ereignis zugegriffen werden, löst Outlook einen Fehler. </para>
-          <para>, Wenn der Implementierer greift auf das zugrunde liegende <b>IMessage</b> -Objekt und ändert die Eigenschaften für dieses Objekt, Outlook, dass das Element spiegeln die Änderungen am Objekt <b>IMessage</b> rendert. Der Implementierer hat keinen CSEs SaveChanges auf das <b>IMessage</b> -Objekt, das dazu führen, dass die Änderungen in Outlook übernommen werden. </para>
-          <para>Implementierer müssen freigeben, das Objekt aus der <b>MAPIOBJECT</b> -Eigenschaft im Ereignis vor Abschluss des-Ereignisses abgerufen. Bei dem Versuch, verwenden Sie dieses Objekt außerhalb des Kontexts des Ereignisses wird nicht unterstützt und führt zu unvorhersehbaren.</para>
-          <para />
-        </remarks>
+          <para>Die <b>MAPIOBJECT</b> -Eigenschaft ist ein hidden-Eigenschaft im Outlook-Objektmodell. Diese Eigenschaft bietet Zugriff auf das zugrunde liegende Objekt MAPI- IMessage und kann nur über die Schnittstelle IUnknown aufgerufen werden. Die Eigenschaft ist für Programme in Sprachen wie C oder C++, <b>die IUnknown</b> unterstützen, zugänglich ist. <b>MAPIOBJECT</b> ist nicht über die Schnittstelle IDispatch verfügbar. Entwicklungssprachen wie Visual Basic für Applikationen (VBA), Visual c# und Visual Basic unterstützen die <b>IDispatch</b> -Schnittstelle und nicht von <b>IUnknown</b> und aus diesem Grund können nicht um <b>MAPIOBJECT</b> zugreifen. Wenn andere Eigenschaften oder Methoden des übergeordneten Elements in diesem Ereignis zugegriffen werden, löst Outlook einen Fehler.</para>
+          <para>Wenn die Implementierung die zugrunde liegenden <b>IMessage</b> -Objekt und Ändern der Eigenschaften für dieses Objekt zugreift, wird in Outlook, dass das Element spiegeln die Änderungen am <b>IMessage</b> -Objekt dargestellt. Der Implementierer hat keinen CSEs SaveChanges auf das <b>IMessage</b> -Objekt, das dazu führen, dass die Änderungen in Outlook übernommen werden.</para>
+          <para>Implementierer müssen freigeben, das Objekt aus der <b>MAPIOBJECT</b> -Eigenschaft im Ereignis vor Abschluss des-Ereignisses abgerufen. Verwenden Sie dieses Objekt außerhalb des Kontexts des Ereignisses versucht, wird nicht unterstützt und führt zu unvorhersehbaren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Close">
@@ -374,10 +353,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der einem Element (bei dem es sich um eine Instanz des übergeordneten Objekts handelt) zugeordnete Inspektor geschlossen wird.</summary>
-        <remarks>
-          <para>Wenn Sie die <b>Close</b> -Methode zum Auslösen dieses Ereignisses verwenden, kann es nur abgebrochen werden, wenn die <b>Close</b> -Methode das <b>OlPromptForSave</b> -Argument verwendet wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn Sie die <b>Close</b> -Methode zum Auslösen dieses Ereignisses verwenden, kann es nur abgebrochen werden, wenn die <b>Close</b> -Methode das <b>OlPromptForSave</b> -Argument verwendet wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomAction">
@@ -396,10 +373,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn eine benutzerdefinierte Aktion eines Elements (bei dem es sich um eine Instanz des übergeordneten Objekts handelt) ausgeführt wird.</summary>
-        <remarks>
-          <para>Das <b>Action</b> -Objekt und das durch die benutzerdefinierte Aktion neu erstellte Element werden an das Ereignis übergeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das <b>Action</b> -Objekt und das durch die benutzerdefinierte Aktion neu erstellte Element werden an das Ereignis übergeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CustomPropertyChange">
@@ -418,10 +393,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn eine benutzerdefinierte Aktion eines Elements (bei dem es sich um eine Instanz des übergeordneten Objekts handelt) geändert wird.</summary>
-        <remarks>
-          <para>Der Name der Eigenschaft wird an die Prozedur übergeben, damit Sie ermitteln können, welche benutzerdefinierte Eigenschaft geändert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Name der Eigenschaft wird an die Prozedur übergeben, damit Sie ermitteln können, welche benutzerdefinierte Eigenschaft geändert wurde.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Forward">
@@ -459,10 +432,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn eine Instanz des übergeordneten Objekts in geöffnet wird, ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</summary>
-        <remarks>
-          <para>Wenn dieses Ereignis eintritt, das <b>Inspector</b> -Objekt initialisiert, aber noch nicht angezeigt. Das <b>Open</b> -Ereignis unterscheidet sich von der <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> -Ereignis im, dass das <b>Lesen</b> tritt auf, wenn der Benutzer das Element in einer Ansicht auswählt, dass in der Zelle bearbeiten ermöglicht, und wenn das Element in einem Inspektor geöffnet wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn dieses Ereignis eintritt, das <b>Inspector</b> -Objekt initialisiert, aber noch nicht angezeigt. Das <b>Open</b> -Ereignis unterscheidet sich von der <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> -Ereignis im, dass das <b>Lesen</b> tritt auf, wenn der Benutzer das Element in einer Ansicht auswählt, dass in der Zelle bearbeiten ermöglicht, und wenn das Element in einem Inspektor geöffnet wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyChange">
@@ -481,10 +452,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn eine explizite integrierte Eigenschaft einer Instanz des übergeordneten Objekts geändert wird.</summary>
-        <remarks>
-          <para>Der Name der Eigenschaft wird an das Ereignis übergeben, damit Sie ermitteln können, welche Eigenschaft geändert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Name der Eigenschaft wird an das Ereignis übergeben, damit Sie ermitteln können, welche Eigenschaft geändert wurde.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Read">
@@ -503,10 +472,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn eine Instanz des übergeordneten Objekts vom Benutzer zum Bearbeiten geöffnet wird.</summary>
-        <remarks>
-          <para>Das <b>Read</b> -Ereignis unterscheidet sich von der <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> -Ereignis, dass das <b>Lesen</b> auftritt, wenn der Benutzer das Element in einer Ansicht auswählt, die in der Zelle bearbeiten, und wenn das Element in geöffnet wird, ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das <b>Read</b> -Ereignis unterscheidet sich von der <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Open" /> -Ereignis, dass das <b>Lesen</b> auftritt, wenn der Benutzer das Element in einer Ansicht auswählt, die in der Zelle bearbeiten, und wenn das Element in geöffnet wird, ist ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReadComplete">
@@ -525,12 +492,10 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn Outlook abgeschlossen ist, lesen die Eigenschaften des Elements.</summary>
-        <remarks>
-          <para>Das <b>"ReadComplete</b> "-Ereignis tritt ein, nachdem die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> Ereignis und vor der <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> -Ereignis für das Element. </para>
-          <para>Verwenden, um zu bestimmen, wann das Element aus dem Speicher entfernt wird, die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> Ereignis.</para>
+        <remarks><para>Das <b>"ReadComplete</b> "-Ereignis tritt ein, nachdem die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.BeforeRead" /> Ereignis und vor der <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Read" /> -Ereignis für das Element. </para>
+          <para>Um zu bestimmen, wann das Element aus dem Speicher entfernt wird, verwenden Sie die <see cref="E:Microsoft.Office.Interop.Outlook.ItemEvents_10_Event.Unload" /> Ereignis.</para>
           <para>Das <b>"ReadComplete</b> "-Ereignis entspricht dem Exchange Client Extensions (ECE)-Ereignis <b>IExchExtMessageEvents::OnReadComplete</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reply">
@@ -549,10 +514,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer die Reply-Aktion für ein Element (bei dem es sich um eine Instanz des übergeordneten Objekts handelt) auswählt.</summary>
-        <remarks>
-          <para>Gibt die Antwort als eine <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Gibt die Antwort als eine <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplyAll">
@@ -571,10 +534,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer die ReplyAll-Aktion für ein Element (bei dem es sich um eine Instanz des übergeordneten Objekts handelt) auswählt.</summary>
-        <remarks>
-          <para>Gibt die Antwort als eine <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Gibt die Antwort als eine <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Send">
@@ -612,12 +573,10 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, bevor ein Outlook-Element programmgesteuert oder durch Benutzeraktion aus dem Speicher entfernt wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis tritt auf, nachdem für das Outlook-Element das <b>Close</b> -Ereignis tritt auf, jedoch bevor das Outlook Element aus dem Speicher ein Add-in freizugebende alle Ressourcen im Zusammenhang mit dem Objekt entladen wird.  Obwohl das Ereignis tritt auf, bevor das Outlook-Element aus dem Speicher entfernt wird, kann dieses Ereignis kann nicht abgebrochen werden.</para>
+        <remarks><para>Dieses Ereignis tritt auf, nachdem für das Outlook-Element das <b>Close</b> -Ereignis tritt auf, jedoch bevor das Outlook Element aus dem Speicher ein Add-in freizugebende alle Ressourcen im Zusammenhang mit dem Objekt entladen wird.  Obwohl das Ereignis tritt auf, bevor das Outlook-Element aus dem Speicher entfernt wird, kann dieses Ereignis nicht abgebrochen werden.</para>
           <para>
-            <b>Hinweis</b>: Dieses Ereignis dient nur als Benachrichtigungsereignis, sodass ein Add-in das Objekt Dereferenzierung kann.  Tritt ein Fehler auf, wenn eine Eigenschaft oder Methode für dieses Objekt in das <b>Unload</b> -Ereignis aufgerufen wird.</para>
-          <para />
-        </remarks>
+            <b>Hinweis</b>: Dieses Ereignis dient nur als Benachrichtigungsereignis, sodass ein Add-in das Objekt Dereferenzierung kann.  Ein Fehler tritt auf, wenn eine Eigenschaft oder Methode für dieses Objekt in das <b>Unload</b> -Ereignis aufgerufen wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Write">

@@ -1,13 +1,5 @@
 <Type Name="ItemProperty" FullName="Microsoft.Office.Interop.Outlook.ItemProperty">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="8b9cd8e1046b3e3fb1b3f1e72a9158303acba7bb" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636771" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperty" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="867107e667467cf1af12c042db1fe1725a1f331e" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905610" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperty" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperty" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperty" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperty" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Stellt Informationen zu einer bestimmten Item -Eigenschaft für ein Microsoft Outlook-Element-Objekt dar.</summary>
-    <remarks>
-      <para>Jede Item-Eigenschaft definiert ein bestimmtes Attribut des Elements, wie beispielsweise den Namen, den Typ oder den Wert des Elements. Das <b>ItemProperty</b> -Objekt ist ein Mitglied der <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> Auflistung.</para>
-      <para>Verwendung <b>ItemProperties.Item</b>(<paramref name="index" />), wobei <paramref name="index" /> ist die numerische Position des Objekts, in der Auflistung, oder es wurde benennen, um ein einzelnes <b>ItemProperty</b> -Objekt zurückzugeben.</para>
-      <para />
-    </remarks>
+    <remarks><para> Jede Item-Eigenschaft definiert ein bestimmtes Attribut des Elements, wie beispielsweise den Namen, den Typ oder den Wert des Elements. Das <b>ItemProperty</b> -Objekt ist ein Mitglied der <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> Auflistung.</para>
+      <para>Verwenden Sie <b>ItemProperties.Item</b>(<paramref name="index" />), wobei <paramref name="index" /> ist die numerische Position des Objekts, in der Auflistung, oder es wurde benennen, um ein einzelnes <b>ItemProperty</b> -Objekt zurückzugeben.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -264,16 +254,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -406,10 +394,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>Objekts</b> zurück, der den Wert für die angegebene benutzerdefinierte oder expliziten integrierten Eigenschaft angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Obwohl <b>ItemProperty.Value</b> können Sie eine explizite integrierte Eigenschaft oder eine benutzerdefinierte Eigenschaft abgerufen oder festgelegt, können Sie direkt aus dem übergeordneten Objekt, beispielsweise ContactItem.Body explizite integrierte Eigenschaften verweisen. Weitere Informationen zum Zugreifen auf Eigenschaften in Outlook finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Eigenschaften (Übersicht)</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Obwohl <b>ItemProperty.Value</b> können Sie eine explizite integrierte Eigenschaft oder eine benutzerdefinierte Eigenschaft abgerufen oder festgelegt, können Sie direkt aus dem übergeordneten Objekt, beispielsweise ContactItem.Body explizite integrierte Eigenschaften verweisen. Weitere Informationen zum Zugreifen auf Eigenschaften in Outlook finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87861">Eigenschaften (Übersicht)</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

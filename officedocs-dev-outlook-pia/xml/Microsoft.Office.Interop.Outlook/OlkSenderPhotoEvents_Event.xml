@@ -1,13 +1,5 @@
 <Type Name="OlkSenderPhotoEvents_Event" FullName="Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="38b39f13b137a4b4ed1bf56097da0fda2cac1133" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636015" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="822ba4099c9cbb5e680fd7e7bbc599cadba66c9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905059" /></Metadata><TypeSignature Language="C#" Value="public interface OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkSenderPhotoEvents_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkSenderPhotoEvents_Event" />
@@ -49,10 +41,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn das Kontaktbild des Absenders geändert wurde.</summary>
-        <remarks>
-          <para>Die Änderung der Kontaktbild des Absenders in der Regel bedeutet, dass die <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" /> und <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" /> Eigenschaften sowie geändert haben. Aus diesem Grund kann dieses Ereignis anzugeben, dass die Notwendigkeit verwendet werden, um die Größe des Steuerelements.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Änderung der Kontaktbild des Absenders in der Regel bedeutet, dass die <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredWidth" /> und <see cref="P:Microsoft.Office.Interop.Outlook._OlkSenderPhoto.PreferredHeight" /> Eigenschaften sowie geändert haben. Daher kann dieses Ereignis verwendet werden, um anzugeben, dass die Größe des Steuerelements angepasst werden muss.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Click">
@@ -128,10 +118,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, nachdem eine Mausbewegung über dem Steuerelement erkannt wurde.</summary>
-        <remarks>
-          <para>Das <b>MouseMove</b> -Ereignis wird ausgelöst, wenn Sie die ALT-Taste drücken.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das MouseMove -Ereignis wird ausgelöst, wenn Sie die <b>ALT</b>-Taste drücken.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseUp">
