@@ -1,13 +1,5 @@
 <Type Name="_ExchangeUser" FullName="Microsoft.Office.Interop.Outlook._ExchangeUser">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635626" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _ExchangeUser" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a9ddbfaff850f514434b04c735be4ebc01664fb1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27902908" /></Metadata><TypeSignature Language="C#" Value="public interface _ExchangeUser" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ExchangeUser" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ExchangeUser" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ExchangeUser" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="efd24-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efd24-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="efd24-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efd24-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="efd24-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efd24-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="efd24-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="efd24-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="81a23-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="81a23-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="81a23-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="81a23-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="81a23-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="81a23-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="81a23-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -73,32 +48,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-105">
-            <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die X400 darstellen e-Mail-Adresse des der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-105">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the X400 e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-106">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-106">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-105"><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die X400 darstellen e-Mail-Adresse des der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-105">Returns or sets a <b>String</b> (<b>string</b> in C#) representing the X400 e-mail address of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-106">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-106">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-107">
-            <para>Diese Eigenschaft wird davon ausgegangen, die X400-Adresse des Benutzers. Um die primäre Internetadresse zu bestimmen, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> -Eigenschaft.</para>
-            <para>Die <b>Address</b> -Eigenschaft muss festgelegt werden, bevor die <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> -Methode.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-107">
-              <para>This property assumes the X400 address of the user. To determine the primary Internet address, use the <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> property.</para>
-              <para>The <b>Address</b> property must be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> method. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-107">Diese Eigenschaft setzt die X400-Adresse des Benutzers voraus.</span><span class="sxs-lookup"><span data-stu-id="81a23-107">This property assumes the X400 address of the user.</span></span> <span data-ttu-id="81a23-108">Um die primäre Internetadresse zu bestimmen, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="81a23-108">To determine the primary Internet address, use the <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.PrimarySmtpAddress" /> property.</span></span></para>
+          <para><span data-ttu-id="81a23-109">Die <b>Address</b> -Eigenschaft muss festgelegt werden, bevor die <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> Methode.</span><span class="sxs-lookup"><span data-stu-id="81a23-109">The <b>Address</b> property must be set before calling the <see cref="M:Microsoft.Office.Interop.Outlook._ExchangeUser.Details(System.Object)" /> method.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AddressEntryUserType">
@@ -124,29 +78,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlAddressEntryUserType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-108">Gibt <b>OlExchangeUserAddressEntry</b> , eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> -Enumeration, der den Benutzer geben Sie die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-108">Returns <b>olExchangeUserAddressEntry</b> which is a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration representing the user type of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-109">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-109">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-110">Gibt <b>OlExchangeUserAddressEntry</b> , eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> -Enumeration, der den Benutzer geben Sie die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-110">Returns <b>olExchangeUserAddressEntry</b> which is a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlAddressEntryUserType" /> enumeration representing the user type of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-111">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-111">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-110">
-            <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>AddressEntryUserType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b>sollte <b>AddressEntryUserType</b> immer <b>OlExchangeUserAddressEntry</b>zurückgeben.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-110">
-              <para>The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object. It inherits the <b>AddressEntryUserType</b> property from the <b>AddressEntry</b> object. In the case of <b>ExchangeUser</b>,  <b>AddressEntryUserType</b> should always return <b>olExchangeUserAddressEntry</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-112">Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-112">The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="81a23-113">Er erbt die <b>AddressEntryUserType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-113">It inherits the <b>AddressEntryUserType</b> property from the <b>AddressEntry</b> object.</span></span> <span data-ttu-id="81a23-114">Im Fall von <b>ExchangeUser</b>sollte <b>AddressEntryUserType</b> immer <b>OlExchangeUserAddressEntry</b>zurückgeben.</span><span class="sxs-lookup"><span data-stu-id="81a23-114">In the case of <b>ExchangeUser</b>,  <b>AddressEntryUserType</b> should always return <b>olExchangeUserAddressEntry</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alias">
@@ -172,31 +107,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-111">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Alias für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-111">Returns a <b>String</b> (<b>string</b> in C#) representing the alias for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-112">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-115">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Alias für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-115">Returns a <b>String</b> (<b>string</b> in C#) representing the alias for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-116">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-116">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-113">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagAccount</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-113">
-              <para>This property corresponds to MAPI property <b>PidTagAccount</b>.</para>
-              <para>Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-117">Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagAccount</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-117">This property corresponds to MAPI property <b>PidTagAccount</b>.</span></span></para>
+          <para><span data-ttu-id="81a23-p108">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p108">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -222,16 +137,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-114">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das die übergeordnete Anwendung (Outlook) für stellt die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-114">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span>
-          </span>
-          <span data-ttu-id="efd24-115">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-115">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-119">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das die übergeordnete Anwendung (Outlook) für stellt die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-119">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object that represents the parent application (Outlook) for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span></span> <span data-ttu-id="81a23-120">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-120">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -262,31 +168,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-116">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des Assistenten für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-116">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the assistant for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-117">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-117">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-121">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des Assistenten für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-121">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the assistant for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-122">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-122">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-118">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagAssistant</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-118">
-              <para>This property corresponds to MAPI property <b>PidTagAssistant</b>.</para>
-              <para>Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-123">Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagAssistant</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-123">This property corresponds to MAPI property <b>PidTagAssistant</b>.</span></span></para>
+          <para><span data-ttu-id="81a23-p111">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p111">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BusinessTelephoneNumber">
@@ -315,31 +201,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-119">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die geschäftliche Telefonnummer für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-119">Returns a <b>String</b> (<b>string</b> in C#) representing the business telephone number for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-120">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-120">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-125">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die geschäftliche Telefonnummer für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-125">Returns a <b>String</b> (<b>string</b> in C#) representing the business telephone number for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-126">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-126">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-121">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagBusinessTelephoneNumber</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-121">
-              <para>This property corresponds to the MAPI property, <b>PidTagBusinessTelephoneNumber</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-127">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagBusinessTelephoneNumber</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-127">This property corresponds to the MAPI property, <b>PidTagBusinessTelephoneNumber</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p113">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p113">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="City">
@@ -368,31 +234,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-122">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Ort für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-122">Returns a <b>String</b> (<b>string</b> in C#) representing the city for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-123">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-123">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-129">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Ort für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-129">Returns a <b>String</b> (<b>string</b> in C#) representing the city for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-130">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-130">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-124">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLocality</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-124">
-              <para>This property corresponds to the MAPI property, <b>PidTagLocality</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-131">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLocality</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-131">This property corresponds to the MAPI property, <b>PidTagLocality</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p115">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p115">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -418,16 +264,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-125">Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Enumeration, die die Klasse von der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-125">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span>
-          </span>
-          <span data-ttu-id="efd24-126">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-126">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-133">Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Enumeration, die die Klasse von der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-133">Returns a constant in the <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> enumeration indicating the class of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span></span> <span data-ttu-id="81a23-134">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-134">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -458,31 +295,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-127">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Kommentare für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-127">Returns a <b>String</b> (<b>string</b> in C#) representing the comments for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-128">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-128">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-135">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Kommentare für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-135">Returns a <b>String</b> (<b>string</b> in C#) representing the comments for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-136">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-136">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-129">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagComment</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-129">
-              <para>This property corresponds to the MAPI property, <b>PidTagComment</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-137">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagComment</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-137">This property corresponds to the MAPI property, <b>PidTagComment</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p118">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p118">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CompanyName">
@@ -511,31 +328,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-130">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des Unternehmens für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-130">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the company for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-131">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-131">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-139">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des Unternehmens für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-139">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the company for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-140">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-140">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-132">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCompanyName</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-132">
-              <para>This property corresponds to the MAPI property, <b>PidTagCompanyName</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-141">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCompanyName</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-141">This property corresponds to the MAPI property, <b>PidTagCompanyName</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p120">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p120">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -559,24 +356,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-133">Löscht die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> -Objekt aus der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> -Auflistungsobjekt zu dem es gehört.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-133">Deletes the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection object to which  it belongs.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efd24-134">
-            <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Ein <b>ExchangeUser</b> -Objekt ist ein <b>AddressEntry</b> -Objekt, das <b>OlExchangeUserAddressEntry</b> als hat die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> das entsprechende <b>ExchangeUser</b> -Objekt zurückgibt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-134">
-              <para>The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object. An <b>ExchangeUser</b> object is an <b>AddressEntry</b> object that has <b>olExchangeUserAddressEntry</b> as the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; calling <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> returns the corresponding <b>ExchangeUser</b> object.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="81a23-143">Löscht die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> -Objekt aus der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> -Auflistungsobjekt zu dem es gehört.</span><span class="sxs-lookup"><span data-stu-id="81a23-143">Deletes the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection object to which  it belongs.</span></span></summary>
+        <remarks><para><span data-ttu-id="81a23-144">Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-144">The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="81a23-145">Ein <b>ExchangeUser</b> -Objekt ist ein <b>AddressEntry</b> -Objekt, das <b>OlExchangeUserAddressEntry</b> als hat die <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> das entsprechende <b>ExchangeUser</b> -Objekt zurückgibt.</span><span class="sxs-lookup"><span data-stu-id="81a23-145">An <b>ExchangeUser</b> object is an <b>AddressEntry</b> object that has <b>olExchangeUserAddressEntry</b> as the <see cref="P:Microsoft.Office.Interop.Outlook.AddressEntry.AddressEntryUserType" />; calling <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.GetExchangeUser" /> returns the corresponding <b>ExchangeUser</b> object.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Department">
@@ -605,31 +387,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-135">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Abteilung zum Darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-135">Returns a <b>String</b> (<b>string</b> in C#) representing the department for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-136">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-136">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-146">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Abteilung zum Darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-146">Returns a <b>String</b> (<b>string</b> in C#) representing the department for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-147">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-147">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-137">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDepartmentName</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-137">
-              <para>This property corresponds to the MAPI property, <b>PidTagDepartmentName</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-148">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDepartmentName</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-148">This property corresponds to the MAPI property, <b>PidTagDepartmentName</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p123">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p123">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Details">
@@ -654,33 +416,12 @@
         <Parameter Name="HWnd" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="HWnd">
-          <span data-ttu-id="efd24-p113">Die Zugriffsnummer des übergeordneten Dialogfelds für das Dialogfeld Details. Ein Wert von Null (Standard) gibt ein modales Dialogfeld an.
-</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-p113">The parent window handle for the Details dialog box. A zero value (the default) specifies a modal dialog box.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efd24-140">Zeigt ein modales Dialogfeld, das detaillierte Informationen zu bietet eine <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-140">Displays a modal dialog box that provides detailed information about an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efd24-141">
-            <para>Die <b>Details</b> -Methode schlägt fehl, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> -Eigenschaft ist leer. Sie müssen zum Behandeln von Laufzeitfehlern, Fehlerbehandlung verwenden und wenn der Benutzer im Dialogfeld Abbrechen klickt. </para>
-            <para>Die <b>Details</b> -Methode stoppt tatsächlich des Codes, während das Dialogfeld angezeigt wird.   </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-141">
-              <para>The <b>Details</b> method fails if the <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> property is empty. You must use error handling to handle run-time errors, and when the user clicks Cancel in the dialog box. </para>
-              <para>The <b>Details</b> method actually stops the code from running while the dialog box is displayed.   </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="HWnd"><span data-ttu-id="81a23-p124">Die Zugriffsnummer des übergeordneten Dialogfelds für das Dialogfeld Details. Ein Wert von Null (Standard) gibt ein modales Dialogfeld an.
+</span><span class="sxs-lookup"><span data-stu-id="81a23-p124">The parent window handle for the Details dialog box. A zero value (the default) specifies a modal dialog box.</span></span></param>
+        <summary><span data-ttu-id="81a23-152">Zeigt ein modales Dialogfeld, das detaillierte Informationen zu bietet eine <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-152">Displays a modal dialog box that provides detailed information about an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span></span></summary>
+        <remarks><para><span data-ttu-id="81a23-153">Die <b>Details</b> -Methode schlägt fehl, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> -Eigenschaft ist leer.</span><span class="sxs-lookup"><span data-stu-id="81a23-153">The <b>Details</b> method fails if the <see cref="P:Microsoft.Office.Interop.Outlook._ExchangeUser.Name" /> property is empty.</span></span> <span data-ttu-id="81a23-154">Sie müssen zum Behandeln von Laufzeitfehlern, Fehlerbehandlung verwenden und der Benutzer im Dialogfeld Abbrechen klickt.</span><span class="sxs-lookup"><span data-stu-id="81a23-154">You must use error handling to handle run-time errors, and when the user clicks Cancel in the dialog box.</span></span> </para>
+          <para><span data-ttu-id="81a23-p126">Die <b>Details</b> -Methode stoppt die Ausführung des Codes, während das Dialogfeld angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="81a23-p126">The <b>Details</b> method actually stops the code from running while the dialog box is displayed.   </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DisplayType">
@@ -706,31 +447,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDisplayType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-142">Gibt <b>OlUser</b> , eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> -Enumeration, der die Art der der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-142">Returns <b>olUser</b> which is a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration representing the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-143">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-143">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-156">Gibt <b>OlUser</b> , eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> -Enumeration, der die Art der der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-156">Returns <b>olUser</b> which is a constant from the <see cref="T:Microsoft.Office.Interop.Outlook.OlDisplayType" /> enumeration representing the nature of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-157">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-157">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-144">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayType</b>.</para>
-            <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>DisplayType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b><b>DisplayType</b> sollte immer zurückgeben <b>OlUser</b>.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-144">
-              <para>This property corresponds to the MAPI property, <b>PidTagDisplayType</b>.</para>
-              <para> The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object. It inherits the <b>DisplayType</b> property from the <b>AddressEntry</b> object. In the case of <b>ExchangeUser</b>,  <b>DisplayType</b> should always return <b>olUser</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-158">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayType</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-158">This property corresponds to the MAPI property, <b>PidTagDisplayType</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-159">Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-159">The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="81a23-160">Er erbt die <b>DisplayType</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-160">It inherits the <b>DisplayType</b> property from the <b>AddressEntry</b> object.</span></span> <span data-ttu-id="81a23-161">Im Fall von <b>ExchangeUser</b>sollte <b>DisplayType</b> immer <b>OlUser</b>zurückgeben.</span><span class="sxs-lookup"><span data-stu-id="81a23-161">In the case of <b>ExchangeUser</b>,  <b>DisplayType</b> should always return <b>olUser</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FirstName">
@@ -759,31 +480,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-145">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Vornamen des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-145">Returns a <b>String</b> (<b>string</b> in C#) representing the first name of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-146">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-146">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-162">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Vornamen des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-162">Returns a <b>String</b> (<b>string</b> in C#) representing the first name of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-163">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-163">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-147">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagGivenName</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-147">
-              <para>This property corresponds to the MAPI property, <b>PidTagGivenName</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-164">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagGivenName</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-164">This property corresponds to the MAPI property, <b>PidTagGivenName</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p130">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p130">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetContact">
@@ -807,32 +508,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-148">Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, da die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt keinem Kontakt in einem Adressbuch Kontakte entspricht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-148">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object does not correspond to  a contact in a Contacts Address Book.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efd24-149">
-            <b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem Kontakt in einem Adressbuch Kontakte entspricht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-149">
-              <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <b>ExchangeUser</b> object does not correspond to a contact in a Contacts Address Book.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efd24-150">
-            <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>GetContact</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-150">
-              <para>The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object. It inherits the <b>GetContact</b> method from the <b>AddressEntry</b> object, and in the case of <b>ExchangeUser</b>, this method always returns <b>Nothing</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="81a23-166">Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, da die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt keinem Kontakt in einem Adressbuch Kontakte entspricht.</span><span class="sxs-lookup"><span data-stu-id="81a23-166">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object does not correspond to  a contact in a Contacts Address Book.</span></span></summary>
+        <returns><span data-ttu-id="81a23-167"><b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem Kontakt in einem Adressbuch Kontakte entspricht.</span><span class="sxs-lookup"><span data-stu-id="81a23-167"><b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <b>ExchangeUser</b> object does not correspond to a contact in a Contacts Address Book.</span></span></returns>
+        <remarks><para><span data-ttu-id="81a23-168">Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-168">The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="81a23-169">Er erbt die <b>GetContact</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</span><span class="sxs-lookup"><span data-stu-id="81a23-169">It inherits the <b>GetContact</b> method from the <b>AddressEntry</b> object, and in the case of <b>ExchangeUser</b>, this method always returns <b>Nothing</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetDirectReports">
@@ -856,37 +535,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-151">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> -Auflistungsobjekt, das alle Benutzer, die den Exchange-Benutzer direkt unterstellt enthält.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-151">Obtains an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection object that contains all the users directly reporting to the Exchange user.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efd24-152">Ein <b>AddressEntries</b> -Auflistungsobjekt, die an die Exchange-Benutzer direkt unterstellt enthält.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-152">An <b>AddressEntries</b> collection object that contains the users directly reporting to the Exchange user.</span>
-          </span>
-          <span data-ttu-id="efd24-153">
-            <b>AddressEntries</b> -Objekt haben eine Count 0 (null), wenn kein Direct Bericht dargestellt ist durch ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> in der aktuellen Sitzung, oder wenn Mitarbeiter im Exchange-Verzeichnis nicht implementiert wurden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-153">The <b>AddressEntries</b> object will have a count of zero (0) if there is no direct report represented by an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> in the current session, or if direct reports have not been implemented in the Exchange directory.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efd24-154">
-            <para>Wenn eine langsame Verbindung zu dem Exchange-Server vorhanden ist, ist 
-            <b>GetDirectReports</b> hinsichtlich der Leistung ein teurer Vorgang.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-154">
-              <para>
-                <b>GetDirectReports</b> is an expensive operation in terms of performance if there is a slow connection to the Exchange server.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="81a23-170">Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> -Auflistungsobjekt, das alle Benutzer, die den Exchange-Benutzer direkt unterstellt enthält.</span><span class="sxs-lookup"><span data-stu-id="81a23-170">Obtains an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection object that contains all the users directly reporting to the Exchange user.</span></span></summary>
+        <returns><span data-ttu-id="81a23-171">Ein <b>AddressEntries</b> -Auflistungsobjekt, die an die Exchange-Benutzer direkt unterstellt enthält.</span><span class="sxs-lookup"><span data-stu-id="81a23-171">An <b>AddressEntries</b> collection object that contains the users directly reporting to the Exchange user.</span></span> <span data-ttu-id="81a23-172"><b>AddressEntries</b> -Objekt haben eine Count 0 (null), wenn kein Direct Bericht dargestellt ist durch ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> in der aktuellen Sitzung, oder wenn Mitarbeiter im Exchange-Verzeichnis nicht implementiert wurden.</span><span class="sxs-lookup"><span data-stu-id="81a23-172">The <b>AddressEntries</b> object will have a count of zero (0) if there is no direct report represented by an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> in the current session, or if direct reports have not been implemented in the Exchange directory.</span></span></returns>
+        <remarks><para><span data-ttu-id="81a23-173">Wenn eine langsame Verbindung zu dem Exchange-Server vorhanden ist, ist 
+            <b>GetDirectReports</b> hinsichtlich der Leistung ein teurer Vorgang.</span><span class="sxs-lookup"><span data-stu-id="81a23-173">
+            <b>GetDirectReports</b> is an expensive operation in terms of performance if there is a slow connection to the Exchange server.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeDistributionList">
@@ -910,32 +564,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-155">Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, da die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt entspricht keiner <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-155">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object does not correspond to  an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efd24-156">
-            <b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem <b>ExchangeDistributionList</b> -Objekt entspricht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-156">
-              <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <b>ExchangeUser</b> object does not correspond to an <b>ExchangeDistributionList</b> object.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efd24-157">
-            <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>GetExchangeDistributionList</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-157">
-              <para>The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object. It inherits the <b>GetExchangeDistributionList</b> method from the <b>AddressEntry</b> object, and in the case of <b>ExchangeUser</b>, this method always returns <b>Nothing</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="81a23-174">Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, da die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt entspricht keiner <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-174">Returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object does not correspond to  an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeDistributionList" /> object.</span></span></summary>
+        <returns><span data-ttu-id="81a23-175"><b>Nichts</b> (ein Nullverweis (Nothing in Visual Basic) in c#), da das <b>ExchangeUser</b> -Objekt keinem <b>ExchangeDistributionList</b> -Objekt entspricht.</span><span class="sxs-lookup"><span data-stu-id="81a23-175"><b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#) because the <b>ExchangeUser</b> object does not correspond to an <b>ExchangeDistributionList</b> object.</span></span></returns>
+        <remarks><para><span data-ttu-id="81a23-176">Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-176">The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="81a23-177">Er erbt die <b>GetExchangeDistributionList</b> -Methode vom <b>AddressEntry</b> -Objekt, und im Fall von <b>ExchangeUser</b>diese Methode gibt immer <b>Nothing</b>zurück.</span><span class="sxs-lookup"><span data-stu-id="81a23-177">It inherits the <b>GetExchangeDistributionList</b> method from the <b>AddressEntry</b> object, and in the case of <b>ExchangeUser</b>, this method always returns <b>Nothing</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetExchangeUser">
@@ -959,18 +591,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-158">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-158">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efd24-159">Das übergeordnete <b>ExchangeUser</b> -Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-159">The parent <b>ExchangeUser</b> object.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="81a23-178">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-178">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span></span></summary>
+        <returns><span data-ttu-id="81a23-179">Das übergeordnete <b>ExchangeUser</b> -Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-179">The parent <b>ExchangeUser</b> object.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -995,18 +617,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-160">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> -Objekt, das den Vorgesetzten des Exchange-Benutzers darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-160">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object that represents the manager of the Exchange user.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efd24-161">Ein <b>ExchangeUser</b> -Objekt, das den Vorgesetzten des Exchange-Benutzers darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-161">An <b>ExchangeUser</b> object that represents the manager of the Exchange user.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="81a23-180">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> -Objekt, das den Vorgesetzten des Exchange-Benutzers darstellt.</span><span class="sxs-lookup"><span data-stu-id="81a23-180">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object that represents the manager of the Exchange user.</span></span></summary>
+        <returns><span data-ttu-id="81a23-181">Ein <b>ExchangeUser</b> -Objekt, das den Vorgesetzten des Exchange-Benutzers darstellt.</span><span class="sxs-lookup"><span data-stu-id="81a23-181">An <b>ExchangeUser</b> object that represents the manager of the Exchange user.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1034,40 +646,11 @@
         <Parameter Name="CompleteFormat" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Start">
-          <span data-ttu-id="efd24-162">Das Datum der Verfügbarkeit, beginnend um Mitternacht.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-162">The date of availability, starting at midnight.</span>
-          </span>
-        </param>
-        <param name="MinPerChar">
-          <span data-ttu-id="efd24-p117">Gibt die Länge der Zeitintervalle in Minuten an. Der Standardwert ist 30 Minuten.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-p117">Specifies the length of each time slot in minutes. Default is 30 minutes.</span>
-          </span>
-        </param>
-        <param name="CompleteFormat">
-          <span data-ttu-id="efd24-p118">Der Wert <b>True</b> gibt an, dass eine feinere Granularität Gebucht-Zeit in der Frei/Gebucht-Zeichenfolge zurückgegeben wird. Der Wert <b>False</b> gibt an, dass eine Unterscheidung zwischen nur die verfügbaren und gebuchten Zeiten zurückgegeben wird. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-p118">A value of <b>True</b> indicates that a finer granularity of busy time is returned in the free/busy string. A value of <b>False</b> indicates that a distinction between only the available and busy times is returned.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efd24-167">Ruft eine <b>Zeichenfolge</b> (<b>String</b> in c#), die die Verfügbarkeit von der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> für einen Zeitraum von 30 Tagen ab dem Startdatum bis Mitternacht des angegebenen Datums.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-167">Obtains a <b>String</b> (<b>string</b> in C#) representing the availability of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> for a period of 30 days from the start date, beginning at midnight of the date specified.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efd24-168">Eine <b>Zeichenfolge</b> (<b>String</b> in c#), die die Verfügbarkeit des Exchange-Benutzers für einen Zeitraum von 30 Tagen ab dem Startdatum darstellt beginnend mit Mitternacht des angegebenen Datums.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-168">A <b>String</b> (<b>string</b> in C#) that represents the availability of the Exchange user for a period of 30 days from the start date, beginning at midnight of the date specified.</span>
-          </span>
-          <span data-ttu-id="efd24-169">Jedes Zeichen in <b>String</b> (<b>Zeichenfolge</b> in c#) ist ein Wert, der angibt, ob der Benutzer zur Verfügung (0) ist und optional, ob ein ausgelasteten Zeitraum mit Vorbehalt (1), abwesend (3) oder anderen (2) gekennzeichnet ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-169">Each character in the <b>String</b> (<b>string</b> in C#) is a value indicating if the user is available (0), and optionally, whether a busy time is marked tentative (1), out of office (3), or other (2).</span>
-          </span>
-        </returns>
+        <param name="Start"><span data-ttu-id="81a23-182">Das Datum der Verfügbarkeit, beginnend um Mitternacht.</span><span class="sxs-lookup"><span data-stu-id="81a23-182">The date of availability, starting at midnight.</span></span></param>
+        <param name="MinPerChar"><span data-ttu-id="81a23-p134">Gibt die Länge der Zeitintervalle in Minuten an. Der Standardwert ist 30 Minuten.</span><span class="sxs-lookup"><span data-stu-id="81a23-p134">Specifies the length of each time slot in minutes. Default is 30 minutes.</span></span></param>
+        <param name="CompleteFormat"><span data-ttu-id="81a23-p135">Der Wert <b>True</b> gibt an, dass eine feinere Granularität Gebucht-Zeit in der Frei/Gebucht-Zeichenfolge zurückgegeben wird. Der Wert <b>False</b> gibt an, dass eine Unterscheidung zwischen nur die verfügbaren und gebuchten Zeiten zurückgegeben wird. </span><span class="sxs-lookup"><span data-stu-id="81a23-p135">A value of <b>True</b> indicates that a finer granularity of busy time is returned in the free/busy string. A value of <b>False</b> indicates that a distinction between only the available and busy times is returned.</span></span></param>
+        <summary><span data-ttu-id="81a23-187">Ruft eine <b>Zeichenfolge</b> (<b>String</b> in c#), die die Verfügbarkeit von der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> für einen Zeitraum von 30 Tagen ab dem Startdatum bis Mitternacht des angegebenen Datums.</span><span class="sxs-lookup"><span data-stu-id="81a23-187">Obtains a <b>String</b> (<b>string</b> in C#) representing the availability of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> for a period of 30 days from the start date, beginning at midnight of the date specified.</span></span></summary>
+        <returns><span data-ttu-id="81a23-188">Eine <b>Zeichenfolge</b> (<b>String</b> in c#), die die Verfügbarkeit des Exchange-Benutzers für einen Zeitraum von 30 Tagen ab dem Startdatum darstellt beginnend mit Mitternacht des angegebenen Datums.</span><span class="sxs-lookup"><span data-stu-id="81a23-188">A <b>String</b> (<b>string</b> in C#) that represents the availability of the Exchange user for a period of 30 days from the start date, beginning at midnight of the date specified.</span></span> <span data-ttu-id="81a23-189">Jedes Zeichen in <b>String</b> (<b>Zeichenfolge</b> in c#) ist ein Wert, der angibt, ob der Benutzer zur Verfügung (0) ist und optional, ob ein ausgelasteten Zeitraum mit Vorbehalt (1), abwesend (3) oder anderen (2) gekennzeichnet ist.</span><span class="sxs-lookup"><span data-stu-id="81a23-189">Each character in the <b>String</b> (<b>string</b> in C#) is a value indicating if the user is available (0), and optionally, whether a busy time is marked tentative (1), out of office (3), or other (2).</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1092,36 +675,12 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-170">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekten, die alle Exchange-Verteilerlisten darstellen Listen, mit denen der Benutzer angehört.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-170">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection  object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objects representing all the Exchange distribution lists to which the user belongs.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="efd24-171">Ein <b>AddressEntries</b> -Auflistungsobjekt, die Exchange-Verteilerlisten darstellt, dem Listet die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> gehört.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-171">An <b>AddressEntries</b> collection object that represents the Exchange distribution lists to which the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> belongs.</span>
-          </span>
-          <span data-ttu-id="efd24-172">Gibt ein <b>AddressEntries</b> -Auflistungsobjekt mit dem Wert 0 (null) zurück, wenn die <b>ExchangeUser</b> nicht Mitglied einer Exchange-Verteilerliste ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-172">Returns an <b>AddressEntries</b> collection object with a count of zero (0) if the <b>ExchangeUser</b> is not a member of any Exchange distribution list.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="efd24-173">
-            <para>Wenn eine langsame Verbindung zu Exchange Server vorhanden ist, ist 
-            <b>GetMemberOfList</b> ein teuerer Vorgang im Hinblick auf Leistung.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-173">
-              <para>
-                <b>GetMemberOfList</b> is an expensive operation in terms of performance if there is a slow connection to Exchange Server.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="81a23-190">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekten, die alle Exchange-Verteilerlisten darstellen Listen, mit denen der Benutzer angehört.</span><span class="sxs-lookup"><span data-stu-id="81a23-190">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection  object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> objects representing all the Exchange distribution lists to which the user belongs.</span></span></summary>
+        <returns><span data-ttu-id="81a23-191">Ein <b>AddressEntries</b> -Auflistungsobjekt, die Exchange-Verteilerlisten darstellt, dem Listet die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> gehört.</span><span class="sxs-lookup"><span data-stu-id="81a23-191">An <b>AddressEntries</b> collection object that represents the Exchange distribution lists to which the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> belongs.</span></span> <span data-ttu-id="81a23-192">Gibt ein <b>AddressEntries</b> -Auflistungsobjekt mit dem Wert 0 (null) zurück, wenn die <b>ExchangeUser</b> nicht Mitglied einer Exchange-Verteilerliste ist.</span><span class="sxs-lookup"><span data-stu-id="81a23-192">Returns an <b>AddressEntries</b> collection object with a count of zero (0) if the <b>ExchangeUser</b> is not a member of any Exchange distribution list.</span></span></returns>
+        <remarks><para><span data-ttu-id="81a23-193">Wenn eine langsame Verbindung zu Exchange Server vorhanden ist, ist 
+            <b>GetMemberOfList</b> ein teuerer Vorgang im Hinblick auf Leistung.</span><span class="sxs-lookup"><span data-stu-id="81a23-193">
+            <b>GetMemberOfList</b> is an expensive operation in terms of performance if there is a slow connection to Exchange Server.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPicture">
@@ -1145,27 +704,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-174">Ruft ein <see cref="T:stdole.StdPicture" /> -Objekt, das das Bild des Microsoft Exchange-Benutzers darstellt, die in Microsoft Outlook angezeigt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-174">Obtains a <see cref="T:stdole.StdPicture" /> object that represents the picture of the Microsoft Exchange user that is displayed in Microsoft Outlook.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-194">Ruft ein <see cref="T:stdole.StdPicture" /> -Objekt, das das Bild des Microsoft Exchange-Benutzers darstellt, die in Microsoft Outlook angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="81a23-194">Obtains a <see cref="T:stdole.StdPicture" /> object that represents the picture of the Microsoft Exchange user that is displayed in Microsoft Outlook.</span></span></summary>
         <returns>To be added.</returns>
-        <remarks>
-          <span data-ttu-id="efd24-175">
-            <para>Das Bild des Exchange-Benutzers in Active Directory gespeichert und an verschiedenen Stellen in Outlook, einschließlich des Dialogfelds für Outlook-Eigenschaften angezeigt und Kontakt Card.If das Bild für den Benutzer, <b>GetPicture</b> nicht existiert gibt <b>Nothing</b> (a Nullverweis (Nothing in Visual Basic) in c#).</para>
-            <para>Können Sie nur <b>GetPicture</b> aus Code aufgerufen wird, wird als Outlook prozessinternes Protokoll. Ein <b>StdPicture</b> -Objekt kann nicht über die Grenzen hinweg Prozess gemarshallt werden sollen. Wenn Sie versuchen, <b>GetPicture</b> aus Out-of-Process-Code aufgerufen werden, tritt eine Ausnahme auf. Weitere Informationen finden Sie unter <a href="http://support.microsoft.com/kb/150034">Automatisierungsserver einen Zeiger auf das Objekt Picture IPictureDisp-Implementierung über die Grenzen hinweg Prozess kann nicht übergeben werden</a></para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-175">
-              <para>The picture of the Exchange user is stored in Active Directory and displayed in various places in Outlook, including the dialog box for Outlook Properties and Contact Card.If the picture does not exist for the user, <b>GetPicture</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</para>
-              <para>You can only call <b>GetPicture</b> from code that runs in-process as Outlook. An <b>StdPicture</b> object cannot be marshaled across process boundaries. If you attempt to call <b>GetPicture</b> from out-of-process code, an exception occurs. For more information, see <a href="http://support.microsoft.com/kb/150034">An automation server cannot pass a pointer to the picture object's IPictureDisp implementation across process boundaries</a></para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-195">Das Bild des Exchange-Benutzers in Active Directory gespeichert und an verschiedenen Stellen in Outlook, einschließlich des Dialogfelds für Outlook-Eigenschaften angezeigt und Kontakt Card.If das Bild für den Benutzer, <b>GetPicture</b> nicht existiert gibt <b>Nothing</b> (a Nullverweis (Nothing in Visual Basic) in c#).</span><span class="sxs-lookup"><span data-stu-id="81a23-195">The picture of the Exchange user is stored in Active Directory and displayed in various places in Outlook, including the dialog box for Outlook Properties and Contact Card.If the picture does not exist for the user, <b>GetPicture</b> returns <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#).</span></span></para>
+          <para><span data-ttu-id="81a23-196">Sie können nur <b>GetPicture</b> aus Code aufgerufen wird, wird als Outlook prozessinternes Protokoll.</span><span class="sxs-lookup"><span data-stu-id="81a23-196">You can only call <b>GetPicture</b> from code that runs in-process as Outlook.</span></span> <span data-ttu-id="81a23-197">Ein <b>StdPicture</b> -Objekt kann nicht über die Grenzen hinweg Prozess gemarshallt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="81a23-197">An <b>StdPicture</b> object cannot be marshaled across process boundaries.</span></span> <span data-ttu-id="81a23-198">Wenn Sie versuchen, <b>GetPicture</b> aus Out-of-Process-Code aufgerufen werden, tritt eine Ausnahme auf.</span><span class="sxs-lookup"><span data-stu-id="81a23-198">If you attempt to call <b>GetPicture</b> from out-of-process code, an exception occurs.</span></span> <span data-ttu-id="81a23-199">Weitere Informationen finden Sie unter <a href="http://support.microsoft.com/kb/150034">Automatisierungsserver einen Zeiger auf das Objekt Picture IPictureDisp-Implementierung über die Grenzen hinweg Prozess kann nicht übergeben werden</a></span><span class="sxs-lookup"><span data-stu-id="81a23-199">For more information, see <a href="http://support.microsoft.com/kb/150034">An automation server cannot pass a pointer to the picture object's IPictureDisp implementation across process boundaries</a></span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -1191,29 +734,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-176">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den eindeutigen Bezeichner für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-176">Returns a <b>String</b> (<b>string</b> in C#) representing the unique identifier for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-177">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-177">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-200">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den eindeutigen Bezeichner für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-200">Returns a <b>String</b> (<b>string</b> in C#) representing the unique identifier for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-201">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-201">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-178">
-            <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>ID</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Der Transportdienst weist eine dauerhafte, eindeutige Zeichenfolgen-ID an, wenn ein <b>AddressEntry</b> -Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-178">
-              <para> The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object. It inherits the <b>ID</b> property from the <b>AddressEntry</b> object. The transport provider assigns a permanent, unique string ID when an <b>AddressEntry</b> object is created. These identifiers do not change from one session to another.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para> <span data-ttu-id="81a23-202">Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-202">The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="81a23-203">Er erbt die <b>ID</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-203">It inherits the <b>ID</b> property from the <b>AddressEntry</b> object.</span></span> <span data-ttu-id="81a23-204">Der Transportdienst weist eine dauerhafte, eindeutige Zeichenfolgen-ID an, wenn ein <b>AddressEntry</b> -Objekt erstellt wird.</span><span class="sxs-lookup"><span data-stu-id="81a23-204">The transport provider assigns a permanent, unique string ID when an <b>AddressEntry</b> object is created.</span></span> <span data-ttu-id="81a23-205">Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</span><span class="sxs-lookup"><span data-stu-id="81a23-205">These identifiers do not change from one session to another.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="JobTitle">
@@ -1242,31 +766,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-179">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die Position des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-179">Returns a <b>String</b> (<b>string</b> in C#) representing the job title of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-180">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-180">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-206">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die Position des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-206">Returns a <b>String</b> (<b>string</b> in C#) representing the job title of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-207">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-207">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-181">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagTitle</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-181">
-              <para>This property corresponds to the MAPI property, <b>PidTagTitle</b>.</para>
-              <para>Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-208">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagTitle</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-208">This property corresponds to the MAPI property, <b>PidTagTitle</b>.</span></span></para>
+          <para><span data-ttu-id="81a23-p142">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p142">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastName">
@@ -1295,31 +799,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-182">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Nachnamen des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-182">Returns a <b>String</b> (<b>string</b> in C#) representing the last name of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-183">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-183">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-210">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Nachnamen des darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-210">Returns a <b>String</b> (<b>string</b> in C#) representing the last name of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-211">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-211">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-184">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSurname</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-184">
-              <para>This property corresponds to MAPI property, <b>PidTagSurname</b>.</para>
-              <para>Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-212">Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagSurname</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-212">This property corresponds to MAPI property, <b>PidTagSurname</b>.</span></span></para>
+          <para><span data-ttu-id="81a23-p144">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p144">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Manager">
@@ -1348,12 +832,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntry</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-185">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-185">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-214">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="81a23-214">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1390,12 +869,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-186">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-186">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-215">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="81a23-215">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1426,12 +900,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.AddressEntries</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-187">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-187">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-216">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="81a23-216">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1462,31 +931,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-188">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Mobile Telefonnummer für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-188">Returns a <b>String</b> (<b>string</b> in C#) representing the mobile telephone number for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-189">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-189">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-217">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die die Mobile Telefonnummer für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-217">Returns a <b>String</b> (<b>string</b> in C#) representing the mobile telephone number for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-218">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-218">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-190">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMobileTelephoneNumber</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-190">
-              <para>This property corresponds to MAPI property, <b>PidTagMobileTelephoneNumber</b>.</para>
-              <para>Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-219">Diese Eigenschaft entspricht MAPI-Eigenschaft <b>PidTagMobileTelephoneNumber</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-219">This property corresponds to MAPI property, <b>PidTagMobileTelephoneNumber</b>.</span></span></para>
+          <para><span data-ttu-id="81a23-p146">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p146">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -1515,16 +964,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-191">Gibt, oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Anzeigenamen für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-191">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span>
-          </span>
-          <span data-ttu-id="efd24-192">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-192">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-221">Gibt, oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Anzeigenamen für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-221">Returns or sets a <b>String</b> (<b>string</b> in C#) value that represents the display name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span></span> <span data-ttu-id="81a23-222">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-222">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1555,31 +995,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-193">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) Darstellung des Speicherorts für Office für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-193">Returns a <b>String</b> (<b>string</b> in C#) representing the office location for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-194">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-194">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-223">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) Darstellung des Speicherorts für Office für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-223">Returns a <b>String</b> (<b>string</b> in C#) representing the office location for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-224">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-224">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-195">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagOfficeLocation</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-195">
-              <para>This property corresponds to the MAPI property, <b>PidTagOfficeLocation</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-225">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagOfficeLocation</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-225">This property corresponds to the MAPI property, <b>PidTagOfficeLocation</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p149">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p149">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -1605,16 +1025,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-196">Gibt das übergeordnete <b>Objekt</b> zurück, der die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-196">Returns the parent <b>Object</b> of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span>
-          </span>
-          <span data-ttu-id="efd24-197">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-197">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-227">Gibt das übergeordnete <b>Objekt</b> zurück, der die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-227">Returns the parent <b>Object</b> of the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span></span> <span data-ttu-id="81a23-228">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-228">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1645,31 +1056,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-198">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die für die Postleitzahl darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-198">Returns a <b>String</b> (<b>string</b> in C#) representing the postal code for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-199">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-199">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-229">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die für die Postleitzahl darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-229">Returns a <b>String</b> (<b>string</b> in C#) representing the postal code for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-230">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-230">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-200">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagPostalCode</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-200">
-              <para>This property corresponds to the MAPI property, <b>PidTagPostalCode</b>.</para>
-              <para>Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-231">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagPostalCode</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-231">This property corresponds to the MAPI property, <b>PidTagPostalCode</b>.</span></span></para>
+          <para><span data-ttu-id="81a23-p152">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p152">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PrimarySmtpAddress">
@@ -1695,31 +1086,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-201">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die primäre Simple Mail Transfer Protocol (SMTP)-Adresse für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-201">Returns a <b>String</b> (<b>string</b> in C#) representing the primary Simple Mail Transfer Protocol (SMTP) address for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-202">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-202">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-233">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die primäre Simple Mail Transfer Protocol (SMTP)-Adresse für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-233">Returns a <b>String</b> (<b>string</b> in C#) representing the primary Simple Mail Transfer Protocol (SMTP) address for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-234">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-234">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-203">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEmailAddress</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-203">
-              <para>This property corresponds to the MAPI property, <b>PidTagEmailAddress</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-235">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEmailAddress</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-235">This property corresponds to the MAPI property, <b>PidTagEmailAddress</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p154">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p154">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PropertyAccessor">
@@ -1745,16 +1116,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-204">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das Erstellen, abrufen, festlegen und Löschen von Eigenschaften des übergeordneten unterstützt <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-204">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span>
-          </span>
-          <span data-ttu-id="efd24-205">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-205">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-237">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das Erstellen, abrufen, festlegen und Löschen von Eigenschaften des übergeordneten unterstützt <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-237">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> object that supports creating, getting, setting, and deleting properties of the parent <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object.</span></span> <span data-ttu-id="81a23-238">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-238">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1782,41 +1144,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-206">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-206">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span>
-          </span>
-          <span data-ttu-id="efd24-207">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-207">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-239">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="81a23-239">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> object for the current session.</span></span> <span data-ttu-id="81a23-240">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="81a23-240">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-208">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="81a23-241">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="81a23-241">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="81a23-242">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="81a23-242">Both members serve the same purpose.</span></span> <span data-ttu-id="81a23-243">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="81a23-243">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-208">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StateOrProvince">
@@ -1845,31 +1182,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-209">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, das darstellt, das Bundesland oder Kanton für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-209">Returns a <b>String</b> (<b>string</b> in C#) representing the state or province for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-210">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-210">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-244">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, das darstellt, das Bundesland oder Kanton für die <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-244">Returns a <b>String</b> (<b>string</b> in C#) representing the state or province for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-245">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-245">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-211">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStateOrProvince</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-211">
-              <para>This property corresponds to the MAPI property, <b>PidTagStateOrProvince</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-246">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStateOrProvince</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-246">This property corresponds to the MAPI property, <b>PidTagStateOrProvince</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p159">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p159">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StreetAddress">
@@ -1898,31 +1215,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-212">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die Straße für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-212">Returns a <b>String</b> (<b>string</b> in C#) representing the street address for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-213">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-213">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-248">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die Straße für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-248">Returns a <b>String</b> (<b>string</b> in C#) representing the street address for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-249">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-249">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-214">
-            <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStreetAddress</b>.</para>
-            <para>Eine leere Zeichenfolge zurückgegeben, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-214">
-              <para>This property corresponds to the MAPI property, <b>PidTagStreetAddress</b>.</para>
-              <para> Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-250">Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagStreetAddress</b>.</span><span class="sxs-lookup"><span data-stu-id="81a23-250">This property corresponds to the MAPI property, <b>PidTagStreetAddress</b>.</span></span></para>
+          <para> <span data-ttu-id="81a23-p161">Gibt eine leere Zeichenfolge zurück, wenn diese Eigenschaft nicht implementiert ist oder für das <b>ExchangeUser</b> -Objekt nicht vorhanden.</span><span class="sxs-lookup"><span data-stu-id="81a23-p161">Returns an empty string if this property has not been implemented or does not exist for the <b>ExchangeUser</b> object. </span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -1951,29 +1248,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-215">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Typ des Eintrags für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-215">Returns a <b>String</b> (<b>string</b> in C#) representing the type of entry for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-216">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-216">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-252">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Typ des Eintrags für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-252">Returns a <b>String</b> (<b>string</b> in C#) representing the type of entry for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-253">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-253">Read/write.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="efd24-217">
-            <para>Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt. Er erbt die <b>Type</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt. Im Fall von <b>ExchangeUser</b>ist der Typ immer die Zeichenfolge "EX".</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-217">
-              <para>The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object. It inherits the <b>Type</b> property from the <b>AddressEntry</b> object. In the case of <b>ExchangeUser</b>, the type is always the string "EX".</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="81a23-254">Das <b>ExchangeUser</b> -Objekt abgeleitet ist die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-254">The <b>ExchangeUser</b> object is derived from the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object.</span></span> <span data-ttu-id="81a23-255">Er erbt die <b>Type</b> -Eigenschaft vom <b>AddressEntry</b> -Objekt.</span><span class="sxs-lookup"><span data-stu-id="81a23-255">It inherits the <b>Type</b> property from the <b>AddressEntry</b> object.</span></span> <span data-ttu-id="81a23-256">Im Fall von <b>ExchangeUser</b> ist der Typ immer die Zeichenfolge "EX".</span><span class="sxs-lookup"><span data-stu-id="81a23-256">In the case of <b>ExchangeUser</b>, the type is always the string "EX".</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -1999,38 +1277,12 @@
         <Parameter Name="Refresh" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="MakePermanent">
-          <span data-ttu-id="efd24-p135">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache geleert wird und alle Änderungen sich, in dem zugrunde liegenden Adressbuch verpflichtet haben. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache gelöscht wird, aber nicht ein beständiger Speicher verwendet. Der Standardwert ist <b>True</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-p135">A value of <b>True</b> indicates that the property cache is flushed and all changes are committed in the underlying address book. A value of <b>False</b> indicates that the property cache is flushed but not committed to persistent storage. The default value is <b>True</b>.</span>
-          </span>
-        </param>
-        <param name="Refresh">
-          <span data-ttu-id="efd24-p136">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache aus den Werten in dem zugrunde liegenden Adressbuch erneut geladen wird. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache nicht neu geladen wird. Der Standardwert ist <b>False</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-p136">A value of <b>True</b> indicates that the property cache is reloaded from the values in the underlying address book. A value of <b>False</b> indicates that the property cache is not reloaded. The default value is <b>False</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="efd24-224">Stellt eine Änderung der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt im Messagingsystem bereit.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-224">Posts a change to the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object in the messaging system.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="efd24-225">
-            <para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung, bis die <b>Update</b> -Methode wurde, wobei aufgerufen wurde die <paramref name="MakePermanent" /> Parameter auf <b>True</b>festgelegt.  </para>
-            <para>Leeren des Caches und die Werte aus dem Adressbuch anschließend erneut zu laden, rufen Sie <b>Update</b> mit den <paramref name="MakePermanent" /> Parameter auf <b>False</b> festgelegt und die <paramref name="Refresh" /> Parameter auf <b>True</b>festgelegt.  </para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-225">
-              <para>New entries or changes to existing entries are not persisted in the collection until the <b>Update</b> method has been called with its <paramref name="MakePermanent" /> parameter set to <b>True</b>.  </para>
-              <para>To flush the cache and then reload the values from the address book, call <b>Update</b> with the <paramref name="MakePermanent" /> parameter set to <b>False</b> and the <paramref name="Refresh" /> parameter set to <b>True</b>.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="MakePermanent"><span data-ttu-id="81a23-p164">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache geleert wird und alle Änderungen sich, in dem zugrunde liegenden Adressbuch verpflichtet haben. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache gelöscht wird, aber nicht ein beständiger Speicher verwendet. Der Standardwert ist <b>True</b>. </span><span class="sxs-lookup"><span data-stu-id="81a23-p164">A value of <b>True</b> indicates that the property cache is flushed and all changes are committed in the underlying address book. A value of <b>False</b> indicates that the property cache is flushed but not committed to persistent storage. The default value is <b>True</b>.</span></span></param>
+        <param name="Refresh"><span data-ttu-id="81a23-p165">Der Wert <b>True</b> gibt an, dass der Eigenschaftencache aus den Werten in dem zugrunde liegenden Adressbuch erneut geladen wird. Der Wert <b>False</b> gibt an, dass der Eigenschaftencache nicht neu geladen wird. Der Standardwert ist <b>False</b>. </span><span class="sxs-lookup"><span data-stu-id="81a23-p165">A value of <b>True</b> indicates that the property cache is reloaded from the values in the underlying address book. A value of <b>False</b> indicates that the property cache is not reloaded. The default value is <b>False</b>.</span></span></param>
+        <summary><span data-ttu-id="81a23-263">Stellt eine Änderung der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> Objekt im Messagingsystem bereit.</span><span class="sxs-lookup"><span data-stu-id="81a23-263">Posts a change to the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" /> object in the messaging system.</span></span></summary>
+        <remarks><para><span data-ttu-id="81a23-264">Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung, bis die <b>Update</b> -Methode wurde, wobei aufgerufen wurde die <paramref name="MakePermanent" /> Parameter auf <b>True</b>festgelegt.</span><span class="sxs-lookup"><span data-stu-id="81a23-264">New entries or changes to existing entries are not persisted in the collection until the <b>Update</b> method has been called with its <paramref name="MakePermanent" /> parameter set to <b>True</b>.</span></span>  </para>
+          <para><span data-ttu-id="81a23-265">Um den Cache zu leeren, und die Werte aus dem Adressbuch anschließend erneut zu laden, rufen Sie <b>Update</b> mit den <paramref name="MakePermanent" /> Parameter auf <b>False</b> festgelegt und die <paramref name="Refresh" /> Parameter auf <b>True</b>festgelegt.</span><span class="sxs-lookup"><span data-stu-id="81a23-265">To flush the cache and then reload the values from the address book, call <b>Update</b> with the <paramref name="MakePermanent" /> parameter set to <b>False</b> and the <paramref name="Refresh" /> parameter set to <b>True</b>.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UpdateFreeBusy">
@@ -2057,12 +1309,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-226">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-226">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-266">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="81a23-266">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -2092,16 +1339,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-227">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Firmennamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-227">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the company name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-228">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-228">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-267">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Firmennamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-267">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the company name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-268">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-268">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2132,16 +1370,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-229">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) von den Namen der Abteilung für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-229">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the department name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-230">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-230">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-269">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) von den Namen der Abteilung für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-269">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the department name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-270">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-270">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2172,16 +1401,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-231">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Exchange-Anzeigenamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-231">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the Exchange display name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-232">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-232">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-271">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Exchange-Anzeigenamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-271">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the Exchange display name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-272">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-272">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2212,16 +1432,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-233">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Vornamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-233">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the first name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-234">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-234">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-273">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Vornamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-273">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the first name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-274">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-274">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2252,16 +1463,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="efd24-235">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Nachnamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-235">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the last name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span>
-          </span>
-          <span data-ttu-id="efd24-236">Lese-/Schreibzugriff.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="efd24-236">Read/write.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="81a23-275">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das japanische phonetische Leitzeichen (Yomigana) des Nachnamens für darstellen der <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span><span class="sxs-lookup"><span data-stu-id="81a23-275">Returns a <b>String</b> (<b>string</b> in C#) representing the Japanese phonetic rendering (yomigana) of the last name for the <see cref="T:Microsoft.Office.Interop.Outlook.ExchangeUser" />.</span></span> <span data-ttu-id="81a23-276">Lese-/Schreibzugriff.</span><span class="sxs-lookup"><span data-stu-id="81a23-276">Read/write.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

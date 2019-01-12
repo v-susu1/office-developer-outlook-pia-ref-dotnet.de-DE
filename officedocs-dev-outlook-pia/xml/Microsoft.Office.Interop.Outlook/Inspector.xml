@@ -1,13 +1,5 @@
 <Type Name="Inspector" FullName="Microsoft.Office.Interop.Outlook.Inspector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f647e0f5031d038c140991957ec784afba485301" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636198" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Inspector : Microsoft.Office.Interop.Outlook._Inspector, Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="515ae8a07220160d2189526aa21204ad35ca9331" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27905953" /></Metadata><TypeSignature Language="C#" Value="public interface Inspector : Microsoft.Office.Interop.Outlook._Inspector, Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Inspector implements class Microsoft.Office.Interop.Outlook._Inspector, class Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Inspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface Inspector&#xA;Implements _Inspector, InspectorEvents_10_Event" />
@@ -33,30 +25,12 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="59914-101">Stellt das Fenster dar, in dem ein Outlook-Element angezeigt wird.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="59914-101">Represents the window in which an Outlook item is displayed.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="59914-102">
-        <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Inspector" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />.</para>
-        <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> Methode, um das Objekt zurückzugeben, das den aktuell aktiven Inspektor (sofern vorhanden) darstellt.</para>
-        <para>Verwenden Sie die GetInspector-Eigenschaft eines Elements, um das Inspector-Objekt, das einem Element zugeordnet zurückzugeben.</para>
-        <para>Verwenden Sie die Display-Methode, um ein Element in dem zugeordneten Inspektor anzuzeigen.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="59914-102">
-          <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._Inspector" />. For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />.</para>
-          <para>Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> method to return the object representing the currently active inspector (if there is one). </para>
-          <para>Use the GetInspector property of an item to return the Inspector object associated with an item. </para>
-          <para>Use the Display method to display an item in its associated inspector.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="3cc07-101">Stellt das Fenster dar, in dem ein Outlook-Element angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="3cc07-101">Represents the window in which an Outlook item is displayed.</span></span></summary>
+    <remarks><para><span data-ttu-id="3cc07-102">Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="3cc07-102">This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="3cc07-103">Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen.</span><span class="sxs-lookup"><span data-stu-id="3cc07-103">Use this derived interface to access all method, property, and event members of the COM object.</span></span> <span data-ttu-id="3cc07-104">Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="3cc07-104">However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="3cc07-105">Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt.</span><span class="sxs-lookup"><span data-stu-id="3cc07-105">Refer to this topic for information about the COM object.</span></span> <span data-ttu-id="3cc07-106">Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Inspector" />.</span><span class="sxs-lookup"><span data-stu-id="3cc07-106">For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook._Inspector" />.</span></span> <span data-ttu-id="3cc07-107">Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />.</span><span class="sxs-lookup"><span data-stu-id="3cc07-107">For information about the event members of the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.InspectorEvents_10_Event" />.</span></span></para>
+      <para><span data-ttu-id="3cc07-108">Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> Methode, um das Objekt zurückzugeben, das den aktuell aktiven Inspektor (sofern vorhanden) darstellt.</span><span class="sxs-lookup"><span data-stu-id="3cc07-108">Use the <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> method to return the object representing the currently active inspector (if there is one).</span></span> </para>
+      <para><span data-ttu-id="3cc07-109">Verwenden Sie die GetInspector-Eigenschaft eines Elements, um einem Element zugeordnet Inspector-Objekt zurückzugeben.</span><span class="sxs-lookup"><span data-stu-id="3cc07-109">Use the GetInspector property of an item to return the Inspector object associated with an item.</span></span> </para>
+      <para><span data-ttu-id="3cc07-110">Verwenden Sie die Display-Methode, um ein Element in dem zugeordneten Inspektor anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="3cc07-110">Use the Display method to display an item in its associated inspector.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

@@ -1,13 +1,5 @@
 <Type Name="AddressEntries" FullName="Microsoft.Office.Interop.Outlook.AddressEntries">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="4bda78f2cfac522b2c9037bd4e14d0b6b1213f6c" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636436" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="934ec4a81165b2002ddbd25cdf69cfc08184863b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27903153" /></Metadata><TypeSignature Language="C#" Value="public interface AddressEntries : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressEntries implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressEntries" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressEntries&#xA;Implements IEnumerable" />
@@ -30,24 +22,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="3ae43-101">Enthält eine Auflistung von Adressen für ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3ae43-101">Contains a collection of addresses for an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  object.</span>
-      </span>
-    </summary>
-    <remarks>
-      <span data-ttu-id="3ae43-102">
-        <para>Das Objekt kann keine oder mehrere enthalten <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte und bietet Zugriff auf die Einträge im Adressbuchcontainer eines Transportdienstes.</para>
-        <para />
-      </span>
-      <span class="sxs-lookup">
-        <span data-stu-id="3ae43-102">
-          <para>The object may contain zero or more <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  objects and provides access to the entries in a transport provider's address book container.</para>
-          <para />
-        </span>
-      </span>
-    </remarks>
+    <summary><span data-ttu-id="35ff2-101">Enthält eine Auflistung von Adressen für ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-101">Contains a collection of addresses for an <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" />  object.</span></span></summary>
+    <remarks><para><span data-ttu-id="35ff2-102">Das Objekt kann keine oder mehrere enthalten <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte und bietet Zugriff auf die Einträge im Adressbuchcontainer eines Transportdienstes.</span><span class="sxs-lookup"><span data-stu-id="35ff2-102">The object may contain zero or more <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" />  objects and provides access to the entries in a transport provider's address book container.</span></span></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -74,48 +51,13 @@
         <Parameter Name="Address" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Type">
-          <span data-ttu-id="3ae43-103">Der Typ des neuen Eintrags.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-103">The type of the new entry.</span>
-          </span>
-        </param>
-        <param name="Name">
-          <span data-ttu-id="3ae43-104">Der Name des neuen Eintrags.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-104">The name of the new entry.</span>
-          </span>
-        </param>
-        <param name="Address">
-          <span data-ttu-id="3ae43-105">Die Adresse.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-105">The address.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3ae43-106">Fügt einen neuen Eintrag, der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-106">Adds a new entry to the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3ae43-107">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das den neuen Eintrag darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-107">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the new entry.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3ae43-108">
-            <para>Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung erst nach dem Aufrufen der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" /> Methode.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-108">
-              <para>New entries or changes to existing entries are not persisted in the collection until after calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" /> method.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Type"><span data-ttu-id="35ff2-103">Der Typ des neuen Eintrags.</span><span class="sxs-lookup"><span data-stu-id="35ff2-103">The type of the new entry.</span></span></param>
+        <param name="Name"><span data-ttu-id="35ff2-104">Der Name des neuen Eintrags.</span><span class="sxs-lookup"><span data-stu-id="35ff2-104">The name of the new entry.</span></span></param>
+        <param name="Address"><span data-ttu-id="35ff2-105">Die Adresse.</span><span class="sxs-lookup"><span data-stu-id="35ff2-105">The address.</span></span></param>
+        <summary><span data-ttu-id="35ff2-106">Fügt einen neuen Eintrag, der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="35ff2-106">Adds a new entry to the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="35ff2-107">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das den neuen Eintrag darstellt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-107">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the new entry.</span></span></returns>
+        <remarks><para><span data-ttu-id="35ff2-108">Neue Einträge oder Änderungen an vorhandenen Einträgen werden nicht beibehalten, in der Auflistung erst nach dem Aufrufen der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" /> Methode.</span><span class="sxs-lookup"><span data-stu-id="35ff2-108">New entries or changes to existing entries are not persisted in the collection until after calling the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntry.Update(System.Object,System.Object)" /> method.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -141,16 +83,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-109">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="3ae43-110">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-110">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35ff2-109">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-109">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="35ff2-110">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-110">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -178,16 +111,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-111">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="3ae43-112">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-112">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35ff2-111">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-111">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="35ff2-112">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-112">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -215,16 +139,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-113">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-113">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span>
-          </span>
-          <span data-ttu-id="3ae43-114">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-114">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35ff2-113">Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück.</span><span class="sxs-lookup"><span data-stu-id="35ff2-113">Returns an <b>Integer</b> (<b>int</b> in C#) value indicating the count of objects in the specified collection.</span></span> <span data-ttu-id="35ff2-114">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-114">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -250,30 +165,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-115">Gibt das erste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-115">Returns the first object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3ae43-116">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das erste in der Auflistung enthaltene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-116">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the first object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3ae43-117">
-            <para>Gibt <b>Nothing zurück</b> , wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind. Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b><see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-117">
-              <para>Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection. To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="35ff2-115">Gibt das erste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="35ff2-115">Returns the first object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="35ff2-116">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das erste in der Auflistung enthaltene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-116">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the first object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="35ff2-117">Gibt <b>Nothing zurück</b>, wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind.</span><span class="sxs-lookup"><span data-stu-id="35ff2-117">Returns <b>Nothing</b> if no first object exists, for example, if there are no objects in the collection.</span></span> <span data-ttu-id="35ff2-118">Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b> <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>.</span><span class="sxs-lookup"><span data-stu-id="35ff2-118">To ensure correct operation of the <b>GetFirst</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="35ff2-119">Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</span><span class="sxs-lookup"><span data-stu-id="35ff2-119">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -297,30 +192,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-118">Gibt das letzte Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-118">Returns the last object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3ae43-119">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das letzte in der Auflistung enthaltene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-119">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the last object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3ae43-120">
-            <para>Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-120">
-              <para>It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty. To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="35ff2-120">Gibt das letzte Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="35ff2-120">Returns the last object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="35ff2-121">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das letzte in der Auflistung enthaltene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-121">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the last object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="35ff2-122">Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist.</span><span class="sxs-lookup"><span data-stu-id="35ff2-122">It returns <b>Nothing</b> if no last object exists, for example, if the collection is empty.</span></span> <span data-ttu-id="35ff2-123">Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>.</span><span class="sxs-lookup"><span data-stu-id="35ff2-123">To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, and <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="35ff2-124">Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</span><span class="sxs-lookup"><span data-stu-id="35ff2-124">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -344,30 +219,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-121">Gibt das nächste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-121">Returns the next object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3ae43-122">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das nächste in der Auflistung enthaltene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-122">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the next object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3ae43-123">
-            <para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-123">
-              <para>It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="35ff2-125">Gibt das nächste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="35ff2-125">Returns the next object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="35ff2-126">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das nächste in der Auflistung enthaltene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-126">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the next object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="35ff2-127">Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>.</span><span class="sxs-lookup"><span data-stu-id="35ff2-127">It returns <b>Nothing</b> if no next object exists, for example, if already positioned at the end of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <b>GetNext</b>, and <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetPrevious" /> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="35ff2-128">Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</span><span class="sxs-lookup"><span data-stu-id="35ff2-128">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -391,30 +246,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-124">Gibt das vorherige Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-124">Returns the previous object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="3ae43-125">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das vorherige in der Auflistung enthaltene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-125">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the previous object contained by the collection.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="3ae43-126">
-            <para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-126">
-              <para>It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>. To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="35ff2-129">Gibt das vorherige Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="35ff2-129">Returns the previous object in the <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntries" /> collection.</span></span></summary>
+        <returns><span data-ttu-id="35ff2-130">Ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das das vorherige in der Auflistung enthaltene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-130">An <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object that represents the previous object contained by the collection.</span></span></returns>
+        <remarks><para><span data-ttu-id="35ff2-131">Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>.</span><span class="sxs-lookup"><span data-stu-id="35ff2-131">It returns <b>Nothing</b> if no previous object exists, for example, if already positioned at the beginning of the collection.To ensure correct operation of the <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.AddressEntries.GetNext" />, and <b>GetPrevious</b> methods in a large collection, call <b>GetFirst</b> before calling <b>GetNext</b> on that collection, and call <b>GetLast</b> before calling <b>GetPrevious</b>.</span></span> <span data-ttu-id="35ff2-132">Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</span><span class="sxs-lookup"><span data-stu-id="35ff2-132">To ensure that you are always making the calls on the same collection, create an explicit variable that refers to that collection before entering the loop.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -443,24 +278,9 @@
         <Parameter Name="Index" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Index">
-          <span data-ttu-id="3ae43-127">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-127">Either the index number of the object, or a value used to match the default property of an object in the collection.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3ae43-128">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt aus der Auflistung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-128">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object from the collection.</span>
-          </span>
-        </summary>
-        <value>
-          <span data-ttu-id="3ae43-129">Ein <b>AddressEntry</b> -Objekt, das das angegebene Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-129">An <b>AddressEntry</b> object that represents the specified object.</span>
-          </span>
-        </value>
+        <param name="Index"><span data-ttu-id="35ff2-133">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-133">Either the index number of the object, or a value used to match the default property of an object in the collection.</span></span></param>
+        <summary><span data-ttu-id="35ff2-134">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt aus der Auflistung.</span><span class="sxs-lookup"><span data-stu-id="35ff2-134">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> object from the collection.</span></span></summary>
+        <value><span data-ttu-id="35ff2-135">Ein <b>AddressEntry</b> -Objekt, das das angegebene Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-135">An <b>AddressEntry</b> object that represents the specified object.</span></span></value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -487,12 +307,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-p104">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-p104">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35ff2-p108">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-p108">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -523,12 +338,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-132">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-132">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35ff2-138">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="35ff2-138">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -556,41 +366,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="3ae43-133">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-133">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="3ae43-134">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-134">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="35ff2-139">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="35ff2-139">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="35ff2-140">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-140">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="3ae43-135">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="35ff2-141">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="35ff2-141">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="35ff2-142">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="35ff2-142">Both members serve the same purpose.</span></span> <span data-ttu-id="35ff2-143">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="35ff2-143">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-135">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sort">
@@ -616,38 +401,13 @@
         <Parameter Name="Order" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Property">
-          <span data-ttu-id="3ae43-p106">Der Name der Eigenschaft, nach der sortiert werden soll. Der Name kann in eckige Klammern eingeschlossen sein (zum Beispiel: "[CompanyName]"). Es darf sich dabei nicht um ein benutzerdefiniertes Feld handeln und nicht um eine mehrwertige Eigenschaft, wie z. B. eine Kategorie.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-p106">The name of the property by which to sort, which may be enclosed in brackets, for example, "[CompanyName]". May not be a user-defined field, and may not be a multi-valued property, such as a category.</span>
-          </span>
-        </param>
-        <param name="Order">
-          <span data-ttu-id="3ae43-p107">Die Reihenfolge für die angegebene Adresseinträge. Kann eine der folgenden <b>OlSortOrder</b> -Konstanten sein: <b>OlAscending</b>, <b>OlDescending</b> oder <b>OlSortNone</b>. </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-p107">The order for the specified address entries. Can be one of these <b>OlSortOrder</b> constants: <b>olAscending</b>, <b>olDescending</b>, or <b>olSortNone</b>.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="3ae43-p108">Sortiert die Auflistung der Elemente nach der angegebenen Eigenschaft. Der Index für die Auflistung wird nach Abschluss dieser Methode auf 1 zurückgesetzt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-p108">Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="3ae43-142">
-            <para>
-              <b>Sort</b> wirkt sich lediglich auf die Reihenfolge der Elemente in einer Auflistung. Es wirkt sich nicht auf die Reihenfolge von Elementen in einem Explorer-Ansicht.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="3ae43-142">
-              <para>
-                <b>Sort</b> only affects the order of items in a collection. It does not affect the order of items in an explorer view.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Property"><span data-ttu-id="35ff2-p111">Der Name der Eigenschaft, nach der sortiert werden soll. Der Name kann in eckige Klammern eingeschlossen sein (zum Beispiel: "[CompanyName]"). Es darf sich dabei nicht um ein benutzerdefiniertes Feld handeln und nicht um eine mehrwertige Eigenschaft, wie z. B. eine Kategorie.</span><span class="sxs-lookup"><span data-stu-id="35ff2-p111">The name of the property by which to sort, which may be enclosed in brackets, for example, "[CompanyName]". May not be a user-defined field, and may not be a multi-valued property, such as a category.</span></span></param>
+        <param name="Order"><span data-ttu-id="35ff2-p112">Die Reihenfolge für die angegebene Adresseinträge. Kann eine der folgenden <b>OlSortOrder</b> -Konstanten sein: <b>OlAscending</b>, <b>OlDescending</b> oder <b>OlSortNone</b>. </span><span class="sxs-lookup"><span data-stu-id="35ff2-p112">The order for the specified address entries. Can be one of these <b>OlSortOrder</b> constants: <b>olAscending</b>, <b>olDescending</b>, or <b>olSortNone</b>.</span></span></param>
+        <summary><span data-ttu-id="35ff2-p113">Sortiert die Auflistung der Elemente nach der angegebenen Eigenschaft. Der Index für die Auflistung wird nach Abschluss dieser Methode auf 1 zurückgesetzt.</span><span class="sxs-lookup"><span data-stu-id="35ff2-p113">Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.</span></span></summary>
+        <remarks><para><span data-ttu-id="35ff2-p114">
+            <b>Sort</b> wirkt sich lediglich auf die Reihenfolge der Elemente in einer Auflistung. Es wirkt sich nicht auf die Reihenfolge von Elementen in einem Explorer-Ansicht.</span><span class="sxs-lookup"><span data-stu-id="35ff2-p114">
+            <b>Sort</b> only affects the order of items in a collection. It does not affect the order of items in an explorer view.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

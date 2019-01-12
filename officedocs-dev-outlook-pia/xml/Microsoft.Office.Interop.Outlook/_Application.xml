@@ -1,13 +1,5 @@
 <Type Name="_Application" FullName="Microsoft.Office.Interop.Outlook._Application">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3a1a76725d5ad1aff125d99fcb70c41ea0bd31ed" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635735" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Application" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3a1a76725d5ad1aff125d99fcb70c41ea0bd31ed" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27904049" /></Metadata><TypeSignature Language="C#" Value="public interface _Application" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Application" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Application" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Application" />
@@ -26,24 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-      <span data-ttu-id="57f01-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="57f01-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span>
-      </span>
-      <span data-ttu-id="57f01-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="57f01-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span>
-      </span>
-      <span data-ttu-id="57f01-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="57f01-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span>
-      </span>
-      <span data-ttu-id="57f01-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Application" />.</span>
-      <span class="sxs-lookup">
-        <span data-stu-id="57f01-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Application" />.</span>
-      </span>
-    </summary>
+    <summary><span data-ttu-id="37e47-101">Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="37e47-101">This is a primary interface in a COM coclass that is required by managed code for interoperability with the corresponding COM object.</span></span> <span data-ttu-id="37e47-102">Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt.</span><span class="sxs-lookup"><span data-stu-id="37e47-102">Use this primary interface only when the method you want to use shares the same name as an event of the COM object; in this case, cast to this interface to call the method, and cast to the latest events interface to connect to the event.</span></span> <span data-ttu-id="37e47-103">Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist.</span><span class="sxs-lookup"><span data-stu-id="37e47-103">Otherwise, use the .NET interface that is derived from the COM coclass to access methods, properties, and events of the COM object.</span></span> <span data-ttu-id="37e47-104">Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Application" />.</span><span class="sxs-lookup"><span data-stu-id="37e47-104">For information about the COM object, see <see cref="T:Microsoft.Office.Interop.Outlook.Application" />.</span></span></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -68,34 +43,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-105">Gibt das oberste <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> -Objekts auf dem Desktop.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-105">Returns the topmost <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  object on the desktop.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-106">Ein <b>Explorer</b> , die den obersten Explorer auf dem Desktop darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-106">An <b>Explorer</b> that represents the topmost explorer on the desktop.</span>
-          </span>
-          <span data-ttu-id="57f01-107">Wenn kein Explorer aktiv ist, wird <b>Nothing</b> zurückgegeben.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-107">Returns <b>Nothing</b> if no explorer is active.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-108">
-            <para>Verwenden Sie diese Methode, um das <b>Explorer</b> -Objekt zurückzugeben, das der Benutzer wahrscheinlich anzeigt. Diese Methode eignet sich auch für die Bestimmung, wenn keine aktiven Explorer vorhanden ist, sodass eine neue geöffnet werden kann.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-108">
-              <para> Use this method to return the <b>Explorer</b> object that the user is most likely viewing. This method is also useful for determining when there is no active explorer, so a new one can be opened.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="37e47-105">Gibt das oberste <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> -Objekts auf dem Desktop.</span><span class="sxs-lookup"><span data-stu-id="37e47-105">Returns the topmost <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  object on the desktop.</span></span></summary>
+        <returns><span data-ttu-id="37e47-106">Ein <b>Explorer</b> , die den obersten Explorer auf dem Desktop darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-106">An <b>Explorer</b> that represents the topmost explorer on the desktop.</span></span> <span data-ttu-id="37e47-107">Wenn kein Explorer aktiv ist, wird <b>Nothing</b> zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="37e47-107">Returns <b>Nothing</b> if no explorer is active.</span></span></returns>
+        <remarks><para> <span data-ttu-id="37e47-p103">Verwenden Sie diese Methode, um das  <b>Explorer</b> -Objekt zurückzugeben, das der Benutzer wahrscheinlich anzeigt. Diese Methode ist darüber hinaus nützlich, um festzustellen, ob kein aktiver Explorer vorhanden ist, damit ein neuer geöffnet werden kann.</span><span class="sxs-lookup"><span data-stu-id="37e47-p103">Use this method to return the <b>Explorer</b> object that the user is most likely viewing. This method is also useful for determining when there is no active explorer, so a new one can be opened.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveInspector">
@@ -119,32 +70,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-109">Gibt das oberste <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekts auf dem Desktop.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-109">Returns the topmost <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object on the desktop.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-110">Ein <b>Inspektor</b> , das den obersten Inspektor auf dem Desktop darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-110">An <b>Inspector</b> that represents the topmost inspector on the desktop.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-111">
-            <para>Mit dieser Methode können Sie das <b>Inspector</b> -Objekt zuzugreifen, das der Benutzer wahrscheinlich aufruft, werden.</para>
-            <para>Gibt <b>Nothing</b>zurück, wenn kein Inspektor aktiv ist,.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-111">
-              <para> Use this method to access the <b>Inspector</b> object that the user is most likely to be viewing.</para>
-              <para>If no inspector is active, returns <b>Nothing</b>.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="37e47-110">Gibt das oberste <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekts auf dem Desktop.</span><span class="sxs-lookup"><span data-stu-id="37e47-110">Returns the topmost <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object on the desktop.</span></span></summary>
+        <returns><span data-ttu-id="37e47-111">Ein <b>Inspektor</b> , das den obersten Inspektor auf dem Desktop darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-111">An <b>Inspector</b> that represents the topmost inspector on the desktop.</span></span></returns>
+        <remarks><para> <span data-ttu-id="37e47-112">Verwenden Sie diese Methode, um auf das <b>Inspector</b>-Objekt zuzugreifen, das der Benutzer wahrscheinlich aufruft.</span><span class="sxs-lookup"><span data-stu-id="37e47-112">Use this method to access the <b>Inspector</b> object that the user is most likely to be viewing.</span></span></para>
+          <para><span data-ttu-id="37e47-113">Wenn kein Inspektor aktiv ist, gibt <b>Nothing zurück</b>.</span><span class="sxs-lookup"><span data-stu-id="37e47-113">If no inspector is active, returns <b>Nothing</b>.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ActiveWindow">
@@ -168,22 +98,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-112">Gibt ein Objekt zurück, das oberste Microsoft Outlook-Fenster auf dem Desktop darstellt entweder ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> oder ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-112">Returns an object representing the topmost Microsoft Outlook window on the desktop, either an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  or an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-113">Ein Objekt, das oberste Microsoft Outlook-Fenster auf dem Desktop darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-113">An Object that represents the topmost Microsoft Outlook window on the desktop.</span>
-          </span>
-          <span data-ttu-id="57f01-114">Gibt <b>Nothing</b> zurück, wenn kein Outlook-Explorer oder Inspektor geöffnet ist.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-114">Returns <b>Nothing</b> if no Outlook explorer or inspector is open.</span>
-          </span>
-        </returns>
+        <summary><span data-ttu-id="37e47-114">Gibt ein Objekt zurück, das oberste Microsoft Outlook-Fenster auf dem Desktop darstellt entweder ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> oder ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> Objekt.</span><span class="sxs-lookup"><span data-stu-id="37e47-114">Returns an object representing the topmost Microsoft Outlook window on the desktop, either an <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  or an <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  object.</span></span></summary>
+        <returns><span data-ttu-id="37e47-115">Ein Objekt, das oberste Microsoft Outlook-Fenster auf dem Desktop darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-115">An Object that represents the topmost Microsoft Outlook window on the desktop.</span></span> <span data-ttu-id="37e47-116">Gibt <b>Nothing</b> zurück, wenn kein Outlook-Explorer oder Inspektor geöffnet ist.</span><span class="sxs-lookup"><span data-stu-id="37e47-116">Returns <b>Nothing</b> if no Outlook explorer or inspector is open.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -212,80 +128,27 @@
         <Parameter Name="Tag" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Scope">
-          <span data-ttu-id="57f01-p104">Der Umfang der Suche, beispielsweise der Ordnerpfad eines Ordners. Es wird empfohlen, den Ordnerpfad in Hochkommata einzuschließen. Andernfalls gibt die Suche möglicherweise falsche Ergebnisse zurück, wenn der Ordnerpfad Sonderzeichen, einschließlich Unicode-Zeichen, enthält. Um mehrere Ordnerpfade anzugeben, schließen Sie jeden Ordnerpfad in Hochkommata ein, und trennen Sie die Ordnerpfade mit einem Komma.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-p104">The scope of the search. For example, the folder path of a folder. It is recommended that the folder path  is enclosed within single quotes. Otherwise, the search might not return correct results if the folder path contains special characters including Unicode characters. To specify multiple folder paths, enclose each folder path in single quotes and separate the single quoted folder paths with a comma.</span>
-          </span>
-        </param>
-        <param name="Filter">
-          <span data-ttu-id="57f01-120">Der DASL-Suchfilter, der die Parameter der Suche definiert.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-120">The DASL search filter that defines the parameters of the search.</span>
-          </span>
-        </param>
-        <param name="SearchSubFolders">
-          <span data-ttu-id="57f01-121">Bestimmt, ob die Suche Unterordner des Ordners einschließt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-121">Determines if the search will include any of the folder's subfolders.</span>
-          </span>
-        </param>
-        <param name="Tag">
-          <span data-ttu-id="57f01-122">Der der Suche als Bezeichner gegebene Name.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-122">The name given as an identifier for the search.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-123">Führt eine auf einer angegebenen DASL-Suchzeichenfolge (DAV Searching and Locating) basierende Suche aus.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-123">Performs a search based on a specified DAV Searching and Locating (DASL) search string.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-124">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> -Objekt, das die Ergebnisse der Suche darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-124">A <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object that represents the results of the search.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-125">
-            <para>Sie können mehrere Suchvorgänge gleichzeitig ausführen, indem Sie die <b>AdvancedSearch</b> -Methode in aufeinander folgenden Codezeilen aufrufen. Allerdings beachten Sie, dass Programmgesteuertes Erstellen von eine große Anzahl von Suchordnern führen kann beträchtliche gleichzeitige Search-Aktivität, die die Leistung von Outlook auswirken würde insbesondere dann, wenn Outlook die Suche im Exchange-Onlinemodus tätig.</para>
-            <para>Die <b>AdvancedSearch</b> -Methode und die zugehörigen Features im Outlook-Objektmodell werden kein Suchordner erstellt, die in der Outlook-Benutzeroberfläche angezeigt wird. Sie können jedoch die <see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" /> -Methode des Search-Objekt, das zum Erstellen eines Suchordners, die angezeigt werden, wird in der Liste Suchordner in der Outlook-Benutzeroberfläche zurückgegeben wird.</para>
-            <para>Mit der <paramref name="Scope" /> -Parameter können Sie einen oder mehrere Ordner in den gleichen Speicher angeben, aber Sie können nicht mehrere Ordner in mehreren Informationsspeichern angeben. Angeben mehrerer Ordner für die <paramref name="Scope" /> Parameter, verwenden Sie ein Komma zwischen jedem Ordnerpfad und setzen Sie jeden Ordnerpfad in einfache Anführungszeichen. Für Standardordner wie Posteingang oder gesendete Elemente können Sie anstelle des vollständigen Ordnerpfads den einfachen Ordnernamen verwenden. Zum Beispiel die folgenden Codezeilen gültige darstellen <paramref name="Scope" /> Parameter:</para>
-            <code>Dim Scope As String = "'Inbox', 'Sent Items'"</code>
-            <code>string Scope = "'Inbox', 'Sent Items'";</code>
-            <code>Dim Scope1 As String = "'" &amp;amp; Application.Session.GetDefaultFolder( _
+        <param name="Scope"><span data-ttu-id="37e47-p105">Der Umfang der Suche, beispielsweise der Ordnerpfad eines Ordners. Es wird empfohlen, den Ordnerpfad in Hochkommata einzuschließen. Andernfalls gibt die Suche möglicherweise falsche Ergebnisse zurück, wenn der Ordnerpfad Sonderzeichen, einschließlich Unicode-Zeichen, enthält. Um mehrere Ordnerpfade anzugeben, schließen Sie jeden Ordnerpfad in Hochkommata ein, und trennen Sie die Ordnerpfade mit einem Komma.</span><span class="sxs-lookup"><span data-stu-id="37e47-p105">The scope of the search. For example, the folder path of a folder. It is recommended that the folder path  is enclosed within single quotes. Otherwise, the search might not return correct results if the folder path contains special characters including Unicode characters. To specify multiple folder paths, enclose each folder path in single quotes and separate the single quoted folder paths with a comma.</span></span></param>
+        <param name="Filter"><span data-ttu-id="37e47-122">Der DASL-Suchfilter, der die Parameter der Suche definiert.</span><span class="sxs-lookup"><span data-stu-id="37e47-122">The DASL search filter that defines the parameters of the search.</span></span></param>
+        <param name="SearchSubFolders"><span data-ttu-id="37e47-123">Bestimmt, ob die Suche Unterordner des Ordners einschließt.</span><span class="sxs-lookup"><span data-stu-id="37e47-123">Determines if the search will include any of the folder's subfolders.</span></span></param>
+        <param name="Tag"><span data-ttu-id="37e47-124">Der der Suche als Bezeichner zugewiesene Name.</span><span class="sxs-lookup"><span data-stu-id="37e47-124">The name given as an identifier for the search.</span></span></param>
+        <summary><span data-ttu-id="37e47-125">Führt eine auf einer angegebenen DASL-Suchzeichenfolge (DAV Searching and Locating) basierende Suche aus.</span><span class="sxs-lookup"><span data-stu-id="37e47-125">Performs a search based on a specified DAV Searching and Locating (DASL) search string.</span></span></summary>
+        <returns><span data-ttu-id="37e47-126">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> -Objekt, das die Ergebnisse der Suche darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-126">A <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> object that represents the results of the search.</span></span></returns>
+        <remarks><para><span data-ttu-id="37e47-127">Sie können mehrere Suchvorgänge gleichzeitig ausführen, indem Sie die <b>AdvancedSearch</b> -Methode in aufeinander folgenden Codezeilen aufrufen.</span><span class="sxs-lookup"><span data-stu-id="37e47-127">You can run multiple searches simultaneously by calling the <b>AdvancedSearch</b> method in successive lines of code.</span></span> <span data-ttu-id="37e47-128">Sie sollten sich jedoch bewusst sein, dass das programmgesteuerte Erstellen einer großen Anzahl von Suchordnern zu umfangreichen gleichzeitigen Suchaktivitäten führen kann, die sich auf die Leistung von Outlook auswirken können, insbesondere, wenn Outlook die Suche im Exchange-Onlinemodus ausführt.</span><span class="sxs-lookup"><span data-stu-id="37e47-128">However, you should be aware that programmatically creating a large number of search folders can result in significant simultaneous search activity that would affect the performance of Outlook, especially if Outlook conducts the search in online Exchange mode.</span></span></para>
+          <para><span data-ttu-id="37e47-129">Die <b>AdvancedSearch</b> -Methode und die zugehörigen Features im Outlook-Objektmodell werden kein Suchordner erstellt, die in der Outlook-Benutzeroberfläche angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="37e47-129">The <b>AdvancedSearch</b> method and related features in the Outlook object model do not create a Search Folder that will appear in the Outlook user interface.</span></span> <span data-ttu-id="37e47-130">Sie können jedoch die <see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" /> -Methode des Search-Objekt, das zum Erstellen eines Suchordners, die angezeigt werden, wird in der Liste Suchordner in der Outlook-Benutzeroberfläche zurückgegeben wird.</span><span class="sxs-lookup"><span data-stu-id="37e47-130">However, you can use the <see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" /> method of the Search object that is returned to create a Search Folder that will appear in the Search Folders list in the Outlook user interface.</span></span></para>
+          <para><span data-ttu-id="37e47-131">Mithilfe der <paramref name="Scope" /> -Parameter können Sie einen oder mehrere Ordner in den gleichen Speicher angeben, aber Sie können nicht mehrere Ordner in mehreren Informationsspeichern angeben.</span><span class="sxs-lookup"><span data-stu-id="37e47-131">Using the <paramref name="Scope" /> parameter, you can specify one or more folders in the same store, but you may not specify multiple folders in multiple stores.</span></span> <span data-ttu-id="37e47-132">Angeben mehrerer Ordner für die <paramref name="Scope" /> Parameter, verwenden Sie ein Komma zwischen jedem Ordnerpfad und setzen Sie jeden Ordnerpfad in einfache Anführungszeichen.</span><span class="sxs-lookup"><span data-stu-id="37e47-132">To specify multiple folders for the <paramref name="Scope" /> parameter, use a comma character between each folder path and enclose each folder path in single quotes.</span></span> <span data-ttu-id="37e47-133">Für Standardordner wie "Posteingang" oder "Gesendete Objekte" können Sie den einfachen Ordnernamen anstelle des vollständigen Ordnerpfads verwenden.</span><span class="sxs-lookup"><span data-stu-id="37e47-133">For default folders such as Inbox or Sent Items, you can use the simple folder name instead of the full folder path.</span></span> <span data-ttu-id="37e47-134">Zum Beispiel die folgenden Codezeilen gültige darstellen <paramref name="Scope" /> Parameter:</span><span class="sxs-lookup"><span data-stu-id="37e47-134">For example, the following lines of code represent valid <paramref name="Scope" /> parameters:</span></span></para>
+          <code>Dim Scope As String = "'Inbox', 'Sent Items'"</code>
+          <code>string Scope = "'Inbox', 'Sent Items'";</code>
+          <code>Dim Scope1 As String = "'" &amp;amp; Application.Session.GetDefaultFolder( _
     Outlook.OlDefaultFolders.olFolderInbox).FolderPath &amp;amp; _
     "','" &amp;amp; Application.Session.GetDefaultFolder( _
     Outlook.OlDefaultFolders.olFolderSentMail).FolderPath</code>
-            <code>string Scope1 = "'" + Application.Session.GetDefaultFolder( 
+          <code>string Scope1 = "'" + Application.Session.GetDefaultFolder( 
     Outlook.OlDefaultFolders.olFolderInbox).FolderPath + 
     "','" + Application.Session.GetDefaultFolder( 
     Outlook.OlDefaultFolders.olFolderSentMail).FolderPath;</code>
-            <para>der <paramref name="Filter" /> -Parameter kann eine beliebige gültige DASL-Abfrage sein. Weitere Informationen über DASL-Abfragen finden Sie unter Filtern von Elementen und verweisen auf Eigenschaften mithilfe von Namespace. Beachten Sie, dass Sie für eine JET-Abfrage können nicht die <paramref name="Filter" /> -Parameter der erweiterte Suche. Wenn für die Sofortsuche in einem Speicher aktiviert ist, die im angegebenen Ordner enthält die <paramref name="Scope" /> -Parameter können Sie Sofortsuche-Schlüsselwörter zur Verbesserung der Leistung der Suche verwenden. Wenn Sie Sofortsuche-Schlüsselwörter verwenden, und für die Sofortsuche ist nicht aktiviert, Outlook zurückgegebenen Fehler und die Suche fehl.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-125">
-              <para>You can run multiple searches simultaneously by calling the <b>AdvancedSearch</b> method in successive lines of code. However, you should be aware that programmatically creating a large number of search folders can result in significant simultaneous search activity that would affect the performance of Outlook, especially if Outlook conducts the search in online Exchange mode.</para>
-              <para>The <b>AdvancedSearch</b> method and related features in the Outlook object model do not create a Search Folder that will appear in the Outlook user interface. However, you can use the <see cref="M:Microsoft.Office.Interop.Outlook.Search.Save(System.String)" /> method of the Search object that is returned to create a Search Folder that will appear in the Search Folders list in the Outlook user interface.</para>
-              <para>Using the <paramref name="Scope" /> parameter, you can specify one or more folders in the same store, but you may not specify multiple folders in multiple stores. To specify multiple folders for the <paramref name="Scope" /> parameter, use a comma character between each folder path and enclose each folder path in single quotes. For default folders such as Inbox or Sent Items, you can use the simple folder name instead of the full folder path. For example, the following lines of code represent valid <paramref name="Scope" /> parameters:</para>
-              <code>Dim Scope As String = "'Inbox', 'Sent Items'"</code>
-              <code>string Scope = "'Inbox', 'Sent Items'";</code>
-              <code>Dim Scope1 As String = "'" &amp;amp; Application.Session.GetDefaultFolder( _
-    Outlook.OlDefaultFolders.olFolderInbox).FolderPath &amp;amp; _
-    "','" &amp;amp; Application.Session.GetDefaultFolder( _
-    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath</code>
-              <code>string Scope1 = "'" + Application.Session.GetDefaultFolder( 
-    Outlook.OlDefaultFolders.olFolderInbox).FolderPath + 
-    "','" + Application.Session.GetDefaultFolder( 
-    Outlook.OlDefaultFolders.olFolderSentMail).FolderPath;</code>
-              <para>The <paramref name="Filter" /> parameter can be any valid DASL query. For additional information on DASL queries, see Filtering Items and Referencing Properties by Namespace. Note that you cannot use a JET query for the <paramref name="Filter" /> parameter of Advanced Search. If Instant Search is enabled on a store that contains a folder specified in the <paramref name="Scope" /> parameter, you can use Instant Search keywords to improve the performance of your search. If you use Instant Search keywords and Instant Search is not enabled, Outlook will return an error and your search will fail.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <para><span data-ttu-id="37e47-135">Die <paramref name="Filter" /> -Parameter kann eine beliebige gültige DASL-Abfrage sein.</span><span class="sxs-lookup"><span data-stu-id="37e47-135">The <paramref name="Filter" /> parameter can be any valid DASL query.</span></span> <span data-ttu-id="37e47-136">Weitere Informationen zu DASL-Abfragen finden Sie unter Filtern von Elementen und Verweisen auf Eigenschaften nach Namespace.</span><span class="sxs-lookup"><span data-stu-id="37e47-136">For additional information on DASL queries, see Filtering Items and Referencing Properties by Namespace.</span></span> <span data-ttu-id="37e47-137">Beachten Sie, dass Sie für eine JET-Abfrage können nicht die <paramref name="Filter" /> -Parameter der erweiterte Suche.</span><span class="sxs-lookup"><span data-stu-id="37e47-137">Note that you cannot use a JET query for the <paramref name="Filter" /> parameter of Advanced Search.</span></span> <span data-ttu-id="37e47-138">Wenn für die Sofortsuche in einem Speicher aktiviert ist, die im angegebenen Ordner enthält die <paramref name="Scope" /> -Parameter können Sie Sofortsuche-Schlüsselwörter zur Verbesserung der Leistung der Suche verwenden.</span><span class="sxs-lookup"><span data-stu-id="37e47-138">If Instant Search is enabled on a store that contains a folder specified in the <paramref name="Scope" /> parameter, you can use Instant Search keywords to improve the performance of your search.</span></span> <span data-ttu-id="37e47-139">Wenn Sie Schlüsselwörter für die Sofortsuche verwenden und die Sofortsuche nicht aktiviert ist, gibt Outlook einen Fehler zurück, und Ihre Suche schlägt fehl.</span><span class="sxs-lookup"><span data-stu-id="37e47-139">If you use Instant Search keywords and Instant Search is not enabled, Outlook will return an error and your search will fail.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AnswerWizard">
@@ -314,12 +177,7 @@
         <ReturnType>Microsoft.Office.Core.AnswerWizard</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-126">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-126">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-140">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="37e47-140">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -347,16 +205,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-127">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-127">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span>
-          </span>
-          <span data-ttu-id="57f01-128">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-128">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-141">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-141">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  object that represents the parent Outlook application for the  object.</span></span> <span data-ttu-id="37e47-142">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-142">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -384,25 +233,10 @@
         <ReturnType>Microsoft.Office.Core.IAssistance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-129">Gibt ein <a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-129">Returns an <a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a></span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-143">Gibt ein <a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a></span><span class="sxs-lookup"><span data-stu-id="37e47-143">Returns an <a href="http://go.microsoft.com/fwlink/?LinkId=87944">IAssistance</a></span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="57f01-130">
-            <para>Weitere Informationen zu <b>IAssistance</b>finden Sie unter der Objektbibliotheksreferenz für 2007 Microsoft Office System.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-130">
-              <para>For more information on <b>IAssistance</b>, see the Object Library Reference for the 2007 Microsoft Office system.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="37e47-144">Weitere Informationen zu <b>IAssistance</b>finden Sie unter der Objektbibliotheksreferenz für 2007 Microsoft Office System.</span><span class="sxs-lookup"><span data-stu-id="37e47-144">For more information on <b>IAssistance</b>, see the Object Library Reference for the 2007 Microsoft Office system.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Assistant">
@@ -431,12 +265,7 @@
         <ReturnType>Microsoft.Office.Core.Assistant</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-131">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-131">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-145">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="37e47-145">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -464,16 +293,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-132">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-132">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span>
-          </span>
-          <span data-ttu-id="57f01-133">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-133">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-146">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt.</span><span class="sxs-lookup"><span data-stu-id="37e47-146">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> constant indicating the object's class.</span></span> <span data-ttu-id="37e47-147">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-147">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -501,12 +321,7 @@
         <ReturnType>Microsoft.Office.Core.COMAddIns</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-134">Gibt eine <b>COMAddIns</b> -Auflistung, die alle Component Object Model (COM) add-ins in Microsoft Outlook geladenen darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-134">Returns a <b>COMAddIns</b> collection that represents all the Component Object Model (COM) add-ins currently loaded in Microsoft Outlook.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-148">Gibt eine <b>COMAddIns</b> -Auflistung, die alle Component Object Model (COM) add-ins in Microsoft Outlook geladenen darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-148">Returns a <b>COMAddIns</b> collection that represents all the Component Object Model (COM) add-ins currently loaded in Microsoft Outlook.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -535,32 +350,10 @@
         <Parameter Name="DestFolderPath" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="FilePath">
-          <span data-ttu-id="57f01-135">Der Pfadname des zu kopierenden Objekts.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-135">The path name of the object you want to copy.</span>
-          </span>
-        </param>
-        <param name="DestFolderPath">
-          <span data-ttu-id="57f01-136">Der Speicherort, an den die Datei kopiert werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-136">The location you want to copy the file to.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-137">Eine Datei wird aus einem angegebenen Speicherort in einen Microsoft Outlook-Speicher kopiert.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-137">Copies a file from a specified location into a Microsoft Outlook store.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-138">
-            <b>Ein Objektwert, der die kopierte Datei darstellt.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-138">An <b>Object</b> value that represents the copied file.</span>
-          </span>
-        </returns>
+        <param name="FilePath"><span data-ttu-id="37e47-149">Der Pfadname des zu kopierenden Objekts.</span><span class="sxs-lookup"><span data-stu-id="37e47-149">The path name of the object you want to copy.</span></span></param>
+        <param name="DestFolderPath"><span data-ttu-id="37e47-150">Der Speicherort, an den die Datei kopiert werden soll.</span><span class="sxs-lookup"><span data-stu-id="37e47-150">The location you want to copy the file to.</span></span></param>
+        <summary><span data-ttu-id="37e47-151">Eine Datei wird aus einem angegebenen Speicherort in einen Microsoft Outlook-Speicher kopiert.</span><span class="sxs-lookup"><span data-stu-id="37e47-151">Copies a file from a specified location into a Microsoft Outlook store.</span></span></summary>
+        <returns><span data-ttu-id="37e47-152"><b>Ein Objektwert, der die kopierte Datei darstellt.</b></span><span class="sxs-lookup"><span data-stu-id="37e47-152">An <b>Object</b> value that represents the copied file.</span></span></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -587,36 +380,11 @@
         <Parameter Name="ItemType" Type="Microsoft.Office.Interop.Outlook.OlItemType" />
       </Parameters>
       <Docs>
-        <param name="ItemType">
-          <span data-ttu-id="57f01-139">Der Outlook-Elementtyp für das neue Element.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-139">The Outlook item type for the new item.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-140">Erstellt und gibt ein neues Microsoft Outlook-Element zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-140">Creates and returns a new Microsoft Outlook item.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-141">Ein <b>Object</b> -Wert, der das neue Outlook-Element darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-141">An <b>Object</b> value that represents the new Outlook item.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-142">
-            <para>Die <b>CreateItem</b> -Methode kann nur Outlook-Elemente erstellen. Verwenden Sie zum Erstellen neuer Elemente, die mithilfe einer benutzerdefinierten Maske der <see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" /> -Methode für die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-142">
-              <para>The <b>CreateItem</b> method can only create default Outlook items. To create new items using a custom form, use the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />  method on the <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  collection.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ItemType"><span data-ttu-id="37e47-153">Der Outlook-Elementtyp für das neue Element.</span><span class="sxs-lookup"><span data-stu-id="37e47-153">The Outlook item type for the new item.</span></span></param>
+        <summary><span data-ttu-id="37e47-154">Erstellt und gibt ein neues Microsoft Outlook-Element zurück.</span><span class="sxs-lookup"><span data-stu-id="37e47-154">Creates and returns a new Microsoft Outlook item.</span></span></summary>
+        <returns><span data-ttu-id="37e47-155">Ein <b>Object</b> -Wert, der das neue Outlook-Element darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-155">An <b>Object</b> value that represents the new Outlook item.</span></span></returns>
+        <remarks><para><span data-ttu-id="37e47-156">Die Methode <b>CreateItem</b> kann nur standardmäßige Outlook-Elemente erstellen.</span><span class="sxs-lookup"><span data-stu-id="37e47-156">The <b>CreateItem</b> method can only create default Outlook items.</span></span> <span data-ttu-id="37e47-157">Verwenden Sie zum Erstellen neuer Elemente, die mithilfe einer benutzerdefinierten Maske der <see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" /> -Methode für die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung.</span><span class="sxs-lookup"><span data-stu-id="37e47-157">To create new items using a custom form, use the <see cref="M:Microsoft.Office.Interop.Outlook._Items.Add(System.Object)" />  method on the <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  collection.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateItemFromTemplate">
@@ -642,44 +410,12 @@
         <Parameter Name="InFolder" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="TemplatePath">
-          <span data-ttu-id="57f01-143">Der Pfad und der Dateiname der Outlook-Vorlage für das neue Element.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-143">The path and file name of the Outlook template for the new item.</span>
-          </span>
-        </param>
-        <param name="InFolder">
-          <span data-ttu-id="57f01-p107">Der Ordner, in dem das Element erstellt werden soll. Wenn dieses Argument ausgelassen wird, wird der Standardordner für den jeweiligen Elementtyp verwendet.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-p107">The folder in which the item is to be created. If this argument is omitted, the default folder for the item type will be used.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-146">Erstellt ein neues Microsoft Outlook-Element aus einer Outlook-Vorlage (OFT) und gibt das neue Element zurück.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-146">Creates a new Microsoft Outlook item from an Outlook template (.oft) and returns the new item.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-147">
-            <b>Ein Objektwert, der das neue Microsoft Outlook-Element darstellt.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-147">An <b>Object</b> value that represents the new Microsoft Outlook item.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-148">
-            <para>Neue Elemente öffnet immer im Erstellungsmodus im Gegensatz zum Lesemodus, unabhängig von dem Modus, in dem Elemente gespeichert wurden, auf den Datenträger.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-148">
-              <para>New items will always open in compose mode, as opposed to read mode, regardless of the mode in which the items were saved to disk.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="TemplatePath"><span data-ttu-id="37e47-158">Der Pfad und der Dateiname der Outlook-Vorlage für das neue Element.</span><span class="sxs-lookup"><span data-stu-id="37e47-158">The path and file name of the Outlook template for the new item.</span></span></param>
+        <param name="InFolder"><span data-ttu-id="37e47-p113">Der Ordner, in dem das Element erstellt werden soll. Wenn dieses Argument ausgelassen wird, wird der Standardordner für den jeweiligen Elementtyp verwendet.</span><span class="sxs-lookup"><span data-stu-id="37e47-p113">The folder in which the item is to be created. If this argument is omitted, the default folder for the item type will be used.</span></span></param>
+        <summary><span data-ttu-id="37e47-161">Erstellt ein neues Microsoft Outlook-Element aus einer Outlook-Vorlage (OFT) und gibt das neue Element zurück.</span><span class="sxs-lookup"><span data-stu-id="37e47-161">Creates a new Microsoft Outlook item from an Outlook template (.oft) and returns the new item.</span></span></summary>
+        <returns><span data-ttu-id="37e47-162"><b>Ein Objektwert, der das neue Microsoft Outlook-Element darstellt.</b></span><span class="sxs-lookup"><span data-stu-id="37e47-162">An <b>Object</b> value that represents the new Microsoft Outlook item.</span></span></returns>
+        <remarks><para><span data-ttu-id="37e47-163">Neue Elemente werden immer im Erstellungsmodus im Gegensatz zum Lesemodus geöffnet, unabhängig von dem Modus, in dem die Elemente auf dem Datenträger gespeichert wurden.</span><span class="sxs-lookup"><span data-stu-id="37e47-163">New items will always open in compose mode, as opposed to read mode, regardless of the mode in which the items were saved to disk.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CreateObject">
@@ -705,50 +441,14 @@
         <Parameter Name="ObjectName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="ObjectName">
-          <span data-ttu-id="57f01-149">Der Klassenname des zu erstellenden Objekts.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-149">The class name of the object to create.</span>
-          </span>
-          <span data-ttu-id="57f01-150">Informationen über zulässige Klassennamen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87946">Programmtechnische OLE-Bezeichner</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-150">For information about valid class names, see <a href="http://go.microsoft.com/fwlink/?LinkId=87946">OLE Programmatic Identifiers</a></span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-151">Erstellt ein Automatisierungsobjekt der angegebenen Klasse.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-151">Creates an Automation object of the specified class.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-152">
-            <b>Ein Objektwert, der die neue Instanz des Automation-Objekt darstellt.</b>
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-152">An <b>Object</b> value that represents the new Automation object instance.</span>
-          </span>
-          <span data-ttu-id="57f01-153">Wenn die Anwendung bereits ausgeführt wird, erstellt <b>CreateObject</b> eine neue Instanz.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-153">If the application is already running, <b>CreateObject</b> will create a new instance.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-154">
-            <para>Diese Methode wird bereitgestellt, sodass andere Anwendungen können automatisiert werden, von Microsoft Visual Basic Scripting Edition (VBScript) 1.0, die keine <b>CreateObject</b> -Methode hinzugefügt haben. <b>CreateObject</b> ist in VBScript, Version 2.0 und höher enthalten. Diese Methode sollte nicht verwendet werden, um Microsoft Outlook mit VBScript zu automatisieren.</para>
-            <para>
-              <b>Hinweis</b>: die <b>CreateObject</b> -Methoden, die in der Beispielcode in dieser Hilfedatei (klicken Sie auf "Beispiel") verwendet werden zur Verfügung gestellt von Microsoft Visual Basic oder Microsoft Visual Basic für Applikationen (VBA). Diese Beispiele verwenden <paramref name="not" /> verwenden Sie die gleiche <b>CreateObject</b> -Methode, die implementiert wird als Teil des Outlook-Objektmodells.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-154">
-              <para>This method is provided so that other applications can be automated from Microsoft Visual Basic Scripting Edition (VBScript) 1.0, which did not include a  <b>CreateObject</b> method. <b>CreateObject</b> has been included in VBScript version 2.0 and later. This method should not be used to automate Microsoft Outlook from VBScript.</para>
-              <para>
-                <b>Note</b>: The <b>CreateObject</b> methods commonly used in the example code within this Help file (available when you click "Example") are made available by Microsoft Visual Basic or Microsoft Visual Basic for Applications (VBA). These examples do <paramref name="not" /> use the same <b>CreateObject</b> method that is implemented as part of the object model in Outlook.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="ObjectName"><span data-ttu-id="37e47-164">Der Klassenname des Objekts, das erstellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="37e47-164">The class name of the object to create.</span></span> <span data-ttu-id="37e47-165">Informationen über zulässige Klassennamen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87946">Programmtechnische OLE-Bezeichner</a></span><span class="sxs-lookup"><span data-stu-id="37e47-165">For information about valid class names, see <a href="http://go.microsoft.com/fwlink/?LinkId=87946">OLE Programmatic Identifiers</a></span></span></param>
+        <summary><span data-ttu-id="37e47-166">Erstellt ein Automatisierungsobjekt der angegebenen Klasse.</span><span class="sxs-lookup"><span data-stu-id="37e47-166">Creates an Automation object of the specified class.</span></span></summary>
+        <returns><span data-ttu-id="37e47-167"><b>Ein Objektwert, der die neue Instanz des Automation-Objekt darstellt.</b></span><span class="sxs-lookup"><span data-stu-id="37e47-167">An <b>Object</b> value that represents the new Automation object instance.</span></span> <span data-ttu-id="37e47-168">Wenn die Anwendung bereits ausgeführt wird, erstellt <b>CreateObject</b> eine neue Instanz.</span><span class="sxs-lookup"><span data-stu-id="37e47-168">If the application is already running, <b>CreateObject</b> will create a new instance.</span></span></returns>
+        <remarks><para><span data-ttu-id="37e47-p116">Diese Methode wird bereitgestellt, damit andere Anwendungen mit Microsoft Visual Basic Scripting Edition (VBScript) 1.0, in das keine  <b>CreateObject</b> -Methode eingeschlossen ist, automatisiert werden können. <b>CreateObject</b> ist in VBScript, Version 2.0 und höher, enthalten. Diese Methode sollte nicht verwendet werden, um Microsoft Outlook mit VBScript zu automatisieren.</span><span class="sxs-lookup"><span data-stu-id="37e47-p116">This method is provided so that other applications can be automated from Microsoft Visual Basic Scripting Edition (VBScript) 1.0, which did not include a  <b>CreateObject</b> method. <b>CreateObject</b> has been included in VBScript version 2.0 and later. This method should not be used to automate Microsoft Outlook from VBScript.</span></span></para>
+          <para><span data-ttu-id="37e47-172">
+            <b>Hinweis</b>: die <b>CreateObject</b> -Methoden, die in der Beispielcode in dieser Hilfedatei (klicken Sie auf "Beispiel") verwendet werden zur Verfügung gestellt von Microsoft Visual Basic oder Microsoft Visual Basic für Applikationen (VBA).</span><span class="sxs-lookup"><span data-stu-id="37e47-172">
+            <b>Note</b>: The <b>CreateObject</b> methods commonly used in the example code within this Help file (available when you click "Example") are made available by Microsoft Visual Basic or Microsoft Visual Basic for Applications (VBA).</span></span> <span data-ttu-id="37e47-173">Diese Beispiele verwenden <paramref name="not" /> die gleiche <b>CreateObject</b> -Methode, die implementiert wird im Rahmen von dem Objektmodell in Outlook verwenden.</span><span class="sxs-lookup"><span data-stu-id="37e47-173">These examples do <paramref name="not" /> use the same <b>CreateObject</b> method that is implemented as part of the object model in Outlook.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DefaultProfileName">
@@ -774,29 +474,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-155">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Namen des den Standardnamen Profil darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-155">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the default profile name.</span>
-          </span>
-          <span data-ttu-id="57f01-156">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-156">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-174">Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Namen des den Standardnamen Profil darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-174">Returns a <b>String</b> (<b>string</b> in C#) representing the name of the default profile name.</span></span> <span data-ttu-id="37e47-175">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-175">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="57f01-157">
-            <para>Gibt eine leere Zeichenfolge zurück, wenn kein Profil konfiguriert wurde oder wenn kein Standardprofil für Outlook vorhanden ist.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-157">
-              <para>Returns an empty string if no profile has been configured or if there is no default profile for Outlook.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="37e47-176">Gibt eine leere Zeichenfolge zurück, wenn kein Profil konfiguriert wurde oder wenn kein Standardprofil für Outlook vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="37e47-176">Returns an empty string if no profile has been configured or if there is no default profile for Outlook.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Explorers">
@@ -822,16 +503,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Explorers</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-158">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekte, die alle geöffneten Explorer darstellen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-158">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />  collection object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  objects representing all open explorers.</span>
-          </span>
-          <span data-ttu-id="57f01-159">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-159">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-177">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekte, die alle geöffneten Explorer darstellen.</span><span class="sxs-lookup"><span data-stu-id="37e47-177">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Explorers" />  collection object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />  objects representing all open explorers.</span></span> <span data-ttu-id="37e47-178">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-178">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -868,12 +540,7 @@
         <ReturnType>Microsoft.Office.Core.MsoFeatureInstall</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-160">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-160">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-179">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="37e47-179">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -901,36 +568,11 @@
         <Parameter Name="Type" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Type">
-          <span data-ttu-id="57f01-161">Der zurückzugebende Namespacetyp.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-161">The type of name space to return.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-162">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt des angegebenen Typs.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-162">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object of the specified type.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-163">Ein Objekt vom Typ <b>NameSpace</b>, das den angegebenen Namespace darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-163">A <b>NameSpace</b> object that represents the specified namespace.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-164">
-            <para>Der einzige unterstützte Namensbereich Typ ist "MAPI". Die <b>GetNameSpace</b> -Methode entspricht funktional die <b>Session</b> -Eigenschaft, die in Microsoft Outlook 98 eingeführt wurde.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-164">
-              <para>The only supported name space type is "MAPI". The <b>GetNameSpace</b> method is functionally equivalent to the <b>Session</b> property, which was introduced in Microsoft Outlook 98.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Type"><span data-ttu-id="37e47-180">Der zurückzugebende Namespacetyp.</span><span class="sxs-lookup"><span data-stu-id="37e47-180">The type of name space to return.</span></span></param>
+        <summary><span data-ttu-id="37e47-181">Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt des angegebenen Typs.</span><span class="sxs-lookup"><span data-stu-id="37e47-181">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object of the specified type.</span></span></summary>
+        <returns><span data-ttu-id="37e47-182">Ein Objekt vom Typ <b>NameSpace</b>, das den angegebenen Namespace darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-182">A <b>NameSpace</b> object that represents the specified namespace.</span></span></returns>
+        <remarks><para><span data-ttu-id="37e47-183">Der einzige unterstützte Namespace lautet „MAPI".</span><span class="sxs-lookup"><span data-stu-id="37e47-183">The only supported name space type is "MAPI".</span></span> <span data-ttu-id="37e47-184">Die <b>GetNameSpace</b> -Methode entspricht funktional die <b>Session</b> -Eigenschaft, die in Microsoft Outlook 98 eingeführt wurde.</span><span class="sxs-lookup"><span data-stu-id="37e47-184">The <b>GetNameSpace</b> method is functionally equivalent to the <b>Session</b> property, which was introduced in Microsoft Outlook 98.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNewNickNames">
@@ -960,12 +602,7 @@
       </Parameters>
       <Docs>
         <param name="pvar">To be added.</param>
-        <summary>
-          <span data-ttu-id="57f01-165">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-165">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-185">Dieses Objekt, dieses Mitglied oder diese Aufzählung ist veraltet und kann nicht in Ihrem Code verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="37e47-185">This object, member, or enumeration is deprecated and is not intended to be used in your code.</span></span></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -993,46 +630,15 @@
         <Parameter Name="ReferenceType" Type="Microsoft.Office.Interop.Outlook.OlReferenceType" />
       </Parameters>
       <Docs>
-        <param name="Item">
-          <span data-ttu-id="57f01-166">Das Objekt, von dem eine starke oder schwache Objektreferenz abgerufen werden soll.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-166">The object from which to obtain a strong or weak object reference.</span>
-          </span>
-        </param>
-        <param name="ReferenceType">
-          <span data-ttu-id="57f01-167">Der Typ des Objektverweises.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-167">The type of object reference.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-168">Erstellt eine starke oder schwache Objektreferenz für ein angegebenes Outlook-Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-168">Creates a strong or weak object reference for a specified Outlook object.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-169">Ein <b>Objekt</b>, das eine starke darstellt oder schwache Objektreferenz für das angegebene Objekt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-169">An <b>Object</b> that represents a strong or weak object reference for the specified object.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-170">
-            <para>Diese Methode gibt eine schwache oder starke Objektreferenz für das Objekt im angegebenen <paramref name="Item" />.</para>
-            <para>
-              <b>Hinweis</b>: Outlook kann nicht erfolgreich zu schließen, wenn ein Add-in starke Objektreferenzen enthält. Immer eine starke Objektreferenz Dereferenzierung, nachdem es durch das Add-in nicht mehr benötigt wird</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-170">
-              <para>This method returns a weak or strong object reference for the object specified in <paramref name="Item" />.</para>
-              <para>
-                <b>Note</b>: Outlook can fail to close successfully if an add-in retains strong object references. Always dereference a strong object reference once it is no longer needed by the add-in.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="Item"><span data-ttu-id="37e47-186">Das Objekt, von dem eine starke oder schwache Objektreferenz abgerufen werden soll.</span><span class="sxs-lookup"><span data-stu-id="37e47-186">The object from which to obtain a strong or weak object reference.</span></span></param>
+        <param name="ReferenceType"><span data-ttu-id="37e47-187">Der Typ des Objektverweises.</span><span class="sxs-lookup"><span data-stu-id="37e47-187">The type of object reference.</span></span></param>
+        <summary><span data-ttu-id="37e47-188">Erstellt eine starke oder schwache Objektreferenz für ein angegebenes Outlook-Objekt.</span><span class="sxs-lookup"><span data-stu-id="37e47-188">Creates a strong or weak object reference for a specified Outlook object.</span></span></summary>
+        <returns><span data-ttu-id="37e47-189">Ein <b>Objekt</b>, das eine starke darstellt oder schwache Objektreferenz für das angegebene Objekt.</span><span class="sxs-lookup"><span data-stu-id="37e47-189">An <b>Object</b> that represents a strong or weak object reference for the specified object.</span></span></returns>
+        <remarks><para><span data-ttu-id="37e47-190">Diese Methode gibt eine schwache oder starke Objektreferenz für das Objekt im angegebenen <paramref name="Item" />.</span><span class="sxs-lookup"><span data-stu-id="37e47-190">This method returns a weak or strong object reference for the object specified in <paramref name="Item" />.</span></span></para>
+          <para><span data-ttu-id="37e47-191">
+            <b>Hinweis</b>: Outlook kann nicht erfolgreich zu schließen, wenn ein Add-in starke Objektreferenzen enthält.</span><span class="sxs-lookup"><span data-stu-id="37e47-191">
+            <b>Note</b>: Outlook can fail to close successfully if an add-in retains strong object references.</span></span> <span data-ttu-id="37e47-192">Eine starke Objektreferenz sollte immer dereferenziert werden, wenn sie vom Add-In nicht mehr benötigt wird.</span><span class="sxs-lookup"><span data-stu-id="37e47-192">Always dereference a strong object reference once it is no longer needed by the add-in.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Inspectors">
@@ -1058,16 +664,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspectors</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-171">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekten, die alle geöffneten Inspektoren darstellen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-171">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />  collection object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  objects representing all open inspectors.</span>
-          </span>
-          <span data-ttu-id="57f01-172">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-172">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-193">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" /> Auflistungsobjekt, enthält die <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekten, die alle geöffneten Inspektoren darstellen.</span><span class="sxs-lookup"><span data-stu-id="37e47-193">Returns an <see cref="T:Microsoft.Office.Interop.Outlook.Inspectors" />  collection object that contains the <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  objects representing all open inspectors.</span></span> <span data-ttu-id="37e47-194">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-194">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1095,38 +692,11 @@
         <Parameter Name="LookInFolders" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="LookInFolders">
-          <span data-ttu-id="57f01-p113">Der Pfadname der Ordner, die bei der Suche durchsucht werden sollen. Sie müssen den Ordnerpfad in einfache Anführungszeichen setzen.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-p113">The path name of the folders that the search will search through. You must enclose the folder path  with single quotes.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-175">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#), der angibt, wenn eine Suche synchron oder asynchron durchgeführt wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-175">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating if a search will be synchronous or asynchronous.</span>
-          </span>
-        </summary>
-        <returns>
-          <span data-ttu-id="57f01-176">
-            <b>True,</b> Wenn die Suche synchron ist. anderenfalls <b>False</b>.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-176">
-              <b>True</b> if the search is synchronous; otherwise, <b>False</b>.</span>
-          </span>
-        </returns>
-        <remarks>
-          <span data-ttu-id="57f01-177">
-            <para>Wenn die Suche synchron ist, ist die <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> -Methode wird nicht zurück, bis die Suche abgeschlossen ist. Umgekehrt, wenn die Suche asynchron ausgeführt wird, wird die <b>AdvancedSearch</b> -Methode sofort zurückgegeben. Um bei einer asynchronen Suche sinnvolle Ergebnisse erhalten möchten, verwenden Sie die <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> Ereignis, um Sie zu benachrichtigen, wenn die Suche abgeschlossen wurde.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-177">
-              <para>If the search is synchronous, the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method will not return until the search has completed. Conversely, if the search is asynchronous, the <b>AdvancedSearch</b> method will immediately return. In order to get meaningful results from an asynchronous search, use the <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> event to notify you when the search has finished.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="LookInFolders"><span data-ttu-id="37e47-p123">Der Pfadname der Ordner, die bei der Suche durchsucht werden sollen. Sie müssen den Ordnerpfad in einfache Anführungszeichen setzen.</span><span class="sxs-lookup"><span data-stu-id="37e47-p123">The path name of the folders that the search will search through. You must enclose the folder path  with single quotes.</span></span></param>
+        <summary><span data-ttu-id="37e47-197">Gibt einen <b>Boolean</b> (<b>Bool</b> in c#), der angibt, wenn eine Suche synchron oder asynchron durchgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="37e47-197">Returns a <b>Boolean</b> (<b>bool</b> in C#) indicating if a search will be synchronous or asynchronous.</span></span></summary>
+        <returns><span data-ttu-id="37e47-198"><b>True,</b> Wenn die Suche synchron ist. anderenfalls <b>False</b>.</span><span class="sxs-lookup"><span data-stu-id="37e47-198"><b>True</b> if the search is synchronous; otherwise, <b>False</b>.</span></span></returns>
+        <remarks><para><span data-ttu-id="37e47-199">Wenn die Suche synchron ist, ist die <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> -Methode wird nicht zurück, bis die Suche abgeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="37e47-199">If the search is synchronous, the <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> method will not return until the search has completed.</span></span> <span data-ttu-id="37e47-200">Umgekehrt, wenn die Suche asynchron ausgeführt wird, wird die <b>AdvancedSearch</b> -Methode sofort zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="37e47-200">Conversely, if the search is asynchronous, the <b>AdvancedSearch</b> method will immediately return.</span></span> <span data-ttu-id="37e47-201">Um bei einer asynchronen Suche sinnvolle Ergebnisse erhalten möchten, verwenden Sie die <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> Ereignis, um Sie zu benachrichtigen, wenn die Suche abgeschlossen wurde.</span><span class="sxs-lookup"><span data-stu-id="37e47-201">In order to get meaningful results from an asynchronous search, use the <see cref="E:Microsoft.Office.Interop.Outlook.ApplicationEvents_11_Event.AdvancedSearchComplete" /> event to notify you when the search has finished.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsTrusted">
@@ -1152,29 +722,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-178">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), um anzugeben, ob ein Add-in oder externer Anrufer vertrauenswürdig betrachtet wird.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-178">Returns a <b>Boolean</b> (<b>bool</b> in C#) to indicate if an add-in or external caller is considered trusted by Outlook.</span>
-          </span>
-          <span data-ttu-id="57f01-179">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-179">Read-only</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-202">Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), um anzugeben, ob ein Add-in oder externer Anrufer vertrauenswürdig betrachtet wird.</span><span class="sxs-lookup"><span data-stu-id="37e47-202">Returns a <b>Boolean</b> (<b>bool</b> in C#) to indicate if an add-in or external caller is considered trusted by Outlook.</span></span> <span data-ttu-id="37e47-203">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-203">Read-only</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="57f01-180">
-            <para>Für Out-of-Process Anrufer, die instanziiert haben die <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt <b>IsTrusted</b> gibt immer <b>False</b>zurück.   Für Outlook-Add-ins gibt <b>IsTrusted</b><b>True</b> zurück, wenn das Add-in als vertrauenswürdig wird von Outlook behandelt.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-180">
-              <para>For out-of-process callers that have instantiated the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object, <b>IsTrusted</b> always returns <b>False</b>.   For Outlook add-ins, <b>IsTrusted</b> returns <b>True</b> if and only if the add-in is considered trusted by Outlook.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="37e47-204">Für Out-of-Process Anrufer, die instanziiert haben die <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt <b>IsTrusted</b> gibt immer <b>False</b>zurück.</span><span class="sxs-lookup"><span data-stu-id="37e47-204">For out-of-process callers that have instantiated the <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> object, <b>IsTrusted</b> always returns <b>False</b>.</span></span>   <span data-ttu-id="37e47-205">Für Outlook-Add-ins gibt <b>IsTrusted</b> <b>True</b> zurück, wenn das Add-in als vertrauenswürdig wird von Outlook behandelt.</span><span class="sxs-lookup"><span data-stu-id="37e47-205">For Outlook add-ins, <b>IsTrusted</b> returns <b>True</b> if and only if the add-in is considered trusted by Outlook.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LanguageSettings">
@@ -1200,12 +751,7 @@
         <ReturnType>Microsoft.Office.Core.LanguageSettings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-181">Gibt ein <a href="http://go.microsoft.com/fwlink/?LinkId=87945">LanguageSettings</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-181">Returns a <a href="http://go.microsoft.com/fwlink/?LinkId=87945">LanguageSettings</a></span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-206">Gibt ein <a href="http://go.microsoft.com/fwlink/?LinkId=87945">LanguageSettings</a></span><span class="sxs-lookup"><span data-stu-id="37e47-206">Returns a <a href="http://go.microsoft.com/fwlink/?LinkId=87945">LanguageSettings</a></span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1233,16 +779,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-182">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Anzeigenamen für das Objekt darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-182">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span>
-          </span>
-          <span data-ttu-id="57f01-183">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-183">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-207">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den Anzeigenamen für das Objekt darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-207">Returns a <b>String</b> (<b>string</b> in C#) value that represents the display name for the object.</span></span> <span data-ttu-id="37e47-208">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-208">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1270,12 +807,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-p116">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-p116">Returns the parent <b>Object</b> of the specified object. Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-p128">Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-p128">Returns the parent <b>Object</b> of the specified object. Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1303,98 +835,49 @@
         <ReturnType>Microsoft.Office.Core.PickerDialog</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-186">Gibt ein <see cref="T:Microsoft.Office.Core.PickerDialog" /> -Objekt, das die Funktionen zum Auswählen von Personen oder Daten in einem Dialogfeld bereitstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-186">Returns a <see cref="T:Microsoft.Office.Core.PickerDialog" /> object that provides the functionality to select people or data in a dialog box.</span>
-          </span>
-          <span data-ttu-id="57f01-187">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-187">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-211">Gibt ein <see cref="T:Microsoft.Office.Core.PickerDialog" /> -Objekt, das die Funktionen zum Auswählen von Personen oder Daten in einem Dialogfeld bereitstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-211">Returns a <see cref="T:Microsoft.Office.Core.PickerDialog" /> object that provides the functionality to select people or data in a dialog box.</span></span> <span data-ttu-id="37e47-212">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-212">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="57f01-188">
-            <para>Ist <b>PickerDialog</b> -Objekts in der Microsoft Office-Typbibliothek verfügbar. Weitere Informationen finden Sie unter die folgenden Objekte und ihre Member:</para>
-            <list type="bullet">
-              <item>
-                <para>
-                  <b>PickerDialog</b>
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Core.PickerField" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Core.PickerFields" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Core.PickerProperties" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Core.PickerProperty" />
-                </para>
-              </item>
-              <item>
-                <para>
-                  <see cref="T:Microsoft.Office.Core.PickerResult" />
-                </para>
-              </item>
-            </list>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-188">
-              <para>The <b>PickerDialog</b> object is available in the Microsoft Office type library. For more information, see the following objects and their members:</para>
-              <list type="bullet">
-                <item>
-                  <para>
-                    <b>PickerDialog</b>
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Core.PickerField" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Core.PickerFields" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Core.PickerProperties" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Core.PickerProperty" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Core.PickerResult" />
-                  </para>
-                </item>
-                <item>
-                  <para>
-                    <see cref="T:Microsoft.Office.Core.PickerResults" />
-                  </para>
-                </item>
-              </list>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="37e47-p130"><b>PickerDialog</b> -Objekts ist in der Microsoft Office-Typbibliothek verfügbar. Weitere Informationen finden Sie unter die folgenden Objekte und ihre Member:</span><span class="sxs-lookup"><span data-stu-id="37e47-p130">The <b>PickerDialog</b> object is available in the Microsoft Office type library. For more information, see the following objects and their members:</span></span></para>
+          <list type="bullet">
+            <item>
+              <para><span data-ttu-id="37e47-215">
+                <b>PickerDialog</b>
+              </span><span class="sxs-lookup"><span data-stu-id="37e47-215">
+                <b>PickerDialog</b>
+              </span></span></para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerField" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerFields" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerProperties" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerProperty" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerResult" />
+              </para>
+            </item>
+            <item>
+              <para>
+                <see cref="T:Microsoft.Office.Core.PickerResults" />
+              </para>
+            </item>
+          </list>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ProductCode">
@@ -1420,12 +903,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-189">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) angeben der Microsoft Outlook <a href="http://go.microsoft.com/fwlink/?LinkId=87946">global eindeutigen Bezeichner (GUID)</a></span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-189">Returns a <b>String</b> (<b>string</b> in C#) specifying the Microsoft Outlook <a href="http://go.microsoft.com/fwlink/?LinkId=87946">globally unique identifier (GUID)</a></span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-216">Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#) angeben der Microsoft Outlook <a href="http://go.microsoft.com/fwlink/?LinkId=87946">global eindeutigen Bezeichner (GUID)</a></span><span class="sxs-lookup"><span data-stu-id="37e47-216">Returns a <b>String</b> (<b>string</b> in C#) specifying the Microsoft Outlook <a href="http://go.microsoft.com/fwlink/?LinkId=87946">globally unique identifier (GUID)</a></span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1451,24 +929,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-190">Schließt alle aktuell geöffneten Fenster.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-190">Closes all currently open windows.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="57f01-191">
-            <para>Die zugeordnete Outlook-Sitzung wird vollständig beendet; der Benutzer ist nicht genügend Nachrichtensystem angemeldet, und Änderungen an der noch nicht gespeicherte Elemente werden verworfen.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-191">
-              <para>The associated Outlook session is closed completely; the user is logged out of the messaging system and any changes to items not already saved are discarded.  </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <summary><span data-ttu-id="37e47-217">Schließt alle aktuell geöffneten Fenster.</span><span class="sxs-lookup"><span data-stu-id="37e47-217">Closes all currently open windows.</span></span></summary>
+        <remarks><para><span data-ttu-id="37e47-218">Die zugeordnete Outlook-Sitzung wird vollständig beendet. Der Benutzer wird vom Messaging-System abgemeldet, und alle noch nicht gespeicherten Änderungen an Elementen werden verworfen.</span><span class="sxs-lookup"><span data-stu-id="37e47-218">The associated Outlook session is closed completely; the user is logged out of the messaging system and any changes to items not already saved are discarded.</span></span>  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RefreshFormRegionDefinition">
@@ -1494,34 +957,12 @@
         <Parameter Name="RegionName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="RegionName">
-          <span data-ttu-id="57f01-p118">Der interne Name des Formularbereichs, dessen Definition im Cache aktualisiert werden soll. Geben Sie zum Aktualisieren aller Formularbereichsdefinitionen eine leere Zeichenfolge an.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-p118">The internal name of the form region whose definition you want to refresh in the cache. To refresh all form region definitions, specify an empty string.</span>
-          </span>
-        </param>
-        <summary>
-          <span data-ttu-id="57f01-194">Aktualisiert den Cache durch Abrufen der aktuellen Definition aus der Windows-Registrierung für einen oder alle Formularbereiche, die für den lokalen Computer und den aktuellen Benutzer definiert sind.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-194">Refreshes the cache by obtaining the current definition from the Windows registry for one or all of the form regions that are defined for the local machine and the current user.</span>
-          </span>
-        </summary>
-        <remarks>
-          <span data-ttu-id="57f01-195">
-            <para>Beim Start von Microsoft Outlook, liest die Windows-Registrierung, um eine Liste von Formularbereichen und deren Definitionen zu erhalten, und speichert die Daten. Die Definitionen sind in der Registrierung unter dem Schlüssel des lokalen Computers (als HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) und dem aktuellen Benutzerschlüssel (als HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions) gespeichert. Die Definitionen beschreiben das Layout, Verhalten und andere Merkmale jeden Formularbereich. Wenn Sie ein Formularbereichs registrieren oder nach dem Starten von Outlook die Definition eines Formularbereichs zu ändern, können die <b>RefreshFormRegionDefinition</b> -Methode angewiesen, Outlook, um die aktualisierte Informationen abzurufen.</para>
-            <para>Der <paramref name="RegionName" /> Argument sollte entsprechen den <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, deren Definition Sie aktualisiert werden. Der interne Name eines Formularbereichs unterstützt nur ASCII-Zeichen. Wenn Sie eine leere Zeichenfolge angeben, liest Outlook die Windows-Registrierung, um Definitionen für alle Formularbereiche zu erhalten, die für den lokalen Computer und den aktuellen Benutzer definiert sind.</para>
-            <para>Weitere Informationen zum Registrieren eines Formularbereichs finden Sie unter Angeben von Formularbereichen in der Windows-Registrierung.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-195">
-              <para>When Microsoft Outlook starts, it reads the Windows registry to obtain a list of form regions and their definitions, and then caches the data. The definitions are stored in the registry under the local machine key (as HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) and under the current user key (as HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions). The definitions describe the layout, behavior, and other characteristics of each form region. If you register a form region or modify the definition of a form region after Outlook starts, you can use the <b>RefreshFormRegionDefinition</b> method to instruct Outlook to obtain the updated information.</para>
-              <para>The <paramref name="RegionName" /> argument should match the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> property of the form region whose definition you are refreshing. The internal name of a form region supports only ASCII characters. If you specify an empty string, Outlook reads the Windows registry to obtain definitions for all of the form regions that are defined for the local machine and the current user.</para>
-              <para>For more information about registering form regions, see Specifying Form Regions in the Windows Registry.</para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <param name="RegionName"><span data-ttu-id="37e47-p131">Der interne Name des Formularbereichs, dessen Definition im Cache aktualisiert werden soll. Geben Sie zum Aktualisieren aller Formularbereichsdefinitionen eine leere Zeichenfolge an.</span><span class="sxs-lookup"><span data-stu-id="37e47-p131">The internal name of the form region whose definition you want to refresh in the cache. To refresh all form region definitions, specify an empty string.</span></span></param>
+        <summary><span data-ttu-id="37e47-221">Aktualisiert den Cache durch Abrufen der aktuellen Definition aus der Windows-Registrierung für einen oder alle Formularbereiche, die für den lokalen Computer und den aktuellen Benutzer definiert sind.</span><span class="sxs-lookup"><span data-stu-id="37e47-221">Refreshes the cache by obtaining the current definition from the Windows registry for one or all of the form regions that are defined for the local machine and the current user.</span></span></summary>
+        <remarks><para><span data-ttu-id="37e47-222">Beim Start von Microsoft Outlook, liest die Windows-Registrierung, um eine Liste von Formularbereichen und deren Definitionen zu erhalten, und speichert die Daten.</span><span class="sxs-lookup"><span data-stu-id="37e47-222">When Microsoft Outlook starts, it reads the Windows registry to obtain a list of form regions and their definitions, and then caches the data.</span></span> <span data-ttu-id="37e47-223">Die Definitionen sind in der Registrierung unter dem Schlüssel des lokalen Computers (als HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) und dem aktuellen Benutzerschlüssel (als HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions) gespeichert.</span><span class="sxs-lookup"><span data-stu-id="37e47-223">The definitions are stored in the registry under the local machine key (as HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\FormRegions) and under the current user key (as HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\FormRegions).</span></span> <span data-ttu-id="37e47-224">Die Definitionen beschreiben das Layout, Verhalten und andere Merkmale jeden Formularbereich.</span><span class="sxs-lookup"><span data-stu-id="37e47-224">The definitions describe the layout, behavior, and other characteristics of each form region.</span></span> <span data-ttu-id="37e47-225">Wenn Sie ein Formularbereichs registrieren oder die Definition eines Formularbereichs zu ändern, nachdem Outlook gestartet wurde, können Sie <b>RefreshFormRegionDefinition</b> -Methode verwenden, um anzuweisen, Outlook, um die aktualisierte Informationen abzurufen.</span><span class="sxs-lookup"><span data-stu-id="37e47-225">If you register a form region or modify the definition of a form region after Outlook starts, you can use the <b>RefreshFormRegionDefinition</b> method to instruct Outlook to obtain the updated information.</span></span></para>
+          <para><span data-ttu-id="37e47-226">Die <paramref name="RegionName" /> Argument sollte entsprechen den <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> -Eigenschaft des Formularbereichs, deren Definition Sie aktualisiert werden.</span><span class="sxs-lookup"><span data-stu-id="37e47-226">The <paramref name="RegionName" /> argument should match the <see cref="P:Microsoft.Office.Interop.Outlook._FormRegion.InternalName" /> property of the form region whose definition you are refreshing.</span></span> <span data-ttu-id="37e47-227">Der interne Name eines Formularbereichs unterstützt nur ASCII-Zeichen.</span><span class="sxs-lookup"><span data-stu-id="37e47-227">The internal name of a form region supports only ASCII characters.</span></span> <span data-ttu-id="37e47-228">Wenn eine leere Zeichenfolge eingegeben wird, liest Outlook die Windows-Registrierung, um Definitionen für alle Formularbereiche abzurufen, die für den lokalen Computer und den aktuellen Benutzer definiert sind.</span><span class="sxs-lookup"><span data-stu-id="37e47-228">If you specify an empty string, Outlook reads the Windows registry to obtain definitions for all of the form regions that are defined for the local machine and the current user.</span></span></para>
+          <para><span data-ttu-id="37e47-229">Weitere Informationen zum Registrieren eines Formularbereichs finden Sie unter Angeben von Formularbereichen in der Windows-Registrierung.</span><span class="sxs-lookup"><span data-stu-id="37e47-229">For more information about registering form regions, see Specifying Form Regions in the Windows Registry.</span></span></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Reminders">
@@ -1547,16 +988,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Reminders</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-196">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Reminders" /> -Auflistung, die alle aktuelle Erinnerungen darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-196">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Reminders" /> collection that represents all current reminders.</span>
-          </span>
-          <span data-ttu-id="57f01-197">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-197">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-230">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Reminders" /> -Auflistung, die alle aktuelle Erinnerungen darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-230">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.Reminders" /> collection that represents all current reminders.</span></span> <span data-ttu-id="37e47-231">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-231">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1584,41 +1016,16 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-198">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-198">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span>
-          </span>
-          <span data-ttu-id="57f01-199">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-199">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-232">Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung.</span><span class="sxs-lookup"><span data-stu-id="37e47-232">Returns the <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  object for the current session.</span></span> <span data-ttu-id="37e47-233">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-233">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="57f01-200">
-            <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
-            <code>Dim objNamespace As Outlook.NameSpace = _
+        <remarks><para><span data-ttu-id="37e47-234">Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</span><span class="sxs-lookup"><span data-stu-id="37e47-234">The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session.</span></span> <span data-ttu-id="37e47-235">Beide Elemente dienen demselben Zweck.</span><span class="sxs-lookup"><span data-stu-id="37e47-235">Both members serve the same purpose.</span></span> <span data-ttu-id="37e47-236">Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</span><span class="sxs-lookup"><span data-stu-id="37e47-236">For example, the following pairs of statements perform the same function:</span></span></para>
+          <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
-            <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-            <code>Outlook.NameSpace objNamespace = 
+          <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
+          <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
-            <code>Outlook.NameSpace objSession = Application.Session;</code>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-200">
-              <para>The <b>Session</b> property and the <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> method can be used interchangeably to obtain the <b>NameSpace</b> object for the current session. Both members serve the same purpose. For example, the following pairs of statements perform the same function:</para>
-              <code>Dim objNamespace As Outlook.NameSpace = _
-    Application.GetNamespace("MAPI")</code>
-              <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
-              <code>Outlook.NameSpace objNamespace = 
-    Application.GetNamespace("MAPI");</code>
-              <code>Outlook.NameSpace objSession = Application.Session;</code>
-              <para />
-            </span>
-          </span>
-        </remarks>
+          <code>Outlook.NameSpace objSession = Application.Session;</code>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TimeZones">
@@ -1644,29 +1051,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZones</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-201">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" /> -Auflistung, die den Satz von Outlook unterstützten Zeitzonen darstellt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-201">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" /> collection that represents the set of time zones supported by Outlook.</span>
-          </span>
-          <span data-ttu-id="57f01-202">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-202">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-237">Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" /> -Auflistung, die den Satz von Outlook unterstützten Zeitzonen darstellt.</span><span class="sxs-lookup"><span data-stu-id="37e47-237">Returns a <see cref="T:Microsoft.Office.Interop.Outlook.TimeZones" /> collection that represents the set of time zones supported by Outlook.</span></span> <span data-ttu-id="37e47-238">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-238">Read-only.</span></span></summary>
         <value>To be added.</value>
-        <remarks>
-          <span data-ttu-id="57f01-203">
-            <para>Die Gruppe der Zeitzonen, die von Outlook unterstützt basiert auf den Daten in der Windows-Registrierungsschlüssel HKEY LOCAL MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones gespeichert.</para>
-            <para />
-          </span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-203">
-              <para>The set of time zones supported by Outlook is based on the data stored in  the Windows registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones. </para>
-              <para />
-            </span>
-          </span>
-        </remarks>
+        <remarks><para><span data-ttu-id="37e47-239">Die Gruppe der Zeitzonen, die von Outlook unterstützt basiert auf den Daten in der Windows-Registrierungsschlüssel HKEY LOCAL MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones gespeichert.</span><span class="sxs-lookup"><span data-stu-id="37e47-239">The set of time zones supported by Outlook is based on the data stored in  the Windows registry key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones.</span></span> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Version">
@@ -1692,17 +1080,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <span data-ttu-id="57f01-204">
-            <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Versionsnummer angibt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-204">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the number of the version.</span>
-          </span>
-          <span data-ttu-id="57f01-205">Schreibgeschützt.</span>
-          <span class="sxs-lookup">
-            <span data-stu-id="57f01-205">Read-only.</span>
-          </span>
-        </summary>
+        <summary><span data-ttu-id="37e47-240"><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Versionsnummer angibt.</span><span class="sxs-lookup"><span data-stu-id="37e47-240">Returns or sets a <b>String</b> (<b>string</b> in C#) indicating the number of the version.</span></span> <span data-ttu-id="37e47-241">Schreibgeschützt.</span><span class="sxs-lookup"><span data-stu-id="37e47-241">Read-only.</span></span></summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
