@@ -1,13 +1,5 @@
 <Type Name="OutlookBarShortcut" FullName="Microsoft.Office.Interop.Outlook.OutlookBarShortcut">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5a65f22e3eaa69e1ad0b770928f78d702f831c4a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637011" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c4b5b620ecfa5e6e93db716a5fcba064777cf64a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896933" /></Metadata><TypeSignature Language="C#" Value="public interface OutlookBarShortcut" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OutlookBarShortcut" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />
   <TypeSignature Language="VB.NET" Value="Public Interface OutlookBarShortcut" />
@@ -27,10 +19,8 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Verknüpfung in einer Gruppe im Verknüpfungsbereich dar.</summary>
-    <remarks>
-      <para>Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" /> (<b>diese</b> in c#) Eigenschaft zum Abrufen des <b>OutlookBarShortcut</b> -Objekts aus einer <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" /> Objekt. Da die <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" /> -Eigenschaft die Standardeigenschaft des <b>OutlookBarShortcut</b> -Objekts ist, können Sie die Verknüpfung nach Namen identifizieren.</para>
-      <para />
-    </remarks>
+    <remarks><para>Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook._OutlookBarShortcuts.Item(System.Object)" /> (<b>diese</b> in c#) Eigenschaft zum Abrufen des <b>OutlookBarShortcut</b> -Objekts aus einer <see cref="T:Microsoft.Office.Interop.Outlook.OutlookBarShortcuts" /> Objekt. Da die <see cref="P:Microsoft.Office.Interop.Outlook.OutlookBarShortcut.Name" /> -Eigenschaft die Standardeigenschaft des <b>OutlookBarShortcut</b> -Objekts ist, können Sie die Verknüpfung nach Namen identifizieren.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Application">
@@ -173,16 +163,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetIcon">
@@ -238,10 +226,8 @@
       <Docs>
         <summary>Gibt ein <b>Objekt</b> zurück, der das Ziel der angegebenen Verknüpfung in einer Gruppe im Verknüpfungsbereich angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Rückgabetyp hängt von der Verknüpfungstyp. Wenn die Verknüpfung einen Outlook-Ordner darstellt, ist der Rückgabetyp <b>Ordner</b>. Wenn die Verknüpfung einen Dateisystem Ordner darstellt, ist der Rückgabetyp ein <b>Objekt</b>an. Wenn die Verknüpfung einer Dateisystem Pfad oder URL darstellt, ist der Rückgabetyp eine <b>Zeichenfolge</b> (<b>String</b> in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Rückgabetyp hängt von der Verknüpfungstyp. Wenn die Verknüpfung einen Outlook-Ordner darstellt, ist der Rückgabetyp <b>Ordner</b>. Wenn die Verknüpfung einen Dateisystem Ordner darstellt, ist der Rückgabetyp ein <b>Objekt</b> an. Wenn die Verknüpfung einer Dateisystem Pfad oder URL darstellt, ist der Rückgabetyp eine <b>Zeichenfolge</b> (<b>String</b> in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="AddressList" FullName="Microsoft.Office.Interop.Outlook.AddressList">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="a41313c3d06cf1f8ff69f9336dea1b509c5eda8b" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637396" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface AddressList" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6a0bab57e96ddcb76bf78e2046cc16317ccf2001" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898375" /></Metadata><TypeSignature Language="C#" Value="public interface AddressList" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AddressList" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.AddressList" />
   <TypeSignature Language="VB.NET" Value="Public Interface AddressList" />
@@ -27,11 +19,9 @@
   </Attributes>
   <Docs>
     <summary>Stellt ein Adressbuch, das einen Satz von enthält <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte.</summary>
-    <remarks>
-      <para>Das <b>AddressList</b> -Objekt ist ein Adressbuch, das einen Satz von enthält <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte.</para>
-      <para>Das <b>AddressList</b> -Objekt stellt eine Liste von Adresseinträge an die messaging-System Nachrichten übermitteln kann. Ein <b>AddressList</b> -Objekt stellt einen Adressbuchcontainer, die unter Adressbuchhierarchie des Transportdienstes für die aktuelle Sitzung. Die gesamte Hierarchie kann über die übergeordnete <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" /> -Objekt.</para>
-      <para />
-    </remarks>
+    <remarks><para>Das <b>AddressList</b> -Objekt ist ein Adressbuch, das einen Satz von enthält <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekte.</para>
+      <para>Das <b>AddressList</b> -Objekt stellt eine Liste der Adresseinträge an die messaging-System Nachrichten übermitteln kann. Ein <b>AddressList</b> -Objekt stellt einen Adressbuchcontainer, die unter Adressbuchhierarchie des Transportdienstes für die aktuelle Sitzung. Die gesamte Hierarchie kann über die übergeordnete <see cref="T:Microsoft.Office.Interop.Outlook.AddressLists" /> Objekt.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="AddressEntries">
@@ -169,10 +159,8 @@
       <Docs>
         <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den Kontakteordner für stellt die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt.</summary>
         <returns>Ein <b>Folder</b>-Objekt, das den Outlook-Kontakteordner für das <b>AddressList</b>-Objekt darstellt. Gibt <b>Null</b> (in Visual Basic <b>Nothing</b>) zurück, wenn kein Outlook-Kontakteordner gefunden wird.</returns>
-        <remarks>
-          <para>Mit dieser Methode können Sie ein <b>AddressList-Objekt</b> für den Kontakteordner abgleichen, die Sie als Startadressenliste im Dialogfeld Namen auswählen einrichten möchten.</para>
-          <para />
-        </remarks>
+        <remarks><para>Mit dieser Methode können Sie ein <b>AddressList-Objekt</b> für den Kontakteordner abgleichen, die Sie als Startadressenliste im Dialogfeld Namen auswählen einrichten möchten.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -200,10 +188,8 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den eindeutigen Bezeichner für das Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Transportdienst weist eine dauerhafte, eindeutige <b>ID</b> Zeichenfolgeneigenschaft, wenn ein einzelner Member-Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Transportdienst weist eine dauerhafte, eindeutige <b>ID</b> Zeichenfolgeneigenschaft, wenn ein einzelner Member-Objekt erstellt wird. Diese Bezeichner ändern sich nicht von einer Sitzung in eine andere.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -231,10 +217,8 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Position des Objekts innerhalb der Auflistung zurück.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Index</b> -Eigenschaft ist nur während der aktuellen Sitzung gültig und kann ändern, wie Objekte hinzugefügt oder aus der Auflistung gelöscht. Das erste Objekt in der Auflistung hat <b>einen Indexwert 1</b> .</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Index</b> -Eigenschaft ist nur während der aktuellen Sitzung gültig und kann ändern, wie Objekte hinzugefügt oder aus der Auflistung gelöscht. Das erste Objekt in der Auflistung hat <b>einen Indexwert 1</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsInitialAddressList">
@@ -262,11 +246,9 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der angibt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> der anfänglichen <b>AddressList</b> im Dialogfeld Namen auswählen angezeigt wird. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>IsInitialAddressList</b> entspricht dem Festlegen von diese Adressliste zuerst in das Dialogfeld Adressierung, in dem verfügbar ist, indem Sie auf Extras und dann auf Optionen im Dialogfeld Adressbuch anzeigen.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>IsInitialAddressList</b> entspricht dem Festlegen von diese Adressliste zuerst in das Dialogfeld Adressierung, in dem verfügbar ist, indem Sie auf Extras und dann auf Optionen im Dialogfeld Adressbuch anzeigen.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsReadOnly">
@@ -294,10 +276,8 @@
       <Docs>
         <summary>Gibt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angibt, die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> Objekt kann nicht geändert werden. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>IsReadOnly</b> -Eigenschaft bezieht sich auf Hinzufügen und löschen die Einträge im Adressbuchcontainer, die durch das <b>AddressList</b> -Objekt dargestellt wird. Die Eigenschaft ist <b>True</b> , wenn keine Einträge hinzugefügt oder gelöscht werden können. Die Eigenschaft ist <b>False</b> , wenn der Container geändert, d. h., wenn Adresseinträge hinzugefügt werden können und aus dem Container gelöscht werden kann. Es verweist auf Adressbucheinträge im Zusammenhang mit dem Adressbuchcontainer. Es gibt nicht an, ob der Inhalt der einzelnen Einträge geändert werden können.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>IsReadOnly</b> -Eigenschaft bezieht sich auf Hinzufügen und löschen die Einträge im Adressbuchcontainer, die durch das <b>AddressList</b> -Objekt dargestellt wird. Die Eigenschaft ist <b>True</b>, wenn keine Einträge hinzugefügt oder gelöscht werden können. Die Eigenschaft ist <b>False</b>, wenn der Container geändert, d. h., wenn Adresseinträge hinzugefügt werden können und aus dem Container gelöscht werden kann. Es verweist auf Adressbucheinträge im Zusammenhang mit dem Adressbuchcontainer. Es gibt nicht an, ob der Inhalt der einzelnen Einträge geändert werden können.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -409,10 +389,9 @@
       <Docs>
         <summary>Gibt eine <b>ganze Zahl</b> , die die Reihenfolge der Dies stellt <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> in der benutzerdefinierten Liste in das Dialogfeld Adressierung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>ResolutionOrder</b> -Eigenschaft entspricht der Position des das <b>AddressList-Objekt</b> im Listenfeld mit der Bezeichnung beim Senden von e-Mail, überprüfen Sie die Adresse Listen in dieser Reihenfolge in das Dialogfeld Adressierung und ist verfügbar durch Klicken auf Extras und dann auf Optionen in Das Dialogfeld Adressbuch. Beachten Sie, dass dieses Verhalten ist unabhängig von, ob benutzerdefinierte in das Dialogfeld Adressierung ausgewählt ist. Beispielsweise ist, wenn Start mit der globalen Adressliste ausgewählt ist, und die Liste Kontakte als erstes Element angezeigt, die <b>ResolutionOrder</b> -Eigenschaft der Liste Kontakte Adresse weiterhin 1, obwohl beim Auflösen von Empfängern Outlook der globalen Adressliste verwendet Zuerst.</para> Wenn benutzerdefinierte 
-          <para>im Dialogfeld Adressierung aktiviert ist, <b>ResolutionOrder</b> -Eigenschaft entspricht der Reihenfolge, die Outlook beim Auflösen von Empfängernamen verwendet. Der Wert der <b>ResolutionOrder</b> ist 1-basiert. In diesem Fall die erste Adressliste zum Auflösen von Empfängernamen verwendet werden hat eine <b>ResolutionOrder</b> gleich 1, der zweite Adressliste 2 und so weiter. Wenn eine Adressliste nicht verwendet wird, um Adressen aufzulösen, hat seine <b>ResolutionOrder</b> Wert-1. Programmgesteuert, wenn im Dialogfeld Adressierung die Option Benutzerdefiniert ausgewählt ist, <b>ResolutionOrder</b> -Eigenschaft gibt die tatsächliche Lösung, die sortiert <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" /> oder <see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" /> verwendet.</para><para /></remarks>
+        <remarks><para><b>ResolutionOrder</b> -Eigenschaft entspricht der Position des das <b>AddressList-Objekt</b> im Listenfeld mit der Bezeichnung beim Senden von e-Mail, überprüfen Sie die Adresse Listen in dieser Reihenfolge in das Dialogfeld Adressierung und ist verfügbar durch Klicken auf Extras und dann auf Optionen in Das Dialogfeld Adressbuch. Beachten Sie, dass dieses Verhalten ist unabhängig von, ob benutzerdefinierte in das Dialogfeld Adressierung ausgewählt ist. Beispielsweise ist, wenn Start mit der globalen Adressliste ausgewählt ist, und die Liste Kontakte als erstes Element angezeigt, die <b>ResolutionOrder</b> -Eigenschaft der Liste Kontakte Adresse weiterhin 1, obwohl beim Auflösen von Empfängern Outlook der globalen Adressliste verwendet Zuerst aufgelistet.</para>
+          <para>Wenn benutzerdefinierte in das Dialogfeld Adressierung ausgewählt ist, gibt die <b>ResolutionOrder</b> -Eigenschaft der Reihenfolge, die Outlook beim Auflösen von Empfängernamen verwendet wieder. Der Wert der <b>ResolutionOrder</b> ist 1-basiert. In diesem Fall die erste Adressliste zum Auflösen von Empfängernamen verwendet werden hat eine <b>ResolutionOrder</b> gleich 1, der zweite Adressliste 2 und so weiter. Wenn eine Adressliste nicht verwendet wird, um Adressen aufzulösen, hat seine <b>ResolutionOrder</b> Wert-1. Programmgesteuert, wenn im Dialogfeld Adressierung die Option Benutzerdefiniert ausgewählt ist, <b>ResolutionOrder</b> -Eigenschaft gibt die tatsächliche Lösung, die sortiert <see cref="M:Microsoft.Office.Interop.Outlook.Recipients.ResolveAll" /> oder <see cref="M:Microsoft.Office.Interop.Outlook.Recipient.Resolve" /> verwendet.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -440,16 +419,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

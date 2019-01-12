@@ -1,13 +1,5 @@
 <Type Name="Rule" FullName="Microsoft.Office.Interop.Outlook.Rule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5c55c981fc78fa0d8ef492722162f10384e54b60" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636671" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Rule : Microsoft.Office.Interop.Outlook._Rule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="23c14b3d2f60fb4468c022c4e3e0218713128cea" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899838" /></Metadata><TypeSignature Language="C#" Value="public interface Rule : Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Rule implements class Microsoft.Office.Interop.Outlook._Rule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Rule" />
   <TypeSignature Language="VB.NET" Value="Public Interface Rule&#xA;Implements _Rule" />
@@ -31,10 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Outlook-Regel dar.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Rule" />. </para>
-      <para>Sowohl Client als auch serverseitige Regeln werden durch das <b>Rule</b> -Objekt dargestellt.</para> Die Regeln 
-      <para>-Objektmodell besteht primär aus dieser Objekte: <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />, in der <b>Regel</b><see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />, und die abgeleitete Objekte für bestimmte Regelaktionen und Bedingungen Regel. Er bietet partielle Parität der Regeln und Benachrichtigungen-Assistenten auf der Outlook-Benutzeroberfläche. Obwohl es Erstellung jeder einzelnen Regel nicht unterstützt, die Sie möglicherweise mithilfe des Assistenten erstellen können, unterstützt die am häufigsten verwendeten Regelaktionen Geschäftsbedingungen. </para><para>Weitere Informationen zum programmgesteuerten Erstellen, bearbeiten und Löschen von Regeln finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Verwaltungsregeln im Objektmodell von Outlook</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Vorgehensweise: Erstellen einer Regel zum Verschieben bestimmter e-Mail-Nachrichten in einen Ordner</a></para><para /></remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Rule" />. </para>
+      <para>Sowohl Client-als auch serverseitige Regeln werden durch das <b>Rule</b> -Objekt dargestellt.</para>
+      <para>Rules-Objektmodell besteht primär aus dieser Objekte: <see cref="T:Microsoft.Office.Interop.Outlook.Rules" />, in der <b>Regel</b> <see cref="T:Microsoft.Office.Interop.Outlook.RuleActions" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleConditions" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleAction" />, <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" />, und die abgeleitete Objekte für bestimmte Regelaktionen und Bedingungen Regel. Er bietet partielle Parität der Regeln und Benachrichtigungen-Assistenten auf der Outlook-Benutzeroberfläche. Obwohl es Erstellung jeder einzelnen Regel nicht unterstützt, die Sie möglicherweise mithilfe des Assistenten erstellen können, unterstützt die am häufigsten verwendeten Regelaktionen Geschäftsbedingungen. </para>
+      <para>Weitere Informationen zum programmgesteuerten Erstellen, bearbeiten und Löschen von Regeln finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87863">Verwaltungsregeln im Objektmodell von Outlook</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Vorgehensweise: Erstellen einer Regel zum Verschieben bestimmter e-Mail-Nachrichten in einen Ordner</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

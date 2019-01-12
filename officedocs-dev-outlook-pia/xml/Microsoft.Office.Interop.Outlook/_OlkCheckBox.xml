@@ -1,13 +1,5 @@
 <Type Name="_OlkCheckBox" FullName="Microsoft.Office.Interop.Outlook._OlkCheckBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636399" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="06ec4a697a0ebc451e72e60a6cf8aa5055e89538" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899439" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkCheckBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkCheckBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkCheckBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkCheckBox" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Zugriffstaste oder die Zugriffstaste für das Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist eine leere Zeichenfolge, was bedeutet, dass kein hot Schlüssel vorhanden ist.  Wenn die Eigenschaft eine Zeichenfolge mit mehr als ein Zeichen festgelegt ist, wird der Wert auf das erste Zeichen abgeschnitten.  </para>
-          <para>Können keine Ziffern in einer Zugriffstaste.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist eine leere Zeichenfolge, d. h., es gibt keine Abkürzungstaste. Wird für die Eigenschaft eine Zeichenfolge mit mehr als einem Zeichen festgelegt, wird der Wert bis auf das erste Zeichen abgeschnitten.  </para>
+          <para>Sie können für eine Tastenkombination keine Ziffern verwenden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Alignment">
@@ -93,10 +83,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlAlignment" /> -Konstante, die Position des Steuerelements im Verhältnis zu seinem Titel zurück.    Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlAlignmentLeft</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlAlignmentLeft</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -130,10 +118,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Hintergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x8000000F "Schaltflächensymbol."</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x8000000F, "Schaltflächensymbol". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -164,10 +150,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> -Konstante, die das Hintergrundformat eines Steuerelements zwischen transparent und undurchsichtig geändert wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -198,10 +182,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die angezeigt wird auf ein Objekt zu identifizieren oder zu beschreiben Sie es.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert basiert auf den Namen des Steuerelements.  Die Position der Beschriftung relativ zum das Kontrollkästchen wird bestimmt, indem die <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>  Der Standardwert basiert auf dem Namen des Steuerelements.  Die Position der Beschriftung relativ zum das Kontrollkästchen wird bestimmt, indem die <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.Alignment" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -232,10 +214,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -263,10 +243,8 @@
       <Docs>
         <summary>Gibt einen <b>StdFont</b>, die zum Rendern des Texts im Steuerelement verwendete Schriftart darstellt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Schriftart wird als das Microsoft Windows-Typ <b>Stdfont</b>ausgedrückt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Schriftart wird als das Microsoft Windows-Typ <b>Stdfont</b>ausgedrückt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -300,10 +278,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Vordergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -334,10 +310,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>StdPicture</b>, die ein benutzerdefiniertes Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -368,10 +342,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TripleState">
@@ -402,10 +374,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob ein Benutzer in der Benutzeroberfläche den <b>Null</b> -Zustand für das Steuerelement angeben kann.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn diese Eigenschaft auf <b>True</b>festgelegt ist, Zustände das Kontrollkästchen die drei. Wenn diese Eigenschaft auf <b>False</b>festgelegt ist, unterstützt das Kontrollkästchen nur die Bundesländer <b>True</b> und <b>False</b> . Der Standardwert ist <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn diese Eigenschaft auf <b>True</b> festgelegt ist, Zustände das Kontrollkästchen die drei. Wenn diese Eigenschaft auf <b>False</b> festgelegt ist, unterstützt das Kontrollkästchen nur die Bundesländer <b>True</b> und <b>False</b>. Der Standardwert ist <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -436,10 +406,8 @@
       <Docs>
         <summary>Gibt zurück oder legt ein <b>Objekt</b> , das den Zustand des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Für das Steuerelement das Kontrollkästchen Diese Eigenschaft ist <b>True</b> oder <b>False</b>, oder wenn die <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" /> -Eigenschaft wird festgelegt, die <b>Value</b> -Eigenschaft kann auch <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) sein. Der Standardwert ist <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Für das Steuerelement das Kontrollkästchen Diese Eigenschaft ist <b>True</b> oder <b>False</b>, oder wenn die <see cref="P:Microsoft.Office.Interop.Outlook._OlkCheckBox.TripleState" /> -Eigenschaft wird festgelegt, die <b>Value</b> -Eigenschaft kann auch <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) sein. Der Standardwert ist <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="WordWrap">
@@ -470,10 +438,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob der Inhalt des Steuerelements automatisch am Ende einer Zeile umbrochen.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

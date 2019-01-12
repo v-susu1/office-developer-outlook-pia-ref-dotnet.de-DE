@@ -1,13 +1,5 @@
 <Type Name="Category" FullName="Microsoft.Office.Interop.Outlook.Category">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="435e5765b7ec5d5ff26be55adc999086a3415e41" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637209" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="a7e2734d6e53bd5a1e3e99a9c8084ca598f7964f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897444" /></Metadata><TypeSignature Language="C#" Value="public interface Category : Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Category implements class Microsoft.Office.Interop.Outlook._Category" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Category" />
   <TypeSignature Language="VB.NET" Value="Public Interface Category&#xA;Implements _Category" />
@@ -31,12 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine benutzerdefinierte Kategorie mit der Microsoft Outlook-Elemente gruppiert werden können.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Category" />.</para>
-      <para>Outlook bietet ein System für die Kategorisierung mit dem Outlook-Elemente können auf einfache Weise identifiziert und in benutzerdefinierte Kategorien unterteilt. <b>Category</b> -Objekt stellt eine benutzerdefinierte Kategorie.</para>
-      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" /> -Methode des der <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> -Eigenschaft für die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt, erstellen Sie ein neues <b>Category</b> -Objekt, die Kategorie der Hauptkategorienliste für diesen Namespace hinzufügen.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> -Eigenschaft auf den Namen der Kategorie, Angeben der <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> -Eigenschaft auf die Farbe für die Kategorie angezeigten angeben und die <see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" /> -Eigenschaft an die Tastenkombination verwendet, um ein Outlook-Element in der Outlook-dieser Kategorie zuzuweisen Benutzeroberfläche. Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" /> Eigenschaft, um den eindeutigen Bezeichner für eine Kategorie abzurufen.</para>
-      <para>Kategorien können Outlook-Elementen zugewiesen werden, durch die Namen der entsprechenden <b>Category</b> -Objekte in einer durch Trennzeichen getrennten Zeichenfolge in der <b>Categories</b> -Eigenschaft der folgenden Objekte angegeben:</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Category" />.</para>
+      <para>Outlook bietet ein System für die Kategorisierung mit dem Outlook-Elemente können auf einfache Weise identifiziert und in benutzerdefinierte Kategorien unterteilt. <b>Category</b> -Objekt stellt eine benutzerdefinierte Kategorie dar.</para>
+      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" /> -Methode des der <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> -Eigenschaft für die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt, erstellen Sie ein neues <b>Category</b> -Objekt, die Kategorie der Hauptkategorienliste für diesen Namespace hinzufügen. </para>
+      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Category.Name" /> -Eigenschaft auf den Namen der Kategorie, Angeben der <see cref="P:Microsoft.Office.Interop.Outlook._Category.Color" /> -Eigenschaft auf die Farbe für die Kategorie angezeigten angeben und die <see cref="P:Microsoft.Office.Interop.Outlook._Category.ShortcutKey" /> -Eigenschaft an die Tastenkombination zum Zuweisen dieser Kategorie zu einem Outlook-Element in der Outlook-Benutzeroberfläche verwendet . Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Category.CategoryID" /> den eindeutigen Bezeichner für eine Kategorie abzurufende Eigenschaft an.</para>
+      <para>Outlook-Elementen können Kategorien zugewiesen werden, indem die Namen der entsprechenden <b>Category</b> -Objekte in einer durch Trennzeichen getrennten Zeichenfolge in der <b>Categories</b> -Eigenschaft für eines der folgenden Objekte angegeben werden:</para>
       <list type="table">
         <item>
           <description>
@@ -109,8 +100,7 @@
           <description />
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

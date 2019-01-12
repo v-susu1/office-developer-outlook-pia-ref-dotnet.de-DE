@@ -1,13 +1,5 @@
 <Type Name="_OlkLabel" FullName="Microsoft.Office.Interop.Outlook._OlkLabel">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="471b24bdc0f9e32ac954094896abf68165188812" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637136" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkLabel" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="471b24bdc0f9e32ac954094896abf68165188812" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898949" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkLabel" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkLabel" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkLabel" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkLabel" />
@@ -58,12 +50,10 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Zugriffstaste oder die Zugriffstaste für das Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist eine leere Zeichenfolge, was bedeutet, dass kein hot Schlüssel vorhanden ist.  Wenn die Eigenschaft eine Zeichenfolge mit mehr als ein Zeichen festgelegt ist, wird der Wert auf das erste Zeichen abgeschnitten.  </para>
-          <para>Können keine Ziffern in einer Zugriffstaste.</para>
-          <para>Wenn die Zugriffstaste für eine Beschriftung gedrückt wird, erhält das nächste Steuerelement in der Aktivierreihenfolge den Fokus und nicht das Beschriftungssteuerelement.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist eine leere Zeichenfolge, d. h., es gibt keine Abkürzungstaste. Wird für die Eigenschaft eine Zeichenfolge mit mehr als einem Zeichen festgelegt, wird der Wert bis auf das erste Zeichen abgeschnitten.  </para>
+          <para>Sie können für eine Tastenkombination keine Ziffern verwenden.</para>
+          <para>Wenn die Tastenkombination für eine Beschriftung gedrückt wird, erhält das nächste Steuerelement in der Aktivierreihenfolge den Fokus und nicht das Beschriftungssteuerelement.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -94,10 +84,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die automatisch das Steuerelement passt, um den gesamten Inhalt anzuzeigen.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -131,10 +119,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Hintergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x8000000F "Schaltflächensymbol."</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x8000000F, "Schaltflächensymbol".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackStyle">
@@ -165,10 +151,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBackStyle" /> -Konstante, die das Hintergrundformat eines Steuerelements zwischen transparent und undurchsichtig geändert wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlBackStyleOpaque</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlBackStyleOpaque</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -199,10 +183,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> -Konstante, die das Format des Rahmens um das Steuerelement definiert.   Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -233,10 +215,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die angezeigt wird auf ein Objekt zu identifizieren oder zu beschreiben Sie es.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist eine leere Zeichenfolge. Im Formular-Designer wird diese Eigenschaft auf das Steuerelement Standardnamen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist eine leere Zeichenfolge. Diese Eigenschaft wird vom Formular-Designer auf den Standardnamen des Steuerelements festgelegt.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -267,10 +247,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -332,10 +310,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Vordergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -366,10 +342,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>StdPicture</b> , das das benutzerdefinierte Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -400,10 +374,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -434,10 +406,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> -Konstante, die angibt, wie Text im Steuerelement ausgerichtet wird.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlTextAlignLeft</b> links-nach-rechts-Sprachen wie Englisch.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlTextAlignLeft</b> links-nach-rechts-Sprachen wie Englisch.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UseHeaderColor">
@@ -468,10 +438,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob das Label-Steuerelement die Vordergrundfarbe entsprechend das aktuelle Design für Windows XP oder Windows Vista verwenden soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist für Label-Steuerelemente in einem Nachrichtenformular im Lesebereich oder im Inspektor angezeigt vorgesehen. Wenn die Eigenschaft auf <b>True</b>festgelegt ist, sollten die Bezeichnung Vordergrundfarbe verwenden, die mit das aktuelle Windows-Design übereinstimmt. Wenn die-Eigenschaft <b>False</b>ist, sollte die Bezeichnung Vordergrundfarbe angegeben durch Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook._OlkLabel.ForeColor" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist für Label-Steuerelemente in einem Nachrichtenformular im Lesebereich oder im Inspektor angezeigt vorgesehen. Wenn die Eigenschaft auf <b>True</b> festgelegt ist, sollten die Bezeichnung Vordergrundfarbe verwenden, die mit das aktuelle Windows-Design übereinstimmt. Wenn die-Eigenschaft <b>False</b>ist, sollte die Bezeichnung Vordergrundfarbe angegeben durch Verwenden der <see cref="P:Microsoft.Office.Interop.Outlook._OlkLabel.ForeColor" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -539,10 +507,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob der Inhalt des Steuerelements automatisch am Ende einer Zeile umbrochen.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

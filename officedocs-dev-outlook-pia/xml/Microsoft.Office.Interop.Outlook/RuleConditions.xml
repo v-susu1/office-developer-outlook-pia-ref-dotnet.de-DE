@@ -1,13 +1,5 @@
 <Type Name="RuleConditions" FullName="Microsoft.Office.Interop.Outlook.RuleConditions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="090e2fb2c58b7ce3e2eadffe19cd6c02d655882f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635546" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface RuleConditions : Microsoft.Office.Interop.Outlook._RuleConditions" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="ee868138af65a2bfb03a2af1d9fe0018cdeb4639" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901312" /></Metadata><TypeSignature Language="C#" Value="public interface RuleConditions : Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RuleConditions implements class Microsoft.Office.Interop.Outlook._RuleConditions" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.RuleConditions" />
   <TypeSignature Language="VB.NET" Value="Public Interface RuleConditions&#xA;Implements _RuleConditions" />
@@ -31,11 +23,12 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Reihe von <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> oder Objekte abgeleitet <b>RuleCondition</b>, Darstellung der Bedingungen oder Ausnahmebedingungen, die erfüllt sein müssen, damit die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> ausführen.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._RuleConditions" />. </para>
-      <para>Der <b>RuleConditions</b> -Objekt von regelbedingungen und Regelausnahmen enthalten. Der Typ der regelbedingung, die ein <b>RuleConditions</b> -Auflistung hinzugefügt werden kann, ist abhängig von der <see cref="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />.</para>
-      <para>Der <b>RuleConditions</b> -Objekt ist eine feste Auflistung. Ein <b>RuleCondition</b> -Objekt oder einen Typ, der das <b>RuleCondition</b> -Objekt abgeleitet wird nicht hinzugefügt oder aus dem <b>RuleConditions</b> -Objekt entfernt.</para> Die Regeln 
-      <para>-Objektmodell stellt teilweise Parität mit den Regeln und Benachrichtigungen-Assistenten auf der Outlook-Benutzeroberfläche. Die am häufigsten verwendeten Regelaktionen Geschäftsbedingungen unterstützt. Obwohl es nicht unterstützt können Erstellen von Regeln mit allen Regelaktion oder Bedingung, die der Assistent unterstützt, weiterhin auflisten und aktivieren diese Regelaktionen und Bedingungen in vorhandenen Regeln. </para><para>Weitere Informationen zu regelbedingungen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Vorgehensweise: Erstellen einer Regel zum Verschieben bestimmter e-Mail-Nachrichten in einen Ordner</a></para><para /></remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._RuleConditions" />. </para>
+      <para><b>RuleConditions</b> -Objekts enthalten regelbedingungen und Regelausnahmen. Der Typ der regelbedingung, die ein <b>RuleConditions</b> -Auflistung hinzugefügt werden kann, ist abhängig von der <see cref="P:Microsoft.Office.Interop.Outlook._Rule.RuleType" />.</para>
+      <para><b>RuleConditions</b> -Objekt ist eine feste Auflistung. Ein <b>RuleCondition</b> -Objekt oder einen Typ, der das <b>RuleCondition</b> -Objekt abgeleitet wird kann nicht hinzugefügt oder aus dem <b>RuleConditions</b> -Objekt entfernt werden.</para>
+      <para>Das Regelobjektmodell stellt eine partielle Parität mit dem Assistenten für Regeln und Benachrichtigungen in der Benutzeroberfläche von Outlook bereit. Es unterstützt die am häufigsten verwendeten Regelaktionen und -bedingungen. Zwar können Sie nicht mit jeder Regelaktion oder -bedingung, die der Assistent unterstützt, eine Regel erstellen, doch können Sie diese Regelaktionen und -bedingungen in vorhandenen Regeln aufzählen und aktivieren.</para>
+      <para>Weitere Informationen zu regelbedingungen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a><a href="http://go.microsoft.com/fwlink/?LinkId=87859">Vorgehensweise: Erstellen einer Regel zum Verschieben bestimmter e-Mail-Nachrichten in einen Ordner</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

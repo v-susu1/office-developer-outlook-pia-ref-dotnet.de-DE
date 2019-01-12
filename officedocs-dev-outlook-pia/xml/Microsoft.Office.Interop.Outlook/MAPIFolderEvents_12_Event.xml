@@ -1,13 +1,5 @@
 <Type Name="MAPIFolderEvents_12_Event" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b57abf71e090da959e1914f676e549cec228a8b5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635578" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e4d2f373dd74a164ad2cbc827efc264eecdbd98" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900862" /></Metadata><TypeSignature Language="C#" Value="public interface MAPIFolderEvents_12_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract MAPIFolderEvents_12_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface MAPIFolderEvents_12_Event" />
@@ -49,11 +41,9 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn ein Ordner verschoben oder gelöscht werden soll, entweder als Ergebnis einer Benutzeraktion oder durch Programmcode.</summary>
-        <remarks>
-          <para>Wird dieses Ereignis ausgelöst, wenn der Ordner verschoben werden, in einen anderen Ordner (einschließlich des Ordners Gelöschte Objekte) oder der Ordner ist dauerhaft gelöscht werden soll.  Es wird nicht ausgelöst, bei der automatischen Archivierung oder Vorgänge synchronisieren.</para>
-          <para>, Wenn die Aktion um dauerhaftes Löschen, ist die <paramref name="MoveTo" /> Ordner zurückgegeben in den Ereignisdetails werden <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis wird ausgelöst, wenn der Ordner in einen anderen Ordner verschoben werden soll (einschließlich des Ordners mit den gelöschten Elementen) oder wenn der Ordner dauerhaft gelöscht werden soll. Es wird nicht beim automatischen Archivieren oder bei Synchronisierungsvorgängen ausgelöst.</para>
+          <para>Wenn die Aktion um dauerhaftes Löschen, ist die <paramref name="MoveTo" /> Ordner zurückgegeben in den Ereignisdetails werden <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemMove">
@@ -72,11 +62,9 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn ein Element aus einem Ordner verschoben oder gelöscht werden soll, entweder als Ergebnis einer Benutzeraktion oder durch Programmcode.</summary>
-        <remarks>
-          <para>Wird dieses Ereignis ausgelöst, wenn das Element verschoben werden, in einen anderen Ordner (einschließlich des Ordners Gelöschte Objekte) oder das Element wird dauerhaft gelöscht werden soll. Es wird nicht ausgelöst, bei der automatischen Archivierung oder Vorgänge synchronisieren.</para>
-          <para>, Wenn die Aktion um dauerhaftes Löschen, ist die <paramref name="MoveTo" /> Ordner zurückgegeben in den Ereignisdetails werden <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis wird ausgelöst, wenn das Element in einen anderen Ordner verschoben werden soll (einschließlich des Ordners mit den gelöschten Elementen) oder wenn das Element dauerhaft gelöscht werden soll. Es wird nicht beim automatischen Archivieren oder bei Synchronisierungsvorgängen ausgelöst.</para>
+          <para>Wenn die Aktion um dauerhaftes Löschen, ist die <paramref name="MoveTo" /> Ordner zurückgegeben in den Ereignisdetails werden <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

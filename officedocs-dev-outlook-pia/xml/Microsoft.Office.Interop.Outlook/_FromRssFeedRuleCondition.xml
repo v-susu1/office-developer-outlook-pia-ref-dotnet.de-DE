@@ -1,13 +1,5 @@
 <Type Name="_FromRssFeedRuleCondition" FullName="Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5456d3a993ab54560ea591aa3a07476cccd977c7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635723" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FromRssFeedRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5456d3a993ab54560ea591aa3a07476cccd977c7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898900" /></Metadata><TypeSignature Language="C#" Value="public interface _FromRssFeedRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FromRssFeedRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FromRssFeedRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FromRssFeedRuleCondition" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Gibt eine Konstante, <b>OlConditionFromRssFeed</b>aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> -Enumeration, die den Typ des regelbedingung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese regelbedingung wird von Regeln zum Empfangen von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87803">Angeben von Regelbedingungen</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Regelbedingung wird von Regeln für das Empfangen von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87803">Angeben von Regelbedingungen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -145,10 +135,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die bestimmt, ob die Regel aktiviert ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden. Eine Bedingung ist aktiviert, nachdem es erfolgreich gespeichert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden. Eine Bedingung ist aktiviert, nachdem es erfolgreich gespeichert wurde.   </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FromRssFeed">
@@ -179,12 +167,10 @@
       <Docs>
         <summary>Zurück oder legt ein Array von <b>String</b> (<b>Zeichenfolge</b> in c#)-Elementen, die den RSS-Abonnements darstellen, die durch die regelbedingung ausgewertet wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Jedes Element des Arrays ist ein einzelnes RSS-Abonnement. Mehrere RSS-Abonnements werden als logische OR-Bedingung ausgewertet.</para>
-          <para>Können nicht Sie eine Liste gültiger RSS-Abonnements über das Outlook-Objektmodell zu erhalten. Sie erhalten eine Liste gültiger RSS-Abonnements aus der XML-Datei Outlook.Sharing.xml.obi, die sich im Ordner [Laufwerk] \Documents and Settings befindet\[Benutzername] \Local Settings\Application Data\Microsoft\Outlook\. den Namen -Attribut die &lt;lokale&gt; Tag enthält den Namen des RSS-Abonnements, die in das Array von Zeichenfolgen für <b>FromRssFeed</b>angegeben werden muss. Um alle RSS-Abonnements aufzuzählen, untersuchen Sie die &lt;Bindungen&gt; markieren Where &lt;Bindung Prov = "{0006F0AF-0000-0000-C000-000000000046}"&gt;. </para>
-          <para>Gibt einen Fehler zurück, wenn ein oder mehrere Elemente im Array eine leere Zeichenfolge oder ein ungültiges RSS-Abonnement enthält.</para>
-          <para />
-        </remarks>
+        <remarks><para>Jedes Element des Arrays stellt ein einzelnes RSS-Abonnement dar. Mehrere RSS-Abonnements werden als logische OR-Bedingungen ausgewertet.</para>
+          <para> Sie können keine Liste gültiger RSS-Abonnements über das Outlook-Objektmodell zu erhalten. Sie erhalten eine Liste gültiger RSS-Abonnements aus der XML-Datei Outlook.Sharing.xml.obi, die sich im Ordner [Laufwerk] \Documents and Settings befindet\[Benutzername] \Local Settings\Application Data\Microsoft\Outlook\. Name-Attributs der &lt;lokale&gt; Tag enthält den Namen des RSS-Abonnements, die in das Array von Zeichenfolgen für <b>FromRssFeed</b>angegeben werden muss. Um alle RSS-Abonnements aufzuzählen, untersuchen Sie die &lt;Bindungen&gt; markieren Where &lt;Bindung Prov = "{0006F0AF-0000-0000-C000-000000000046}"&gt;. </para>
+          <para>Gibt einen Fehler zurück, wenn mindestens ein Element im Array eine leere Zeichenfolge oder ein ungültiges RSS-Abonnement enthält.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -212,10 +198,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -243,16 +227,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

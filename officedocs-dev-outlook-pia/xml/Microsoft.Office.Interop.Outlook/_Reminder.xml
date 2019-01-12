@@ -1,13 +1,5 @@
 <Type Name="_Reminder" FullName="Microsoft.Office.Interop.Outlook._Reminder">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635730" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Reminder" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c32220cc6cd2297c2f337e6d7f5f70853a5de7e6" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901760" /></Metadata><TypeSignature Language="C#" Value="public interface _Reminder" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Reminder" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Reminder" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Reminder" />
@@ -136,10 +128,8 @@
       <Parameters />
       <Docs>
         <summary>Schließt die aktuelle Erinnerung.</summary>
-        <remarks>
-          <para>Die <b>Dismiss</b> -Methode schlägt fehl, wenn keine sichtbare Erinnerung vorhanden ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Dismiss</b> -Methode schlägt fehl, wenn keine sichtbare Erinnerung vorhanden ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsVisible">
@@ -167,10 +157,8 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob die Erinnerung aktuell sichtbar ist.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Outlook bestimmt den Rückgabewert dieser Eigenschaft basierend auf dem Status der aktuellen Erinnerung. Alle aktuellen Erinnerungen werden angezeigt. Wenn <b>IsVisible</b> auf true festgelegt ist, ist die Erinnerung sichtbar.</para>
-          <para />
-        </remarks>
+        <remarks><para> Outlook bestimmt den Rückgabewert dieser Eigenschaft basierend auf dem Status der aktuellen Erinnerung. Alle aktuellen Erinnerungen werden angezeigt. Wenn <b>IsVisible</b> auf true festgelegt ist, ist die Erinnerung sichtbar.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -226,10 +214,8 @@
       <Docs>
         <summary>Gibt ein <b>Datum</b>, das das nächste Mal mit der angegebenen Erinnerung anzeigt stattfindet. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert der <b>NextReminderDate</b> -Eigenschaft ändert sich bei jedem des Objekts <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> -Methode ausgeführt wird oder wenn der Benutzer auf die Schaltfläche erneut erinnern klickt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert der <b>NextReminderDate</b> -Eigenschaft ändert sich bei jedem des Objekts <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> -Methode ausgeführt wird oder wenn der Benutzer auf die Schaltfläche erneut erinnern klickt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OriginalReminderDate">
@@ -257,10 +243,8 @@
       <Docs>
         <summary>Gibt ein <b>Datum</b> an, der das ursprüngliche Datum und Uhrzeit, zu der der angegebenen Erinnerung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dieser Wert entspricht dem ursprünglichen Datum und Uhrzeit der Wert vor der <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> -Methode wird ausgeführt, oder der Benutzer auf die Schaltfläche erneut erinnern klickt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieser Wert entspricht dem ursprünglichen Datum und Uhrzeit der Wert vor der <see cref="M:Microsoft.Office.Interop.Outlook._Reminder.Snooze(System.Object)" /> -Methode wird ausgeführt, oder der Benutzer auf die Schaltfläche erneut erinnern klickt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -316,16 +300,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Snooze">
@@ -352,11 +334,9 @@
       <Docs>
         <param name="SnoozeTime">Zeigt die Zeitspanne (in Minuten) an, um welche die Erinnerung verzögert werden soll. Der Standardwert sind 5 Minuten.</param>
         <summary>Verzögert die Erinnerung um eine angegebene Zeitspanne.</summary>
-        <remarks>
-          <para>Entspricht dies der Benutzer auf die Schaltfläche erneut erinnern.  </para>
+        <remarks><para>Dies ist gleichbedeutend mit einem Klicken der Erneut erinnern-Schaltfläche durch den Benutzer.  </para>
           <para>Diese Methode schlägt fehl, wenn die aktuelle Erinnerung nicht aktiv ist.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

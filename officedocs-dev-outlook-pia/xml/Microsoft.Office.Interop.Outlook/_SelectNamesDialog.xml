@@ -1,13 +1,5 @@
 <Type Name="_SelectNamesDialog" FullName="Microsoft.Office.Interop.Outlook._SelectNamesDialog">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635749" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3da1cf3261b3db854a70c2e61d5f6fde1afb62c2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900969" /></Metadata><TypeSignature Language="C#" Value="public interface _SelectNamesDialog" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SelectNamesDialog" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SelectNamesDialog" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SelectNamesDialog" />
@@ -58,11 +50,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der bestimmt, ob mehrere Adresseintrag gleichzeitig in das Dialogfeld Namen auswählen ausgewählt werden kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert der <b>AllowMultipleSelection</b> ist <b>True</b>. Wenn <b>AllowMultipleSelection</b> auf <b>True</b>festgelegt ist, kann der Benutzer mithilfe von STRG oder die UMSCHALTTASTE mehrere Empfänger auswählen. Wenn <b>AllowMultipleSelection</b> auf <b>False</b>festgelegt ist, wird die Auswahl mehrerer deaktiviert.   </para>
-          <para>Einstellung <b>AllowMultipleSelection</b> auf <b>false festgelegt</b> wird nicht sichergestellt, dass nur ein Empfänger ausgewählt werden kann. Der Benutzer kann weitere Empfänger Bearbeitungsfeld oder auswählen aus der Empfängerliste mehrfach eingeben. Legen Sie <b>AllowMultipleSelect</b> auf <b>false fest</b> , um sicherzustellen, dass nur ein Empfänger im Dialogfeld ausgewählt werden kann, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>OlShowNone</b>. </para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert der <b>AllowMultipleSelection</b> ist <b>True</b>. Wenn <b>AllowMultipleSelection</b> auf <b>True</b>festgelegt ist, kann der Benutzer mit der Taste STRG oder die UMSCHALTTASTE mehrere Empfänger auswählen. Wenn <b>AllowMultipleSelection</b> auf <b>False</b>festgelegt ist, wird die Auswahl mehrerer deaktiviert.</para>
+          <para>Festlegen von <b>AllowMultipleSelection</b> auf <b>False</b> wird nicht sichergestellt, dass nur ein Empfänger ausgewählt werden kann. Der Benutzer kann weitere Empfänger Bearbeitungsfeld oder auswählen aus der Empfängerliste mehrfach eingeben. Legen Sie <b>AllowMultipleSelect</b> auf <b>false fest</b> , um sicherzustellen, dass nur ein Empfänger im Dialogfeld ausgewählt werden kann, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>OlShowNone</b>. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -121,11 +111,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf die Bcc-Befehlsschaltfläche in das Dialogfeld Namen auswählen angezeigt wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, ein kaufmännisches und-Zeichen einfügen (&amp;) Zeichen in der Beschriftung Argumentzeichenfolge, unmittelbar vor dem Zeichen, die als Zugriffstaste fungiert. <b>BccLabel</b> beispielsweise die Zeichenfolge "lokale &amp;Teilnehmer", Benutzer können durch Drücken von ALT + A, um den Fokus auf das erste Bearbeitungsfeld Empfänger. </para>
-          <para>Wenn <b>BccLabel</b> nicht festgelegt ist, und klicken Sie dann der Standardwert die lokalisierte Zeichenfolge für "Bcc" verwendet wird. Wenn die <b>BccLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Bcc-Befehlsschaltfläche zeigt -&gt;. Wenn die <b>BccLabel</b> -Eigenschaft mehr als 32 Zeichen enthält (einschließlich das kaufmännische und-Zeichen (&amp;) Zugriffstaste), nur die ersten 32 Zeichen werden die Befehlsschaltfläche angezeigt werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, enthalten Sie ein kaufmännische und-Zeichen in der Beschriftung Argumentzeichenfolge (&amp;) unmittelbar vor dem Zeichen, das als Zugriffstaste fungiert. Beispielsweise können <b>BccLabel</b> die Zeichenfolge "Lokale &amp; Teilnehmer" ist, Benutzer ALT + A, um den Fokus auf den ersten Empfänger-Bearbeitungsfeld drücken.</para>
+          <para>Wenn <b>BccLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "Bcc". Wenn die <b>BccLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Bcc-Befehlsschaltfläche zeigt -&gt;. Wenn die <b>BccLabel</b> -Eigenschaft (einschließlich der Zugriffstaste und-Zeichen (&amp;)) mehr als 32 Zeichen enthält, werden nur die ersten 32 Zeichen in die Befehlsschaltfläche angezeigt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Caption">
@@ -156,11 +144,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Titel für das Dialogfeld Namen auswählen darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn Sie keine <b>Beschriftung</b>festlegen, werden der Titel des Dialogfelds Namen auswählen oder die lokalisierte Entsprechung. Wenn Sie <b>Beschriftung</b> auf eine leere Zeichenfolge festlegen, werden Titel des Dialogfelds eine leere Zeichenfolge.</para>
-          <para>Bewirkt, dass die Beschriftung abgeschnitten werden und verursacht nicht die Breite des Dialogfelds "Namen auswählen" So ändern Sie die <b>Beschriftung</b> in eine lange Zeichenfolge (z. B. 300 Zeichen) festlegen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn Sie keine <b>Beschriftung</b> festlegen, werden der Titel des Dialogfelds Namen auswählen oder die lokalisierte Entsprechung. Wenn Sie <b>Beschriftung</b> auf eine leere Zeichenfolge festlegen, werden Titel des Dialogfelds eine leere Zeichenfolge.</para>
+          <para>Festlegen der <b>Beschriftung</b> in eine lange Zeichenfolge (z. B. 300 Zeichen) bewirkt, dass die Beschriftung abgeschnitten werden und verursacht nicht die Breite des Dialogfelds " Namen auswählen " zu ändern.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CcLabel">
@@ -191,11 +177,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf der Cc-Befehlsschaltfläche in das Dialogfeld Namen auswählen angezeigt wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, ein kaufmännisches und-Zeichen einfügen (&amp;) Zeichen in der Beschriftung Argumentzeichenfolge, unmittelbar vor dem Zeichen, die als Zugriffstaste fungiert. <b>CcLabel</b> beispielsweise die Zeichenfolge "lokale &amp;Teilnehmer", Benutzer können durch Drücken von ALT + A, um den Fokus auf das erste Bearbeitungsfeld Empfänger. </para>
-          <para>Wenn <b>CcLabel</b> nicht festgelegt ist, und klicken Sie dann der Standardwert die lokalisierte Zeichenfolge für "Cc" verwendet wird. Wenn die <b>CcLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Cc-Befehlsschaltfläche zeigt -&gt;. Wenn die <b>CcLabel</b> -Eigenschaft mehr als 32 Zeichen enthält (einschließlich das kaufmännische und-Zeichen (&amp;) Zugriffstaste), nur die ersten 32 Zeichen werden die Befehlsschaltfläche angezeigt werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, enthalten Sie ein kaufmännische und-Zeichen in der Beschriftung Argumentzeichenfolge (&amp;) unmittelbar vor dem Zeichen, das als Zugriffstaste fungiert. Beispielsweise können <b>CcLabel</b> die Zeichenfolge "Lokale &amp; Teilnehmer" ist, Benutzer ALT + A, um den Fokus auf den ersten Empfänger-Bearbeitungsfeld drücken.</para>
+          <para>Wenn <b>CcLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "Cc". Wenn die <b>CcLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Cc-Befehlsschaltfläche zeigt -&gt;. Wenn die <b>CcLabel</b> -Eigenschaft (einschließlich der Zugriffstaste und-Zeichen (&amp;)) mehr als 32 Zeichen enthält, werden nur die ersten 32 Zeichen in die Befehlsschaltfläche angezeigt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -249,12 +233,10 @@
       <Docs>
         <summary>Das Dialogfeld Namen auswählen wird angezeigt.</summary>
         <returns>Ein <b>boolescher</b> Wert (<b>Bool</b> in c#), der <b>True</b> ist, wenn der Benutzer geklickt hat, OK, und <b>False,</b> Wenn der Benutzer auf Abbrechen oder auf das Symbol Schließen geklickt hat.</returns>
-        <remarks>
-          <para>Wenn das Dialogfeld Namen auswählen angezeigt wird, verwendet <b>Display</b> die vorherige Position und Größe (angegeben durch Top, Left, Breite und Höhe) des Dialogfelds.</para>
-          <para>Im Dialogfeld die Namen auswählen ist modal, was bedeutet, dass die Ausführung von Code angehalten wird, bis der Benutzer auf OK, Abbrechen oder das Symbol Schließen klickt.</para>
-          <para>Ermitteln für Fehler, die nicht genügend Speicherplatz einbeziehen oder einer anderen Nachricht oder ein Dialogfeld geöffnet ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn das Dialogfeld Namen auswählen angezeigt wird, verwendet die <b>Display</b> die vorherige Position und Größe (angegeben durch Top, Left, Breite und Höhe) des Dialogfelds.</para>
+          <para>Das Dialogfeld Namen auswählen ist modal, d. h., die Codeausführung wird angehalten, bis der Benutzer auf OK, Abbrechen oder das Symbol zum Schließen klickt.</para>
+          <para>Sie sollten Fehlerbedingungen erkennen, z. B. nicht ausreichenden Arbeitsspeicher oder ob ein anderes Meldungs- oder Dialogfeld geöffnet ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForceResolution">
@@ -285,12 +267,10 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob Outlook alle Empfänger im durch angegebenen Objekt aufgelöst werden muss <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Recipients" /> , bevor der Benutzer klicken Sie auf OK, um die eingegebenen oder ausgewählten Empfänger im Dialogfeld Namen auswählen akzeptieren kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>. Wenn ein Empfänger nicht aufgelöst werden kann, fordert Outlook den Benutzer auf die mehrdeutigen Namen aufzulösen. Der Benutzer muss alle Empfänger im Feld Empfänger bearbeiten aufgelöst, damit Sie auf OK klicken, verfügen.</para>
+        <remarks><para>Der Standardwert ist <b>True</b>. Wenn ein Empfänger nicht aufgelöst werden kann, fordert Outlook den Benutzer auf die mehrdeutigen Namen aufzulösen. Der Benutzer muss alle Empfänger in den Empfänger aufgelöst, damit Sie auf OK klicken, im Feld bearbeiten verfügen.</para>
           <para>
             <b>ForceResolution</b> wird ignoriert, wenn der Benutzer auf Abbrechen oder auf das Symbol Schließen klickt.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InitialAddressList">
@@ -321,11 +301,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> -Objekt, bestimmt die anfängliche Adressliste, die im Dialogfeld Namen auswählen angezeigt werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Festlegen der <b>InitialAddressList</b> -Eigenschaft ist die programmgesteuerte Entsprechung zum Auswählen eines <b>AddressList-Objekt</b> aus der Dropdownliste für Adressbuch im Dialogfeld Namen auswählen.</para>
+        <remarks><para>Festlegen der <b>InitialAddressList</b> -Eigenschaft ist die programmgesteuerte Entsprechung zum Auswählen eines <b>AddressList-Objekt</b> aus der Dropdownliste für Adressbuch im Dialogfeld Namen auswählen.</para>
           <para>Im Standardzustand, <b>InitialAddressList</b> ist das <b>AddressList-Objekt</b> , das die Eigenschaft hat <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> auf <b>True</b>festgelegt. <b>IsInitialAddressList</b> entspricht dem Festlegen von diese Adressliste zuerst in das Dialogfeld Adressierung, in dem verfügbar ist, indem Sie auf Extras und dann auf Optionen im Dialogfeld Adressbuch anzeigen.  </para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberOfRecipientSelectors">
@@ -356,12 +334,10 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.OlRecipientSelectors" /> -Konstante, die die Anzahl der Empfänger bestimmt Bearbeitungsfelder (jeweils zugeordnet sind mit einer Befehlsschaltfläche) in das Dialogfeld Namen auswählen angezeigt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ein Empfänger-Bearbeitungsfeld können Sie Empfängernamen eingeben. Jeder Empfänger-Bearbeitungsfeld ist eine Befehlsschaltfläche im Dialogfeld Namen auswählen zugeordnet. Beispiele für eine Befehlsschaltfläche für einen Empfänger-Bearbeitungsfeld sind an und Cc Befehlsschaltflächen. Der Standardwert der <b>NumberOfRecipientSelectors</b> ist <b>OlRecipientSelectors.olToCcBcc</b>.</para>
-          <para>Wenn Sie <b>auf <b>OlRecipientSelectors.olShowTo NumberOfRecipientSelectors</b></b> festlegen und anschließend den Text für <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> oder <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, bleibt <b>NumberOfRecipientSelectors</b> unverändert.</para>
+        <remarks><para>Ein Empfänger-Bearbeitungsfeld können Sie Empfängernamen eingeben. Jeder Empfänger-Bearbeitungsfeld ist eine Befehlsschaltfläche im Dialogfeld Namen auswählen zugeordnet. Beispiele für eine Befehlsschaltfläche für einen Empfänger-Bearbeitungsfeld sind Befehlsschaltflächen an und Cc. Der Standardwert der <b>NumberOfRecipientSelectors</b> ist <b>OlRecipientSelectors.olToCcBcc</b>.</para>
+          <para>Wenn Sie <b>auf <b>OlRecipientSelectors.olShowTo NumberOfRecipientSelectors</b> </b> festlegen und anschließend den Text für <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" /> oder <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />, bleibt <b>NumberOfRecipientSelectors</b> unverändert. </para>
           <para>Wenn Sie <b>NumberOfRecipientSelectors</b> auf <b>OlRecipientSelectors.olShowNone</b>festlegen und dann die <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.AllowMultipleSelection" /> Eigenschaft wird ignoriert.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -420,12 +396,10 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistungsobjekt, die ausgewählten in das Dialogfeld Namen auswählen Empfänger darstellt, oder legt fest, die ein <b>Recipients</b> -Auflistungsobjekt stellt die ursprünglichen Empfänger, die im Dialogfeld Namen auswählen angezeigt werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt ein <b>Recipients</b> -Auflistungsobjekt, das hat eine <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> gleich der Gesamtzahl der Empfänger im Feld an, Cc und Bcc Bearbeitungsfelder. </para>
-          <para>Wenn Sie diese Eigenschaft nicht vor dem Anzeigen des Dialogfelds Namen auswählen festlegen, wird durch <b>SelectNamesDialog.Recipients</b> dargestellten <b>Recipients</b> -Objekt <b>Recipients.Count</b> gleich 0 (null) Ihre.</para>
-          <para>, Wenn der Benutzer keine Namen aus dem Dialogfeld Namen auswählen nicht ausgewählt wird und auf OK klickt, <b>SelectNamesDialog.Recipients</b> zurückgegebenen ein <b>Recipients</b> -Auflistungsobjekt mit <b>Recipients.Count</b> gleich null.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt ein <b>Recipients</b> -Auflistungsobjekt, das hat eine <see cref="P:Microsoft.Office.Interop.Outlook.Recipients.Count" /> gleich der Gesamtzahl der Empfänger im Feld an, Cc und Bcc Bearbeitungsfelder. </para>
+          <para>Wenn Sie diese Eigenschaft nicht vor dem Anzeigen des Dialogfelds Namen auswählen festlegen, wird durch <b>SelectNamesDialog.Recipients</b> dargestellten <b>Recipients</b> -Objekt <b>Recipients.Count</b> gleich 0 (null) haben.</para>
+          <para>Wenn der Benutzer keine Namen aus dem Dialogfeld Namen auswählen nicht ausgewählt wird und auf OK klickt, wird <b>durch SelectNamesDialog.Recipients</b> ein <b>Recipients</b> -Auflistungsobjekt mit <b>Recipients.Count</b> gleich 0 (null) zurück. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -453,16 +427,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetDefaultDisplayMode">
@@ -490,13 +462,11 @@
       <Docs>
         <param name="defaultMode">Eine Konstante in der <b>OlDefaultSelectNamesDisplayMode</b> -Aufzählung, die die standardmäßige Beschriftung und die schaltflächenbezeichnungen für das Dialogfeld Namen auswählen bestimmt.</param>
         <summary>Der Standardanzeigemodus für das Dialogfeld Namen auswählen wird festgelegt, wobei die Beschriftung und die Schaltflächenbezeichnungen angegeben werden.</summary>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>SetDefaultDisplayMode</b> ist optional. Wenn Sie nicht <b>SetDefaultDisplayMode</b> vor dem Aufruf von Aufrufen <see cref="M:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Display" />, <b>der Standardanzeigemodus OlDefaultSelectNamesDisplayMode.olDefaultMail</b>. Um den Anzeigemodus auf einen anderen Wert festzulegen, sollten Sie <b>SetDefaultDisplayMode</b> vor dem Aufrufen der <b>Display</b> -Methode aufrufen. </para>
-          <para>Mit dieser Methode können Sie das Dialogfeld Namen auswählen angezeigt wird, ohne eine Ressourcendatei So lokalisieren Sie die Werte für die Beschriftung, die Bezeichnung an, Cc, Label und Bcc Label. Sie können integrierte Verhalten außer Kraft setzen, indem Sie Ihre eigenen Werte für festlegen <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
-          <para>Können Sie zusätzliche Eigenschaften festlegen (z. B. <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>olRecipientSelectors.olToCc</b>) nach dem Aufruf von <b>SetDefaultDisplayMode</b>. Das Dialogfeld Namen auswählen wird die nachfolgende Einstellung beobachten.</para>
-          <para />
-        </remarks>
+          <para>Mit dieser Methode können Sie das Dialogfeld Namen auswählen anzeigen, ohne eine Ressourcendatei zum Lokalisieren der Werte für die Beschriftung sowie die Bezeichnungen An, Cc und Bcc zu verwenden. Sie können integrierte Verhalten außer Kraft setzen, indem Sie Ihre eigenen Werte für festlegen <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.Caption" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.ToLabel" />, <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.CcLabel" />, und <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.BccLabel" />. </para>
+          <para>Sie können zusätzliche Eigenschaften festlegen (beispielsweise Einstellung <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.NumberOfRecipientSelectors" /> auf <b>olRecipientSelectors.olToCc</b>) nach dem Aufruf von <b>SetDefaultDisplayMode</b>. Das Dialogfeld Namen auswählen wird die nachfolgende Einstellung beobachten.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowOnlyInitialAddressList">
@@ -527,11 +497,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), der bestimmt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.AddressList" /> dargestellt durch <see cref="P:Microsoft.Office.Interop.Outlook._SelectNamesDialog.InitialAddressList" /> ist die einzige <b>AddressList</b> für Adressbuch im Dialogfeld Namen auswählen in der Dropdown Liste verfügbar. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert dieser Eigenschaft ist <b>False</b>, was bedeutet, dass alle Adresslisten angezeigt werden. Legen Sie <b>ShowOnlyInitialAddressList</b> auf <b>true fest</b>, um die Dropdownliste für Adressbuch auf angegeben wird <b>InitialAddressList</b>zu beschränken. </para>
-          <para>, Wenn Sie nicht die <b>InitialAddressList</b> -Eigenschaft festgelegt und legen Sie dann <b>ShowOnlyInitialAddressList</b> auf <b>"true"</b>, klicken Sie dann das <b>AddressList-Objekt</b> mit <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> gleich <b>True</b> ist die einzige verfügbare Adressliste in der Dropdownliste für Adressbuch.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert dieser Eigenschaft ist <b>False</b>, was bedeutet, dass alle Adresslisten angezeigt werden. Legen Sie ShowOnlyInitialAddressList auf <b>true fest</b>, um die Dropdownliste für <b>Adressbuch</b> auf angegeben wird <b>InitialAddressList</b> zu beschränken.</para>
+          <para>Wenn Sie nicht die <b>InitialAddressList</b> -Eigenschaft festgelegt und legen Sie dann <b>ShowOnlyInitialAddressList</b> auf <b>"true"</b>, klicken Sie dann das <b>AddressList-Objekt</b> mit <see cref="P:Microsoft.Office.Interop.Outlook.AddressList.IsInitialAddressList" /> gleich <b>True</b> ist die einzige in der Dropdownliste verfügbare Adressliste für das Adressbuch.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ToLabel">
@@ -562,11 +530,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#) für den Text, der auf die Schaltfläche an Befehl im Dialogfeld Namen auswählen angezeigt wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, ein kaufmännisches und-Zeichen einfügen (&amp;) Zeichen in der Beschriftung Argumentzeichenfolge, unmittelbar vor dem Zeichen, die als Zugriffstaste fungiert. <b>ToLabel</b> beispielsweise die Zeichenfolge "lokale &amp;Teilnehmer", Benutzer können durch Drücken von ALT + A, um den Fokus auf das erste Bearbeitungsfeld Empfänger. </para>
-          <para>Wenn <b>ToLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "Zu" sein. Wenn die <b>ToLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Schaltfläche an Befehl zeigt -&gt;. Wenn die <b>ToLabel</b> -Eigenschaft mehr als 32 Zeichen enthält (einschließlich das kaufmännische und-Zeichen (&amp;) Zugriffstaste), nur die ersten 32 Zeichen werden die Befehlsschaltfläche angezeigt werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Um eine Zugriffstaste für die Empfänger Bearbeitungsfelder zu ermöglichen, enthalten Sie ein kaufmännische und-Zeichen in der Beschriftung Argumentzeichenfolge (&amp;) unmittelbar vor dem Zeichen, das als Zugriffstaste fungiert. Beispielsweise können <b>ToLabel</b> die Zeichenfolge "Lokale &amp; Teilnehmer" ist, Benutzer ALT + A, um den Fokus auf den ersten Empfänger-Bearbeitungsfeld drücken.</para>
+          <para>Wenn <b>ToLabel</b> nicht festgelegt ist, wird der Standardwert die lokalisierte Zeichenfolge für "An". Wenn die <b>ToLabel</b> auf eine leere Zeichenfolge festgelegt ist, und klicken Sie dann die Schaltfläche an Befehl zeigt -&gt;. Wenn die <b>ToLabel</b> -Eigenschaft (einschließlich der Zugriffstaste und-Zeichen (&amp;)) mehr als 32 Zeichen enthält, werden nur die ersten 32 Zeichen in die Befehlsschaltfläche angezeigt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_Folders" FullName="Microsoft.Office.Interop.Outlook._Folders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635605" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="65a8db10f5e9c75a72a6d9f58667845ef9c39629" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898060" /></Metadata><TypeSignature Language="C#" Value="public interface _Folders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Folders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Folders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Folders&#xA;Implements IEnumerable" />
@@ -58,7 +50,7 @@
       </Parameters>
       <Docs>
         <param name="Name">Der Anzeigename für den neuen Ordner.</param>
-        <param name="Type">Die Outlook-Ordnertyp für den neuen Ordner. Wenn der Ordnertyp nicht angegeben wird, wird der neue Ordner in den gleichen Typ als den Ordner festgelegt, in der es erstellt wird. Kann eine der folgenden <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> Konstanten: <b>OlFolderCalendar</b>, <b>OlFolderContacts</b>, <b>OlFolderDrafts</b>, <b>OlFolderInbox</b>, <b>OlFolderJournal</b>, <b>OlFolderNotes</b>oder <b>OlFolderTasks</b>. Die Konstanten <b>OlFolderConflicts</b>, <b>OlFolderDeletedItems</b>, <b>OlFolderJunk</b>, <b>OlFolderLocalFailures</b>, <b>OlFolderManagedEmail</b>, <b>OlFolderOutbox</b>, <b>OlFolderRssSubscriptions</b>, <b> OlFolderSentMail</b>, <b>OlFolderServerFailures</b>, <b>OlFolderSyncIssues</b>, <b>OlFolderToDo</b>und <b>OlPublicFoldersAllPublicFolders</b> können nicht für dieses Argument angegeben werden.</param>
+        <param name="Type">Der Outlook-Ordnertyp für den neuen Ordner. Wenn der Ordnertyp nicht angegeben ist, erhält der neue Ordner standardmäßig denselben Typ wie der Ordner, in dem er erstellt wurde. Kann eine der folgenden <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> Konstanten: <b>OlFolderCalendar</b>, <b>OlFolderContacts</b>, <b>OlFolderDrafts</b>, <b>OlFolderInbox</b>, <b>OlFolderJournal</b>, <b>OlFolderNotes</b>oder <b>OlFolderTasks</b>. Die Konstanten <b>OlFolderConflicts</b>, <b>OlFolderDeletedItems</b>, <b>OlFolderJunk</b>, <b>OlFolderLocalFailures</b>, <b>OlFolderManagedEmail</b>, <b>OlFolderOutbox</b>, <b>OlFolderRssSubscriptions</b>, <b> OlFolderSentMail</b>, <b>OlFolderServerFailures</b>, <b>OlFolderSyncIssues</b>, <b>OlFolderToDo</b>und <b>OlPublicFoldersAllPublicFolders</b> können nicht für dieses Argument angegeben werden.</param>
         <summary>Erstellt einen neuen Ordner in der <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den neuen Ordner darstellt.</returns>
         <remarks>To be added.</remarks>
@@ -171,10 +163,8 @@
       <Docs>
         <summary>Gibt das erste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das das erste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Gibt <b>Nothing zurück</b> , wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind. Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b><see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Gibt <b>Nothing zurück</b> , wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind. Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b> <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetLast">
@@ -200,10 +190,8 @@
       <Docs>
         <summary>Gibt das letzte Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das das letzte in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetNext">
@@ -229,10 +217,8 @@
       <Docs>
         <summary>Gibt das nächste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das das nächste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetPrevious">
@@ -258,10 +244,8 @@
       <Docs>
         <summary>Gibt das vorherige Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Folders" /> Auflistung.</summary>
         <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das das vorherige in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks>
-          <para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook._Folders.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -408,16 +392,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkContactPhoto" FullName="Microsoft.Office.Interop.Outlook.OlkContactPhoto">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="e14b06c18befd42b9292ec49d39301a436a3ec7e" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636999" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkContactPhoto : Microsoft.Office.Interop.Outlook._OlkContactPhoto, Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c6b6e30cfc10aa7ce7b831cae6f5ed75d9d7f0a7" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898851" /></Metadata><TypeSignature Language="C#" Value="public interface OlkContactPhoto : Microsoft.Office.Interop.Outlook._OlkContactPhoto, Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkContactPhoto implements class Microsoft.Office.Interop.Outlook._OlkContactPhoto, class Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkContactPhoto" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkContactPhoto&#xA;Implements _OlkContactPhoto, OlkContactPhotoEvents_Event" />
@@ -34,13 +26,11 @@
   </Attributes>
   <Docs>
     <summary>Ein Steuerelement, das das Kontaktbild für ein Kontaktelement zeigt, wenn ein Kontaktbild definiert wurde, oder die Schaltfläche für das Kontaktbild, wenn kein Kontaktbild zugewiesen wurde.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkContactPhoto" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />.</para>
-      <para>, Bevor Sie dieses Steuerelement zum ersten Mal im Formular-Designer verwenden das Kontaktfoto-Steuerelement von Microsoft Outlook zur Steuerelement-Toolbox hinzufügen. Sie können nur einen Formularbereich in einem Outlook-Formular im Formular-Designer mit diesem Steuerelement hinzufügen; Sie können dieses Steuerelement ein Visual Basic- <b>UserForm</b> -Objekt in Visual Basic-Editor Hinzufügen.</para>
-      <para>Lautet wie folgt die Kontaktbild-Schaltfläche, die zur Laufzeit angezeigt wird, wenn kein Kontaktbild definiert wurde. Wenn ein Kontaktbild für einen Kontakt definiert wurde, wird das Foto des Kontakte in das Steuerelement gestreckt neu skaliert werden. Dieses Steuerelement unterstützt Microsoft Windows-Designs.</para>
-      <para>Weitere Informationen zu Outlook-Steuerelementen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para>
-      <para />
-    </remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._OlkContactPhoto" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.OlkContactPhotoEvents_Event" />.</para>
+      <para>Bevor Sie dieses Steuerelement zum ersten Mal im Formular-Designer verwenden, fügen Sie der Microsoft Outlook Kontaktfoto-Steuerelement zur Steuerelement-Toolbox. Sie können nur einen Formularbereich in einem Outlook-Formular im Formular-Designer mit diesem Steuerelement hinzufügen; Dieses Steuerelement kann nicht auf ein Visual Basic- <b>UserForm</b> -Objekt in Visual Basic-Editor Hinzufügen werden.</para>
+      <para>Die folgende Schaltfläche für das Kontaktbild wird während der Laufzeit angezeigt, wenn kein Kontaktbild definiert wurde. Wurde ein Kontaktbild für einen Kontakt definiert, wird die Größe des Kontaktfotos so angepasst, dass das Foto in das Steuerelement passt. Dieses Steuerelement unterstützt Microsoft Windows-Designs.</para>
+      <para>Weitere Informationen zu Outlook-Steuerelemente finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87823">Steuerelemente in einem benutzerdefinierten Formular</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

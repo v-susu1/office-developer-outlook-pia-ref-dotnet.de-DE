@@ -1,13 +1,5 @@
 <Type Name="Categories" FullName="Microsoft.Office.Interop.Outlook.Categories">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="da774a44b942881c2a052bbbff3a5d922668713f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637224" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Categories : Microsoft.Office.Interop.Outlook._Categories" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="899c9ca19737a0150c9cf75ece17f79a01b1947b" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897178" /></Metadata><TypeSignature Language="C#" Value="public interface Categories : Microsoft.Office.Interop.Outlook._Categories" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Categories implements class Microsoft.Office.Interop.Outlook._Categories" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Categories" />
   <TypeSignature Language="VB.NET" Value="Public Interface Categories&#xA;Implements _Categories" />
@@ -31,13 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Stellt die Auflistung der <see cref="T:Microsoft.Office.Interop.Outlook.Category" /> -Objekten, die die Hauptkategorienliste für einen Namespace definieren.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Categories" />.</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Categories" />.</para>
       <para>Microsoft Outlook bietet ein System für die Kategorisierung nach dem Outlook-Elemente können auf einfache Weise identifiziert und in benutzerdefinierte Kategorien unterteilt. <b>Categories</b> -Objekt repräsentiert den Satz benutzerdefinierter Kategorien für den Benutzer eines bestimmten Postfachs verfügbar.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekts zum Abrufen eines <b>Categories</b> -Objektverweis, der die Hauptkategorienliste für diesen Namespace darstellt.</para>
+      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NameSpace.Categories" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekts zum Abrufen eines <b>Categories</b> -Objektverweis, der die Hauptkategorienliste für diesen Namespace darstellt. </para>
       <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Add(System.String,System.Object,System.Object)" /> -Methode, um ein neues Category-Objekt erstellen, und fügen es der Auflistung. Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Categories.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) zum Abrufen einer <b>Kategorie</b> -Objektreferenz für eine vorhandene Kategorie, und die <see cref="M:Microsoft.Office.Interop.Outlook._Categories.Remove(System.Object)" /> -Methode, um ein <b>Category</b> -Objekt aus der Auflistung entfernt. Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Categories.Count" /> Eigenschaft, um die Anzahl der Rubriken in der Auflistung enthaltenen zurückzugeben.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

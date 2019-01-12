@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="94f38ddf6e70cd1c60c264bff6a43ceefb4bb85d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636462" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896800" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -68,10 +60,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, wenn der Benutzer im aktiven Explorer programmgesteuert eine andere oder eine zusätzliche Anlage auswählt oder mit der Benutzeroberfläche interagiert.</summary>
-        <remarks>
-          <para>Das <b>AttachmentSelectionChange</b> -Ereignis wird ausgelöst, wenn eine andere oder eine zusätzliche Anlage eines beliebigen Elements im aktiven Explorer ausgewählt wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das <b>AttachmentSelectionChange</b> -Ereignis wird ausgelöst, wenn eine andere oder eine zusätzliche Anlage eines beliebigen Elements im aktiven Explorer ausgewählt wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeFolderSwitch">
@@ -90,10 +80,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, bevor der Explorer aufgrund einer Benutzeraktion oder durch Programmcode in einen neuen Ordner wechselt.</summary>
-        <remarks>
-          <para>Wenn der Ordner in einem Namespace befindet, der keine Automatisierung (wie das Dateisystem) unterstützt <paramref name="NewFolder" /> wird <b>Nothing zurück</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Ordner in einem Namespace befindet, der keine Automatisierung (wie das Dateisystem) unterstützt <paramref name="NewFolder" /> wird <b>Nothing zurück</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCopy">
@@ -112,10 +100,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, wenn ein Outlook-Element kopiert wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis kann abgebrochen werden, nachdem es gestartet wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemCut">
@@ -134,10 +120,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, wenn ein Outlook-Element in einem Ordner ausgeschnitten wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis kann abgebrochen werden, nachdem es gestartet wurde. Wenn das Ereignis abgebrochen wird, wird das Element nicht entfernt werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden. Wenn das Ereignis abgebrochen wird, wird das Element nicht entfernt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeItemPaste">
@@ -156,10 +140,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, wenn ein Outlook-Element eingefügt wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis kann abgebrochen werden, nachdem es gestartet wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMaximize">
@@ -178,10 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn ein Explorer vom Benutzer maximiert wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis kann abgebrochen werden, nachdem es gestartet wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMinimize">
@@ -200,10 +180,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der aktive Explorer vom Benutzer minimiert wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis kann abgebrochen werden, nachdem es gestartet wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeMove">
@@ -222,10 +200,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> vom Benutzer verschoben wird.</summary>
-        <remarks>
-          <para>Dieses Ereignis kann abgebrochen werden, nachdem es gestartet wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeSize">
@@ -244,10 +220,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer die Größe des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</summary>
-        <remarks>
-          <para>Dieses Ereignis kann abgebrochen werden, nachdem es gestartet wurde. Wenn das Ereignis abgebrochen wird, wird das Fenster nicht angepasst.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden. Wenn das Ereignis abgebrochen wird, wird die Größe des Fensters nicht geändert.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BeforeViewSwitch">
@@ -285,10 +259,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn ein Explorer geschlossen wird.</summary>
-        <remarks>
-          <para>Bei Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> -Methode zum Auslösen dieses Ereignisses verwenden, kann es nur abgebrochen werden, wenn die <b>Close</b> -Methode das <b>OlPromptForSave</b> -Argument verwendet wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Bei Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> -Methode zum Auslösen dieses Ereignisses verwenden, kann es nur abgebrochen werden, wenn die <b>Close</b> -Methode das <b>OlPromptForSave</b> -Argument verwendet wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Deactivate">
@@ -345,10 +317,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer eine Aktion ausführt, die eine Inlineantwort im Lesebereich anzeigt.</summary>
-        <remarks>
-          <para>Dieses Ereignis gibt ein Item-Objekt, das Inline-Antwort-Element darstellt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis gibt ein Item-Objekt, das Inline-Antwort-Element darstellt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="InlineResponseClose">
@@ -367,11 +337,10 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer eine Aktion ausführt, die zum Schließen der aktiven inlineantwort im Lesebereich verursacht.</summary>
-        <remarks>
-          <para>Dieses Ereignis wird ausgelöst, wenn eine neue inlineantwort oder inlineantwort Entwurf ist aus den folgenden Gründen geschlossen:</para>
+        <remarks><para>Dieses Ereignis wird ausgelöst, wenn eine neue inlineantwort oder Entwurf inlineantwort aus den folgenden Gründen geschlossen wird:</para>
           <list type="bullet">
             <item>
-              <para>Der Benutzer wählt den Befehl <b>Pop Out</b> .</para>
+              <para>Der Benutzer wählt den Befehl <b>Pop heraus</b> .</para>
             </item>
             <item>
               <para>Der Benutzer wählt den Befehl <b>verwerfen</b> .</para>
@@ -389,8 +358,7 @@
               <para>Der Benutzer wechselt, Module, z. B. von e-Mail-Moduls für das Kalendermodul.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionChange">
@@ -409,10 +377,8 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer zu einem anderen Element in einem Ordner mithilfe der Benutzeroberfläche (UI) wechselt oder programmgesteuert.</summary>
-        <remarks>
-          <para>Dieses Ereignis tritt auch ein, wenn der Benutzer, entweder programmgesteuert oder mithilfe der programmseitig Benutzer klickt oder wechselt zu einem anderen Ordner, die Elemente enthält, wie Outlook das erste Element in diesem Ordner automatisch markiert. Dieses Ereignis tritt jedoch nicht auf, wenn der Ordner ein Ordner des Dateisystems ist oder wenn ein beliebiger Ordner mit einer aktuellen Webansicht angezeigt wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieses Ereignis tritt auch ein, wenn der Benutzer, entweder programmgesteuert oder mithilfe der programmseitig Benutzer klickt oder wechselt zu einem anderen Ordner, die Elemente enthält, wie Outlook das erste Element in diesem Ordner automatisch markiert. Dieses Ereignis tritt jedoch nicht auf, wenn der Ordner ein Ordner des Dateisystems ist oder wenn ein beliebiger Ordner mit einer aktuellen Webansicht angezeigt wird. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewSwitch">

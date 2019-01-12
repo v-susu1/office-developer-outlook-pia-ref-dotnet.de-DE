@@ -1,13 +1,5 @@
 <Type Name="_OrderField" FullName="Microsoft.Office.Interop.Outlook._OrderField">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="185c39ff2ddcf742aae3ba133afc2454aa3a64a2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636877" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OrderField" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="185c39ff2ddcf742aae3ba133afc2454aa3a64a2" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899965" /></Metadata><TypeSignature Language="C#" Value="public interface _OrderField" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OrderField" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OrderField" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OrderField" />
@@ -114,10 +106,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>booleschen</b> Wert (<b>Bool</b> in c#), der angibt, ob der Inhalt der der <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> Objekt in absteigender Reihenfolge sortiert werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn diese Eigenschaft auf <b>True</b>festgelegt ist, werden die Inhalte der Eigenschaft, die durch das <b>OrderField</b> -Objekt in absteigender Reihenfolge sortiert ist. Andernfalls wird der Inhalt in aufsteigender Reihenfolge sortiert.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn diese Eigenschaft auf <b>True</b> festgelegt ist, werden die Inhalte der Eigenschaft, die durch das <b>OrderField</b> -Objekt in absteigender Reihenfolge sortiert ist. Andernfalls wird der Inhalt in aufsteigender Reihenfolge sortiert.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -173,16 +163,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewXMLSchemaName">
@@ -210,10 +198,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der den XML-Schemanamen für die Eigenschaft, die durch die <see cref="T:Microsoft.Office.Interop.Outlook.OrderField" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft enthält den Namen der Eigenschaft an, wie es in der XML-Definition der Ansicht mit dem <b>ViewField</b> -Objekt enthalten ist. Dieser Wert entspricht möglicherweise nicht den Namen verwendet, um auf die Eigenschaft zu verweisen, wenn das <b>OrderField</b> -Objekt definiert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert dieser Eigenschaft enthält den Namen der Eigenschaft an, wie es in der XML-Definition der Ansicht mit dem <b>ViewField</b> -Objekt enthalten ist. Dieser Wert entspricht möglicherweise nicht den Namen verwendet, um auf die Eigenschaft zu verweisen, wenn das <b>OrderField</b> -Objekt definiert wurde.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

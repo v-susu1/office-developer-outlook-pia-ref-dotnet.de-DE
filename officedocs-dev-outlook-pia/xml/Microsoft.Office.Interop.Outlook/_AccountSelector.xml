@@ -1,13 +1,5 @@
 <Type Name="_AccountSelector" FullName="Microsoft.Office.Interop.Outlook._AccountSelector">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33f6ada9ca53fd6445dfacde4868a898b71da6f5" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635763" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _AccountSelector" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="33f6ada9ca53fd6445dfacde4868a898b71da6f5" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896744" /></Metadata><TypeSignature Language="C#" Value="public interface _AccountSelector" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AccountSelector" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AccountSelector" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AccountSelector" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt des <b>AccountSelector</b> -Objekts gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt des <b>AccountSelector</b> -Objekts gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectedAccount">
@@ -142,11 +132,9 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt, das ausgewählte Konto in der Microsoft Office Backstage-Ansicht in Microsoft Outlook darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>In der Outlook-Benutzeroberfläche können Sie ein Konto explizit auf der Registerkarte Info der Backstage-Ansicht auswählen, oder Sie können ein Konto implizit auswählen, wenn Sie einen Ordner in einer Liste von Ordnern auswählen. <b>SelectedAccount</b> -Eigenschaft darstellt, das derzeit ausgewählte Konto in der Backstage-Ansicht für eine bestimmte Instanz der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt. Um das Konto zu bestimmen, die implizit ausgewählt ist, identifizieren Sie das <b>Account</b> -Objekt, das hat seine <see cref="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" /> -Eigenschaft den Wert der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Store" /> -Eigenschaft des aktuellen Ordners (durch dargestellt die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> -Eigenschaft des <b>Explorer</b> -Objekt).</para>
-          <para>Diese Eigenschaft gibt <b>Null</b> (<b>Nothing</b> in Visual Basic) zurück, wenn keine Konten im Profil der Sitzung definiert werden; dies ist die <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> -Objekt, das alle Konten im aktuellen Profil darstellt ist 0.</para>
-          <para />
-        </remarks>
+        <remarks><para>In der Outlook-Benutzeroberfläche können Sie ein Konto explizit auf der Registerkarte Info der Backstage-Ansicht auswählen, oder Sie können ein Konto implizit auswählen, wenn Sie einen Ordner in einer Liste von Ordnern auswählen. <b>SelectedAccount</b> -Eigenschaft darstellt, das derzeit ausgewählte Konto in der Backstage-Ansicht für eine bestimmte Instanz der <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt. Um das Konto zu bestimmen, die implizit ausgewählt ist, identifizieren Sie das <b>Account</b> -Objekt, das hat seine <see cref="P:Microsoft.Office.Interop.Outlook._Account.DeliveryStore" /> -Eigenschaft den Wert der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.Store" /> -Eigenschaft des aktuellen Ordners (durch dargestellt die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> -Eigenschaft des <b>Explorer</b> -Objekt).</para>
+          <para>Diese Eigenschaft gibt <b>Null</b> (<b>Nothing</b> in Visual Basic), wenn keine Konten in der Sitzung definierten Profil; d. h., die <see cref="P:Microsoft.Office.Interop.Outlook._Accounts.Count" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Accounts" /> -Objekt, das alle Konten im aktuellen Profil darstellt ist 0. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -174,11 +162,9 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Gibt <b>Null</b> (<b>Nothing</b> in Visual Basic) zurück, wenn keine angemeldete Sitzung vorhanden ist.</para>
-          <para>Können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Objekts austauschbar, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn keine angemeldete Sitzung vorhanden ist, wird <b>Null</b> (<b>Nothing</b> in Visual Basic) zurückgegeben.</para>
+          <para>Sie können die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Objekts austauschbar, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

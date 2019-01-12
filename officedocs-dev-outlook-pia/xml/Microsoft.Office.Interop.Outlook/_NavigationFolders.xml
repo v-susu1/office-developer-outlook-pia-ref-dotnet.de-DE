@@ -1,13 +1,5 @@
 <Type Name="_NavigationFolders" FullName="Microsoft.Office.Interop.Outlook._NavigationFolders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635728" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b4c4d498f22e067b44aff3e0cf6b8a93dfd0cfd1" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900773" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationFolders : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationFolders implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationFolders" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationFolders&#xA;Implements IEnumerable" />
@@ -60,10 +52,8 @@
         <param name="Folder">Der hinzuzufügende Ordner.</param>
         <summary>Fügt das angegebene <see cref="T:Microsoft.Office.Interop.Outlook.Folder" />, als ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> -Objekt an das Ende der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> Auflistung.</summary>
         <returns>Ein <b>NavigationFolder</b> -Objekt, das den neuen Navigationsordner darstellt.</returns>
-        <remarks>
-          <para>Ein Ordner kann nur in einer Navigationsgruppe angezeigt werden. Beim Hinzufügen <b>eines Ordnerobjekts</b> zu einer neuen Navigationsgruppe werden alle Verweise in den <b>Ordner</b> aus allen anderen Navigationsgruppen entfernt, deren Mitglied vorher.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein Ordner kann nur in einer Navigationsgruppe angezeigt werden. Beim Hinzufügen <b>eines Ordnerobjekts</b> zu einer neuen Navigationsgruppe werden alle Verweise in den <b>Ordner</b> aus allen anderen Navigationsgruppen entfernt, deren Mitglied vorher.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -119,10 +109,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>OlNavigationFolders</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>OlNavigationFolders</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Count">
@@ -182,10 +170,8 @@
         <param name="Index">Entweder der Indexwert des Objekts oder der Wert, der der Standardeigenschaft eines Objekts in der Auflistung entspricht.</param>
         <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolder" /> Objekt aus der Auflistung.</summary>
         <value>Ein <b>NavigationFolder</b> -Objekt, das das angegebene Objekt darstellt.</value>
-        <remarks>
-          <para>Der Indexwert des ein <b>NavigationFolder</b> in der Auflistung gibt die ordinale Position des Ordners in der Navigationsgruppe an, wenn Sie im Navigationsbereich angezeigt. Ändern die Position der Navigationsordner in die Navigationsgruppe ändert sich auch die Indexwerte der darin enthaltenen Ordner der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> -Auflistung, die <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Indexwert des ein <b>NavigationFolder</b> in der Auflistung gibt die ordinale Position des Ordners in der Navigationsgruppe an, wenn Sie im Navigationsbereich angezeigt. Ändern die Position der Navigationsordner in die Navigationsgruppe ändert sich auch die Indexwerte der darin enthaltenen Ordner der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> -Auflistung, die <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroup" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -241,10 +227,8 @@
       <Docs>
         <param name="RemovableFolder">Der zu entfernende Navigationsordner.</param>
         <summary>Entfernt ein Objekt aus der Auflistung.</summary>
-        <remarks>
-          <para>Nur austauschbaren Ordner, <b>NavigationFolder</b> -Objekten mit einer <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> Eigenschaftswert auf <b>True</b>festgelegt, kann aus einer <b>NavigationFolders</b> -Auflistung entfernt werden. Dies bedeutet, dass Sie <b>NavigationFolders.Remove</b> verwenden können, um freigegebene Ordner, Öffentliche Ordner und verknüpfte Ordner zu entfernen. Sie müssen jedoch verwenden <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> um alle von Benutzern erstellte Ordner zu entfernen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nur austauschbaren Ordner, <b>NavigationFolder</b> -Objekten mit einer <see cref="P:Microsoft.Office.Interop.Outlook._NavigationFolder.IsRemovable" /> Eigenschaftswert auf <b>True</b>festgelegt, kann aus einer <b>NavigationFolders</b> -Auflistung entfernt werden. Dies bedeutet, dass Sie <b>NavigationFolders.Remove</b> verwenden können, um freigegebene Ordner, Öffentliche Ordner und verknüpfte Ordner zu entfernen. Sie müssen jedoch verwenden <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.Delete" /> um alle von Benutzern erstellte Ordner zu entfernen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -272,16 +256,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

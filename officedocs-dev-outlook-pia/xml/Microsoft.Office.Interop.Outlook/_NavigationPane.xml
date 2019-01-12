@@ -1,13 +1,5 @@
 <Type Name="_NavigationPane" FullName="Microsoft.Office.Interop.Outlook._NavigationPane">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636875" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _NavigationPane" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b0971992678e056bef3b026b53553b66b4d8b318" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896765" /></Metadata><TypeSignature Language="C#" Value="public interface _NavigationPane" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NavigationPane" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._NavigationPane" />
   <TypeSignature Language="VB.NET" Value="Public Interface _NavigationPane" />
@@ -83,10 +75,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gibt <b>OlNavigationPane</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft gibt <b>OlNavigationPane</b> für die <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="CurrentModule">
@@ -148,12 +138,10 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, die Anzahl der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModule" /> Objekte im Navigationsbereich angezeigt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft kann nur festgelegt werden, auf einen Wert zwischen 0 und der Wert der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> -Eigenschaft für die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> Auflistung des <b>NavigationPane</b> -Objekts. Wenn diese Eigenschaft auf einen Wert größer als die maximal zulässige Wert festgelegt ist, wird der Wert-Eigenschaft automatisch auf den maximal zulässigen Wert festgelegt. Wenn diese Eigenschaft auf kleiner als 0 festgelegt ist, tritt ein Fehler auf.</para>
-          <para>Wenn das <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> Objekts auf <b>False</b>festgelegt ist, und klicken Sie dann den Eigenschaftswert stellt die Anzahl der Navigationsmodule für das Symbol und den Namen im Navigationsbereich angezeigt werden. Wenn <b>IsCollapsed</b> auf <b>True</b>festgelegt ist, wird der Wert der <b>DisplayedModuleCount</b> -Eigenschaft stellt die Anzahl der Navigationsmodule für die ein Symbol im Navigationsbereich angezeigt wird.</para>
-          <para>Festlegen des Werts dieser Eigenschaft wird die Größe des Modulabschnitts des Navigationsbereichs mehr oder weniger <b>NavigationModule</b> -Objekte angezeigt, wie gewünscht geändert.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft kann nur festgelegt werden, auf einen Wert zwischen 0 und der Wert der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationModules.Count" /> -Eigenschaft für die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.Modules" /> Auflistung des <b>NavigationPane</b> -Objekts. Wenn diese Eigenschaft auf einen Wert größer als die maximal zulässige Wert festgelegt ist, wird der Wert-Eigenschaft automatisch auf den maximal zulässigen Wert festgelegt. Ein Fehler tritt auf, wenn diese Eigenschaft auf kleiner als 0 festgelegt ist.</para>
+          <para> Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationPane.IsCollapsed" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> Objekts auf <b>False</b>festgelegt ist, und klicken Sie dann den Eigenschaftswert stellt die Anzahl der Navigationsmodule für das Symbol und den Namen im Navigationsbereich angezeigt werden. Wenn <b>IsCollapsed</b> auf <b>True</b> festgelegt ist, stellt der Wert <b>DisplayedModuleCount</b> -Eigenschaft die Anzahl der Navigationsmodule für die ein Symbol im Navigationsbereich angezeigt wird.</para>
+          <para>Wenn Sie den Wert dieser Eigenschaft passt die Größe des Modulabschnitts des Navigationsbereichs Bedarf mehr oder weniger <b>NavigationModule</b> -Objekte anzeigen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsCollapsed">
@@ -268,16 +256,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

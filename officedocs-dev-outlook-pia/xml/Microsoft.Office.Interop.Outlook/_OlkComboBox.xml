@@ -1,13 +1,5 @@
 <Type Name="_OlkComboBox" FullName="Microsoft.Office.Interop.Outlook._OlkComboBox">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637321" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _OlkComboBox" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="89f18877a1a25c0c409aacc28f213dc09a4b2fad" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901431" /></Metadata><TypeSignature Language="C#" Value="public interface _OlkComboBox" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _OlkComboBox" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._OlkComboBox" />
   <TypeSignature Language="VB.NET" Value="Public Interface _OlkComboBox" />
@@ -56,10 +48,8 @@
         <param name="ItemText">Wert, der der Liste im Kombinationsfeld hinzugefügt werden soll.</param>
         <param name="Index">Ein 0-basierter Wert, der die Reihenfolge des neuen Elements in der Liste angibt.</param>
         <summary>Fügt der Liste ein Element hinzu und kann einen Index für das neue Element in der Liste festlegen.</summary>
-        <remarks>
-          <para>Wenn der Wert der <paramref name="Index" /> ist gleich oder größer als die Anzahl der Elemente in der Liste, wird das neue Element an das Ende der Liste hinzugefügt werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Wert der <paramref name="Index" /> ist gleich oder größer als die Anzahl der Elemente in der Liste, wird das neue Element an das Ende der Liste hinzugefügt werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoSize">
@@ -90,11 +80,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), die automatisch das Steuerelement passt, um den gesamten Inhalt anzuzeigen.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
-          <para>Einstellung <b>AutoSize</b> auf <b>true festgelegt,</b> wird automatisch die Breite des Anzeigebereichs auf die Länge des Texts im Kombinationsfeld. Dieses Verhalten ist vergleichbar mit dem einzeiligen Textfeld. </para>
-          <para />
-        </remarks>
+        <remarks><para>  Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
+          <para>Wenn <b>AutoSize</b> auf <b>true fest,</b> automatisch festgelegt die Breite des Anzeigebereichs auf die Länge des Texts im Kombinationsfeld. Dieses Verhalten ist vergleichbar mit dem einzeiligen Textfeld.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoTab">
@@ -125,10 +113,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob eine Registerkarte automatisch eingefügt wird, wenn das Steuerelement auf die maximale Länge angegeben ausgefüllt wurde. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>  Der Standardwert für diese Eigenschaft ist <b>False</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoWordSelect">
@@ -159,10 +145,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob ein Wort oder ein Zeichen der Basiseinheit verwendet, um eine Auswahl erweitert wird.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BackColor">
@@ -196,10 +180,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Hintergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0 x 80000005, "Fenster".</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0 x 80000005, "Fenster". </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderStyle">
@@ -230,10 +212,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBorderStyle" /> -Konstante, die das Format des Rahmens um das Steuerelement definiert.   Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlBorderStyleSingle</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -283,11 +263,9 @@
       <Parameters />
       <Docs>
         <summary>Kopiert den Inhalt des Steuerelements in die Zwischenablage.</summary>
-        <remarks>
-          <para>Die Daten werden in unformatiertem Textformat ersetzen den vorhandenen Inhalt der Zwischenablage kopiert.</para>
-          <para>Wenn das Steuerelementformat <b>olComboBoxStyleListBox verwendet</b>wird, kopiert diese Methode die aktuelle Auswahl in der Dropdown-Liste in die Zwischenablage.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Daten werden in unformatiertem Textformat kopiert und ersetzen den vorhandenen Inhalt der Zwischenablage.</para>
+          <para>Wenn das Steuerelementformat <b>olComboBoxStyleListBox verwendet</b> wird, kopiert diese Methode die aktuelle Auswahl in der Dropdown-Liste in die Zwischenablage.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Cut">
@@ -312,11 +290,9 @@
       <Parameters />
       <Docs>
         <summary>Entfernt den Inhalt des Steuerelements und kopiert den Inhalt in die Zwischenablage.</summary>
-        <remarks>
-          <para>Die Daten werden in unformatiertem Textformat ersetzen den vorhandenen Inhalt der Zwischenablage in die Zwischenablage kopiert.</para>
-          <para>Wenn das Steuerelementformat <b>olComboBoxStyleListBox verwendet</b>wird, wird diese Methode nichts nicht ausschneiden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Daten werden in unformatiertem Textformat in die Zwischenablage kopiert und ersetzen den vorhandenen Inhalt der Zwischenablage.</para>
+          <para>Wenn das Steuerelementformat <b>olComboBoxStyleListBox verwendet</b> wird, klicken Sie dann schneidet diese Methode nicht alles.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DragBehavior">
@@ -347,10 +323,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlDragBehavior" /> -Konstante, die angibt, ob das System das Drag &amp; Drop-Feature für dieses Steuerelement aktiviert.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlDragDropDisabled</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlDragDropDisabled</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DropDown">
@@ -375,10 +349,8 @@
       <Parameters />
       <Docs>
         <summary>Erweitert den Dropdownteil des Kombinationsfelds.</summary>
-        <remarks>
-          <para>Simuliert den Benutzer auf die Dropdownschaltfläche für das Steuerelement. Mit dieser Methode wird die <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> -Ereignis ausgelöst.</para>
-          <para />
-        </remarks>
+        <remarks><para>Simuliert den Benutzer, der auf die Dropdownschaltfläche des Steuerelements klickt. Mit dieser Methode wird die <see cref="E:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_Event.DropButtonClick" /> -Ereignis ausgelöst.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -409,10 +381,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die angibt, ob das Steuerelement funktioniert zulässig ist.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>TRUE</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="EnterFieldBehavior">
@@ -443,10 +413,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlEnterFieldBehavior" /> -Konstante, die das Markierungsverhalten gibt an, wenn das Steuerelement eingeben. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlEnterFieldBehaviorSelectAll</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlEnterFieldBehaviorSelectAll</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Font">
@@ -474,10 +442,8 @@
       <Docs>
         <summary>Gibt einen <b>StdFont</b>, die zum Rendern des Texts im Steuerelement verwendete Schriftart darstellt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Schriftart wird als das Microsoft Windows-Typ <b>Stdfont</b>ausgedrückt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Schriftart wird als das Microsoft Windows-Typ <b>Stdfont</b>ausgedrückt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ForeColor">
@@ -511,10 +477,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>UInteger</b> (<b>Uint</b> in c#)-Wert, der die Vordergrundfarbe des Steuerelements angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist vom Typ <b>OLE_COLOR</b> einen Wert <b>UInteger</b> (<b>Uint</b> in c#) ist. Der Standardwert für diese Eigenschaft ist 0x80000008 "Fenstertext".  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetItem">
@@ -543,10 +507,8 @@
         <param name="Index">Ein nullbasierter Wert, der die Position eines Elements in der Liste angibt.</param>
         <summary>Ruft eine <b>Zeichenfolge</b> (<b>String</b> in c#), die ein Element an der angegebenen Position in der Liste des Kombinationsfeld-Steuerelement darstellt.</summary>
         <returns>Eine <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der das Element an der angegebenen Position in der Liste darstellt.</returns>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HideSelection">
@@ -577,10 +539,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, wenn eine Auswahl angezeigt oder für das Steuerelement ausgeblendet wird, wenn das Steuerelement den Fokus verliert.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert dieser Eigenschaft ist <b>True</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert dieser Eigenschaft ist <b>True</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListCount">
@@ -608,10 +568,8 @@
       <Docs>
         <summary>Gibt eine <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, die Anzahl der Elemente in der Dropdown-Liste des Kombinationsfeld-Steuerelement. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist 0 (null) zurück, der angibt, dass in der Liste keine Elemente vorhanden sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist Null, damit wird angegeben, dass die Liste keine Elemente enthält.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ListIndex">
@@ -642,11 +600,9 @@
       <Docs>
         <summary>Steuern, gibt, oder legt ein <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der den Speicherort des aktuell ausgewählten Elements in der Liste des Kombinationsfelds angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>ListIndex</b> ist ein nullbasierter Wert in das Array von Elementen in der Liste.  Der Standardwert ist-1, was bedeutet, dass kein Element ausgewählt ist.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Locked">
@@ -677,11 +633,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob das Steuerelement gesperrt ist, geändert oder nicht.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>False</b>.</para>
-          <para>, Wenn das Steuerelement gesperrt ist, das Steuerelement hat keine "deaktiviert" aus, aber der Benutzer kann die Inhalte des Steuerelements ändern.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>False</b>.</para>
+          <para>Wenn das Steuerelement gesperrt ist, sieht es nicht "deaktiviert" aus, aber der Benutzer kann die Inhalte des Steuerelements nicht ändern.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLength">
@@ -712,10 +666,8 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, die maximale Anzahl der Zeichen für die <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> dieses Steuerelements.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist 0, womit nur, dass keine maximale Länge für den Wert definiert wurde für dieses Steuerelement. Eine maximale Länge kann weiterhin basierend auf verfügbaren Arbeitsspeicher oder anderen Faktoren erfüllt sind.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist Null. Dies bedeutet lediglich, dass für dieses Steuerelement keine maximale Länge für den Wert definiert wurde. Basierend auf dem verfügbaren Arbeitsspeicher oder anderen Faktoren kann trotzdem eine maximale Länge gelten.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MouseIcon">
@@ -746,10 +698,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>StdPicture</b>, die ein benutzerdefiniertes Bild für den Mauszeiger für dieses Steuerelement darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MousePointer">
@@ -780,10 +730,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMousePointer" /> Konstante, die den Typ des Zeigertools angezeigt, wenn der Benutzer die Maus über dem Steuerelement positioniert angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlMousePointerDefault</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Paste">
@@ -808,11 +756,9 @@
       <Parameters />
       <Docs>
         <summary>Fügt den Inhalt der Zwischenablage in das Steuerelement ein.</summary>
-        <remarks>
-          <para>Werden der Inhalt der Zwischenablage in unformatierten Text eingefügt.</para>
-          <para>Diese Methode nicht eingefügt werden Suchzeichenfolge Wenn des Steuerelements <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /><b>olComboBoxStyleListBox verwendet</b>wird.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Inhalt der Zwischenablage wird als unformatierter Text eingefügt.</para>
+          <para>Diese Methode nicht eingefügt werden Suchzeichenfolge Wenn des Steuerelements <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Style" /> <b>olComboBoxStyleListBox verwendet</b>wird.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveItem">
@@ -840,10 +786,8 @@
       <Docs>
         <param name="Index">Ein nullbasierter Wert, der im Array mit Elementen in der Liste einen Index erstellt.</param>
         <summary>Entfernt das angegebene Element aus der Liste.</summary>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelectionMargin">
@@ -874,10 +818,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), der angibt, ob der Benutzer eine Textzeile markieren kann, indem Sie auf den Bereich links des Texts klicken.   Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn <b>true,</b>können Sie auf den Rand der Text markiert wird.  Wenn <b>False</b>, diese Aktion nicht Text auswählt. Der Standardwert ist <b>False</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <b>true,</b> können Sie auf den Rand der Text markiert wird.  Wenn <b>False</b>, diese Aktion nicht Text auswählt. Der Standardwert ist <b>False</b>.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelLength">
@@ -908,13 +850,11 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der die Anzahl der Zeichen in der aktuellen Auswahl angibt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die aktuelle Auswahl wird angegeben durch <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, dies ist ein Teil des Steuerelements <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. Die maximale Anzahl von Zeichen, die unterstützt werden können, ist der <b>Wert</b><see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
-          <para>Der Standardwert ist 0, womit kein Text ausgewählt wurde.</para>
+        <remarks><para>Die aktuelle Auswahl wird angegeben durch <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, dies ist ein Teil des Steuerelements <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. Die maximale Anzahl von Zeichen, die unterstützt werden können, ist der <b>Wert</b> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
+          <para>Der Standardwert ist Null und bedeutet, dass aktuell kein Text ausgewählt ist.</para>
           <para>Die <b>SelLength</b> -Eigenschaft ist immer gültig, auch wenn das Steuerelement nicht den Fokus besitzt.</para>
-          <para>Einstellung <b>SelLength</b> auf einen Wert kleiner als 0 (null) verursacht einen Fehler.   Beim Versuch, den Wert wird <b>SelLength</b> auf <b>MaxLength</b>größer als <b>MaxLength</b> Ergebnisse festzulegen.  </para>
-          <para />
-        </remarks>
+          <para>Wird <b>SelLength</b> auf einen Wert kleiner als 0 verursacht einen Fehler.   Beim Versuch, den Wert wird <b>SelLength</b> auf <b>MaxLength</b> größer als <b>MaxLength</b> Ergebnisse festzulegen.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelStart">
@@ -945,12 +885,10 @@
       <Docs>
         <summary>Gibt an, oder einem <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der entweder gibt den Startpunkt des markierten Texts oder die Einfügemarke festgelegt, wenn kein Text ausgewählt wurde.    Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die aktuelle Auswahl wird angegeben durch <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, dies ist ein Teil des Steuerelements <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. Die maximale Anzahl von Zeichen, die unterstützt werden können, ist der <b>Wert</b><see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
-          <para>Der Standardwert ist NULL bedeutet, dass kein Text ausgewählt wurde und die Einfügemarke am Anfang.</para>
-          <para>Der <b>SelStart</b> -Eigenschaft ist immer gültig, auch wenn das Steuerelement nicht den Fokus besitzt.  Wird <b>SelStart</b> auf einen Wert kleiner als 0 verursacht einen Fehler.  Wird <b>SelStart</b> auf einen Wert größer als <b>MaxLength</b><b>SelStart</b> auf <b>MaxLength</b>zurückgesetzt.  Den Wert der <b>SelStart</b> , wird jede bestehende Markierung aufgehoben, die Einfügemarke im Text positioniert und die <b>SelLength</b> -Eigenschaft auf 0 (null) festgelegt. </para>
-          <para />
-        </remarks>
+        <remarks><para>Die aktuelle Auswahl wird angegeben durch <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.SelText" />, dies ist ein Teil des Steuerelements <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. Die maximale Anzahl von Zeichen, die unterstützt werden können, ist der <b>Wert</b> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
+          <para>Der Standardwert ist Null, dies bedeutet, dass kein Text ausgewählt wurde und die Einfügemarke sich am Anfang befindet.</para>
+          <para>Die <b>SelStart</b> -Eigenschaft ist immer gültig, auch wenn das Steuerelement nicht den Fokus besitzt.  Wird <b>SelStart</b> auf einen Wert kleiner als 0 verursacht einen Fehler.  Wird <b>SelStart</b> auf einen Wert größer als <b>MaxLength</b> <b>SelStart</b> auf <b>MaxLength</b> zurückgesetzt.  Den Wert der <b>SelStart</b>, wird jede bestehende Markierung aufgehoben, die Einfügemarke im Text positioniert und die <b>SelLength</b> -Eigenschaft auf 0 (null) festgelegt. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SelText">
@@ -978,12 +916,10 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die den ausgewählten Teil des Werts des Kombinationsfelds darstellt.    Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>SelText</b> stellt die aktuelle Auswahl ein Teil des Steuerelements ist <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. Die maximale Anzahl von Zeichen, die unterstützt werden können, ist der <b>Wert</b><see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
+        <remarks><para>
+            <b>SelText</b> stellt die aktuelle Auswahl ein Teil des Steuerelements ist <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" />. Die maximale Anzahl von Zeichen, die unterstützt werden können, ist der <b>Wert</b> <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.MaxLength" />.</para>
           <para>Der Standardwert ist eine leere Zeichenfolge.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SetItem">
@@ -1013,10 +949,8 @@
         <param name="Index">Ein nullbasierter Wert, der die Position eines Elements in der Liste angibt.</param>
         <param name="Item">Der Wert, der verwendet werden soll, um die Liste an der angegebenen Position zu aktualisieren.</param>
         <summary>Legt für das Element an der angegebenen Position in der Liste des Kombinationsfelds den angegebenen Wert fest.</summary>
-        <remarks>
-          <para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <paramref name="Index" /> liegt außerhalb des Bereichs der zulässigen Werte (zwischen Null und <see cref="P:Microsoft.Office.Interop.Outlook._OlkListBox.ListCount" />-1), eine außerhalb des gültigen Bereichs entsprechende Fehlermeldung zurückgegeben. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">
@@ -1047,10 +981,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlComboBoxStyle" /> -Konstante, um anzugeben, wie der Benutzer wählen kann, oder legen Sie den Wert des Steuerelements.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlComboBoxStyleCombo</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlComboBoxStyleCombo</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Text">
@@ -1081,11 +1013,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die der Text im Steuerelement angezeigt wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert der <b>Text</b> -Eigenschaft ist eine leere Zeichenfolge.</para>
+        <remarks><para>Der Standardwert der <b>Text</b> -Eigenschaft ist die leere Zeichenfolge.</para>
           <para>Die <b>Text</b> -Eigenschaft stellt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Value" /> -Eigenschaft, aber der Wert weist eine starke Typisierung als <b>String</b> (<b>Zeichenfolge</b> in c#).</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TextAlign">
@@ -1116,10 +1046,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlTextAlign" /> -Konstante, die angibt, wie Text im Steuerelement ausgerichtet wird.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Standardwert ist <b>OlTextAlignLeft</b> links-nach-rechts-Sprachen wie Englisch.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Standardwert ist <b>OlTextAlignLeft</b> links-nach-rechts-Sprachen wie Englisch.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="TopIndex">
@@ -1150,9 +1078,9 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der den Index des Elements oben im angezeigten Teil der Liste im Kombinationsfeld darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wie die Liste der Fensterinhalt verschoben, das Element am oberen Rand der Liste geändert wird und der Wert dieser Eigenschaft ändert sich entsprechend das Element derzeit am Anfang der Liste angezeigt.</para> Der Index 
-          <para>Wert ist nullbasiert. Der Standardwert ist-1, was bedeutet, dass keine besondere Reihenfolge angewendet werden soll.</para><para /></remarks>
+        <remarks><para>Bei einem Durchlauf durch die Liste ändert sich das Element oben in der Liste. Der Wert dieser Eigenschaft ändert sich ebenfalls, um das derzeit oben in der Liste angezeigte Element wiederzugeben.</para>
+          <para>Der Indexwert basiert auf Null. Der Standardwert ist -1. Dieser Wert gibt an, dass keine bestimmte Reihenfolge angewendet werden soll.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
@@ -1183,10 +1111,8 @@
       <Docs>
         <summary>Gibt zurück oder legt diesen fest ein <b>Objekt</b> , das den Inhalt in der vom Steuerelement angezeigten Liste ausgewählte darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert ist identisch mit dem Wert der <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, mit der Ausnahme, dass diese Eigenschaft <b>-Objekt ist</b> und <b>Text</b> eine starke als <b>String</b> (<b>Zeichenfolge</b> in c# Typisierung ist).</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert ist identisch mit dem Wert der <see cref="P:Microsoft.Office.Interop.Outlook._OlkComboBox.Text" />, mit der Ausnahme, dass diese Eigenschaft <b>-Objekt ist</b> und <b>Text</b> eine starke als <b>String</b> (<b>Zeichenfolge</b> in c# Typisierung ist).  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="_CardView" FullName="Microsoft.Office.Interop.Outlook._CardView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="52794ebbb7f5d4a5e1e3ffb6cfd160d8825b436f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637316" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _CardView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="52794ebbb7f5d4a5e1e3ffb6cfd160d8825b436f" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900787" /></Metadata><TypeSignature Language="C#" Value="public interface _CardView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _CardView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._CardView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _CardView" />
@@ -281,10 +273,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Filter für eine Ansicht darstellt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft ist eine Zeichenfolge, in der DAV Searching and Locating (DASL) Syntax, die den aktuellen Filter für die Ansicht darstellt. Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert dieser Eigenschaft ist eine Zeichenfolge in der DASL-Syntax, die den aktuellen Filter für die Ansicht darstellt. Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -371,11 +361,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Einstellung der Sprache für die Ansicht darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen. Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</para>
-          <para>Wenn ein gültiger Sprachcode angegeben wird, das Objekt werden nur im Menü Ansicht für die angegebene Sprachtyp verfügbar. Wenn kein Wert angegeben ist, ist das Object-Element für alle Sprachen verfügbar. Der Standardwert für diese Eigenschaft ist eine leere Zeichenfolge.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen. Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</para>
+          <para>Wenn ein gültiger Sprachcode angegeben ist, steht das Objekt nur im Menü Ansicht für den angegebenen Sprachtyp zur Verfügung. Wenn kein Wert angegeben ist, ist das Objektelement für alle Sprachtypen verfügbar. Der Standardwert dieser Eigenschaft ist eine leere Zeichenfolge.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -406,10 +394,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob ein Benutzer die Einstellungen der Ansicht ändern kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLineFieldHeight">
@@ -440,10 +426,8 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der bestimmt, die minimale Anzahl von Zeilen für mehrzeilige Felder angezeigt, der <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft kann auf einen Wert zwischen 1 und 20 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 1 festgelegt ist, wird die Eigenschaft auf 1 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Der Standardwert für diese Eigenschaft ist 1.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft kann auf einen Wert zwischen 1 und 20 festgelegt werden. Wenn diese Eigenschaft auf einen Wert festgelegt ist, der niedriger als 1 ist, wird die Eigenschaft auf 1 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Der Standardwert für diese Eigenschaft ist 1.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -527,10 +511,8 @@
       <Parameters />
       <Docs>
         <summary>Setzt eine integrierte Microsoft Outlook-Ansicht auf ihre ursprünglichen Einstellungen zurück.</summary>
-        <remarks>
-          <para>Diese Methode funktioniert nur für integrierte Outlook-Ansichten.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Methode ist nur für integrierte Outlook-Ansichten funktionsfähig.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -583,10 +565,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> -Konstante, die Ordner angibt, in dem die angegebene Ansicht zur Verfügung steht, und die Berechtigungen lesen, der Ansicht zugeordnet ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -614,16 +594,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowEmptyFields">
@@ -710,10 +688,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> -Objekt ist eine integrierte Outlook-Ansicht. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewFields">
@@ -800,29 +776,27 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der der Breite (in Zeichen) von Karten in die <see cref="T:Microsoft.Office.Interop.Outlook.CardView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Kann diese Eigenschaft auf einen Wert zwischen 20 und 1000 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 1000 festgelegt ist, wird die Eigenschaft auf 1000 festgelegt.</para>
-          <para>Der Standardwert für diese Eigenschaft hängt von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" /> -Eigenschaftswert der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt der Ansicht angezeigten:</para>
+        <remarks><para>Diese Eigenschaft kann auf einen Wert zwischen 20 und 1000 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 1000 festgelegt ist, wird die Eigenschaft auf 1000 festgelegt.</para>
+          <para>Der Standardwert für diese Eigenschaft hängt von der <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.DefaultItemType" /> -Eigenschaftswert der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekte, die von der Ansicht angezeigt:</para>
           <list type="table">
             <item>
-              <description>OlAppointmentItem</description>
+              <description>olAppointmentItem</description>
               <description>40</description>
             </item>
             <item>
-              <description>OlContactItem, OlDistributionListItem</description>
+              <description>OlContactItem olDistributionListItem</description>
               <description>36</description>
             </item>
             <item>
-              <description>OlJournalItem, OlMailItem, OlNoteItem OlPostItem</description>
+              <description>OlJournalItem, OlMailItem, OlNoteItem, olPostItem</description>
               <description>32</description>
             </item>
             <item>
-              <description>OlTaskItem</description>
+              <description>olTaskItem</description>
               <description>50</description>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="XML">
@@ -853,11 +827,9 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die XML-Definition der Ansicht angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Tags und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Wenn die Ansicht erstellt wird, wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht gerendert.</para>
-          <para>, Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen, und klicken Sie dann können Sie die <b>XML</b> -Eigenschaft für diese Ansicht abrufen strukturiert werden soll.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Kennzeichen und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Beim Erstellen der Ansicht wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht zu erhalten.</para>
+          <para>Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten strukturiert werden soll, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen und Sie können die <b>XML</b> -Eigenschaft für diese Ansicht abrufen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

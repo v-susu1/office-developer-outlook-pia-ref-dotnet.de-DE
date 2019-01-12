@@ -1,13 +1,5 @@
 <Type Name="_SolutionsModule" FullName="Microsoft.Office.Interop.Outlook._SolutionsModule">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f35b5c23dfbd65c71e9461b0584b441e862ca400" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635778" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _SolutionsModule" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="f35b5c23dfbd65c71e9461b0584b441e862ca400" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896975" /></Metadata><TypeSignature Language="C#" Value="public interface _SolutionsModule" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _SolutionsModule" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._SolutionsModule" />
   <TypeSignature Language="VB.NET" Value="Public Interface _SolutionsModule" />
@@ -57,30 +49,28 @@
         <param name="Solution">Ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das den lösungsstammordner hinzugefügt, das <b>SolutionsModule</b>darstellt.</param>
         <param name="Scope">Ein <see cref="T:Microsoft.Office.Interop.Outlook.OlSolutionScope" /> Enumeration, die angibt, ob die Ordner anzuzeigen, die in der Lösung nur in dem Modul <b>Lösungen</b> und der Liste der <b>Ordner</b> sind oder in ihre jeweiligen Standardmodulen in Anzeigen der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> sowie.</param>
         <summary>Fügt einen lösungsstammordner und seine Unterordner an die <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> Modul.</summary>
-        <remarks>
-          <para>Wenn die <b>AddSolution</b> -Methode erfolgreich ist und kein lösungsstammordner zuvor unter dem Modul <b>Lösungen</b> vorhanden war, zeigt Microsoft Outlook das Modul <b>Lösungen</b> im Navigationsbereich.</para>
-          <para>Sie können nicht die folgenden Ordner zum <b>Lösungsmodul als lösungsstammordner</b> hinzufügen:</para>
+        <remarks><para>Wenn die <b>AddSolution</b> -Methode erfolgreich ist und kein lösungsstammordner zuvor unter dem Modul <b>Lösungen</b> vorhanden war, zeigt Microsoft Outlook das Modul <b>Lösungen</b> im Navigationsbereich.</para>
+          <para>Die folgenden Ordner können dem Modul <b>Lösungen</b> nicht als Lösungsstammordner hinzugefügt werden:</para>
           <list type="bullet">
             <item>
-              <para>Einen Ordner, in dem Outlook im Navigationsbereich angezeigt werden, gemäß der <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> -Enumeration.</para>
+              <para>Einen Ordner, in dem Outlook im Navigationsbereich angezeigt werden, gemäß dem <see cref="T:Microsoft.Office.Interop.Outlook.OlDefaultFolders" /> Enumeration.</para>
             </item>
             <item>
-              <para>Einen speziellen Ordner gemäß der Definition durch die <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> Enumeration.</para>
+              <para>Ein besonderer Ordner gemäß der Definition durch die <see cref="T:Microsoft.Office.Interop.Outlook.OlSpecialFolders" /> Enumeration.</para>
             </item>
             <item>
               <para>Ein beliebiger Ordner für einen öffentlichen Microsoft Exchange Server-Ordner speichern. Die <see cref="P:Microsoft.Office.Interop.Outlook._Store.ExchangeStoreType" /> -Eigenschaft in der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> -Objekt für diesen Ordner <b>OlExchangePublicFolder</b>ist.</para>
             </item>
             <item>
-              <para>Ein verborgener Ordner. Ein ausgeblendeter Ordner ist eine, deren <b>PR_ATTR_HIDDEN</b>, MAPI-Eigenschaft ist <b>true,</b> oder eine nicht in der IPM-Unterstruktur.</para>
+              <para>Ein verborgener Ordner. Ein verborgener Ordner ist eine, deren <b>PR_ATTR_HIDDEN</b>, MAPI-Eigenschaft <b>True</b> ist, oder eine, die nicht in der IPM-Unterstruktur ist.</para>
             </item>
           </list>
-          <para>Diese Methode gibt auch einen Fehler zurück, wenn der angegebene Ordner bereits als ein Stammordner oder einem Unterordner in dem Modul <b>Lösungen</b> vorhanden ist, oder wenn der Ordner einen übergeordneten Ordner eines Ordners, in dem Modul <b>Lösungen</b> ist.</para>
-          <para>Wenn die <paramref name="Scope" /> Parameter <b>OlShowInDefaultModules</b> der <b>OlSolutionScope</b> -Enumeration festgelegt ist, werden der lösungsstamm und die zugehörigen Unterordner in ihre jeweiligen Standardmodulen sowie dem Modul <b>Lösungen</b> angezeigt. Wenn die <paramref name="Scope" /><b>OlHideInDefaultModules</b>Parameter festgelegt ist, werden der lösungsstamm und die zugehörigen Unterordner in dem Modul <b>Lösungen</b> angezeigt.</para>
+          <para>Diese Methode gibt auch einen Fehler zurück, wenn der von Ihnen angegebene Ordner bereits als Stammordner oder Unterordner im Modul <b>Lösungen</b> vorhanden oder ein übergeordneter Ordner eines Ordners im Modul <b>Lösungen</b> ist.</para>
+          <para>Wenn die <paramref name="Scope" /> Parameter <b>OlShowInDefaultModules</b> der <b>OlSolutionScope</b> -Enumeration festgelegt ist, werden der lösungsstamm und die zugehörigen Unterordner in ihre jeweiligen Standardmodulen sowie dem Modul <b>Lösungen</b> angezeigt. Wenn die <paramref name="Scope" /> <b>OlHideInDefaultModules</b>Parameter festgelegt ist, werden der lösungsstamm und die zugehörigen Unterordner in dem Modul <b>Lösungen</b> angezeigt.</para>
           <para>
             <b>Lösungsordner</b> werden immer im Modul <b>Ordnerliste</b> angezeigt.</para>
-          <para>Standardmäßig, zeigt Outlook das Modul <b>Lösungen</b> nach <b>Aufgabenmodul,</b> vorausgesetzt, dass die Navigationsmodule in der Standardreihenfolge – E-Mail, Kalender, Kontakte und Aufgaben sind. Wenn im Navigationsbereich angezeigt wird, wird das Modul <b>Lösungen</b> auch anfänglich als erweiterte Modul angezeigt. Wenn <b>Das Aufgabenmodul</b> nicht angezeigt wird, wird das Modul <b>Lösungen</b> nach dem letzten erweiterten Modul im Navigationsbereich angezeigt.</para>
-          <para />
-        </remarks>
+          <para>Standardmäßig zeigt Outlook das Modul <b>Lösungen</b> nach <b>der Aufgabenmodul</b> , vorausgesetzt, dass die Navigationsmodule in der Standardreihenfolge – E-Mail, Kalender, Kontakte und Aufgaben sind. Wenn im Navigationsbereich angezeigt wird, wird das Modul <b>Lösungen</b> auch anfänglich als erweiterte Modul angezeigt. Wenn <b>Aufgabenmodul</b> nicht angezeigt wird, wird das Modul <b>Lösungen</b> nach dem letzten erweiterten Modul im Navigationsbereich angezeigt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -164,10 +154,8 @@
       <Docs>
         <summary>Gibt eine <see cref="T:System.String" /> Wert (<b>String</b> in c#), die den lokalisierten Anzeigenamen für die <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Anzeigename, der dem Modul <b>Lösungen</b> kann angepasst werden, wenn nur eine lösungsstammordner unter dem Modul <b>Lösungen</b> vorhanden ist. Wenn mehrere Lösung Stammordner vorhanden sind, wird der Name auf <b>Lösungen</b>zurückgesetzt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Anzeigename des Moduls <b>Lösungen</b> kann angepasst werden, wenn nur ein Lösungsstammordner unter dem Modul <b>Lösungen</b> vorhanden ist. Sind mehrere Lösungsstammordner vorhanden, wird der Name auf <b>Lösungen</b> zurückgesetzt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="NavigationModuleType">
@@ -195,10 +183,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlNavigationModuleType" /> -Konstante, die den Navigationsmodultyp für die <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Für das <b>SolutionsModule</b> -Objekt gibt diese Eigenschaft den Wert <b>olmodulesolutions zurück</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Für das <b>SolutionsModule</b> -Objekt gibt diese Eigenschaft den Wert <b>olmodulesolutions zurück</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -226,10 +212,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <see cref="T:System.Object" /> (in c#-<b>Objekt</b> ) des angegebenen <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Element eines <b>SolutionsModule</b> -Objekts gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Element eines <b>SolutionsModule</b> -Objekts gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Position">
@@ -260,19 +244,17 @@
       <Docs>
         <summary>Zurück oder legt eine <b>ganze Zahl</b> (<b>Int</b> in c#), die die Ordnungsposition des stellt die <see cref="T:Microsoft.Office.Interop.Outlook.SolutionsModule" /> -Objekts bei der Anzeige in der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationPane" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft kann nur auf einen Wert zwischen 1 und 9 festgelegt werden. Ein Fehler tritt auf, wenn Sie versuchen, diese Eigenschaft auf einen Wert außerhalb dieses Bereichs festgelegt. Wenn in dem Modul <b>Lösungen</b> keine Lösungen vorhanden sind, festlegen oder Abrufen der <b>Position</b> -Eigenschaft auch löst einen Fehler aus.</para>
-          <para>Ändern den Wert dieser Eigenschaft für ein bestimmtes <b>SolutionsModule</b> -Objekt die <b>Position</b> Werte anderer Navigationsmodule in ändert ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> -Auflistung, je nach der relativen Änderung zwischen dem neuen Wert und den ursprünglichen Wert.</para>
+        <remarks><para>Diese Eigenschaft kann nur auf einen Wert zwischen 1 und 9 festgelegt werden. Ein Fehler tritt auf, wenn Sie versuchen, diese Eigenschaft auf einen Wert außerhalb dieses Bereichs festgelegt. Wenn in dem Modul <b>Lösungen</b> keine Lösungen vorhanden ist, löst das Festlegen oder Abrufen der <b>Position</b> -Eigenschaft auch einen Fehler.</para>
+          <para>Ändern den Wert dieser Eigenschaft für ein bestimmtes <b>SolutionsModule</b> -Objekt die <b>Position</b> Werte anderer Navigationsmodule in ändert ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationModules" /> -Auflistung, je nach der relativen Änderung zwischen dem neuen Wert und den ursprünglichen Wert. </para>
           <list type="bullet">
             <item>
-              <para>Ist der neue Wert kleiner als der ursprüngliche Wert das angegebene <b>SolutionsModule</b> -Objekt verschoben, bis zu der neuen Position und die anderen Navigationsmodule, die bereits an oder unterhalb dieser neuen Position nach unten verschieben.</para>
+              <para>Wenn der neue Wert kleiner als der ursprüngliche Wert ist, das angegebene <b>SolutionsModule</b> -Objekt an die neue Position nach oben, und die anderen Navigationsmodule, die bereits an oder unterhalb, neu sind positionieren verschieben nach unten.</para>
             </item>
             <item>
-              <para>Ist der neue Wert größer als der ursprüngliche Wert, das angegebene <b>SolutionsModule</b> -Objekt wird an die neue Position nach unten verschoben und die anderen Navigationsmodule, die zwischen der alten und der neuen Position nach oben, füllen die alte Position.</para>
+              <para>Wenn der neue Wert größer als der ursprüngliche Wert ist, das angegebene <b>SolutionsModule</b> -Objekt wird an die neue Position nach unten verschoben und die anderen Navigationsmodule, die zwischen der alten und der neuen Position nach oben, füllen die alte Position.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -300,11 +282,9 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine angemeldete Sitzung vorhanden ist.</para>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member denselben Zweck.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn keine angemeldete Sitzung vorhanden ist, wird <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurückgegeben.</para>
+          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Visible">
@@ -335,10 +315,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <see cref="T:System.Boolean" /> (<b>Bool</b> in c#)-Wert, der angibt, ob das Modul <b>Lösungen</b> im Navigationsbereich angezeigt wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn keine Lösungen unter dem Modul <b>Lösungen</b> vorhanden sind, löst das Festlegen oder Abrufen der <b>Visible</b> -Eigenschaft einen Fehler.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn keine Lösungen unter dem Modul <b>Lösungen</b> vorhanden sind, löst das Festlegen oder Abrufen der <b>Visible</b> -Eigenschaft einen Fehler.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

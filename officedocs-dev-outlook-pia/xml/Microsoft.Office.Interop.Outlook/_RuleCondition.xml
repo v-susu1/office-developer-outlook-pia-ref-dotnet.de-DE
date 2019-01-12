@@ -1,13 +1,5 @@
 <Type Name="_RuleCondition" FullName="Microsoft.Office.Interop.Outlook._RuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="af36306ccdab868e5bb190858133f5629a0bcc9d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635774" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _RuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="af36306ccdab868e5bb190858133f5629a0bcc9d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27898201" /></Metadata><TypeSignature Language="C#" Value="public interface _RuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _RuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._RuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _RuleCondition" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> -Enumeration, die den Typ der Bedingung für die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Weitere Informationen zu den regelbedingungen, die für die programmgesteuerte Erstellung unterstützt finden Sie unter regelerstellung, für den Empfang von Nachrichten und regelerstellung zum Senden von Nachrichten, <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Weitere Informationen zu den regelbedingungen, die für die programmgesteuerte Erstellung unterstützt finden Sie unter regelerstellung, für den Empfang von Nachrichten und regelerstellung zum Senden von Nachrichten, <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -145,13 +135,11 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), der bestimmt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> ist aktiviert. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Bedingung ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde. </para>
-          <para>Gibt einen Fehler zurück, wenn Sie versuchen, eine Regel zu aktivieren, die nur für eine Regel vom Typ <b>OlRuleSend</b> für eine Regel vom Typ <b>OlRuleReceive</b>unterstützt wird oder umgekehrt.  Weitere Informationen über die Unterstützung von Regeln zum Empfangen von Nachrichten oder Regeln zum Senden von Nachrichten, finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-          <para>, die Sie aktivieren oder deaktivieren eine Bedingung vom Typ <b>OlConditionOtherMachine</b>ist nicht möglich. Diese Art von regelbedingung gibt an, dass die Regel nur auf einem bestimmten Computer ausgeführt werden kann, die nicht den aktuellen Computer handelt. Dies geschieht, wenn die Regel auf erstellt wird, dass der Computer und die Regel Bedingung <b>OlConditionLocalMachineOnly</b> aktiviert ist, was bedeutet, dass die Regel nur auf diesem Computer ausgeführt werden kann. Wenn Sie die gleiche Regel auf einem anderen Computer ausführen, die Regel zeigt an, dass die Bedingung <b>OlConditionOtherMachine</b> aktiviert ist.</para>
-          <para>Gibt einen Fehler zurück, wenn Sie versuchen, eine Ausnahmebedingung vom Typ <b>olConditionLocalMachineOnly zu</b>aktivieren.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Bedingung ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde. </para>
+          <para>Gibt einen Fehler zurück, wenn Sie versuchen, eine Regel zu aktivieren, die nur für eine Regel vom Typ <b>OlRuleSend</b> für eine Regel vom Typ <b>OlRuleReceive</b>unterstützt wird oder umgekehrt.  Weitere Informationen über die Unterstützung von Regeln zum Empfangen von Nachrichten oder Regeln zum Senden von Nachrichten finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+          <para>Sie können nicht aktivieren oder deaktivieren eine Bedingung vom Typ <b>OlConditionOtherMachine</b>. Diese Art von regelbedingung gibt an, dass die Regel nur auf einem bestimmten Computer ausgeführt werden kann, die nicht den aktuellen Computer handelt. Dies geschieht, wenn die Regel auf erstellt wird, dass der Computer und die Regel Bedingung <b>OlConditionLocalMachineOnly</b> aktiviert ist, was bedeutet, dass die Regel nur auf diesem Computer ausgeführt werden kann. Wenn Sie die gleiche Regel auf einem anderen Computer ausführen, zeigt die Regel an, dass die Bedingung <b>OlConditionOtherMachine</b> aktiviert ist.</para>
+          <para>Gibt einen Fehler zurück, wenn Sie versuchen, eine Ausnahmebedingung vom Typ <b>olConditionLocalMachineOnly zu</b> aktivieren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -179,10 +167,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt des der <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> -Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.Rule" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -210,16 +196,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

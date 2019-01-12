@@ -1,13 +1,5 @@
 <Type Name="NavigationGroup" FullName="Microsoft.Office.Interop.Outlook.NavigationGroup">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="79e473760fa2f761a3d449d91d8b74bbf0c823b9" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635602" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface NavigationGroup : Microsoft.Office.Interop.Outlook._NavigationGroup" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="13a5c3c0de3b5b1b842d2c5695229f5ede57a219" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897423" /></Metadata><TypeSignature Language="C#" Value="public interface NavigationGroup : Microsoft.Office.Interop.Outlook._NavigationGroup" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract NavigationGroup implements class Microsoft.Office.Interop.Outlook._NavigationGroup" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.NavigationGroup" />
   <TypeSignature Language="VB.NET" Value="Public Interface NavigationGroup&#xA;Implements _NavigationGroup" />
@@ -31,13 +23,11 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Navigationsgruppe dar, die von einem Navigationsmodul im Navigationsbereich angezeigt wird.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._NavigationGroup" />. </para>
-      <para>Verwenden die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroups.Item(System.Object)" /> (<b>diese</b> in c#) Eigenschaft abzurufenden ein <b>NavigationGroup</b> -Objekt aus der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> Auflistung von einer übergeordneten Navigationsmoduls wie eine <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> Objekt. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._NavigationGroups.Create(System.String)" /> -Methode der <b>NavigationGroups</b> -Auflistung ein neues <b>NavigationGroup</b> -Objekt zu erstellen.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" /> -Eigenschaft auf den Gruppentyp der Navigationsgruppe zu ermitteln und die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Position" /> -Eigenschaft zum Zurückgeben oder Festlegen der Anzeigeposition der Navigationsgruppe im Navigationsbereich. Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> -Eigenschaft zum Zurückgeben oder Festlegen des Anzeigenamens der Navigationsgruppe innerhalb des Navigationsbereichs.</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._NavigationGroup" />. </para>
+      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroups.Item(System.Object)" /> (<b>diese</b> in c#) Eigenschaft abzurufenden ein <b>NavigationGroup</b> -Objekt aus der <see cref="T:Microsoft.Office.Interop.Outlook.NavigationGroups" /> Auflistung von einer übergeordneten Navigationsmoduls wie eine <see cref="T:Microsoft.Office.Interop.Outlook.MailModule" /> Objekt. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._NavigationGroups.Create(System.String)" /> -Methode der <b>NavigationGroups</b> -Auflistung ein neues <b>NavigationGroup</b> -Objekt zu erstellen.</para>
+      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.GroupType" /> -Eigenschaft auf den Gruppentyp der Navigationsgruppe zu ermitteln und die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Position" /> -Eigenschaft zum Zurückgeben oder Festlegen der Anzeigeposition der Navigationsgruppe im Navigationsbereich. Sie können auch die <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.Name" /> -Eigenschaft auf den Anzeigenamen der Navigationsgruppe im Navigationsbereich festzulegen oder zurückzugeben.</para>
       <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._NavigationGroup.NavigationFolders" /> zurückzugebende Eigenschaft ein <see cref="T:Microsoft.Office.Interop.Outlook.NavigationFolders" /> -Objekt, das die Navigationsordner für die angegebene Navigationsgruppe enthält.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

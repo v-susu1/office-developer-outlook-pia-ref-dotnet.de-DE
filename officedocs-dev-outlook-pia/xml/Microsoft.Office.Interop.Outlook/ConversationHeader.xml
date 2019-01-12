@@ -1,13 +1,5 @@
 <Type Name="ConversationHeader" FullName="Microsoft.Office.Interop.Outlook.ConversationHeader">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="f240db48bde1c2db353f938b5173be3971c038f7" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637391" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="6baf4e2eb6ab932ae64172f4ef76ba4e203b7dff" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900843" /></Metadata><TypeSignature Language="C#" Value="public interface ConversationHeader : Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConversationHeader implements class Microsoft.Office.Interop.Outlook._ConversationHeader" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ConversationHeader" />
   <TypeSignature Language="VB.NET" Value="Public Interface ConversationHeader&#xA;Implements _ConversationHeader" />
@@ -31,11 +23,10 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine Microsoft Outlook-Unterhaltungskopfzeile in einer Unterhaltungsansicht dar.</summary>
-    <remarks>
-      <para>In Outlook, eine Unterhaltung gruppiert Nachrichten, die den gleichen Betreff freigeben und mit dem gleichen Thread gehören. Eine Unterhaltung kann auch in den Zweigstellen, enthalten, z. B., wenn eine Nachricht ruft zwei oder mehr Antworten und Diskussionen unabhängig voneinander aus jeder Antwort vergrößert werden. Die Unterhaltungsansicht bezieht sich auf alle Elemente in der gleichen Unterhaltung in Ordnern und speichern. Ein unterhaltungskopfzeile kann es sich um ein Element oder einen Gruppenkopf in einem der folgenden Formate:</para>
+    <remarks><para>In Outlook Nachrichten, die den gleichen Betreff freigeben und gehören zu den gleichen Thread in eine Unterhaltung gruppiert. Eine Unterhaltung kann auch in den Zweigstellen, enthalten, z. B., wenn eine Nachricht ruft zwei oder mehr Antworten und Diskussionen unabhängig voneinander aus jeder Antwort vergrößert werden. Die Unterhaltungsansicht bezieht sich auf alle Elemente in der gleichen Unterhaltung in Ordnern und speichern. Ein unterhaltungskopfzeile kann ein Element oder einen Gruppenkopf in einem der folgenden Formate sein:</para>
       <list type="bullet">
         <item>
-          <para>eines Elements in einem Thread, der nur ein einzelnes Element enthält.</para>
+          <para>Ein Element in einem Thread, der nur ein einzelnes Element enthält.</para>
         </item>
         <item>
           <para>Eine Gruppenkopfzeile für eine Unterhaltung, die mehrere Elemente enthält.</para>
@@ -47,8 +38,7 @@
           <para>Das erste Element in einer geteilten Unterhaltung.</para>
         </item>
       </list>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

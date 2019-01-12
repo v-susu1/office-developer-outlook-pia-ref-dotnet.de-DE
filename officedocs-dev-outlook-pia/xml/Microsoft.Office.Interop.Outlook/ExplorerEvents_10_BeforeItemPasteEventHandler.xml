@@ -1,13 +1,5 @@
 <Type Name="ExplorerEvents_10_BeforeItemPasteEventHandler" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="33bf358733271bbb01f457095708dcf8b7b71948" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636466" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeItemPasteEventHandler(ref object ClipboardContent, MAPIFolder Target, out bool Cancel);" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="08ab878d10a16580055959c541297b35cbf320ab" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900272" /></Metadata><TypeSignature Language="C#" Value="public delegate void ExplorerEvents_10_BeforeItemPasteEventHandler(ref object ClipboardContent, MAPIFolder Target, out bool Cancel);" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ExplorerEvents_10_BeforeItemPasteEventHandler extends System.MulticastDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler" />
   <TypeSignature Language="VB.NET" Value="Public Delegate Sub ExplorerEvents_10_BeforeItemPasteEventHandler(ByRef ClipboardContent As Object, Target As MAPIFolder, ByRef Cancel As Boolean)" />
@@ -38,8 +30,7 @@
   <Docs>
     <param name="ClipboardContent">Der einzufügende Inhalt.</param>
     <param name="Target">Das Ziel des Einfügevorgangs.</param>
-    <param name="Cancel">
-      <b>False,</b> Wenn das Ereignis auftritt. Wenn die Ereignisprozedur dieses Argument auf <b>True</b> festgelegt wird, ist nicht abgeschlossen und das Element wird nicht gelöscht. </param>
+    <param name="Cancel"><b>False,</b> Wenn das Ereignis auftritt. Wenn die Ereignisprozedur dieses Argument auf <b>True</b> festgelegt wird, ist nicht abgeschlossen und das Element wird nicht gelöscht. </param>
     <summary>Hierbei handelt es sich um eine Stellvertretung für ein Ereignis im entsprechenden Objekt. Verwenden Sie diese Stellvertretung, nachdem Sie eine Callback-Methode für das Ereignis implementiert haben, um die Callback-Methode mit dem Ereignis zu verbinden. Wenn mehrere Versionen der Ereignisschnittstelle vorhanden sind, verbindet diese Stellvertretung die Callback-Methode für das Ereignis in der angegebenen Outlook-Version.</summary>
     <remarks>To be added.</remarks>
   </Docs>

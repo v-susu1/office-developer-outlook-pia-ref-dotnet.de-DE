@@ -1,13 +1,5 @@
 <Type Name="Results" FullName="Microsoft.Office.Interop.Outlook.Results">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d3bcd881146cf0ac5b35f618acd8b402317c43b0" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637018" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Results : Microsoft.Office.Interop.Outlook._Results, Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7dbd2e8cd2765301efd2c819f983e3b9bf9a360a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901200" /></Metadata><TypeSignature Language="C#" Value="public interface Results : Microsoft.Office.Interop.Outlook._Results, Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Results implements class Microsoft.Office.Interop.Outlook._Results, class Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Results" />
   <TypeSignature Language="VB.NET" Value="Public Interface Results&#xA;Implements _Results, ResultsEvents_Event" />
@@ -34,8 +26,10 @@
   </Attributes>
   <Docs>
     <summary>Enthält Daten und Ergebnisse, die durch die <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> Objekt und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> Methode.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Results" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />.</para> Die <b>Ergebnisse</b><para>-Objekt enthält Eigenschaften und Methoden, mit denen Sie zum Anzeigen und Bearbeiten von Daten. Zum Beispiel die <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" /> Methoden können Sie die Ergebnisse durchsuchen und Anzeigen der Daten nach Feldern. Die <see cref="M:Microsoft.Office.Interop.Outlook._Results.Sort(System.String,System.Object)" /> -Methode können Sie die Daten sortiert.</para><para>Verwenden Sie die <b>SearchObject.Results</b> -Eigenschaft, um ein <b>Results</b> -Objekt zurückzugeben.</para><para /></remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Results" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ResultsEvents_Event" />.</para>
+      <para>Das <b>Results</b> -Objekt enthält Eigenschaften und Methoden, mit denen Sie zum Anzeigen und Bearbeiten von Daten. Zum Beispiel die <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetPrevious" />, <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetFirst" />, und <see cref="M:Microsoft.Office.Interop.Outlook._Results.GetLast" /> Methoden können Sie die Ergebnisse durchsuchen und Anzeigen der Daten nach Feldern. Die <see cref="M:Microsoft.Office.Interop.Outlook._Results.Sort(System.String,System.Object)" /> -Methode können Sie die Daten zu sortieren.</para>
+      <para>Verwenden Sie die <b>SearchObject.Results</b> -Eigenschaft, um ein <b>Results</b> -Objekt zurückzugeben.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

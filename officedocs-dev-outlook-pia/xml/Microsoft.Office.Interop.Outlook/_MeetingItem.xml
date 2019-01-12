@@ -1,13 +1,5 @@
 <Type Name="_MeetingItem" FullName="Microsoft.Office.Interop.Outlook._MeetingItem">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="314ae8121c6e79370d2fc992654c5f764eed39fa" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636438" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _MeetingItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="314ae8121c6e79370d2fc992654c5f764eed39fa" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901228" /></Metadata><TypeSignature Language="C#" Value="public interface _MeetingItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _MeetingItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._MeetingItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _MeetingItem" />
@@ -170,11 +162,9 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element eine automatische Konfliktbehebung gewinnen ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert <b>False</b> wird nicht notwendigerweise, dass das Element eine Verlierer eine automatische Konfliktbehebung ist. Das Element könnte mit einem anderen Element in Konflikt.</para>
-          <para>, Wenn ein Element wurde <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> von dessen <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Conflicts" /> -Eigenschaft größer als 0 (null) und dessen <b>AutoResolvedWinner</b> -Eigenschaft auf <b>True</b>festgelegt ist, ist es eine automatische Konfliktbehebung gewinnen. Andererseits, wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b>ist, ist es eine Verlierer in eine automatische Konfliktbehebung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert <b>False</b> wird nicht notwendigerweise, dass das Element eine Verlierer eine automatische Konfliktbehebung ist. Das Element kann mit einem anderen Element in Konflikt handeln.</para>
+          <para>Wenn ein Element wurde <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> von dessen <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Conflicts" /> -Eigenschaft größer als 0 (null) und dessen <b>AutoResolvedWinner</b> -Eigenschaft auf <b>True</b>festgelegt ist, ist es eine automatische Konfliktbehebung gewinnen. Wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b> ist, ist es andererseits, eine Verlierer in eine automatische Konfliktbehebung.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="BillingInformation">
@@ -203,13 +193,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der das Outlook-Element zugeordnete Abrechnungsinformationen darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der das Outlook-Element zugeordnete Abrechnungsinformationen darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Textfeld.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Textfeld.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Body">
@@ -269,14 +256,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Kategorien zugewiesen, um das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Kategorien zugewiesen, um das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
-            <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die ein Outlook-Element zugewiesen wurden. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen konvertieren möchten, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>
+            <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die einem Outlook-Element zugewiesen wurde. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen zu konvertieren, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -361,13 +345,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, das die Namen der Organisationen im Zusammenhang mit der Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, das die Namen der Organisationen im Zusammenhang mit der Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Textfeld.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Textfeld. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Conflicts">
@@ -423,12 +404,10 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die eindeutig identifiziert, eine <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekts, das die <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> -Objekt gehört. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ordnet Elemente einer Unterhaltung. Diese Artikel und die Unterhaltung besitzen denselben Wert in ihrer <b>ConversationID</b> -Eigenschaft.</para>
+        <remarks><para>Diese Eigenschaft ordnet Elemente zu einer Unterhaltung. Diese Elemente und der Unterhaltung haben denselben Wert in die Eigenschaft <b>ConversationID</b>.</para>
           <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagConversationId</b>.</para>
-          <para>Wenn das <b>MeetingItem</b> -Objekt in einer Microsoft Outlook-Version vor Microsoft Outlook 2010 erstellt wird, oder wenn Outlook im Onlinemodus mit einer Microsoft Exchange Server-Version vor Microsoft Exchange Server 2010 ausgeführt wird dies -Eigenschaft gibt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ConversationTopic" /> -Eigenschaft.</para>
-          <para />
-        </remarks>
+          <para>Wenn das <b>MeetingItem</b> -Objekt in einer Microsoft Outlook-Version vor Microsoft Outlook 2010 erstellt wird, oder wenn Outlook im Onlinemodus für Versionen vor Microsoft Exchange Server 2010, diese Eigenschaft eine Version von Microsoft Exchange Server ausgeführt wird Gibt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ConversationTopic" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ConversationIndex">
@@ -538,10 +517,8 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> , der angibt, der Erstellungszeit für das Outlook-Element zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeferredDeliveryTime">
@@ -572,10 +549,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>DateTime</b> , der angibt, das Datum und die Zeit, die die e-Mail-Nachricht wird zugestellt werden.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDeferredDeliveryTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDeferredDeliveryTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Delete">
@@ -600,11 +575,9 @@
       <Parameters />
       <Docs>
         <summary>Entfernt das Element aus dem Ordner, der das Element enthält.</summary>
-        <remarks>
-          <para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Beispielsweise in der Items-Auflistung eines Ordners alle Artikel, wenn n Anzahl der Elemente im Ordner vorhanden sind starten Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
-          <para>Die löschen-Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, die <b>Delete</b> -Methode des Elements dauerhaft entfernt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Angenommen, starten wenn n Anzahl der Elemente im Ordner vorhanden sind in der Items-Auflistung eines Ordners alle Artikel, Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
+          <para>Die Delete -Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, entfernt die <b>Delete</b> -Methode das Element dauerhaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DeleteAfterSubmit">
@@ -660,14 +633,11 @@
         <Parameter Name="Modal" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Modal">
-          <b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
+        <param name="Modal"><b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
         <summary>Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt für das Element.</summary>
-        <remarks>
-          <para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> -Methode.</para>
-          <para>, Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) mithilfe von Microsoft Outlook-Objektmodell zu öffnen, erhalten Sie in den Programmiersprachen C oder C++ den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</para>
+          <para>Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DownloadState">
@@ -723,11 +693,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die eindeutige Eintrags-ID des Objekts darstellt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
-          <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs finden Sie http://msdn.microsoft.com für <b>PidTagEntryId</b>. </para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
+          <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs suchen Sie http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ExpiryTime">
@@ -986,8 +954,7 @@
         <Parameter Name="AddToCalendar" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="AddToCalendar">
-          <b>True</b>, wenn die Besprechung dem Standardordner Kalender hinzuzufügen.</param>
+        <param name="AddToCalendar"><b>True</b>, wenn die Besprechung dem Standardordner Kalender hinzuzufügen.</param>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt, den die Besprechungsanfrage gehörenden Termin darstellt.</summary>
         <returns>Ein <b>AppointmentItem</b> -Objekt, das den zugeordneten Termin darstellt.</returns>
         <remarks>To be added.</remarks>
@@ -1016,15 +983,14 @@
       <Docs>
         <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</summary>
         <returns>Gibt ein <b>Conversation</b> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</returns>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>GetConversation</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine Unterhaltung für das Element vorhanden ist. Keine Unterhaltung vorhanden ist, für ein Element in den folgenden Szenarien:</para>
           <list type="bullet">
             <item>
-              <para>das Element noch nicht gespeichert wurde. Ein Element programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden kann.</para>
+              <para>Das Element wurde nicht gespeichert. Ein Element kann programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden.</para>
             </item>
             <item>
-              <para>Für ein Element, das (z. B. ein e-Mail-Element, Terminelement oder Kontaktelement) gesendet werden kann, nicht das Element gesendet wurde.</para>
+              <para>Im Fall eines Elements, das gesendet werden kann (z. B. ein E-Mail-, Termin- oder Kontaktelement), wurde das Element nicht gesendet.</para>
             </item>
             <item>
               <para>Unterhaltungen wurden über die Windows-Registrierung deaktiviert.</para>
@@ -1033,8 +999,7 @@
               <para>Der Informationsspeicher die Unterhaltungsansicht nicht unterstützt (beispielsweise Outlook im klassischen Onlinemodus für Versionen vor Microsoft Exchange Server 2010 eine Version von Microsoft Exchange ausgeführt wird). Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekts, um festzustellen, ob der Informationsspeicher die Unterhaltungsansicht unterstützt.</para>
             </item>
           </list>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetInspector">
@@ -1062,10 +1027,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das einen Inspektor darstellt, auf das angegebene Element enthalten initialisiert. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft. Wenn bereits ein <b>Inspector</b> -Objekt für das Element vorhanden ist, gibt die <b>GetInspector</b> -Eigenschaft, anstatt einen neuen Anwendungspool erstellen <b>Inspector</b> -Objekt zurück.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft. Wenn bereits ein <b>Inspector</b> -Objekt für das Element vorhanden ist, gibt die <b>GetInspector</b> -Eigenschaft, anstatt einen neuen Anwendungspool erstellen <b>Inspector</b> -Objekt zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Importance">
@@ -1096,10 +1059,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> Konstante, die die relative Wichtigkeitsstufe für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagImportance</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagImportance</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsConflict">
@@ -1127,11 +1088,9 @@
       <Docs>
         <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element in Konflikt befindet. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b>zurück.</para>
-          <para>Wenn <b>True</b>, das angegebene Element in Konflikt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen wird beispielsweise die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b> zurück.</para>
+          <para>Wenn <b>True</b>, das angegebene Element in Konflikt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="IsLatestVersion">
@@ -1159,12 +1118,10 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> Objekt stellt die neueste Version des Elements auf Kalender des Organisierer vorhanden. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft gilt für alle <b>MeetingItem</b> -Objekte, einschließlich Besprechungsanfragen, Updates zu Besprechungsinhalten und Kündigung.</para>
+        <remarks><para>Diese Eigenschaft gilt für alle <b>MeetingItem</b> -Objekte, einschließlich Besprechungsanfragen, besprechungsaktualisierungen und Besprechungsabsagen.</para>
           <para>
-            <b>True</b> gibt an, dass die neueste Version des Besprechungselements im Kalender des Organisierer vorhanden ist. <b>False</b> gibt an, dass das Besprechungselement im Kalender nicht die neueste Version ist, oder es besteht ein Konflikt zwischen der Besprechungsanfrage und einem anderen Termin im Kalender.</para>
-          <para />
-        </remarks>
+            <b>True</b> gibt an, dass die neueste Version des Besprechungselements im Kalender des Organisierer vorhanden ist. <b>False</b> zeigt an, dass das Besprechungselement im Kalender nicht die neueste Version ist, oder es besteht ein Konflikt zwischen der Besprechungsanfrage und einem anderen Termin im Kalender.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ItemProperties">
@@ -1192,10 +1149,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> -Auflistung, die alle Outlook-Element zugeordneten Standard- und benutzerdefinierte Eigenschaften darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LastModificationTime">
@@ -1223,10 +1178,8 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> angeben von Datum und Uhrzeit der letzten Änderung das Outlook-Element zurück.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Links">
@@ -1319,10 +1272,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> -Konstante, die den Status eines Elements bestimmt, nachdem es von einem Remotebenutzer empfangen wurde. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft verleiht Remotebenutzern mit weniger als idealen zur Datenübertragung Fähigkeiten eine erhöhte messagingflexibilität.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft verleiht Remotebenutzern mit nicht idealen Fähigkeiten zur Datenübertragung eine erhöhte Messagingflexibilität.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MeetingWorkspaceURL">
@@ -1350,10 +1301,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die URL für Besprechungsarbeitsbereich darstellt, die das Meeting-Element verknüpft ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ein Besprechungsarbeitsbereich ist eine freigegebene Website zum Planen einer Besprechung und Protokollieren der Besprechungsergebnisse.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein Besprechungsarbeitsbereich ist eine freigegebene Website zum Planen einer Besprechung und Protokollieren der Besprechungsergebnisse.  </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MessageClass">
@@ -1382,13 +1331,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Nachrichtenklasse für das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Nachrichtenklasse für das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwortbefehle.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwort Befehle.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Mileage">
@@ -1417,13 +1363,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Mileage für ein Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Mileage für ein Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dies ist ein formfreies Feld und zum Speichern von Mileage Informationen im Zusammenhang mit dem Element (beispielsweise 100 Meilen für einen Termin, Kontakt oder Aufgabe dokumentiert) aus Gründen der Spesen verwendet werden kann.</para>
-          <para />
-        </remarks>
+        <remarks><para>Es handelt sich um ein formfreies Zeichenfolgenfeld, das zur Speicherung von Entfernungsinformationen zum Zweck der Kostenerstattung verwendet werden kann, die dem Element zugeordnet sind (z. B. 100 km zur Wahrnehmung eines Termins, einer Besprechung oder einer Aufgabe). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Move">
@@ -1514,11 +1457,9 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der bestimmt, ob der Absender des Besprechungselements oder der e-Mail-Nachricht einen Übermittlungsbericht erhält. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Aller Transport-Dienstanbieter, die Ihre Nachricht behandelt sendet eine einzelne Übermittlungsstatus mit den Namen und Adressen für jeden Empfänger, denen sie bereitgestellt wurde. Zustellung impliziert nicht, dass die Nachricht gelesen wurde. True, wenn der Absender der Nachricht eine Empfangsbestätigung angefordert. </para>
+        <remarks><para>Jeder Transportdienst, der die Nachricht verarbeitet, sendet eine einzelne Übermittlungsbestätigung, die die Namen und Adressen aller Empfänger enthält, an die die Nachricht übermittelt wurde. Die Übermittlung der Nachricht bedeutet nicht zwangsläufig, dass die Nachricht auch gelesen wurde. True, wenn der Absender eine Übermittlungsbestätigung für die Nachricht angefordert hat.</para>
           <para>Die <b>OriginatorDeliveryReportRequested</b> -Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagOriginatorDeliveryReportRequested</b>.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="OutlookInternalVersion">
@@ -1714,10 +1655,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung, die alle Empfänger für das Outlook-Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Ein Empfänger kann durch eine Zeichenfolge zur Darstellung des Empfängers Anzeigenamen, den Alias oder vollständige SMTP-e-Mail-Adresse angegeben werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Ein Empfänger kann von einer Zeichenfolge festgelegt werden, die den Anzeigenamen des Empfängers, den Alias oder die vollständige SMTP-E-Mail-Adresse darstellt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ReminderSet">
@@ -1887,24 +1826,22 @@
       <Docs>
         <summary>Gibt eine <see cref="T:System.DateTime" /> Wert, der angibt, das Datum bei der <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> Objekt abläuft, nach dem wird der Assistent (Messaging Records Management, MRM) für das Element gelöscht. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Eine Aufbewahrungsrichtlinie aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Dieses Feature ist nur in einem Exchange Server 2010-Postfach mit MRM 2.0 aktiviert verfügbar. </para>
-          <para>Microsoft Outlook berechnet den Wert dieser Eigenschaft basierend auf dem Element aufbewahrungsstartdatum und die Aufbewahrungszeit, wenn Outlook im Cache oder Offlinemodus ist. Der Exchange-Server gibt den Wert an, ob Outlook im Onlinemodus ist.</para>
-          <para>Im Allgemeinen die Aufbewahrung Startdatum für das Element wird wie folgt ermittelt:</para>
+        <remarks><para>Eine Aufbewahrungsrichtlinie aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Dieses Feature ist nur in einem Exchange Server 2010-Postfach mit MRM 2.0 aktiviert verfügbar. </para>
+          <para>Microsoft Outlook berechnet den Wert dieser Eigenschaft basierend auf dem Startdatum der Elementaufbewahrung und dem Aufbewahrungszeitraum, wenn sich Outlook im Cache- oder Offlinemodus befindet. Der Computer mit Exchange Server gibt den Wert an, wenn sich Outlook im Onlinemodus befindet.</para>
+          <para>Im Allgemeinen wird das Aufbewahrungsstartdatum für das Element wie folgt ermittelt:</para>
           <list type="bullet">
             <item>
-              <para>Empfangene oder gesendete Elemente: das aufbewahrungsstartdatum ist das Empfangsdatum.</para>
+              <para>Empfangene oder gesendete Elemente: Das Aufbewahrungsstartdatum ist das Empfangsdatum.</para>
             </item>
             <item>
-              <para>Einmalige Kalenderelemente: das aufbewahrungsstartdatum ist das Enddatum des Termins.</para>
+              <para>Kalenderelemente ohne Terminserie: Das Aufbewahrungsstartdatum ist das Terminenddatum.</para>
             </item>
             <item>
-              <para>Periodisch Kalenderelemente: das aufbewahrungsstartdatum ist das Enddatum des letzten Wiederholung. Wenn kein Enddatum vorhanden ist, das Element läuft nie ab.</para>
+              <para>Kalenderelemente mit Terminserie: Das Aufbewahrungsstartdatum ist das Enddatum der letzten Serie. Ist kein Enddatum vorhanden, läuft das Element nie ab.</para>
             </item>
           </list>
-          <para />
-          <para />
-        </remarks>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RetentionPolicyName">
@@ -1932,10 +1869,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), der den Namen der Aufbewahrungsrichtlinie angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Aufbewahrung aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Das Feature ist verfügbar, nur auf einem Exchange Server 2010-Postfach mit Messaging Records Management (MRM) 2.0 ist aktiviert. Ein Beispiel für einen Richtliniennamen Retention ist "Zeitintervall für Ablauf schnelle Suche definieren".</para>
-          <para />
-        </remarks>
+        <remarks><para>Aufbewahrung aktiviert und deaktiviert ist von einem Administrator für einen Microsoft Exchange Server auf einer Postfachebene. Das Feature ist verfügbar, nur auf einem Exchange Server 2010-Postfach mit Messaging Records Management (MRM) 2.0 ist aktiviert. Ein Beispiel für einen Richtliniennamen Retention ist "Zeitintervall für Ablauf schnelle Suche definieren".</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RTFBody">
@@ -1966,10 +1901,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer Byte-Array, das den Text des Microsoft Outlook-Element im RTF-Format darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die Methode System.Text.Encoding.AsciiEncoding.GetString() in c# oder Visual Basic können Sie um ein Array von Bytes in eine Zeichenfolge zu konvertieren.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die Methode System.Text.Encoding.AsciiEncoding.GetString() in c# oder Visual Basic können Sie um ein Array von Bytes in eine Zeichenfolge zu konvertieren.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Save">
@@ -2021,12 +1954,10 @@
       </Parameters>
       <Docs>
         <param name="Path">Der Pfad, in dem das Element gespeichert werden soll.</param>
-        <param name="Type">Der Dateityp zu speichern. Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</param>
+        <param name="Type">Der Dateityp, der gespeichert werden soll. Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</param>
         <summary>Speichert das Microsoft Outlook-Element in dem angegebenen Pfad und in dem Format des angegebenen Dateityps. Wenn kein Dateityp angegeben wurde, wird das MSG-Format (MSG) verwendet.</summary>
-        <remarks>
-          <para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Saved">
@@ -2110,10 +2041,8 @@
       <Parameters />
       <Docs>
         <summary>Das Besprechungselement wird gesendet.</summary>
-        <remarks>
-          <para>Wenn Sie eine Besprechungsanfrage programmgesteuert erstellen, erstellen Sie zunächst ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekts anstelle von einer <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> Objekt. Um anzugeben, der Termin ist eine Besprechung, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> -Eigenschaft des <b>AppointmentItem</b> -Objekts auf olMeeting festlegen. Um die Besprechungsanfrage senden, gelten die <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Send" /> -Methode, um das <b>AppointmentItem</b> -Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn Sie eine Besprechungsanfrage programmgesteuert erstellen, erstellen Sie zunächst ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekts anstelle von einer <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> Objekt. Um anzugeben, der Termin ist eine Besprechung, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.MeetingStatus" /> -Eigenschaft des <b>AppointmentItem</b> -Objekts auf olMeeting festlegen. Um die Besprechungsanfrage senden, gelten die <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.Send" /> -Methode, um das <b>AppointmentItem</b> -Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailAddress">
@@ -2141,10 +2070,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die die e-Mail-Adresse des Absenders des Outlook-Elements darstellt.   Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderEmailAddress</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderEmailAddress</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SenderEmailType">
@@ -2200,11 +2127,9 @@
       <Docs>
         <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Anzeigenamen des Absenders für das Outlook-Element angibt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderName</b>.</para>
-          <para>Wenn Sie die vollqualifizierte E-mail-Adresse des Absenders abrufen möchten, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.SenderEmailAddress" /> -Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSenderName</b>.</para>
+          <para>Wenn Sie die vollqualifizierte E-mail-Adresse des Absenders abrufen möchten, verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.SenderEmailAddress" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SendUsingAccount">
@@ -2235,11 +2160,9 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt, das das Konto zum Senden verwendet darstellt, die <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Sie können die <b>SendUsingAccount</b> -Eigenschaft verwenden, um das Konto anzugeben, die die <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.Send" /> -Methode verwendet wird, um die <b>MeetingItem</b>senden. Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn das angegebene Konto für die <b>MeetingItem</b> nicht mehr vorhanden ist. </para>
-          <para>Diese Eigenschaft ist schreibgeschützt, wenn die <b>MeetingItem</b> ein empfangenes Element handelt oder wenn die <b>MeetingItem</b> bereits gesendet wurde (d. h., die <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Sent" /> -Eigenschaft des Objekts auf <b>True</b>festgelegt ist).</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können die <b>SendUsingAccount</b> -Eigenschaft verwenden, um das Konto anzugeben, die die <see cref="M:Microsoft.Office.Interop.Outlook._MeetingItem.Send" /> -Methode verwendet wird, um die <b>MeetingItem</b>senden. Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn das angegebene Konto für die <b>MeetingItem</b> nicht mehr vorhanden ist. </para>
+          <para>Diese Eigenschaft ist schreibgeschützt, wenn die <b>MeetingItem</b> ein empfangenes Element handelt oder wenn die <b>MeetingItem</b> bereits gesendet wurde (d. h., die <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.Sent" /> -Eigenschaft des Objekts auf <b>True</b>festgelegt ist). </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sensitivity">
@@ -2270,10 +2193,8 @@
       <Docs>
         <summary>Gibt zurück oder legt eine Konstante der <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> Enumeration zurück, der die Vertraulichkeit für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSensitivity</b>.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSensitivity</b>.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Sent">
@@ -2301,10 +2222,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob eine Nachricht gesendet wurde. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Im Allgemeinen stehen drei verschiedene Arten von Nachrichten: gesendet, bereitgestellt und gespeichert. Gesendete Nachrichten sind an einen Empfänger oder öffentlichen Ordner Gesendete Elemente. Bereitgestellte Nachrichten werden in einem öffentlichen Ordner erstellt. Gespeicherte Nachrichten werden erstellt und gespeichert, ohne senden oder bereitzustellen.</para>
-          <para />
-        </remarks>
+        <remarks><para>In der Regel gibt es drei verschiedene Arten von Nachrichten: gesendet, bereitgestellt und gespeichert. Gesendete Nachrichten sind Elemente, die an einen Empfänger oder einen Öffentlichen Ordner gesendet wurden. Bereitstellungen werden in einem Öffentlichen Ordner erstellt. Gespeicherte Nachrichten werden erstellt und gespeichert, ohne sie zu senden oder bereitzustellen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="SentOn">
@@ -2332,10 +2251,8 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> , der angibt, Datum und Uhrzeit, zu denen das Outlook-Element gesendet wurde. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagClientSubmitTime</b>. Beim Senden einer Besprechungsanfrage mithilfe des Objekts <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReceivedTime" /> -Methode, legt der Transportdienst die <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" /> und <b>SentOn</b> -Eigenschaften für Sie.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagClientSubmitTime</b>. Beim Senden einer Besprechungsanfrage mithilfe des Objekts <see cref="P:Microsoft.Office.Interop.Outlook._MeetingItem.ReceivedTime" /> -Methode, legt der Transportdienst die <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ReceivedTime" /> und <b>SentOn</b> -Eigenschaften für Sie. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -2363,16 +2280,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowCategoriesDialog">
@@ -2454,13 +2369,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-          <b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Betreff für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
+        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Betreff für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Submitted">
@@ -2488,10 +2400,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn das Element übermittelt wurde. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Eine Nachricht wird immer erstellt und in einem Ordner, gewöhnlich im Ordner Postausgang gesendet.</para>
-          <para />
-        </remarks>
+        <remarks><para>Eine Nachricht wird immer in einem Ordner, gewöhnlich im Ordner Postausgang, erstellt und abgesendet. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="UnRead">

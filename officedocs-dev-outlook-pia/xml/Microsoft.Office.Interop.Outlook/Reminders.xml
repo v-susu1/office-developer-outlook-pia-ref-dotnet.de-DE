@@ -1,13 +1,5 @@
 <Type Name="Reminders" FullName="Microsoft.Office.Interop.Outlook.Reminders">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6aa22620bec00382bc27272b4238014063511ff2" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636590" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Reminders : Microsoft.Office.Interop.Outlook._Reminders, Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3177ac1eb6298998c0f5ce092ef8ffe8c6b6fb25" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901774" /></Metadata><TypeSignature Language="C#" Value="public interface Reminders : Microsoft.Office.Interop.Outlook._Reminders, Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Reminders implements class Microsoft.Office.Interop.Outlook._Reminders, class Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Reminders" />
   <TypeSignature Language="VB.NET" Value="Public Interface Reminders&#xA;Implements _Reminders, ReminderCollectionEvents_Event" />
@@ -34,12 +26,10 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Auflistung aller der <see cref="T:Microsoft.Office.Interop.Outlook.Reminder" /> Objekte in einer Microsoft Outlook-Anwendung, die die Erinnerungen für alle ausstehenden Elemente darstellen.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Reminders" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />.</para>
-      <para>Verwenden die <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> des Objekts <see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" /> Eigenschaft, um der <b>Reminders</b> -Auflistung zurückzugeben. Verwenden Sie <b>Reminders</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name oder Ordinalwert der Erinnerung, zur Rückgabe eines einzelnen <see cref="T:Microsoft.Office.Interop.Outlook.Reminder" /> Objekt. </para>
-      <para>Erinnerungen werden programmgesteuert bei erstellt ein neues Microsoft Outlook-Element mit einer Erinnerung erstellt wird. Beispielsweise wird eine Erinnerung erstellt, wenn ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt wird erstellt und des <b>AppointmentItem</b> -Objekts <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" /> -Eigenschaft auf <b>True</b>festgelegt ist.</para>
-      <para />
-    </remarks>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Reminders" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents_Event" />.</para>
+      <para>Verwendung der <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> des Objekts <see cref="P:Microsoft.Office.Interop.Outlook._Application.Reminders" /> Eigenschaft, um der <b>Reminders</b> -Auflistung zurückzugeben. Verwenden Sie <b>Reminders</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name oder Ordinalwert der Erinnerung, zur Rückgabe eines einzelnen <see cref="T:Microsoft.Office.Interop.Outlook.Reminder" /> Objekt. </para>
+      <para>Erinnerungen werden programmgesteuert erstellt, wenn ein neues Microsoft Outlook-Element mit einer Erinnerung erstellt wird. Beispielsweise wird eine Erinnerung erstellt, wenn ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt wird erstellt und des <b>AppointmentItem</b> -Objekts <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSet" /> -Eigenschaft auf <b>True</b>festgelegt ist.</para>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

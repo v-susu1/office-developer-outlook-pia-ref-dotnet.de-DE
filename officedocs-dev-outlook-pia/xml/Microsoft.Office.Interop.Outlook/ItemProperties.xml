@@ -1,13 +1,5 @@
 <Type Name="ItemProperties" FullName="Microsoft.Office.Interop.Outlook.ItemProperties">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="068473e5343109a26ed982c2916e8e99e1bf5182" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636496" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2e0b6f765c864178318a6ab735154aa9fb4aa042" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900279" /></Metadata><TypeSignature Language="C#" Value="public interface ItemProperties : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ItemProperties implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ItemProperties" />
   <TypeSignature Language="VB.NET" Value="Public Interface ItemProperties&#xA;Implements IEnumerable" />
@@ -31,15 +23,13 @@
   </Attributes>
   <Docs>
     <summary>Eine Auflistung aller dem Objekt zugeordneten Eigenschaften.</summary>
-    <remarks>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" /> Eigenschaft, um die <b>ItemProperties</b> -Auflistung zurückzugeben. Verwenden Sie ItemProperties.Item (<paramref name="index" />), wobei <paramref name="index" /> ist der Name des Objekts oder die numerische Position des Elements in der Auflistung, um die Rückgabe eines einzelnen <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> -Objekt.</para>
+    <remarks><para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.ItemProperties" /> Eigenschaft, um die <b>ItemProperties</b> -Auflistung zurückzugeben. Verwenden Sie ItemProperties.Item (<paramref name="index" />), wobei <paramref name="index" /> ist der Name des Objekts oder die numerische Position des Elements in der Auflistung, um die Rückgabe eines einzelnen <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperty" /> Objekt.</para>
       <para>
         <b>Hinweis</b>: die <b>ItemProperties</b> -Auflistung ist nullbasiert, was bedeutet, dass das erste Element in der Auflistung durch 0 erfolgt.</para>
       <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Add(System.String,Microsoft.Office.Interop.Outlook.OlUserPropertyType,System.Object,System.Object)" /> Methode, um der <b>ItemProperties</b> -Auflistung eine neue Objekteigenschaft hinzuzufügen. Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook.ItemProperties.Remove(System.Int32)" /> -Methode, um eine Eigenschaft eines Elements aus der <b>ItemProperties</b> -Auflistung zu entfernen.</para>
       <para>
         <b>Hinweis</b>: Sie können nur hinzufügen oder Entfernen benutzerdefinierter Eigenschaften. Benutzerdefinierte Eigenschaften sind gekennzeichnet durch die <see cref="P:Microsoft.Office.Interop.Outlook.ItemProperty.IsUserProperty" /> .</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -73,10 +63,8 @@
         <param name="DisplayFormat">Definiert das Format des Felds, wie es in einem angegebenen Ordner angezeigt wird.</param>
         <summary>Die <b>ItemProperties</b> -Auflistung hinzugefügt ein <b>ItemProperty</b> -Objekt.</summary>
         <returns>To be added.</returns>
-        <remarks>
-          <para>Sie können eine Eigenschaft eines Typs, der durch die definierten Erstellen der <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> -Enumeration zurück, mit Ausnahme der folgenden Typen: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, und <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
-          <para />
-        </remarks>
+        <remarks><para>Sie können eine Eigenschaft eines Typs, der durch die definierten Erstellen der <see cref="T:Microsoft.Office.Interop.Outlook.OlUserPropertyType" /> -Enumeration zurück, mit Ausnahme der folgenden Typen: <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olEnumeration" />, <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olOutlookInternal" />, und <see cref="F:Microsoft.Office.Interop.Outlook.OlUserPropertyType.olSmartFrom" />.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -308,16 +296,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

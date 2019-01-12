@@ -1,13 +1,5 @@
 <Type Name="_TimeZone" FullName="Microsoft.Office.Interop.Outlook._TimeZone">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636430" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TimeZone" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c93472155461317f92e16b09941e71830b4f74ac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901844" /></Metadata><TypeSignature Language="C#" Value="public interface _TimeZone" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TimeZone" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TimeZone" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TimeZone" />
@@ -83,13 +75,11 @@
       <Docs>
         <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der den Unterschied zwischen der lokalen Zeit in dieser Zeitzone und die koordinierte Weltzeit (UTC) in Minuten darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dieser Wert wird als Teil des Werts TZI gespeichert, für diese Zeitzone in der Windows-Registrierung. Der TZI-Wert wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>zugeordnet</para>
+        <remarks><para>Dieser Wert wird als Teil des Werts TZI für diese Zeitzone in der Windows-Registrierung gespeichert. Der Wert TZI wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a> zugeordnet.</para>
           <para>
-            <b>Bias</b> wird nicht berücksichtigt Uhrzeitoffset für die Sommerzeit und Winterzeit in der Zeitzone. Um eine beliebige Uhrzeit-Offset Sommerzeit berücksichtigt werden, verwenden Sie <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />. Wenn die lokale Zeitzone Sommerzeit ist, ist UTC-Zeit in der Regel das Ergebnis des Hinzufügens von <b>Bias</b> und <b>DaylightBias</b> in die Ortszeit. Um eine beliebige Normalzeit Offset berücksichtigt werden, verwenden Sie <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />. Wenn die lokale Zeitzone (Normalzeit) ist, ist UTC-Zeit in der Regel das Ergebnis des Hinzufügens von <b>Bias</b> und <b>StandardBias</b> in die Ortszeit. </para>
-          <para>Beispielsweise in einem Zustand Übernahme Sommerzeit in der Pacific Standard Time-Zone, die <b>Verschiebung</b> 480 Minuten und <b>DaylightBias</b> bis 60 Minuten. Um die Uhrzeit in UTC für den 11. Juni 2 Uhr FRÜH Hinzufügen einer <b>Verschiebung</b> von (480/60) Stunden und <b>DaylightBias</b> von-(60/60) Stunden in die Ortszeit 2 Uhr am 11. Juni Die Zeit in UTC ist 9 Uhr am 11. Juni</para>
-          <para />
-        </remarks>
+            <b>Bias</b> werden keine Uhrzeitoffset für die Sommerzeit und Winterzeit in der Zeitzone berücksichtigt. Um eine beliebige Uhrzeit-Offset Sommerzeit berücksichtigt werden, verwenden Sie <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.DaylightBias" />. Wenn die lokale Zeitzone Sommerzeit ist, ist UTC-Zeit in der Regel das Ergebnis des Hinzufügens von <b>Bias</b> und <b>DaylightBias</b> in die Ortszeit. Um eine beliebige Normalzeit Offset berücksichtigt werden, verwenden Sie <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.StandardBias" />. Wenn die lokale Zeitzone (Normalzeit) ist, ist UTC-Zeit in der Regel das Ergebnis des Hinzufügens von <b>Bias</b> und <b>StandardBias</b> in die Ortszeit. </para>
+          <para>Beispielsweise in einem Zustand Übernahme Sommerzeit in der Pacific Standard Time-Zone, die <b>Verschiebung</b> 480 Minuten und <b>DaylightBias</b> bis 60 Minuten. Die Zeit in UTC für 2 Uhr am 11. Juni bestimmen PST, Hinzufügen einer <b>Verschiebung</b> von (480/60) Stunden und <b>DaylightBias</b> von-(60/60) Stunden in die Ortszeit 2 Uhr am 11. Juni Die Zeit in UTC ist 9 Uhr am 11. Juni</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Class">
@@ -145,11 +135,9 @@
       <Docs>
         <summary>Einen <b>ganze Zahl</b> (<b>Int</b> in c#) gibt Wert zurück, den Zeitoffset in Minuten aus der <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> um Sommerzeit in dieser Zeitzone zu berücksichtigen. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dieser Wert wird als Teil des Werts TZI gespeichert, für diese Zeitzone in der Windows-Registrierung. Der TZI-Wert wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>zugeordnet</para>
-          <para>in Bezug auf die UTC-Zeit und die lokale Zeit der Zeitzone, UTC-Zeit ist das Ergebnis des Hinzufügens von <b>Bias</b> und <b>DaylightBias</b> in die Ortszeit. Beispielsweise in einem Zustand Übernahme Sommerzeit in der Pacific Standard Time-Zone, die <b>Verschiebung</b> 480 Minuten und <b>DaylightBias</b> bis 60 Minuten. Um die Uhrzeit in UTC für den 11. Juni 2 Uhr FRÜH Hinzufügen einer <b>Verschiebung</b> von (480/60) Stunden und <b>DaylightBias</b> von-(60/60) Stunden in die Ortszeit 2 Uhr am 11. Juni Die Zeit in UTC ist 9 Uhr am 11. Juni</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieser Wert wird als Teil des Werts TZI für diese Zeitzone in der Windows-Registrierung gespeichert. Der Wert TZI wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a> zugeordnet.</para>
+          <para>In Bezug auf die Koordinierte Weltzeit und die lokale Zeit der Zeitzone ist UTC-Zeit für das Ergebnis des Hinzufügens von <b>Bias</b> und <b>DaylightBias</b> in die Ortszeit. Beispielsweise in einem Zustand Übernahme Sommerzeit in der Pacific Standard Time-Zone, die <b>Verschiebung</b> 480 Minuten und <b>DaylightBias</b> bis 60 Minuten. Die Zeit in UTC für 2 Uhr am 11. Juni bestimmen PST, Hinzufügen einer <b>Verschiebung</b> von (480/60) Stunden und <b>DaylightBias</b> von-(60/60) Stunden in die Ortszeit 2 Uhr am 11. Juni Die Zeit in UTC ist 9 Uhr am 11. Juni</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDate">
@@ -177,10 +165,8 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> -Wert, der das Datum und die Uhrzeit in dieser Zeitzone darstellt, um Sommerzeit im aktuellen Jahr wird über. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dieser Wert wird als Teil des TZI Werts für die Zeitzone in der Windows-Registrierung gespeichert. Der Wert TZI wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a> zugeordnet.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieser Wert wird als Teil des TZI Werts für die Zeitzone in der Windows-Registrierung gespeichert. Der Wert TZI wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a> zugeordnet.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="DaylightDesignation">
@@ -208,10 +194,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die die Zeitzone in Sommerzeit identifiziert. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird als Dlt-Wert für die Zeitzone in der Registrierung gespeichert.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft wird als Dlt-Wert für die Zeitzone in der Registrierung gespeichert.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ID">
@@ -239,10 +223,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die die Zeitzone eindeutig identifiziert. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>ID</b> einer Zeitzone ist global für diese Zeitzone identisch.  Es ist der Name der Windows-Registrierungsschlüssel, der die Informationen zur Zeitzone enthält. Im Gegensatz zu den <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> der Wert der <b>ID</b> -Eigenschaft ist nicht lokalisiert.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>ID</b> einer Zeitzone ist global für diese Zeitzone identisch.  Es ist der Name der Windows-Registrierungsschlüssel, der die Informationen zur Zeitzone enthält. Im Gegensatz zu den <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Name" /> der Wert der <b>ID</b> -Eigenschaft ist nicht lokalisiert.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -270,10 +252,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die den Bezeichner der Zeitzone darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der <b>Name</b> enthält in der Regel den Offsetwert aus (Coordinated Universal Time, UTC), die Namen der offiziellen Zeitzone und Regionen, in denen die Zeitzone verwendet wird. Es wird als Anzeigewert im Registrierungsschlüssel für eine Zeitzone gespeichert.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der <b>Name</b> enthält in der Regel den Offsetwert aus (Coordinated Universal Time, UTC), die Namen der offiziellen Zeitzone und Regionen, in denen die Zeitzone verwendet wird. Es wird als Anzeigewert im Registrierungsschlüssel für eine Zeitzone gespeichert.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -329,16 +309,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardBias">
@@ -366,11 +344,9 @@
       <Docs>
         <summary>Einen <b>ganze Zahl</b> (<b>Int</b> in c#) gibt Wert zurück, den Zeitoffset in Minuten aus der <see cref="P:Microsoft.Office.Interop.Outlook._TimeZone.Bias" /> Normalzeit in dieser Zeitzone berücksichtigen. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dieser Wert wird als Teil des Werts TZI gespeichert, für die Zeitzone in der Windows-Registrierung. Der TZI-Wert wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a>zugeordnet</para>
-          <para>in Bezug auf die UTC-Zeit und die lokale Zeit der Zeitzone, UTC-Zeit ist das Ergebnis des Hinzufügens von <b>Bias</b> und <b>StandardBias</b> in die Ortszeit. Beispielsweise in einem Zustand Übernahme Normalzeit in der Pacific Standard Time-Zone, die <b>Verschiebung</b> 480 Minuten und <b>StandardBias</b> 0 Minuten. Um die Uhrzeit in UTC für den 11. Juni 2 Uhr FRÜH Hinzufügen einer <b>Verschiebung</b> von (480/60) Stunden und eine <b>StandardBias</b> von 0 Stunden in die Ortszeit 2 Uhr am 11. Juni Die Zeit in UTC ist 10 Uhr am 11. Juni</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieser Wert wird als Teil des Werts TZI für die Zeitzone in der Windows-Registrierung gespeichert. Der Wert TZI wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a> zugeordnet.</para>
+          <para>In Bezug auf die Koordinierte Weltzeit und die lokale Zeit der Zeitzone ist UTC-Zeit für das Ergebnis des Hinzufügens von <b>Bias</b> und <b>StandardBias</b> in die Ortszeit. Beispielsweise in einem Zustand Übernahme Normalzeit in der Pacific Standard Time-Zone, die <b>Verschiebung</b> 480 Minuten und <b>StandardBias</b> 0 Minuten. Die Zeit in UTC für 2 Uhr am 11. Juni bestimmen PST, Hinzufügen einer <b>Verschiebung</b> von (480/60) Stunden und eine <b>StandardBias</b> von 0 Stunden in die Ortszeit 2 Uhr am 11. Juni Die Zeit in UTC ist 10 Uhr am 11. Juni</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDate">
@@ -398,10 +374,8 @@
       <Docs>
         <summary>Gibt einen <b>DateTime</b> -Wert, der das Datum und die Uhrzeit in dieser Zeitzone darstellt, auf Normalzeit umgestellt wird über zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Dieser Wert wird als Teil des TZI Werts für die Zeitzone in der Windows-Registrierung gespeichert. Der Wert TZI wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a> zugeordnet.</para>
-          <para />
-        </remarks>
+        <remarks><para>Dieser Wert wird als Teil des TZI Werts für die Zeitzone in der Windows-Registrierung gespeichert. Der Wert TZI wird an den Windows <a href="http://go.microsoft.com/fwlink/?LinkId=87853">TIME_ZONE_INFORMATION</a> zugeordnet.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="StandardDesignation">
@@ -429,10 +403,8 @@
       <Docs>
         <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die die Zeitzone in Normalzeit identifiziert. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft wird als Std-Wert für die Zeitzone in der Registrierung gespeichert.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft wird als Std-Wert für die Zeitzone in der Registrierung gespeichert.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

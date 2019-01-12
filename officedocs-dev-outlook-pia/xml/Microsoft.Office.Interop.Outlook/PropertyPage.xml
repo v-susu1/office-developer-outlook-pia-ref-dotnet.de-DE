@@ -1,13 +1,5 @@
 <Type Name="PropertyPage" FullName="Microsoft.Office.Interop.Outlook.PropertyPage">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="6dbed428a055e97eb67cfd333fb2c6bc9ce4824a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636033" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface PropertyPage" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="48f2f3f7d91d2193670d3d00ba2f1e1b6f744750" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897598" /></Metadata><TypeSignature Language="C#" Value="public interface PropertyPage" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PropertyPage" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.PropertyPage" />
   <TypeSignature Language="VB.NET" Value="Public Interface PropertyPage" />
@@ -27,14 +19,12 @@
   </Attributes>
   <Docs>
     <summary>Stellt eine benutzerdefinierte Eigenschaftenseite im Dialogfeld Optionen oder dem Dialogfeld des Ordners Eigenschaften dar.</summary>
-    <remarks>
-      <para>Outlook kann eine benutzerdefinierte Eigenschaftenseite für die Interaktion mit der Schaltfläche übernehmen im Dialogfeld verwendet dieses Objekt.</para>
-      <para>Das <b>PropertyPage</b> -Objekt ist ein abstraktes Objekt. D. h., enthält das <b>PropertyPage</b> -Objekt in der Microsoft Outlook-Objektbibliothek keinen Code zur Implementierung. Es wird als Vorlage zu, dass Sie das Objekt in Microsoft Visual Basic implementiert bereitgestellt. Dies bietet eine vordefinierte Reihe von Schnittstellen, die Outlook verwenden können, um festzustellen, ob Ihre benutzerdefinierte Eigenschaftenseite geändert hat und dem Programm zu benachrichtigen, dass der Benutzer die übernehmen oder die Schaltfläche OK geklickt hat. (Wenn Ihre benutzerdefinierte Eigenschaftenseite nicht auf die Schaltfläche Übernehmen basiert, und Sie müssen nicht das <b>PropertyPage</b> -Objekt implementiert werden.)</para>
-      <para>Eine benutzerdefinierte Eigenschaftenseite ist ein ActiveX-Steuerelement, das von Outlook im Dialogfeld Optionen oder im Dialogfeld Ordner angezeigt wird, wenn der Benutzer auf die benutzerdefinierte Eigenschaftenseite Registerkarte klickt. Zum Implementieren des <b>PropertyPage</b> -Objekts in Visual Basic .NET muss das Modul, den Code zur Implementierung enthält, die folgenden Implements-Anweisung enthalten.</para>
+    <remarks><para>Mit diesem Objekt von Outlook kann eine benutzerdefinierte Eigenschaftenseite mit der Schaltfläche Übernehmen im Dialogfeld verwendet werden.</para>
+      <para>Das <b>PropertyPage</b> -Objekt ist ein abstraktes Objekt. D. h., enthält das <b>PropertyPage</b> -Objekt in der Microsoft Outlook-Objektbibliothek keinen Code zur Implementierung. Es wird als Vorlage zu, dass Sie das Objekt in Microsoft Visual Basic implementiert bereitgestellt. Dies bietet eine vordefinierte Reihe von Schnittstellen, die Outlook verwenden können, um festzustellen, ob Ihre benutzerdefinierte Eigenschaftenseite geändert hat und dem Programm zu benachrichtigen, dass der Benutzer die übernehmen oder die Schaltfläche OK geklickt hat. (Wenn Ihre benutzerdefinierte Eigenschaftenseite nicht auf die Schaltfläche Übernehmen, benötigt, ist eine Implementieren des <b>PropertyPage</b> -Objekts nicht erforderlich.)</para>
+      <para>Eine benutzerdefinierte Eigenschaftenseite ist ein ActiveX-Steuerelement, das von Outlook im Dialogfeld Optionen oder im Dialogfeld Ordner angezeigt wird, wenn der Benutzer auf die benutzerdefinierte Eigenschaftenseite Registerkarte klickt. Zum Implementieren des <b>PropertyPage</b> -Objekts in Visual Basic .NET muss das Modul, das den Code zur Implementierung enthält, die folgenden Implements-Anweisung enthalten.</para>
       <code>Implements Outlook.PropertyPage</code>
-      <para>Das Modul muss auch Prozeduren, die die Eigenschaften und Methoden des <b>PropertyPage</b> -Objekts implementieren enthalten.</para>
-      <para />
-    </remarks>
+      <para>Das Modul muss auch Prozeduren enthalten, die die Eigenschaften und Methoden des <b>PropertyPage</b> -Objekts zu implementieren.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Apply">
@@ -54,10 +44,8 @@
       <Parameters />
       <Docs>
         <summary>Die auf einer benutzerdefinierten Eigenschaftenseite vorgenommenen Änderungen werden übernommen.</summary>
-        <remarks>
-          <para>Da die <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> ist ein abstraktes Objekt, das ist in der Anwendung (nicht von Microsoft Outlook selbst) implementiert die Implementierung der <b>Apply</b> -Methode einer Ereignisprozedur in Ihrem Programmcode vergleichbar. D. h., Schreiben Sie Code, der die-Methode im Wesentlichen implementiert die gleiche Weise, wie Sie eine Ereignisprozedur schreiben. Outlook ruft die <b>Apply</b> -Methode, um Ihr Programm zu benachrichtigen, das der Benutzer im Dialogfeld mit der benutzerdefinierten Eigenschaftenseite, die ein Programm, von der Eigenschaftswerte, die vom Benutzer geändert anwenden erfordert eine Aktion vorgenommen hat.</para>
-          <para />
-        </remarks>
+        <remarks><para>Da die <see cref="T:Microsoft.Office.Interop.Outlook.PropertyPage" /> ist ein abstraktes Objekt, das ist in der Anwendung (nicht von Microsoft Outlook selbst) implementiert die Implementierung der <b>Apply</b> -Methode einer Ereignisprozedur in Ihrem Programmcode vergleichbar. D. h., Schreiben Sie Code, der die-Methode im Wesentlichen implementiert die gleiche Weise, wie Sie eine Ereignisprozedur schreiben. Outlook ruft die <b>Apply</b> -Methode, um Ihr Programm zu benachrichtigen, das der Benutzer im Dialogfeld mit der benutzerdefinierten Eigenschaftenseite, die ein Programm, von der Eigenschaftswerte, die vom Benutzer geändert anwenden erfordert eine Aktion vorgenommen hat.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Dirty">

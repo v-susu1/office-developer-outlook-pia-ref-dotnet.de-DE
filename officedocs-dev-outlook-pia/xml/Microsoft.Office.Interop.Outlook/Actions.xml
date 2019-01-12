@@ -1,13 +1,5 @@
 <Type Name="Actions" FullName="Microsoft.Office.Interop.Outlook.Actions">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="d75f395e36ce152cc6b4826a48e313413c953e4d" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20637376" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Actions : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="10f6d87c81095476b601aadf1e253c798d425324" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896842" /></Metadata><TypeSignature Language="C#" Value="public interface Actions : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Actions implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Actions" />
   <TypeSignature Language="VB.NET" Value="Public Interface Actions&#xA;Implements IEnumerable" />
@@ -31,11 +23,9 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Auflistung von <see cref="T:Microsoft.Office.Interop.Outlook.Action" /> -Objekten, die alle speziellen Aktionen darstellt, die für ein Outlook-Element ausgeführt werden können.</summary>
-    <remarks>
-      <para>Verwenden Sie die <b>Actions</b> -Eigenschaft eines Outlook-Elements, wie <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, um das <b>Actions</b> -Objekt zurückzugeben.</para>
-      <para>Use <b>Aktionen</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name einer verfügbaren Aktion, um ein einzelnes <b>Action</b> -Objekt zurückzugeben.</para>
-      <para />
-    </remarks>
+    <remarks><para>Verwenden Sie die <b>Actions</b> -Eigenschaft eines Outlook-Elements, wie <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, um das <b>Actions</b> -Objekt zurückzugeben.</para>
+      <para>Verwenden Sie <b>Aktionen</b>(<paramref name="index" />), wobei <paramref name="index" /> ist der Name einer verfügbaren Aktion, um ein einzelnes <b>Action</b> -Objekt zurückzugeben.</para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="Add">
@@ -261,16 +251,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

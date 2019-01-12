@@ -1,13 +1,5 @@
 <Type Name="_FormNameRuleCondition" FullName="Microsoft.Office.Interop.Outlook._FormNameRuleCondition">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="2008c31d964be8a8d4b9159db8dbc47d84bd6944" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635727" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _FormNameRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="2008c31d964be8a8d4b9159db8dbc47d84bd6944" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900559" /></Metadata><TypeSignature Language="C#" Value="public interface _FormNameRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _FormNameRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._FormNameRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _FormNameRuleCondition" />
@@ -111,10 +103,8 @@
       <Docs>
         <summary>Gibt eine Konstante, <b>OlConditionFormName</b>aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> -Enumeration, die den Typ des regelbedingung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das Formular Namen regelbedingung wird von Regeln zum Empfangen von Nachrichten und Regeln zum Senden von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Das Formular Namen regelbedingung wird von Regeln zum Empfangen von Nachrichten und Regeln zum Senden von Nachrichten unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -145,10 +135,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die bestimmt, ob die Regel aktiviert ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Bedingung ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde.</para>
-          <para />
-        </remarks>
+        <remarks><para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Bedingung ist nur verfügbar, nachdem sie erfolgreich gespeichert wurde. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="FormName">
@@ -179,13 +167,11 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>Objekts</b> , die ein Array mit den Formular-IDs durch die regelbedingung ausgewertet werden soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Obwohl die Regeln und Benachrichtigungen Assistenten verwendet den Anzeigenamen des einem Formular programmgesteuert als Bezeichner, verwendet <b>FormName</b> die Nachrichtenklasse des Formulars als Bezeichner.</para>
-          <para>Können Sie ein Array mit einer Zeichenfolge oder ein Array mit mehreren Zeichenfolgen <b>FormName</b> -Eigenschaft zuweisen. Mehrere Formularbezeichner in einem Array zugewiesen werden mithilfe des logischen Operators OR ausgewertet.</para>
+        <remarks><para>Obwohl die Regeln und Benachrichtigungen Assistenten verwendet den Anzeigenamen des einem Formular programmgesteuert als Bezeichner, verwendet <b>FormName</b> die Nachrichtenklasse des Formulars als Bezeichner.</para>
+          <para>Sie können die <b>FormName</b> -Eigenschaft ein Array mit einer Zeichenfolge oder ein Array mit mehreren Zeichenfolgen zuweisen. Mehrere Formularbezeichner in einem Array zugewiesen werden mithilfe des logischen Operators OR ausgewertet.</para>
           <para>
             <b>FormName</b> gibt einen Fehler zurück, wenn es sich um eine oder mehrere leere Zeichenfolgen enthält.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Parent">
@@ -213,10 +199,8 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -244,16 +228,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>

@@ -1,13 +1,5 @@
 <Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="5775f16b4f47ab029314c22c5ef7bfb307c13e1f" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635601" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface OlkControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="5939b00a41bad44f31458db50a6e9149c2069729" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901886" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
@@ -27,10 +19,8 @@
   </Attributes>
   <Docs>
     <summary>Definiert eine Reihe von Steuerelementeigenschaften, die verschiedene Microsoft Outlook-Steuerelemente gleichermaßen besitzen.</summary>
-    <remarks>
-      <para>Die Mitglieder von <b>OlkControl</b> angeboten können auf die meisten Outlook-Steuerelemente anwenden.  <b>OlkControl</b> stellt eine Klasse, die Sie bequem ein Outlook-Steuerelement umwandeln können, ohne Spiegelung, bereit. Zwar <b>OlkControl</b> für Microsoft Forms 2.0-Steuerelemente nicht anwendbar ist, werden ähnliche Eigenschaften Forms 2.0-Steuerelemente zur Verfügung. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: zusätzliche Steuerelement Eigenschaften zur Programmierung</a></para>
-      <para />
-    </remarks>
+    <remarks><para>Die Mitglieder von <b>OlkControl</b> angeboten können auf die meisten Outlook-Steuerelemente anwenden.  <b>OlkControl</b> stellt eine Klasse, die Sie bequem ein Outlook-Steuerelement umwandeln können, ohne Spiegelung, bereit. Zwar <b>OlkControl</b> für Microsoft Forms 2.0-Steuerelemente nicht anwendbar ist, werden ähnliche Eigenschaften Forms 2.0-Steuerelemente zur Verfügung. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: zusätzliche Steuerelement Eigenschaften zur Programmierung</a></para>
+      <para> </para></remarks>
   </Docs>
   <Members>
     <Member MemberName="ControlProperty">
@@ -92,10 +82,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die automatische Anpassung des Layouts für das Steuerelement im Hinblick auf den Rest des Formulars ermöglicht. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Das Layout eines Steuerelements automatisch angepasst sind vertikal oder horizontal ausrichten der Steuerelements in Bezug auf andere Steuerelemente und Festlegen der Größe der Höhe oder Breite des Steuerelements in Bezug auf die Länge oder die Breite des Formulars.</para>
-          <para />
-        </remarks>
+        <remarks><para>Zu den automatischen Anpassungen für das Layout eines Steuerelements gehören das vertikale oder horizontale Ausrichten des Steuerelements im Verhältnis zu anderen Steuerelementen sowie das Anpassen der Höhe oder der Breite des Steuerelements in Bezug auf die Länge oder Breite des Formulars.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Format">
@@ -126,11 +114,9 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, wie ein Wert ist, die im Steuerelement angezeigt werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Format</b> -Eigenschaft kann es sich um eine Konstante in einer Aufzählung sein, die Beschreibung der Vorgehensweise zum Anzeigen eines Werts. Sie können beispielsweise <b>Format</b> angeben, wie die Konstante <b>OlFormatCurrencyDecimal</b> , die in definiert ist die <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> Enumeration in einen Währungswert angezeigt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> Steuerelement.</para>
-          <para>Die <b>Format</b> -Eigenschaft gilt nur für die Eigenschaft im Outlook-Objektmodell, das an das Steuerelement gebunden ist. Da letztere wird angegeben, indem <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />. Wenn das Steuerelement nicht an eine beliebige Eigenschaft gebunden ist, und klicken Sie dann den Zugriff auf <b>Format</b> wird ein Fehler zurückgegeben.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Format</b> -Eigenschaft kann es sich um eine Konstante in einer Aufzählung sein, die Beschreibung der Vorgehensweise zum Anzeigen eines Werts. Sie können beispielsweise <b>Format</b> angeben, wie die Konstante <b>OlFormatCurrencyDecimal</b> , die in definiert ist die <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> Enumeration in einen Währungswert angezeigt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> Steuerelement.</para>
+          <para>Die <b>Format</b> -Eigenschaft ist spezifisch für die Eigenschaft im Outlook-Objektmodell, das an das Steuerelement gebunden ist. Da letztere wird angegeben, indem <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />. Wenn das Steuerelement nicht an eine beliebige Eigenschaft gebunden ist, wird das <b>Format</b> den Zugriff auf einen Fehler zurück.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="HorizontalLayout">
@@ -223,11 +209,9 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die minimale Höhe angibt, die, der das Steuerelement automatisch nach unten an angepasst werden kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />muss auf <b>true fest,</b> in der Reihenfolge für <b>MinimumLength</b> wirksam, festgelegt werden.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MinimumWidth">
@@ -258,11 +242,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der die minimale Breite angibt, die, der das Steuerelement automatisch nach unten an angepasst werden kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />muss auf <b>true fest,</b> in der Reihenfolge für <b>MinimumWidth</b> wirksam werden festgelegt werden.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="PossibleValues">
@@ -293,10 +275,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die eine Liste der möglichen Werte für die Dropdownliste für das Steuerelement, getrennt durch Semikolons darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Bei Steuerelementen, die keine für ein Dropdown-Listenfeld Unterstützung, ist der Wert dieser Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
-          <para />
-        </remarks>
+        <remarks><para>Bei Steuerelementen, die keine für ein Dropdown-Listenfeld Unterstützung, ist der Wert dieser Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="VerticalLayout">

@@ -1,13 +1,5 @@
 <Type Name="Views" FullName="Microsoft.Office.Interop.Outlook.Views">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="67cc6401eb92ff509cf4d542f0af055a58e66c07" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20636395" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface Views : Microsoft.Office.Interop.Outlook._Views, Microsoft.Office.Interop.Outlook._ViewsEvents_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c9b3b6eea87615bc94556e2bca8cf504beec531a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27900538" /></Metadata><TypeSignature Language="C#" Value="public interface Views : Microsoft.Office.Interop.Outlook._Views, Microsoft.Office.Interop.Outlook._ViewsEvents_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Views implements class Microsoft.Office.Interop.Outlook._Views, class Microsoft.Office.Interop.Outlook._ViewsEvents_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Views" />
   <TypeSignature Language="VB.NET" Value="Public Interface Views&#xA;Implements _Views, _ViewsEvents_Event" />
@@ -34,14 +26,11 @@
   </Attributes>
   <Docs>
     <summary>Enthält eine Auflistung aller <see cref="T:Microsoft.Office.Interop.Outlook.View" /> Objekte im aktuellen Ordner.</summary>
-    <remarks>
-      <para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Views" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ViewsClass" />.</para>
-      <para>
-        <b>Ansichten</b> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekts, um die <b>Views</b> -Auflistung zurückzugeben. Verwenden von <b>Ansichten</b>(<paramref name="index" />), wobei <paramref name="index" /> ist des Objekts Namen\noder die Position in der Auflistung, um ein einzelnes <b>View</b> -Objekt zurückzugeben. </para>
-      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode der Views-Auflistung, um der Auflistung eine neue Ansicht hinzuzufügen.</para>
+    <remarks><para>Dies ist ein .NET-Schnittstelle abgeleitet eine COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese abgeleiteten Schnittstelle, um alle-Methode, -Eigenschaft und Ereignismember des COM-Objekts zuzugreifen. Jedoch, wenn eine Methode oder ein Ereignis, den Sie verwenden möchten, den gleichen Namen unter dem gleichen COM-Objekt gemeinsam, wandeln Sie auf die entsprechende primäre Schnittstelle, rufen Sie die Methode und die neuesten Ereignisse Benutzeroberfläche für die Verbindung an das Ereignis umgewandelt. Verweisen Sie auf dieses Thema bietet Informationen über das COM-Objekt. Informationen zu den Methoden- und Membern des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook._Views" />. Informationen zu den Ereignismember des COM-Objekts finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ViewsClass" />.</para>
+      <para>Verwenden Sie die <b>Views</b> -Eigenschaft von der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekts, um die <b>Views</b> -Auflistung zurückzugeben. Verwenden von <b>Ansichten</b>(<paramref name="index" />), wobei <paramref name="index" /> ist des Objekts Namen\noder die Position in der Auflistung, um ein einzelnes <b>View</b> -Objekt zurückzugeben. </para>
+      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode der Views-Auflistung, um der Auflistung eine neue Ansicht hinzuzufügen. </para>
       <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Remove(System.Object)" /> -Methode, um eine Ansicht aus der Auflistung zu entfernen.</para>
-      <para />
-    </remarks>
+      <para> </para></remarks>
   </Docs>
   <Members />
 </Type>

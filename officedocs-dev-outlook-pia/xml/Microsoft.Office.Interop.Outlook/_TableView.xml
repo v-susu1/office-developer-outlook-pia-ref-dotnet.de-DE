@@ -1,13 +1,5 @@
 <Type Name="_TableView" FullName="Microsoft.Office.Interop.Outlook._TableView">
-  <Metadata>
-    <Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" />
-    <Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" />
-    <Meta Name="ms.translationtype" Value="MT" />
-    <Meta Name="ms.contentlocale" Value="de-DE" />
-    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
-    <Meta Name="ms.locfileid" Value="20635833" />
-  </Metadata>
-  <TypeSignature Language="C#" Value="public interface _TableView" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c944369730ff7d74f1d0dfa289d7e444b8c1c71a" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27897192" /></Metadata><TypeSignature Language="C#" Value="public interface _TableView" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _TableView" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._TableView" />
   <TypeSignature Language="VB.NET" Value="Public Interface _TableView" />
@@ -58,10 +50,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der bestimmt, ob bearbeiten in der Zelle zulässig ist die <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn diese Eigenschaft auf <b>True</b>festgelegt ist und die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> -Eigenschaft des <b>TableView</b> -Objekts wird automatisch auf <b>OlAlwaysSingleLine</b>festgelegt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn diese Eigenschaft auf <b>True</b>festgelegt ist und die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> -Eigenschaft des <b>TableView</b> -Objekts wird automatisch auf <b>OlAlwaysSingleLine</b>festgelegt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AlwaysExpandConversation">
@@ -92,13 +82,10 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob Unterhaltungen in der Tabellenansicht immer vollständig erweitert werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
+        <remarks><para>Die <b>AlwaysExpandConversation</b> -Eigenschaft entspricht dem Auswählen von Unterhaltungen immer erweitern im Menü Unterhaltungen der Gruppe Anordnung auf der Registerkarte Ansicht des Microsoft Office Fluent-Menüband.</para>
           <para>
-            <b>Die AlwaysExpandConversation</b> -Eigenschaft entspricht dem Auswählen von Unterhaltungen immer erweitern im Menü Unterhaltungen der Gruppe Anordnung auf der Registerkarte Ansicht des Microsoft Office Fluent-Menüband.</para>
-          <para>Gibt 
-            <b>true</b> dieser Unterhaltung, die Gruppen in der Tabellenansicht standardmäßig vollständig erweitert werden. Zeigt <b>false</b> an Unterhaltungsgruppen nur teilweise erweitert werden.</para>
-          <para />
-        </remarks>
+            <b>True</b> zeigt an, dass diese Gruppen in der Tabellenansicht standardmäßig vollständig erweitert werden; <b>False</b> zeigt an, dass Unterhaltungsgruppen nur teilweise erweitert werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Application">
@@ -210,10 +197,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die Spalten in der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt automatisch von Outlook geändert werden. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn diese Eigenschaft auf <b>False</b>festgelegt ist und die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> -Eigenschaft des <b>TableView</b> -Objekts wird automatisch auf <b>OlAlwaysSingleLine</b>festgelegt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn diese Eigenschaft auf <b>False</b>festgelegt ist und die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> -Eigenschaft des <b>TableView</b> -Objekts wird automatisch auf <b>OlAlwaysSingleLine</b>festgelegt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutomaticGrouping">
@@ -244,10 +229,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die automatische Gruppierung in aktiv ist die <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn diese Eigenschaft auf <b>True</b>festgelegt ist, werden die Elemente in der Ansicht entsprechend der Anordnung auf der Outlook-Benutzeroberfläche angegeben automatisch gruppiert. Wenn diese Eigenschaft auf <b>False</b>festgelegt ist, werden Elemente in der Ansicht entsprechend den Inhalt der gruppiert die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> Eigenschaft.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn diese Eigenschaft auf <b>True</b> festgelegt ist, werden die Elemente in der Ansicht entsprechend der Anordnung auf der Outlook-Benutzeroberfläche angegeben automatisch gruppiert. Wenn diese Eigenschaft auf <b>False</b>festgelegt ist, werden Elemente in der Ansicht entsprechend den Inhalt der gruppiert die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.GroupByFields" /> Eigenschaft.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="AutoPreview">
@@ -479,10 +462,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der den Filter für eine Ansicht darstellt.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft ist eine Zeichenfolge, in der DAV Searching and Locating (DASL) Syntax, die den aktuellen Filter für die Ansicht darstellt. Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert dieser Eigenschaft ist eine Zeichenfolge in der DASL-Syntax, die den aktuellen Filter für die Ansicht darstellt. Weitere Informationen zur Verwendung der DASL-Syntax zum Filtern von Elementen in einer Ansicht finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GetTable">
@@ -508,14 +489,14 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> -Objekt, das alle Microsoft Outlook-Elemente darstellt, die in enthalten sind ein <see cref="T:Microsoft.Office.Interop.Outlook.TableView" />Objekt.</summary>
         <returns>Gibt ein <b>Table</b>-Objekt, dessen Zeilen Elemente in der aktuellen Tabellenansicht darstellen.</returns>
-        <remarks>
-          <para>Die <b>GetTable</b> -Methode des <b>TableView</b> -Objekts gibt eine Tabelle mit Elementen aus einem oder mehreren Ordnern im selben oder mehreren Informationsspeichern, in einer aggregierten Ansicht zurück. Beispiel einer aggregierten Ansicht durch eine Suche über alle e-Mail-Elemente mithilfe der Sofortsuche abgerufen. Dieses Verhalten weicht von der <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das ein Table-Objekt abgerufen, die Elemente im gleichen Ordner enthält.</para>
+        <remarks><para>Die <b>GetTable</b> -Methode des <b>TableView</b> -Objekts gibt eine Tabelle mit Elementen aus einem oder mehreren Ordnern im selben oder mehreren Informationsspeichern, in einer aggregierten Ansicht zurück. Beispiel einer aggregierten Ansicht durch eine Suche über alle e-Mail-Elemente mithilfe der Sofortsuche abgerufen. Dieses Verhalten weicht von der <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> -Objekt, das ein Table-Objekt abgerufen, die Elemente im gleichen Ordner enthält.</para>
           <para>Das übergeordnete <b>TableView</b> -Objekt muss basieren auf dem aktuellen Ordner des aktiven Explorers, durch die <see cref="P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder" /> -Eigenschaft des aktiven <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Objekt. Wenn der Ordner keinen aktuellen Ordner eines Explorers sichtbar ist, oder wenn die Ansicht des Ordners, der durch angegeben wird die <see cref="P:Microsoft.Office.Interop.Outlook.MAPIFolder.CurrentView" /> -Eigenschaft, ist keiner Tabellenansicht, gibt Outlook einen Fehler zurück.</para>
           <para>Der Filter für die resultierende Tabelle wird festgelegt, indem die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" /> -Eigenschaft des <b>TableView</b> -Objekts. Wenn die <b>Filter</b> -Eigenschaft des <b>TableView</b> -Objekts nicht leer ist, gibt <b>GetTable</b> ein <b>Table</b> -Objekt mit Zeilen, die die gefilterte Teilmenge der Elemente in der Ansicht darstellen. Wenn anschließend die <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> -Methode aufgerufen wird, für die resultierende Tabelle, Anwenden der <b>Restrict</b> -Methode entspricht eine Operation mit dem Filter, dargestellt durch <see cref="P:Microsoft.Office.Interop.Outlook._TableView.Filter" />.</para>
-          <b>
-            <para>GetTable eine <b>Tabelle</b> mit der Spalte Standardsatz ein. <b>GetTable</b> gibt keine zurück eine <b>Tabelle</b> mit Spalten für jedes Feld in der <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> Auflistung der aktuellen Ansicht. Weitere Informationen über die standardspaltensammlung einer Tabelle basierend auf den Ordnertyp finden Sie unter in einem Table-Objekt angezeigte Standardeigenschaften. Verwenden, um die standardspaltensammlung zu ändern, die <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, oder <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> -Auflistungsobjekt. Eigenschaften, die Sie zu einer Tabelle hinzufügen können nicht als Spalten in nicht unterstützte Eigenschaften in einem Table-Objekt oder Table-Filter aufgeführt sind.</para>
-          </b> Die Reihenfolge der Zeilen in der Ergebnistabelle 
-          <para>ist nicht unbedingt identisch mit der Reihenfolge der Elemente in der aktuellen Ansicht auf der <b>GetTable</b> basiert. Beispielsweise gibt <b>GetTable</b> keine Tabelle mit einer Zeile zurück, die eine Gruppe von Kopfzeile in der Ansicht darstellt. Verwenden Sie zum Sortieren der Zeilen in der Tabelle von <b>GetTable</b>zurückgegeben, die <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> -Methode des <b>Table</b> -Objekts.</para><para>, Der übergeordnete Objekt des <b>GetTable</b> zurückgegebene <b>Table</b> -Objekts ist das <b>TableView</b> -Objekt. Das übergeordnete Objekt des <b>TableView</b> -Objekts ist die <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> -Auflistung und der übergeordnete Objekt der <b>Views</b> -Auflistung ist <b>das Ordnerobjekt</b> .</para><para /></remarks>
+          <para>
+            <b>GetTable</b> gibt eine <b>Tabelle</b> mit den standardspaltensammlung zurück. <b>GetTable</b> gibt keine zurück eine <b>Tabelle</b> mit Spalten für jedes Feld in der <see cref="T:Microsoft.Office.Interop.Outlook.ViewFields" /> Auflistung der aktuellen Ansicht. Weitere Informationen über die standardspaltensammlung einer Tabelle basierend auf den Ordnertyp finden Sie unter in einem Table-Objekt angezeigte Standardeigenschaften. Verwenden, um die standardspaltensammlung zu ändern, die <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" />, <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Remove(System.Object)" />, oder <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> Methoden für die <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> -Auflistungsobjekt. Eigenschaften, die Sie zu einer Tabelle hinzufügen können nicht als Spalten in nicht unterstützte Eigenschaften in einem Table-Objekt oder Table-Filter aufgeführt sind.</para>
+          <para>Die Reihenfolge der Zeilen in der Ergebnistabelle ist nicht unbedingt identisch mit der Reihenfolge der Elemente in der aktuellen Ansicht auf der <b>GetTable</b> basiert. Beispielsweise gibt <b>GetTable</b> keine Tabelle mit einer Zeile zurück, die eine Gruppe von Kopfzeile in der Ansicht darstellt. Verwenden Sie zum Sortieren der Zeilen in der Tabelle von <b>GetTable</b>zurückgegeben, die <see cref="M:Microsoft.Office.Interop.Outlook._Table.Sort(System.String,System.Object)" /> -Methode des <b>Table</b> -Objekts.</para>
+          <para>Das übergeordnete Objekt des <b>Table</b> -Objekts zurückgegebenen <b>GetTable</b> ist das <b>TableView</b> -Objekt. Das übergeordnete Objekt des <b>TableView</b> -Objekts ist das <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> -Auflistung und der übergeordnete Objekt der <b>Views</b> -Auflistung ist das <b>Folder</b> -Objekt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="GoToDate">
@@ -664,11 +645,9 @@
       <Docs>
         <summary>Zurückgeben oder festlegen einen <b>Zeichenfolge</b> (<b>String</b> in c#)-Wert, der die Einstellung der Sprache für die Ansicht darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen. Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</para>
-          <para>Wenn ein gültiger Sprachcode angegeben wird, das Objekt werden nur im Menü Ansicht für die angegebene Sprachtyp verfügbar. Wenn kein Wert angegeben ist, ist das Object-Element für alle Sprachen verfügbar. Der Standardwert für diese Eigenschaft ist eine leere Zeichenfolge.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <b>Language</b> -Eigenschaft verwendet eine <b>Zeichenfolge</b> (<b>String</b> in c#), um ein ISO-Sprachkennzeichen darzustellen. Beispielsweise stellt die Zeichenfolge "EN-US" den ISO-Code für "United States - English."</para>
+          <para>Wenn ein gültiger Sprachcode angegeben ist, steht das Objekt nur im Menü Ansicht für den angegebenen Sprachtyp zur Verfügung. Wenn kein Wert angegeben ist, ist das Objektelement für alle Sprachtypen verfügbar. Der Standardwert dieser Eigenschaft ist eine leere Zeichenfolge.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="LockUserChanges">
@@ -699,10 +678,8 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob ein Benutzer die Einstellungen der Ansicht ändern kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn <b>True</b>, der Benutzer die Einstellungen der angegebenen Ansicht ändern kann. Änderungen an der Benutzeroberfläche werden jedoch nicht gespeichert werden. Wenn <b>False</b> (Standard), alle Änderungen gespeichert werden.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MaxLinesInMultiLineView">
@@ -733,10 +710,8 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die maximale Anzahl der Zeilen im mehrzeiligen Modus für angezeigt bestimmt die <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Diese Eigenschaft kann auf einen Wert zwischen 2 und 20 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 2 festgelegt ist, wird die Eigenschaft auf 2 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Der Standardwert für diese Eigenschaft ist 2.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft kann auf einen Wert zwischen 2 und 20 festgelegt werden. Wenn diese Eigenschaft auf einen Wert festgelegt ist, der niedriger als 2 ist, wird die Eigenschaft auf 2 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 20 festgelegt ist, wird die Eigenschaft auf 20 festgelegt. Der Standardwert für diese Eigenschaft ist 2.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLine">
@@ -767,10 +742,8 @@
       <Docs>
         <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMultiLine" /> -Konstante, die bestimmt, wie mehrere Zeilen angezeigt werden, in der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn der Wert der der <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" /> -Eigenschaft auf <b>False</b> festgelegt ist oder, wenn der Wert der <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft auf <b>True</b>festgelegt ist, wird der Wert dieser Eigenschaft automatisch auf <b>OlAlwaysSingleLine</b>festgelegt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Wenn der Wert der der <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AutomaticColumnSizing" /> -Eigenschaft auf <b>False</b> festgelegt ist oder, wenn der Wert der <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft auf <b>True</b>festgelegt ist, wird der Wert dieser Eigenschaft automatisch auf <b>OlAlwaysSingleLine</b>festgelegt.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="MultiLineWidth">
@@ -801,11 +774,9 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Textbreite (in Zeichen) erforderlich, um die multiline-Modus in auslösen darstellt der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Lese-/Schreibzugriff</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Kann diese Eigenschaft auf einen Wert zwischen 1 und 999 festgelegt werden. Wenn diese Eigenschaft auf einen Wert kleiner als 1 festgelegt ist, wird die Eigenschaft auf 1 festgelegt. Wenn diese Eigenschaft auf einen Wert größer als 999 festgelegt ist, wird die Eigenschaft bis 999 festgelegt. Der Standardwert für diese Eigenschaft ist 100.</para>
-          <para>Diese Eigenschaft gilt nur, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> -Eigenschaft des <b>TableView</b> -Objekts auf <b>OlWidthMultiLine</b>festgelegt ist. Der Wert dieser Eigenschaft bestimmt den Punkt, an dem das <b>TableView</b> -Objekt Text für ein Outlook-Element im mehrzeiligen Modus angezeigt.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Eigenschaft kann auf einen Wert zwischen 1 und 999 festgelegt werden. Wenn diese Eigenschaft auf einen Wert festgelegt ist, der niedriger als 1 ist, wird die Eigenschaft auf 1 festgelegt. Wenn diese Eigenschaft auf einen Wert festgelegt ist, der größer als 999 ist, wird die Eigenschaft auf 999 festgelegt. Der Standardwert für diese Eigenschaft lautet 100.</para>
+          <para>Diese Eigenschaft gilt nur, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.MultiLine" /> -Eigenschaft des <b>TableView</b> -Objekts auf <b>OlWidthMultiLine</b>festgelegt ist. Der Wert dieser Eigenschaft bestimmt den Punkt, an dem das <b>TableView</b> -Objekt für ein Outlook-Element im mehrzeiligen Modus Textanzeige.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -889,10 +860,8 @@
       <Parameters />
       <Docs>
         <summary>Setzt eine integrierte Microsoft Outlook-Ansicht auf ihre ursprünglichen Einstellungen zurück.</summary>
-        <remarks>
-          <para>Diese Methode funktioniert nur für integrierte Outlook-Ansichten.</para>
-          <para />
-        </remarks>
+        <remarks><para>Diese Methode ist nur für integrierte Outlook-Ansichten funktionsfähig.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="RowFont">
@@ -973,10 +942,8 @@
       <Docs>
         <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlViewSaveOption" /> -Konstante, die Ordner angibt, in dem die angegebene Ansicht zur Verfügung steht, und die Berechtigungen lesen, der Ansicht zugeordnet ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert der <b>SaveOption</b> -Eigenschaft wird festgelegt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> -Objekt wird erstellt, mit der <see cref="M:Microsoft.Office.Interop.Outlook._Views.Add(System.String,Microsoft.Office.Interop.Outlook.OlViewType,Microsoft.Office.Interop.Outlook.OlViewSaveOption)" /> -Methode des der <see cref="T:Microsoft.Office.Interop.Outlook.Views" /> Auflistung. </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="Session">
@@ -1004,16 +971,14 @@
       <Docs>
         <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
           <code>Outlook.NameSpace objNamespace = 
     Application.GetNamespace("MAPI");</code>
           <code>Outlook.NameSpace objSession = Application.Session;</code>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationByDate">
@@ -1044,14 +1009,12 @@
       <Docs>
         <summary>Zurückgeben oder festlegen ein <b>Boolean</b> (<b>Bool</b> in c#) Werts, das angibt, ob Elemente in einer Unterhaltung durch das Empfangsdatum und die Uhrzeit, mit dem neuesten Element im Vordergrund vertikal linksbündig ausgerichteten und sortiert sind. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Wenn die Tabellenansicht nicht nach Unterhaltungen organisiert ist, wird durch Festlegen der <b>ShowConversationByDate</b> -Eigenschaft keine Elemente in der Ansicht neu organisiert. Überprüfen Sie zum Anzeigen von Elementen nach Unterhaltungen, in der Gruppe Unterhaltungen der Registerkarte Ansicht in der Microsoft Office Fluent-Multifunktionsleiste anzeigen als Unterhaltungen.</para>
-          <para>Unterhaltungselementen links ausgerichtet und ordnet sie nach ihren empfangenen Datum und Uhrzeit, mit dem neuesten Element im Vordergrund vertikal <b>ShowConversationByDate</b> -Eigenschaft auf <b>True</b> festlegen. Diese Organisation in der Unterhaltungsansicht ist dieselbe wie die Verwendung eingerückt Standardansicht Einstellung im Menü Unterhaltungen Einstellungen in der Gruppe Unterhaltungen des Menübands deaktiviert lassen.</para>
-          <para>Eingezogen Unterhaltungselementen und ordnet sie nach ihren empfangenen Datum und Uhrzeit mit dem frühesten Element im Vordergrund die <b>ShowConversationByDate</b> -Eigenschaft auf <b>False</b> festlegen. Im Stammverzeichnis des jeder Thread der Unterhaltung wird zuerst angezeigt, gefolgt von Elemente, die zu diesem Thread, jedes als links vom letzten eingerückt gehören. Diese Organisation in der Unterhaltungsansicht ist dieselbe wie die Einstellung Verwendung eingerückt Standardansicht ausgewählt haben, klicken Sie im Menü Unterhaltungen Einstellungen in der Gruppe Unterhaltungen des Menübands.</para>
-          <para>Eine Änderung der <b>ShowConversationByDate</b> -Eigenschaft Anruf Anwenden der <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> Methode. Unterhaltungen werden dann angezeigt, wie in der Unterhaltungsansicht reduziert. Wenn Sie eine Unterhaltung erweitern, sehen Sie Elemente in der Unterhaltung neu organisiert und wie Sie festlegen, dass die <b>ShowConversationByDate</b> -Eigenschaft angezeigt.</para>
-          <para />
-          <para />
-        </remarks>
+        <remarks><para>Wenn die Tabellenansicht nicht nach Unterhaltungen organisiert ist, wird durch Festlegen der <b>ShowConversationByDate</b> -Eigenschaft keine Elemente in der Ansicht neu organisiert. Aktivieren Sie zum Anzeigen von Elementen von Unterhaltung klicken Sie in der Gruppe Unterhaltungen der Registerkarte Ansicht in der Microsoft Office Fluent-Multifunktionsleiste anzeigen als Unterhaltungen.</para>
+          <para>Vertikal durch Festlegen der <b>ShowConversationByDate</b> -Eigenschaft auf <b>true fest,</b> Unterhaltungselementen links ausgerichtet und ordnet sie nach ihren empfangenen Datum und Uhrzeit, mit dem neuesten Element im Vordergrund. Diese Organisation in der Unterhaltungsansicht ist identisch mit dem die Verwendung eingerückt Standardansicht Einstellung im Menü Unterhaltungen Einstellungen in der Gruppe Unterhaltungen des Menübands deaktiviert.</para>
+          <para>Festlegen der <b>ShowConversationByDate</b> -Eigenschaft auf <b>False</b> Unterhaltungselementen eingezogen und ordnet sie nach ihren empfangenen Datum und Uhrzeit mit dem frühesten Element im Vordergrund. Im Stammverzeichnis des jeder Thread der Unterhaltung wird zuerst angezeigt, gefolgt von Elemente, die zu diesem Thread, jedes als links vom letzten eingerückt gehören. Diese Organisation in der Unterhaltungsansicht ist identisch mit die Verwendung eingerückt Standardansicht Einstellung im Menü Unterhaltungen Einstellungen in der Gruppe Unterhaltungen des Menübands ausgewählt haben.</para>
+          <para>Wenn eine Änderung der <b>ShowConversationByDate</b> -Eigenschaft anwenden möchten, rufen Sie die <see cref="M:Microsoft.Office.Interop.Outlook._TableView.Apply" /> Methode. Unterhaltungen werden dann angezeigt, wie in der Unterhaltungsansicht reduziert. Wenn Sie eine Unterhaltung erweitern, sehen Sie Elemente in der Unterhaltung neu organisiert und Festlegen der <b>ShowConversationByDate</b> -Eigenschaft wie angezeigt.</para>
+          <para> </para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowConversationSendersAboveSubject">
@@ -1082,11 +1045,9 @@
       <Docs>
         <summary>Gibt, oder legt einen <b>Boolean</b> (<b>Bool</b> in c#)-Wert, der angibt, ob die Tabellenansicht teilnehmenden Absender oberhalb der Betreffzeile in der unterhaltungskopfzeile oder darunter angezeigt wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>
+        <remarks><para>
             <b>True</b> gibt an, dass in die Tabellenansicht teilnehmenden Absender oberhalb der Betreffzeile in der unterhaltungskopfzeile angezeigt. <b>False</b> gibt an, dass die Tabellenansicht teilnehmenden Absender unterhalb der Betreffzeile in der unterhaltungskopfzeile angezeigt.</para>
-          <para />
-        </remarks>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowFullConversations">
@@ -1117,14 +1078,11 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob im Rahmen der Unterhaltung in der Tabellenansicht Unterhaltungselementen aus anderen Ordnern, wie der Ordner Gesendete Objekte angezeigt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <b>ShowFullConversations</b> -Eigenschaft wird wirksam, nur, wenn die aktuelle Tabellenansicht Elemente nach Datum und Unterhaltung anzeigt.</para>
+        <remarks><para>Die <b>ShowFullConversations</b> -Eigenschaft wirksam nur, wenn die aktuelle Tabellenansicht Elemente nach Datum und Unterhaltung anzeigt.</para>
           <para>
             <b>True</b> gibt an, dass Elemente der gleichen Unterhaltung als Teil der Unterhaltung in der Tabellenansicht standardmäßig angezeigt werden. <b>False</b> gibt an, dass nur Unterhaltungselementen im aktuellen Ordner in der Tabellenansicht angezeigt werden.</para>
-          <para>
-            <b>Die ShowFullConversations</b> -Eigenschaft entspricht dem Auswählen von Nachrichten anzeigen aus anderen Ordnern im Menü Unterhaltungen der Gruppe Anordnung auf der Registerkarte Ansicht des Microsoft Office Fluent-Menüband.</para>
-          <para />
-        </remarks>
+          <para>Die <b>ShowFullConversations</b> -Eigenschaft entspricht dem Auswählen von Nachrichten anzeigen aus anderen Ordnern im Menü Unterhaltungen der Gruppe Anordnung auf der Registerkarte Ansicht des Microsoft Office Fluent-Menüband.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowItemsInGroups">
@@ -1186,10 +1144,8 @@
       <Docs>
         <summary>Zurückgeben oder festlegen ein <b>booleschen</b> (<b>Bool</b> in c#) Werts, der bestimmt, ob die neue Elementzeile in angezeigt wird der <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> Objekt. Lese-/Schreibzugriff</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Der Wert dieser Eigenschaft gilt nur, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft auf <b>True</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Der Wert dieser Eigenschaft gilt nur, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._TableView.AllowInCellEditing" /> -Eigenschaft auf <b>True</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ShowReadingPane">
@@ -1313,10 +1269,8 @@
       <Docs>
         <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob die <see cref="T:Microsoft.Office.Interop.Outlook.TableView" /> -Objekt ist eine integrierte Outlook-Ansicht. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</para>
-          <para />
-        </remarks>
+        <remarks><para>Die <see cref="M:Microsoft.Office.Interop.Outlook.View.Reset" /> Methode kann nur in einer Ansicht verwendet werden, wenn der Wert dieser Eigenschaft auf <b>True</b>festgelegt ist.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
     <Member MemberName="ViewFields">
@@ -1403,11 +1357,9 @@
       <Docs>
         <summary>Gibt zurück oder legt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die XML-Definition der Ansicht angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks>
-          <para>Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Tags und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Wenn die Ansicht erstellt wird, wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht gerendert.</para>
-          <para>, Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen, und klicken Sie dann können Sie die <b>XML</b> -Eigenschaft für diese Ansicht abrufen strukturiert werden soll.  </para>
-          <para />
-        </remarks>
+        <remarks><para>Die XML-Definition beschreibt den Ansichtstyp mithilfe einer Reihe von Kennzeichen und Schlüsselwörtern, die verschiedenen Eigenschaften der eigentlichen Ansicht entsprechen. Beim Erstellen der Ansicht wird die XML-Definition analysiert, um die Einstellungen für die neue Ansicht zu erhalten.</para>
+          <para>Um zu bestimmen, wie der XML-Code beim Erstellen von Ansichten strukturiert werden soll, können Sie eine Ansicht mithilfe der Outlook-Benutzeroberfläche erstellen und Sie können die <b>XML</b> -Eigenschaft für diese Ansicht abrufen.</para>
+          <para> </para></remarks>
       </Docs>
     </Member>
   </Members>
