@@ -1,5 +1,5 @@
 <Type Name="_Items" FullName="Microsoft.Office.Interop.Outlook._Items">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="90ccbcb3fe07f548327e1919c5fa54fecbde32ba" /><Meta Name="ms.sourcegitcommit" Value="8bffa304e2953ca61fa94459dd08997552262640" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="04/05/2019" /><Meta Name="ms.locfileid" Value="31479562" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="90ccbcb3fe07f548327e1919c5fa54fecbde32ba" /><Meta Name="ms.sourcegitcommit" Value="9e48edef9d279c87fa2fbd78f150bc92c2332179" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="04/13/2021" /><Meta Name="ms.locfileid" Value="51691749" /></Metadata><TypeSignature Language="C#" Value="public interface _Items : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Items implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Items" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Items&#xA;Implements IEnumerable" />
@@ -22,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Hierbei handelt es sich um eine primäre Schnittstelle in einer COM-CoClass, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, die Sie verwenden möchten, den gleichen Namen aufweist wie ein Ereignis des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um die Methode aufzurufen, und casten Sie zur aktuellen Ereignisschnittstelle, um eine Verbindung zum Ereignis herzustellen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen. Informationen zum COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Items" />.</summary>
+    <summary>Hierbei handelt es sich um eine primäre Schnittstelle in einer COM-CoClass, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, die Sie verwenden möchten, den gleichen Namen aufweist wie ein Ereignis des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um die Methode aufzurufen, und casten Sie zur aktuellen Ereignisschnittstelle, um eine Verbindung zum Ereignis herzustellen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen. Weitere Informationen zum COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -48,10 +48,10 @@
         <Parameter Name="Type" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Type">Outlook-Elementtyp für das neue Element. Gibt eine <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" /> zum Erstellen benutzerdefinierter Formulare an. Kann eine der folgenden <b>OlItemType</b> -Konstanten sein: <b>OlAppointmentItem</b>, <b>OlContactItem</b>, <b>OlJournalItem</b>, <b>OlMailItem</b>, <b>OlNoteItem</b>, <b>OlPostItem</b> oder <b>OlTaskItem,</b> oder eine beliebige gültige Nachrichtenklasse.</param>
-        <summary>Erstellt ein neues Outlook-Element in <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> der Auflistung für den Ordner.</summary>
+        <param name="Type">Outlook-Elementtyp für das neue Element. Gibt ein <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.MessageClass" /> an, um benutzerdefinierte Formulare zu erstellen. Kann eine der folgenden <b>OlItemType</b> -Konstanten sein: <b>OlAppointmentItem</b>, <b>OlContactItem</b>, <b>OlJournalItem</b>, <b>OlMailItem</b>, <b>OlNoteItem</b>, <b>OlPostItem</b> oder <b>OlTaskItem,</b> oder eine beliebige gültige Nachrichtenklasse.</param>
+        <summary>Erstellt ein neues Outlook-Element in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung für den Ordner.</summary>
         <returns>Ein Objektwert, der das neue Outlook-Element darstellt.</returns>
-        <remarks><para>Wenn nicht angegeben, ist die <b>Type</b> -Eigenschaft des Outlook-Elements standardmäßig auf den Typ des Ordners <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> oder auf, wenn der übergeordnete Ordner nicht eingegeben wird.</para>
+        <remarks><para>Wenn die Type-Eigenschaft des Outlook-Elements nicht angegeben wird, wird standardmäßig der Typ des Ordners oder der übergeordnete Ordner nicht <b></b> <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> typiert.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -78,7 +78,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Object zurück, das die übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" />  Objekt zurück, das die übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -134,7 +134,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>Integer</b> (<b>int</b> in C#)-Wert zurück, der die Anzahl der Objekte in der angegebenen Auflistung angibt. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>Wert vom Typ Integer</b> (<b>int</b> in C#) zurück, der die Anzahl der Objekte in der angegebenen Auflistung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -163,10 +163,10 @@
       </Parameters>
       <Docs>
         <param name="Filter">Eine Zeichenfolge, die die Kriterien angibt, die das zurückgegebene Objekt erfüllen muss.</param>
-        <summary>Sucht und gibt ein Outlook-Element Objekt zurück, das dem angegebenen <paramref name="Filter" />entspricht.</summary>
-        <returns>Ein Object-Wert, der ein Outlook-Element darstellt, wenn der Aufruf erfolgreich ist; gibt <b>Nothing</b> (NULL-Verweis (Nothing in Visual Basic) in C#) zurück, wenn ein Fehler auftritt.</returns>
-        <remarks><para>Verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> -Methode, um <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> die Inhalts Indizierungs Suche in der Auflistung zu verwenden. <b>FindRow</b> gibt einen Fehler zurück, <paramref name="Filter" /> Wenn Inhalts Indizierungs Schlüsselwörter enthalten. Weitere Informationen zu Inhalts Indizierungs Schlüsselwörtern finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87947">Filtern von Elementen mithilfe von Abfrageschlüsselwörtern</a></para>
-          <para>Die-Methode gibt einen Fehler mit den folgenden Eigenschaften in der <paramref name="Filter" />zurück: </para>
+        <summary>Sucht und gibt ein Outlook-Elementobjekt zurück, das dem angegebenen <paramref name="Filter" /> entspricht.</summary>
+        <returns>Ein Object-Wert, der ein #A0 darstellt, wenn der Aufruf erfolgreich ist. gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn ein Fehler auftritt.</returns>
+        <remarks><para>Verwenden Sie die Methode, um die Inhaltsindizierungssuche in <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> der Auflistung <see cref="M:Microsoft.Office.Interop.Outlook._Items.Restrict(System.String)" /> zu verwenden. <b>FindRow</b> gibt einen Fehler zurück, wenn <paramref name="Filter" /> schlüsselwörter für die Inhaltsindizierung enthalten sind. Weitere Informationen zu Schlüsselwörtern für die Inhaltsindizierung finden Sie <a href="http://go.microsoft.com/fwlink/?LinkId=87947">unter Filtern von Elementen mithilfe von Abfrageschlüsselwörtern.</a></para>
+          <para>Die Methode gibt einen Fehler mit den folgenden Eigenschaften in der <paramref name="Filter" /> zurück: </para>
           <list type="table">
             <item>
               <description>BodyCategoriesChildrenClassCompaniesCompanyLastFirstNoSpaceCompanyLastFirstSpaceOnlyContactNamesContactsConversationIndexDLNameEmail1EntryIDEmail2EntryIDEmail3EntryIDEntryIDHTMLBodyIsOnlineMeetingLastFirstAndSuffixLastFirstNoSpaceAutoResolvedWinnerBodyFormatInternetCodePagePermission</description>
@@ -176,54 +176,54 @@
           <para>Filter für die Suchen und Einschränken-Methode erstellen</para>
           <para>Die Syntax für den Filter variiert je nach dem Typ des Felds, das Sie filtern möchten.</para>
           <para>String (für Textfelder) </para>
-          <para>Beim Durchsuchen von Text Feldern können Sie entweder ein Apostroph (') oder doppelte Anführungszeichen ("") verwenden, um die Werte zu begrenzen, die Teil des Filters sind. Beispielsweise funktionieren alle der folgenden Zeilen ordnungsgemäß, wenn das Feld vom Typ <b>String</b> (<b>Zeichenfolge</b> in C#) ist: </para>
-          <para>sFilter = "[CompanyName] = ' Microsoft '" </para>
-          <para>sFilter = "[CompanyName] =" "Microsoft" "" </para>
-          <para>sFilter = "[CompanyName] =" &amp; Chr (34) &amp; "Microsoft" &amp; Chr (34)</para>
+          <para>Beim Durchsuchen von Textfeldern können Sie entweder ein Apostroph (') oder doppelte Anführungszeichen ("") verwenden, um die Werte zu trennen, die Teil des Filters sind. Beispielsweise funktionieren alle folgenden Zeilen ordnungsgemäß, wenn das Feld vom Typ <b>String</b> (<b>string</b> in C#): </para>
+          <para>sFilter = "[CompanyName] = 'Microsoft'" </para>
+          <para>sFilter = "[CompanyName] = ""Microsoft""" </para>
+          <para>sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</para>
           <para>Wenn Sie beim Angeben eines Filters in einer Jet- oder DASL-Abfrage ein Paar einfache Anführungszeichen zum Trennen einer Zeichenfolge verwenden, die Bestandteil des Filters ist, und diese Zeichenfolge ein weiteres einfaches Anführungszeichen oder Apostroph enthält, müssen Sie ein weiteres einfaches Anführungszeichen vor dem zusätzlichen einfachen Anführungszeichen bzw. Apostroph als Escapezeichen hinzufügen. Gehen Sie ähnlich vor, wenn ein Paar doppelte Anführungszeichen zum Trennen einer Zeichenfolge verwendet wird. Enthält die Zeichenfolge bereits ein doppeltes Anführungszeichen, fügen Sie ein weiteres doppeltes Anführungszeichen als Escapezeichen vor diesem doppelten Anführungszeichen hinzu.</para>
-          <para>In der DASL-Filterzeichenfolge, die filtert, dass die <b>Subject</b> -Eigenschaft gleich dem Wort "nicht" ist, wird die gesamte Filterzeichenfolge durch ein paar doppelter Anführungszeichen getrennt, und die eingebettete Zeichenfolge kann nicht durch ein paar von einfachen Anführungszeichen voneinander getrennt werden. Es gibt drei Zeichen, die Sie in dieser Filterzeichenfolge entfliehen müssen: die beginnende doppelte Anführungszeichen und die enddoppelte Anführungsstrich für den Eigenschaftenverweis von http://schemas.microsoft.com/mapi/proptag/0x0037001f, und das Apostroph in der Wert Bedingung für das Wort kann nicht. Durch Anwendung der geeigneten Escapezeichen kann die Filterzeichenfolge wie folgt ausgedrückt werden:</para>
-          <para>Filter = "@SQL="http://schemas.microsoft.com/mapi/proptag/0x0037001f"" "" = ' kann ' 't ' "</para>
+          <para>In der DASL-Filterzeichenfolge, die nach der <b>Subject-Eigenschaft</b> filtert, die dem Wort entspricht, ist die gesamte Filterzeichenfolge beispielsweise durch ein Paar doppelter Anführungszeichen getrennt, und die eingebettete Zeichenfolge kann nicht durch ein Paar einzelner Anführungszeichen getrennt werden. Es gibt drei Zeichen, die Sie in dieser Filterzeichenfolge escapen müssen: das startende doppelte Anführungszeichen und das endende doppelte Anführungszeichen für den Eigenschaftenverweis von , und das Apostroph in der Wertbedingung für das Wort kann http://schemas.microsoft.com/mapi/proptag/0x0037001f nicht. Durch Anwendung der geeigneten Escapezeichen kann die Filterzeichenfolge wie folgt ausgedrückt werden:</para>
+          <para>filter = "@SQL="" http://schemas.microsoft.com/mapi/proptag/0x0037001f "" = 'can''t'"</para>
           <para>Alternativ können Sie die chr(34)-Funktion verwenden, um das doppelte Anführungszeichen darzustellen (dessen ASCII-Zeichenwert "34" ist), das als Escapezeichen verwendet wird. Unter Verwendung der chr(34)-Ersetzung für ein doppeltes Anführungszeichen als Escapezeichen können Sie das letzte Beispiel wie folgt ausdrücken:</para>
-          <para>Filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</para>
-          <para>    &amp;Chr (34) &amp; "=" &amp; "' kann ' 't '"</para>
+          <para>filter = "@SQL= " &amp; Chr(34) &amp; " " http://schemas.microsoft.com/mapi/proptag/0x0037001f _</para>
+          <para>    &amp; Chr(34) &amp; " = " &amp; "'can't'"</para>
           <para>Das Escapen von einfachen und doppelten Anführungszeichen ist ebenfalls in DASL-Abfragen mit den Operatoren <b>ci_startswith</b> und <b>ci_phrasematch</b> erforderlich. Folgende Abfrage führt beispielsweise eine Begriffvergleichsabfrage für can't im Nachrichtenbetreff aus: </para>
-          <para>Filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</para>
-          <para>    &amp;Chr (34) &amp; "ci_phrasematch" &amp; "" kann ' t ' "</para>
-          <para>Ein weiteres Beispiel ist eine DASL-Filterzeichenfolge, die filtert, dass die <b>Subject</b> -Eigenschaft den Wörtern das richtige entspricht, wobei das Wort stuff mit doppelten Anführungszeichen eingeschlossen ist. In diesem Fall müssen die umschließenden doppelten Anführungszeichen wie folgt escapet werden:</para>
-          <para>Filter = "@SQL="http://schemas.microsoft.com/mapi/proptag/0x0037001f"" "= ' der richtige" "stuff" "'"</para>
+          <para>filter = "@SQL=" &amp; Chr(34) &amp; " http://schemas.microsoft.com/mapi/proptag/0x0037001E " _</para>
+          <para>    &amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can't'"</para>
+          <para>Ein weiteres Beispiel ist eine DASL-Filterzeichenfolge, die filtert, dass die <b>Subject-Eigenschaft</b> den Wörtern entspricht, die dem richtigen Zeug entspricht, wobei das Wortzeug durch doppelte Anführungszeichen eingeschlossen wird. In diesem Fall müssen die umschließenden doppelten Anführungszeichen wie folgt escapet werden:</para>
+          <para>filter = "@SQL="" http://schemas.microsoft.com/mapi/proptag/0x0037001f "" = 'the right ""stuff""'"</para>
           <para>Ein anderer Satz von Escaperegeln gilt für Eigenschaftenverweise bei benannten Eigenschaften, die ein Leerzeichen, ein einfaches oder ein doppeltes Anführungszeichen enthalten. Weitere Informationen finden Sie unter Eigenschaften nach Namespace referenzieren.</para>
           <para>Datum</para>
-          <para>Obwohl Datums-und Uhrzeitangaben in der Regel mit einem Datumsformat gespeichert werden, erfordern die Methoden Find und Restrict, dass das Datum und die Uhrzeit in eine Zeichenfolgendarstellung konvertiert werden. Um sicherzustellen, dass das Datum wie von Microsoft Outlook erwartet formatiert ist, verwenden Sie die Funktion Format. The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M. </para>
-          <para>sFilter = "[LastModificationTime] &gt; '" &amp; Format ("1/15/99 3:19:30", "ddddd h:NN ampm") &amp; "'"</para>
+          <para>Obwohl Datums- und Uhrzeitangaben in der Regel mit einem Date-Format gespeichert werden, erfordern die Methoden Suchen und Einschränken, dass Datum und Uhrzeit in eine Zeichenfolgendarstellung konvertiert werden. Um sicherzustellen, dass das Datum wie von Microsoft Outlook erwartet formatiert ist, verwenden Sie die Funktion Format. The following example creates a filter to find all contacts that have been modified after January 15, 1999 at 3:30 P.M. </para>
+          <para>sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 15:30pm", "ddddd h:nn AMPM") &amp; "'"</para>
           <para>Boolesche Operatoren</para>
           <para>Operatoren vom Typ Boolean (TRUE/FALSE, YES/NO, ON/OFF usw.) dürfen nicht in eine Zeichenfolge konvertiert werden. Wenn Sie z. B. ermitteln möchten, ob das Journal für Kontakte aktiviert ist, können Sie den folgenden Filter verwenden:</para>
-          <para>sFilter = "[Journal] = true" </para>
+          <para>sFilter = "[Journal] = True" </para>
           <para>
-            <b>Hinweis</b>: Wenn Sie Anführungszeichen als Trennzeichen mit booleschen Feldern verwenden, finden Sie in einer leeren Zeichenfolge Elemente, deren Felder false sind, und alle nicht leeren Zeichenfolgensuchen nach Elementen, deren Felder den Wert true haben.</para>
+            <b>Hinweis</b>: Wenn Sie Anführungszeichen als Trennzeichen mit booleschen Feldern verwenden, findet eine leere Zeichenfolge Elemente, deren Felder False sind, und alle nicht leeren Zeichenfolgen finden Elemente, deren Felder True sind.</para>
           <para>Keywords (oder Categories)</para>
-          <para>Das Feld Kategorien ist vom Typ Schlüsselwörter, die für mehrere Werte vorgesehen ist. When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly. Values in the text string are separated by a comma and a space. This typically means that you cannot use the Find and Restrict methods on a keywords field if it contains more than one value. For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the Find and Restrict methods to retrieve all items that are in the Business category. Instead, you can loop through all contacts in the folder and use the Instr function to test whether the string "Business" is contained within the entire keywords field. </para>
+          <para>Das Feld Categories ist von Typschlüsselwörtern, die mehrere Werte enthalten sollen. When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly. Values in the text string are separated by a comma and a space. This typically means that you cannot use the Find and Restrict methods on a keywords field if it contains more than one value. For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the Find and Restrict methods to retrieve all items that are in the Business category. Instead, you can loop through all contacts in the folder and use the Instr function to test whether the string "Business" is contained within the entire keywords field. </para>
           <para>
-            <b>Hinweis</b>: eine mögliche Ausnahme ist, wenn Sie das Feld Kategorien auf zwei oder eine niedrige Anzahl von Werten begrenzen. Dann können Sie die Methoden Find und Restrict mit dem logischen Operator oder verwenden, um alle Geschäftskontakte abzurufen. Zum Beispiel (im Pseudocode): "Unternehmen" oder "Unternehmen, persönlich" oder "Persönlich, Unternehmen" Bei Kategoriezeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden.</para>
+            <b>Hinweis</b>: Eine mögliche Ausnahme ist, wenn Sie das Feld Kategorien auf zwei oder eine niedrige Anzahl von Werten beschränken. Anschließend können Sie die Methoden Find und Restrict mit dem logischen Operator OR verwenden, um alle Geschäftskontakte abzurufen. Zum Beispiel (im Pseudocode): "Unternehmen" oder "Unternehmen, persönlich" oder "Persönlich, Unternehmen" Bei Kategoriezeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden.</para>
           <para>Ganze Zahl</para>
           <para>Das Durchsuchen von Feldern vom Typ Integer ist sowohl mit als auch ohne Anführungszeichen und Trennzeichen möglich. Mithilfe folgender Filter wird nach Kontakten gesucht, die in Outlook 2000 erstellt wurden: </para>
           <para>sFilter = "[OutlookInternalVersion] = 92711" </para>
-          <para>sFilter = "[OutlookInternalVersion] = ' 92711 '"</para>
+          <para>sFilter = "[OutlookInternalVersion] = '92711'"</para>
           <para>Verwenden von Variablen in Filtern</para>
-          <para>Wie im Beispiel der Restrict-Methode veranschaulicht, können Sie Werte aus Variablen als Teil des Filters verwenden. Das folgende Microsoft Visual Basic-Codebeispiel veranschaulicht die Syntax, die Variablen als Teil des Filters verwendet. </para>
+          <para>Wie das Beispiel der Restrict-Methode veranschaulicht, können Sie Werte aus Variablen als Teil des Filters verwenden. Im folgenden Microsoft Visual Basic Codebeispiel wird die Syntax veranschaulicht, die Variablen als Teil des Filters verwendet. </para>
           <para>sFullName = "Dan Wilson" </para>
-          <para> Dieser Ansatz verwendet Chr (34), um den Wert abzugrenzen: sFilter = "[FullName] &amp; =" Chr ( &amp; 34 &amp; ) sFullName Chr (34) </para>
-          <para> Bei diesem Ansatz werden doppelte Anführungszeichen verwendet, um den Wert zu begrenzen: sFilter = "[ &amp; FullName &amp; ] =" "" sFullName "" ""</para>
+          <para> Bei diesem Ansatz wird Chr(34) verwendet, um den Wert zu trennen: sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34) </para>
+          <para> Bei diesem Ansatz werden doppelte Anführungszeichen verwendet, um den Wert zu trennen: sFilter = "[FullName] = """ &amp; sFullName &amp; """"</para>
           <para>Verwenden von logischen Operatoren als Teil des Filters</para>
-          <para>Logische Operatoren, die zulässig sind, sind UND, ODER und NICHT. Es folgen Variationen der Klausel für die Restrict-Methode, sodass Sie mehrere Kriterien angeben können.  </para>
+          <para>Logische Operatoren, die zulässig sind, sind UND, ODER und NICHT. Im Folgenden finden Sie Variationen der Klausel für die Restrict-Methode, sodass Sie mehrere Kriterien angeben können.  </para>
           <para>OR: Der folgende Code gibt alle Kontaktelemente zurück, deren Kategorie entweder "Business" oder "Personal" ist. </para>
-          <para>sFilter = "[categories] = ' Personal ' oder [categories] = ' Business '" </para>
+          <para>sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'" </para>
           <para>AND: Der folgende Code ruft alle persönlichen Kontakte auf, die bei Microsoft arbeiten. </para>
-          <para>sFilter = "[categories] = ' Personal ' und [CompanyName] = ' Microsoft '" </para>
+          <para>sFilter = "[Categories] = 'Personal' and [CompanyName] = 'Microsoft'" </para>
           <para>NOT: Der folgende Code ruft alle persönlichen Kontakte auf, die nicht bei Microsoft arbeiten. </para>
-          <para>sFilter = "[categories] = ' Personal" und nicht ([CompanyName] = ' Microsoft ') "</para>
+          <para>sFilter = "[Categories] = 'Personal' and Not([CompanyName] = 'Microsoft')"</para>
           <para>Zusätzliche Hinweise</para>
-          <para>Wenn Sie versuchen, die Methoden Find oder Restrict mit benutzerdefinierten Feldern zu verwenden, müssen die Felder im Ordner definiert werden, andernfalls tritt ein Fehler auf. Es gibt keine Möglichkeit, eine "contains"-Operation auszuführen. Sie können z. B. nicht mithilfe der Methode Find oder Restrict nach Elementen suchen, die ein bestimmtes Wort im Feld Betreff enthalten. Verwenden Sie stattdessen die AdvancedSearch-Methode, oder durchlaufen Sie alle Elemente im Ordner in einer Schleife, und verwenden Sie die InStr-Funktion, um eine Suche innerhalb eines Felds auszuführen. Mithilfe der Restrict-Methode können Sie nach Elementen suchen, die innerhalb eines bestimmten Bereichs von Zeichen beginnen. Verwenden Sie z. B. den folgenden Filter, um nach allen Kontakten mit einem Nachnamen zu suchen, der mit dem Buchstaben "M" beginnt: </para>
-          <para>sFilter = "[LastName] &gt; ' LZZZ ' und [LastName] &lt; ' N '"</para>
+          <para>Wenn Sie versuchen, die Find- oder Restrict-Methoden mit benutzerdefinierten Feldern zu verwenden, müssen die Felder im Ordner definiert werden, andernfalls tritt ein Fehler auf. Es gibt keine Möglichkeit, eine "contains"-Operation auszuführen. Sie können z. B. nicht mithilfe der Methode Find oder Restrict nach Elementen suchen, die ein bestimmtes Wort im Feld Betreff enthalten. Verwenden Sie stattdessen die AdvancedSearch-Methode, oder durchlaufen Sie alle Elemente im Ordner in einer Schleife, und verwenden Sie die InStr-Funktion, um eine Suche innerhalb eines Felds auszuführen. Mithilfe der Restrict-Methode können Sie nach Elementen suchen, die innerhalb eines bestimmten Bereichs von Zeichen beginnen. Verwenden Sie z. B. den folgenden Filter, um nach allen Kontakten mit einem Nachnamen zu suchen, der mit dem Buchstaben "M" beginnt: </para>
+          <para>sFilter = "[LastName] &gt; 'LZZZ' and [LastName] &lt; 'N'"</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -248,10 +248,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Nachdem die <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> Methode ausgeführt wurde, findet und gibt diese Methode das nächste Outlook-Element in der angegebenen Auflistung zurück.</summary>
+        <summary>Nachdem die Methode ausgeführt wurde, sucht und gibt diese Methode <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  das nächste Outlook-Element in der angegebenen Auflistung zurück.</summary>
         <returns>Ein Objektwert, der das nächste gefundene Outlook-Element in der Auflistung darstellt.</returns>
         <remarks><para> Der Suchvorgang beginnt an der aktuellen Position, die den Ausdruck festgelegte über die <b>Find</b> -Methode entspricht.</para>
-          <para>Die-Methode gibt ein Outlook-Element Objekt zurück, wenn der Aufruf erfolgreich ist; Wenn ein Fehler auftritt, wird <b>Nothing</b> (NULL-Verweis (Nothing in Visual Basic) in C# zurückgegeben).</para>
+          <para>Die Methode gibt ein #A0 zurück, wenn der Aufruf erfolgreich ist. Es gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn ein Fehler auftritt.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -278,7 +278,7 @@
       <Docs>
         <summary>Das erste Objekt in der Auflistung wird zurückgegeben.</summary>
         <returns>Ein Objektwert, der das erste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para>Gibt <b>Nothing</b> zurück, wenn kein erstes Objekt vorhanden ist, zum Beispiel, wenn es keine Objekte in der Auflistung gibt. Um die ordnungsgemäße <b></b>Funktion der GetFirst- <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> ,-und-Methoden in einer umfangreichen Auflistung sicherzustellen, rufen Sie GetFirst auf, bevor Sie GetNext für diese Auflistung aufrufen und GetLast vor dem Aufruf von GetPrevious aufrufen. <b></b> <b></b> <b></b> <b> </b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <remarks><para>Gibt <b>Nothing</b> zurück, wenn kein erstes Objekt vorhanden ist, z. B. wenn keine Objekte in der Auflistung vorhanden sind. Um den korrekten Betrieb der <b>Methoden GetFirst</b>, , und in einer großen Auflistung sicherzustellen, rufen Sie <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> <b>GetFirst</b> auf, bevor <b>Sie GetNext</b> für diese Auflistung aufrufen, und rufen <b>Sie GetLast</b> auf, bevor <b>Sie GetPrevious aufrufen.</b> Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -305,7 +305,7 @@
       <Docs>
         <summary>Das letzte Objekt in der Auflistung wird zurückgegeben.</summary>
         <returns>Ein Objektwert, der das letzte in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para>Wenn kein letztes Objekt vorhanden ist, beispielsweise wenn die Auflistung leer ist, wird <b>Nothing</b> zurückgegeben. <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />Um die ordnungsgemäße Funktion <b></b>der, GetLast, <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />und <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> Methoden in einer umfangreichen Auflistung sicherzustellen, rufen Sie GetFirst vor dem Aufruf von GetNext für diese Auflistung auf, und rufen Sie GetLast vor dem Aufruf von GetPrevious auf. <b></b> <b></b> <b></b> <b> </b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <remarks><para>Es gibt <b>Nothing zurück,</b> wenn kein letztes Objekt vorhanden ist, z. B. wenn die Auflistung leer ist. Um den korrekten Betrieb der Methoden , GetLast , und in einer großen Auflistung sicherzustellen, rufen Sie <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> <b>GetFirst</b> auf, bevor <b>Sie GetNext</b> für diese Auflistung aufrufen, und rufen <b>Sie GetLast</b> auf, bevor <b>Sie GetPrevious aufrufen.</b> Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -332,7 +332,7 @@
       <Docs>
         <summary>Das nächste Objekt in der Auflistung wird zurückgegeben.</summary>
         <returns>Ein Objektwert, der das nächste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para>Wenn beispielsweise bereits am Ende der Auflistung positioniert ist, wird <b>Nothing</b> zurückgegeben, wenn kein nächstes Objekt vorhanden ist. Um die <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />ordnungsgemäße Funktion <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />von,, GetNext <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> und Methoden in einer umfangreichen Auflistung sicherzustellen, rufen Sie GetFirst vor dem Aufruf von GetNext für diese Auflistung auf, und rufen Sie GetLast vor dem Aufruf von GetPrevious auf. <b></b> <b></b> <b></b> <b></b> <b> </b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <remarks><para>Es gibt <b>Nothing zurück,</b> wenn kein nächstes Objekt vorhanden ist, z. B. wenn es bereits am Ende der Auflistung positioniert ist. Um den korrekten Betrieb der Methoden , , GetNext und in einer großen Auflistung sicherzustellen, rufen Sie <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" /> <b></b> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetPrevious" /> <b>GetFirst</b> auf, bevor <b>Sie GetNext</b> für diese Auflistung aufrufen, und rufen <b>Sie GetLast</b> auf, bevor <b>Sie GetPrevious aufrufen.</b> Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -359,7 +359,7 @@
       <Docs>
         <summary>Das vorherige Objekt in der Auflistung wird zurückgegeben.</summary>
         <returns>Ein Objektwert, der das vorherige in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para>Wenn beispielsweise bereits am Anfang der Auflistung positioniert ist, wird <b>Nothing</b> zurückgegeben, wenn kein vorheriges Objekt vorhanden ist. Um <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" />die ordnungsgemäße Funktion <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" />der <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" />,, und GetPrevious Methoden in einer umfangreichen Auflistung sicherzustellen, rufen Sie GetFirst, bevor Sie GetNext für diese Auflistung aufrufen, und rufen Sie GetLast vor dem Aufruf <b></b> <b></b> <b></b> <b></b> <b> GetPrevious</b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <remarks><para>Es gibt <b>Nothing zurück,</b> wenn kein vorheriges Objekt vorhanden ist, z. B. wenn es bereits am Anfang der Auflistung positioniert ist. Um den korrekten Betrieb der Methoden , , , und GetPrevious in einer großen Auflistung sicherzustellen, rufen Sie <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.GetNext" /> <b>GetFirst</b> auf, bevor <b>Sie GetNext</b> <b></b> für diese Auflistung aufrufen, und rufen Sie <b>GetLast</b> auf, bevor Sie <b>GetPrevious aufrufen.</b> Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -389,11 +389,11 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>booleschen Wert</b> (<b>bool</b> in C#) zurück, der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> <b>true</b> angibt, wenn die Auflistung Serienmuster enthalten soll. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt einen <b>Wert vom Typ Boolean</b> (<b>bool</b> in C#) zurück, der <b>True</b> angibt, wenn die Auflistung <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Serienmuster enthalten soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Diese Eigenschaft hat nur dann eine Auswirkung, wenn die <b>Items</b> -Auflistung Termine enthält und nicht nach einer anderen Eigenschaft <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> als in aufsteigender Reihenfolge sortiert wird. Der Standardwert ist <b>False</b>. Verwenden Sie diese Eigenschaft, wenn Sie alle Termine für ein bestimmtes Datum abrufen möchten, auf dem würde Terminserien normalerweise nicht angezeigt werden, da sie nicht mit einem bestimmten Datum verknüpft sind. Wenn Sie müssen zum Sortieren und Filtern auf Terminelemente Termine, die Terminserien enthalten, müssen Sie dazu in der angegebenen Reihenfolge: die Elemente in aufsteigender Reihenfolge sortiert, <b>IncludeRecurrences</b> auf <b>True</b> festgelegt und dann die Elemente filtern. Ein Codebeispiel mit dieser Reihenfolge finden Sie im zweite Beispiel unten. Die Auflistung Terminserien ohne Enddatum enthält, kann die Eigenschaft auf <b>True</b> festlegen die Auflistung, das unendlich viele verursachen. Achten Sie darauf, dass Sie einen Test für dieses in jeder Schleife enthalten. Sie sollten nicht <b>Count</b> -Eigenschaft der <b>Items</b> -Auflistung verwenden, wenn Sie die <b>Items</b> -Auflistung mit <b>IncludeRecurrence</b> -Eigenschaft auf <b>True</b> festgelegt. Der Wert von <b>Count</b> wird ein nicht definierter Wert sein.</para>
+        <remarks><para>Diese Eigenschaft wirkt sich nur aus, wenn die <b>Items-Auflistung</b> Termine enthält und nicht nach einer anderen Eigenschaft als in aufsteigender <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> Reihenfolge sortiert wird. Der Standardwert ist <b>False</b>. Verwenden Sie diese Eigenschaft, wenn Sie alle Termine für ein bestimmtes Datum abrufen möchten, auf dem würde Terminserien normalerweise nicht angezeigt werden, da sie nicht mit einem bestimmten Datum verknüpft sind. Wenn Sie müssen zum Sortieren und Filtern auf Terminelemente Termine, die Terminserien enthalten, müssen Sie dazu in der angegebenen Reihenfolge: die Elemente in aufsteigender Reihenfolge sortiert, <b>IncludeRecurrences</b> auf <b>True</b> festgelegt und dann die Elemente filtern. Ein Codebeispiel mit dieser Reihenfolge finden Sie im zweite Beispiel unten. Die Auflistung Terminserien ohne Enddatum enthält, kann die Eigenschaft auf <b>True</b> festlegen die Auflistung, das unendlich viele verursachen. Achten Sie darauf, dass Sie einen Test für dieses in jeder Schleife enthalten. Sie sollten nicht <b>Count</b> -Eigenschaft der <b>Items</b> -Auflistung verwenden, wenn Sie die <b>Items</b> -Auflistung mit <b>IncludeRecurrence</b> -Eigenschaft auf <b>True</b> festgelegt. Der Wert von <b>Count</b> wird ein nicht definierter Wert sein.</para>
           <para>
-            <b>Achtung</b>: das Filtern nach einer sortierten Liste von Vorkommen bewirkt, dass die IncludeRecurrences-Eigenschaft nicht wie erwartet funktioniert. Die folgende Sequenz gibt beispielsweise alle Termin Vorkommen zurück; wiederkehrende und nicht wiederkehrende Aufgaben: (1) Sortieren nach Start Eigenschaft (2) Set-Eigenschaft auf false (3) Call Restrict (d. h. Filter).</para>
+            <b>Achtung:</b>Das Filtern nach einer sortierten Liste von Vorkommen hat zur Ursache, dass die IncludeRecurrences-Eigenschaft nicht wie erwartet funktioniert. Die folgende Sequenz gibt z. B. alle Terminvorkommen zurück. Serien- und Nichtserien: (1) Sortieren nach Start-Eigenschaft (2) Set-Eigenschaft auf false (3) Aufruf Restrict (d. h. Filter).</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -537,7 +537,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Löscht die Eigenschaften, die mit der <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> -Methode zwischengespeichert wurden.</summary>
+        <summary>Entfernt die Eigenschaften, die mit der Methode zwischengespeichert <see cref="M:Microsoft.Office.Interop.Outlook._Items.SetColumns(System.String)" /> wurden.</summary>
         <remarks><para>Alle Eigenschaften kann weiterhin zugegriffen werden, nachdem die <b>ResetColumns</b> -Methode aufrufen. <b>SetColumns</b> sollte erneut verwendet werden, um die neue Eigenschaften zu speichern. <b>ResetColumns</b> hat keine Funktion, wenn <b>SetColumns</b> nicht vorher aufgerufen wurde.</para>
           <para> </para></remarks>
       </Docs>
@@ -565,12 +565,12 @@
         <Parameter Name="Filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Filter">Ein Filterausdruck, der angewendet werden soll. Weitere Informationen finden Sie unter <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> der-Methode.</param>
-        <summary>Wendet einen Filter auf die <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung an und gibt eine neue Auflistung zurück, die alle Elemente aus dem Original enthält, die dem Filter entsprechen.</summary>
-        <returns>Eine <b>Items</b> -Auflistung, die die Elemente aus der ursprünglichen <b>Items</b> -Auflistung darstellt, die dem Filter entsprechen.</returns>
-        <remarks><para>Diese Methode ist eine Alternative zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> Methode oder <see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" /> Methode zum Durchlaufen bestimmter Elemente in einer Auflistung. Die Methoden <b>Find</b> oder <b>FindNext</b> sind schneller als Filtern, wenn nur wenige Elemente vorhanden sind. Die <b>Restrict</b>-Methode ist erheblich schneller, wenn sich eine große Zahl von Elementen in der Auflistung befindet, insbesondere wenn vermutlich nur wenige Elemente in einer umfangreichen Auflistung gefunden werden.</para>
+        <param name="Filter">Ein Filterausdruck, der angewendet werden soll. Weitere Informationen finden Sie in der <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" />  Methode.</param>
+        <summary>Wendet einen Filter auf die Auflistung an und gibt eine neue Auflistung zurück, die alle Elemente aus dem Original enthält, <see cref="T:Microsoft.Office.Interop.Outlook.Items" />  die mit dem Filter übereinstimmen.</summary>
+        <returns>Eine <b>Items-Auflistung,</b> die die Elemente aus der ursprünglichen <b>Items-Auflistung</b> darstellt, die mit dem Filter übereinstimmen.</returns>
+        <remarks><para>Diese Methode ist eine Alternative zur Verwendung der Methode oder Methode zum <see cref="M:Microsoft.Office.Interop.Outlook._Items.Find(System.String)" /> <see cref="M:Microsoft.Office.Interop.Outlook._Items.FindNext" />  Iterieren bestimmter Elemente in einer Auflistung. Die Methoden <b>Find</b> oder <b>FindNext</b> sind schneller als Filtern, wenn nur wenige Elemente vorhanden sind. Die <b>Restrict</b>-Methode ist erheblich schneller, wenn sich eine große Zahl von Elementen in der Auflistung befindet, insbesondere wenn vermutlich nur wenige Elemente in einer umfangreichen Auflistung gefunden werden.</para>
           <para>
-            <b>Hinweis</b>: Wenn Sie benutzerdefinierte Felder als Teil einer <b>Find</b> -oder <b>Restrict</b> -Klausel verwenden, müssen die benutzerdefinierten Felder im Ordner vorhanden sein. Sonst generiert der Code einen Fehler, der darauf hinweist, dass das Feld nicht bekannt ist. Sie können ein Feld zu einem Ordner hinzufügen, indem Sie die  Feldauswahl anzeigen und auf Neu klicken.</para>
+            <b>Hinweis:</b>Wenn Sie benutzerdefinierte Felder als Teil einer <b>Find-</b> oder <b>Restrict-Klausel</b> verwenden, müssen die benutzerdefinierten Felder im Ordner vorhanden sein. Sonst generiert der Code einen Fehler, der darauf hinweist, dass das Feld nicht bekannt ist. Sie können ein Feld zu einem Ordner hinzufügen, indem Sie die  Feldauswahl anzeigen und auf Neu klicken.</para>
           <para>Diese Methode kann bei den folgenden Eigenschaften nicht verwendet werden und führt zu einem Fehler:</para>
           <list type="table">
             <item>
@@ -581,56 +581,56 @@
           <para>Filter für die Suchen und Einschränken-Methode erstellen</para>
           <para>Die Syntax für den Filter variiert je nach dem Typ des Felds, das Sie filtern möchten.</para>
           <para>String (für Textfelder) </para>
-          <para>Beim Durchsuchen von Text Feldern können Sie entweder ein Apostroph (') oder doppelte Anführungszeichen ("") verwenden, um die Werte zu begrenzen, die Teil des Filters sind. Beispielsweise funktionieren alle der folgenden Zeilen ordnungsgemäß, wenn das Feld vom Typ <b>String</b> (<b>Zeichenfolge</b> in C#) ist: </para>
-          <para>sFilter = "[CompanyName] = ' Microsoft '" </para>
-          <para>sFilter = "[CompanyName] =" "Microsoft" "" </para>
-          <para>sFilter = "[CompanyName] =" &amp; Chr (34) &amp; "Microsoft" &amp; Chr (34)</para>
+          <para>Beim Durchsuchen von Textfeldern können Sie entweder ein Apostroph (') oder doppelte Anführungszeichen ("") verwenden, um die Werte zu trennen, die Teil des Filters sind. Beispielsweise funktionieren alle folgenden Zeilen ordnungsgemäß, wenn das Feld vom Typ <b>String</b> (<b>string</b> in C#): </para>
+          <para>sFilter = "[CompanyName] = 'Microsoft'" </para>
+          <para>sFilter = "[CompanyName] = ""Microsoft""" </para>
+          <para>sFilter = "[CompanyName] = " &amp; Chr(34) &amp; "Microsoft" &amp; Chr(34)</para>
           <para>Wenn Sie beim Angeben eines Filters in einer Jet- oder DASL-Abfrage ein Paar einfache Anführungszeichen zum Trennen einer Zeichenfolge verwenden, die Bestandteil des Filters ist, und diese Zeichenfolge ein weiteres einfaches Anführungszeichen oder Apostroph enthält, müssen Sie ein weiteres einfaches Anführungszeichen vor dem zusätzlichen einfachen Anführungszeichen bzw. Apostroph als Escapezeichen hinzufügen. Gehen Sie ähnlich vor, wenn ein Paar doppelte Anführungszeichen zum Trennen einer Zeichenfolge verwendet wird. Enthält die Zeichenfolge bereits ein doppeltes Anführungszeichen, fügen Sie ein weiteres doppeltes Anführungszeichen als Escapezeichen vor diesem doppelten Anführungszeichen hinzu.</para>
-          <para>In der DASL-Filterzeichenfolge, die filtert, dass die <b>Subject</b> -Eigenschaft gleich dem Wort "nicht" ist, wird die gesamte Filterzeichenfolge durch ein paar doppelter Anführungszeichen getrennt, und die eingebettete Zeichenfolge kann nicht durch ein paar von einfachen Anführungszeichen voneinander getrennt werden. Es gibt drei Zeichen, die Sie in dieser Filterzeichenfolge entfliehen müssen: die beginnende doppelte Anführungszeichen und die enddoppelte Anführungsstrich für den Eigenschaftenverweis von http://schemas.microsoft.com/mapi/proptag/0x0037001f, und das Apostroph in der Wert Bedingung für das Wort kann nicht. Durch Anwendung der geeigneten Escapezeichen kann die Filterzeichenfolge wie folgt ausgedrückt werden:</para>
-          <para>Filter = "@SQL="http://schemas.microsoft.com/mapi/proptag/0x0037001f"" "" = ' kann ' 't ' "</para>
+          <para>In der DASL-Filterzeichenfolge, die nach der <b>Subject-Eigenschaft</b> filtert, die dem Wort entspricht, ist die gesamte Filterzeichenfolge beispielsweise durch ein Paar doppelter Anführungszeichen getrennt, und die eingebettete Zeichenfolge kann nicht durch ein Paar einzelner Anführungszeichen getrennt werden. Es gibt drei Zeichen, die Sie in dieser Filterzeichenfolge escapen müssen: das startende doppelte Anführungszeichen und das endende doppelte Anführungszeichen für den Eigenschaftenverweis von , und das Apostroph in der Wertbedingung für das Wort kann http://schemas.microsoft.com/mapi/proptag/0x0037001f nicht. Durch Anwendung der geeigneten Escapezeichen kann die Filterzeichenfolge wie folgt ausgedrückt werden:</para>
+          <para>filter = "@SQL="" http://schemas.microsoft.com/mapi/proptag/0x0037001f "" = 'can''t'"</para>
           <para>Alternativ können Sie die chr(34)-Funktion verwenden, um das doppelte Anführungszeichen darzustellen (dessen ASCII-Zeichenwert "34" ist), das als Escapezeichen verwendet wird. Unter Verwendung der chr(34)-Ersetzung für ein doppeltes Anführungszeichen als Escapezeichen können Sie das letzte Beispiel wie folgt ausdrücken:</para>
-          <para>Filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001f" _</para>
-          <para>    &amp;Chr (34) &amp; "=" &amp; "' kann ' 't '"</para>
+          <para>filter = "@SQL= " &amp; Chr(34) &amp; " " http://schemas.microsoft.com/mapi/proptag/0x0037001f _</para>
+          <para>    &amp; Chr(34) &amp; " = " &amp; "'can't'"</para>
           <para>Das Escapen von einfachen und doppelten Anführungszeichen ist ebenfalls in DASL-Abfragen mit den Operatoren <b>ci_startswith</b> und <b>ci_phrasematch</b> erforderlich. Folgende Abfrage führt beispielsweise eine Begriffvergleichsabfrage für can't im Nachrichtenbetreff aus: </para>
-          <para>Filter = "@SQL=" &amp; Chr (34) &amp; "http://schemas.microsoft.com/mapi/proptag/0x0037001E" _</para>
-          <para>    &amp;Chr (34) &amp; "ci_phrasematch" &amp; "" kann ' t ' "</para>
-          <para>Ein weiteres Beispiel ist eine DASL-Filterzeichenfolge, die filtert, dass die <b>Subject</b> -Eigenschaft den Wörtern das richtige entspricht, wobei das Wort stuff mit doppelten Anführungszeichen eingeschlossen ist. In diesem Fall müssen die umschließenden doppelten Anführungszeichen wie folgt escapet werden:</para>
-          <para>Filter = "@SQL="http://schemas.microsoft.com/mapi/proptag/0x0037001f"" "= ' der richtige" "stuff" "'"</para>
+          <para>filter = "@SQL=" &amp; Chr(34) &amp; " http://schemas.microsoft.com/mapi/proptag/0x0037001E " _</para>
+          <para>    &amp; Chr(34) &amp; " ci_phrasematch " &amp; "'can't'"</para>
+          <para>Ein weiteres Beispiel ist eine DASL-Filterzeichenfolge, die filtert, dass die <b>Subject-Eigenschaft</b> den Wörtern entspricht, die dem richtigen Zeug entspricht, wobei das Wortzeug durch doppelte Anführungszeichen eingeschlossen wird. In diesem Fall müssen die umschließenden doppelten Anführungszeichen wie folgt escapet werden:</para>
+          <para>filter = "@SQL="" http://schemas.microsoft.com/mapi/proptag/0x0037001f "" = 'the right ""stuff""'"</para>
           <para>Ein anderer Satz von Escaperegeln gilt für Eigenschaftenverweise bei benannten Eigenschaften, die ein Leerzeichen, ein einfaches oder ein doppeltes Anführungszeichen enthalten. Weitere Informationen finden Sie unter Eigenschaften nach Namespace referenzieren.</para>
           <para>Datum</para>
-          <para>Obwohl Datums-und Uhrzeitangaben in der Regel mit einem Datumsformat gespeichert werden, erfordern die Methoden <b>Find</b> und <b>Restrict</b> , dass das Datum und die Uhrzeit in eine Zeichenfolgendarstellung konvertiert werden. Um sicherzustellen, dass das Datum wie von Microsoft Outlook erwartet formatiert ist, verwenden Sie die Funktion <b>Format</b>. Im folgenden Beispiel wird einen Filter erstellt, um alle Kontakte zu finden, die nach dem 15. Januar 1999, 15:30 Uhr, geändert wurden </para>
-          <para>sFilter = "[LastModificationTime] &gt; '" &amp; Format ("1/15/99 3:19:30", "ddddd h:NN ampm") &amp; "'"</para>
+          <para>Obwohl Datums- und Uhrzeitangaben in der <b></b> Regel mit einem Date-Format gespeichert werden, erfordern die <b>Methoden Suchen</b> und Einschränken, dass Datum und Uhrzeit in eine Zeichenfolgendarstellung konvertiert werden. Um sicherzustellen, dass das Datum wie von Microsoft Outlook erwartet formatiert ist, verwenden Sie die Funktion <b>Format</b>. Im folgenden Beispiel wird einen Filter erstellt, um alle Kontakte zu finden, die nach dem 15. Januar 1999, 15:30 Uhr, geändert wurden </para>
+          <para>sFilter = "[LastModificationTime] &gt; '" &amp; Format("1/15/99 15:30pm", "ddddd h:nn AMPM") &amp; "'"</para>
           <para>Boolesche Operatoren</para>
           <para>Operatoren vom Typ Boolean (TRUE/FALSE, YES/NO, ON/OFF usw.) dürfen nicht in eine Zeichenfolge konvertiert werden. Wenn Sie z. B. ermitteln möchten, ob das Journal für Kontakte aktiviert ist, können Sie den folgenden Filter verwenden:</para>
-          <para>sFilter = "[Journal] = true" </para>
+          <para>sFilter = "[Journal] = True" </para>
           <para>
-            <b>Hinweis</b>: Wenn Sie Anführungszeichen als Trennzeichen mit booleschen Feldern verwenden, finden Sie in einer leeren Zeichenfolge Elemente, deren Felder <b>false</b> sind, und alle nicht leeren Zeichenfolgensuchen nach Elementen, deren Felder den <b>Wert</b> <b>true</b>haben. </para>
+            <b>Hinweis</b>: Wenn Sie Anführungszeichen als Trennzeichen mit <b>booleschen</b> Feldern verwenden, findet eine leere Zeichenfolge Elemente, deren Felder <b>False</b> sind, und alle nicht leeren Zeichenfolgen finden Elemente, deren Felder <b>True sind.</b> </para>
           <para>Keywords (oder Categories)</para>
-          <para>Das Feld Kategorien ist vom Typ Schlüsselwörter, die für mehrere Werte vorgesehen ist. When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly. Values in the text string are separated by a comma and a space. This typically means that you cannot use the <b>Find</b> and <b>Restrict</b> methods on a keywords field if it contains more than one value. For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the <b>Find</b> and <b>Restrict</b> methods to retrieve all items that are in the Business category. Instead, you can loop through all contacts in the folder and use the <b>Instr</b> function to test whether the string "Business" is contained within the entire keywords field. </para>
+          <para>Das Feld Categories ist von Typschlüsselwörtern, die mehrere Werte enthalten sollen. When accessing it programmatically, the Categories field behaves like a Text field, and the string must match exactly. Values in the text string are separated by a comma and a space. This typically means that you cannot use the <b>Find</b> and <b>Restrict</b> methods on a keywords field if it contains more than one value. For example, if you have one contact in the Business category and one contact in the Business and Social categories, you cannot easily use the <b>Find</b> and <b>Restrict</b> methods to retrieve all items that are in the Business category. Instead, you can loop through all contacts in the folder and use the <b>Instr</b> function to test whether the string "Business" is contained within the entire keywords field. </para>
           <para>
-            <b>Hinweis</b>: eine mögliche Ausnahme ist, wenn Sie das Feld Kategorien auf zwei oder eine niedrige Anzahl von Werten begrenzen. Dann können Sie die Methoden <b>Find</b> und <b>Restrict</b> mit dem logischen Operator oder verwenden, um alle Geschäftskontakte abzurufen. Zum Beispiel (im Pseudocode): "Unternehmen" oder "Unternehmen, persönlich" oder "Persönlich, Unternehmen" Bei Kategoriezeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden. </para>
+            <b>Hinweis</b>: Eine mögliche Ausnahme ist, wenn Sie das Feld Kategorien auf zwei oder eine niedrige Anzahl von Werten beschränken. Anschließend können Sie die <b>Methoden Find</b> und <b>Restrict</b> mit dem logischen Operator OR verwenden, um alle Geschäftskontakte abzurufen. Zum Beispiel (im Pseudocode): "Unternehmen" oder "Unternehmen, persönlich" oder "Persönlich, Unternehmen" Bei Kategoriezeichenfolgen wird nicht zwischen Groß- und Kleinschreibung unterschieden. </para>
           <para>Ganze Zahl</para>
           <para>Das Durchsuchen von Feldern vom Typ <b>Integer</b> ist sowohl mit als auch ohne Anführungszeichen und Trennzeichen möglich. Mithilfe folgender Filter wird nach Kontakten gesucht, die in Outlook 2000 erstellt wurden: </para>
           <para>sFilter = "[OutlookInternalVersion] = 92711" </para>
-          <para>sFilter = "[OutlookInternalVersion] = ' 92711 '"</para>
+          <para>sFilter = "[OutlookInternalVersion] = '92711'"</para>
           <para>Verwenden von Variablen in Filtern</para>
-          <para>Wie das Beispiel mit der <b>Restrict</b>-Methode zeigt, können Werte aus Variablen als Teil des Filters verwendet werden. Das folgende Microsoft Visual Basic-Codebeispiel veranschaulicht die Syntax, die Variablen als Teil des Filters verwendet. </para>
+          <para>Wie das Beispiel mit der <b>Restrict</b>-Methode zeigt, können Werte aus Variablen als Teil des Filters verwendet werden. Im folgenden Microsoft Visual Basic Codebeispiel wird die Syntax veranschaulicht, die Variablen als Teil des Filters verwendet. </para>
           <para>sFullName = "Dan Wilson" </para>
-          <para>"Dieser Ansatz verwendet Chr (34), um den Wert abzugrenzen. </para>
-          <para>sFilter = "[FullName] =" &amp; Chr (34) &amp; sFullName &amp; Chr (34) </para>
-          <para>"Dieser Ansatz verwendet doppelte Anführungszeichen, um den Wert abzugrenzen. </para>
-          <para>sFilter = "[FullName] =" "" &amp; sFullName &amp; "" ""</para>
+          <para>' Dieser Ansatz verwendet Chr(34), um den Wert zu trennen. </para>
+          <para>sFilter = "[FullName] = " &amp; Chr(34) &amp; sFullName &amp; Chr(34) </para>
+          <para>' Bei diesem Ansatz werden doppelte Anführungszeichen verwendet, um den Wert zu trennen. </para>
+          <para>sFilter = "[FullName] = """ &amp; sFullName &amp; """"</para>
           <para>Verwenden von logischen Operatoren als Teil des Filters</para>
-          <para>Logische Operatoren, die zulässig sind, sind UND, ODER und NICHT. Es folgen Variationen der Klausel für die <b>Restrict</b> -Methode, sodass Sie mehrere Kriterien angeben können.  </para>
+          <para>Logische Operatoren, die zulässig sind, sind UND, ODER und NICHT. Im Folgenden finden Sie Variationen der Klausel für die <b>Restrict-Methode,</b> sodass Sie mehrere Kriterien angeben können.  </para>
           <para>OR: Der folgende Code gibt alle Kontaktelemente zurück, deren Kategorie entweder "Business" oder "Personal" ist. </para>
-          <para>sFilter = "[categories] = ' Personal ' oder [categories] = ' Business '" </para>
+          <para>sFilter = "[Categories] = 'Personal' Or [Categories] = 'Business'" </para>
           <para>AND: Der folgende Code ruft alle persönlichen Kontakte auf, die bei Microsoft arbeiten. </para>
-          <para>sFilter = "[categories] = ' Personal ' und [CompanyName] = ' Microsoft '" </para>
+          <para>sFilter = "[Categories] = 'Personal' and [CompanyName] = 'Microsoft'" </para>
           <para>NOT: Der folgende Code ruft alle persönlichen Kontakte auf, die nicht bei Microsoft arbeiten. </para>
-          <para>sFilter = "[categories] = ' Personal" und nicht ([CompanyName] = ' Microsoft ') "</para>
+          <para>sFilter = "[Categories] = 'Personal' and Not([CompanyName] = 'Microsoft')"</para>
           <para>Zusätzliche Hinweise</para>
-          <para>Wenn Sie die <b>Find</b>- oder <b>Restrict</b>-Methode in benutzerdefinierten Feldern verwenden möchten, müssen die Felder im Ordner definiert sein, da andernfalls ein Fehler auftritt. Es gibt keine Möglichkeit, eine "contains"-Operation auszuführen. Sie können z. B. nicht mithilfe der Methode <b>Find</b> oder <b>Restrict</b> nach Elementen suchen, die ein bestimmtes Wort im Feld Betreff enthalten. Stattdessen können Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> -Methode verwenden, oder Sie können alle Elemente im Ordner durchlaufen und die <b>InStr</b> -Funktion verwenden, um eine Suche in einem Feld durchzuführen. Mithilfe der <b>Restrict</b>-Methode können Sie nach Elementen suchen, die innerhalb eines bestimmten Bereichs von Zeichen beginnen. Verwenden Sie z. B. den folgenden Filter, um nach allen Kontakten mit einem Nachnamen zu suchen, der mit dem Buchstaben "M" beginnt: </para>
-          <para>sFilter = "[LastName] &gt; ' LZZZ ' und [LastName] &lt; ' N '"</para>
+          <para>Wenn Sie die <b>Find</b>- oder <b>Restrict</b>-Methode in benutzerdefinierten Feldern verwenden möchten, müssen die Felder im Ordner definiert sein, da andernfalls ein Fehler auftritt. Es gibt keine Möglichkeit, eine "contains"-Operation auszuführen. Sie können z. B. nicht mithilfe der Methode <b>Find</b> oder <b>Restrict</b> nach Elementen suchen, die ein bestimmtes Wort im Feld Betreff enthalten. Stattdessen können Sie die -Methode verwenden, oder Sie können alle Elemente im Ordner durchschleifen und die InStr-Funktion verwenden, um eine Suche innerhalb eines <see cref="M:Microsoft.Office.Interop.Outlook._Application.AdvancedSearch(System.String,System.Object,System.Object,System.Object)" /> Felds durchzuführen. <b></b> Mithilfe der <b>Restrict</b>-Methode können Sie nach Elementen suchen, die innerhalb eines bestimmten Bereichs von Zeichen beginnen. Verwenden Sie z. B. den folgenden Filter, um nach allen Kontakten mit einem Nachnamen zu suchen, der mit dem Buchstaben "M" beginnt: </para>
+          <para>sFilter = "[LastName] &gt; 'LZZZ' and [LastName] &lt; 'N'"</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -657,9 +657,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt für die aktuelle Sitzung zurück. Schreibgeschützt.</summary>
+        <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  Objekt für die aktuelle Sitzung zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Die <b>Session</b> -Eigenschaft und <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> die-Methode können austauschbar verwendet werden, um das <b>Namespace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Die folgenden Anweisungspaare führen beispielsweise die gleiche Funktion aus:</para>
+        <remarks><para>Die <b>Session-Eigenschaft</b> und die -Methode können austauschbar verwendet werden, um das <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace-Objekt für</b> die aktuelle Sitzung zu erhalten. Beide Member haben denselben Zweck. Die folgenden Anweisungenpaare führen beispielsweise dieselbe Funktion aus:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -694,8 +694,8 @@
       <Docs>
         <param name="Columns">Eine Zeichenfolge, die die Namen der zwischenzuspeichernden Eigenschaften enthält. Die Eigenschaftsnamen werden in dieser Zeichenfolge durch Kommas getrennt.</param>
         <summary>Bestimmte Eigenschaften werden für den sehr schnellen Zugriff auf die jeweiligen Eigenschaften eines Elements innerhalb der Auflistung zwischengespeichert.</summary>
-        <remarks><para>Die <b></b> SetColumns-Methode eignet sich zum Durchlaufen <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> der Auflistung. Wenn Sie diese Methode nicht verwenden, müssen Microsoft Outlook jedes Element zum Zugriff auf die Eigenschaft öffnen. Mit der <b>SetColumns</b> -Methode überprüft Outlook nur die Eigenschaften, die Sie zwischengespeichert wurden, und ermöglicht den schnellen, schreibgeschützten Zugriff auf diese Eigenschaften.</para>
-          <para>Nachdem Sie die <b></b> SetColumns-Methode auf bestimmte Eigenschaften der Auflistung angewendet haben, können Sie andere Eigenschaften dieser Auflistung nicht lesen. Eigenschaften, die nicht zwischengespeichert werden, werden leer zurückgegeben. Sie können auch keine der Eigenschaften dieser Auflistung schreiben. Alternativ können Sie das <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> -Objekt verwenden, wenn Sie Lese-/Schreibzugriff benötigen, Schnellzugriff auf eine Gruppe von Elementen.</para>
+        <remarks><para>Die <b>SetColumns-Methode</b> ist nützlich, um die Auflistung zu <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> durch iterieren. Wenn Sie diese Methode nicht verwenden, müssen Microsoft Outlook jedes Element zum Zugriff auf die Eigenschaft öffnen. Mit der <b>SetColumns</b> -Methode überprüft Outlook nur die Eigenschaften, die Sie zwischengespeichert wurden, und ermöglicht den schnellen, schreibgeschützten Zugriff auf diese Eigenschaften.</para>
+          <para>Nachdem Sie die <b>SetColumns-Methode</b> auf bestimmte Eigenschaften der Auflistung angewendet haben, können Sie keine anderen Eigenschaften dieser Auflistung lesen. Eigenschaften, die nicht zwischengespeichert werden, werden leer zurückgegeben. Sie können auch keines der Eigenschaften dieser Auflistung schreiben. Wenn Sie Lese-/Schreibzugriff benötigen, können Sie auch schnell auf eine Gruppe von Elementen zugreifen. <see cref="T:Microsoft.Office.Interop.Outlook.Table" /></para>
           <para>
             <b>SetColumns</b> kann nicht verwendet werden und verursacht einen Fehler, jede Eigenschaft, die ein Objekt zurückgibt. Es kann nicht mit den folgenden Eigenschaften verwendet werden:</para>
           <list type="table">
@@ -704,7 +704,7 @@
               <description>InternetCodePage</description>
             </item>
             <item>
-              <description>Body</description>
+              <description>Text</description>
               <description>MeetingWorkspaceURL</description>
             </item>
             <item>
@@ -787,7 +787,7 @@
         <Parameter Name="Descending" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="Property">Der Name der Eigenschaft, anhand der sortiert werden soll; dieser kann in Klammer eingeschlossen sein, z. B. "[CompanyName]". Benutzerdefinierte Eigenschaften, die Leerzeichen enthalten, müssen in Klammern eingeschlossen werden. Darf keine benutzerdefinierte Eigenschaft von type-Schlüsselwörtern und keine mehrwertige Eigenschaft, z. B. „category“, sein. Für benutzerdefinierte Eigenschaften muss die-Eigenschaft in der <b>UserDefinedProperties</b> -Auflistung für <see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" />vorhanden sein, die das <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt darstellt, das die Elemente enthält.</param>
+        <param name="Property">Der Name der Eigenschaft, anhand der sortiert werden soll; dieser kann in Klammer eingeschlossen sein, z. B. "[CompanyName]". Benutzerdefinierte Eigenschaften, die Leerzeichen enthalten, müssen in Klammern eingeschlossen werden. Darf keine benutzerdefinierte Eigenschaft von type-Schlüsselwörtern und keine mehrwertige Eigenschaft, z. B. „category“, sein. Für benutzerdefinierte Eigenschaften muss die Eigenschaft in der <b>UserDefinedProperties-Auflistung</b> für vorhanden sein, die das Objekt darstellt, <see cref="P:Microsoft.Office.Interop.Outlook._Items.Parent" /> das die Elemente <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> enthält.</param>
         <param name="Descending"><b>True,</b> um in absteigender Reihenfolge zu sortieren. Der Standardwert ist <b>False</b> (aufsteigend).</param>
         <summary>Sorts the collection of items by the specified property. The index for the collection is reset to 1 upon completion of this method.</summary>
         <remarks><para>
@@ -848,7 +848,7 @@
                 <see cref="P:Microsoft.Office.Interop.Outlook._ContactItem.LastFirstAndSuffix" />
               </description>
               <description>
-                <b>Saved</b>
+                <b>Gespeichert</b>
               </description>
             </item>
             <item>
