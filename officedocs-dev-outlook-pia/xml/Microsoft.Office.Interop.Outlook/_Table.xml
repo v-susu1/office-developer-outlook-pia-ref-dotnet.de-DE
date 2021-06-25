@@ -1,5 +1,5 @@
 <Type Name="_Table" FullName="Microsoft.Office.Interop.Outlook._Table">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="158a812340e5870cd83216af795ef455983e655b" /><Meta Name="ms.sourcegitcommit" Value="9e48edef9d279c87fa2fbd78f150bc92c2332179" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="04/13/2021" /><Meta Name="ms.locfileid" Value="51691742" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="acab0c8ad700585a716e430c5c571181307dc05c" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139439" /></Metadata><TypeSignature Language="C#" Value="public interface _Table" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _Table" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._Table" />
   <TypeSignature Language="VB.NET" Value="Public Interface _Table" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Hierbei handelt es sich um eine primäre Schnittstelle in einer COM-CoClass, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, die Sie verwenden möchten, den gleichen Namen aufweist wie ein Ereignis des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um die Methode aufzurufen, und casten Sie zur aktuellen Ereignisschnittstelle, um eine Verbindung zum Ereignis herzustellen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen. Weitere Informationen zum COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> .</summary>
+    <summary>Hierbei handelt es sich um eine primäre Schnittstelle in einer COM-CoClass, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, die Sie verwenden möchten, den gleichen Namen aufweist wie ein Ereignis des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um die Methode aufzurufen, und casten Sie zur aktuellen Ereignisschnittstelle, um eine Verbindung zum Ereignis herzustellen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen. Informationen zum COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Objekt zurück, das die übergeordnete Anwendung (Outlook) für das Objekt <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Objekt zurück, das die übergeordnete Anwendung (Outlook) für das <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Enumeration zurück, die die Klasse des Objekts <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine Konstante in der <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Aufzählung zurück, die die Klasse des <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,11 +101,11 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Columns</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> Auflistungsobjekt zurück, das die spalten enthält, die für definiert <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> sind. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Columns" /> Auflistungsobjekt zurück, das die für das Objekt definierten Spalten <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> enthält. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para><b>Columns</b> -Auflistungsobjekts ist das Standardelement des <b>Table</b> -Objekts.  </para>
-          <para>Während Zeilen in einem <b>Table-Objekt</b> Elementen im übergeordneten Element oder Objekt des Table-Objekts entsprechen, entsprechen Spalten <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> in einem <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> <b>Table-Objekt</b> <b></b> <b></b> den Eigenschaften dieser Elemente. Standardspalten werden für alle Ordner je nach dem übergeordneten Ordner des <b>Table</b> -Objekts definiert. Beispielsweise sind die Standardeigenschaften für den Posteingang: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b> und <b>MessageClass</b>. Weitere Informationen zu Standardeigenschaften für ein <b>Table-Objekt</b>finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87925">Default Properties Displayed in a Table Object</a></para>
-          <para>Verwenden Sie zum Hinzufügen von Objekten zur <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> <b>Columns-Auflistung</b> eines <b>Table-Objekt</b> <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" /> . Verwenden Sie zum Entfernen des Standardspaltensatzs <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> . Weitere Informationen zum Anpassen von Spalten einer <b>Tabelle</b>finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Hinzufügen von Spalten zu einem Table-Objekt.</a></para>
+        <remarks><para><b>Columns</b> -Auflistungsobjekts ist das Standardelement des <b>Table</b> -Objekts.</para>
+          <para>Während Zeilen in einer <b>Tabelle</b> Elementen im <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> übergeordneten Element oder <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> Objekt der <b>Tabelle</b>entsprechen, entsprechen <b>Spalten</b> in einer <b>Tabelle</b> den Eigenschaften dieser Elemente. Standardspalten werden für alle Ordner je nach dem übergeordneten Ordner des <b>Table</b> -Objekts definiert. Beispielsweise sind die Standardeigenschaften für den Posteingang: <b>EntryID</b>, <b>Subject</b>, <b>CreationTime</b>, <b>LastModificationTime</b> und <b>MessageClass</b>. Weitere Informationen zu standardeigenschaften für eine <b>Tabelle</b>finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87925">"Standardeigenschaften in einem Table-Objekt angezeigt"</a></para>
+          <para>Verwenden Sie zum Hinzufügen <see cref="T:Microsoft.Office.Interop.Outlook.Column" /> von Objekten zur <b>Columns</b> -Auflistung einer <b>Tabelle</b> <see cref="M:Microsoft.Office.Interop.Outlook._Columns.Add(System.String)" /> . Verwenden Sie zum Entfernen des Standardspaltensatzes <see cref="M:Microsoft.Office.Interop.Outlook._Columns.RemoveAll" /> . Weitere Informationen zum Anpassen von Spalten einer <b>Tabelle</b>finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87935">Hinzufügen von Spalten zu einem Table-Objekt</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -132,10 +132,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>Wert vom Typ Boolean</b> (<b>bool</b> in C#) zurück, der angibt, ob die aktuelle Zeile hinter der letzten Zeile im Objekt positioniert <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> ist. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>Booleschen</b> Wert (<b>Boolescher</b> Wert in C#) zurück, der angibt, ob die aktuelle Zeile hinter der letzten Zeile im Objekt positioniert <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Wenn Sie eine <b>Tabelle mit</b> , oder öffnen, hängt der Wert von EndOfTable von der Anzahl der <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> Zeilen im Table <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" /> <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> <b>-Wert ab.</b> <b></b> Wenn keine Zeilen vorhanden sind, <b>gibt EndOfTable</b> True zurück. Wenn Zeilen vorhanden sind, <b>gibt EndOfTable</b> <b>False</b> zurück, bis der Cursor über die letzte Zeile im Table-Wert hinaus bewegt wird.  </para>
-          <para>Die <b>Tabelle</b> verfügt über zwei virtuellen <b>Null</b> Zeilen, eine vor der ersten Zeile und eine nach der letzten Zeile in der <b>Tabelle</b>. Jeder Aufruf, um die aktuelle Zeile in die nächste Zeile im Table-Objekt zu verschiebt, und gibt ein <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> <b></b> Objekt <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> zurück, das die aktuelle Zeile darstellt.   </para>
+        <remarks><para>Wenn Sie eine <b>Tabelle</b> öffnen, hängt <see cref="M:Microsoft.Office.Interop.Outlook.MAPIFolder.GetTable(System.Object,System.Object)" /> der Wert von <see cref="M:Microsoft.Office.Interop.Outlook.Search.GetTable" /> <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> <b>EndOfTable</b> von der Anzahl der Zeilen in der <b>Tabelle</b>ab. Wenn keine Zeilen vorhanden sind, gibt <b>EndOfTable True </b> zurück. Wenn Zeilen vorhanden sind, gibt <b>EndOfTable</b> <b>False</b> zurück, bis der Cursor über die letzte Zeile in der Tabelle hinausgeht.  </para>
+          <para>Die <b>Tabelle</b> verfügt über zwei virtuellen <b>Null</b> Zeilen, eine vor der ersten Zeile und eine nach der letzten Zeile in der <b>Tabelle</b>. Bei jedem Aufruf wird <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> die aktuelle Zeile zur nächsten Zeile in der <b>Tabelle</b> verschoben und ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> Objekt zurückgegeben, das die aktuelle Zeile darstellt.   </para>
           <para><b>EndOfTable</b> -Eigenschaft gibt <b>True</b> zurück, wenn die aktuelle Zeile nach der letzten Zeile und <b>False</b>, ist wenn die aktuelle Zeile im oder vor der letzten Zeile befindet.</para>
           <para> </para></remarks>
       </Docs>
@@ -161,11 +161,11 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Sucht die nächste Zeile in der Zeile, die die in einer <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> vorhergehenden angegebenen Kriterien  <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" /> erfüllt.</summary>
-        <returns>Ein Objekt, das die nächste Zeile in der Tabelle darstellt, die die Filterbedingung im vorherigen Aufruf <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> von <b>FindRow erfüllt.</b> <b></b> Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn <b>FindNextRow</b> keine weitere Zeile finden kann, die die in FindRow angegebenen Kriterien <b>erfüllt.</b> Gibt außerdem <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn <b>FindRow</b> nicht vor <b>FindNextRow</b>aufgerufen wurde.</returns>
+        <summary>Sucht die nächste Zeile in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Zeile, die die in einer vorhergehenden angegebenen Kriterien  <see cref="M:Microsoft.Office.Interop.Outlook._Table.FindRow(System.String)" /> erfüllt.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> Objekt, das die nächste Zeile in der <b>Tabelle</b> darstellt, die die Filterbedingung im vorherigen Aufruf von <b>FindRow</b>erfüllt. Gibt <b>Nothing</b> (einen Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn <b>FindNextRow</b> keine weitere Zeile finden kann, die die in <b>FindRow</b>angegebenen Kriterien erfüllt. Gibt auch <b>Nothing</b> (einen Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn <b>FindRow</b> nicht vor <b>FindNextRow</b>aufgerufen wurde.</returns>
         <remarks><para>
-            <b>FindNextRow</b> sucht nach der nächsten Zeile basierend auf die Zeile, die von der vorherigen <b>FindRow</b> oder <b>FindNextRow</b> zurückgegeben. Sie hängt nicht von der aktuellen Zeile ab (da die aktuelle Zeile möglicherweise seit dem vorherigen <b>FindRow</b> oder <b>FindNextRow</b>neu positioniert wurde, z. B. von <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> ).</para>
-          <para>Wenn <b>FindNextRow</b> eine Zeile findet, wird es die aktuelle Zeile in dieser Zeile positioniert. Wenn keine andere Zeile gefunden wird, wird die aktuelle Zeile nicht umpositioniert.</para>
+            <b>FindNextRow</b> sucht nach der nächsten Zeile basierend auf die Zeile, die von der vorherigen <b>FindRow</b> oder <b>FindNextRow</b> zurückgegeben. Es hängt nicht von der aktuellen Zeile ab (da die aktuelle Zeile möglicherweise seit dem vorherigen <b>FindRow</b> oder <b>FindNextRow</b>neu positioniert wurde, z. B. durch <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> ).</para>
+          <para>Wenn <b>FindNextRow</b> eine Zeile findet, wird es die aktuelle Zeile in dieser Zeile positioniert. Wenn eine andere Zeile nicht findet, wird sie nicht die aktuelle Zeile neu positionieren.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -193,15 +193,15 @@
       </Parameters>
       <Docs>
         <param name="Filter">Gibt die Bedingung an, die eine Zeile in der <b>Tabelle</b> erfüllen.</param>
-        <summary>Sucht die erste Zeile in  <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> der, die die in angegebenen Kriterien <paramref name="Filter" /> erfüllt.</summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> Objekt, das die erste Zeile in der <b>Tabelle</b> darstellt, die die Filterkriterien erfüllt. Gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn keine solche Zeile gefunden werden kann oder die <b>Tabelle</b> keine Zeilen enthält.</returns>
+        <summary>Sucht die erste Zeile in der  <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Zeile, die die in angegebenen Kriterien <paramref name="Filter" /> erfüllt.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> Objekt, das die erste Zeile in der <b>Tabelle</b> darstellt, die die Filterkriterien erfüllt. Gibt <b>Nothing</b> (einen Nullverweis (Nothing in Visual Basic) in C# zurück, wenn keine solche Zeile gefunden werden kann oder die <b>Tabelle</b> keine Zeilen enthält.</returns>
         <remarks><para>
-            <b>FindRow</b> beginnt immer bei der ersten Zeile in der <b>Tabelle</b>.  </para>
+            <b>FindRow</b> beginnt immer bei der ersten Zeile in der <b>Tabelle</b>.</para>
           <para>
-            <b>FindRow</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn eine Eigenschaft in nicht im angegebenen <paramref name="Filter" /> Namespace vorhanden ist. Die-Eigenschaft ist eine benannte Eigenschaft im MAPI-Eigenschaftensatz PS_PUBLIC_STRINGS berücksichtigt. <b>FindRow</b> ist nicht in diesem Fall einen Fehler zurück.</para>
+            <b>FindRow</b> gibt <b>Nothing</b> (einen Nullverweis (Nothing in Visual Basic) in C# zurück, wenn im angegebenen Namespace keine Eigenschaft <paramref name="Filter" /> vorhanden ist. Die-Eigenschaft ist eine benannte Eigenschaft im MAPI-Eigenschaftensatz PS_PUBLIC_STRINGS berücksichtigt. <b>FindRow</b> ist nicht in diesem Fall einen Fehler zurück.</para>
           <para>
-            <b>FindRow gibt</b> einen Fehler zurück, <paramref name="Filter" /> wenn es sich um eine leere Zeichenfolge oder eine ungültige Einschränkung handelt. In Fällen, in denen <b>FindRow</b> keine Zeile findet, wird die aktuelle Zeile nicht an die Position vor dem Aufruf von <b>FindRow neu positioniert.</b></para>
-          <para>Verwenden Sie die Methode, um die Inhaltsindizierungssuche in einer <b>Tabelle</b>zu <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> verwenden. <b>FindRow gibt</b> einen Fehler zurück, wenn <paramref name="Filter" /> Schlüsselwörter für die Inhaltsindizierung enthalten sind. </para>
+            <b>FindRow</b> gibt einen Fehler zurück, wenn <paramref name="Filter" /> es sich um eine leere Zeichenfolge oder eine ungültige Einschränkung handelt. In Fällen, in denen  <b>FindRow</b> keine Zeile findet, wird die aktuelle Zeile nicht an der Stelle neu positioniert, an der sie sich vor dem Aufruf von <b>FindRow</b>befand.</para>
+          <para>Verwenden Sie die Methode, um die Inhaltsindizierungssuche in einer <b>Tabelle</b>zu <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> verwenden. <b>FindRow</b> gibt einen Fehler zurück, wenn es Schlüsselwörter für <paramref name="Filter" /> die Inhaltsindizierung enthält. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -230,12 +230,12 @@
       <Docs>
         <param name="MaxRows">Gibt die maximale Anzahl von Zeilen aus der <b>Tabelle</b> zurückgegeben.</param>
         <summary>Ruft ein zweidimensionales Array ab, das eine Reihe von Zeilen- und Spaltenwerten aus der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> enthält.</summary>
-        <returns>Ein <b>Object-Wert,</b> bei dem es sich um ein zweidimensionales Array handelt, das eine Reihe von Zeilen- und Spaltenwerten aus dem <b>Table -Objekt darstellt.</b> Das Array ist null basiert. ein Arrayindex (i, j) in die i-th-Spalte und die j-th-Zeile im Array. Spalten im Array entsprechen Spalten im <b>Table</b>- und Zeilen im Array den Zeilen im <b>Table -Feld.</b> Die Anzahl der Zeilen im zurückgegebenen Array ist der kleinere Wert von und die tatsächliche Anzahl von Zeilen <paramref name="MaxRows" /> in <b>der Tabelle</b>.</returns>
+        <returns>Ein <b>Objektwert,</b> bei dem es sich um ein zweidimensionales Array handelt, das eine Reihe von Zeilen- und Spaltenwerten aus der <b>Tabelle</b>darstellt. Das Array ist nullbasiert; ein Arrayindex (i, j) indiziert in die i-th-Spalte und die j-th-Zeile im Array. Spalten im Array entsprechen Spalten in der <b>Tabelle,</b>und Zeilen im Array entsprechen Zeilen in der <b>Tabelle</b>. Die Anzahl der Zeilen im zurückgegebenen Array ist der kleinere Wert <paramref name="MaxRows" /> und die tatsächliche Anzahl der Zeilen in der <b>Tabelle.</b></returns>
         <remarks><para><b>GetArray</b> -Methode bietet einen einfachen Prinzip bedeutet, dass beim Abrufen von Werten aus einer <b>Tabelle</b>, indem alle oder einen Teil der Daten in der <b>Tabelle</b> (basierend auf der aktuellen Zeile) auf ein Array kopiert und im Array.</para>
           <para>
-            <b>GetArray</b> beginnt immer bei der aktuellen Zeile der <b>Tabelle</b>. Es wird ein Array mit der Anzahl der Zeilen zurückgegeben, wenn mindestens die Anzahl der Zeilen in der Tabelle an der <paramref name="MaxRows" /> <paramref name="MaxRows" /> aktuellen Position beginnt. <b></b> Wenn die Gesamtzahl der Zeilen <paramref name="MaxRows" /> im <b>Table-Element</b>nicht größer ist und weniger Elemente in der Tabelle vorhanden sind, die mit der aktuellen Zeile beginnen, gibt es ein Array zurück, das nur die verbleibenden Zeilen in der <paramref name="MaxRows" /> Tabelle <b>enthält.</b> <b></b> Wenn <b>GetArray</b> aufgerufen wird und keine verbleibenden Zeilen vorhanden sind, gibt <b>GetArray</b> ein leeres Array mit 0 Elementen zurück.</para>
-          <para>Nach dem Abrufen der entsprechenden Zeilen aus der <b>Tabelle</b> und vor der Rückgabe, verschiebt <b>GetArray</b> immer die aktuelle Zeile in die nächste Zeile in der <b>Tabelle</b>, wenn eine nächste Zeile vorhanden. GetArray(n) funktioniert so, als <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> würde n mal aufgerufen.</para>
-          <para>Die Werte in den Spalten Zuordnen von Spalten in der <b>Tabelle</b>, und werden daher durch das Format des der Name der Eigenschaft für die Spalte verwendet bestimmt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Factors Affecting Property Value Representation in the Table and View Classes.</a></para>
+            <b>GetArray</b> beginnt immer bei der aktuellen Zeile der <b>Tabelle</b>. Es wird ein Array mit <paramref name="MaxRows" /> einer Anzahl von Zeilen zurückgegeben, wenn mindestens eine Anzahl von Zeilen in der Tabelle vorhanden ist, die an der <paramref name="MaxRows" /> aktuellen Position beginnt. <b></b> Wenn die Gesamtzahl der Zeilen in der Tabelle nicht größer ist und weniger <paramref name="MaxRows" /> Elemente in der Tabelle vorhanden sind, die mit der <b></b> <paramref name="MaxRows" /> aktuellen Zeile beginnen, wird ein Array zurückgegeben, das nur die verbleibenden Zeilen in der <b>Tabelle</b>enthält. <b></b> Wenn <b>GetArray</b> aufgerufen wird und keine verbleibenden Zeilen vorhanden sind, gibt <b>GetArray</b> ein leeres Array mit 0 Elementen zurück.</para>
+          <para>Nach dem Abrufen der entsprechenden Zeilen aus der <b>Tabelle</b> und vor der Rückgabe, verschiebt <b>GetArray</b> immer die aktuelle Zeile in die nächste Zeile in der <b>Tabelle</b>, wenn eine nächste Zeile vorhanden. GetArray(n) wird wie <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> n mal aufgerufen.</para>
+          <para>Die Werte in den Spalten Zuordnen von Spalten in der <b>Tabelle</b>, und werden daher durch das Format des der Name der Eigenschaft für die Spalte verwendet bestimmt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87858">Faktoren, die sich auf die Darstellung von Eigenschaftswerten in den Klassen "Tabelle" und "Ansicht" auswirken.</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -260,8 +260,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Verschiebt die aktuelle Zeile in die nächste Zeile in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> und ruft diese Zeile in der Tabelle <b>ab.</b></summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> Objekt, das die nächste gültige Zeile im <b>Table-Objekt</b> darstellt, wenn zusätzliche Zeilen verfügbar sind. Wenn keine zusätzlichen Zeilen verfügbar sind (wobei <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> <b>True</b>ist), gibt <b>GetNextRow</b> <b>Nothing</b> zurück (ein Nullverweis (Nothing in Visual Basic) in C#).</returns>
+        <summary>Verschiebt die aktuelle Zeile zur nächsten Zeile in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> und ruft diese Zeile in der <b>Tabelle</b>ab.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Row" /> Objekt, das die nächste gültige Zeile in der <b>Tabelle</b> darstellt, wenn weitere Zeilen verfügbar sind. Wenn keine zusätzlichen Zeilen verfügbar sind (wobei <see cref="P:Microsoft.Office.Interop.Outlook._Table.EndOfTable" /> <b>True</b>ist), gibt <b>GetNextRow</b> <b>Nothing</b> (einen Nullverweis (Nothing in Visual Basic) in C# zurück.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -286,10 +286,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Ruft die Anzahl der Zeilen im <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> ab.</summary>
+        <summary>Ruft die Anzahl der Zeilen in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> ab.</summary>
         <returns>Ein <b>Integer</b> -Wert (<b>int</b> in C#), der die Anzahl der Zeilen in der Tabelle darstellt.</returns>
         <remarks><para>
-            <b>GetRowCount</b> für eine große Tabelle führt zu einer leistungsbeeinträchtigung.  Aufgrund von MAPI-Einschränkungen (z. B. Speichereinschränkungen für große Tabellen, simultane Operationen für das <b>Table</b>-Objekt) kann durch <b>GetRowCount</b> möglicherweise die Anzahl der Zeilen im <b>Table</b>-Objekt nicht ermittelt werden, oder es wird möglicherweise nur eine ungefähre Zeilenanzahl zurückgegeben. In diesen Fällen wird <b>GetRowCount</b> einen Fehler zurück. Sie sollten entsprechenden Fehlersuche für <b>GetRowCount</b> verwenden, um festzustellen, ob der Anruf einen Fehler zurückgibt. </para>
+            <b>GetRowCount</b> für eine große Tabelle führt zu einer leistungsbeeinträchtigung.  Aufgrund von MAPI-Einschränkungen (z. B. Speichereinschränkungen für große Tabellen, gleichzeitige Vorgänge für die <b>Tabelle)</b>kann <b>GetRowCount</b> die Anzahl der Zeilen in der <b>Tabelle</b>möglicherweise nicht bestimmen oder nur eine ungefähre Zeilenanzahl zurückgeben. In diesen Fällen wird <b>GetRowCount</b> einen Fehler zurück. Sie sollten entsprechenden Fehlersuche für <b>GetRowCount</b> verwenden, um festzustellen, ob der Anruf einen Fehler zurückgibt. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -314,9 +314,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Verschiebt die aktuelle Zeile von auf direkt vor der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> ersten Zeile des Table <b>-.</b></summary>
+        <summary>Verschiebt die aktuelle Zeile der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Zeile direkt vor die erste Zeile der <b>Tabelle</b>.</summary>
         <remarks><para>
-            <b>MoveToStart</b> entspricht dem Zurücksetzen des <b>Table</b>-Objekts. Wenn Sie nach <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> dem Aufruf von <b>MoveToStart</b>aufrufen, geben Sie eine Zeile zurück, die die erste Zeile in der <b>Tabelle darstellt.</b></para>
+            <b>MoveToStart</b> entspricht dem Zurücksetzen des <b>Table</b>-Objekts. Wenn Sie nach dem Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook._Table.GetNextRow" /> <b>MoveToStart</b>aufrufen, geben Sie eine Zeile zurück, die die erste Zeile in der <b>Tabelle</b>darstellt.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -343,7 +343,7 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt das übergeordnete <b>Objekt</b> des Objekts <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> zurück. Schreibgeschützt.</summary>
+        <summary>Gibt das übergeordnete <b>Objekt</b> des <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -371,18 +371,18 @@
         <Parameter Name="Filter" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="Filter">Gibt die Kriterien für Zeilen im <b>Table-Objekt</b> an.</param>
-        <summary>Wendet einen Filter auf die Zeilen im <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> an und ruft ein neues <b>Table-Objekt</b> ab.</summary>
-        <returns>Ein <b>Table-Objekt,</b> das durch Anwenden auf die Zeilen im übergeordneten <paramref name="Filter" /> <b>Table-Objekt zurückgegeben</b> wird.</returns>
-        <remarks><para>Sie können <b>Table.Restrict nur verwenden,</b> um einen anderen Filter auf diese <b>Tabelle</b> anzuwenden, wenn das übergeordnete Objekt des <b>Table-Objekts</b> ein Objekt <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> ist. Wenn das übergeordnete Objekt ein <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> Objekt ist,  <b>gibt Restrict</b> einen Fehler zurück.</para>
-          <para>Da der Filter auf die Zeilen im Table-Objekt angewendet wird, entspricht dies dem Anwenden eines Filters, der ein logisches AND-Objekt ist, und alle vorhergehenden Filter, die auf dasselbe <paramref name="Filter" /> <b>Table-Objekt</b> angewendet werden.</para>
+        <param name="Filter">Gibt die Kriterien für Zeilen im <b>Table -Objekt</b> an.</param>
+        <summary>Wendet einen Filter auf die Zeilen in der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> und ruft ein neues Table <b>-Objekt</b> ab.</summary>
+        <returns>Ein <b>Table -Objekt,</b> das durch Anwenden <paramref name="Filter" /> auf die Zeilen im übergeordneten <b>Table</b> -Objekt zurückgegeben wird.</returns>
+        <remarks><para>Sie können <b>Table.Restrict</b> nur verwenden, um einen anderen Filter auf diese <b>Tabelle</b> anzuwenden, wenn das übergeordnete Objekt der <b>Tabelle</b> ein <see cref="T:Microsoft.Office.Interop.Outlook.Folder" /> Objekt ist. Wenn das übergeordnete Objekt ein <see cref="T:Microsoft.Office.Interop.Outlook.Search" /> Objekt ist, gibt  <b>Restrict</b> einen Fehler zurück.</para>
+          <para>Da der Filter auf die Zeilen im Table-Objekt angewendet wird, entspricht dies dem Anwenden eines Filters, bei dem es sich um ein logisches AND und aller vorhergehenden Filter handelt, <paramref name="Filter" /> die auf dasselbe <b>Table-Objekt</b> angewendet wurden.</para>
           <para>
-            <paramref name="Filter" />ist eine Abfrage zu angegebenen Eigenschaften von Elementen, die als Zeilen in der übergeordneten Tabelle dargestellt <b>werden.</b> Die Abfrage verwendet entweder die Microsoft #A0 oder die DAV Searching and Locating (DASL)-Syntax. Der folgende Jet- und DASL-Filter geben beispielsweise dieselben Kriterien für Elemente mit <b>LastModificationTime</b> vor 15:30 Uhr vom 12. Juni 2005 an:</para>
-          <para>criteria = "[LastModificationTime] &lt; '" &amp; Format$("12.06.2005 3:30PM","General Date") &amp; "'"</para>
-          <para>criteria = "@SQL=" &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34)          &amp; " &lt; '" &amp; Format$("12.06.2005 15:30PM","General Date") &amp; "'" </para>
-          <para>Weitere Informationen zum Angeben von Filtern für das <b>Table-Objekt</b> finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtering Items</a></para>
-          <para>Wenn benutzerdefinierte Eigenschaften enthalten sind, müssen diese Eigenschaften im übergeordneten Ordner des Table-Objekts vorhanden sein, damit die <paramref name="Filter" /> Einschränkung ordnungsgemäß funktioniert. <b></b>  Bestimmte Eigenschaften werden in einem <b>Table</b> -Filter, einschließlich binäre Eigenschaften, berechnete Eigenschaften und HTML- oder RTF-Textinhalte nicht unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87926">Nicht unterstützte Eigenschaften in einem Table-Objekt oder Einem Tabellenfilter.</a></para>
-          <para>Wenn <paramref name="Filter" /> es sich um eine leere Zeichenfolge handelt, gibt <b>Restrict</b> ein <b>Table-Objekt</b> zurück, das mit dem übergeordneten <b>Table-Objekt identisch</b> ist.  </para>
+            <paramref name="Filter" /> ist eine Abfrage der angegebenen Eigenschaften von Elementen, die als Zeilen in der übergeordneten <b>Tabelle</b>dargestellt werden. Die Abfrage verwendet entweder die Microsoft Jet-Syntax oder die DASL-Syntax (DAV Searching and Locating). Beispielsweise geben der folgende Jet-Filter und dasl-Filter die gleichen Kriterien für Elemente mit <b>LastModificationTime</b> vor 15:30 Uhr vom 12. Juni 2005 an:</para>
+          <para>criteria = "[LastModificationTime] &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'"</para>
+          <para>criteria = "@SQL=" &amp; Chr(34) &amp; "DAV:getlastmodified" &amp; Chr(34) &amp; " &lt; '" &amp; Format$("6/12/2005 3:30PM","General Date") &amp; "'" </para>
+          <para>Weitere Informationen zum Angeben von Filtern für das <b>Table-Objekt</b> finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87855">Filtern von Elementen</a></para>
+          <para>Wenn <paramref name="Filter" /> benutzerdefinierte Eigenschaften enthalten sind, müssen diese Eigenschaften im übergeordneten Ordner des <b>Table</b> -Objekts vorhanden sein, damit die Einschränkung ordnungsgemäß funktioniert.  Bestimmte Eigenschaften werden in einem <b>Table</b> -Filter, einschließlich binäre Eigenschaften, berechnete Eigenschaften und HTML- oder RTF-Textinhalte nicht unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87926">"Nicht unterstützte Eigenschaften in einem Table-Objekt oder Tabellenfilter"</a></para>
+          <para>Wenn <paramref name="Filter" /> es sich um eine leere Zeichenfolge handelt, gibt <b>Restrict</b> ein <b>Table -Objekt</b> zurück, das mit dem übergeordneten <b>Table</b> -Objekt identisch ist.  </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -411,7 +411,7 @@
       <Docs>
         <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> Objekt für die aktuelle Sitzung zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Die <b>Session-Eigenschaft</b> und die -Methode können austauschbar verwendet werden, um das <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> <b>NameSpace-Objekt für</b> die aktuelle Sitzung zu erhalten. Beide Member haben denselben Zweck. Die folgenden Anweisungenpaare führen beispielsweise dieselbe Funktion aus:</para>
+        <remarks><para>Die <b>Session-Eigenschaft</b> und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode können synonym verwendet werden, um das <b>NameSpace-Objekt</b> für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Die folgenden Anweisungspaare führen z. B. dieselbe Funktion aus:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -446,11 +446,11 @@
       <Docs>
         <param name="SortProperty">Gibt die Eigenschaft zu verwenden, um die Zeilen der <b>Tabelle</b> zu sortieren.</param>
         <param name="Descending">Ob die <b>Tabelle</b> in absteigender Reihenfolge zu sortieren.</param>
-        <summary>Sortiert die Zeilen der durch die in angegebenen Eigenschaft und setzt die aktuelle Zeile auf kurz vor der <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> ersten Zeile in der Tabelle <paramref name="SortProperty" /> <b>zurück.</b></summary>
+        <summary>Sortiert die Zeilen nach <see cref="T:Microsoft.Office.Interop.Outlook.Table" /> der angegebenen Eigenschaft <paramref name="SortProperty" /> und setzt die aktuelle Zeile direkt vor der ersten Zeile in der <b>Tabelle</b>zurück.</summary>
         <remarks><para>
-            <paramref name="SortProperty" /> kann eine beliebige explizite integrierte Eigenschaft oder benutzerdefinierte Eigenschaft sein, mit Ausnahme von binären und mehrwertigen Eigenschaften. Auf die Eigenschaft muss durch den expliziten Zeichenfolgennamen verwiesen werden. Es kann nicht durch Namespaces darauf verwiesen werden. Weitere Informationen zum Angeben von Sortiereigenschaften finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Sortieren von Elementen in einem Ordner.</a></para>
+            <paramref name="SortProperty" /> kann eine beliebige explizite integrierte oder benutzerdefinierte Eigenschaft sein, mit Ausnahme von binären und mehrwertigen Eigenschaften. Auf die Eigenschaft muss durch den expliziten Zeichenfolgennamen verwiesen werden. Es kann nicht durch einen Namespace darauf verwiesen werden. Weitere Informationen zum Angeben von Sortiereigenschaften finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87936">Sortieren von Elementen in einem Ordner</a></para>
           <para>Das Sortieren der Tabelle entspricht dem Aufrufen einer <see cref="M:Microsoft.Office.Interop.Outlook._Table.MoveToStart" /> Methode. Der Cursor wird am Anfang der Tabelle positioniert.  </para>
-          <para>Wenn <b>Table.Sort</b> und dann aufgerufen werden, werden die gefilterten Elemente in der neuen Tabelle nach <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> demselben und <b></b> <paramref name="SortProperty" /> <paramref name="SortOrder" /> sortiert.</para>
+          <para>Wenn <b>Table.Sort</b> und dann <see cref="M:Microsoft.Office.Interop.Outlook._Table.Restrict(System.String)" /> aufgerufen werden, werden die gefilterten Elemente in der neuen <b>Tabelle</b> nach dem gleichen <paramref name="SortProperty" /> und <paramref name="SortOrder" /> sortiert.</para>
           <para>
             <b>Table.Sort</b> unterstützt nur das Sortieren nach einer einzigen Spalte.</para>
           <para> </para></remarks>

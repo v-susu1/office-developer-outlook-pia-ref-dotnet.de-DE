@@ -1,5 +1,5 @@
 <Type Name="_ToOrFromRuleCondition" FullName="Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="648baf91163629ffdd4d280837514179e56bd36d" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901669" /></Metadata><TypeSignature Language="C#" Value="public interface _ToOrFromRuleCondition" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="e527e4aa96d3487f87ac18b8eabc5a52989272e1" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139481" /></Metadata><TypeSignature Language="C#" Value="public interface _ToOrFromRuleCondition" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ToOrFromRuleCondition" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._ToOrFromRuleCondition" />
   <TypeSignature Language="VB.NET" Value="Public Interface _ToOrFromRuleCondition" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt. Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist. Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" />.</summary>
+    <summary>Hierbei handelt es sich um eine primäre Schnittstelle in einer COM-CoClass, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, die Sie verwenden möchten, den gleichen Namen aufweist wie ein Ereignis des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um die Methode aufzurufen, und casten Sie zur aktuellen Ereignisschnittstelle, um eine Verbindung zum Ereignis herzustellen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen. Informationen zum COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Objekt zurück, das das übergeordnete Outlook Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -73,7 +73,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante zurück, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -101,10 +101,10 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRuleConditionType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> -Enumeration, die den Typ des regelbedingung angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine Konstante aus der <see cref="T:Microsoft.Office.Interop.Outlook.OlRuleConditionType" /> Aufzählung zurück, die den Typ der Regelbedingung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>
-            <b>ConditionType</b> hängt vom Typ des regelbedingung, als zwei Arten von Regel Bedingungen verwenden die <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> Objekt: <b>OlConditionFrom</b> und <b>OlConditionSentTo</b>.   <b>OlConditionFrom</b> wird nur von Regeln für den Empfang von Nachrichten, während <b>OlConditionSentTo</b> von Regeln für den Empfang von Nachrichten als auch Regeln zum Senden von Nachrichten unterstützt wird unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+            <b>ConditionType</b> hängt vom Typ der Regelbedingung ab, da zwei Arten von Regelbedingungen das <see cref="T:Microsoft.Office.Interop.Outlook.ToOrFromRuleCondition" /> Objekt verwenden: <b>OlConditionFrom</b> und <b>OlConditionSentTo</b>.   <b>OlConditionFrom</b> wird nur von Regeln für den Empfang von Nachrichten, während <b>OlConditionSentTo</b> von Regeln für den Empfang von Nachrichten als auch Regeln zum Senden von Nachrichten unterstützt wird unterstützt. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -134,10 +134,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <b>Boolean</b> (<b>Bool</b> in c#), der bestimmt, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> ist aktiviert. Lese-/Schreibzugriff</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines Werts vom Typ <b>Boolean</b> (<b>bool</b> in C#), der bestimmt, ob der Wert <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> aktiviert ist. Lesen/Schreiben</summary>
         <value>To be added.</value>
-        <remarks><para>Nachdem Sie eine Regel aktiviert haben, müssen Sie auch die Regel mithilfe von Speichern <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> , damit die regelbedingung und deren aktivierter Status über die aktuelle Sitzung beibehalten werden.  Eine Regel ist nur dann aktiviert, nachdem sie erfolgreich gespeichert wurde. </para>
-          <para>Gibt einen Fehler zurück, wenn Sie versuchen, eine Regel zu aktivieren, die nur für eine Regel vom Typ <b>OlRuleSend</b> für eine Regel vom Typ <b>OlRuleReceive</b>unterstützt wird oder umgekehrt.  Weitere Informationen über die Unterstützung von Regeln zum Empfangen von Nachrichten oder Regeln zum Senden von Nachrichten finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
+        <remarks><para>Nachdem Sie eine Regelbedingung aktiviert haben, müssen Sie die Regel auch speichern, indem Sie <see cref="M:Microsoft.Office.Interop.Outlook._Rules.Save(System.Object)" /> sie verwenden, damit die Regelbedingung und ihr aktivierter Status über die aktuelle Sitzung hinaus bestehen bleiben.  Eine Regel ist nur dann aktiviert, nachdem sie erfolgreich gespeichert wurde. </para>
+          <para>Gibt einen Fehler zurück, wenn Sie versuchen, eine Regelbedingung zu aktivieren, die nur für eine Regel vom Typ  <b>OlRuleSend</b> für eine Regel vom Typ <b>OlRuleReceive</b>unterstützt wird, oder umgekehrt.  Weitere Informationen zur Unterstützung durch Regeln zum Empfangen von Nachrichten oder Regeln zum Senden von Nachrichten finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkId=87803">Angeben von Regelbedingungen</a></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -166,7 +166,7 @@
       <Docs>
         <summary>Gibt das übergeordnete <b>Objekt</b> des angegebenen Objekts zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Das übergeordnete Objekt ist die <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
+        <remarks><para>Das übergeordnete Objekt ist das <see cref="T:Microsoft.Office.Interop.Outlook.RuleCondition" /> Objekt.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -193,7 +193,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung, die Empfängerliste für die Auswertung der regelbedingung darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  Auflistung zurück, die die Empfängerliste für die Auswertung der Regelbedingung darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Mithilfe des logischen Operators OR werden mehrere Empfänger ausgewertet.</para>
           <para> </para></remarks>
@@ -222,9 +222,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
+        <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  Objekt für die aktuelle Sitzung zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session-Eigenschaft</b> und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode können synonym verwendet werden, um das <b>NameSpace-Objekt</b> für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Die folgenden Anweisungspaare führen z. B. dieselbe Funktion aus:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

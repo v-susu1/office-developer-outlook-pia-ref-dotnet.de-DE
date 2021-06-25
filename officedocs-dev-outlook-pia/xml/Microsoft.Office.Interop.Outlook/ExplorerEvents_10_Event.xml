@@ -1,5 +1,5 @@
 <Type Name="ExplorerEvents_10_Event" FullName="Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="1284170d4c7d7e9f8115cbb6aa1c5cae9ad00511" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27896800" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="c3a3195e08f69bc1e2baf898bd2129a95216031f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139488" /></Metadata><TypeSignature Language="C#" Value="public interface ExplorerEvents_10_Event" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ExplorerEvents_10_Event" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event" />
   <TypeSignature Language="VB.NET" Value="Public Interface ExplorerEvents_10_Event" />
@@ -80,7 +80,7 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt ein, bevor der Explorer aufgrund einer Benutzeraktion oder durch Programmcode in einen neuen Ordner wechselt.</summary>
-        <remarks><para>Wenn der Ordner in einem Namespace befindet, der keine Automatisierung (wie das Dateisystem) unterstützt <paramref name="NewFolder" /> wird <b>Nothing zurück</b>.</para>
+        <remarks><para>Wenn sich der Ordner, zu dem gewechselt wird, in einem Namespace befindet, der die Automatisierung nicht unterstützt (z. B. das Dateisystem), <paramref name="NewFolder" /> ist <b>Nothing</b>.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -199,7 +199,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Tritt auf, wenn die <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> vom Benutzer verschoben wird.</summary>
+        <summary>Tritt auf, wenn der  <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> Benutzer das Objekt verschoben hat.</summary>
         <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden.</para>
           <para> </para></remarks>
       </Docs>
@@ -219,7 +219,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Tritt auf, wenn der Benutzer die Größe des aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" />.</summary>
+        <summary>Tritt auf, wenn der Benutzer die Größe der aktuellen <see cref="T:Microsoft.Office.Interop.Outlook.Explorer" /> ändert.</summary>
         <remarks><para>Dieses Ereignis kann nach dem Auslösen abgebrochen werden. Wenn das Ereignis abgebrochen wird, wird die Größe des Fensters nicht geändert.</para>
           <para> </para></remarks>
       </Docs>
@@ -259,7 +259,7 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn ein Explorer geschlossen wird.</summary>
-        <remarks><para>Bei Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> -Methode zum Auslösen dieses Ereignisses verwenden, kann es nur abgebrochen werden, wenn die <b>Close</b> -Methode das <b>OlPromptForSave</b> -Argument verwendet wird.</para>
+        <remarks><para>Wenn Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Explorer.Close" /> Methode zum Auslösen dieses Ereignisses verwenden, kann es nur abgebrochen werden, wenn die <b>Close-Methode</b> das <b>OlPromptForSave-Argument</b> verwendet.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -317,7 +317,7 @@
       </ReturnValue>
       <Docs>
         <summary>Tritt auf, wenn der Benutzer eine Aktion ausführt, die eine Inlineantwort im Lesebereich anzeigt.</summary>
-        <remarks><para>Dieses Ereignis gibt ein Item-Objekt, das Inline-Antwort-Element darstellt.</para>
+        <remarks><para>Dieses Ereignis gibt ein Elementobjekt zurück, das das Inlineantwortelement darstellt.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -336,17 +336,17 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Tritt auf, wenn der Benutzer eine Aktion ausführt, die zum Schließen der aktiven inlineantwort im Lesebereich verursacht.</summary>
-        <remarks><para>Dieses Ereignis wird ausgelöst, wenn eine neue inlineantwort oder Entwurf inlineantwort aus den folgenden Gründen geschlossen wird:</para>
+        <summary>Tritt auf, wenn der Benutzer eine Aktion ausführt, die bewirkt, dass die aktive Inlineantwort im Lesebereich geschlossen wird.</summary>
+        <remarks><para>Dieses Ereignis wird ausgelöst, wenn eine neue Inlineantwort oder ein Entwurf einer Inlineantwort aus den folgenden Gründen geschlossen wird:</para>
           <list type="bullet">
             <item>
-              <para>Der Benutzer wählt den Befehl <b>Pop heraus</b> .</para>
+              <para>Der Benutzer wählt den <b>Popupbefehl aus.</b></para>
             </item>
             <item>
-              <para>Der Benutzer wählt den Befehl <b>verwerfen</b> .</para>
+              <para>Der Benutzer wählt den Befehl <b>"Verwerfen" aus.</b></para>
             </item>
             <item>
-              <para>Der Benutzer sendet die inlineantwort.</para>
+              <para>Der Benutzer sendet die Inlineantwort.</para>
             </item>
             <item>
               <para>Der Benutzer navigiert zu einer anderen Nachricht in der Nachrichtenliste.</para>
@@ -355,7 +355,7 @@
               <para>Der Benutzer navigiert zu einem anderen Ordner.</para>
             </item>
             <item>
-              <para>Der Benutzer wechselt, Module, z. B. von e-Mail-Moduls für das Kalendermodul.</para>
+              <para>Der Benutzer wechselt module, z. B. vom E-Mail-Modul zum Kalendermodul.</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -376,8 +376,8 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Tritt auf, wenn der Benutzer zu einem anderen Element in einem Ordner mithilfe der Benutzeroberfläche (UI) wechselt oder programmgesteuert.</summary>
-        <remarks><para>Dieses Ereignis tritt auch ein, wenn der Benutzer, entweder programmgesteuert oder mithilfe der programmseitig Benutzer klickt oder wechselt zu einem anderen Ordner, die Elemente enthält, wie Outlook das erste Element in diesem Ordner automatisch markiert. Dieses Ereignis tritt jedoch nicht auf, wenn der Ordner ein Ordner des Dateisystems ist oder wenn ein beliebiger Ordner mit einer aktuellen Webansicht angezeigt wird. </para>
+        <summary>Tritt auf, wenn der Benutzer über die Benutzeroberfläche (UI) oder programmgesteuert zu einem anderen Element in einem Ordner wechselt.</summary>
+        <remarks><para>Dieses Ereignis tritt auch auf, wenn der Benutzer entweder programmgesteuert oder über die Benutzeroberfläche auf einen anderen Ordner klickt oder zu einem anderen Ordner wechselt, der Elemente enthält, Outlook automatisch das erste Element in diesem Ordner auswählt. Dieses Ereignis tritt jedoch nicht auf, wenn der Ordner ein Dateisystemordner oder ein Ordner mit einer aktuellen Webansicht angezeigt wird. </para>
           <para> </para></remarks>
       </Docs>
     </Member>

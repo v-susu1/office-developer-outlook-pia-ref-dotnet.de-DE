@@ -1,5 +1,5 @@
 <Type Name="OlkControl" FullName="Microsoft.Office.Interop.Outlook.OlkControl">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="5939b00a41bad44f31458db50a6e9149c2069729" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27901886" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="b59b52e19f1e0e19966fdc0416fc5057d16159e4" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139579" /></Metadata><TypeSignature Language="C#" Value="public interface OlkControl" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OlkControl" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkControl" />
   <TypeSignature Language="VB.NET" Value="Public Interface OlkControl" />
@@ -19,7 +19,7 @@
   </Attributes>
   <Docs>
     <summary>Definiert eine Reihe von Steuerelementeigenschaften, die verschiedene Microsoft Outlook-Steuerelemente gleichermaßen besitzen.</summary>
-    <remarks><para>Die Mitglieder von <b>OlkControl</b> angeboten können auf die meisten Outlook-Steuerelemente anwenden.  <b>OlkControl</b> stellt eine Klasse, die Sie bequem ein Outlook-Steuerelement umwandeln können, ohne Spiegelung, bereit. Zwar <b>OlkControl</b> für Microsoft Forms 2.0-Steuerelemente nicht anwendbar ist, werden ähnliche Eigenschaften Forms 2.0-Steuerelemente zur Verfügung. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: zusätzliche Steuerelement Eigenschaften zur Programmierung</a></para>
+    <remarks><para>Die Mitglieder von <b>OlkControl</b> angeboten können auf die meisten Outlook-Steuerelemente anwenden.  <b>OlkControl</b> bietet eine Klasse, in die Sie bequem ein Outlook-Steuerelement umwandeln können, ohne auf Spiegelung zu verzichten. Zwar <b>OlkControl</b> für Microsoft Forms 2.0-Steuerelemente nicht anwendbar ist, werden ähnliche Eigenschaften Forms 2.0-Steuerelemente zur Verfügung. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/?LinkID=87937">OL98: Zusätzliche Steuerelementeigenschaften, die für die Programmierung verfügbar sind</a></para>
       <para> </para></remarks>
   </Docs>
   <Members>
@@ -49,7 +49,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die die Eigenschaft des Steuerelements, das darstellt mit der Databind auftritt. Lese-/Schreibzugriff</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines <b>Werts</b> vom Typ String (<b>Zeichenfolge</b> in C#), der die Eigenschaft des Steuerelements darstellt, mit dem databind auftritt. Lesen/Schreiben</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -80,7 +80,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen eines <b>booleschen</b> (<b>Bool</b> in c#), die automatische Anpassung des Layouts für das Steuerelement im Hinblick auf den Rest des Formulars ermöglicht. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines Werts vom Typ <b>Boolean</b> (<b>bool</b> in C#), der automatische Anpassungen des Layouts für das Steuerelement im Hinblick auf den Rest des Formulars ermöglicht. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Zu den automatischen Anpassungen für das Layout eines Steuerelements gehören das vertikale oder horizontale Ausrichten des Steuerelements im Verhältnis zu anderen Steuerelementen sowie das Anpassen der Höhe oder der Breite des Steuerelements in Bezug auf die Länge oder Breite des Formulars.</para>
           <para> </para></remarks>
@@ -112,10 +112,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, wie ein Wert ist, die im Steuerelement angezeigt werden. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines <b>Integer</b> -Werts (<b>int</b> in C#), der angibt, wie ein Wert im Steuerelement angezeigt werden soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Die <b>Format</b> -Eigenschaft kann es sich um eine Konstante in einer Aufzählung sein, die Beschreibung der Vorgehensweise zum Anzeigen eines Werts. Sie können beispielsweise <b>Format</b> angeben, wie die Konstante <b>OlFormatCurrencyDecimal</b> , die in definiert ist die <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> Enumeration in einen Währungswert angezeigt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> Steuerelement.</para>
-          <para>Die <b>Format</b> -Eigenschaft ist spezifisch für die Eigenschaft im Outlook-Objektmodell, das an das Steuerelement gebunden ist. Da letztere wird angegeben, indem <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" />. Wenn das Steuerelement nicht an eine beliebige Eigenschaft gebunden ist, wird das <b>Format</b> den Zugriff auf einen Fehler zurück.</para>
+        <remarks><para>Die <b>Format</b> -Eigenschaft kann es sich um eine Konstante in einer Aufzählung sein, die Beschreibung der Vorgehensweise zum Anzeigen eines Werts. Beispielsweise können Sie <b>Format</b> als Konstante <b>olFormatCurrencyDecimal</b> angeben, die in der Enumeration definiert <see cref="T:Microsoft.Office.Interop.Outlook.OlFormatCurrency" /> ist, um einen Währungswert in einem <see cref="T:Microsoft.Office.Interop.Outlook.OlkTextBox" /> Steuerelement anzuzeigen.</para>
+          <para>Die <b>Format-Eigenschaft</b> ist spezifisch für die Eigenschaft im Outlook-Objektmodell, an die das Steuerelement gebunden ist. Letzteres wird durch <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.ItemProperty" /> . Wenn das Steuerelement nicht an eine beliebige Eigenschaft gebunden ist, wird das <b>Format</b> den Zugriff auf einen Fehler zurück.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -145,7 +145,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlHorizontalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurück oder legt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> -Konstante, die die horizontale Ausrichtung des Steuerelements mit anderen Steuerelementen auf dem Formular angibt, oder gibt an, ob das Steuerelement in horizontaler Richtung automatisch angepasst wird, wenn die Breite des Formulars geändert wird. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.OlHorizontalLayout" /> Konstante, die eine Ausrichtung in horizontaler Richtung dieses Steuerelements mit anderen ausgewählten Steuerelementen im Formular angibt oder angibt, ob das Steuerelement automatisch in horizontaler Richtung angepasst wird, wenn die Breite des Formulars geändert wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -176,7 +176,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), der den Namen der Eigenschaft im Outlook-Objektmodell angibt, das an das Steuerelement gebunden ist. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines Werts vom Typ <b>String</b> (<b>Zeichenfolge</b> in C#), der den Namen der Eigenschaft im Outlook Objektmodell angibt, an das das Steuerelement gebunden ist. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -207,10 +207,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die minimale Höhe angibt, die, der das Steuerelement automatisch nach unten an angepasst werden kann. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines <b>Integer</b> -Werts (<b>int</b> in C#), der die minimale Höhe angibt, auf die das Steuerelement automatisch nach unten angepasst werden kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />muss auf <b>true fest,</b> in der Reihenfolge für <b>MinimumLength</b> wirksam, festgelegt werden.</para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> muss auf <b>"True"</b> festgelegt sein, damit <b>MinimumLength</b> wirksam wird.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -240,10 +240,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder festlegen einen <b>Ganzzahl</b> (<b>Int</b> in c#)-Wert, der die minimale Breite angibt, die, der das Steuerelement automatisch nach unten an angepasst werden kann. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines <b>Integer</b> -Werts (<b>int</b> in C#), der die minimale Breite angibt, auf die das Steuerelement automatisch nach unten angepasst werden kann. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>
-            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" />muss auf <b>true fest,</b> in der Reihenfolge für <b>MinimumWidth</b> wirksam werden festgelegt werden.</para>
+            <see cref="P:Microsoft.Office.Interop.Outlook.OlkControl.EnableAutoLayout" /> muss auf <b>"True"</b> festgelegt sein, damit <b>MinimumWidth</b> wirksam wird.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -273,9 +273,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>String</b> in c#), die eine Liste der möglichen Werte für die Dropdownliste für das Steuerelement, getrennt durch Semikolons darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), die eine Liste der möglichen Werte für die Dropdownliste für das Steuerelement durch Semikolons getrennt darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Bei Steuerelementen, die keine für ein Dropdown-Listenfeld Unterstützung, ist der Wert dieser Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#).</para>
+        <remarks><para>Bei Steuerelementen, die keine Dropdownliste unterstützen, ist der Wert dieser Eigenschaft <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in C#).</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -305,7 +305,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlVerticalLayout</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurück oder legt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> -Konstante, die die vertikale Ausrichtung des Steuerelements mit anderen Steuerelementen auf dem Formular angibt, oder gibt an, ob das Steuerelement in vertikaler Richtung automatisch angepasst wird, wenn das Formular Länge geändert wird. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.OlVerticalLayout" /> Konstante, die eine Ausrichtung in vertikaler Richtung dieses Steuerelements mit anderen ausgewählten Steuerelementen im Formular angibt oder angibt, ob das Steuerelement automatisch in vertikaler Richtung angepasst wird, wenn die Länge des Formulars geändert wird. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

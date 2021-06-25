@@ -1,5 +1,5 @@
 <Type Name="Conflicts" FullName="Microsoft.Office.Interop.Outlook.Conflicts">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="f7c1329c4afbeba3b9424c35b382506745d72eac" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27906877" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="3504a30b96a752a815c2c8ae8507b8f75ba9590f" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139474" /></Metadata><TypeSignature Language="C#" Value="public interface Conflicts : System.Collections.IEnumerable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Conflicts implements class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.Conflicts" />
   <TypeSignature Language="VB.NET" Value="Public Interface Conflicts&#xA;Implements IEnumerable" />
@@ -22,11 +22,11 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Enthält eine Auflistung von <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> -Objekten, die alle Microsoft Outlook-Elemente darstellen, die mit einem bestimmten Outlook-Element in Konflikt stehen.</summary>
-    <remarks><para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> -Eigenschaft eines Outlook-Elements, wie <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />, um das <b>Conflicts</b> -Objekt zurückzugeben.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> -Eigenschaft des <b>Conflicts</b> -Objekts zu ermitteln, ob das Element in Konflikt steht. Ein Wert ungleich Null gibt Konflikt an.</para>
-      <para>Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> Eigenschaft (<b>diese</b> in c#) an ein bestimmtes Konfliktelement aus dem <b>Conflicts</b> -Auflistungsobjekt abrufen.</para>
-      <para>Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" />, und <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> Methoden die <b>Conflicts</b> -Auflistung durchlaufen.</para>
+    <summary>Enthält eine Auflistung von <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> Objekten, die alle Microsoft Outlook Elemente darstellen, die mit einem bestimmten Outlook Element in Konflikt stehen.</summary>
+    <remarks><para>Verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.Conflicts" /> Eigenschaft eines beliebigen Outlook Elements, z. <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> B. , um das <b>Conflicts</b> -Objekt zurückzugeben.</para>
+      <para>Verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> Eigenschaft des <b>Conflicts</b> -Objekts, um zu bestimmen, ob das Element an einem Konflikt beteiligt ist. Ein Wert ungleich Null gibt Konflikt an.</para>
+      <para>Verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Item(System.Object)" /> Eigenschaft (<b>in</b> C#), um ein bestimmtes Konfliktelement aus dem <b>Conflicts -Auflistungsobjekt</b> abzurufen.</para>
+      <para>Verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> , , und <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> Methoden, um die <b>Conflicts</b> -Auflistung zu durchlaufen.</para>
       <para> </para></remarks>
   </Docs>
   <Members>
@@ -53,7 +53,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Objekt zurück, das das übergeordnete Outlook Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -81,7 +81,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante zurück, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -109,7 +109,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Objekte in der angegebenen Auflistung zurück. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>Integer</b> -Wert (<b>int</b> in C#) zurück, der die Anzahl der Objekte in der angegebenen Auflistung angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -135,9 +135,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Gibt das erste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung.</summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> -Objekt, das das erste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para>Gibt <b>Nothing zurück</b> , wenn kein erstes Objekt vorhanden, beispielsweise, ist Wenn in der Auflistung keine Objekte vorhanden sind. Um sicherzustellen, dass fehlerfreie Ausführung des <b>GetFirst</b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast vor dem Aufruf von <b>GetPrevious </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <summary>Gibt das erste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung zurück.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> Objekt, das das erste in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para>Gibt <b>Nothing</b> zurück, wenn kein erstes Objekt vorhanden ist, z. B. wenn die Auflistung keine Objekte enthält. Rufen Sie GetFirst <b></b>vor dem Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> GetNext für diese Auflistung auf, und rufen Sie <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetLast</b> vor dem Aufrufen von <b>GetPrevious</b>auf, <b></b> um den korrekten Betrieb von <b>GetFirst</b> , , und Methoden in einer großen Auflistung sicherzustellen. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -162,9 +162,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Gibt das letzte Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung.</summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> -Objekt, das das letzte in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para> Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden, beispielsweise, ist wenn die Auflistung leer ist. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <b>GetLast</b>, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, und <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <summary>Gibt das letzte Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung zurück.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> Objekt, das das letzte in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para> Es gibt <b>Nothing</b> zurück, wenn kein letztes Objekt vorhanden ist, z. B. wenn die Auflistung leer ist. Rufen Sie GetFirst vor dem Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> GetNext für diese Auflistung auf, und rufen Sie GetLast vor dem Aufrufen von <b></b> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> <b>GetPrevious</b>auf, <b></b> <b></b> um den korrekten Betrieb von <b>GetLast</b> und Methoden in einer großen Auflistung sicherzustellen. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -189,9 +189,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Gibt das nächste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung.</summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> -Objekt, das das nächste in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden, beispielsweise ist Wenn bereits am Ende der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <b>GetNext</b>, und <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor <b>GetPrevious aufrufen </b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <summary>Gibt das nächste Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung zurück.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> Objekt, das das nächste in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein nächstes Objekt vorhanden ist, z. B. wenn es bereits am Ende der Auflistung positioniert ist. Rufen Sie GetFirst vor dem Aufrufen von <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> GetNext für diese Auflistung auf, und rufen Sie GetLast vor dem Aufrufen von GetPrevious auf, um den korrekten Betrieb von , <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> , <b>GetNext</b>und <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetPrevious" /> Methoden in einer großen Auflistung sicherzustellen. <b></b> <b></b> <b></b> <b></b> Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -216,9 +216,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Gibt das vorherige Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung.</summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> -Objekt, das das vorherige in der Auflistung enthaltene Objekt darstellt.</returns>
-        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden, beispielsweise ist Wenn Sie bereits am Anfang der Auflistung positioniert. Sicherstellen der ordnungsgemäßen Betrieb des der <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" />, <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" />, und <b>GetPrevious</b> Methoden in einer großen Auflistung rufen Sie <b>GetFirst</b> , bevor Sie <b>GetNext für diese Auflistung</b> und <b>GetLast, bevor der Aufruf von <b> GetPrevious</b></b>. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
+        <summary>Gibt das vorherige Objekt in der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Auflistung zurück.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> Objekt, das das vorherige in der Auflistung enthaltene Objekt darstellt.</returns>
+        <remarks><para>Es gibt <b>Nothing</b> zurück, wenn kein vorheriges Objekt vorhanden ist, z. B. wenn es bereits am Anfang der Auflistung positioniert wurde. Um den korrekten Betrieb der <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetFirst" /> Methoden , , und <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetLast" /> <see cref="M:Microsoft.Office.Interop.Outlook.Conflicts.GetNext" /> <b>GetPrevious</b> in einer großen Auflistung sicherzustellen, rufen <b>Sie GetFirst</b> vor dem Aufrufen von <b>GetNext</b> für diese Auflistung auf, und rufen <b>Sie GetLast</b> vor dem Aufrufen von <b>GetPrevious</b>auf. Um sicherzustellen, dass Sie die Aufrufe immer auf die gleiche Auflistung ausführen, erstellen Sie eine explizite Variable, die auf diese vor dem Durchführen einer Schleife.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -249,7 +249,7 @@
       </Parameters>
       <Docs>
         <param name="Index">Entweder der Indexwert des Objekts oder ein Wert, der mit der Standardeigenschaft eines Objekts in der Auflistung übereinstimmt.</param>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> Objekt aus der Auflistung.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Conflict" /> Objekt aus der Auflistung zurück.</summary>
         <value>Ein <b>Conflict</b> -Objekt, das das angegebene Objekt darstellt.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -305,9 +305,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
+        <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  Objekt für die aktuelle Sitzung zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session-Eigenschaft</b> und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode können synonym verwendet werden, um das <b>NameSpace-Objekt</b> für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Die folgenden Anweisungspaare führen z. B. dieselbe Funktion aus:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>

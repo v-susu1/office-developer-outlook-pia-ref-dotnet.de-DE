@@ -1,5 +1,5 @@
 <Type Name="_AppointmentItem" FullName="Microsoft.Office.Interop.Outlook._AppointmentItem">
-  <Metadata><Meta Name="ms.openlocfilehash" Value="e1a98d4cad5fc9572e588f667c7713563d8c671c" /><Meta Name="ms.sourcegitcommit" Value="372abf58b21f4fab503d106f0e8c8a2ac45f9332" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="01/12/2019" /><Meta Name="ms.locfileid" Value="27899957" /></Metadata><TypeSignature Language="C#" Value="public interface _AppointmentItem" />
+  <Metadata><Meta Name="ms.openlocfilehash" Value="7b2884a5c5f2ab4368f538b8ff4fac0ead2aa935" /><Meta Name="ms.sourcegitcommit" Value="edbc1e709f796342c771b5226636c7e9dde40a82" /><Meta Name="ms.translationtype" Value="MT" /><Meta Name="ms.contentlocale" Value="de-DE" /><Meta Name="ms.lasthandoff" Value="06/25/2021" /><Meta Name="ms.locfileid" Value="53139495" /></Metadata><TypeSignature Language="C#" Value="public interface _AppointmentItem" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _AppointmentItem" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook._AppointmentItem" />
   <TypeSignature Language="VB.NET" Value="Public Interface _AppointmentItem" />
@@ -18,7 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Dies ist eine primäre Schnittstelle in einem COM-Co-Klasse, die von verwaltetem Code für die Interoperabilität mit den entsprechenden COM-Objekt erforderlich ist. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, den, die Sie verwenden möchten, den gleichen Namen wie die COM-Objekt gemeinsam verwendet. In diesem Fall dieser Schnittstelle zum Aufrufen der Methode umgewandelt, und in die neuesten Ereignisschnittstelle für die Verbindung an das Ereignis umgewandelt. Verwenden Sie andernfalls die .NET-Schnittstelle, die von der COM-Co-Klasse Zugriff auf Methoden, Eigenschaften und Ereignisse das COM-Objekt abgeleitet ist. Informationen über das COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />.</summary>
+    <summary>Hierbei handelt es sich um eine primäre Schnittstelle in einer COM-CoClass, die von verwaltetem Code benötigt wird, um Interoperabilität mit dem entsprechenden COM-Objekt sicherzustellen. Verwenden Sie diese primäre Schnittstelle nur, wenn die Methode, die Sie verwenden möchten, den gleichen Namen aufweist wie ein Ereignis des COM-Objekts; casten Sie in diesem Fall zu dieser Schnittstelle, um die Methode aufzurufen, und casten Sie zur aktuellen Ereignisschnittstelle, um eine Verbindung zum Ereignis herzustellen. Verwenden Sie andernfalls die von der COM-CoClass abgeleitete .NET-Schnittstelle, um auf Methoden, Eigenschaften und Ereignisse des COM-Objekts zuzugreifen. Informationen zum COM-Objekt finden Sie unter <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> .</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -45,7 +45,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Actions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Actions" /> -Auflistung, die alle verfügbaren Aktionen für das Element darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Actions" />  Auflistung zurück, die alle verfügbaren Aktionen für das Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -104,7 +104,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> -Objekt, das das übergeordnete Outlook-Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Application" /> Objekt zurück, das das übergeordnete Outlook Anwendung für das Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -132,7 +132,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Attachments</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" /> -Objekt, das alle Anlagen für das angegebene Element darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Attachments" />  Objekt zurück, das alle Anlagen für das angegebene Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -160,10 +160,10 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element eine automatische Konfliktbehebung gewinnen ist. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>booleschen</b> Wert (<b>Boolesch</b> in C#), der bestimmt, ob das Element eine automatische Konfliktbehebung gewonnen hat. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Der Wert <b>False</b> wird nicht notwendigerweise, dass das Element eine Verlierer eine automatische Konfliktbehebung ist. Das Element kann mit einem anderen Element in Konflikt handeln.</para>
-          <para>Wenn ein Element wurde <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> von dessen <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" /> -Eigenschaft größer als 0 (null) und dessen <b>AutoResolvedWinner</b> -Eigenschaft auf <b>True</b>festgelegt ist, ist es eine automatische Konfliktbehebung gewinnen. Wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b> ist, ist es andererseits, eine Verlierer in eine automatische Konfliktbehebung.</para>
+          <para>Wenn die Eigenschaft eines Elements  <see cref="P:Microsoft.Office.Interop.Outlook.Conflicts.Count" /> größer als Null ist und die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Conflicts" /> <b>AutoResolvedWinner-Eigenschaft</b> <b>"True"</b>lautet, hat es eine automatische Konfliktlösung gewonnen. Wenn das Element liegt ein Konflikt und seine <b>AutoResolvedWinner</b> -Eigenschaft <b>False</b> ist, ist es andererseits, eine Verlierer in eine automatische Konfliktbehebung.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -193,7 +193,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der das Outlook-Element zugeordnete Abrechnungsinformationen darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die Abrechnungsinformationen zugeordneten Outlook Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Es handelt sich um ein formfreies Textfeld.</para>
           <para> </para></remarks>
@@ -225,7 +225,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (C#-<b>Zeichenfolge</b> ) zurück, den Clear-Textkörper des Outlook-Elements darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), die den Textkörper des Outlook Elements darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -256,7 +256,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlBusyStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> Konstante, die den ausgelasteten Status des Benutzers für den Termin angibt. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt eine Konstante zurück, <see cref="T:Microsoft.Office.Interop.Outlook.OlBusyStatus" /> die den Gebucht-Status des Benutzers für den Termin angibt, oder legt diese Konstante fest. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -287,10 +287,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Kategorien zugewiesen, um das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die Kategorien, die dem Outlook Element zugewiesen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>
-            <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die einem Outlook-Element zugewiesen wurde. Diese Eigenschaft verwendet das im Wertnamen sList, unter HKEY_CURRENT_USER\Control panel\international in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte angegeben. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen zu konvertieren, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
+            <b>Kategorien</b> ist eine durch Trennzeichen getrennte Zeichenfolge mit Kategorienamen, die ein Outlook-Element zugewiesen wurden. Diese Eigenschaft verwendet das im Wertnamen "sList" unter HKEY_CURRENT_USER\Control Panel\International in der Windows-Registrierung angegebene Zeichen als Trennzeichen für mehrere Kategoriewerte. Um die Zeichenfolge von Kategorienamen in ein Array von Kategorienamen konvertieren möchten, verwenden Sie die Microsoft Visual Basic-Funktion <b>Teilen</b>.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -317,7 +317,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlObjectClass" /> Konstante zurück, die die Klasse des Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -401,7 +401,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, das die Namen der Organisationen im Zusammenhang mit der Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), die die Namen der Unternehmen darstellt, die dem Outlook Element zugeordnet sind. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Es handelt sich um ein formfreies Textfeld. </para>
           <para> </para></remarks>
@@ -504,7 +504,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Conflicts</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben der <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> -Objekt, das die Elemente darstellt, für alle Outlook-Elementobjekt Konflikt stehen.  Schreibgeschützt.</summary>
+        <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.Conflicts" /> Objekt zurück, das die Elemente darstellt, die für Outlook Elementobjekt in Konflikt stehen.  Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -532,11 +532,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#), die eindeutig identifiziert, eine <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekts, das die <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt gehört. Schreibgeschützt.</summary>
+        <summary>Gibt eine <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die ein Objekt eindeutig <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> identifiziert, zu dem das <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekt gehört. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft ordnet Elemente zu einer Unterhaltung. Diese Elemente und der Unterhaltung haben denselben Wert in die Eigenschaft <b>ConversationID</b>.</para>
           <para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagConversationId</b>.</para>
-          <para>Wenn das <b>AppointmentItem</b> -Objekt in einer Microsoft Outlook-Version vor Microsoft Outlook 2010 erstellt wird, oder wenn Outlook im Onlinemodus mit einer Microsoft Exchange Server-Version vor Microsoft Exchange Server 2010 ausgeführt wird dies -Eigenschaft gibt den gleichen Wert wie der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" /> Eigenschaft.</para>
+          <para>Wenn das <b>AppointmentItem-Objekt</b> in einer Früherversion von Microsoft Outlook als Microsoft Outlook 2010 erstellt wird oder Outlook im Onlinemodus für eine Version von Microsoft Exchange Server vor Microsoft Exchange Server 2010 ausgeführt wird, gibt diese Eigenschaft denselben Wert wie die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ConversationTopic" /> Eigenschaft zurück.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -563,7 +563,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, die den Index des Unterhaltungsthreads des Outlook-Elements darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die den Index des Unterhaltungsthreads des Outlook Elements darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -591,7 +591,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der das Thema des Unterhaltungsthreads des Outlook-Elements darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die das Thema des Unterhaltungsthreads des Outlook Elements darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -618,7 +618,7 @@
       <Parameters />
       <Docs>
         <summary>Erstellt eine Instanz eines Objekts.</summary>
-        <returns>Gibt ein <see cref="T:System.Object" /> , das eine Kopie des übergeordneten Terminelements.</returns>
+        <returns>Gibt eine <see cref="T:System.Object" /> Kopie des übergeordneten Terminelements zurück.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -648,12 +648,12 @@
       <Docs>
         <param name="DestinationFolder">Gibt den Ordner an, dem das <b>AppointmentItem</b> -Objekt kopiert wird.</param>
         <param name="CopyOptions">Gibt die Benutzererfahrung des Kopiervorgangs an.</param>
-        <summary>Kopien der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> in den Ordner, der vom angegeben ist die <paramref name="DestinationFolder" /> Parameter und gibt ein Objekt, das das Element darstellt, die in den Zielordner durch den Kopiervorgang erstellt.</summary>
-        <returns>Gibt ein Objekt, das <b>AppointmentItem</b> kulturabhängige das im Zielordner als Ergebnis des Kopiervorgangs erstellte Objekt darstellt.</returns>
-        <remarks><para>Wenn kein Argument, für angegeben ist die <paramref name="CopyOptions" /> -Parameter <b>CopyTo</b> wird davon ausgegangen, dass der Wert <b>OlCreateAppointment</b>ist.</para>
+        <summary>Kopiert den <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Ordner, der durch den Parameter angegeben <paramref name="DestinationFolder" /> wird, und gibt ein Objekt zurück, das das element darstellt, das durch den Kopiervorgang im Zielordner erstellt wurde.</summary>
+        <returns>Gibt ein <b>AppointmentItem</b> -Objekt zurück, das das Objekt darstellt, das im Zielordner als Ergebnis des Kopiervorgangs erstellt wurde.</returns>
+        <remarks><para>Wenn für den Parameter kein Argument angegeben <paramref name="CopyOptions" /> ist, geht <b>CopyTo</b> davon aus, dass der Wert <b>OlCreateAppointment</b>ist.</para>
           <para>
             <b>CopyTo</b> gibt einen Fehler zurück, wenn der Zielordner keinen entsprechenden Ordnertyp für ein <b>AppointmentItem</b> -Objekt ist oder wenn der Benutzer nicht über die erforderlichen Berechtigungen zum Erstellen von Elementen in den angegebenen Zielordner verfügt.</para>
-          <para>Festlegen des Werts REG_MULTI_SZ hat DisableCrossAccountCopy, in HKCU\Software\Microsoft\Office\14.0\Outlook in der Windows-Registrierung den Nachteil dieser Methode zu deaktivieren.</para>
+          <para>Das Festlegen des REG_MULTI_SZ Werts DisableCrossAccountCopy in HKCU\Software\Microsoft\Office\14.0\Outlook in der Windows Registrierung hat den Nebeneffekt, dass diese Methode deaktiviert wird.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -680,7 +680,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>DateTime</b> , der angibt, der Erstellungszeit für das Outlook-Element zurück. Schreibgeschützt.</summary>
+        <summary>Gibt <b>dateTime</b> zurück, der die Erstellungszeit für das Outlook Element angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagCreationTime</b>.</para>
           <para> </para></remarks>
@@ -708,7 +708,7 @@
       <Parameters />
       <Docs>
         <summary>Entfernt das Element aus dem Ordner, der das Element enthält.</summary>
-        <remarks><para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. So löschen Sie alle Elemente in der <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> Auflistung eines Ordners, müssen Sie jedes Element, beginnend mit dem letzten Element in den Ordner löschen. Angenommen, starten wenn n Anzahl der Elemente im Ordner vorhanden sind in der Items-Auflistung eines Ordners alle Artikel, Löschen des Elements am AllItems.Item(n) verringern der Index jedes Mal, bis Sie AllItems.Item(1) löschen.</para>
+        <remarks><para>Die <b>Delete</b> -Methode löscht ein einzelnes Element in einer Auflistung. Um alle Elemente in der Auflistung eines Ordners zu <see cref="T:Microsoft.Office.Interop.Outlook.Items" /> löschen, müssen Sie jedes Element löschen, beginnend mit dem letzten Element im Ordner. For example, in the items collection of a folder, AllItems, if there are n number of items in the folder, start deleting the item at AllItems.Item(n), decrementing the index each time until you delete AllItems.Item(1).</para>
           <para>Die <b>Delete</b> -Methode wird das Element vom übergeordneten Ordner in den Ordner Gelöschte Objekte verschoben. Ist der enthaltende Ordner den Ordner Gelöschte Objekte, entfernt die <b>Delete</b> -Methode das Element dauerhaft.</para>
           <para> </para></remarks>
       </Docs>
@@ -736,8 +736,8 @@
       </Parameters>
       <Docs>
         <param name="Modal"><b>True</b>, wenn das Fenster als modales Dialogfeld festzulegen. Der Standardwert ist <b>False</b>. </param>
-        <summary>Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt für das Element.</summary>
-        <remarks><para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Um ein Explorer- oder Inspektor-Fenster aktivieren möchten, verwenden Sie die <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> Methode.</para>
+        <summary>Zeigt ein neues <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> Objekt für das Element an.</summary>
+        <remarks><para>Die <b>Display</b> -Methode wird für Explorer- und Inspektor-Fenster aus Gründen der Abwärtskompatibilität unterstützt. Verwenden Sie die Methode, um ein Explorer- oder Inspektorfenster zu <see cref="M:Microsoft.Office.Interop.Outlook._Inspector.Activate" /> aktivieren.</para>
           <para>Wenn Sie versuchen, eine "unsichere" File System-Objekt (oder "Freedoc"-Datei) öffnen, indem Sie mit dem Microsoft Outlook-Objektmodell, erhalten Sie in der C oder Programmiersprachen den Rückgabecode E_FAIL. In Outlook 2000 und früheren Versionen konnten Sie eine "unsichere" File System-Objekt mithilfe von die <b>Display</b> -Methode öffnen.</para>
           <para> </para></remarks>
       </Docs>
@@ -765,7 +765,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlDownloadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine Konstante, die gehört die <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> Enumeration, die den Downloadstatus des Elements angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine Zur Enumeration gehörende Konstante zurück, <see cref="T:Microsoft.Office.Interop.Outlook.OlDownloadState" /> die den Downloadstatus des Elements angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -796,7 +796,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der der Dauer (in Minuten) der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>Integer</b> (<b>int</b> in C#) -Wert zurück, der die Dauer (in Minuten) der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -827,7 +827,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück, oder legt diesen fest, der angibt, das Enddatum und die Uhrzeit des <b>DateTime</b> ein <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>DateTime</b> zurück, der das Enddatum und die Uhrzeit einer <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -858,7 +858,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt, oder legt einen <b>DateTime</b> -Wert, der das Enddatum und die Uhrzeit des Termins die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" />. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt diesen fest einen <b>DateTime</b> -Wert, der das Enddatum und die Uhrzeit des Termins in der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" /> darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Dies ist der Wert, der als Endet um auf der Termininspektor-Benutzeroberfläche angezeigt wird.</para>
           <para> </para></remarks>
@@ -890,13 +890,13 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> Wert, der die Endzeit des Termins entspricht.  Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> Wert, der der Endzeit des Termins entspricht.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Die Zeitzoneninformationen werden verwendet, um den Termin beim Speichern der richtigen UTC-Zeit zuzuordnen und um das Element im Kalender in der richtigen Ortszeit anzuzeigen.</para>
-          <para> Ändern von <b>EndTimeZone</b> beeinflusst den Wert der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> die wird immer in der Ortszeitzone dargestellt <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />.</para>
-          <para>Je nach den <b>EndTimeZone</b> ändern können oder kann nicht dazu, dass Outlook neu zu berechnen, und Aktualisieren der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" />. </para>
-          <para>Als Beispiel, in der Termininspektor, wenn Sie der Organisator eines Termins mit Startzeit 13 Uhr sind 15: 00 Uhr EST und End Uhrzeit EST, führt Ändern des Termins ein <b>EndTimeZone</b> von PST-Datei in einem Termin, von 1 Uhr 15: 00 Uhr EST PST-Datei, mit der <b>EndInEndTimeZone</b> verbleibenden als 15: 00 Uhr. Jedoch wenn Sie nicht der Organisator und dann ändern aus der <b>EndTimeZone</b> EST zu PST dazu, dass Outlook neu zu berechnen, und aktualisieren die <b>EndInEndTimeZone</b>und der Termin dauert von 1 Uhr 12: 00 Uhr EST PST-DATEI. </para>
-          <para>Ein weiteres Beispiel ändert die Endzeit eines Termins, die vor einer zuvor festgelegten tritt auf, wodurch <b>EndTimeZone</b> Startzeit in der Groß-/Kleinschreibung Outlook neu zu berechnen, und Aktualisieren der <b>EndInEndTimeZone</b>. Beispiel eines Termins mit einer Startzeit 13 Uhr PST- und End Time 15 Uhr PST hat seine <b>EndTimeZone</b> geändert in EST zurück. Wenn Outlook nicht <b>EndInEndTimeZone</b>neu berechnet, müssten der Termin eine Endzeit 15 Uhr Entspricht 12: 00 Uhr EST PST- und die werden soll, bevor die Anfangszeit der 13 Uhr PST-DATEI. In der Praxis jedoch ergibt Ändern der <b>EndTimeZone</b> Outlook neu berechnen und Aktualisieren von <b>EndInEndTimeZone</b> 6 Uhr (in der <b>EndTimeZone</b> EST).</para>
+          <para> Das Ändern von <b>EndTimeZone</b> wirkt sich auf den Wert aus, dessen Wert <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> immer in der lokalen Zeitzone dargestellt <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" /> wird.</para>
+          <para>Je nach den Umständen kann das Ändern der <b>EndTimeZone</b> dazu führen, dass Outlook <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndInEndTimeZone" /> die . </para>
+          <para>Beispiel: Im Termininspektor, wenn Sie der Organisator eines Termins mit einer Startzeit um 13:00 Uhr sind. EST und Endzeit um 15:00 Uhr WENN Sie den Termin so ändern, dass eine <b>EndTimeZone</b> von PST festgelegt wird, führt dies zu einem Termin, der ab 13:00 Uhr dauert. EST bis 15:00 Uhr PST, wobei <b>endInEndTimeZone</b> bis 15:00 Uhr bleibt. Wenn Sie jedoch nicht der Organisator sind, führt das Ändern der <b>EndTimeZone</b> von EST zu PST dazu, dass Outlook die <b>EndInEndTimeZone</b>neu berechnen und aktualisieren, und der Termin dauert ab 13:00 Uhr. EST bis 12:00 Uhr Pst. </para>
+          <para>Ein weiteres Beispiel ist das Ändern des <b>EndTimeZone-Werts,</b> der zu einer Terminendzeit führt, die vor einer zuvor festgelegten Terminanfangszeit auftritt. In diesem Fall berechnet Outlook <b>endinEndTimeZone</b>neu und aktualisiert sie. Beispielsweise ein Termin mit einer Startzeit um 13:00 Uhr. PST und Endzeit um 15:00 Uhr PST hat seine <b>EndTimeZone</b> in EST geändert. Wenn Outlook <b>EndInEndTimeZone</b>nicht neu berechnet hätte, würde der Termin um 15:00 Uhr enden. EST, das 12:00 Uhr entspricht PST, und die vor der Startzeit von 13:00 Uhr auftreten würde. Pst. In der Praxis würde das Ändern der <b>EndTimeZone</b> jedoch dazu führen, dass <b>endInEndTimeZone</b> Outlook neu berechnet und auf 18:00 Uhr aktualisiert wird. (im <b>EndTimeZone</b> EST).</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -926,9 +926,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der das Enddatum und die Uhrzeit des Termins im Standard (Coordinated Universal Time, UTC) darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt diesen fest einen <b>DateTime</b> -Wert, der das Enddatum und die Uhrzeit des Termins im UTC-Standard (Coordinated Universal Time) darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Ändern des Werts für die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> Eigenschaft oder die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" /> Eigenschaft bewirkt, dass Outlook den <b>EndUTC-Wert</b>neu berechnet. </para>
+        <remarks><para>Das Ändern des Werts für die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.End" /> Eigenschaft oder die Eigenschaft führt <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EndTimeZone" /> dazu, dass Outlook <b>EndUTC</b>neu berechnet. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -955,7 +955,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die eindeutige Eintrags-ID des Objekts darstellt.  Schreibgeschützt.</summary>
+        <summary>Gibt eine <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die eindeutige Eintrags-ID des Objekts darstellt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagEntryId</b>.</para>
           <para>Ein MAPI-Anbieter weist eine eindeutige ID-Zeichenfolge an, wenn ein Element im Speicher erstellt wird. Aus diesem Grund wird <b>EntryID</b> -Eigenschaft für ein Outlook-Element nicht festgelegt, bis es gespeichert oder gesendet wird. Die Eintrags-ID ändert sich, wenn ein Element in einen anderen Informationsspeicher, beispielsweise über den Posteingang mit einem öffentlichen Ordner von Microsoft Exchange Server oder von einem persönlichen Ordner (PST) in eine andere PST-Datei verschoben wird. Lösungen sollte nicht abhängen <b>EntryID</b> -Eigenschaft eindeutig sein, es sei denn, Elemente nicht verschoben werden sollen. Die <b>EntryID</b> -Eigenschaft gibt eine MAPI langfristige Eintrags-ID Weitere Informationen zu Long - und kurzfristige EntryIDs suchen Sie http://msdn.microsoft.com <b>PidTagEntryId</b>.</para>
@@ -989,9 +989,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der angibt, ob wird aktualisiert und die <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekt an alle Teilnehmer gesendet werden soll. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>booleschen</b> (<b>Bool</b> in C#) Wert, der angibt, ob Aktualisierungen des <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekts an alle Teilnehmer gesendet werden sollen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Updates werden in der Regel an die Teilnehmer gesendet, nur, wenn die Zeit oder die Position eines Terminelements geändert wird. Durch Festlegen dieser Eigenschaft auf <b>true festgelegt,</b> erzwingt ein Update für alle Teilnehmer gesendet werden, auch wenn keine Änderungen an Zeit oder den Speicherort der ist aufgetreten.</para>
+        <remarks><para>Updates werden in der Regel an die Teilnehmer gesendet, nur, wenn die Zeit oder die Position eines Terminelements geändert wird. Wird diese Eigenschaft auf <b>"True"</b> festgelegt, wird eine Aktualisierung an alle Teilnehmer gesendet, auch wenn keine Änderungen an der Uhrzeit oder dem Ort vorgenommen wurden.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1018,7 +1018,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.FormDescription</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> -Objekt, das die formularbeschreibung für das Outlook-Element darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.FormDescription" /> Objekt zurück, das die Formularbeschreibung für das angegebene Outlook Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1044,9 +1044,9 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Leitet die <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> als vCal; virtuelles Kalenderelement.</summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> -Objekt, das das neue e-Mail-Element darstellt, dem die Kalenderinformationen angefügt ist.</returns>
-        <remarks><para>Die <b>ForwardAsVcal</b> -Methode gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> mit der vCal-Datei angefügt.</para>
+        <summary>Leitet das <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  Element als vCal; virtuelles Kalenderelement weiter.</summary>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" /> Objekt, das das neue E-Mail-Element darstellt, an das die Kalenderinformationen angefügt sind.</returns>
+        <remarks><para>Die <b>ForwardAsVcal-Methode</b> gibt eine mit <see cref="T:Microsoft.Office.Interop.Outlook.MailItem" />  angefügter vCal-Datei zurück.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1071,10 +1071,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</summary>
-        <returns>Gibt ein <b>Conversation</b> -Objekt, das die Unterhaltung darstellt, zu der dieses Element gehört.</returns>
+        <summary>Ruft ein <see cref="T:Microsoft.Office.Interop.Outlook.Conversation" /> Objekt ab, das die Unterhaltung darstellt, zu der dieses Element gehört.</summary>
+        <returns>Gibt ein <b>Conversation -Objekt</b> zurück, das die Unterhaltung darstellt, zu der dieses Element gehört.</returns>
         <remarks><para>
-            <b>GetConversation</b> gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#) zurück, wenn keine Unterhaltung für das Element vorhanden ist. Keine Unterhaltung vorhanden ist, für ein Element in den folgenden Szenarien:</para>
+            <b>GetConversation</b> gibt <b>Nothing</b> (einen Nullverweis (Nothing in Visual Basic) in C# zurück, wenn für das Element keine Unterhaltung vorhanden ist. Keine Unterhaltung vorhanden ist, für ein Element in den folgenden Szenarien:</para>
           <list type="bullet">
             <item>
               <para>Das Element wurde nicht gespeichert. Ein Element kann programmgesteuert, durch eine Benutzeraktion oder durch automatisches Speichern gespeichert werden.</para>
@@ -1086,7 +1086,7 @@
               <para>Unterhaltungen wurden über die Windows-Registrierung deaktiviert.</para>
             </item>
             <item>
-              <para>Der Informationsspeicher die Unterhaltungsansicht nicht unterstützt (beispielsweise Outlook im klassischen Onlinemodus für Versionen vor Microsoft Exchange Server 2010 eine Version von Microsoft Exchange ausgeführt wird). Verwendung der <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> -Eigenschaft des der <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekts, um festzustellen, ob der Informationsspeicher die Unterhaltungsansicht unterstützt.</para>
+              <para>Der Informationsspeicher unterstützt die Unterhaltungsansicht nicht (beispielsweise wird Outlook im klassischen Onlinemodus für eine frühere Version von Microsoft Exchange als Microsoft Exchange Server 2010 ausgeführt). Verwenden Sie die <see cref="P:Microsoft.Office.Interop.Outlook._Store.IsConversationEnabled" /> Eigenschaft des <see cref="T:Microsoft.Office.Interop.Outlook.Store" /> Objekts, um zu bestimmen, ob der Informationsspeicher die Unterhaltungsansicht unterstützt.</para>
             </item>
           </list>
           <para> </para></remarks>
@@ -1115,9 +1115,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Inspector</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" /> -Objekt, das einen Inspektor darstellt, auf das angegebene Element enthalten initialisiert. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Inspector" />  Objekt zurück, das einen Inspektor darstellt, der initialisiert wurde, um das angegebene Element zu enthalten. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector</b> -Objekt in der Anzeige des Elements, im Gegensatz zur Verwendung der <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" /> -Methode und der Einstellung der <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> Eigenschaft. Wenn bereits ein <b>Inspector</b> -Objekt für das Element vorhanden ist, gibt die <b>GetInspector</b> -Eigenschaft, anstatt einen neuen Anwendungspool erstellen <b>Inspector</b> -Objekt zurück.</para>
+        <remarks><para>Diese Eigenschaft ist nützlich, um ein neues <b>Inspector-Objekt</b> zurückzugeben, in dem das Element angezeigt werden soll, anstatt die Methode zu verwenden <see cref="M:Microsoft.Office.Interop.Outlook._Application.ActiveInspector" />  und die Eigenschaft <see cref="P:Microsoft.Office.Interop.Outlook._Inspector.CurrentItem" /> festzulegen. Wenn bereits ein <b>Inspector</b> -Objekt für das Element vorhanden ist, gibt die <b>GetInspector</b> -Eigenschaft, anstatt einen neuen Anwendungspool erstellen <b>Inspector</b> -Objekt zurück.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1142,8 +1142,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Ruft die <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> -Objekt, das Informationen aus dem Adressbuch zum Organisator des enthält die <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />.</summary>
-        <returns>Gibt ein <b>AddressEntry</b> -Objekt, das den Organisator des <b>AppointmentItem-Objekts</b>darstellt.</returns>
+        <summary>Ruft das <see cref="T:Microsoft.Office.Interop.Outlook.AddressEntry" /> Objekt ab, das Informationen aus dem Adressbuch über den Organisator der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> enthält.</summary>
+        <returns>Gibt ein <b>AddressEntry</b> -Objekt, das den Organisator des <b>AppointmentItem</b>darstellt.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1168,10 +1168,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> -Objekt, das die Serienattribute eines Termins darstellt.</summary>
-        <returns>Ein <b>RecurrencePattern</b> -Objekt, das die Serienattribute eines Termins darstellt.</returns>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt zurück, das die Serienattribute eines Termins darstellt.</summary>
+        <returns>Ein <b>RecurrencePattern</b>-Objekt, das die Serienattribute eines Termins darstellt.</returns>
         <remarks><para>Wenn kein Serienmuster vorhanden ist, wird ein neues leeres <b>RecurrencePattern</b> -Objekt zurückgegeben.</para>
-          <para>Wenn Sie mit Terminserien arbeiten, müssen Sie vorherige Verweise freigeben, neue Verweise auf das Terminserienelement abrufen, bevor Sie das Element öffnen oder bearbeiten, und diese Verweise freigeben, sobald Sie Ihre Änderungen abgeschlossen und gespeichert haben. In dieser Methode wird die Besprechungsserie betrifft <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekt und <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> oder <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> Objekt. Legen Sie zum Freigeben eines Verweises in Visual Basic das vorhandene Objekt auf <b>Nothing</b> fest. Geben Sie in C# den Arbeitsspeicher für dieses Objekt explizit frei. </para>
+          <para>Beim Arbeiten mit Terminserien Termin, sollten Sie alle vorherigen Verweise freigeben, erhalten neue Verweise auf die wiederkehrenden Terminelement, bevor Sie zugreifen oder das Element ändern und diese Verweise freigeben, sobald Sie fertig sind und die Änderungen gespeichert haben. Diese Vorgehensweise gilt für das wiederkehrende <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekt und jedes <see cref="T:Microsoft.Office.Interop.Outlook.Exception" /> <see cref="T:Microsoft.Office.Interop.Outlook.RecurrencePattern" /> objekt. Legen Sie zum Freigeben eines Verweises in Visual Basic das vorhandene Objekt auf <b>Nothing</b> fest. Geben Sie in C# den Arbeitsspeicher für dieses Objekt explizit frei. </para>
           <para>Beachten Sie Folgendes: Selbst wenn Sie den Verweis freigegeben haben und versuchen, einen neuen Verweise abzurufen, zeigt der neue Verweis weiterhin auf eine veraltete Kopie des Objekts, wenn immer noch ein aktiver Verweis auf eines der obigen Objekte vorhanden ist, der von einem anderen Add-In oder von Outlook verwendet wird. Deshalb ist es wichtig, dass Sie die Verweise freigeben, sobald Sie die Bearbeitung der Terminserie abgeschlossen haben.</para>
           <para> </para></remarks>
       </Docs>
@@ -1199,9 +1199,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der einen globalen eindeutigen Bezeichner für die <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekt. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>String</b> <b>(Zeichenfolge</b> in C#)-Wert zurück, der einen eindeutigen globalen Bezeichner für das <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekt darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Es gibt Situationen, in dem die Eintrags-ID des <b>AppointmentItem</b> -Objekten ändern kann, beispielsweise wenn ein Element in einen anderen Ordner oder auf einen anderen verschoben wird. EntryIDs können auch ändern, wenn ein Benutzer bestimmte Funktionen in Outlook, wie exportieren und dann wieder importiert Daten ausführt. </para>
+        <remarks><para>Es gibt Situationen, in denen sich die Eintrags-ID von <b>AppointmentItem-Objekten</b> ändern kann, z. B. wenn ein Element in einen anderen Ordner oder in einen anderen Speicher verschoben wird. EntryIDs können auch ändern, wenn ein Benutzer bestimmte Funktionen in Outlook, wie exportieren und dann wieder importiert Daten ausführt. </para>
           <para>Deshalb wird jedem Outlook-Termin eine globale Objekt-ID (Global Object ID) zugewiesen, eine GUID, die sich in diesen Fällen nicht ändert. Die globale Objekt-ID ist eine MAPI-Eigenschaft, mit der Outlook Besprechungsaktualisierungen und Antworten mit einer bestimmten Besprechung im Kalender korreliert. Die globale Objekt-ID ist in allen Kopien des Elements identisch.</para>
           <para> </para></remarks>
       </Docs>
@@ -1232,7 +1232,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlImportance</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> Konstante, die die relative Wichtigkeitsstufe für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt eine Konstante zurück, die die relative Wichtigkeitsstufe für das Outlook Element angibt, oder legt diese <see cref="T:Microsoft.Office.Interop.Outlook.OlImportance" /> Konstante fest. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagImportance</b>.</para>
           <para> </para></remarks>
@@ -1264,7 +1264,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der bestimmt, die vom Objekt verwendete Internetcodepage festlegen. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines <b>Integer</b> -Werts (<b>int</b> in C#), der die vom Element verwendete Internetcodepage bestimmt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Die Internetcodepage definiert das vom Objekt verwendete Textkodierungsschema.</para>
           <para> </para></remarks>
@@ -1293,9 +1293,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), die bestimmt, ob das Element auf dem lokalen Computer aus der Kopie auf dem Server unterscheidet. Schreibgeschützt.</summary>
+        <summary>Gibt einen Wert vom Typ <b>Boolean</b> (<b>Bool</b> in C#) zurück, der bestimmt, ob das Element auf dem lokalen Computer von der Kopie auf dem Server abweicht. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Beispielsweise wenn ein Benutzer offline ist und versucht, einen online-Ordner zuzugreifen, schlägt die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b> zurück.</para>
+        <remarks><para>Unabhängig davon, ob ein Element ein Konflikt vorliegt, wird durch den Status der Anwendung bestimmt. Wenn ein Benutzer beispielsweise offline ist und versucht, auf einen Onlineordner zuzugreifen, schlägt die Aktion fehl. In diesem Szenario gibt die <b>IsConflict</b> -Eigenschaft <b>True</b> zurück.</para>
           <para>Diese Eigenschaft zeigt nicht an, ob zwischen diesem Terminelement und einem anderen Termin im Kalender ein zeitlicher Konflikt besteht.</para>
           <para> </para></remarks>
       </Docs>
@@ -1360,9 +1360,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn der Termin einer Terminserie ist.  Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>booleschen</b> (<b>Bool</b> in C#) Wert, der <b>True</b> ist, wenn der Termin eine Terminserie ist.  Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Wenn die <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" /> -Methode wird verwendet, mit einer <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> -Objekts, diese Eigenschaft auf <b>True</b>festgelegt ist.</para>
+        <remarks><para>Wenn die <see cref="M:Microsoft.Office.Interop.Outlook._AppointmentItem.GetRecurrencePattern" />  Methode mit einem Objekt verwendet <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" />  wird, wird diese Eigenschaft auf <b>True</b>festgelegt.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1389,7 +1389,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.ItemProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> -Auflistung, die alle Outlook-Element zugeordneten Standard- und benutzerdefinierte Eigenschaften darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.ItemProperties" /> Auflistung zurück, die alle standard- und benutzerdefinierten Eigenschaften darstellt, die dem Outlook Element zugeordnet sind. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Die <b>ItemProperties</b> -Auflistung ist eine nullbasierte Auflistung, was bedeutet, dass das erste Objekt in der Auflistung durch den Index 0 erfolgt.</para>
           <para> </para></remarks>
@@ -1418,7 +1418,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>DateTime</b> angeben von Datum und Uhrzeit der letzten Änderung das Outlook-Element zurück.  Schreibgeschützt.</summary>
+        <summary>Gibt <b>dateTime</b> zurück, der das Datum und die Uhrzeit der letzten Änderung des Outlook Elements angibt.  Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagLastModificationTime</b>.</para>
           <para> </para></remarks>
@@ -1481,7 +1481,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den genauen Bürostandort (z. B. Gebäude 1 Raum 1 oder Suite 123) für den Termin darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), die den spezifischen Bürostandort (z. B. Gebäude 1 Raum 1 oder Suite 123) für den Termin darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagOfficeLocation</b>.</para>
           <para> </para></remarks>
@@ -1544,7 +1544,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRemoteStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" /> -Konstante, die den Status eines Elements bestimmt, nachdem es von einem Remotebenutzer empfangen wurde. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.OlRemoteStatus" />  Konstante, die den Status eines Elements bestimmt, nachdem es von einem Remotebenutzer empfangen wurde. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft verleiht Remotebenutzern mit nicht idealen Fähigkeiten zur Datenübertragung eine erhöhte Messagingflexibilität.</para>
           <para> </para></remarks>
@@ -1576,9 +1576,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlMeetingStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" /> -Konstante, die den Besprechungsstatus des Termins. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.OlMeetingStatus" /> Konstanten, die den Besprechungsstatus des Termins angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Mit dieser Eigenschaft können Sie stellen eine <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> Objekt für die Besprechung. </para>
+        <remarks><para>Verwenden Sie diese Eigenschaft, um ein Objekt für den Termin verfügbar zu <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" />  machen. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -1605,7 +1605,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>String</b> (<b>Zeichenfolge</b> in c#)-Wert, der die URL für Besprechungsarbeitsbereich darstellt, die das Terminelement verknüpft ist. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>String</b> -Wert (<b>Zeichenfolge</b> in C#) zurück, der die URL für den Besprechungsarbeitsbereich darstellt, mit dem das Terminelement verknüpft ist. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Ein Besprechungsarbeitsbereich ist eine freigegebene Website zum Planen einer Besprechung und Protokollieren der Besprechungsergebnisse.  </para>
           <para> </para></remarks>
@@ -1637,7 +1637,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der die Nachrichtenklasse für das Outlook-Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), die nachrichtenklasse für das Outlook Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagMessageClass</b>. Die <b>MessageClass</b> -Eigenschaft verknüpft das Element auf das Formular auf dem es basiert. Wenn ein Element ausgewählt ist, verwendet Outlook die Nachrichtenklasse zum Suchen des Formulars und Offenlegen seiner Eigenschaften, wie etwa Antwort Befehle.</para>
           <para> </para></remarks>
@@ -1669,7 +1669,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Mileage für ein Element darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), die die Mileage für ein Element darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Es handelt sich um ein formfreies Zeichenfolgenfeld, das zur Speicherung von Entfernungsinformationen zum Zweck der Kostenerstattung verwendet werden kann, die dem Element zugeordnet sind (z. B. 100 km zur Wahrnehmung eines Termins, einer Besprechung oder einer Aufgabe). </para>
           <para> </para></remarks>
@@ -1952,7 +1952,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der nicht überfällig <b>True</b> ist das Outlook-Element. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>booleschen</b> (<b>booleschen</b> in C#) Wert, der <b>True</b> ist, nicht überfällig die Outlook Element. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1983,7 +1983,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, die die Zeichenfolge der Namen der optionalen Teilnehmer für den Termin darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), die die Anzeigezeichenfolge der optionalen Teilnehmernamen für den Termin darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagDisplayCc</b>.</para>
           <para> </para></remarks>
@@ -2012,7 +2012,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der den Namen des der Organisator des Termins darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die den Namen des Organisators des Termins darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2040,7 +2040,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der die Buildnummer der Outlook-Anwendung für ein Outlook-Element darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>Integer</b> -Wert (<b>int</b> in C#) zurück, der die Buildnummer der Outlook-Anwendung für ein Outlook Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2068,7 +2068,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine <b>Zeichenfolge</b> (<b>String</b> in c#) zurück, der die Versionsnummer der Haupt- und Hilfsintervalle der Outlook-Anwendung für ein Outlook-Element angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, die die Haupt- und Nebenversionsnummer der Outlook-Anwendung für ein Outlook Element angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2149,7 +2149,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.PropertyAccessor</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> -Objekt, das Erstellen, abrufen, festlegen und Löschen von Eigenschaften des übergeordneten unterstützt <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekt. Schreibgeschützt.</summary>
+        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.PropertyAccessor" /> Objekt zurück, das das Erstellen, Abrufen, Festlegen und Löschen von Eigenschaften des übergeordneten <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> Objekts unterstützt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2177,7 +2177,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Recipients</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung, die alle Empfänger für das Outlook-Element darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung zurück, die alle Empfänger für das Outlook Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks><para>Ein Empfänger kann von einer Zeichenfolge festgelegt werden, die den Anzeigenamen des Empfängers, den Alias oder die vollständige SMTP-E-Mail-Adresse darstellt.</para>
           <para> </para></remarks>
@@ -2206,7 +2206,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlRecurrenceState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceState" /> Konstante, die die Serieneigenschaft des angegebenen Objekts angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlRecurrenceState" /> Konstante zurück, die die Serieneigenschaft des angegebenen Objekts angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2237,7 +2237,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt, oder legt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert, der angibt, der Anzahl der Minuten an, die die Erinnerung vor dem Beginn des Termins angezeigt werden soll. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>Integer</b> (<b>int</b> in C#) -Wert, der angibt, die Anzahl der Minuten, die die Erinnerung vor dem Beginn des Termins auftreten soll. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2268,9 +2268,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn die Erinnerung das Standardverhalten Erinnerung für das Element überschreibt. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>booleschen</b> (<b>Bool</b> in C#) Wert, der <b>True</b> ist, wenn die Erinnerung das Standarderinnerungsverhalten für das Element überschreibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Sie müssen die <b>ReminderOverrideDefault</b> -Eigenschaft, um zu überprüfen Festlegen der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" /> und die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" /> Eigenschaften.</para>
+        <remarks><para>Sie müssen die <b>ReminderOverrideDefault-Eigenschaft</b> festlegen, um die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />  Eigenschaften zu <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />  überprüfen.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2300,9 +2300,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn die Erinnerung ein akustisches Signal wiedergegeben werden soll, tritt für dieses Element. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>booleschen</b> (<b>Bool</b> in C#) Wert, der <b>True</b> ist, wenn die Erinnerung einen Sound wiedergeben soll, wenn es für dieses Element auftritt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Die <b>ReminderPlaySound</b> -Eigenschaft muss festgelegt werden, um die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" /> Eigenschaft. </para>
+        <remarks><para>Die <b>ReminderPlaySound-Eigenschaft</b> muss festgelegt werden, um die Eigenschaft zu <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderSoundFile" />  überprüfen. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2332,7 +2332,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück oder legt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn eine Erinnerung für diesen Artikel festgelegt wurde. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>booleschen</b> (<b>Bool</b> in C#) Wert, der <b>True</b> ist, wenn eine Erinnerung für dieses Element festgelegt wurde. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2363,9 +2363,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der angibt, der Pfad und der Dateiname der Audiodatei wiedergeben, tritt die Erinnerung für das Outlook-Element. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) zurück, der den Pfad und Dateinamen der Sounddatei wiedergeben, wenn die Erinnerung für das Outlook Element auftritt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Diese Eigenschaft ist nur gültig Wenn die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" /> und <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" /> Eigenschaften auf <b>True</b>festgelegt sind. </para>
+        <remarks><para>Diese Eigenschaft ist nur gültig, wenn die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderOverrideDefault" /> <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.ReminderPlaySound" />  Eigenschaften auf <b>True</b>festgelegt sind. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2395,7 +2395,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <b>DateTime</b> zurück, der die Uhrzeit der Antwort für den Termin angibt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>DateTime</b> zurück, der die Antwortzeit für den Termin angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2426,9 +2426,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine durch Semikolons getrennten <b>Zeichenfolge</b> (<b>String</b> in c#) der erforderlichen Teilnehmer für den Besprechungstermin zurück. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt eine durch Semikolons getrennte <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) der erforderlichen Teilnehmernamen für den Besprechungstermin zurück. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen der erforderlichen Teilnehmer. Die Teilnehmerliste festgelegt werden sollte, mithilfe der <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung. </para>
+        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen der erforderlichen Teilnehmer. Die Teilnehmerliste sollte mithilfe der Sammlung festgelegt <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" />  werden. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2458,9 +2458,9 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt eine durch Semikolons getrennte <b>Zeichenfolge</b> (<b>String</b> in c#) der Ressourcennamen für die Besprechung. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt eine durch Semikolons getrennte <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#) von Ressourcennamen für die Besprechung zurück. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> -Auflistung sollte zum Ändern der Ressourcenempfänger verwendet werden. Ressourcen werden hinzugefügt, als <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BCC" /> Empfänger der Auflistung. </para>
+        <remarks><para>Diese Eigenschaft enthält nur die Anzeigenamen. Die <see cref="T:Microsoft.Office.Interop.Outlook.Recipients" /> Auflistung sollte zum Ändern der Ressourcenempfänger verwendet werden. Ressourcen werden der Auflistung als <see cref="P:Microsoft.Office.Interop.Outlook._MailItem.BCC" /> Empfänger hinzugefügt. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2492,13 +2492,13 @@
         <param name="fNoUI"><b>True</b>, wenn ein Dialogfeld nicht angezeigt; die Antwort wird automatisch gesendet. <b>False</b>, wenn das Dialogfeld für die Reaktion anzuzeigen. </param>
         <param name="fAdditionalTextDialog"><b>False</b>, wenn keine Aufforderung den Benutzer zur Eingabe; die Antwort wird zur Bearbeitung im Inspektor angezeigt. <b>True</b>, wenn fordert den Benutzer auf Senden oder mit Kommentaren senden. Dieses Argument ist nur gültig, wenn <b>fNoUI</b> auf <b>false festgelegt</b> ist. </param>
         <summary>Antwortet auf eine Besprechungsanfrage.</summary>
-        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> -Objekt, das die Antwort auf die Besprechungsanfrage darstellt.</returns>
-        <remarks><para>Wenn Sie die <b>Antworten</b> -Methode, mit dem Parameter <b>OlMeetingAccepted</b> oder <b>OlMeetingTentative</b> aufrufen, wird Outlook ein neues Terminelement erstellt, das die ursprünglichen Terminelements. Das neue Element wird eine andere Eintrags-ID verfügen. Outlook wird dann das Originalelement entfernt. Sie sollten die Eintrags-ID des ursprünglichen Elements nicht mehr verwenden, aber rufen Sie stattdessen die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" /> Eigenschaft, um die Eintrags-ID für das neue Element für alle nachfolgenden Anforderungen abzurufen. Dadurch wird sichergestellt, dass diese Terminelement ordnungsgemäß in Ihrem Kalender synchronisiert werden soll, wenn mehrere Clientcomputer greift auf den Kalender, aber möglicherweise offline mit dem Cachemodus gelegentlich.</para>
-          <para>In der folgenden Tabelle wird das Verhalten der <b>reagieren</b> -Methode abhängig von der übergeordnete Objekt beschrieben und die <paramref name="fNoUI" /> und <paramref name="fAdditionalTextDialog" /> Parameter.</para>
+        <returns>Ein <see cref="T:Microsoft.Office.Interop.Outlook.MeetingItem" /> Objekt, das die Antwort auf die Besprechungsanfrage darstellt.</returns>
+        <remarks><para>Wenn Sie die <b>Antworten</b> -Methode, mit dem Parameter <b>OlMeetingAccepted</b> oder <b>OlMeetingTentative</b> aufrufen, wird Outlook ein neues Terminelement erstellt, das die ursprünglichen Terminelements. Das neue Element wird eine andere Eintrags-ID verfügen. Outlook wird dann das Originalelement entfernt. Sie sollten nicht mehr die Eintrags-ID des ursprünglichen Elements verwenden, sondern stattdessen die Eigenschaft aufrufen, <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.EntryID" /> um die Eintrags-ID für das neue Element für alle nachfolgenden Anforderungen abzurufen. Dadurch wird sichergestellt, dass diese Terminelement ordnungsgemäß in Ihrem Kalender synchronisiert werden soll, wenn mehrere Clientcomputer greift auf den Kalender, aber möglicherweise offline mit dem Cachemodus gelegentlich.</para>
+          <para>In der folgenden Tabelle wird das Verhalten der <b>Respond-Methode</b> in Abhängigkeit vom übergeordneten Objekt und den <paramref name="fNoUI" /> <paramref name="fAdditionalTextDialog" /> Parametern beschrieben.</para>
           <list type="table">
             <item>
               <description>True, True</description>
-              <description> Antwortelement wird ohne Benutzeroberfläche zurückgegeben. Um die Antwort zu senden, müssen Sie die Methode Send aufrufen. </description>
+              <description> Antwortelement wird ohne Benutzeroberfläche zurückgegeben. Um die Antwort zu senden, müssen Sie die Methode Send aufrufen.  </description>
             </item>
             <item>
               <description>True, False</description>
@@ -2506,7 +2506,7 @@
             </item>
             <item>
               <description>False, True</description>
-              <description> Eingabeaufforderung an den Benutzer, die Antwort zu Senden oder vor dem Senden zu Bearbeiten.</description>
+              <description> Eingabeaufforderung an den Benutzer, die Antwort zu Senden oder vor dem Senden zu Bearbeiten.</description>
             </item>
             <item>
               <description>False, False</description>
@@ -2542,7 +2542,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen Wert <b>vom Typ Boolean</b> (<b>Bool</b> in c#), der <b>True</b> angibt, wenn der Absender eine Antwort auf die Besprechungsanfrage für den Termin erhalten möchte. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt einen <b>Booleschen</b> Wert (<b>Bool</b> in C#), der <b>True</b> angibt, wenn der Absender eine Antwort auf die Besprechungsanfrage für den Termin wünschen. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2570,7 +2570,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlResponseStatus</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt ein <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> Konstante, die den Gesamtstatus der Besprechung für den aktuellen Benutzer für den Termin angibt. Schreibgeschützt.</summary>
+        <summary>Gibt eine <see cref="T:Microsoft.Office.Interop.Outlook.OlResponseStatus" /> Konstante zurück, die den Gesamtstatus der Besprechung für den aktuellen Benutzer für den Termin angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2601,9 +2601,9 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer Byte-Array, das den Text des Microsoft Outlook-Element im RTF-Format darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Dient zum Zurückgeben oder Festlegen eines Bytearrays, das den Textkörper des Microsoft Outlook-Elements im Rich-Text-Format darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Die Methode System.Text.Encoding.AsciiEncoding.GetString() in c# oder Visual Basic können Sie um ein Array von Bytes in eine Zeichenfolge zu konvertieren.</para>
+        <remarks><para>Sie können die System.Text.Encoding.AsciiEncoding.GetString()-Methode in C# oder Visual Basic verwenden, um ein Bytearray in eine Zeichenfolge zu konvertieren.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2656,9 +2656,9 @@
       </Parameters>
       <Docs>
         <param name="Path">Der Pfad, in dem das Element gespeichert werden soll.</param>
-        <param name="Type">Der Dateityp, der gespeichert werden soll. Kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>, <b>OlVCard</b>, <b>olICal</b>, oder <b>OlMSGUnicode</b>.</param>
+        <param name="Type">Der Dateityp zu speichern. Dies kann eine der folgenden <b>OlSaveAsType</b> -Konstanten sein: <b>OlHTML</b>, <b>OlMSG</b>, <b>OlRTF</b>, <b>OlTemplate</b>, <b>OlDoc</b>,<b>OlTXT</b>, <b>OlVCal</b>,  <b>OlVCard</b>,  <b>OlICal</b>oder <b>OlMSGUnicode</b>.</param>
         <summary>Speichert das Microsoft Outlook-Element in dem angegebenen Pfad und in dem Format des angegebenen Dateityps. Wenn kein Dateityp angegeben wurde, wird das MSG-Format (MSG) verwendet.</summary>
-        <remarks><para>Beachten Sie, dass auch, obwohl <b>OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden und die <b>OlDoc</b> -Konstante funktioniert nur, wenn Microsoft Word als Standard-e-Mail-Editor eingerichtet ist.</para>
+        <remarks><para>Beachten Sie außerdem, dass <b>Obwohl OlDoc</b> eine gültige <b>OlSaveAsType</b> -Konstante ist, Nachrichten im HTML-Format nicht im Dokumentformat gespeichert werden können und die <b>OlDoc</b> -Konstante nur funktioniert, wenn Microsoft Word als Standard-E-Mail-Editor eingerichtet ist.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2685,7 +2685,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>Boolean</b> (<b>Bool</b> in c#) Wert, der <b>True</b> ist, wenn das Outlook-Element nicht seit dem letzten Speichern geändert wurde. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>booleschen</b> (<b>Bool</b> in C#) Wert, der <b>True</b> ist, wenn das Outlook Element seit dem letzten Speichern nicht geändert wurde. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2712,7 +2712,7 @@
       <Parameters />
       <Docs>
         <summary>Der Termin wird gesendet.</summary>
-        <remarks><para>Die <b>Send</b> -Methode sendet ein Element mit dem Standardkonto für die Sitzung angegeben. In einer Sitzung, in dem mehrere Microsoft Exchange-Konten im Profil definiert sind, das erste Exchange-Konto dem Profil hinzugefügt wird das primäre Exchange-Konto, und auch das Standardkonto für die Sitzung ist. Um ein anderes Konto zum Senden eines Elements anzugeben, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" /> -Eigenschaft auf die gewünschte <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt und rufen Sie die Methode <b>Send</b> .</para>
+        <remarks><para>Die <b>Send</b> -Methode sendet ein Element mit dem Standardkonto für die Sitzung angegeben. In einer Sitzung, in dem mehrere Microsoft Exchange-Konten im Profil definiert sind, das erste Exchange-Konto dem Profil hinzugefügt wird das primäre Exchange-Konto, und auch das Standardkonto für die Sitzung ist. Um ein anderes Konto zum Senden eines Elements anzugeben, legen Sie die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.SendUsingAccount" /> Eigenschaft auf das gewünschte Objekt <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> fest, und rufen Sie dann die <b>Send-Methode</b> auf.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2742,9 +2742,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.Account</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen eines <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> -Objekt, das Konto, unter dem darstellt, der <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> gesendet werden sollen. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt ein Objekt zurück, das das Konto darstellt, unter dem das Objekt gesendet werden soll, oder legt <see cref="T:Microsoft.Office.Interop.Outlook.Account" /> dieses Objekt <see cref="T:Microsoft.Office.Interop.Outlook.AppointmentItem" /> fest. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para><b>SendUsingAccount</b> -Eigenschaft kann verwendet werden, um das Konto anzugeben, die zum Senden des <b>AppointmentItem-Objekts</b> verwendet werden soll bei der <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> -Methode aufgerufen wird. Diese Eigenschaft gibt <b>Nothing</b> (ein Nullverweis (Nothing in Visual Basic) in c#), wenn das angegebene Konto für das <b>AppointmentItem-Objekts</b> nicht mehr vorhanden ist.</para>
+        <remarks><para>Die <b>SendUsingAccount-Eigenschaft</b> kann verwendet werden, um das Konto anzugeben, das zum Senden des <b>AppointmentItem-Objekts</b> verwendet werden soll, wenn die <see cref="M:Microsoft.Office.Interop.Outlook._TaskItem.Send" /> Methode aufgerufen wird. Diese Eigenschaft gibt <b>Nothing</b> (einen Nullverweis (Nothing in Visual Basic) in C#) zurück, wenn das für das <b>AppointmentItem-Objekt</b> angegebene Konto nicht mehr vorhanden ist.</para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2774,7 +2774,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.OlSensitivity</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück oder legt eine Konstante der <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> Enumeration zurück, der die Vertraulichkeit für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt eine Konstante in der Enumeration zurück, <see cref="T:Microsoft.Office.Interop.Outlook.OlSensitivity" /> die die Vertraulichkeit für das Outlook Element angibt, oder legt diese Konstante fest. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSensitivity</b>.</para>
           <para> </para></remarks>
@@ -2803,9 +2803,9 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" /> -Objekt für die aktuelle Sitzung. Schreibgeschützt.</summary>
+        <summary>Gibt das <see cref="T:Microsoft.Office.Interop.Outlook.NameSpace" />  Objekt für die aktuelle Sitzung zurück. Schreibgeschützt.</summary>
         <value>To be added.</value>
-        <remarks><para>Die <b>Session</b> -Eigenschaft und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> -Methode kann austauschbar verwendet werden, um das <b>NameSpace</b> -Objekt für die aktuelle Sitzung abzurufen. Beide Elemente dienen demselben Zweck. Führen Sie die folgenden Paare von Anweisungen beispielsweise die gleiche Funktion:</para>
+        <remarks><para>Die <b>Session-Eigenschaft</b> und die <see cref="M:Microsoft.Office.Interop.Outlook._Application.GetNamespace(System.String)" /> Methode können synonym verwendet werden, um das <b>NameSpace-Objekt</b> für die aktuelle Sitzung abzurufen. Beide Member haben denselben Zweck. Die folgenden Anweisungspaare führen z. B. dieselbe Funktion aus:</para>
           <code>Dim objNamespace As Outlook.NameSpace = _
     Application.GetNamespace("MAPI")</code>
           <code>Dim objSession As Outlook.NameSpace = Application.Session</code>
@@ -2863,7 +2863,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt einen <b>ganze Zahl</b> (<b>Int</b> in c#)-Wert zurück, der die Größe des Outlook-Elements (in Byte) angibt. Schreibgeschützt.</summary>
+        <summary>Gibt einen <b>Integer</b> -Wert (<b>int</b> in C#) zurück, der die Größe (in Byte) des Outlook Elements angibt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2894,7 +2894,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt zurück, oder legt diesen fest, der angibt, das Datum und die Uhrzeit für das Outlook-Element <b>DateTime</b> . Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>DateTime</b> zurück, der das Startdatum und die Uhrzeit für das Outlook Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -2925,7 +2925,7 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt, oder legt einen <b>DateTime</b> -Wert, der das Startdatum und die Uhrzeit des Termins die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" />. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt diesen fest einen <b>DateTime</b> -Wert, der das Startdatum und die Uhrzeit des Termins in der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Dies ist der Wert, der auf der Termininspektor-Benutzeroberfläche als Beginnt um angezeigt wird.</para>
           <para> </para></remarks>
@@ -2957,13 +2957,13 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.TimeZone</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder Festlegen einer <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> -Wert, der die Zeitzone für die Anfangszeit des Termins entspricht.  Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <see cref="T:Microsoft.Office.Interop.Outlook.TimeZone" /> Wert, der der Zeitzone für die Startzeit des Termins entspricht.  Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Die Zeitzoneninformationen werden verwendet, um den Termin beim Speichern der richtigen UTC-Zeit zuzuordnen und um das Element im Kalender in der richtigen Ortszeit anzuzeigen.</para>
-          <para>Ändern der <b>StartTimeZone-Zeitzone</b> beeinflusst den Wert der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> die wird immer in der Ortszeitzone dargestellt <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" />.</para>
-          <para>Je nach den möglicherweise ändern der <b>StartTimeZone</b> oder kann nicht dazu, dass Outlook neu zu berechnen, und Aktualisieren der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" />. </para>
+          <para>Das Ändern von <b>StartTimeZone</b> wirkt sich auf den Wert aus, dessen Wert <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> immer in der lokalen Zeitzone dargestellt wird. <see cref="P:Microsoft.Office.Interop.Outlook._TimeZones.CurrentTimeZone" /></para>
+          <para>Je nach den Umständen kann das Ändern der <b>StartTimeZone</b> dazu führen, dass Outlook die Neuberechnung und Aktualisierung der <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartInStartTimeZone" /> . </para>
           <para>Als Beispiel, in der Termininspektor Wenn Sie der Organisator eines Termins mit Startzeit-ZEITZONE 1 und Endzeit 15 Uhr PST sind, Ändern des Termins <b>StartTimeZone</b> des EST haben in einem Termin von 13 Uhr EST bis 15 Uhr PST DAUERT, wobei <b>StartInStartTimeZone</b> als 1 Uhr verbleibenden bewirken Wenn Sie nicht der Organisator und dann Ändern der <b>StartTimeZone</b> aus jedoch PST zu EST dazu, dass Outlook neu zu berechnen, und aktualisieren die <b>StartInStartTimeZone</b>, und der Termin dauert von 4 Uhr EST-ZEITZONE 3.</para>
-          <para>Ein weiteres Beispiel ist ein Termin Endzeit, die vor einer zuvor festgelegten tritt auf, wodurch <b>StartTimeZone</b> ändern Startzeit in der Groß-/Kleinschreibung Outlook neu zu berechnen, und Aktualisieren der <b>StartInStartTimeZone</b>. Beispiel eines Termins mit einer Startzeit 13 Uhr 15: 00 Uhr EST und End Uhrzeit EST hat seine <b>StartTimeZone</b> in PST-Dateien geändert. Wenn Outlook nicht <b>StartInStartTimeZone</b>neu berechnet, müssten der Termin eine Startzeit 13 Uhr PST-Datei, die 4 Uhr entspricht EST und dem werden soll, bevor Sie die Endzeit der 15: 00 Uhr EST ZURÜCK. In der Praxis jedoch ergibt Ändern der <b>StartTimeZone</b> Outlook neu berechnen und Aktualisieren von <b>StartInStartTimeZone</b> 15 Uhr (in der <b>StartTimeZone</b> PST).</para>
+          <para>Ein weiteres Beispiel ist das Ändern der <b>StartTimeZone,</b> was zu einer Terminendzeit führt, die vor einer zuvor festgelegten Terminanfangszeit auftritt. In diesem Fall berechnet Outlook die <b>StartInStartTimeZone</b>neu und aktualisiert sie. Beispielsweise ein Termin mit einer Startzeit um 13:00 Uhr. EST und Endzeit um 15:00 Uhr Est hat seine <b>StartTimeZone</b> in PST geändert. Wenn Outlook die <b>StartInStartTimeZone</b>nicht neu berechnet hätte, würde der Termin um 13:00 Uhr beginnen. PST, das 16:00 Uhr entspricht EST, und die vor der Endzeit von 15:00 Uhr auftreten würde. Est. In der Praxis würde das Ändern der <b>StartTimeZone</b> jedoch dazu führen, dass die <b>StartInStartTimeZone</b> Outlook neu berechnet und auf 10 Uhr aktualisiert wird. (in der <b>StartTimeZone-PST).</b></para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -2993,9 +2993,9 @@
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder festlegen einen <b>DateTime</b> -Wert, der das Startdatum und die Uhrzeit des Termins im Standard (koordinierte ausdrückt Time, UTC) darstellt. Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt diesen fest einen <b>DateTime</b> -Wert, der das Startdatum und die Uhrzeit des Termins im UTC-Standard (Coordinated Universal Time) darstellt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
-        <remarks><para>Ändern des Werts für die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> Eigenschaft oder die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> Eigenschaft bewirkt, dass Outlook den Wert von <b>StartUTC</b>neu berechnet. </para>
+        <remarks><para>Das Ändern des Werts für die <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.Start" /> Eigenschaft oder die Eigenschaft führt <see cref="P:Microsoft.Office.Interop.Outlook._AppointmentItem.StartTimeZone" /> dazu, dass Outlook den Wert von <b>StartUTC</b>neu berechnet. </para>
           <para> </para></remarks>
       </Docs>
     </Member>
@@ -3025,7 +3025,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary><b>String</b> (<b>Zeichenfolge</b> in c#) zurückgegeben oder festgelegt, der den Betreff für das Outlook-Element angibt. Lese-/Schreibzugriff.</summary>
+        <summary>Zurückgeben oder Festlegen einer <b>Zeichenfolge</b> (<b>Zeichenfolge</b> in C#), der den Betreff für das Outlook Element angibt. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks><para>Diese Eigenschaft entspricht der MAPI-Eigenschaft <b>PidTagSubject</b>. Die <b>Subject</b> -Eigenschaft ist die Standardeigenschaft für Outlook-Elemente.</para>
           <para> </para></remarks>
@@ -3057,7 +3057,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Zurückgeben oder festlegen ein <b>booleschen</b> (<b>Bool</b> in c#) Werts, das <b>True</b> ist, wenn das Outlook-Element nicht wurde geöffnet (gelesen). Lese-/Schreibzugriff.</summary>
+        <summary>Gibt zurück oder legt einen <b>booleschen</b> (<b>Bool</b> in C#) Wert, der <b>True</b> ist, wenn das Outlook Element nicht geöffnet (gelesen) wurde. Lese-/Schreibzugriff.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -3085,7 +3085,7 @@
         <ReturnType>Microsoft.Office.Interop.Outlook.UserProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> -Auflistung, die alle Benutzereigenschaften für das Outlook-Element darstellt. Schreibgeschützt.</summary>
+        <summary>Gibt die <see cref="T:Microsoft.Office.Interop.Outlook.UserProperties" /> Auflistung zurück, die alle Benutzereigenschaften für das Outlook-Element darstellt. Schreibgeschützt.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
